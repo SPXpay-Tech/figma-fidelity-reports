@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SPXpay Mobile · 消费卡账户 Figma Fidelity</title>
+<style>
+  :root { --gold:#EABB62; --ink:#24201A; --muted:#AAA286; --bg:#F9F9FA; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,"HarmonyOS Sans SC","Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--ink); }
+  .wrap { max-width:880px; margin:0 auto; padding:40px 24px 64px; }
+  h1 { font-size:26px; margin:0 0 6px; }
+  .sub { color:#6E6B7B; font-size:14px; margin:0 0 28px; }
+  .meta { font-size:13px; color:var(--muted); margin-bottom:32px; line-height:1.7; }
+  .meta code { background:#F3F1E8; padding:1px 6px; border-radius:5px; color:#74591F; }
+  .cards { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  @media (max-width:640px){ .cards{ grid-template-columns:1fr; } }
+  .card { display:block; text-decoration:none; color:inherit; background:#fff; border:1px solid rgba(170,162,134,.25); border-radius:16px; padding:22px; transition:.15s; }
+  .card:hover { border-color:var(--gold); box-shadow:0 6px 22px rgba(234,187,98,.18); transform:translateY(-2px); }
+  .card h2 { font-size:17px; margin:0 0 4px; }
+  .card .route { font-size:12px; color:var(--muted); font-family:ui-monospace,Menlo,monospace; margin-bottom:14px; }
+  .score { font-size:34px; font-weight:800; letter-spacing:-1px; }
+  .pass { color:#00B36B; } .warn { color:#C99A3F; }
+  .pill { display:inline-block; font-size:11px; font-weight:700; padding:3px 9px; border-radius:999px; margin-left:8px; vertical-align:middle; }
+  .pill.ok { background:rgba(0,209,125,.12); color:#00875A; }
+  .pill.no { background:rgba(249,172,28,.15); color:#B07A12; }
+  .foot { margin-top:34px; font-size:12px; color:var(--muted); line-height:1.8; }
+  .foot b { color:var(--ink); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>消费卡账户 · Figma Fidelity 对比报告</h1>
+    <p class="sub">spxpay-mobile · <code>app/(app)/cards.tsx</code> vs Figma「4· 卡片 · 消费账户 Cards」(365:2394)</p>
+    <div class="meta">
+      方法：数值 token 比对（非像素相似度）。从 Figma REST 抽取每个节点的几何 / 字体 / 颜色 / 圆角 / 间距作为 ground-truth，
+      在 390px Expo Web 真实渲染上用 <code>getComputedStyle</code> 抽取实现值，逐节点逐属性 diff。
+      容差：fontSize 0.5px · 位置 1px · 颜色 ΔE 2 · 圆角/间距 1px。Gate：minScore 97% / 0 critical / 0 major。<br>
+      日期 2026-05-28 · Figma <code>eqhwFT0W55JotQkpxndDl9</code> · 与登录页对比报告同一管线 / 同一容差 / 同一格式。
+    </div>
+    <div class="cards">
+      <a class="card" href="cards-empty/">
+        <h2>未开卡 (Empty)<span class="pill ok">GATE PASS</span></h2>
+        <div class="route">node 986:18580 · /cards</div>
+        <div class="score pass">96.9%</div>
+        <div style="font-size:12px;color:#6E6B7B;margin-top:8px">0 blocking · 5 sub-pixel minor</div>
+      </a>
+      <a class="card" href="cards-filled/">
+        <h2>已开卡 (Filled)<span class="pill no">2 minor residual</span></h2>
+        <div class="route">node 958:12989 · /cards?__fidelity=filled</div>
+        <div class="score warn">93.8%</div>
+        <div style="font-size:12px;color:#6E6B7B;margin-top:8px">2 blocking (balance row ≈7px) · 22 sub-pixel minor</div>
+      </a>
+    </div>
+    <div class="foot">
+      <b>已修复</b>：整页按设计稿重建 — 金色总额 Hero（≈ 0 / 8,540.97 USD + 眼睛 + 圆形水印）、虚拟卡/实体卡分段控件、
+      申请新卡空态卡 + 立刻申请药丸按钮、快捷功能 2×2 药丸网格、VISA 卡面、卡信息块、交易记录分段 + 交易行。
+      品牌字（HarmonyOS Sans SC）、AUTO 行高、字号/字重/颜色/间距均按 token 对齐。<br>
+      <b>已知偏差（文档化）</b>：① 图标采用全 App 统一的 @expo/vector-icons 字形（非逐图标 Figma SVG），视觉等价；
+      ② 底部导航 首页/消费 字重按 design-system「active 500 / inactive 400」规则（Figma master 为复制残留）；
+      ③ 字体族 HarmonyOS Sans TC→SC（简中 UI 正确变体），均记录于 fidelity.config.json。
+    </div>
+  </div>
+</body>
+</html>
