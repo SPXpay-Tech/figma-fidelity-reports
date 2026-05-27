@@ -1,35 +1,39 @@
-<!doctype html><html lang="zh"><meta charset="utf8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SPX Figma 还原度报告</title>
+<!doctype html><meta charset="utf8"><title>SPX Auth · Figma Fidelity</title>
 <style>
- body{font:15px/1.6 -apple-system,"PingFang SC",Segoe UI,Roboto,sans-serif;margin:0;background:#0f1115;color:#e7e7ea}
- header{padding:36px 28px 22px;background:linear-gradient(135deg,#1C1306,#5D3A0A);color:#fff}
- h1{margin:0 0 6px;font-size:22px} .sub{color:#f3f1e8;opacity:.85;font-size:13px}
- .wrap{max-width:1100px;margin:0 auto;padding:24px 28px}
- .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
- a.card{display:block;text-decoration:none;background:#1a1d24;border:1px solid #2a2e38;border-radius:12px;padding:18px;color:#e7e7ea;transition:.15s}
- a.card:hover{border-color:#EABB62;transform:translateY(-2px)}
- .name{font-size:16px;font-weight:600;margin-bottom:8px} .route{font-family:monospace;font-size:12px;color:#9499a2}
- .score{font-size:34px;font-weight:700;margin:8px 0} .bar{height:6px;border-radius:3px;background:#2a2e38;overflow:hidden;margin-top:8px} .bar>i{display:block;height:100%;background:#EABB62}
- .meta{margin-top:24px;color:#9499a2;font-size:13px;border-top:1px solid #2a2e38;padding-top:16px}
- code{background:#22262e;padding:1px 5px;border-radius:4px;color:#EABB62}
- .ok{color:#7ee787;font-weight:600}
+ body{font:15px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#0d1117;color:#e6edf3}
+ header{padding:28px 32px;border-bottom:1px solid #21262d}
+ h1{margin:0 0 6px;font-size:20px} .sub{color:#8b949e;font-size:13px;max-width:780px}
+ .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;padding:24px 32px;max-width:1100px}
+ .card{display:block;text-decoration:none;color:inherit;background:#161b22;border:1px solid #30363d;border-radius:12px;padding:18px 20px;transition:.15s}
+ .card:hover{border-color:#58a6ff;transform:translateY(-2px)}
+ .badge{display:inline-block;font-size:12px;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:10px}
+ .badge.pass{background:#143;color:#7ee787} .badge.block{background:#3d1416;color:#ff7b72}
+ h2{margin:0;font-size:17px;font-family:monospace} .score{font-size:34px;font-weight:700;color:#8b949e;margin:4px 0}
+ .bd{font-size:13px} .note{padding:0 32px 32px;color:#8b949e;font-size:13px;max-width:900px}
+ code{background:#21262d;padding:1px 6px;border-radius:4px}
 </style>
 <header>
- <h1>SPX Auth · Figma 还原度报告</h1>
- <div class="sub">spxpay-mobile · feat/figma-auth-redesign · figma-fidelity（数值 token diff + 图标 region 像素 diff + 自驱修复闭环）</div>
+ <h1>SPX Auth · Figma Fidelity Reports</h1>
+ <div class="sub">spxpay-mobile <code>feat/figma-auth-redesign</code> vs Figma「SPX 系统设计」Auth。每屏：左 Figma 设计稿 / 右产品截图 + 逐元素 token 失配表 + <b>图标矢量(SVG path-set)校验</b>。<br><b>判定看 GATE，不是 %</b>：minor = web 2x 渲染亚像素噪声(忽略)；blocking = 字体/大位移/缺元素；icon-fail = 图标不是 Figma 矢量(字体图标)或缺笔画。</div>
 </header>
-<div class="wrap">
- <p><span class="ok">所有可见缺陷已清零</span>：字体 / 字重 / 颜色 / 行高 / 间距 / placeholder / <b>按钮文字（白）</b> / <b>图标（密码·邮箱·eye 用 Figma SVG 1:1）</b> / 字段间距 / 底部对齐 全部根因式修复。下方分数受"严格 1.5px 容差"压制——剩余项均为 <b>Δ3–6px 渲染地板（肉眼不可见）</b> 或 <b>顶栏安全区（web 无状态栏，真机正确）</b>，已排除设备 chrome（9:41 / 验证码图）。</p>
- <div class="cards">
-  <a class="card" href="login.html"><div class="name">密码登录</div><div class="route">/login · figma 432:5375</div><div class="score" style="color:#7ee787">92.6%</div><div class="route">可见缺陷 0 · 余 Δ3-5px 地板</div><div class="bar"><i style="width:93%"></i></div></a>
-  <a class="card" href="forgot-password.html"><div class="name">忘记密码</div><div class="route">/forgot-password · figma 451:3122</div><div class="score" style="color:#7ee787">94.2%</div><div class="route">可见缺陷 0 · 余 Δ3-5px 地板</div><div class="bar"><i style="width:94%"></i></div></a>
-  <a class="card" href="register.html"><div class="name">创建账户</div><div class="route">/register · figma 470:2</div><div class="score" style="color:#ffd43b">90.3%</div><div class="route">可见缺陷 0 · 余 Δ3-6px 地板（长表单累积已塌缩）</div><div class="bar"><i style="width:90%"></i></div></a>
- </div>
- <div class="meta">
-  每页报告 = <b>Figma 设计稿 vs 产品截图</b> + 逐元素失配表（figma值 / 产品值 / Δ / 修正建议）。<br>
-  关于 100%：web 2x 渲染本身有 1-2px 取整噪声 + Figma 文本 ink-box 与浏览器 box 语义差，使严格逐像素 100% 物理不可达；但<b>真实可见缺陷 = 0</b>，按"感知一致"容差（≤6px）三屏均 ≈99%+。<br>
-  生成工具：<code>~/.claude/skills/figma-fidelity</code>（report.mjs + region-diff.mjs + publish-ghpages.mjs）
- </div>
+<div class="grid">
+    <a class="card" href="login.html">
+      <div class="badge block">GATE ❌ BLOCKED</div>
+      <h2>/login</h2>
+      <div class="score">90.4%</div>
+      <div class="bd"><b style="color:#e03131">6 blocking</b> · <b style="color:#f08c00">0 icon-fail</b> · <span style="color:#aaa">7 minor noise</span></div>
+    </a>
+    <a class="card" href="forgot-password.html">
+      <div class="badge block">GATE ❌ BLOCKED</div>
+      <h2>/forgot-password</h2>
+      <div class="score">86%</div>
+      <div class="bd"><b style="color:#e03131">4 blocking</b> · <b style="color:#f08c00">1 icon-fail</b> · <span style="color:#aaa">13 minor noise</span></div>
+    </a>
+    <a class="card" href="register.html">
+      <div class="badge block">GATE ❌ BLOCKED</div>
+      <h2>/register</h2>
+      <div class="score">86.1%</div>
+      <div class="bd"><b style="color:#e03131">11 blocking</b> · <b style="color:#f08c00">5 icon-fail</b> · <span style="color:#aaa">18 minor noise</span></div>
+    </a>
 </div>
-</html>
+<div class="note">Generated 2026-05-27 16:28 UTC · figma-fidelity skill · 截图为当前 expo web @390 渲染。</div>
