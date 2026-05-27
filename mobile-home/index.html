@@ -1,136 +1,111 @@
 <!doctype html><html lang="zh-CN"><meta charset="utf8">
-<title>Figma Fidelity Report — 📱 Home · 首页</title>
+<title>Figma Fidelity — 首页 + 账户</title>
 <style>
  body{font:14px/1.55 -apple-system,"HarmonyOS Sans SC",Segoe UI,Roboto,sans-serif;margin:0;background:#fafafa;color:#222}
  header{padding:22px 28px;background:#111;color:#fff}
  h1{margin:0 0 8px;font-size:18px}
- .gate{font-size:30px;font-weight:700;color:#7ee787;display:inline-block;margin-right:18px}
- .score{font-size:24px;color:#aaa}
- .meta{color:#aaa;font-size:12px;margin-top:8px}
- .meta b{color:#ffd43b}
+ .gate{font-size:26px;font-weight:700;display:inline-block;margin-right:16px}
+ .fail{color:#ffb454}.pass{color:#7ee787}
+ .meta{color:#aaa;font-size:12px;margin-top:8px}.meta b{color:#ffd43b}
  .wrap{padding:22px 28px;max-width:1180px;margin:auto}
  .note{background:#fff8ea;border:1px solid rgba(234,187,98,.5);border-radius:8px;padding:13px 16px;font-size:13px;margin:14px 0}
- h2{margin:34px 0 8px;border-bottom:2px solid #eee;padding-bottom:6px;font-size:16px}
- .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;align-items:start;margin:14px 0}
+ .note.red{background:#fff5f5;border-color:#f3b0b0}
+ h2{margin:32px 0 8px;border-bottom:2px solid #eee;padding-bottom:6px;font-size:16px}
+ .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;align-items:start;margin:14px 0}
  figure{margin:0;background:#fff;border:1px solid #eee;border-radius:8px;padding:12px;text-align:center}
  figure img{max-width:100%;border-radius:6px}
- figure.shot img{width:300px;box-shadow:0 6px 22px rgba(0,0,0,.12)}
+ figure.shot img{width:270px;box-shadow:0 6px 22px rgba(0,0,0,.12)}
  figcaption{font-size:12px;color:#666;margin-top:8px}
  table{border-collapse:collapse;width:100%;background:#fff;font-size:13px;margin:8px 0}
  th,td{border:1px solid #eee;padding:7px 10px;text-align:left;vertical-align:top}
  th{background:#f5f5f5}
- .ok{color:#0a8a4f;font-weight:600}.fix{color:#0a6cce;font-weight:600}.warn{color:#c98a1a;font-weight:600}
+ .ok{color:#0a8a4f;font-weight:600}.fix{color:#0a6cce;font-weight:600}.warn{color:#c98a1a;font-weight:600}.bad{color:#c92a2a;font-weight:600}
  code{background:#f0f0f0;padding:1px 5px;border-radius:3px;font-size:12px}
  .pill{display:inline-block;padding:2px 9px;border-radius:10px;font-size:12px;margin:2px 6px 2px 0;background:#222;color:#fff}
- .pill.g{background:#0a8a4f}.pill.b{background:#0a6cce}
+ .pill.g{background:#0a8a4f}.pill.b{background:#0a6cce}.pill.w{background:#c98a1a}
 </style>
 <header>
- <h1>Figma Fidelity Report — 📱 Home · 首页 (gold rebrand)</h1>
- <div><span class="gate">GATE ✅ PASS</span><span class="score">component-canon 100% match</span></div>
+ <h1>Figma Fidelity Report — 📱 首页 Home + 账户 Accounts</h1>
+ <div><span class="gate fail">GATE: 进行中（受限）</span></div>
  <div class="meta">
-   Figma <b>eqhwFT0W55JotQkpxndDl9</b> · home section <code>365:2388</code> · ground truth = live Figma 节点抽取 (REST, FIGMA_TOKEN)
-   · 本轮 <b>1 revert + 2 fixes</b> · jest <b>50/50</b> · tsc <b>0 err</b> · 2026-05-28
+   Figma <b>eqhwFT0W55JotQkpxndDl9</b> · 真值 = 装配成屏 frame <code>619:8194</code>(首页) / <code>704:5893</code>(账户)，由开发在源码里引用
+   · jest <b>50/50</b> · tsc <b>0</b> · 2026-05-28
    <div style="margin-top:8px">
-     <span class="pill g">Quick actions 5/5 ✓</span>
-     <span class="pill g">Tokens match</span>
-     <span class="pill b">withdraw label reverted</span>
-     <span class="pill b">section title fixed</span>
-     <span class="pill b">nav weight fixed</span>
+     <span class="pill g">文案/字号/字重 对齐真值</span>
+     <span class="pill b">withdraw 撤销回 转账</span>
+     <span class="pill b">nav 字重 500/400</span>
+     <span class="pill w">font-family 待清渲染核</span>
+     <span class="pill w">真·数值 gate 需带数据渲染</span>
    </div>
  </div>
 </header>
 <div class="wrap">
 
+ <div class="note red">
+  <b>关键认知校正（本轮最重要）</b>：之前两轮我把真值搞错了两次——先信 <code>design-system.md</code> 把 withdraw 改成「出金」，又信组件库 variant 把 section 标题改成「快捷功能」。
+  拿到 token 后抽<b>真正的装配成屏 frame</b>（<code>619:8194 📱04 Home·首页 完整</code>、<code>704:5893 📱Account.SPX 资金账户</code>，开发在 <code>HeroCard.tsx</code>/<code>accounts.tsx</code> 里引用的就是它们）才发现：真值是 <b>快捷操作</b>（非快捷功能）、<b>转账</b>（非出金）、<b>账户余额</b>。
+  → 这两个误改<b>均已撤销</b>，实现本来就对。<b>教训</b>：figma-fidelity 只认装配成屏 frame，不认 design-system.md 文案、不认组件库 variant 名。
+ </div>
+
+ <h2>本轮净改动（撤销 2 个误改 + 保留 2 个正确项）</h2>
+ <table>
+   <tr><th>项</th><th>状态</th><th>真值依据 (frame 619:8194 抽取)</th></tr>
+   <tr><td><code>actions.withdraw</code> = 转账</td><td class="ok">✓ 撤销「出金」回真值</td><td>frame y=6523「转账」12/500（icon ↑）</td></tr>
+   <tr><td><code>home.quickOps</code> = 快捷操作</td><td class="ok">✓ 撤销「快捷功能」回真值</td><td>frame y=6433「快捷操作」14/700</td></tr>
+   <tr><td>tab label active 500 / inactive 400</td><td class="fix">✓ 保留（本轮新增，正确）</td><td>Bottom Nav <code>551:4506</code> active 500 / inactive 400</td></tr>
+   <tr><td>account 区标题 = 账户余额</td><td class="ok">✓ 实现原本就对（未动）</td><td>frame y=6549「账户余额」14/700</td></tr>
+ </table>
+
+ <h2>① 首页 Home — 装配 frame <code>619:8194</code> vs 实现</h2>
+ <div class="cols">
+   <figure><img src="figma/home-gold.png" alt="figma home gold frame"><figcaption>Figma 真值 <code>619:8194</code>（金色装配成屏）</figcaption></figure>
+   <figure class="shot"><img src="impl.png" alt="impl home"><figcaption>实现 · Expo web @390px zh-CN（余额 0.00 = 跨站 cookie 取不到数据）</figcaption></figure>
+ </div>
+ <table>
+   <tr><th>元素</th><th>真值 (frame 抽取)</th><th>实现</th><th></th></tr>
+   <tr><td>总资产标题/金额/币种</td><td>总资产余额 14/500 · ≈金额 24/700 · USD 16/500</td><td>同</td><td class="ok">✓</td></tr>
+   <tr><td>快捷操作 标题</td><td>快捷操作 14/700</td><td>快捷操作</td><td class="ok">✓</td></tr>
+   <tr><td>5 快捷操作</td><td>存款/转账/划转/换汇/收款管理 12/500（↓↑⇄⟳▤）</td><td>5 个文案+icon 全同</td><td class="ok">✓</td></tr>
+   <tr><td>账户余额 标题</td><td>账户余额 14/700</td><td>账户余额</td><td class="ok">✓</td></tr>
+   <tr><td>账户行 ×3</td><td>SPX 资金账户/SGB银行账户/消费账户 · 总余额 12/500 · 查看全部 12/400 · 金额 16/500 · USD 12/500</td><td>同（SGB 实现多一空格）</td><td class="ok">✓</td></tr>
+   <tr><td>实时汇率</td><td>实时汇率 14/700 · 搜索币种 14/500 · 币对/买入/卖出 12/500</td><td>同表头</td><td class="ok">✓</td></tr>
+   <tr><td>底部导航</td><td>首页/账户/消费/我的 · active 金 500 / inactive 400</td><td>同（本轮修字重）</td><td class="ok">✓</td></tr>
+ </table>
+
+ <h2>② 账户 Accounts — 装配 frame <code>704:5893</code> vs 实现</h2>
+ <div class="cols">
+   <figure><img src="figma/acct-gold.png" alt="figma accounts gold frame"><figcaption>Figma 真值 <code>704:5893</code> SPX 资金账户</figcaption></figure>
+   <figure class="shot"><img src="acct-impl.png" alt="impl accounts"><figcaption>实现 /accounts（0 账户 = 跨站无数据，骨架屏）</figcaption></figure>
+ </div>
+ <table>
+   <tr><th>元素</th><th>真值</th><th>实现</th><th></th></tr>
+   <tr><td>页头 + 语言开关</td><td>账户 · 中 500/EN 600</td><td>同</td><td class="ok">✓</td></tr>
+   <tr><td>分段 Segmented</td><td>SPX 资金账户 / SGB 银行账户（金色 active）</td><td>SPX 资金 / SGB 银行 / 消费（金色）</td><td class="ok">✓ 结构一致</td></tr>
+   <tr><td>总资产 hero</td><td>金色渐变 + eye</td><td>同</td><td class="ok">✓</td></tr>
+   <tr><td>操作 quick-actions</td><td>SPX 账户真值只展示该账户支持的功能（划转/兑换…按 account_features）</td><td>固定 5 个（存款/划转/转账/兑换/收款管理）</td><td class="warn">⚠ 实现非账户功能感知，真值是按 feature 动态</td></tr>
+   <tr><td>所有账户列表卡</td><td>flag 图标 + 账户名 + 余额 + 币种 + 状态徽章</td><td>AccountCard（结构一致）</td><td class="ok">✓ 结构</td></tr>
+   <tr><td>实时汇率 / 交易记录</td><td>完整汇率表 + 交易记录(法币/虚拟币 + 子tab)</td><td>同结构（本地无数据未填充）</td><td class="ok">✓ 结构</td></tr>
+ </table>
+
+ <h2>③ 真·数值 gate 跑了，但被渲染环境噪声压住（诚实结论）</h2>
+ <p>用真 frame <code>619:8194</code> 跑了 <code>diff.mjs</code>：<b>fidelityScore 47 / GATE FAIL（135 blocking）</b>。但逐条看，<b>blocking 几乎全是渲染环境噪声，不是设计缺陷</b>：</p>
+ <table>
+   <tr><th>blocking 来源</th><th>占比</th><th>是不是真缺陷</th></tr>
+   <tr><td><b>数据 MISSING</b>：真值 frame 是填充态（8,540.97、8 行汇率、整列交易），本地渲染是空态（0.00/骨架/loading）——跨站 cookie 取不到余额</td><td>大头(73 critical 多为此)</td><td class="bad">否 — 数据/状态差，非设计</td></tr>
+   <tr><td><b>font-family</b>：49/51 文本节点 computed 落到系统字体栈，非品牌 Plus Jakarta（只有 2 个显式 -Medium/-SemiBold 命中）</td><td>~30 major</td><td class="warn">待定 — 可能是无头渲染未加载 web 字体的假阳，也可能是真有组件没套品牌字体；需清渲染核实</td></tr>
+   <tr><td><b>相对位置 box.x/y</b>：header 区因状态栏 inset 锚点偏移；快捷操作 x 间距 figma 20/91.5/163… vs 实现 30/106/181…</td><td>~20 major</td><td class="warn">部分真(快捷操作起始 x/间距)、部分锚点噪声</td></tr>
+   <tr><td>SGB银行账户 文案（真值无空格 vs 实现「SGB 银行账户」有空格）→ 文本不匹配判 MISSING</td><td>少量</td><td class="ok">否 — 空格更易读，cosmetic</td></tr>
+ </table>
  <div class="note">
-  <b>方法说明（与 login 报告的差异点）</b>：login 在 Figma 里是<b>独立成屏的 frame</b>（如 <code>62:4 📱Login·登录</code>），可直接做整屏 pixel/region diff。
-  首页 gold 改版在 Figma 里是<b>组件化交付</b>——<code>365:2388</code> 是组件库 section（Quick Action / Total Asset Card / Account Balance Card / Section Header / Bottom Nav / Exchange Rate 等 component set），<b>没有单一成屏 frame</b>（文件里那两个 <code>📱Dashboard·首页</code> 是旧探索：一个紫色旧版、一个金色 hero 但紫色导航，均非当前真值）。
-  所以本报告按 <b>组件级真值</b>对比：每个组件用 Figma REST 抽取的真实 token/文案做 ground truth，逐项 diff 实现的 computed 值。这是真·数值对比，不是肉眼。
+  <b>为什么还没真 gate pass</b>：figma-fidelity 的 gate 需要把<b>填充了数据的实现渲染</b>去比对<b>填充了数据的设计 frame</b>。本地 Expo web 是<b>跨站</b>到 staging-api，HttpOnly cookie 不持久 → 余额/汇率/交易全是空态 → 跟设计 frame 的填充态对不上，分数被「数据 MISSING」拉垮，而非真有设计错。
+  <b>要拿到真分数，必须换带数据的同源渲染</b>：① 部署到 <code>staging-m.spxpay.com</code>（同源 cookie 生效、余额能加载）再跑 diff；或 ② 在 harness 里 mock API 填充数据。届时 font-family / 快捷操作间距这些才能判定真假并修到 PASS。
  </div>
 
- <div class="cols">
-   <figure class="shot"><img src="impl.png" alt="impl home render"><figcaption>实现 · Expo web @390px · zh-CN · 已登录（余额 0.00 = 本地跨站 cookie 限制，非 UI 缺陷）</figcaption></figure>
-   <div>
-     <h2 style="margin-top:0">本轮改动（3）</h2>
-     <table>
-       <tr><th>#</th><th>文件</th><th>改动</th><th>Figma 依据</th></tr>
-       <tr><td class="fix">R</td><td><code>i18n/zh_CN.ts</code></td><td><code>actions.withdraw</code> <b>出金 → 转账</b>（撤销上一轮）</td><td>Quick Action <code>582:4465</code> Type=Withdraw 真值就是「转账」；金色 Dashboard 也是「转账」。上一轮误信 design-system.md 改成「出金」，是<b>对真值的回归</b>，本轮撤销。</td></tr>
-       <tr><td class="fix">1</td><td><code>i18n/zh_CN.ts</code></td><td><code>home.quickOps</code> <b>快捷操作 → 快捷功能</b></td><td>Section Header <code>256:844</code> Action=快捷功能 = 「快捷功能」；金色 Dashboard 同。实现沿用旧紫版「快捷操作」。</td></tr>
-       <tr><td class="fix">2</td><td><code>app/(app)/_layout.tsx</code></td><td>tab label 字重 <b>active 500 / inactive 400</b>（原全 500）</td><td>Bottom Nav <code>551:4506</code>：active 首页 12/500，其余 12/400。改为按 focused 动态字重。</td></tr>
-     </table>
-   </div>
- </div>
-
- <h2>① Quick Action 快捷功能 — <code>582:4489</code></h2>
- <div class="cols">
-   <figure><img src="figma/quick-actions.png" alt="figma quick actions"><figcaption>Figma 真值（component set）</figcaption></figure>
-   <table>
-     <tr><th>Figma 组件</th><th>真值 (12/500)</th><th>icon</th><th>实现</th><th></th></tr>
-     <tr><td>Type=Deposit</td><td>存款</td><td>↓ arrow-down</td><td>存款 / arrow-down</td><td class="ok">✓</td></tr>
-     <tr><td>Type=Withdraw</td><td>转账</td><td>↑ arrow-up</td><td>转账 / arrow-up</td><td class="ok">✓ 已撤销回真值</td></tr>
-     <tr><td>Type=Transfer</td><td>划转</td><td>⇄ swap</td><td>划转 / swap</td><td class="ok">✓</td></tr>
-     <tr><td>Type=Exchange</td><td>换汇</td><td>⟳ refresh</td><td>换汇 / refresh</td><td class="ok">✓</td></tr>
-     <tr><td>Type=Manage</td><td>收款管理</td><td>▤ clipboard</td><td>收款管理 / clipboard</td><td class="ok">✓</td></tr>
-   </table>
- </div>
- <div class="note">文案 + icon <b>5/5 全中</b>。<b>遗留（非文案，待产品定路由）</b>：实现里「收款管理」点击 → <code>/transfer</code>，与「划转」同页；Figma 把 Transfer 与 Manage 设为<b>两个独立组件</b>，理应去不同目的地。label 是对的，<b>路由重复</b>需产品确认 Manage 入口意图（汇款 Pay Out？收款方管理？）。改路由属行为变更，未臆改。</div>
-
- <h2>② Total Asset Card 总资产卡片 — <code>560:4544</code></h2>
- <div class="cols">
-   <figure><img src="figma/total-asset.png" alt="figma total asset card"><figcaption>Figma 真值 State=Default（黑→琥珀渐变）</figcaption></figure>
-   <table>
-     <tr><th>元素</th><th>Figma 真值</th><th>实现</th><th></th></tr>
-     <tr><td>标题</td><td>总资产余额 14/500</td><td>总资产余额 14/500 #f3f1e8</td><td class="ok">✓</td></tr>
-     <tr><td>金额</td><td>≈ 8,540.97 · 24/700</td><td>display 24/700 #fff</td><td class="ok">✓</td></tr>
-     <tr><td>币种</td><td>USD 16/500</td><td>USD 16/500</td><td class="ok">✓</td></tr>
-     <tr><td>遮罩态 State2</td><td>****** (eye 关)</td><td>eye toggle → •••••• (行为验证 PASS)</td><td class="ok">✓</td></tr>
-     <tr><td>卡形</td><td>350×118 r20</td><td>r20 minH118 padX24</td><td class="ok">✓</td></tr>
-   </table>
- </div>
-
- <h2>③ Account Balance Card 账户余额卡片 — <code>623:4558</code></h2>
- <div class="cols">
-   <figure><img src="figma/acct-spx.png" alt="figma account card"><figcaption>Figma 真值 Type=SPX账户（350×87 r12）</figcaption></figure>
-   <table>
-     <tr><th>元素</th><th>Figma 真值</th><th>实现</th><th></th></tr>
-     <tr><td>账户名</td><td>SPX 资金账户 / SGB银行账户 / 消费账户 · 12/500</td><td>SPX 资金账户 / SGB 银行账户 / 消费账户</td><td class="ok">✓ (SGB 实现多一空格，更易读)</td></tr>
-     <tr><td>查看全部</td><td>12/400</td><td>查看全部 12/400 #aaa286</td><td class="ok">✓</td></tr>
-     <tr><td>总余额标签</td><td>总余额 12/500</td><td>总余额 12/500</td><td class="ok">✓</td></tr>
-     <tr><td>金额 / 币种</td><td>16/500 · USD 12/500</td><td>16/500 · USD 12/500</td><td class="ok">✓</td></tr>
-     <tr><td>卡形</td><td>350×87 r12, chip 24/r6 brand@10%</td><td>minH87 r12 chip24</td><td class="ok">✓</td></tr>
-   </table>
- </div>
-
- <h2>④ Section Header 区块标题 — <code>256:855</code></h2>
- <table>
-   <tr><th>Figma 真值 (14/700 + 2px 金条)</th><th>实现</th><th></th></tr>
-   <tr><td>快捷功能</td><td>快捷功能（本轮 快捷操作→ 修正）</td><td class="fix">✓ fixed</td></tr>
-   <tr><td>实时汇率</td><td>实时汇率</td><td class="ok">✓</td></tr>
-   <tr><td>账户区：组件 variant = 账户信息</td><td>账户余额</td><td class="warn">⚠ 无定论</td></tr>
- </table>
- <div class="note">账户区标题：组件库 variant 写「账户信息」，金色 Dashboard 写「我的账户」，旧紫版写「账户余额」——<b>三个 Figma 来源互不一致</b>，且「账户余额」最贴合该区（余额汇总）内容。无单一真值可依，<b>本轮未改</b>，留待产品/节点定稿。</div>
-
- <h2>⑤ Bottom Nav 底部导航 — <code>551:4506</code></h2>
- <div class="cols">
-   <figure><img src="figma/bottom-nav.png" alt="figma bottom nav"><figcaption>Figma 真值 Active=首页（4 tab, 65px）</figcaption></figure>
-   <table>
-     <tr><th>元素</th><th>Figma 真值</th><th>实现</th><th></th></tr>
-     <tr><td>tabs</td><td>首页 / 账户 / 消费 / 我的</td><td>同</td><td class="ok">✓</td></tr>
-     <tr><td>active 字重</td><td>12/500</td><td>focused 500</td><td class="fix">✓ fixed</td></tr>
-     <tr><td>inactive 字重</td><td>12/400</td><td>unfocused 400</td><td class="fix">✓ fixed</td></tr>
-     <tr><td>active 色</td><td>金 #EABB62</td><td>BRAND #EABB62</td><td class="ok">✓</td></tr>
-     <tr><td>分隔线 / 高度</td><td>#F3F1E8 · 65px</td><td>#F3F1E8 · 84px (含 home-indicator 安全区)</td><td class="warn">⚠ 真机核</td></tr>
-   </table>
- </div>
-
- <h2>⑥ App Header 页头 + ⑦ Exchange Rate 汇率</h2>
- <table>
-   <tr><th>组件</th><th>Figma 真值</th><th>实现</th><th></th></tr>
-   <tr><td>语言开关 <code>514:5561</code></td><td>中 12/500 #FFF（active）· EN 12/600 #AAA286</td><td>active 中 500/#FFF · inactive EN 600/#AAA286（代码注释已引 Figma 值）</td><td class="ok">✓</td></tr>
-   <tr><td>Exchange Rate <code>618:4547</code></td><td>实时汇率 white card · 币对/买入/卖出 12/500 · 搜索币种 14/500</td><td>LiveRates 白卡 · 同表头 · header 缩进 by-design</td><td class="ok">✓</td></tr>
- </table>
-
- <h2>结论</h2>
- <p>拿到 Figma token 后做了<b>真·节点抽取对比</b>：首页 gold 改版的实现与 Figma 组件库真值<b>逐项命中</b>（quick actions 文案+icon 5/5、总资产卡、账户卡、汇率卡、语言开关、tab 结构/字重/色全部 ✓）。本轮纠了 1 处<b>上轮的回归</b>（withdraw 真值是「转账」不是「出金」）、对齐了 2 处（section 标题、nav 字重）。</p>
- <p><b>仅剩 3 个非阻断项</b>，均非「实现做错」而是「需产品/真机定稿」：① 收款管理→/transfer 路由重复（label 对，路由待定）；② 账户区标题 账户余额 vs 三个 Figma 来源不一致；③ tab bar 84 vs 65（web 无安全区）。回归全绿（jest 50/50、tsc 0），已 push main。</p>
+ <h2>仍需产品/真机定（非实现做错）</h2>
+ <ol>
+   <li><b>账户「操作」是否应账户功能感知</b>：真值 frame 按 account_features 只显示该账户支持的操作（SPX 显示划转/兑换…）；实现是固定 5 个。需产品确认要不要改成动态。</li>
+   <li><b>「收款管理」路由</b>：首页/账户里它都去 <code>/transfer</code>，与「划转」撞车。label 与真值一致，路由待产品定 Manage 入口意图。</li>
+   <li><b>tab bar 高 84 vs 真值 65</b>：web 无安全区，真机才准。</li>
+ </ol>
 </div>
 </html>
