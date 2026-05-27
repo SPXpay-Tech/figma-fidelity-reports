@@ -10,18 +10,24 @@
  .card.pending{opacity:.7;border-style:dashed;cursor:default} .card.pending:hover{transform:none;border-color:#2c2838}
  .name{font-weight:600;font-size:16px;margin:0 0 10px}
  .score{font-size:30px;font-weight:700;letter-spacing:-.5px}
+ .score.sm{font-size:21px}
  .pass{color:#34d399} .pend{color:#f0a83a;font-size:15px;font-weight:600}
- .meta{color:#8b melt;color:#8b83a0;font-size:12.5px;margin-top:8px}
+ .meta{color:#8b83a0;font-size:12.5px;margin-top:8px}
  .badge{display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;background:#10341f;color:#34d399;margin-top:10px}
+ .badge.gold{background:#3a2c0e;color:#f0c060}
  .foot{margin-top:32px;color:#6f6885;font-size:12.5px;border-top:1px solid #2c2838;padding-top:16px}
+ .foot b{color:#9b93b0}
 </style></head><body><div class="wrap">
 <h1>SPXpay Mobile — Figma Fidelity</h1>
-<p class="sub">数值 token diff（非像素）· 静态 + 行为(Principle 7) · 回归 2026-05-28 02:52 · file eqhwFT0W…Dl9</p>
+<p class="sub">数值 token diff（非像素）· 静态 + 行为(Principle 7) · 更新 2026-05-28 03:10 · file eqhwFT0W…Dl9 · gold 设计体系</p>
 <div class="grid">
  <a class="card" href="login.html"><p class="name">登录 Login</p><div class="score pass">94.9%</div><div class="badge">GATE PASS · UX PASS</div><div class="meta">0 blocking · 7 minor-noise</div></a>
  <a class="card" href="register.html"><p class="name">注册 Register</p><div class="score pass">84.8%</div><div class="badge">GATE PASS · UX PASS</div><div class="meta">0 blocking · 33 minor-noise</div></a>
  <a class="card" href="forgot-password.html"><p class="name">忘记密码 Forgot</p><div class="score pass">86.7%</div><div class="badge">GATE PASS · UX PASS</div><div class="meta">0 blocking · 17 minor-noise</div></a>
- <div class="card pending"><p class="name">账户 / Home【母版】</p><div class="score pend">待 Figma node</div><div class="meta">实现已就绪、expo@8082 在跑；缺该 frame 的 node-id + 只读 token 才能跑数值 diff</div></div>
+ <a class="card" href="mobile-home/"><p class="name">首页 Home【母版】</p><div class="score pass sm">规范审计 ✓</div><div class="badge gold">SPEC PASS · 行为 4/4</div><div class="meta">node 365:2388 · token 100% · geometry ✓ · 1 fix pushed (0728f05) · live 节点终审待 channel</div></a>
 </div>
-<p class="foot">分数 &lt;100 = web 渲染亚像素地板（Δ2-5px 位置噪声）+ 已登记 artifact/deviation；gate 判据是 0 blocking（critical+major），非满分。三屏 typography/color/font/icon/motion 全部命中。</p>
+<p class="foot">分数 &lt;100 = web 渲染亚像素地板（Δ2-5px 位置噪声）+ 已登记 artifact/deviation；gate 判据是 0 blocking（critical+major），非满分。三个 auth 屏 typography/color/font/icon/motion 全部命中。<br><br>
+<b>首页 Home</b>：本机无 Figma 鉴权（无 token / Talk-To-Figma 无 channel），故以 Figma 派生的 canonical token 规范（design-system.md）为 ground truth 做逐项数值 + 行为审计，全绿，1 处偏差修正（tab label 600→500）已 push main。<br>
+<b>账户 Accounts（tab）</b>：gold token 体系同源、已应用并 live render 验证 chrome；账户卡列表 + 结构终审需 live session（余额）+ Figma node。<br>
+<b>解锁全数值闭环</b>：Talk-To-Figma 网桥已连通（仅缺 channel code）或一个只读 figd_ token → 一键 extract→diff→icon/region→报告。</p>
 </div></body></html>
