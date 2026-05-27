@@ -1,14 +1,37 @@
-<!doctype html><meta charset="utf8"><title>SPX Auth · Figma Fidelity</title><style>
- body{font:15px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#0d1117;color:#e6edf3}
- header{padding:28px 32px;border-bottom:1px solid #21262d} h1{margin:0 0 6px;font-size:20px} .sub{color:#8b949e;font-size:13px;max-width:860px}
- .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;padding:24px 32px;max-width:1100px}
- .card{display:block;text-decoration:none;color:inherit;background:#161b22;border:1px solid #30363d;border-radius:12px;padding:18px 20px}
- .card:hover{border-color:#58a6ff} .badge{display:inline-block;font-size:12px;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:10px}
- .badge.pass{background:#143;color:#7ee787} .badge.block{background:#3d1416;color:#ff7b72}
- h2{margin:0;font-size:17px;font-family:monospace} .score{font-size:34px;font-weight:700;color:#8b949e;margin:4px 0} .bd{font-size:13px}
- .note{padding:0 32px 32px;color:#8b949e;font-size:13px;max-width:900px} code{background:#21262d;padding:1px 6px;border-radius:4px}</style>
-<header><h1>SPX Auth · Figma Fidelity Reports</h1><div class="sub">spxpay-mobile vs Figma Auth · <b style="color:#7ee787">三屏全部 GATE PASS</b>（0 blocking · 0 icon-fail）。每屏：左 Figma / 中 产品截图(含状态栏占位，像素堆叠) / 右 对齐热力图 + token 表 + 图标矢量 + 阴影校验。<br>本轮：header 位置/欢迎间距/分段阴影/忘记密码文案/底部链接/账户卡/手机号字段全部对齐。残余 % 为 web 2x 渲染亚像素地板(<6px，肉眼不可见) + 已登记的 figma 卡片不对称缺陷。</div></header>
-<div class="grid">    <a class="card" href="login.html"><div class="badge pass">GATE ✅ PASS</div><h2>/login</h2><div class="score">94.9%</div><div class="bd"><b style="color:#3fb950">0 blocking</b> · <b>0 icon-fail</b> · <span style="color:#aaa">7 minor (sub-px floor)</span></div></a>
-    <a class="card" href="forgot-password.html"><div class="badge pass">GATE ✅ PASS</div><h2>/forgot-password</h2><div class="score">86.7%</div><div class="bd"><b style="color:#3fb950">0 blocking</b> · <b>0 icon-fail</b> · <span style="color:#aaa">17 minor (sub-px floor)</span></div></a>
-    <a class="card" href="register.html"><div class="badge pass">GATE ✅ PASS</div><h2>/register</h2><div class="score">87%</div><div class="bd"><b style="color:#3fb950">0 blocking</b> · <b>0 icon-fail</b> · <span style="color:#aaa">27 minor (sub-px floor)</span></div></a></div>
-<div class="note">Generated 2026-05-27 17:36 UTC · figma-fidelity skill · 判定看 GATE 不是 %</div>
+<!doctype html><meta charset="utf8"><title>SPX Auth · Figma Fidelity</title>
+<style>
+ body{font:14px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;max-width:880px;margin:40px auto;padding:0 20px;color:#1a1a1a;background:#fafafa}
+ h1{font-size:22px;margin:0 0 4px} .sub{color:#666;margin:0 0 24px}
+ .card{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid #eee;border-radius:12px;padding:18px 20px;margin:12px 0;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+ .card:hover{border-color:#EABB62;box-shadow:0 2px 10px rgba(234,187,98,.18)}
+ .t{font-size:16px;font-weight:700} .m{color:#888;font-size:12px;margin-top:4px}
+ .row{display:flex;gap:10px;align-items:center;margin-top:10px}
+ .gate{font-size:12px;font-weight:700;padding:3px 8px;border-radius:6px}
+ .pass{background:#e6f7ec;color:#1a7f43} .score{margin-left:auto;font-weight:700;color:#444}
+ .note{margin-top:24px;color:#777;font-size:12.5px;border-top:1px solid #eee;padding-top:16px}
+</style>
+<h1>SPX Auth — Figma Fidelity Report</h1>
+<p class="sub">spxpay-mobile · Figma <code>eqhwFT0W55JotQkpxndDl9</code> · section 1 · 登录认证 Auth · generated 2026-05-27</p>
+<a class="card" href="login.html">
+  <div class="t">1 · 登录认证 Login</div>
+  <div class="m">Figma node 432:5375</div>
+  <div class="row"><span class="gate pass">GATE ✅ PASS</span><span class="gate pass">UX ✅</span><span class="score">94.9%</span></div>
+  <div class="m">0 blocking · 0 icon-fail · static minor = sub-pixel render-floor</div>
+</a><a class="card" href="register.html">
+  <div class="t">1 · 创建账户 Register</div>
+  <div class="m">Figma node 470:2</div>
+  <div class="row"><span class="gate pass">GATE ✅ PASS</span><span class="gate pass">UX ✅</span><span class="score">84.8%</span></div>
+  <div class="m">0 blocking · 0 icon-fail · static minor = sub-pixel render-floor</div>
+</a><a class="card" href="forgot.html">
+  <div class="t">1 · 忘记密码 Forgot</div>
+  <div class="m">Figma node 451:3122</div>
+  <div class="row"><span class="gate pass">GATE ✅ PASS</span><span class="gate pass">UX ✅</span><span class="score">86.7%</span></div>
+  <div class="m">0 blocking · 0 icon-fail · static minor = sub-pixel render-floor</div>
+</a>
+<div class="note">
+<b>How to read this.</b> Each report's hero is the side-by-side <b>Figma vs live product</b> render, then the per-element token table.
+The verdict is the <b>gate</b> (0 critical + 0 major token diffs, 0 vector-icon fails, 0 blocking behavioral findings) — not the %.
+The residual % is sub-pixel web-render noise that never reaches 100 and is expected.
+<br><br><b>Principle 7 (behavioral/motion)</b> drives the real interactions (focus / type / reveal / press) and checks each
+state is reachable, lands on the right Figma variant tokens, and <i>eases</i> (computed transition-duration/easing vs the design's motion tokens) rather than snapping. All three screens: behavioral gate PASS.
+</div>
