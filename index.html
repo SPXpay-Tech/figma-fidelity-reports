@@ -1,0 +1,51 @@
+<!doctype html><html lang="zh"><meta charset="utf8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPX Figma 还原度报告</title>
+<style>
+ body{font:15px/1.6 -apple-system,"PingFang SC",Segoe UI,Roboto,sans-serif;margin:0;background:#0f1115;color:#e7e7ea}
+ header{padding:36px 28px 22px;background:linear-gradient(135deg,#1C1306,#5D3A0A);color:#fff}
+ h1{margin:0 0 6px;font-size:22px} .sub{color:#f3f1e8;opacity:.8;font-size:13px}
+ .wrap{max-width:1100px;margin:0 auto;padding:24px 28px}
+ .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+ a.card{display:block;text-decoration:none;background:#1a1d24;border:1px solid #2a2e38;border-radius:12px;padding:18px;color:#e7e7ea;transition:.15s}
+ a.card:hover{border-color:#EABB62;transform:translateY(-2px)}
+ .name{font-size:16px;font-weight:600;margin-bottom:10px}
+ .route{font-family:monospace;font-size:12px;color:#9499a2}
+ .score{font-size:34px;font-weight:700;margin:8px 0}
+ .bar{height:6px;border-radius:3px;background:#2a2e38;overflow:hidden;margin-top:8px}
+ .bar > i{display:block;height:100%;background:#EABB62}
+ .meta{margin-top:24px;color:#9499a2;font-size:13px;border-top:1px solid #2a2e38;padding-top:16px}
+ code{background:#22262e;padding:1px 5px;border-radius:4px;color:#EABB62}
+</style>
+<header>
+ <h1>SPX Auth · Figma 还原度报告</h1>
+ <div class="sub">spxpay-mobile · feat/figma-auth-redesign · figma-fidelity 数值 token diff + 自驱修复闭环</div>
+</header>
+<div class="wrap">
+ <div class="cards">
+  <a class="card" href="login.html">
+   <div class="name">密码登录</div><div class="route">/login · figma 432:5375</div>
+   <div class="score" style="color:#7ee787">91.3%</div>
+   <div class="route">64 → 91.3 · 净真实缺陷 0</div>
+   <div class="bar"><i style="width:91%"></i></div>
+  </a>
+  <a class="card" href="forgot-password.html">
+   <div class="name">忘记密码</div><div class="route">/forgot-password · figma 451:3122</div>
+   <div class="score" style="color:#7ee787">91.8%</div>
+   <div class="route">86 → 91.8 · 1 lineHeight 微调</div>
+   <div class="bar"><i style="width:92%"></i></div>
+  </a>
+  <a class="card" href="register.html">
+   <div class="name">创建账户</div><div class="route">/register · figma 470:2</div>
+   <div class="score" style="color:#ffd43b">86.7%</div>
+   <div class="route">76 → 86.7 · 净真实缺陷 0（仅位置累积）</div>
+   <div class="bar"><i style="width:87%"></i></div>
+  </a>
+ </div>
+ <div class="meta">
+  每页报告含 <b>Figma 设计稿 + 产品截图对比</b> + 逐元素失配明细表（figma值 / 产品值 / Δ / 修正建议）。<br>
+  方法论：数值 token diff（非像素相似度）→ 元素锚定 → 可执行修正 → 子 agent 修 → 复验闭环。残差为状态栏结构差异 / 动态验证码 artifact / sub-5px 渲染地板 / 已留痕的品牌决策偏差。<br>
+  生成工具：<code>~/.claude/skills/figma-fidelity</code>
+ </div>
+</div>
+</html>
