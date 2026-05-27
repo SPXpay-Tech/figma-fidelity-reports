@@ -39,14 +39,15 @@
   <p class="sub">2026-05-28 · spxpay-mobile · Figma <code>eqhwFT0W55JotQkpxndDl9</code> home node <code>365:2388</code> · method: figma-fidelity numeric token audit</p>
 
   <div class="verdict">
-    首页 UI 已与 gold 设计体系 <b>逐项数值对齐</b>，行为与回归测试全绿。本轮应用 1 处 design-system 偏差修正（tab label 字重），其余为已确认的设计演进项（需 live Figma 节点终审）。
+    首页 UI 已与 gold 设计体系 <b>逐项数值对齐</b>，行为与回归测试全绿。本轮应用 <b>2 处确认修正</b>（tab label 字重 + 出金按钮文案误译），另发现 1 处需产品决策的快捷操作缺陷（路由重复，未臆改）。
     <div class="pills">
       <span class="pill">Tokens 100% match</span>
       <span class="pill">Geometry ✓ vs spec</span>
       <span class="pill">Behavior 4/4 PASS</span>
       <span class="pill">jest 50/50</span>
       <span class="pill">typecheck 0 err</span>
-      <span class="pill">1 fix applied</span>
+      <span class="pill">2 fixes applied</span>
+      <span class="pill">1 defect flagged</span>
     </div>
   </div>
 
@@ -99,14 +100,21 @@
       <h2>Regression</h2>
       <p>jest <b class="ok">50/50 passed</b> (7 suites) · <code>tsc --noEmit</code> <b class="ok">0 errors</b> · render <b>84 nodes</b> OK post-fix.</p>
 
-      <h2>Fix applied this round</h2>
-      <p><code>app/(app)/_layout.tsx</code> — <code>tabBarLabelStyle.fontWeight</code> <code>'600' → '500'</code>，对齐 design-system「tab label = unit 12/500」（与 quick-action 标签一致）。</p>
+      <h2>Fixes applied this round (2)</h2>
+      <table>
+        <tr><th>#</th><th>文件</th><th>改动</th><th>依据</th></tr>
+        <tr><td>1</td><td><code>app/(app)/_layout.tsx</code></td><td><code>tabBarLabelStyle.fontWeight</code> <code>'600' → '500'</code></td><td>design-system「tab label = unit 12/500」（与 quick-action 标签一致）</td></tr>
+        <tr><td>2</td><td><code>src/lib/i18n/locales/zh_CN.ts</code></td><td><code>actions.withdraw</code> 中文 <code>转账 → 出金</code></td><td>内部一致性误译：该按钮 testID=<code>withdraw</code>、icon arrow-up、路由 <code>/withdraw</code>、英文 "Withdraw"、目标页标题 <b>出金</b> —— 唯一对不上的就是这个中文串。两处消费者（home + accounts）皆为出金动作；亦与 design-system 一致。</td></tr>
+      </table>
+
+      <h2>Confirmed defect — 需产品决策（路由问题，未臆改）</h2>
+      <div class="note">快捷操作第 5 个「收款管理」(EN "Pay-outs", <code>home-action-payouts</code>) <b>路由到 <code>/transfer</code>，与第 3 个「划转」(internalTransfer) 完全相同</b> —— 首页出现两个按钮打开同一个「账户划转」页。此外 EN "Pay-outs"(付款/出款) 与中文「收款管理」(收款) <b>方向相反</b>，且都不匹配目标页（账户划转）。这不是文案直译能解决的：需产品确认该入口意图（是 <code>汇款/Pay Out</code> 功能 #12？<code>收款方/Payees</code> 管理？还是应移除？）。改路由属行为变更，已留给产品/Figma 裁决，本轮不动。</div>
 
       <h2>Needs live Figma <code>365:2388</code> (composition adjudication — 不臆改)</h2>
       <table>
         <tr><th>项</th><th>实现现状</th><th>说明</th></tr>
         <tr><td>底部模块</td><td>实时汇率 LiveRates</td><td>代码注释标「replaces 近期活动 per Figma home design」——是有意演进，design-system.md(05-27) 写的是 近期活动，需节点确认哪个为准</td></tr>
-        <tr><td>快捷操作文案</td><td>存款/转账/划转/换汇/收款管理</td><td>design-system 列 入金/出金/划转/兑换/管理；属产品文案决策，需节点/产品确认</td></tr>
+        <tr><td>快捷操作首词</td><td>存款 / 换汇</td><td>出金 本轮已修正对齐。剩 design-system 写 入金/兑换 vs 实现 存款/换汇 —— 同义不同词，属产品文案口径，需节点/产品确认</td></tr>
         <tr><td>Tab bar 高度</td><td>84 (含 home-indicator 安全区)</td><td>spec 视觉高 65；web 无安全区显偏高，需真机确认</td></tr>
       </table>
       <p class="small">Harness 已就绪：<code>docs/figma-home-redesign/fidelity/{target,auth,fidelity.config}.json</code> + <code>make-storage-state.mjs</code>。拿到 Figma 鉴权后 <code>run.mjs --target target.json --screen home</code> 即跑完整 numeric diff + icon/region + 行为层并刷新本报告。</p>
