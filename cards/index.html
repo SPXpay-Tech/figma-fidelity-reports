@@ -59,7 +59,8 @@
       <b>本轮修复（2026-05-28）</b>：① 卡信息块内部按 Figma 968:14753 精确还原 — 顶/底各 12px 内边距、表头 47px 高、
       26px 信息行 + 6px 间距，修掉余额行（卡余额 / 100 USD）≈7px 偏高，已开卡 token gate 由 93.8%(2 blocking) → 95.8%(0 blocking)；
       ② 余额眼睛图标由 Feather 字形换成 App 自有的 <b>EyeMark</b>（react-native-svg，1:1 Figma 矢量），现按矢量 gate 正常通过（仅余亚像素几何 warn）；
-      ③ icon-diff 现支持 <code>iconDeviations</code> 文档化豁免 — 两屏 icon gate 由「红 BLOCKED（11/5 fail）」→「✅ 0 fail · 10/4 waived」。报告 GATE 与编排器结论现已一致。<br>
+      ③ icon-diff 现支持 <code>iconDeviations</code> 文档化豁免 — 两屏 icon gate 由「红 BLOCKED（11/5 fail）」→「✅ 0 fail · 10/4 waived」。报告 GATE 与编排器结论现已一致；
+      ④ VISA 卡面补上 Figma「Card Face · 卡面」968:14359 的金色装饰曲线（<code>&lt;g opacity=0.2&gt;</code> 4 条矢量 + 渐变，新组件 <b>CardFaceSwoosh</b>，1:1 SVG 导出，350×200 卡面满铺于文字之下）—— 之前 impl 只有纯渐变、缺这层 logo 底。<br>
       <b>已知偏差（文档化 · 见报告 Icon vector check 表 + fidelity.config.json）</b>：
       ① 快捷功能 / 交易行 / 底部导航等<b>功能性图标</b>沿用全 App 统一的 @expo/vector-icons 字形（非逐图标 Figma SVG），与 home/accounts/auth 一致，仅矢量 path-set 身份被豁免、几何/位置仍 token 校验；
       ② 底部导航 首页/消费 字重按 design-system「active 500 / inactive 400」规则（Figma master 为复制残留）；
