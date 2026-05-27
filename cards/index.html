@@ -46,16 +46,18 @@
         <div style="font-size:12px;color:#6E6B7B;margin-top:8px">0 blocking · 5 sub-pixel minor</div>
       </a>
       <a class="card" href="cards-filled/">
-        <h2>已开卡 (Filled)<span class="pill no">2 minor residual</span></h2>
+        <h2>已开卡 (Filled)<span class="pill ok">GATE PASS</span></h2>
         <div class="route">node 958:12989 · /cards?__fidelity=filled</div>
-        <div class="score warn">93.8%</div>
-        <div style="font-size:12px;color:#6E6B7B;margin-top:8px">2 blocking (balance row ≈7px) · 22 sub-pixel minor</div>
+        <div class="score pass">95.8%</div>
+        <div style="font-size:12px;color:#6E6B7B;margin-top:8px">0 blocking · 16 sub-pixel minor</div>
       </a>
     </div>
     <div class="foot">
       <b>已修复</b>：整页按设计稿重建 — 金色总额 Hero（≈ 0 / 8,540.97 USD + 眼睛 + 圆形水印）、虚拟卡/实体卡分段控件、
       申请新卡空态卡 + 立刻申请药丸按钮、快捷功能 2×2 药丸网格、VISA 卡面、卡信息块、交易记录分段 + 交易行。
       品牌字（HarmonyOS Sans SC）、AUTO 行高、字号/字重/颜色/间距均按 token 对齐。<br>
+      <b>本轮修复（2026-05-28）</b>：卡信息块内部按 Figma 968:14753 精确还原 — 顶/底各 12px 内边距、表头 47px 高、
+      26px 信息行 + 6px 间距。修掉了余额行（卡余额 / 100 USD）≈7px 偏高，已开卡 gate 由 93.8%(2 blocking) → 95.8%(0 blocking) PASS。<br>
       <b>已知偏差（文档化）</b>：① 图标采用全 App 统一的 @expo/vector-icons 字形（非逐图标 Figma SVG），视觉等价；
       ② 底部导航 首页/消费 字重按 design-system「active 500 / inactive 400」规则（Figma master 为复制残留）；
       ③ 字体族 HarmonyOS Sans TC→SC（简中 UI 正确变体），均记录于 fidelity.config.json。
