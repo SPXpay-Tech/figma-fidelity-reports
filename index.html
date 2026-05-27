@@ -19,15 +19,16 @@
  .foot b{color:#9b93b0}
 </style></head><body><div class="wrap">
 <h1>SPXpay Mobile — Figma Fidelity</h1>
-<p class="sub">数值 token diff（非像素）· 静态 + 行为(Principle 7) · 更新 2026-05-28 03:10 · file eqhwFT0W…Dl9 · gold 设计体系</p>
+<p class="sub">数值 token diff（非像素）· 静态 + 行为(Principle 7) · 更新 2026-05-28 03:28 · file eqhwFT0W…Dl9 · gold 设计体系 · live token 已接入</p>
 <div class="grid">
  <a class="card" href="login.html"><p class="name">登录 Login</p><div class="score pass">94.9%</div><div class="badge">GATE PASS · UX PASS</div><div class="meta">0 blocking · 7 minor-noise</div></a>
  <a class="card" href="register.html"><p class="name">注册 Register</p><div class="score pass">84.8%</div><div class="badge">GATE PASS · UX PASS</div><div class="meta">0 blocking · 33 minor-noise</div></a>
  <a class="card" href="forgot-password.html"><p class="name">忘记密码 Forgot</p><div class="score pass">86.7%</div><div class="badge">GATE PASS · UX PASS</div><div class="meta">0 blocking · 17 minor-noise</div></a>
- <a class="card" href="mobile-home/"><p class="name">首页 Home【母版】</p><div class="score pass sm">规范审计 ✓</div><div class="badge gold">SPEC PASS · 行为 4/4</div><div class="meta">node 365:2388 · token 100% · geometry ✓ · 1 fix pushed (0728f05) · live 节点终审待 channel</div></a>
+ <a class="card" href="mobile-home/"><p class="name">首页 Home【母版】</p><div class="score pass sm">规范审计 ✓</div><div class="badge gold">SPEC PASS · 行为 4/4</div><div class="meta">node 365:2388 · token 100% · geometry ✓ · 2 fixes pushed (0728f05·66db8ab)</div></a>
+ <a class="card" href="mobile-accounts/"><p class="name">账户 Accounts【母版】</p><div class="score pend">26%</div><div class="badge" style="background:#3a1010;color:#f08a8a">GATE FAIL · 97 critical</div><div class="meta">node 704:5893 · live figma 已抽取 · impl 缺 总资产hero / 实时汇率 / 交易记录 三大区块 · 待确认改造范围</div></a>
 </div>
 <p class="foot">分数 &lt;100 = web 渲染亚像素地板（Δ2-5px 位置噪声）+ 已登记 artifact/deviation；gate 判据是 0 blocking（critical+major），非满分。三个 auth 屏 typography/color/font/icon/motion 全部命中。<br><br>
 <b>首页 Home</b>：本机无 Figma 鉴权（无 token / Talk-To-Figma 无 channel），故以 Figma 派生的 canonical token 规范（design-system.md）为 ground truth 做逐项数值 + 行为审计，全绿，1 处偏差修正（tab label 600→500）已 push main。<br>
-<b>账户 Accounts（tab）</b>：gold token 体系同源、已应用并 live render 验证 chrome；账户卡列表 + 结构终审需 live session（余额）+ Figma node。<br>
-<b>解锁全数值闭环</b>：Talk-To-Figma 网桥已连通（仅缺 channel code）或一个只读 figd_ token → 一键 extract→diff→icon/region→报告。</p>
+<b>账户 Accounts（tab）</b>：figd_ token 已接入，对 live Figma node 704:5893「账户·SPX 资金账户」做了真实数值 diff（373 设计节点）。结论：当前 <code style="color:#f08a8a">accounts.tsx</code> 仅实现了 标题+分段+快捷操作+账户卡，<b style="color:#f08a8a">缺 总资产 hero 卡、实时汇率区、交易记录区（法币/虚拟币 tabs）</b>三大块，操作项也与设计不一致 → 还原度 26%。注：accounts.tsx 的简化版可能是有意的产品决策，把它重建成 704:5893 富页面属产品改动，改造范围待确认。<br>
+<span style="color:#6f6885;font-size:11.5px">说明：账户卡列表因 localhost→staging-api 跨站 HttpOnly cookie 不持久化而显示「加载失败」，是本地 render 限制，非 UI 缺陷。</span></p>
 </div></body></html>
