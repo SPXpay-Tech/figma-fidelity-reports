@@ -1,20 +1,34 @@
-<!doctype html><meta charset="utf8"><title>SPX Auth · Figma Fidelity</title><style>
- body{font:15px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#0d1117;color:#e6edf3}
- header{padding:28px 32px;border-bottom:1px solid #21262d} h1{margin:0 0 6px;font-size:20px} .sub{color:#8b949e;font-size:13px;max-width:880px}
- .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;padding:24px 32px;max-width:1100px}
- .card{display:block;text-decoration:none;color:inherit;background:#161b22;border:1px solid #30363d;border-radius:12px;padding:18px 20px}
- .card:hover{border-color:#58a6ff} .badge{display:inline-block;font-size:12px;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:10px}
- .badge.pass{background:#143;color:#7ee787} .badge.block{background:#3d1416;color:#ff7b72}
- h2{margin:0;font-size:17px;font-family:monospace} .score{font-size:34px;font-weight:700;color:#8b949e;margin:4px 0} .bd{font-size:13px}
- .note{padding:0 32px 32px;color:#8b949e;font-size:13px;max-width:920px} code{background:#21262d;padding:1px 6px;border-radius:4px}
- .fixes{padding:4px 32px 0;max-width:920px} .fixes li{color:#adbac7;font-size:13px;margin:3px 0}</style>
-<header><h1>SPX Auth · Figma Fidelity Reports</h1><div class="sub">spxpay-mobile vs Figma Auth · <b style="color:#7ee787">三屏全部 GATE PASS</b>（0 blocking · 0 icon-fail）。每屏：左 Figma 设计稿 / 中 产品截图(含状态栏占位，像素堆叠) / 右 对齐热力图 + token 表 + 图标矢量 + 阴影校验。<br>判定看 <b>GATE</b> 不是 %：剩余 % 为 web 2x 渲染亚像素地板(&lt;6px，肉眼不可见)。</div></header>
-<div class="grid">    <a class="card" href="login.html"><div class="badge pass">GATE ✅ PASS</div><h2>/login</h2><div class="score">94.9%</div><div class="bd"><b style="color:#3fb950">0 blocking</b> · <b>0 icon-fail</b> · <span style="color:#aaa">7 minor (sub-px floor)</span></div></a>
-    <a class="card" href="forgot-password.html"><div class="badge pass">GATE ✅ PASS</div><h2>/forgot-password</h2><div class="score">86.7%</div><div class="bd"><b style="color:#3fb950">0 blocking</b> · <b>0 icon-fail</b> · <span style="color:#aaa">17 minor (sub-px floor)</span></div></a>
-    <a class="card" href="register.html"><div class="badge pass">GATE ✅ PASS</div><h2>/register</h2><div class="score">86.1%</div><div class="bd"><b style="color:#3fb950">0 blocking</b> · <b>0 icon-fail</b> · <span style="color:#aaa">29 minor · 3 icon-noise</span></div></a></div>
-<div class="fixes"><b style="color:#e6edf3;font-size:13px">本轮修复（针对后两屏反馈）：</b><ul>
-  <li>✅ <b>创建账户·账户类型卡背景色</b>：选中态从奶油 <code>#F3F1E8</code> 改回 Figma 真值 <b>白底 #FFFFFF</b>（选中只靠黄边+黄图标盒区分）。</li>
-  <li>✅ <b>register 参考图"只有一半"修复</b>：Figma 470:2 帧固定 844 高、clipsContent 把底部邀请码/条款/按钮/footer 裁掉。改用全高同主题帧 <code>477:2</code> (1063) 当报告 hero，token 数值仍取空态 470:2 保证准确。</li>
-  <li>🔧 <b>skill 加固</b>：extract-figma 自动检测 clip 截断并告警；新增 <code>--png-node</code> 解耦"栅格节点 / token 节点"；region-diff 跳过栅格越界区域（消除按钮假阳 80.8%→0）。</li>
-</ul></div>
-<div class="note">figma-fidelity skill · register hero 为全高「已填态」参考帧（设计无全高空态帧）· Generated 2026-05-28</div>
+<!doctype html><meta charset="utf8"><title>SPX Auth — Figma Fidelity Reports</title>
+<style>
+ body{font:15px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#0d0d0f;color:#e8e8ea}
+ header{padding:34px 28px;background:linear-gradient(135deg,#1a1712,#0d0d0f);border-bottom:1px solid #2a2a2e}
+ h1{margin:0 0 6px;font-size:22px} .sub{color:#9a9aa0;font-size:13px;max-width:860px}
+ .wrap{padding:26px 28px;max-width:1100px;margin:auto}
+ .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+ a.card{display:block;text-decoration:none;background:#16161a;border:1px solid #2a2a2e;border-radius:12px;padding:18px;color:inherit;transition:border-color .15s}
+ a.card:hover{border-color:#eabb62}
+ .name{font-size:17px;font-weight:700;margin-bottom:8px;color:#fff}
+ .route{font-family:monospace;font-size:12px;color:#8a8f98;margin-bottom:12px}
+ .pass{color:#7ee787;font-weight:700} .score{color:#9a9aa0;font-size:13px}
+ .row{display:flex;justify-content:space-between;align-items:center;margin-top:8px;font-size:13px}
+ .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:9px;background:#23201a;color:#eabb62;margin-top:10px}
+ h2{font-size:15px;margin:30px 0 10px;color:#cfcfd4} ul{color:#b8b8be;font-size:13px;margin:0;padding-left:18px} li{margin:4px 0}
+</style>
+<header>
+ <h1>SPX Auth — Figma Fidelity Reports</h1>
+ <div class="sub">Numeric token diff (geometry / typography / color / decoration / layout) <b>+ Principle 7 behavioral &amp; motion fidelity</b>: every interactive field driven through focus / fill / reveal / selected <b>and its error states (格式错误 / 两次密码不一致 / 必填)</b> — the report's behavioral table now shows, per state, whether the error feedback lands <b>inline</b> on the field (Figma 错误 variant) vs a dialog vs silently. Web build, 390px. Gate = 0 blocking (not the %).</div>
+</header>
+<div class="wrap">
+ <div class="cards">
+  <a class="card" href="login.html"><div class="name">登录 Login</div><div class="route">/login</div><div class="row"><span class="pass">✅ GATE PASS</span><span class="score">static 94.9% · ux PASS</span></div><div class="tag">focus·fill·reveal·email 格式错误 inline</div></a>
+  <a class="card" href="register.html"><div class="name">创建账户 Register</div><div class="route">/register</div><div class="row"><span class="pass">✅ GATE PASS</span><span class="score">static 84.8% · ux PASS</span></div><div class="tag">+ 邮箱格式 · 两次密码不一致 inline ✓</div></a>
+  <a class="card" href="forgot.html"><div class="name">忘记密码 Forgot</div><div class="route">/forgot-password</div><div class="row"><span class="pass">✅ GATE PASS</span><span class="score">static 86.7% · ux PASS</span></div><div class="tag">+ 全字段校验 dialog→inline ✓</div></a>
+ </div>
+ <h2>What "behavioral &amp; motion fidelity" now covers</h2>
+ <ul>
+  <li><b>State reachability</b> — focus / fill / reveal / selected actually drive the element to the Figma variant.</li>
+  <li><b>Motion contract</b> — border/bg/glow ease (150ms ease-out; errors 200ms ease-in-out), never snap.</li>
+  <li><b>Error feedback channel</b> — invalid input shows the field's <b>inline</b> 错误 variant (red border + ⚠ helper text), not a dialog, not silence. Cross-field rules (两次密码不一致) reached via field preconditions.</li>
+ </ul>
+ <p style="color:#6a6a70;font-size:12px;margin-top:22px">Generated by the figma-fidelity skill · token-free reproducible run · updated 2026-05-28</p>
+</div>
