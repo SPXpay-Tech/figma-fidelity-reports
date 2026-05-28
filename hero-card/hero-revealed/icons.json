@@ -1,0 +1,44 @@
+{
+  "frame": {
+    "id": "619:8205",
+    "name": "Total Asset Card · 总资产卡片",
+    "width": 350,
+    "height": 118
+  },
+  "checked": 2,
+  "fails": 0,
+  "warns": 1,
+  "waived": 1,
+  "icons": [
+    {
+      "name": "eye",
+      "figmaId": "I619:8205;560:4481",
+      "box": {
+        "x": 302,
+        "y": 24,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 2,
+      "implPaths": 2,
+      "status": "warn",
+      "severity": "minor",
+      "note": "2 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "icon",
+      "figmaId": "I619:8205;548:6236",
+      "box": {
+        "x": 307,
+        "y": 29,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 2,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Inner iris sub-node of the balance eye — Figma exports the eye as outer-stroke + iris as two icon nodes. The impl renders the whole eye as one combined EyeMark SVG (react-native-svg, exported 1:1 from /tmp/ff-spx/icons/eye.svg), so the iris is not a separate <svg>. Same waiver shipped in the Cards module 2026-05-28. The eye glyph itself is gated normally — must pass on its own. (was: Figma icon has 2 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}

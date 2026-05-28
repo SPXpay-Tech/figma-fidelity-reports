@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "figmaFrame": {
+      "id": "619:8205",
+      "name": "Total Asset Card · 总资产卡片",
+      "width": 350,
+      "height": 118
+    },
+    "implFrame": {
+      "id": "page",
+      "name": "page",
+      "width": 350,
+      "height": 118
+    },
+    "matchMode": "fallback",
+    "originOffset": {
+      "x": 0,
+      "y": -1
+    },
+    "generated": "2026-05-28T10:46:29.993Z"
+  },
+  "summary": {
+    "checks": 24,
+    "fails": 0,
+    "fidelityScore": 100,
+    "bySeverity": {},
+    "gate": {
+      "blocking": 0,
+      "minor": 0,
+      "pass": true
+    },
+    "approved": 1
+  },
+  "failsByNode": {},
+  "approvedDeviations": [
+    {
+      "figmaId": "I619:8205;560:4486",
+      "node": "unit",
+      "prop": "box.x",
+      "figma": 156,
+      "impl": 164.25,
+      "reason": "Hero-card amount unit (USD suffix) — pure typeface-metrics drift. Figma master renders '≈ 8,540.97' in HarmonyOS Sans TC Bold at 120px wide; impl renders the IDENTICAL string in PlusJakartaSans-Bold at 128.25px (~8px wider — Latin numerals are slightly broader in Plus Jakarta Sans). The figma frame `Frame 2147225254` has gap=12 (matched 1:1 in impl), so USD's leading edge inherits the amount's actual rendered width: 24 + 128.25 + 12 = 164.25 vs figma's 24 + 120 + 12 = 156. Same physical layout (amount + 12 gap + USD), driven by the bundled font choice — not a HeroCard defect. Approved 2026-05-28."
+    }
+  ],
+  "findings": [
+    {
+      "figmaId": "I619:8205;560:4480",
+      "node": "label",
+      "type": "TEXT",
+      "text": "总资产余额",
+      "prop": "box.x",
+      "figma": 24,
+      "impl": 24,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4480",
+      "node": "label",
+      "type": "TEXT",
+      "text": "总资产余额",
+      "prop": "box.y",
+      "figma": 28,
+      "impl": 28,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4480",
+      "node": "label",
+      "type": "TEXT",
+      "text": "总资产余额",
+      "prop": "fontSize",
+      "figma": 14,
+      "impl": 14,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4480",
+      "node": "label",
+      "type": "TEXT",
+      "text": "总资产余额",
+      "prop": "fontWeight",
+      "figma": 500,
+      "impl": 500,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4480",
+      "node": "label",
+      "type": "TEXT",
+      "text": "总资产余额",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "PlusJakartaSans-Medium",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4480",
+      "node": "label",
+      "type": "TEXT",
+      "text": "总资产余额",
+      "prop": "lineHeight",
+      "figma": 16.41,
+      "impl": 16,
+      "delta": 0.41,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4480",
+      "node": "label",
+      "type": "TEXT",
+      "text": "总资产余额",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4480",
+      "node": "label",
+      "type": "TEXT",
+      "text": "总资产余额",
+      "prop": "color",
+      "figma": "#f3f1e8",
+      "impl": "#f3f1e8",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4485",
+      "node": "amount",
+      "type": "TEXT",
+      "text": "≈ 8,540.97",
+      "prop": "box.x",
+      "figma": 24,
+      "impl": 24,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4485",
+      "node": "amount",
+      "type": "TEXT",
+      "text": "≈ 8,540.97",
+      "prop": "box.y",
+      "figma": 66,
+      "impl": 66,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4485",
+      "node": "amount",
+      "type": "TEXT",
+      "text": "≈ 8,540.97",
+      "prop": "fontSize",
+      "figma": 24,
+      "impl": 24,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4485",
+      "node": "amount",
+      "type": "TEXT",
+      "text": "≈ 8,540.97",
+      "prop": "fontWeight",
+      "figma": 700,
+      "impl": 700,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4485",
+      "node": "amount",
+      "type": "TEXT",
+      "text": "≈ 8,540.97",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "PlusJakartaSans-Bold",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4485",
+      "node": "amount",
+      "type": "TEXT",
+      "text": "≈ 8,540.97",
+      "prop": "lineHeight",
+      "figma": 28.13,
+      "impl": 28,
+      "delta": 0.13,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4485",
+      "node": "amount",
+      "type": "TEXT",
+      "text": "≈ 8,540.97",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4485",
+      "node": "amount",
+      "type": "TEXT",
+      "text": "≈ 8,540.97",
+      "prop": "color",
+      "figma": "#ffffff",
+      "impl": "#ffffff",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4486",
+      "node": "unit",
+      "type": "TEXT",
+      "text": "USD",
+      "prop": "box.x",
+      "figma": 156,
+      "impl": 164.25,
+      "delta": 8.25,
+      "pass": true,
+      "severity": "approved",
+      "hint": "move to x≈156px",
+      "note": "Hero-card amount unit (USD suffix) — pure typeface-metrics drift. Figma master renders '≈ 8,540.97' in HarmonyOS Sans TC Bold at 120px wide; impl renders the IDENTICAL string in PlusJakartaSans-Bold at 128.25px (~8px wider — Latin numerals are slightly broader in Plus Jakarta Sans). The figma frame `Frame 2147225254` has gap=12 (matched 1:1 in impl), so USD's leading edge inherits the amount's actual rendered width: 24 + 128.25 + 12 = 164.25 vs figma's 24 + 120 + 12 = 156. Same physical layout (amount + 12 gap + USD), driven by the bundled font choice — not a HeroCard defect. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I619:8205;560:4486",
+      "node": "unit",
+      "type": "TEXT",
+      "text": "USD",
+      "prop": "box.y",
+      "figma": 75,
+      "impl": 74,
+      "delta": 1,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4486",
+      "node": "unit",
+      "type": "TEXT",
+      "text": "USD",
+      "prop": "fontSize",
+      "figma": 16,
+      "impl": 16,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4486",
+      "node": "unit",
+      "type": "TEXT",
+      "text": "USD",
+      "prop": "fontWeight",
+      "figma": 500,
+      "impl": 500,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4486",
+      "node": "unit",
+      "type": "TEXT",
+      "text": "USD",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "PlusJakartaSans-Medium",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4486",
+      "node": "unit",
+      "type": "TEXT",
+      "text": "USD",
+      "prop": "lineHeight",
+      "figma": 18.75,
+      "impl": 19,
+      "delta": 0.25,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4486",
+      "node": "unit",
+      "type": "TEXT",
+      "text": "USD",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I619:8205;560:4486",
+      "node": "unit",
+      "type": "TEXT",
+      "text": "USD",
+      "prop": "color",
+      "figma": "#f3f1e8",
+      "impl": "#f3f1e8",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    }
+  ]
+}
