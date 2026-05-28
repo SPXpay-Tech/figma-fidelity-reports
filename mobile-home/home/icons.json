@@ -1,0 +1,403 @@
+{
+  "frame": {
+    "id": "619:8194",
+    "name": "📱 04 Home · 首页 完整",
+    "width": 390,
+    "height": 2033
+  },
+  "checked": 26,
+  "fails": 0,
+  "warns": 0,
+  "waived": 25,
+  "icons": [
+    {
+      "name": "Linear / Arrows / Arrow Right",
+      "figmaId": "619:8203",
+      "box": {
+        "x": 358,
+        "y": 118,
+        "w": 12,
+        "h": 12
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "eye",
+      "figmaId": "I619:8205;560:4481",
+      "box": {
+        "x": 322,
+        "y": 167,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 2,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Hero-card balance reveal eye glyph; @expo/vector-icons Feather 'eye'. App-wide icon-font policy (Cards migrated to EyeMark SVG; Home/Accounts still on font-glyph). Approved 2026-05-28. (was: Figma icon has 2 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I619:8205;548:6236",
+      "box": {
+        "x": 327,
+        "y": 172,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 2,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Inner iris sub-node of the balance eye (Figma exports the eye as outer-stroke + iris). Impl renders the whole eye as one Feather glyph; iris is not a separate <svg>. Same waiver as 'eye'. Approved 2026-05-28. (was: Figma icon has 2 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I619:8209;586:7183",
+      "box": {
+        "x": 40,
+        "y": 315,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I619:8210;586:7187",
+      "box": {
+        "x": 111.5,
+        "y": 315,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Sort Horizontal",
+      "figmaId": "I619:8211;586:7206",
+      "box": {
+        "x": 183,
+        "y": 315,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 2,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 2 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Refresh",
+      "figmaId": "I619:8212;586:7210",
+      "box": {
+        "x": 254.5,
+        "y": 315,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 2,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 2 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Right",
+      "figmaId": "I677:4761;641:8773",
+      "box": {
+        "x": 340,
+        "y": 440,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Right",
+      "figmaId": "I677:4762;692:5388",
+      "box": {
+        "x": 340,
+        "y": 533,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Right",
+      "figmaId": "I677:4763;692:5405",
+      "box": {
+        "x": 340,
+        "y": 626,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Bold / Arrows / Alt Arrow Down",
+      "figmaId": "I619:8218;619:7911",
+      "box": {
+        "x": 348,
+        "y": 712,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Hero-card eye toggle / dropdown chevron; @expo/vector-icons font-glyph. Same waiver rationale as the Linear set. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Restart",
+      "figmaId": "I677:4989;619:8220;619:8095",
+      "box": {
+        "x": 34.67,
+        "y": 765.67,
+        "w": 26.67,
+        "h": 26.67
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "figmaId": "I677:4989;619:8220;619:8115",
+      "box": {
+        "x": 82,
+        "y": 770,
+        "w": 18,
+        "h": 18
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Rate-card search affordance renders as a Feather search font-glyph; app-wide icon-font policy. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Bold / Arrows / Alt Arrow Down",
+      "figmaId": "I619:8234;769:8727",
+      "box": {
+        "x": 348,
+        "y": 1278,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Hero-card eye toggle / dropdown chevron; @expo/vector-icons font-glyph. Same waiver rationale as the Linear set. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Restart",
+      "figmaId": "I619:8236;586:7566",
+      "box": {
+        "x": 38,
+        "y": 1330,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Right",
+      "figmaId": "I619:8236;586:7559",
+      "box": {
+        "x": 340,
+        "y": 1333,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I619:8238;586:7319",
+      "box": {
+        "x": 38,
+        "y": 1372.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I619:8239;586:7319",
+      "box": {
+        "x": 38,
+        "y": 1425.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I619:8240;586:7319",
+      "box": {
+        "x": 38,
+        "y": 1478.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I619:8241;586:7319",
+      "box": {
+        "x": 38,
+        "y": 1531.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I619:8242;586:7319",
+      "box": {
+        "x": 38,
+        "y": 1584.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I619:8243;586:7319",
+      "box": {
+        "x": 38,
+        "y": 1637.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I619:8244;586:7319",
+      "box": {
+        "x": 38,
+        "y": 1690.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I619:8245;586:7367",
+      "box": {
+        "x": 38,
+        "y": 1743.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Still-font-glyph functional / nav icons (transaction-row direction chevrons, view-all Arrow Right, refresh rotate, account-card chevrons). App-wide @expo/vector-icons; the numeric token gate covers geometry/box, vector-path-set identity waived per SKILL.md 'Whole-app icon system vs per-icon SVG.' Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Time / Clock Circle",
+      "figmaId": "I619:8246;586:7383",
+      "box": {
+        "x": 38,
+        "y": 1799.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — 审核中 status row icon — design uses a clock-circle SVG; impl renders Feather 'arrow-down' for the 入金 type (the row's status is communicated by the 审核中 label + amount color, not the icon glyph). Same app-wide icon-font policy. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I619:8249;548:6592",
+      "box": {
+        "x": 329.25,
+        "y": 1968,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "pass",
+      "severity": "pass"
+    }
+  ]
+}
