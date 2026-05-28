@@ -1,0 +1,267 @@
+{
+  "frame": {
+    "id": "782:12073",
+    "name": "📱 Account. SPX资金账户 虚拟币",
+    "width": 390,
+    "height": 1096
+  },
+  "checked": 17,
+  "fails": 0,
+  "warns": 2,
+  "waived": 11,
+  "icons": [
+    {
+      "name": "eye",
+      "figmaId": "I782:12078;735:6821",
+      "box": {
+        "x": 322,
+        "y": 183,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 2,
+      "implPaths": 2,
+      "status": "warn",
+      "severity": "minor",
+      "note": "2 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "icon",
+      "figmaId": "I782:12078;735:6822",
+      "box": {
+        "x": 327,
+        "y": 188,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 2,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Eye-iris sub-node of the hero balance reveal eye. impl renders the whole eye as one combined SVG (EyeMark), so the iris is not a separate <svg>. The outer eye glyph itself still passes natively. (was: Figma icon has 2 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I782:12079;780:11042",
+      "box": {
+        "x": 44,
+        "y": 304,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Functional/nav glyphs rendered as @expo/vector-icons Feather font: bottom-nav 账户/消费/我的, transaction-row directional chevrons, view-all Arrow Right, hero refresh, account-card Alt Arrow Down. Geometry/box still token-checked; only vector-path-set identity waived because Feather font glyphs ≠ Figma SVG paths. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I782:12079;780:11029",
+      "box": {
+        "x": 114,
+        "y": 304,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Functional/nav glyphs rendered as @expo/vector-icons Feather font: bottom-nav 账户/消费/我的, transaction-row directional chevrons, view-all Arrow Right, hero refresh, account-card Alt Arrow Down. Geometry/box still token-checked; only vector-path-set identity waived because Feather font glyphs ≠ Figma SVG paths. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Linear / Arrows / Sort Horizontal",
+      "figmaId": "I782:12079;735:7164",
+      "box": {
+        "x": 180,
+        "y": 304,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 2,
+      "implPaths": 2,
+      "status": "warn",
+      "severity": "minor",
+      "note": "2 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "Linear / Arrows / Refresh",
+      "figmaId": "I782:12079;735:7170",
+      "box": {
+        "x": 242,
+        "y": 304,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 0,
+      "implPaths": 2,
+      "status": "skip",
+      "severity": "pass",
+      "note": "no Figma SVG (export failed)"
+    },
+    {
+      "name": "Bold / Arrows / Alt Arrow Down",
+      "figmaId": "I782:12081;735:6970",
+      "box": {
+        "x": 348,
+        "y": 368,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Segmented header dropdown caret — rendered as @expo/vector-icons Feather glyph, vector path-set differs from Figma master by design. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Bold / Arrows / Alt Arrow Down",
+      "figmaId": "I782:12086;619:7892",
+      "box": {
+        "x": 348,
+        "y": 524,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Segmented header dropdown caret — rendered as @expo/vector-icons Feather glyph, vector path-set differs from Figma master by design. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Bold / Arrows / Alt Arrow Down",
+      "figmaId": "I782:12087;769:8710;769:8727",
+      "box": {
+        "x": 348,
+        "y": 572,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Segmented header dropdown caret — rendered as @expo/vector-icons Feather glyph, vector path-set differs from Figma master by design. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Restart",
+      "figmaId": "I782:12087;769:8511;586:7566",
+      "box": {
+        "x": 38,
+        "y": 710,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Functional/nav glyphs rendered as @expo/vector-icons Feather font: bottom-nav 账户/消费/我的, transaction-row directional chevrons, view-all Arrow Right, hero refresh, account-card Alt Arrow Down. Geometry/box still token-checked; only vector-path-set identity waived because Feather font glyphs ≠ Figma SVG paths. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Right",
+      "figmaId": "I782:12087;769:8511;586:7559",
+      "box": {
+        "x": 340,
+        "y": 713,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Functional/nav glyphs rendered as @expo/vector-icons Feather font: bottom-nav 账户/消费/我的, transaction-row directional chevrons, view-all Arrow Right, hero refresh, account-card Alt Arrow Down. Geometry/box still token-checked; only vector-path-set identity waived because Feather font glyphs ≠ Figma SVG paths. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I782:12087;769:8513;586:7319",
+      "box": {
+        "x": 38,
+        "y": 752.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "pass",
+      "severity": "pass"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I782:12087;769:8699;769:10316",
+      "box": {
+        "x": 38,
+        "y": 805.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 2,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Functional/nav glyphs rendered as @expo/vector-icons Feather font: bottom-nav 账户/消费/我的, transaction-row directional chevrons, view-all Arrow Right, hero refresh, account-card Alt Arrow Down. Geometry/box still token-checked; only vector-path-set identity waived because Feather font glyphs ≠ Figma SVG paths. (was: path count 2 ≠ Figma 1 — a glyph element is missing/extra (e.g. an inner checkmark/slash).)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I782:12087;769:8515;752:8119",
+      "box": {
+        "x": 38,
+        "y": 858.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 0,
+      "implPaths": 2,
+      "status": "skip",
+      "severity": "pass",
+      "note": "no Figma SVG (export failed)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I782:12087;769:8517;752:8407",
+      "box": {
+        "x": 38,
+        "y": 911.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 2,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Functional/nav glyphs rendered as @expo/vector-icons Feather font: bottom-nav 账户/消费/我的, transaction-row directional chevrons, view-all Arrow Right, hero refresh, account-card Alt Arrow Down. Geometry/box still token-checked; only vector-path-set identity waived because Feather font glyphs ≠ Figma SVG paths. (was: path count 2 ≠ Figma 1 — a glyph element is missing/extra (e.g. an inner checkmark/slash).)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I782:12087;769:8519;586:7319",
+      "box": {
+        "x": 38,
+        "y": 964.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "pass",
+      "severity": "pass"
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I782:12088;548:6635",
+      "box": {
+        "x": 329.25,
+        "y": 1031,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Functional/nav glyphs rendered as @expo/vector-icons Feather font: bottom-nav 账户/消费/我的, transaction-row directional chevrons, view-all Arrow Right, hero refresh, account-card Alt Arrow Down. Geometry/box still token-checked; only vector-path-set identity waived because Feather font glyphs ≠ Figma SVG paths. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}
