@@ -1,0 +1,5824 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "790:15998",
+    "name": "虚拟币存款",
+    "width": 390,
+    "height": 2014
+  },
+  "nodes": [
+    {
+      "key": "790:15998",
+      "figmaId": "790:15998",
+      "name": "虚拟币存款",
+      "type": "COMPONENT_SET",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 2014
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 12,
+        "padding": {
+          "t": 20,
+          "r": 20,
+          "b": 20,
+          "l": 20
+        },
+        "gap": 20,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "790:16141",
+      "figmaId": "790:16141",
+      "name": "Property 1=默认",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 20,
+        "w": 350,
+        "h": 60
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "790:16082",
+      "figmaId": "790:16082",
+      "name": "币种",
+      "type": "TEXT",
+      "text": "币种",
+      "box": {
+        "x": 20,
+        "y": 20,
+        "w": 350,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "790:16122",
+      "figmaId": "790:16122",
+      "name": "虚拟币存款/Default",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 40,
+        "w": 350,
+        "h": 40
+      },
+      "style": {
+        "borderRadius": 12,
+        "padding": {
+          "t": 4,
+          "r": 4,
+          "b": 4,
+          "l": 4
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "790:16123",
+      "figmaId": "790:16123",
+      "name": "seg",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 44,
+        "w": 168,
+        "h": 32
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 6,
+        "padding": {
+          "t": 0,
+          "r": 6,
+          "b": 0,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "790:16124",
+      "figmaId": "790:16124",
+      "name": "Frame 2147225298",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 30,
+        "y": 52,
+        "w": 55,
+        "h": 16
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16125",
+      "figmaId": "790:16125",
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 30,
+        "y": 52,
+        "w": 16,
+        "h": 16
+      },
+      "style": {
+        "backgroundColor": "#26a07b",
+        "borderRadius": 11.82608699798584
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "790:16126",
+      "figmaId": "790:16126",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 30,
+        "y": 52,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16127",
+      "figmaId": "790:16127",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 33.18,
+        "y": 55.67,
+        "w": 9.67,
+        "h": 8.91
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16128",
+      "figmaId": "790:16128",
+      "name": "USDT",
+      "type": "TEXT",
+      "text": "USDT",
+      "box": {
+        "x": 52,
+        "y": 53,
+        "w": 33,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "790:16129",
+      "figmaId": "790:16129",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 174,
+        "y": 54,
+        "w": 12,
+        "h": 12
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 6,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16130",
+      "figmaId": "790:16130",
+      "name": "icon-check",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 175.71,
+        "y": 55.71,
+        "w": 8.57,
+        "h": 8.57
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "790:16131",
+      "figmaId": "790:16131",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 177.14,
+        "y": 57.86,
+        "w": 5.71,
+        "h": 3.93
+      },
+      "style": {
+        "borderColor": "#fcfcfa",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16132",
+      "figmaId": "790:16132",
+      "name": "seg",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 198,
+        "y": 44,
+        "w": 168,
+        "h": 32
+      },
+      "style": {
+        "backgroundColor": "#f6f6f4",
+        "borderRadius": 6,
+        "padding": {
+          "t": 0,
+          "r": 6,
+          "b": 0,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "790:16133",
+      "figmaId": "790:16133",
+      "name": "Frame 2147225299",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 204,
+        "y": 52,
+        "w": 55,
+        "h": 16
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16134",
+      "figmaId": "790:16134",
+      "name": "Crypto Logos / USD Coin",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 204,
+        "y": 52,
+        "w": 16,
+        "h": 16
+      },
+      "style": {
+        "backgroundColor": "#2775ca",
+        "borderRadius": 11.82608699798584
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "790:16135",
+      "figmaId": "790:16135",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 204,
+        "y": 52,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16136",
+      "figmaId": "790:16136",
+      "name": "USD Coin Logo",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 206.73,
+        "y": 54.8,
+        "w": 10.57,
+        "h": 10.14
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16137",
+      "figmaId": "790:16137",
+      "name": "Vector 2",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 210.03,
+        "y": 56.32,
+        "w": 3.92,
+        "h": 7.06
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "790:16138",
+      "figmaId": "790:16138",
+      "name": "Vector 1",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 206.73,
+        "y": 54.8,
+        "w": 10.57,
+        "h": 10.14
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "790:16139",
+      "figmaId": "790:16139",
+      "name": "USDC",
+      "type": "TEXT",
+      "text": "USDC",
+      "box": {
+        "x": 226,
+        "y": 53,
+        "w": 33,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f6f6f4",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "830:16673",
+      "figmaId": "830:16673",
+      "name": "Property 1=只有USDT",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 100,
+        "w": 350,
+        "h": 60
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "830:16674",
+      "figmaId": "830:16674",
+      "name": "币种",
+      "type": "TEXT",
+      "text": "币种",
+      "box": {
+        "x": 20,
+        "y": 100,
+        "w": 350,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "830:16675",
+      "figmaId": "830:16675",
+      "name": "虚拟币存款/Default",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 120,
+        "w": 350,
+        "h": 40
+      },
+      "style": {
+        "borderRadius": 12,
+        "padding": {
+          "t": 4,
+          "r": 4,
+          "b": 4,
+          "l": 4
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "830:16676",
+      "figmaId": "830:16676",
+      "name": "seg",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 124,
+        "w": 342,
+        "h": 32
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 6,
+        "padding": {
+          "t": 0,
+          "r": 6,
+          "b": 0,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "830:16677",
+      "figmaId": "830:16677",
+      "name": "Frame 2147225298",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 30,
+        "y": 132,
+        "w": 55,
+        "h": 16
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "830:16678",
+      "figmaId": "830:16678",
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 30,
+        "y": 132,
+        "w": 16,
+        "h": 16
+      },
+      "style": {
+        "backgroundColor": "#26a07b",
+        "borderRadius": 11.82608699798584
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "830:16679",
+      "figmaId": "830:16679",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 30,
+        "y": 132,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "830:16680",
+      "figmaId": "830:16680",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 33.18,
+        "y": 135.67,
+        "w": 9.67,
+        "h": 8.91
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "830:16681",
+      "figmaId": "830:16681",
+      "name": "USDT",
+      "type": "TEXT",
+      "text": "USDT",
+      "box": {
+        "x": 52,
+        "y": 133,
+        "w": 33,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "830:16682",
+      "figmaId": "830:16682",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 348,
+        "y": 134,
+        "w": 12,
+        "h": 12
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 6,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "830:16683",
+      "figmaId": "830:16683",
+      "name": "icon-check",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 349.71,
+        "y": 135.71,
+        "w": 8.57,
+        "h": 8.57
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "830:16684",
+      "figmaId": "830:16684",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 351.14,
+        "y": 137.86,
+        "w": 5.71,
+        "h": 3.93
+      },
+      "style": {
+        "borderColor": "#fcfcfa",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "833:7327",
+      "figmaId": "833:7327",
+      "name": "Property 1=只有USDC",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 180,
+        "w": 350,
+        "h": 60
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "833:7328",
+      "figmaId": "833:7328",
+      "name": "币种",
+      "type": "TEXT",
+      "text": "币种",
+      "box": {
+        "x": 20,
+        "y": 180,
+        "w": 350,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 900,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "833:7329",
+      "figmaId": "833:7329",
+      "name": "虚拟币存款/Default",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 200,
+        "w": 350,
+        "h": 40
+      },
+      "style": {
+        "borderRadius": 12,
+        "padding": {
+          "t": 4,
+          "r": 4,
+          "b": 4,
+          "l": 4
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "833:7330",
+      "figmaId": "833:7330",
+      "name": "seg",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 204,
+        "w": 342,
+        "h": 32
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 6,
+        "padding": {
+          "t": 0,
+          "r": 6,
+          "b": 0,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "833:7331",
+      "figmaId": "833:7331",
+      "name": "Frame 2147225298",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 30,
+        "y": 212,
+        "w": 55,
+        "h": 16
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "833:7339",
+      "figmaId": "833:7339",
+      "name": "Crypto Logos / USD Coin",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 30,
+        "y": 212,
+        "w": 16,
+        "h": 16
+      },
+      "style": {
+        "backgroundColor": "#2775ca",
+        "borderRadius": 11.82608699798584
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "833:7340",
+      "figmaId": "833:7340",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 30,
+        "y": 212,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "833:7341",
+      "figmaId": "833:7341",
+      "name": "USD Coin Logo",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 32.73,
+        "y": 214.8,
+        "w": 10.57,
+        "h": 10.14
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "833:7342",
+      "figmaId": "833:7342",
+      "name": "Vector 2",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 36.03,
+        "y": 216.32,
+        "w": 3.92,
+        "h": 7.06
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "833:7343",
+      "figmaId": "833:7343",
+      "name": "Vector 1",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 32.73,
+        "y": 214.8,
+        "w": 10.57,
+        "h": 10.14
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "833:7335",
+      "figmaId": "833:7335",
+      "name": "USDC",
+      "type": "TEXT",
+      "text": "USDC",
+      "box": {
+        "x": 52,
+        "y": 213,
+        "w": 33,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "833:7336",
+      "figmaId": "833:7336",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 348,
+        "y": 214,
+        "w": 12,
+        "h": 12
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 6,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "833:7337",
+      "figmaId": "833:7337",
+      "name": "icon-check",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 349.71,
+        "y": 215.71,
+        "w": 8.57,
+        "h": 8.57
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "833:7338",
+      "figmaId": "833:7338",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 351.14,
+        "y": 217.86,
+        "w": 5.71,
+        "h": 3.93
+      },
+      "style": {
+        "borderColor": "#fcfcfa",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16203",
+      "figmaId": "790:16203",
+      "name": "Property 1=Variant3",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 260,
+        "w": 350,
+        "h": 60
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "790:16204",
+      "figmaId": "790:16204",
+      "name": "区块链网络",
+      "type": "TEXT",
+      "text": "区块链网络",
+      "box": {
+        "x": 20,
+        "y": 260,
+        "w": 350,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "790:16205",
+      "figmaId": "790:16205",
+      "name": "虚拟币存款/Default",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 280,
+        "w": 350,
+        "h": 40
+      },
+      "style": {
+        "borderRadius": 12,
+        "padding": {
+          "t": 4,
+          "r": 4,
+          "b": 4,
+          "l": 4
+        },
+        "gap": 4,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "790:16206",
+      "figmaId": "790:16206",
+      "name": "seg",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 284,
+        "w": 111.33,
+        "h": 32
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 6,
+        "padding": {
+          "t": 0,
+          "r": 6,
+          "b": 0,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "790:16207",
+      "figmaId": "790:16207",
+      "name": "Frame 2147225298",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 30,
+        "y": 292,
+        "w": 55,
+        "h": 16
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16320",
+      "figmaId": "790:16320",
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 30,
+        "y": 292,
+        "w": 16,
+        "h": 16
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.20",
+        "borderWidth": 0.5,
+        "borderRadius": 11.82608699798584
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "790:16321",
+      "figmaId": "790:16321",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 30,
+        "y": 292,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16322",
+      "figmaId": "790:16322",
+      "name": "tron-trx-logo",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 32.67,
+        "y": 294.67,
+        "w": 10.67,
+        "h": 10.67
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "I790:16322;790:16251",
+      "figmaId": "I790:16322;790:16251",
+      "name": "tron",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 33.21,
+        "y": 294.97,
+        "w": 9.54,
+        "h": 10.04
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "I790:16322;790:16252",
+      "figmaId": "I790:16322;790:16252",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 33.21,
+        "y": 294.97,
+        "w": 9.54,
+        "h": 10.04
+      },
+      "style": {
+        "backgroundColor": "#ff060a"
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "790:16211",
+      "figmaId": "790:16211",
+      "name": "Tron",
+      "type": "TEXT",
+      "text": "Tron",
+      "box": {
+        "x": 52,
+        "y": 293,
+        "w": 33,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "790:16212",
+      "figmaId": "790:16212",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 119.33,
+        "y": 295,
+        "w": 10,
+        "h": 10
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 5,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16213",
+      "figmaId": "790:16213",
+      "name": "icon-check",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 120.76,
+        "y": 296.43,
+        "w": 7.14,
+        "h": 7.14
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "790:16214",
+      "figmaId": "790:16214",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 121.96,
+        "y": 298.21,
+        "w": 4.76,
+        "h": 3.27
+      },
+      "style": {
+        "borderColor": "#fcfcfa",
+        "borderWidth": 0.8333333134651184
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16215",
+      "figmaId": "790:16215",
+      "name": "seg",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 139.33,
+        "y": 284,
+        "w": 111.33,
+        "h": 32
+      },
+      "style": {
+        "backgroundColor": "#f6f6f4",
+        "borderRadius": 6,
+        "padding": {
+          "t": 0,
+          "r": 6,
+          "b": 0,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "790:16216",
+      "figmaId": "790:16216",
+      "name": "Frame 2147225299",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 145.33,
+        "y": 292,
+        "w": 76,
+        "h": 16
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16334",
+      "figmaId": "790:16334",
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 145.33,
+        "y": 292,
+        "w": 16,
+        "h": 16
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 0.5,
+        "borderRadius": 11.82608699798584
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "790:16335",
+      "figmaId": "790:16335",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 145.33,
+        "y": 292,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16336",
+      "figmaId": "790:16336",
+      "name": "ethereum-eth-logo",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 150,
+        "y": 294.67,
+        "w": 7.33,
+        "h": 10.67
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16337",
+      "figmaId": "790:16337",
+      "name": "Layer x0020 1",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 150.19,
+        "y": 294.67,
+        "w": 6.55,
+        "h": 10.67
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "790:16338",
+      "figmaId": "790:16338",
+      "name": "1421394342400",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 150.19,
+        "y": 294.67,
+        "w": 6.55,
+        "h": 10.67
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "790:16339",
+      "figmaId": "790:16339",
+      "name": "Group",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 150.19,
+        "y": 294.67,
+        "w": 6.55,
+        "h": 10.67
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 9
+    },
+    {
+      "key": "790:16340",
+      "figmaId": "790:16340",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 153.39,
+        "y": 294.67,
+        "w": 3.35,
+        "h": 7.37
+      },
+      "style": {
+        "backgroundColor": "#343434"
+      },
+      "parentStyle": null,
+      "depth": 10
+    },
+    {
+      "key": "790:16341",
+      "figmaId": "790:16341",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 150.19,
+        "y": 294.67,
+        "w": 3.27,
+        "h": 7.37
+      },
+      "style": {
+        "backgroundColor": "#8c8c8c"
+      },
+      "parentStyle": null,
+      "depth": 10
+    },
+    {
+      "key": "790:16342",
+      "figmaId": "790:16342",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 153.43,
+        "y": 300.72,
+        "w": 3.32,
+        "h": 4.61
+      },
+      "style": {
+        "backgroundColor": "#3c3c3b"
+      },
+      "parentStyle": null,
+      "depth": 10
+    },
+    {
+      "key": "790:16343",
+      "figmaId": "790:16343",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 150.19,
+        "y": 300.72,
+        "w": 3.27,
+        "h": 4.61
+      },
+      "style": {
+        "backgroundColor": "#8c8c8c"
+      },
+      "parentStyle": null,
+      "depth": 10
+    },
+    {
+      "key": "790:16344",
+      "figmaId": "790:16344",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 153.47,
+        "y": 298.61,
+        "w": 3.27,
+        "h": 3.42
+      },
+      "style": {
+        "backgroundColor": "#141414"
+      },
+      "parentStyle": null,
+      "depth": 10
+    },
+    {
+      "key": "790:16345",
+      "figmaId": "790:16345",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 150.19,
+        "y": 298.61,
+        "w": 3.27,
+        "h": 3.42
+      },
+      "style": {
+        "backgroundColor": "#393939"
+      },
+      "parentStyle": null,
+      "depth": 10
+    },
+    {
+      "key": "790:16222",
+      "figmaId": "790:16222",
+      "name": "Ethereum",
+      "type": "TEXT",
+      "text": "Ethereum",
+      "box": {
+        "x": 167.33,
+        "y": 293,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f6f6f4",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "790:16347",
+      "figmaId": "790:16347",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 234.67,
+        "y": 295,
+        "w": 10,
+        "h": 10
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 5,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16348",
+      "figmaId": "790:16348",
+      "name": "icon-check",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 236.1,
+        "y": 296.43,
+        "w": 7.14,
+        "h": 7.14
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "790:16349",
+      "figmaId": "790:16349",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 237.29,
+        "y": 298.21,
+        "w": 4.76,
+        "h": 3.27
+      },
+      "style": {
+        "borderColor": "#fcfcfa",
+        "borderWidth": 0.8333333134651184
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16224",
+      "figmaId": "790:16224",
+      "name": "seg",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 254.67,
+        "y": 284,
+        "w": 111.33,
+        "h": 32
+      },
+      "style": {
+        "backgroundColor": "#f6f6f4",
+        "borderRadius": 6,
+        "padding": {
+          "t": 0,
+          "r": 6,
+          "b": 0,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "790:16225",
+      "figmaId": "790:16225",
+      "name": "Frame 2147225299",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 260.67,
+        "y": 292,
+        "w": 55,
+        "h": 16
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16326",
+      "figmaId": "790:16326",
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 260.67,
+        "y": 292,
+        "w": 16,
+        "h": 16
+      },
+      "style": {
+        "backgroundColor": "#000000",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 0.5,
+        "borderRadius": 11.82608699798584
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "790:16327",
+      "figmaId": "790:16327",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 260.67,
+        "y": 292,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16328",
+      "figmaId": "790:16328",
+      "name": "binance-coin-bnb-logo",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 263.33,
+        "y": 294.67,
+        "w": 10.67,
+        "h": 10.67
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16329",
+      "figmaId": "790:16329",
+      "name": "Layer 2",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 263.33,
+        "y": 294.67,
+        "w": 10.65,
+        "h": 10.65
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "790:16330",
+      "figmaId": "790:16330",
+      "name": "Layer 1",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 263.33,
+        "y": 294.67,
+        "w": 10.65,
+        "h": 10.65
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "790:16331",
+      "figmaId": "790:16331",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 263.33,
+        "y": 294.67,
+        "w": 10.65,
+        "h": 10.65
+      },
+      "style": {
+        "backgroundColor": "#f3ba2f"
+      },
+      "parentStyle": null,
+      "depth": 9
+    },
+    {
+      "key": "790:16332",
+      "figmaId": "790:16332",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 267.43,
+        "y": 298.77,
+        "w": 2.44,
+        "h": 2.44
+      },
+      "style": {
+        "backgroundColor": "#f3ba2f"
+      },
+      "parentStyle": null,
+      "depth": 9
+    },
+    {
+      "key": "790:16231",
+      "figmaId": "790:16231",
+      "name": "Bsc",
+      "type": "TEXT",
+      "text": "Bsc",
+      "box": {
+        "x": 282.67,
+        "y": 293,
+        "w": 33,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f6f6f4",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "823:16621",
+      "figmaId": "823:16621",
+      "name": "Property 1=USDT-TRC20",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 340,
+        "w": 350,
+        "h": 394
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "790:16597",
+      "figmaId": "790:16597",
+      "name": "Frame 2147225298",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 167.5,
+        "y": 352,
+        "w": 55,
+        "h": 16
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "790:16598",
+      "figmaId": "790:16598",
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 167.5,
+        "y": 352,
+        "w": 16,
+        "h": 16
+      },
+      "style": {
+        "backgroundColor": "#26a07b",
+        "borderRadius": 11.82608699798584
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "790:16599",
+      "figmaId": "790:16599",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 167.5,
+        "y": 352,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16600",
+      "figmaId": "790:16600",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 170.68,
+        "y": 355.67,
+        "w": 9.67,
+        "h": 8.91
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16601",
+      "figmaId": "790:16601",
+      "name": "USDT",
+      "type": "TEXT",
+      "text": "USDT",
+      "box": {
+        "x": 189.5,
+        "y": 354,
+        "w": 33,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "790:16552",
+      "figmaId": "790:16552",
+      "name": "QR Code",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 129,
+        "y": 380,
+        "w": 132,
+        "h": 132
+      },
+      "style": {
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 6,
+          "color": "#000000@0.00"
+        }
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "790:16553",
+      "figmaId": "790:16553",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 129,
+        "y": 380,
+        "w": 132,
+        "h": 132
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 12
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "790:16554",
+      "figmaId": "790:16554",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 137.25,
+        "y": 388.25,
+        "w": 115.5,
+        "h": 115.5
+      },
+      "style": {
+        "backgroundColor": "#eabb62"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "790:16590",
+      "figmaId": "790:16590",
+      "name": "Frame 2147225300",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 524,
+        "w": 326,
+        "h": 144
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "790:16581",
+      "figmaId": "790:16581",
+      "name": "账户信息",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 524,
+        "w": 326,
+        "h": 72
+      },
+      "style": {
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "790:16582",
+      "figmaId": "790:16582",
+      "name": "lv",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 536,
+        "w": 288,
+        "h": 48
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16583",
+      "figmaId": "790:16583",
+      "name": "区块链网络",
+      "type": "TEXT",
+      "text": "区块链网络",
+      "box": {
+        "x": 44,
+        "y": 536,
+        "w": 288,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "823:16629",
+      "figmaId": "823:16629",
+      "name": "Frame 2147225303",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 548,
+        "w": 288,
+        "h": 36
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 0,
+          "b": 6,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "823:16623",
+      "figmaId": "823:16623",
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 556,
+        "w": 20,
+        "h": 20
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 0.625,
+        "borderRadius": 14.782608032226562
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "823:16624",
+      "figmaId": "823:16624",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 556,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "823:16625",
+      "figmaId": "823:16625",
+      "name": "tron-trx-logo",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 47.33,
+        "y": 559.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "I823:16625;790:16251",
+      "figmaId": "I823:16625;790:16251",
+      "name": "tron",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 48.01,
+        "y": 559.72,
+        "w": 11.93,
+        "h": 12.55
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "I823:16625;790:16252",
+      "figmaId": "I823:16625;790:16252",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 48.01,
+        "y": 559.72,
+        "w": 11.93,
+        "h": 12.55
+      },
+      "style": {
+        "backgroundColor": "#ff060a"
+      },
+      "parentStyle": null,
+      "depth": 9
+    },
+    {
+      "key": "790:16584",
+      "figmaId": "790:16584",
+      "name": "TRC20(Tron)",
+      "type": "TEXT",
+      "text": "TRC20(Tron)",
+      "box": {
+        "x": 70,
+        "y": 554,
+        "w": 262,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 15.12,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 6
+    },
+    {
+      "key": "790:16564",
+      "figmaId": "790:16564",
+      "name": "账户信息",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 596,
+        "w": 326,
+        "h": 72
+      },
+      "style": {
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "790:16565",
+      "figmaId": "790:16565",
+      "name": "lv",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 608,
+        "w": 302,
+        "h": 48
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16566",
+      "figmaId": "790:16566",
+      "name": "充值地址",
+      "type": "TEXT",
+      "text": "充值地址",
+      "box": {
+        "x": 44,
+        "y": 608,
+        "w": 302,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "790:16596",
+      "figmaId": "790:16596",
+      "name": "Frame 2147225301",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 620,
+        "w": 302,
+        "h": 36
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 0,
+          "b": 6,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "790:16567",
+      "figmaId": "790:16567",
+      "name": "TG9kq8x4Qz7mN2vP5wL3hR6bC1dF0sJ8a",
+      "type": "TEXT",
+      "text": "TG9kq8x4Qz7mN2vP5wL3hR6bC1dF0sJ8a",
+      "box": {
+        "x": 44,
+        "y": 630.5,
+        "w": 264,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 15.12,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 6
+    },
+    {
+      "key": "790:16591",
+      "figmaId": "790:16591",
+      "name": "copy",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 322,
+        "y": 626,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "borderRadius": 7.384615421295166,
+        "padding": {
+          "t": 5.538461685180664,
+          "r": 5.538461685180664,
+          "b": 5.538461685180664,
+          "l": 5.538461685180664
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "790:16592",
+      "figmaId": "790:16592",
+      "name": "Linear / Essentional, UI / Copy",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 327.54,
+        "y": 631.54,
+        "w": 12.92,
+        "h": 12.92
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "790:16593",
+      "figmaId": "790:16593",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 330.77,
+        "y": 634.23,
+        "w": 8.08,
+        "h": 9.15
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 0.8076923489570618
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "790:16594",
+      "figmaId": "790:16594",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 329.15,
+        "y": 632.62,
+        "w": 8.08,
+        "h": 9.15
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 0.8076923489570618
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "790:16620",
+      "figmaId": "790:16620",
+      "name": "Frame 2147225302",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 680,
+        "w": 326,
+        "h": 42
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 12,
+          "b": 0,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "790:16610",
+      "figmaId": "790:16610",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 680,
+        "w": 302,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "790:16611",
+      "figmaId": "790:16611",
+      "name": "最小充值",
+      "type": "TEXT",
+      "text": "最小充值",
+      "box": {
+        "x": 44,
+        "y": 683,
+        "w": 40,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "790:16612",
+      "figmaId": "790:16612",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 311,
+        "y": 683,
+        "w": 35,
+        "h": 12
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16613",
+      "figmaId": "790:16613",
+      "name": "1 USDT",
+      "type": "TEXT",
+      "text": "1 USDT",
+      "box": {
+        "x": 311,
+        "y": 683,
+        "w": 35,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "790:16615",
+      "figmaId": "790:16615",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 704,
+        "w": 302,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "790:16616",
+      "figmaId": "790:16616",
+      "name": "充值确认",
+      "type": "TEXT",
+      "text": "充值确认",
+      "box": {
+        "x": 44,
+        "y": 707,
+        "w": 40,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "790:16617",
+      "figmaId": "790:16617",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 290,
+        "y": 707,
+        "w": 56,
+        "h": 12
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "790:16618",
+      "figmaId": "790:16618",
+      "name": "3次网络确认",
+      "type": "TEXT",
+      "text": "3次网络确认",
+      "box": {
+        "x": 290,
+        "y": 707,
+        "w": 56,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "829:7295",
+      "figmaId": "829:7295",
+      "name": "Property 1=USDT-ERC20",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 754,
+        "w": 350,
+        "h": 400
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "829:7296",
+      "figmaId": "829:7296",
+      "name": "Frame 2147225298",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 167.5,
+        "y": 766,
+        "w": 55,
+        "h": 16
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "829:7297",
+      "figmaId": "829:7297",
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 167.5,
+        "y": 766,
+        "w": 16,
+        "h": 16
+      },
+      "style": {
+        "backgroundColor": "#26a07b",
+        "borderRadius": 11.82608699798584
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7298",
+      "figmaId": "829:7298",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 167.5,
+        "y": 766,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7299",
+      "figmaId": "829:7299",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 170.68,
+        "y": 769.67,
+        "w": 9.67,
+        "h": 8.91
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7300",
+      "figmaId": "829:7300",
+      "name": "USDT",
+      "type": "TEXT",
+      "text": "USDT",
+      "box": {
+        "x": 189.5,
+        "y": 768,
+        "w": 33,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "829:7301",
+      "figmaId": "829:7301",
+      "name": "QR Code",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 129,
+        "y": 794,
+        "w": 132,
+        "h": 132
+      },
+      "style": {
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 6,
+          "color": "#000000@0.00"
+        }
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "829:7302",
+      "figmaId": "829:7302",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 129,
+        "y": 794,
+        "w": 132,
+        "h": 132
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 12
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7303",
+      "figmaId": "829:7303",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 137.25,
+        "y": 802.25,
+        "w": 115.5,
+        "h": 115.5
+      },
+      "style": {
+        "backgroundColor": "#eabb62"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7304",
+      "figmaId": "829:7304",
+      "name": "Frame 2147225300",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 938,
+        "w": 326,
+        "h": 150
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "829:7305",
+      "figmaId": "829:7305",
+      "name": "账户信息",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 938,
+        "w": 326,
+        "h": 72
+      },
+      "style": {
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7306",
+      "figmaId": "829:7306",
+      "name": "lv",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 950,
+        "w": 288,
+        "h": 48
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7307",
+      "figmaId": "829:7307",
+      "name": "区块链网络",
+      "type": "TEXT",
+      "text": "区块链网络",
+      "box": {
+        "x": 44,
+        "y": 950,
+        "w": 288,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "829:7308",
+      "figmaId": "829:7308",
+      "name": "Frame 2147225303",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 962,
+        "w": 288,
+        "h": 36
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 0,
+          "b": 6,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "867:16694",
+      "figmaId": "867:16694",
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 970,
+        "w": 20,
+        "h": 20
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 0.625,
+        "borderRadius": 14.782608985900879
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "867:16695",
+      "figmaId": "867:16695",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 970,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "867:16696",
+      "figmaId": "867:16696",
+      "name": "ethereum-eth-logo",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 49.83,
+        "y": 973.33,
+        "w": 9.17,
+        "h": 13.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "867:16697",
+      "figmaId": "867:16697",
+      "name": "Layer x0020 1",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 50.07,
+        "y": 973.33,
+        "w": 8.19,
+        "h": 13.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "867:16698",
+      "figmaId": "867:16698",
+      "name": "1421394342400",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 50.07,
+        "y": 973.33,
+        "w": 8.19,
+        "h": 13.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 9
+    },
+    {
+      "key": "867:16699",
+      "figmaId": "867:16699",
+      "name": "Group",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 50.07,
+        "y": 973.33,
+        "w": 8.19,
+        "h": 13.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 10
+    },
+    {
+      "key": "867:16700",
+      "figmaId": "867:16700",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 54.08,
+        "y": 973.33,
+        "w": 4.18,
+        "h": 9.21
+      },
+      "style": {
+        "backgroundColor": "#343434"
+      },
+      "parentStyle": null,
+      "depth": 11
+    },
+    {
+      "key": "867:16701",
+      "figmaId": "867:16701",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 50.07,
+        "y": 973.33,
+        "w": 4.09,
+        "h": 9.21
+      },
+      "style": {
+        "backgroundColor": "#8c8c8c"
+      },
+      "parentStyle": null,
+      "depth": 11
+    },
+    {
+      "key": "867:16702",
+      "figmaId": "867:16702",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 54.12,
+        "y": 980.9,
+        "w": 4.15,
+        "h": 5.77
+      },
+      "style": {
+        "backgroundColor": "#3c3c3b"
+      },
+      "parentStyle": null,
+      "depth": 11
+    },
+    {
+      "key": "867:16703",
+      "figmaId": "867:16703",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 50.07,
+        "y": 980.9,
+        "w": 4.09,
+        "h": 5.77
+      },
+      "style": {
+        "backgroundColor": "#8c8c8c"
+      },
+      "parentStyle": null,
+      "depth": 11
+    },
+    {
+      "key": "867:16704",
+      "figmaId": "867:16704",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 54.17,
+        "y": 978.26,
+        "w": 4.09,
+        "h": 4.28
+      },
+      "style": {
+        "backgroundColor": "#141414"
+      },
+      "parentStyle": null,
+      "depth": 11
+    },
+    {
+      "key": "867:16705",
+      "figmaId": "867:16705",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 50.07,
+        "y": 978.26,
+        "w": 4.09,
+        "h": 4.28
+      },
+      "style": {
+        "backgroundColor": "#393939"
+      },
+      "parentStyle": null,
+      "depth": 11
+    },
+    {
+      "key": "829:7312",
+      "figmaId": "829:7312",
+      "name": "ERC20(Ethereum)",
+      "type": "TEXT",
+      "text": "ERC20(Ethereum)",
+      "box": {
+        "x": 70,
+        "y": 968,
+        "w": 262,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 15.12,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 6
+    },
+    {
+      "key": "829:7313",
+      "figmaId": "829:7313",
+      "name": "账户信息",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 1010,
+        "w": 326,
+        "h": 78
+      },
+      "style": {
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7314",
+      "figmaId": "829:7314",
+      "name": "lv",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 49,
+        "y": 1022,
+        "w": 292,
+        "h": 54
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7315",
+      "figmaId": "829:7315",
+      "name": "充值地址",
+      "type": "TEXT",
+      "text": "充值地址",
+      "box": {
+        "x": 49,
+        "y": 1022,
+        "w": 292,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "829:7316",
+      "figmaId": "829:7316",
+      "name": "Frame 2147225301",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 49,
+        "y": 1034,
+        "w": 292,
+        "h": 42
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 0,
+          "b": 6,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "829:7317",
+      "figmaId": "829:7317",
+      "name": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "type": "TEXT",
+      "text": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "box": {
+        "x": 49,
+        "y": 1040,
+        "w": 262,
+        "h": 30
+      },
+      "style": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 15.12,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 6
+    },
+    {
+      "key": "829:7318",
+      "figmaId": "829:7318",
+      "name": "copy",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 317,
+        "y": 1043,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "borderRadius": 7.384615421295166,
+        "padding": {
+          "t": 5.538461685180664,
+          "r": 5.538461685180664,
+          "b": 5.538461685180664,
+          "l": 5.538461685180664
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "829:7319",
+      "figmaId": "829:7319",
+      "name": "Linear / Essentional, UI / Copy",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 322.54,
+        "y": 1048.54,
+        "w": 12.92,
+        "h": 12.92
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "829:7320",
+      "figmaId": "829:7320",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 325.77,
+        "y": 1051.23,
+        "w": 8.08,
+        "h": 9.15
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 0.8076923489570618
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "829:7321",
+      "figmaId": "829:7321",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 324.15,
+        "y": 1049.62,
+        "w": 8.08,
+        "h": 9.15
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 0.8076923489570618
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "829:7322",
+      "figmaId": "829:7322",
+      "name": "Frame 2147225302",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 1100,
+        "w": 326,
+        "h": 42
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 12,
+          "b": 0,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "829:7323",
+      "figmaId": "829:7323",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1100,
+        "w": 302,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7324",
+      "figmaId": "829:7324",
+      "name": "最小充值",
+      "type": "TEXT",
+      "text": "最小充值",
+      "box": {
+        "x": 44,
+        "y": 1103,
+        "w": 40,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "829:7325",
+      "figmaId": "829:7325",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 311,
+        "y": 1103,
+        "w": 35,
+        "h": 12
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7326",
+      "figmaId": "829:7326",
+      "name": "1 USDT",
+      "type": "TEXT",
+      "text": "1 USDT",
+      "box": {
+        "x": 311,
+        "y": 1103,
+        "w": 35,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "829:7327",
+      "figmaId": "829:7327",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1124,
+        "w": 302,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7328",
+      "figmaId": "829:7328",
+      "name": "充值确认",
+      "type": "TEXT",
+      "text": "充值确认",
+      "box": {
+        "x": 44,
+        "y": 1127,
+        "w": 40,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "829:7329",
+      "figmaId": "829:7329",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 284,
+        "y": 1127,
+        "w": 62,
+        "h": 12
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7330",
+      "figmaId": "829:7330",
+      "name": "12次网络确认",
+      "type": "TEXT",
+      "text": "12次网络确认",
+      "box": {
+        "x": 284,
+        "y": 1127,
+        "w": 62,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "829:7343",
+      "figmaId": "829:7343",
+      "name": "Property 1=USDT-BEP20",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 1174,
+        "w": 350,
+        "h": 400
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "829:7344",
+      "figmaId": "829:7344",
+      "name": "Frame 2147225298",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 167.5,
+        "y": 1186,
+        "w": 55,
+        "h": 16
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "829:7345",
+      "figmaId": "829:7345",
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 167.5,
+        "y": 1186,
+        "w": 16,
+        "h": 16
+      },
+      "style": {
+        "backgroundColor": "#26a07b",
+        "borderRadius": 11.82608699798584
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7346",
+      "figmaId": "829:7346",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 167.5,
+        "y": 1186,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7347",
+      "figmaId": "829:7347",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 170.68,
+        "y": 1189.67,
+        "w": 9.67,
+        "h": 8.91
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7348",
+      "figmaId": "829:7348",
+      "name": "USDT",
+      "type": "TEXT",
+      "text": "USDT",
+      "box": {
+        "x": 189.5,
+        "y": 1188,
+        "w": 33,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "829:7349",
+      "figmaId": "829:7349",
+      "name": "QR Code",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 129,
+        "y": 1214,
+        "w": 132,
+        "h": 132
+      },
+      "style": {
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 6,
+          "color": "#000000@0.00"
+        }
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "829:7350",
+      "figmaId": "829:7350",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 129,
+        "y": 1214,
+        "w": 132,
+        "h": 132
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 12
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7351",
+      "figmaId": "829:7351",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 137.25,
+        "y": 1222.25,
+        "w": 115.5,
+        "h": 115.5
+      },
+      "style": {
+        "backgroundColor": "#eabb62"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7352",
+      "figmaId": "829:7352",
+      "name": "Frame 2147225300",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 1358,
+        "w": 326,
+        "h": 150
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "829:7353",
+      "figmaId": "829:7353",
+      "name": "账户信息",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 1358,
+        "w": 326,
+        "h": 72
+      },
+      "style": {
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7354",
+      "figmaId": "829:7354",
+      "name": "lv",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1370,
+        "w": 288,
+        "h": 48
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7355",
+      "figmaId": "829:7355",
+      "name": "区块链网络",
+      "type": "TEXT",
+      "text": "区块链网络",
+      "box": {
+        "x": 44,
+        "y": 1370,
+        "w": 288,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "829:7356",
+      "figmaId": "829:7356",
+      "name": "Frame 2147225303",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1382,
+        "w": 288,
+        "h": 36
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 0,
+          "b": 6,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "867:16707",
+      "figmaId": "867:16707",
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1390,
+        "w": 20,
+        "h": 20
+      },
+      "style": {
+        "backgroundColor": "#000000",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 0.625,
+        "borderRadius": 14.782608985900879
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "867:16708",
+      "figmaId": "867:16708",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1390,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "867:16709",
+      "figmaId": "867:16709",
+      "name": "binance-coin-bnb-logo",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 47.33,
+        "y": 1393.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "867:16710",
+      "figmaId": "867:16710",
+      "name": "Layer 2",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 47.33,
+        "y": 1393.33,
+        "w": 13.31,
+        "h": 13.31
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "867:16711",
+      "figmaId": "867:16711",
+      "name": "Layer 1",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 47.33,
+        "y": 1393.33,
+        "w": 13.31,
+        "h": 13.31
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 9
+    },
+    {
+      "key": "867:16712",
+      "figmaId": "867:16712",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 47.33,
+        "y": 1393.33,
+        "w": 13.31,
+        "h": 13.31
+      },
+      "style": {
+        "backgroundColor": "#f3ba2f"
+      },
+      "parentStyle": null,
+      "depth": 10
+    },
+    {
+      "key": "867:16713",
+      "figmaId": "867:16713",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 52.46,
+        "y": 1398.46,
+        "w": 3.05,
+        "h": 3.05
+      },
+      "style": {
+        "backgroundColor": "#f3ba2f"
+      },
+      "parentStyle": null,
+      "depth": 10
+    },
+    {
+      "key": "829:7360",
+      "figmaId": "829:7360",
+      "name": "BEP20(BSC)",
+      "type": "TEXT",
+      "text": "BEP20(BSC)",
+      "box": {
+        "x": 70,
+        "y": 1388,
+        "w": 262,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 15.12,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 6
+    },
+    {
+      "key": "829:7361",
+      "figmaId": "829:7361",
+      "name": "账户信息",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 1430,
+        "w": 326,
+        "h": 78
+      },
+      "style": {
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7362",
+      "figmaId": "829:7362",
+      "name": "lv",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 49,
+        "y": 1442,
+        "w": 292,
+        "h": 54
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7363",
+      "figmaId": "829:7363",
+      "name": "充值地址",
+      "type": "TEXT",
+      "text": "充值地址",
+      "box": {
+        "x": 49,
+        "y": 1442,
+        "w": 292,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "867:16749",
+      "figmaId": "867:16749",
+      "name": "Frame 2147225301",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 49,
+        "y": 1454,
+        "w": 292,
+        "h": 42
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 0,
+          "b": 6,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "867:16750",
+      "figmaId": "867:16750",
+      "name": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "type": "TEXT",
+      "text": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "box": {
+        "x": 49,
+        "y": 1460,
+        "w": 262,
+        "h": 30
+      },
+      "style": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 15.12,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 6
+    },
+    {
+      "key": "867:16751",
+      "figmaId": "867:16751",
+      "name": "copy",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 317,
+        "y": 1463,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "borderRadius": 7.384615421295166,
+        "padding": {
+          "t": 5.538461685180664,
+          "r": 5.538461685180664,
+          "b": 5.538461685180664,
+          "l": 5.538461685180664
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "867:16752",
+      "figmaId": "867:16752",
+      "name": "Linear / Essentional, UI / Copy",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 322.54,
+        "y": 1468.54,
+        "w": 12.92,
+        "h": 12.92
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "867:16753",
+      "figmaId": "867:16753",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 325.77,
+        "y": 1471.23,
+        "w": 8.08,
+        "h": 9.15
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 0.8076923489570618
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "867:16754",
+      "figmaId": "867:16754",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 324.15,
+        "y": 1469.62,
+        "w": 8.08,
+        "h": 9.15
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 0.8076923489570618
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "829:7370",
+      "figmaId": "829:7370",
+      "name": "Frame 2147225302",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 1520,
+        "w": 326,
+        "h": 42
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 12,
+          "b": 0,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "829:7371",
+      "figmaId": "829:7371",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1520,
+        "w": 302,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7372",
+      "figmaId": "829:7372",
+      "name": "最小充值",
+      "type": "TEXT",
+      "text": "最小充值",
+      "box": {
+        "x": 44,
+        "y": 1523,
+        "w": 40,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "829:7373",
+      "figmaId": "829:7373",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 311,
+        "y": 1523,
+        "w": 35,
+        "h": 12
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7374",
+      "figmaId": "829:7374",
+      "name": "1 USDT",
+      "type": "TEXT",
+      "text": "1 USDT",
+      "box": {
+        "x": 311,
+        "y": 1523,
+        "w": 35,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "829:7375",
+      "figmaId": "829:7375",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1544,
+        "w": 302,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7376",
+      "figmaId": "829:7376",
+      "name": "充值确认",
+      "type": "TEXT",
+      "text": "充值确认",
+      "box": {
+        "x": 44,
+        "y": 1547,
+        "w": 40,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "829:7377",
+      "figmaId": "829:7377",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 284,
+        "y": 1547,
+        "w": 62,
+        "h": 12
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7378",
+      "figmaId": "829:7378",
+      "name": "15次网络确认",
+      "type": "TEXT",
+      "text": "15次网络确认",
+      "box": {
+        "x": 284,
+        "y": 1547,
+        "w": 62,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "829:7429",
+      "figmaId": "829:7429",
+      "name": "Property 1=USDC-ERC20",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 1594,
+        "w": 350,
+        "h": 400
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "829:7430",
+      "figmaId": "829:7430",
+      "name": "Frame 2147225298",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 167.5,
+        "y": 1606,
+        "w": 55,
+        "h": 16
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "829:7467",
+      "figmaId": "829:7467",
+      "name": "Crypto Logos / USD Coin",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 167.5,
+        "y": 1606,
+        "w": 16,
+        "h": 16
+      },
+      "style": {
+        "backgroundColor": "#2775ca",
+        "borderRadius": 11.82608699798584
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7468",
+      "figmaId": "829:7468",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 167.5,
+        "y": 1606,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7469",
+      "figmaId": "829:7469",
+      "name": "USD Coin Logo",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 170.23,
+        "y": 1608.8,
+        "w": 10.57,
+        "h": 10.14
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7470",
+      "figmaId": "829:7470",
+      "name": "Vector 2",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 173.53,
+        "y": 1610.32,
+        "w": 3.92,
+        "h": 7.06
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "829:7471",
+      "figmaId": "829:7471",
+      "name": "Vector 1",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 170.23,
+        "y": 1608.8,
+        "w": 10.57,
+        "h": 10.14
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "829:7434",
+      "figmaId": "829:7434",
+      "name": "USDC",
+      "type": "TEXT",
+      "text": "USDC",
+      "box": {
+        "x": 189.5,
+        "y": 1608,
+        "w": 33,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "829:7435",
+      "figmaId": "829:7435",
+      "name": "QR Code",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 129,
+        "y": 1634,
+        "w": 132,
+        "h": 132
+      },
+      "style": {
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 6,
+          "color": "#000000@0.00"
+        }
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "829:7436",
+      "figmaId": "829:7436",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 129,
+        "y": 1634,
+        "w": 132,
+        "h": 132
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 12
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7437",
+      "figmaId": "829:7437",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 137.25,
+        "y": 1642.25,
+        "w": 115.5,
+        "h": 115.5
+      },
+      "style": {
+        "backgroundColor": "#eabb62"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7438",
+      "figmaId": "829:7438",
+      "name": "Frame 2147225300",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 1778,
+        "w": 326,
+        "h": 150
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "829:7439",
+      "figmaId": "829:7439",
+      "name": "账户信息",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 1778,
+        "w": 326,
+        "h": 72
+      },
+      "style": {
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7440",
+      "figmaId": "829:7440",
+      "name": "lv",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1790,
+        "w": 288,
+        "h": 48
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7441",
+      "figmaId": "829:7441",
+      "name": "区块链网络",
+      "type": "TEXT",
+      "text": "区块链网络",
+      "box": {
+        "x": 44,
+        "y": 1790,
+        "w": 288,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "829:7442",
+      "figmaId": "829:7442",
+      "name": "Frame 2147225303",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1802,
+        "w": 288,
+        "h": 36
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 0,
+          "b": 6,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "867:16715",
+      "figmaId": "867:16715",
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1810,
+        "w": 20,
+        "h": 20
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 0.625,
+        "borderRadius": 14.782608985900879
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "867:16716",
+      "figmaId": "867:16716",
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1810,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "867:16717",
+      "figmaId": "867:16717",
+      "name": "ethereum-eth-logo",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 49.83,
+        "y": 1813.33,
+        "w": 9.17,
+        "h": 13.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "867:16718",
+      "figmaId": "867:16718",
+      "name": "Layer x0020 1",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 50.07,
+        "y": 1813.33,
+        "w": 8.19,
+        "h": 13.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "867:16719",
+      "figmaId": "867:16719",
+      "name": "1421394342400",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 50.07,
+        "y": 1813.33,
+        "w": 8.19,
+        "h": 13.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 9
+    },
+    {
+      "key": "867:16720",
+      "figmaId": "867:16720",
+      "name": "Group",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 50.07,
+        "y": 1813.33,
+        "w": 8.19,
+        "h": 13.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 10
+    },
+    {
+      "key": "867:16721",
+      "figmaId": "867:16721",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 54.08,
+        "y": 1813.33,
+        "w": 4.18,
+        "h": 9.21
+      },
+      "style": {
+        "backgroundColor": "#343434"
+      },
+      "parentStyle": null,
+      "depth": 11
+    },
+    {
+      "key": "867:16722",
+      "figmaId": "867:16722",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 50.07,
+        "y": 1813.33,
+        "w": 4.09,
+        "h": 9.21
+      },
+      "style": {
+        "backgroundColor": "#8c8c8c"
+      },
+      "parentStyle": null,
+      "depth": 11
+    },
+    {
+      "key": "867:16723",
+      "figmaId": "867:16723",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 54.12,
+        "y": 1820.9,
+        "w": 4.15,
+        "h": 5.77
+      },
+      "style": {
+        "backgroundColor": "#3c3c3b"
+      },
+      "parentStyle": null,
+      "depth": 11
+    },
+    {
+      "key": "867:16724",
+      "figmaId": "867:16724",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 50.07,
+        "y": 1820.9,
+        "w": 4.09,
+        "h": 5.77
+      },
+      "style": {
+        "backgroundColor": "#8c8c8c"
+      },
+      "parentStyle": null,
+      "depth": 11
+    },
+    {
+      "key": "867:16725",
+      "figmaId": "867:16725",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 54.17,
+        "y": 1818.26,
+        "w": 4.09,
+        "h": 4.28
+      },
+      "style": {
+        "backgroundColor": "#141414"
+      },
+      "parentStyle": null,
+      "depth": 11
+    },
+    {
+      "key": "867:16726",
+      "figmaId": "867:16726",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 50.07,
+        "y": 1818.26,
+        "w": 4.09,
+        "h": 4.28
+      },
+      "style": {
+        "backgroundColor": "#393939"
+      },
+      "parentStyle": null,
+      "depth": 11
+    },
+    {
+      "key": "829:7446",
+      "figmaId": "829:7446",
+      "name": "ERC20(Ethereum)",
+      "type": "TEXT",
+      "text": "ERC20(Ethereum)",
+      "box": {
+        "x": 70,
+        "y": 1808,
+        "w": 262,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 15.12,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 6
+    },
+    {
+      "key": "867:16766",
+      "figmaId": "867:16766",
+      "name": "账户信息",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 1850,
+        "w": 326,
+        "h": 78
+      },
+      "style": {
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "867:16767",
+      "figmaId": "867:16767",
+      "name": "lv",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 49,
+        "y": 1862,
+        "w": 292,
+        "h": 54
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "867:16768",
+      "figmaId": "867:16768",
+      "name": "充值地址",
+      "type": "TEXT",
+      "text": "充值地址",
+      "box": {
+        "x": 49,
+        "y": 1862,
+        "w": 292,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "867:16769",
+      "figmaId": "867:16769",
+      "name": "Frame 2147225301",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 49,
+        "y": 1874,
+        "w": 292,
+        "h": 42
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 0,
+          "b": 6,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "867:16770",
+      "figmaId": "867:16770",
+      "name": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "type": "TEXT",
+      "text": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "box": {
+        "x": 49,
+        "y": 1880,
+        "w": 262,
+        "h": 30
+      },
+      "style": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 15.12,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 6
+    },
+    {
+      "key": "867:16771",
+      "figmaId": "867:16771",
+      "name": "copy",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 317,
+        "y": 1883,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "borderRadius": 7.384615421295166,
+        "padding": {
+          "t": 5.538461685180664,
+          "r": 5.538461685180664,
+          "b": 5.538461685180664,
+          "l": 5.538461685180664
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "867:16772",
+      "figmaId": "867:16772",
+      "name": "Linear / Essentional, UI / Copy",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 322.54,
+        "y": 1888.54,
+        "w": 12.92,
+        "h": 12.92
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "867:16773",
+      "figmaId": "867:16773",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 325.77,
+        "y": 1891.23,
+        "w": 8.08,
+        "h": 9.15
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 0.8076923489570618
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "867:16774",
+      "figmaId": "867:16774",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 324.15,
+        "y": 1889.62,
+        "w": 8.08,
+        "h": 9.15
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 0.8076923489570618
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "829:7456",
+      "figmaId": "829:7456",
+      "name": "Frame 2147225302",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 32,
+        "y": 1940,
+        "w": 326,
+        "h": 42
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 12,
+          "b": 0,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "829:7457",
+      "figmaId": "829:7457",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1940,
+        "w": 302,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7458",
+      "figmaId": "829:7458",
+      "name": "最小充值",
+      "type": "TEXT",
+      "text": "最小充值",
+      "box": {
+        "x": 44,
+        "y": 1943,
+        "w": 40,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "829:7459",
+      "figmaId": "829:7459",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 310,
+        "y": 1943,
+        "w": 36,
+        "h": 12
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7460",
+      "figmaId": "829:7460",
+      "name": "1 USDC",
+      "type": "TEXT",
+      "text": "1 USDC",
+      "box": {
+        "x": 310,
+        "y": 1943,
+        "w": 36,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "829:7461",
+      "figmaId": "829:7461",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 1964,
+        "w": 302,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "829:7462",
+      "figmaId": "829:7462",
+      "name": "充值确认",
+      "type": "TEXT",
+      "text": "充值确认",
+      "box": {
+        "x": 44,
+        "y": 1967,
+        "w": 40,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "829:7463",
+      "figmaId": "829:7463",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 284,
+        "y": 1967,
+        "w": 62,
+        "h": 12
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "829:7464",
+      "figmaId": "829:7464",
+      "name": "12次网络确认",
+      "type": "TEXT",
+      "text": "12次网络确认",
+      "box": {
+        "x": 284,
+        "y": 1967,
+        "w": 62,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.08",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    }
+  ]
+}
