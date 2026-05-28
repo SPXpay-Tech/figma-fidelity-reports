@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "figmaFrame": {
+      "id": "677:4762",
+      "name": "Account Balance Card · 账户余额卡片",
+      "width": 350,
+      "height": 87
+    },
+    "implFrame": {
+      "id": "page",
+      "name": "page",
+      "width": 350,
+      "height": 87
+    },
+    "matchMode": "fallback",
+    "originOffset": {
+      "x": 0,
+      "y": -1.03
+    },
+    "generated": "2026-05-28T10:58:24.609Z"
+  },
+  "summary": {
+    "checks": 24,
+    "fails": 0,
+    "fidelityScore": 100,
+    "bySeverity": {},
+    "gate": {
+      "blocking": 0,
+      "minor": 0,
+      "pass": true
+    },
+    "approved": 0
+  },
+  "failsByNode": {},
+  "approvedDeviations": [],
+  "findings": [
+    {
+      "figmaId": "I677:4762;641:9064",
+      "node": "SGB银行账户",
+      "type": "TEXT",
+      "text": "SGB银行账户",
+      "prop": "box.x",
+      "figma": 46,
+      "impl": 46,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;641:9064",
+      "node": "SGB银行账户",
+      "type": "TEXT",
+      "text": "SGB银行账户",
+      "prop": "box.y",
+      "figma": 21,
+      "impl": 21,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;641:9064",
+      "node": "SGB银行账户",
+      "type": "TEXT",
+      "text": "SGB银行账户",
+      "prop": "fontSize",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;641:9064",
+      "node": "SGB银行账户",
+      "type": "TEXT",
+      "text": "SGB银行账户",
+      "prop": "fontWeight",
+      "figma": 500,
+      "impl": 500,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;641:9064",
+      "node": "SGB银行账户",
+      "type": "TEXT",
+      "text": "SGB银行账户",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "PlusJakartaSans-Medium",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;641:9064",
+      "node": "SGB银行账户",
+      "type": "TEXT",
+      "text": "SGB银行账户",
+      "prop": "lineHeight",
+      "figma": 14.06,
+      "impl": 14.06,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;641:9064",
+      "node": "SGB银行账户",
+      "type": "TEXT",
+      "text": "SGB银行账户",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;641:9064",
+      "node": "SGB银行账户",
+      "type": "TEXT",
+      "text": "SGB银行账户",
+      "prop": "color",
+      "figma": "#24201a",
+      "impl": "#24201a",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5387",
+      "node": "查看全部",
+      "type": "TEXT",
+      "text": "查看全部",
+      "prop": "box.x",
+      "figma": 270,
+      "impl": 270,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5387",
+      "node": "查看全部",
+      "type": "TEXT",
+      "text": "查看全部",
+      "prop": "box.y",
+      "figma": 21,
+      "impl": 21,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5387",
+      "node": "查看全部",
+      "type": "TEXT",
+      "text": "查看全部",
+      "prop": "fontSize",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5387",
+      "node": "查看全部",
+      "type": "TEXT",
+      "text": "查看全部",
+      "prop": "fontWeight",
+      "figma": 400,
+      "impl": 400,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5387",
+      "node": "查看全部",
+      "type": "TEXT",
+      "text": "查看全部",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "PlusJakartaSans-Regular",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5387",
+      "node": "查看全部",
+      "type": "TEXT",
+      "text": "查看全部",
+      "prop": "lineHeight",
+      "figma": 14.06,
+      "impl": 14.06,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5387",
+      "node": "查看全部",
+      "type": "TEXT",
+      "text": "查看全部",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5387",
+      "node": "查看全部",
+      "type": "TEXT",
+      "text": "查看全部",
+      "prop": "color",
+      "figma": "#aaa286",
+      "impl": "#aaa286",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5421",
+      "node": "总余额",
+      "type": "TEXT",
+      "text": "总余额",
+      "prop": "box.x",
+      "figma": 16,
+      "impl": 16,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5421",
+      "node": "总余额",
+      "type": "TEXT",
+      "text": "总余额",
+      "prop": "box.y",
+      "figma": 58.5,
+      "impl": 59.03,
+      "delta": 0.53,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5421",
+      "node": "总余额",
+      "type": "TEXT",
+      "text": "总余额",
+      "prop": "fontSize",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5421",
+      "node": "总余额",
+      "type": "TEXT",
+      "text": "总余额",
+      "prop": "fontWeight",
+      "figma": 500,
+      "impl": 500,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5421",
+      "node": "总余额",
+      "type": "TEXT",
+      "text": "总余额",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "PlusJakartaSans-Medium",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5421",
+      "node": "总余额",
+      "type": "TEXT",
+      "text": "总余额",
+      "prop": "lineHeight",
+      "figma": 14.06,
+      "impl": 14.06,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5421",
+      "node": "总余额",
+      "type": "TEXT",
+      "text": "总余额",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "I677:4762;692:5421",
+      "node": "总余额",
+      "type": "TEXT",
+      "text": "总余额",
+      "prop": "color",
+      "figma": "#aaa286",
+      "impl": "#aaa286",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    }
+  ]
+}
