@@ -1,0 +1,148 @@
+{
+  "frame": {
+    "id": "619:8235",
+    "name": "Frame 2147225261",
+    "width": 350,
+    "height": 632
+  },
+  "offset": {
+    "x": 1,
+    "y": 1
+  },
+  "threshold": 12,
+  "flagged": 0,
+  "regions": [
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 104,
+        "y": 478,
+        "w": 48,
+        "h": 22
+      },
+      "figmaFill": "#00d17d@0.10",
+      "mismatch": 0.8
+    },
+    {
+      "name": "Transaction Row · 交易行",
+      "type": "INSTANCE",
+      "box": {
+        "x": 12,
+        "y": 580,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.2
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 481.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#fcc719@0.15",
+      "mismatch": 0.1
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 537.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 0.1
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 107.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 160.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 213.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 266.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 319.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 372.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 425.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#884dfe@0.10",
+      "mismatch": 0
+    }
+  ]
+}
