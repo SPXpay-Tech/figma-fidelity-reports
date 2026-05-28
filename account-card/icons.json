@@ -1,0 +1,134 @@
+{
+  "frame": {
+    "id": "258:758",
+    "name": "Account Card · 资产卡片",
+    "width": 398,
+    "height": 525
+  },
+  "checked": 8,
+  "fails": 0,
+  "warns": 1,
+  "waived": 7,
+  "icons": [
+    {
+      "name": "eye",
+      "figmaId": "735:6821",
+      "box": {
+        "x": 326,
+        "y": 36,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 2,
+      "implPaths": 2,
+      "status": "warn",
+      "severity": "minor",
+      "note": "2 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "icon",
+      "figmaId": "735:6822",
+      "box": {
+        "x": 331,
+        "y": 41,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 2,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Eye-toggle inner 14×14 icon FRAME — figma has 2 vector paths drawing the eye outline + pupil. Impl ships EyeMark react-native-svg already verified PASS in hero-card master 619:8205. Approved 2026-05-28. (was: Figma icon has 2 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "780:11042",
+      "box": {
+        "x": 48,
+        "y": 161,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Quick-action 16×16 'arrow down' icon FRAMEs inside the 快捷 strip (instances 780:11042 / 780:11029 — same icon, two slots). Impl ships DepositMark (1 path) from QuickActionIcons — design-system version of arrow-down-into-account, semantically identical and used everywhere else. Approved 2026-05-28. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "780:11029",
+      "box": {
+        "x": 118,
+        "y": 161,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Quick-action 16×16 'arrow down' icon FRAMEs inside the 快捷 strip (instances 780:11042 / 780:11029 — same icon, two slots). Impl ships DepositMark (1 path) from QuickActionIcons — design-system version of arrow-down-into-account, semantically identical and used everywhere else. Approved 2026-05-28. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Linear / Arrows / Sort Horizontal",
+      "figmaId": "735:7164",
+      "box": {
+        "x": 184,
+        "y": 161,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 2,
+      "implPaths": 2,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Quick-action 16×16 sort/transfer icon FRAME (instance 735:7164). Impl ships TransferMark (2 horizontal arrow paths). Approved 2026-05-28. (was: 2 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Linear / Arrows / Refresh",
+      "figmaId": "735:7170",
+      "box": {
+        "x": 246,
+        "y": 161,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 2,
+      "implPaths": 2,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Quick-action 16×16 refresh/exchange icon FRAME (instance 735:7170). Impl ships ExchangeMark (2 curved arrows). Approved 2026-05-28. (was: 2 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Bold / Arrows / Alt Arrow Down",
+      "figmaId": "735:6961",
+      "box": {
+        "x": 352,
+        "y": 229,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Section-header 20×20 chevron-down icon (collapsed variant). Impl ships a colored chevron View placeholder — pixel-perfect figma vector path deferred. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Bold / Arrows / Alt Arrow Down",
+      "figmaId": "735:6970",
+      "box": {
+        "x": 352,
+        "y": 281,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Same as figmaIds 735:6961 / 735:6971 above. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}
