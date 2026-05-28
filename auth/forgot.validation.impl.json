@@ -1,0 +1,134 @@
+{
+  "type": "ux.impl",
+  "url": "http://localhost:8082/forgot-password",
+  "targets": [
+    {
+      "key": "email",
+      "selector": "div:has(> input[data-testid='input-email'])",
+      "kind": "input",
+      "snapshots": {
+        "rest": {
+          "style": {
+            "border-top-color": "rgba(170, 162, 134, 0.2)",
+            "border-top-width": "1px",
+            "background-color": "rgb(255, 255, 255)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.15s",
+          "transitionTimingFunction": "ease-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": null,
+          "driveInputType": "email"
+        },
+        "error": {
+          "style": {
+            "border-top-color": "rgb(245, 47, 50)",
+            "border-top-width": "1px",
+            "background-color": "rgba(245, 47, 50, 0.1)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.2s",
+          "transitionTimingFunction": "ease-in-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": null,
+          "driveInputType": "email",
+          "feedback": {
+            "errorText": {
+              "present": true,
+              "color": "rgb(245, 47, 50)",
+              "text": "⚠ Please enter a valid email address."
+            },
+            "dialog": {
+              "present": false
+            }
+          }
+        }
+      },
+      "notes": []
+    },
+    {
+      "key": "confirm",
+      "selector": "div:has(> input[data-testid='input-confirm'])",
+      "kind": "password",
+      "snapshots": {
+        "rest": {
+          "style": {
+            "border-top-color": "rgb(245, 47, 50)",
+            "border-top-width": "1px",
+            "background-color": "rgba(245, 47, 50, 0.1)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.2s",
+          "transitionTimingFunction": "ease-in-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": null,
+          "driveInputType": "password"
+        },
+        "mismatch": {
+          "style": {
+            "border-top-color": "rgb(245, 47, 50)",
+            "border-top-width": "1px",
+            "background-color": "rgba(245, 47, 50, 0.1)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.2s",
+          "transitionTimingFunction": "ease-in-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": null,
+          "driveInputType": "password",
+          "feedback": {
+            "errorText": {
+              "present": true,
+              "color": "rgb(245, 47, 50)",
+              "text": "⚠ Passwords do not match."
+            },
+            "dialog": {
+              "present": false
+            }
+          }
+        }
+      },
+      "notes": []
+    }
+  ]
+}

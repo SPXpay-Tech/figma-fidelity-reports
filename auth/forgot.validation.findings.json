@@ -1,0 +1,31 @@
+{
+  "type": "ux.findings",
+  "summary": {
+    "targets": 2,
+    "critical": 0,
+    "major": 0,
+    "minor": 0,
+    "info": 0,
+    "gate": {
+      "blocking": 0,
+      "pass": true
+    }
+  },
+  "matrix": [
+    {
+      "target": "email",
+      "state": "error",
+      "reachable": true,
+      "destination": null,
+      "motion": true
+    },
+    {
+      "target": "confirm",
+      "state": "mismatch",
+      "reachable": true,
+      "destination": null,
+      "motion": null
+    }
+  ],
+  "findings": []
+}

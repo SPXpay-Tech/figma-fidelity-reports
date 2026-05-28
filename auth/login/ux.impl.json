@@ -1,0 +1,312 @@
+{
+  "type": "ux.impl",
+  "url": "http://localhost:8082/login",
+  "targets": [
+    {
+      "key": "username",
+      "selector": "div:has(> input[data-testid='input-username'])",
+      "kind": "input",
+      "snapshots": {
+        "rest": {
+          "style": {
+            "border-top-color": "rgba(170, 162, 134, 0.2)",
+            "border-top-width": "1px",
+            "background-color": "rgb(255, 255, 255)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.15s",
+          "transitionTimingFunction": "ease-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": null,
+          "driveInputType": "email"
+        },
+        "focus": {
+          "style": {
+            "border-top-color": "rgb(234, 187, 98)",
+            "border-top-width": "1px",
+            "background-color": "rgb(255, 255, 255)",
+            "box-shadow": "rgba(234, 187, 98, 0.2) 0px 0px 0px 3px",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.15s",
+          "transitionTimingFunction": "ease-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": null,
+          "driveInputType": "email"
+        },
+        "filled": {
+          "style": {
+            "border-top-color": "rgb(234, 187, 98)",
+            "border-top-width": "1px",
+            "background-color": "rgb(255, 255, 255)",
+            "box-shadow": "rgba(234, 187, 98, 0.2) 0px 0px 0px 3px",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.15s",
+          "transitionTimingFunction": "ease-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": null,
+          "driveInputType": "email"
+        }
+      },
+      "notes": []
+    },
+    {
+      "key": "password",
+      "selector": "div:has(> input[data-testid='input-password'])",
+      "kind": "password",
+      "snapshots": {
+        "rest": {
+          "style": {
+            "border-top-color": "rgba(170, 162, 134, 0.2)",
+            "border-top-width": "1px",
+            "background-color": "rgb(255, 255, 255)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.15s",
+          "transitionTimingFunction": "ease-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": null,
+          "driveInputType": "password"
+        },
+        "focus": {
+          "style": {
+            "border-top-color": "rgb(234, 187, 98)",
+            "border-top-width": "1px",
+            "background-color": "rgb(255, 255, 255)",
+            "box-shadow": "rgba(234, 187, 98, 0.2) 0px 0px 0px 3px",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.15s",
+          "transitionTimingFunction": "ease-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": null,
+          "driveInputType": "password"
+        },
+        "filled": {
+          "style": {
+            "border-top-color": "rgb(234, 187, 98)",
+            "border-top-width": "1px",
+            "background-color": "rgb(255, 255, 255)",
+            "box-shadow": "rgba(234, 187, 98, 0.2) 0px 0px 0px 3px",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.15s",
+          "transitionTimingFunction": "ease-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": null,
+          "driveInputType": "password"
+        },
+        "reveal": {
+          "style": {
+            "border-top-color": "rgba(170, 162, 134, 0.2)",
+            "border-top-width": "1px",
+            "background-color": "rgb(255, 255, 255)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.15s",
+          "transitionTimingFunction": "ease-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": null,
+          "driveInputType": null
+        }
+      },
+      "notes": []
+    },
+    {
+      "key": "captcha",
+      "selector": "div:has(> input[data-testid='input-captcha'])",
+      "kind": "input",
+      "snapshots": {
+        "rest": {
+          "style": {
+            "border-top-color": "rgba(170, 162, 134, 0.2)",
+            "border-top-width": "1px",
+            "background-color": "rgb(255, 255, 255)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.15s",
+          "transitionTimingFunction": "ease-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": "data:image/jpg;base64,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",
+          "driveInputType": null
+        },
+        "focus": {
+          "style": {
+            "border-top-color": "rgb(234, 187, 98)",
+            "border-top-width": "1px",
+            "background-color": "rgb(255, 255, 255)",
+            "box-shadow": "rgba(234, 187, 98, 0.2) 0px 0px 0px 3px",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.15s",
+          "transitionTimingFunction": "ease-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": "data:image/jpg;base64,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",
+          "driveInputType": null
+        },
+        "filled": {
+          "style": {
+            "border-top-color": "rgb(234, 187, 98)",
+            "border-top-width": "1px",
+            "background-color": "rgb(255, 255, 255)",
+            "box-shadow": "rgba(234, 187, 98, 0.2) 0px 0px 0px 3px",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "12px"
+          },
+          "transitionProperty": "border-color, background-color, box-shadow",
+          "transitionDuration": "0.15s",
+          "transitionTimingFunction": "ease-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "",
+          "imgSrc": "data:image/jpg;base64,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",
+          "driveInputType": null
+        }
+      },
+      "notes": []
+    },
+    {
+      "key": "segmented-email",
+      "selector": "[data-testid='seg-login-email']",
+      "kind": "toggle",
+      "snapshots": {
+        "rest": {
+          "style": {
+            "border-top-color": "rgb(0, 0, 0)",
+            "border-top-width": "0px",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "8px"
+          },
+          "transitionProperty": "background-color, box-shadow",
+          "transitionDuration": "0.15s",
+          "transitionTimingFunction": "ease-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "邮箱登录",
+          "imgSrc": null
+        },
+        "selected": {
+          "style": {
+            "border-top-color": "rgb(0, 0, 0)",
+            "border-top-width": "0px",
+            "background-color": "rgb(234, 187, 98)",
+            "box-shadow": "rgba(10, 10, 10, 0.15) 0px 2px 3px 0px",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "8px"
+          },
+          "transitionProperty": "background-color, box-shadow",
+          "transitionDuration": "0.15s",
+          "transitionTimingFunction": "ease-out",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "邮箱登录",
+          "imgSrc": null
+        }
+      },
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,1678 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "451:3122",
+    "name": "📱 Login · 忘记密码",
+    "width": 390,
+    "height": 844
+  },
+  "nodes": [
+    {
+      "key": "451:3122",
+      "figmaId": "451:3122",
+      "name": "📱 Login · 忘记密码",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 844
+      },
+      "style": {
+        "backgroundColor": "#f9f9fa",
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "depth": 0
+    },
+    {
+      "key": "451:3123",
+      "figmaId": "451:3123",
+      "name": "杂",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 54
+      },
+      "style": {
+        "padding": {
+          "t": 14,
+          "r": 22,
+          "b": 0,
+          "l": 28
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 1
+    },
+    {
+      "key": "I451:3123;55:5",
+      "figmaId": "I451:3123;55:5",
+      "name": "9:41",
+      "type": "TEXT",
+      "text": "9:41",
+      "box": {
+        "x": 28,
+        "y": 24.5,
+        "w": 31,
+        "h": 19
+      },
+      "style": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": 15,
+        "fontWeight": 700,
+        "lineHeight": 18.9,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#3d3218"
+      },
+      "depth": 2
+    },
+    {
+      "key": "I451:3123;55:6",
+      "figmaId": "I451:3123;55:6",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 296,
+        "y": 27,
+        "w": 72,
+        "h": 14
+      },
+      "style": {},
+      "depth": 2
+    },
+    {
+      "key": "I451:3123;55:7",
+      "figmaId": "I451:3123;55:7",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 296,
+        "y": 33,
+        "w": 3.5,
+        "h": 8
+      },
+      "style": {
+        "backgroundColor": "#3d3218"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:3123;55:8",
+      "figmaId": "I451:3123;55:8",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 302,
+        "y": 31,
+        "w": 3.5,
+        "h": 10
+      },
+      "style": {
+        "backgroundColor": "#3d3218"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:3123;55:9",
+      "figmaId": "I451:3123;55:9",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 308,
+        "y": 29,
+        "w": 3.5,
+        "h": 12
+      },
+      "style": {
+        "backgroundColor": "#3d3218"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:3123;55:10",
+      "figmaId": "I451:3123;55:10",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 314,
+        "y": 27,
+        "w": 3.5,
+        "h": 14
+      },
+      "style": {
+        "backgroundColor": "#3d3218"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:3123;55:11",
+      "figmaId": "I451:3123;55:11",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 325.5,
+        "y": 29.81,
+        "w": 11,
+        "h": 2.19
+      },
+      "style": {
+        "backgroundColor": "#3d3218",
+        "borderColor": "#1c1a24",
+        "borderWidth": 2
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:3123;55:12",
+      "figmaId": "I451:3123;55:12",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 328.4,
+        "y": 34.04,
+        "w": 5.2,
+        "h": 0.96
+      },
+      "style": {
+        "backgroundColor": "#3d3218",
+        "borderColor": "#1c1a24",
+        "borderWidth": 2
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:3123;55:13",
+      "figmaId": "I451:3123;55:13",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 329.3,
+        "y": 36.3,
+        "w": 3.4,
+        "h": 3.4
+      },
+      "style": {
+        "backgroundColor": "#3d3218"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:3123;55:14",
+      "figmaId": "I451:3123;55:14",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 345,
+        "y": 29.5,
+        "w": 18,
+        "h": 9
+      },
+      "style": {
+        "backgroundColor": "#3d3218",
+        "borderColor": "#1c1a24",
+        "borderWidth": 1.2999999523162842
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:3123;55:15",
+      "figmaId": "I451:3123;55:15",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 347,
+        "y": 31.3,
+        "w": 12.5,
+        "h": 5.4
+      },
+      "style": {
+        "backgroundColor": "#3d3218"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:3123;55:16",
+      "figmaId": "I451:3123;55:16",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 364.4,
+        "y": 32.2,
+        "w": 0,
+        "h": 3.6
+      },
+      "style": {
+        "backgroundColor": "#3d3218",
+        "borderColor": "#1c1a24",
+        "borderWidth": 1.7000000476837158
+      },
+      "depth": 3
+    },
+    {
+      "key": "451:3124",
+      "figmaId": "451:3124",
+      "name": "content",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 54,
+        "w": 390,
+        "h": 778
+      },
+      "style": {
+        "padding": {
+          "t": 12,
+          "r": 20,
+          "b": 22,
+          "l": 20
+        },
+        "gap": 24,
+        "layout": "VERTICAL"
+      },
+      "depth": 1
+    },
+    {
+      "key": "461:5704",
+      "figmaId": "461:5704",
+      "name": "Frame 2147225249",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 350,
+        "h": 42
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 24,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 2
+    },
+    {
+      "key": "461:5734",
+      "figmaId": "461:5734",
+      "name": "返回按钮 / Nav Back",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 42,
+        "h": 42
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I461:5734;159:2",
+      "figmaId": "I461:5734;159:2",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "depth": 4
+    },
+    {
+      "key": "I461:5734;159:3",
+      "figmaId": "I461:5734;159:3",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 34.33,
+        "y": 82,
+        "w": 13.33,
+        "h": 10
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.5
+      },
+      "depth": 5
+    },
+    {
+      "key": "461:5706",
+      "figmaId": "461:5706",
+      "name": "🌐 语言切换 Language Toggle",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 302,
+        "y": 76,
+        "w": 68,
+        "h": 32
+      },
+      "style": {
+        "backgroundColor": "#f3f1e8",
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 4,
+          "b": 4,
+          "l": 4
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I461:5706;476:3",
+      "figmaId": "I461:5706;476:3",
+      "name": "seg-中",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 306,
+        "y": 80,
+        "w": 30,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 6,
+          "b": 4,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I461:5706;476:4",
+      "figmaId": "I461:5706;476:4",
+      "name": "中",
+      "type": "TEXT",
+      "text": "中",
+      "box": {
+        "x": 315,
+        "y": 85,
+        "w": 12,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#ffffff"
+      },
+      "depth": 5
+    },
+    {
+      "key": "I461:5706;476:5",
+      "figmaId": "I461:5706;476:5",
+      "name": "seg-EN",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 336,
+        "y": 80,
+        "w": 30,
+        "h": 24
+      },
+      "style": {
+        "borderRadius": 13,
+        "padding": {
+          "t": 4,
+          "r": 6,
+          "b": 4,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I461:5706;476:6",
+      "figmaId": "I461:5706;476:6",
+      "name": "EN",
+      "type": "TEXT",
+      "text": "EN",
+      "box": {
+        "x": 342.5,
+        "y": 84.5,
+        "w": 17,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "lineHeight": 15.12,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#aaa286"
+      },
+      "depth": 5
+    },
+    {
+      "key": "451:3126",
+      "figmaId": "451:3126",
+      "name": "杂",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 132,
+        "w": 350,
+        "h": 51
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "VERTICAL"
+      },
+      "depth": 2
+    },
+    {
+      "key": "I451:3126;55:32",
+      "figmaId": "I451:3126;55:32",
+      "name": "欢迎回来 👋",
+      "type": "TEXT",
+      "text": "重置密码",
+      "box": {
+        "x": 20,
+        "y": 132,
+        "w": 350,
+        "h": 23
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 20,
+        "fontWeight": 700,
+        "lineHeight": 23.44,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#24201a"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:3126;55:33",
+      "figmaId": "I451:3126;55:33",
+      "name": "登录 SPX Pay，管理你的全球支付",
+      "type": "TEXT",
+      "text": "验证邮箱后设置新的登录密码",
+      "box": {
+        "x": 20,
+        "y": 167,
+        "w": 350,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#6e6b7b"
+      },
+      "depth": 3
+    },
+    {
+      "key": "451:3129",
+      "figmaId": "451:3129",
+      "name": "fields",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 207,
+        "w": 350,
+        "h": 368
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 24,
+        "layout": "VERTICAL"
+      },
+      "depth": 2
+    },
+    {
+      "key": "461:5297",
+      "figmaId": "461:5297",
+      "name": "① 邮箱 Email",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 207,
+        "w": 350,
+        "h": 74
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I461:5297;420:18",
+      "figmaId": "I461:5297;420:18",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 207,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I461:5297;420:19",
+      "figmaId": "I461:5297;420:19",
+      "name": "邮箱",
+      "type": "TEXT",
+      "text": "邮箱",
+      "box": {
+        "x": 20,
+        "y": 207,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#3d3218"
+      },
+      "depth": 5
+    },
+    {
+      "key": "I461:5297;420:11",
+      "figmaId": "I461:5297;420:11",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 227,
+        "w": 350,
+        "h": 54
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 14,
+          "b": 0,
+          "l": 16
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I461:5297;420:12",
+      "figmaId": "I461:5297;420:12",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 244,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "depth": 5
+    },
+    {
+      "key": "I461:5297;420:13",
+      "figmaId": "I461:5297;420:13",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 37.67,
+        "y": 247.33,
+        "w": 16.67,
+        "h": 13.33
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.5,
+        "borderRadius": 3.3333332538604736
+      },
+      "depth": 6
+    },
+    {
+      "key": "I461:5297;420:14",
+      "figmaId": "I461:5297;420:14",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 41,
+        "y": 250.67,
+        "w": 10,
+        "h": 3.41
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.5,
+        "borderRadius": 0
+      },
+      "depth": 6
+    },
+    {
+      "key": "I461:5297;420:15",
+      "figmaId": "I461:5297;420:15",
+      "name": "你的邮箱地址",
+      "type": "TEXT",
+      "text": "你的邮箱地址",
+      "box": {
+        "x": 68,
+        "y": 246,
+        "w": 84,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#aaa286"
+      },
+      "depth": 5
+    },
+    {
+      "key": "I461:5297;420:16",
+      "figmaId": "I461:5297;420:16",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 164,
+        "y": 253.5,
+        "w": 192,
+        "h": 1
+      },
+      "style": {},
+      "depth": 5
+    },
+    {
+      "key": "451:4817",
+      "figmaId": "451:4817",
+      "name": "⑤ 邮箱验证码 OTP",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 305,
+        "w": 350,
+        "h": 74
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:4817;420:361",
+      "figmaId": "I451:4817;420:361",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 305,
+        "w": 36,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I451:4817;420:362",
+      "figmaId": "I451:4817;420:362",
+      "name": "验证码",
+      "type": "TEXT",
+      "text": "验证码",
+      "box": {
+        "x": 20,
+        "y": 305,
+        "w": 36,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#3d3218"
+      },
+      "depth": 5
+    },
+    {
+      "key": "I451:4817;420:351",
+      "figmaId": "I451:4817;420:351",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 325,
+        "w": 350,
+        "h": 54
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 14,
+          "b": 0,
+          "l": 16
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I451:4817;420:352",
+      "figmaId": "I451:4817;420:352",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 342,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "depth": 5
+    },
+    {
+      "key": "I451:4817;420:353",
+      "figmaId": "I451:4817;420:353",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 38.5,
+        "y": 343.67,
+        "w": 15,
+        "h": 16.67
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.5
+      },
+      "depth": 6
+    },
+    {
+      "key": "I451:4817;420:354",
+      "figmaId": "I451:4817;420:354",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 43.92,
+        "y": 350.33,
+        "w": 4.17,
+        "h": 3.33
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.5
+      },
+      "depth": 6
+    },
+    {
+      "key": "I451:4817;420:355",
+      "figmaId": "I451:4817;420:355",
+      "name": "邮箱验证码",
+      "type": "TEXT",
+      "text": "邮箱验证码",
+      "box": {
+        "x": 68,
+        "y": 344,
+        "w": 70,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#aaa286"
+      },
+      "depth": 5
+    },
+    {
+      "key": "I451:4817;420:356",
+      "figmaId": "I451:4817;420:356",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 150,
+        "y": 351.5,
+        "w": 115,
+        "h": 1
+      },
+      "style": {},
+      "depth": 5
+    },
+    {
+      "key": "I451:4817;420:357",
+      "figmaId": "I451:4817;420:357",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 277,
+        "y": 341,
+        "w": 79,
+        "h": 22
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 5
+    },
+    {
+      "key": "I451:4817;420:358",
+      "figmaId": "I451:4817;420:358",
+      "name": "Rectangle",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 277,
+        "y": 341,
+        "w": 2,
+        "h": 22
+      },
+      "style": {
+        "backgroundColor": "#f3f1e8"
+      },
+      "depth": 6
+    },
+    {
+      "key": "I451:4817;420:359",
+      "figmaId": "I451:4817;420:359",
+      "name": "发送验证码",
+      "type": "TEXT",
+      "text": "发送验证码",
+      "box": {
+        "x": 291,
+        "y": 344.5,
+        "w": 65,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 700,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#eabb62"
+      },
+      "depth": 6
+    },
+    {
+      "key": "451:4890",
+      "figmaId": "451:4890",
+      "name": "② 密码 Password",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 403,
+        "w": 350,
+        "h": 74
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:4890;420:101",
+      "figmaId": "I451:4890;420:101",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 403,
+        "w": 60,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I451:4890;420:102",
+      "figmaId": "I451:4890;420:102",
+      "name": "密码",
+      "type": "TEXT",
+      "text": "新登录密码",
+      "box": {
+        "x": 20,
+        "y": 403,
+        "w": 60,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#3d3218"
+      },
+      "depth": 5
+    },
+    {
+      "key": "I451:4890;420:84",
+      "figmaId": "I451:4890;420:84",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 423,
+        "w": 350,
+        "h": 54
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 14,
+          "b": 0,
+          "l": 16
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I451:4890;451:4942",
+      "figmaId": "I451:4890;451:4942",
+      "name": "Frame 2147225244",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 440,
+        "w": 252,
+        "h": 20
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 5
+    },
+    {
+      "key": "I451:4890;420:93",
+      "figmaId": "I451:4890;420:93",
+      "name": "Outline / Security / Password Minimalistic",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 440,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "depth": 6
+    },
+    {
+      "key": "I451:4890;420:94",
+      "figmaId": "I451:4890;420:94",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 37.04,
+        "y": 442.71,
+        "w": 17.92,
+        "h": 14.58
+      },
+      "style": {
+        "backgroundColor": "#aaa286"
+      },
+      "depth": 7
+    },
+    {
+      "key": "I451:4890;420:95",
+      "figmaId": "I451:4890;420:95",
+      "name": "请输入密码",
+      "type": "TEXT",
+      "text": "设置新登录密码（≥12位含大小写+数字） ",
+      "box": {
+        "x": 68,
+        "y": 443,
+        "w": 220,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#aaa286"
+      },
+      "depth": 6
+    },
+    {
+      "key": "I451:4890;420:97",
+      "figmaId": "I451:4890;420:97",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 336,
+        "y": 440,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "depth": 5
+    },
+    {
+      "key": "I451:4890;420:98",
+      "figmaId": "I451:4890;420:98",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 337.67,
+        "y": 443.33,
+        "w": 16.67,
+        "h": 13.33
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.5
+      },
+      "depth": 6
+    },
+    {
+      "key": "I451:4890;420:99",
+      "figmaId": "I451:4890;420:99",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 343.5,
+        "y": 447.5,
+        "w": 5,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.5
+      },
+      "depth": 6
+    },
+    {
+      "key": "451:4930",
+      "figmaId": "451:4930",
+      "name": "③ 确认密码 Confirm",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 501,
+        "w": 350,
+        "h": 74
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:4930;420:199",
+      "figmaId": "I451:4930;420:199",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 501,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I451:4930;420:200",
+      "figmaId": "I451:4930;420:200",
+      "name": "确认密码",
+      "type": "TEXT",
+      "text": "确认密码",
+      "box": {
+        "x": 20,
+        "y": 501,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#3d3218"
+      },
+      "depth": 5
+    },
+    {
+      "key": "I451:4930;420:190",
+      "figmaId": "I451:4930;420:190",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 521,
+        "w": 350,
+        "h": 54
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 14,
+          "b": 0,
+          "l": 16
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I451:4930;420:191",
+      "figmaId": "I451:4930;420:191",
+      "name": "Outline / Security / Password Minimalistic",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 538,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "depth": 5
+    },
+    {
+      "key": "I451:4930;420:192",
+      "figmaId": "I451:4930;420:192",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 37.04,
+        "y": 540.71,
+        "w": 17.92,
+        "h": 14.58
+      },
+      "style": {
+        "backgroundColor": "#aaa286"
+      },
+      "depth": 6
+    },
+    {
+      "key": "I451:4930;420:193",
+      "figmaId": "I451:4930;420:193",
+      "name": "请再次输入密码",
+      "type": "TEXT",
+      "text": "请再次输入密码",
+      "box": {
+        "x": 68,
+        "y": 540,
+        "w": 98,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#aaa286"
+      },
+      "depth": 5
+    },
+    {
+      "key": "I451:4930;420:194",
+      "figmaId": "I451:4930;420:194",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 178,
+        "y": 547.5,
+        "w": 146,
+        "h": 1
+      },
+      "style": {},
+      "depth": 5
+    },
+    {
+      "key": "I451:4930;420:195",
+      "figmaId": "I451:4930;420:195",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 336,
+        "y": 538,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "depth": 5
+    },
+    {
+      "key": "I451:4930;420:196",
+      "figmaId": "I451:4930;420:196",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 337.67,
+        "y": 541.33,
+        "w": 16.67,
+        "h": 13.33
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.5
+      },
+      "depth": 6
+    },
+    {
+      "key": "I451:4930;420:197",
+      "figmaId": "I451:4930;420:197",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 343.5,
+        "y": 545.5,
+        "w": 5,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.5
+      },
+      "depth": 6
+    },
+    {
+      "key": "451:3133",
+      "figmaId": "451:3133",
+      "name": "Frame 2147225241",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 599,
+        "w": 350,
+        "h": 88
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 16,
+        "layout": "VERTICAL"
+      },
+      "depth": 2
+    },
+    {
+      "key": "451:3134",
+      "figmaId": "451:3134",
+      "name": "主按钮 / Button·Primary",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 599,
+        "w": 350,
+        "h": 54
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:3134;55:77",
+      "figmaId": "I451:3134;55:77",
+      "name": "登录",
+      "type": "TEXT",
+      "text": "重置密码",
+      "box": {
+        "x": 163,
+        "y": 616.5,
+        "w": 64,
+        "h": 19
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "lineHeight": 18.75,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#ffffff"
+      },
+      "depth": 4
+    },
+    {
+      "key": "451:4955",
+      "figmaId": "451:4955",
+      "name": "创建账户",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 669,
+        "w": 134,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 4,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I451:4955;440:3801",
+      "figmaId": "I451:4955;440:3801",
+      "name": "还没有账户？",
+      "type": "TEXT",
+      "text": "想起密码了？",
+      "box": {
+        "x": 20,
+        "y": 669,
+        "w": 78,
+        "h": 18
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 400,
+        "lineHeight": 18,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#8a8f98"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I451:4955;440:3802",
+      "figmaId": "I451:4955;440:3802",
+      "name": "创建账户",
+      "type": "TEXT",
+      "text": "返回登录",
+      "box": {
+        "x": 102,
+        "y": 669,
+        "w": 52,
+        "h": 18
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 18,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#eabb62"
+      },
+      "depth": 4
+    },
+    {
+      "key": "451:3140",
+      "figmaId": "451:3140",
+      "name": "杂",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 832,
+        "w": 390,
+        "h": 12
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 1
+    },
+    {
+      "key": "I451:3140;75:41",
+      "figmaId": "I451:3140;75:41",
+      "name": "Rectangle",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 128,
+        "y": 832,
+        "w": 134,
+        "h": 5
+      },
+      "style": {
+        "backgroundColor": "#3d3218",
+        "borderRadius": 4
+      },
+      "depth": 2
+    }
+  ]
+}
