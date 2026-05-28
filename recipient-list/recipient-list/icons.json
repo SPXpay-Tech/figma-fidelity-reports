@@ -1,0 +1,104 @@
+{
+  "frame": {
+    "id": "917:12169",
+    "name": "📱 Account. 收款方账户显示",
+    "width": 390,
+    "height": 844
+  },
+  "checked": 6,
+  "fails": 0,
+  "warns": 1,
+  "waived": 5,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "I917:12172;917:12368;159:2",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "arrow-down",
+      "figmaId": "I917:12742;917:12560",
+      "box": {
+        "x": 338,
+        "y": 188,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Row trailing affordance is a chevron-right glyph (the figma vector is a narrow 5×11.67 path inside a 20×20 frame — same right-pointing shape). Geometry/box validated; vector-path identity waived. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "arrow-down",
+      "figmaId": "I917:12757;917:12560",
+      "box": {
+        "x": 338,
+        "y": 250,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Row trailing affordance is a chevron-right glyph (the figma vector is a narrow 5×11.67 path inside a 20×20 frame — same right-pointing shape). Geometry/box validated; vector-path identity waived. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "arrow-down",
+      "figmaId": "I917:12770;917:12560",
+      "box": {
+        "x": 338,
+        "y": 312,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Row trailing affordance is a chevron-right glyph (the figma vector is a narrow 5×11.67 path inside a 20×20 frame — same right-pointing shape). Geometry/box validated; vector-path identity waived. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "arrow-down",
+      "figmaId": "I917:12783;917:12560",
+      "box": {
+        "x": 338,
+        "y": 374,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Row trailing affordance is a chevron-right glyph (the figma vector is a narrow 5×11.67 path inside a 20×20 frame — same right-pointing shape). Geometry/box validated; vector-path identity waived. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I917:12205;548:6635",
+      "box": {
+        "x": 329.25,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Bottom-nav 我的 tab icon is Feather user-circle glyph; vector-path waived consistent with app-wide icon system. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    }
+  ]
+}
