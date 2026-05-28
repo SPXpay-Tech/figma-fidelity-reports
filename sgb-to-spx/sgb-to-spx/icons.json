@@ -1,0 +1,88 @@
+{
+  "frame": {
+    "id": "917:7331",
+    "name": "📱 Account. SGB 划转 SPX资金",
+    "width": 390,
+    "height": 844
+  },
+  "checked": 5,
+  "fails": 0,
+  "warns": 4,
+  "waived": 0,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "I917:7544;917:7287;159:2",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "I917:7937;917:7868",
+      "box": {
+        "x": 334,
+        "y": 188,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "Linear / Arrows / Round Transfer Vertical",
+      "figmaId": "917:8017",
+      "box": {
+        "x": 183,
+        "y": 234,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 2,
+      "implPaths": 2,
+      "status": "warn",
+      "severity": "minor",
+      "note": "2 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "icon",
+      "figmaId": "I917:7915;917:7965",
+      "box": {
+        "x": 342,
+        "y": 304,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I917:7355;548:6635",
+      "box": {
+        "x": 329.25,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "pass",
+      "severity": "pass"
+    }
+  ]
+}

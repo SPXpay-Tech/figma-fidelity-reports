@@ -1,0 +1,280 @@
+{
+  "frame": {
+    "id": "917:7331",
+    "name": "📱 Account. SGB 划转 SPX资金",
+    "width": 390,
+    "height": 844
+  },
+  "offset": {
+    "x": 0,
+    "y": 54
+  },
+  "threshold": 12,
+  "flagged": 6,
+  "regions": [
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 38,
+        "y": 306,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 44.4,
+      "crops": {
+        "figma": "Rectangle_5247_I917_7915_917_7903.figma.png",
+        "impl": "Rectangle_5247_I917_7915_917_7903.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 38,
+        "y": 306,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 44.4,
+      "crops": {
+        "figma": "Rectangle_5247_I917_7915_917_7907.figma.png",
+        "impl": "Rectangle_5247_I917_7915_917_7907.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 304,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 32.7,
+      "crops": {
+        "figma": "_LOGO_I917_7915_917_7898.figma.png",
+        "impl": "_LOGO_I917_7915_917_7898.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 192,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 27.8,
+      "crops": {
+        "figma": "_LOGO_I917_7937_917_7855.figma.png",
+        "impl": "_LOGO_I917_7937_917_7855.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 188,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 15.2,
+      "crops": {
+        "figma": "chip_I917_7937_917_7854.figma.png",
+        "impl": "chip_I917_7937_917_7854.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 300,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#9ca3af@0.20",
+      "mismatch": 14.8,
+      "crops": {
+        "figma": "chip_I917_7915_917_7897.figma.png",
+        "impl": "chip_I917_7915_917_7897.impl.png"
+      }
+    },
+    {
+      "name": "Frame 2147225324",
+      "type": "FRAME",
+      "box": {
+        "x": 179,
+        "y": 230,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 8.9
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 6.3
+    },
+    {
+      "name": "转账信息·支付目的",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 518,
+        "w": 350,
+        "h": 55
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.2
+    },
+    {
+      "name": "金额信息·转账金额",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 388,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 2.3
+    },
+    {
+      "name": "金额信息·手续费扣费",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 585,
+        "w": 350,
+        "h": 70
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 176,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.7
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 288,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#f6f6f4",
+      "mismatch": 1.6
+    },
+    {
+      "name": "返回按钮 / Nav Back",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 42,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 420,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.3
+    },
+    {
+      "name": "Account Hearder, 页头",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 350,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.7
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 342,
+        "y": 304,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": "#152b51",
+      "mismatch": 0.5
+    },
+    {
+      "name": "主按钮 Button·Primary",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 667,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 0.5
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36.75,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.2
+    },
+    {
+      "name": "Linear / Money / Card",
+      "type": "FRAME",
+      "box": {
+        "x": 231.75,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    }
+  ]
+}
