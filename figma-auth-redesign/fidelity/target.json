@@ -1,0 +1,48 @@
+{
+  "_note": "figma-fidelity for the 3 SPX auth screens. Token-free + reproducible: static diff reads the checked-in normalized figma dumps (figma-dump/*.json from a prior extract-figma) + their hero PNGs; behavioral/motion via uxTargets. Boot the Expo WEB build (pnpm exec expo start --web --port 8082) and run run.mjs from the repo root. `click: text=中` aligns the live page to the Chinese Figma frame.",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-auth-redesign/fidelity/out",
+  "topInset": 27,
+  "screens": [
+    {
+      "id": "login",
+      "node": "432:5375",
+      "figmaJson": "docs/figma-auth-redesign/fidelity/figma-dump/login.json",
+      "figmaPng": "docs/figma-auth-redesign/fidelity/figma-dump/login.png",
+      "url": "http://localhost:8082/login",
+      "width": 390,
+      "root": "body",
+      "wait": "[data-testid='btn-login-submit']",
+      "anchor": "欢迎回来 👋",
+      "click": "text=中",
+      "topInset": 43,
+      "uxTargets": "docs/figma-auth-redesign/fidelity/login.ux.targets.json"
+    },
+    {
+      "id": "register",
+      "node": "470:2",
+      "figmaJson": "docs/figma-auth-redesign/fidelity/figma-dump/register.json",
+      "figmaPng": "docs/figma-auth-redesign/fidelity/figma-dump/register.png",
+      "url": "http://localhost:8082/register",
+      "width": 390,
+      "root": "body",
+      "wait": "[data-testid='btn-register-submit']",
+      "anchor": "创建账户",
+      "click": "text=中",
+      "uxTargets": "docs/figma-auth-redesign/fidelity/register.ux.targets.json"
+    },
+    {
+      "id": "forgot-password",
+      "node": "451:3122",
+      "figmaJson": "docs/figma-auth-redesign/fidelity/figma-dump/forgot.json",
+      "figmaPng": "docs/figma-auth-redesign/fidelity/figma-dump/forgot.png",
+      "url": "http://localhost:8082/forgot-password",
+      "width": 390,
+      "root": "body",
+      "wait": "text=重置密码",
+      "anchor": "重置密码",
+      "click": "text=中",
+      "uxTargets": "docs/figma-auth-redesign/fidelity/forgot.ux.targets.json"
+    }
+  ]
+}

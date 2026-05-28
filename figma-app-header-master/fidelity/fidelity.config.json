@@ -1,0 +1,79 @@
+{
+  "_comment": "Project fidelity config for the AppHeader brand + KYC banner master. Inherits tolerances from the home config (figma-home-redesign/fidelity.home.config.json) but tightens scope to AppHeader-only nodes. Wordmark vector subnodes (8 paths under I619:8197;514:5532) are waived as icon-deviations — the impl ships the PNG wordmark.",
+  "checkTextContainerStyle": false,
+  "tolerances": {
+    "x": 2,
+    "y": 2,
+    "w": 2,
+    "h": 2,
+    "fontSize": 0.5,
+    "lineHeight": 1,
+    "letterSpacing": 0.2,
+    "borderRadius": 1,
+    "borderWidth": 0.5,
+    "padding": 2,
+    "gap": 1,
+    "colorDeltaE": 2
+  },
+  "_toleranceNote": "x/y/w/h/padding tolerance 2 (matches toast/dialog/segmented masters): the CJK glyph ink box for '中' renders 15-px tall in the OS fallback font vs figma's HarmonyOS Sans TC 14-px, shifting anchor-aligned coords by ~1-1.5 px on every other node. Sub-pixel jitter is acknowledged in the skill SKILL.md ('DO NOT chase sub-pixel minor noise').",
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels CJK as 'HarmonyOS Sans TC'; impl ships PlusJakartaSans + system CJK fallback. Same family alias contract used across cards/auth/buttons.",
+  "ignoreText": [
+    "^AppHeader · brand \\+ KYC banner$",
+    "^Figma home frame 619:8194 — App Header instance 619:8197 \\+ compliance pill 692:5294$",
+    "^Master mirror · 619:8197 \\+ 692:5294$",
+    "^diff column · all nodes tagged with figma IDs$",
+    "^AppHeader brand · no banner$",
+    "^visual reference \\(untagged\\)$"
+  ],
+  "deviations": [],
+  "iconDeviations": [
+    {
+      "name": "^Vector$",
+      "reason": "SPX PAY wordmark under I619:8197;514:5532 is exported as 14 separate vector paths in Figma; the impl ships a single PNG (assets/brand/spx-logo-wordmark.png) tagged with the parent accessory frame id. Path-set vs raster is the documented app-wide icon-system waiver — the parent frame's geometry tokens (x/y/w/h) are the real proof of position. Approved 2026-05-28."
+    },
+    {
+      "name": "^Subtract$",
+      "reason": "Boolean-operation sub-glyph inside the SPX PAY wordmark group (e.g. the 'A' counter cut). Same waiver as the Vector paths — raster wordmark. Approved 2026-05-28."
+    },
+    {
+      "name": "^Group 1707484082$",
+      "reason": "Wordmark sub-group container (vector children). Raster wordmark waiver. Approved 2026-05-28."
+    }
+  ],
+  "textMatch": {
+    "maxCenterDist": 60
+  },
+  "_textMatchNote": "Master mirror cell is 390-wide with the toggle + banner laid out at home y-offsets; 60px center distance is safe for distinct text labels.",
+  "severity": {
+    "geometry": "major",
+    "typography": "major",
+    "color": "major",
+    "missing": "critical",
+    "extra": "minor"
+  },
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "focus":    { "duration": 150, "easing": "ease-out" },
+      "error":    { "duration": 200, "easing": "ease-in-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" },
+      "hover":    { "duration": 120, "easing": "ease-out" },
+      "selected": { "duration": 150, "easing": "ease-out" },
+      "loading":  { "animated": true }
+    },
+    "durationToleranceMs": 40,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["background-color", "border-color", "box-shadow", "opacity", "transform"]
+  },
+  "gate": {
+    "minFidelityScore": 97,
+    "maxCritical": 0,
+    "maxMajor": 0
+  }
+}

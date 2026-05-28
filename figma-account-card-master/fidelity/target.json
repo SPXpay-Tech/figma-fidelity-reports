@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for SPX Account Card master 258:758 ('Account Card · 资产卡片', COMPONENT_SET 398×525). Library v1 cluster containing 7 variants stacked vertically with gap 16 inside a #ffffff radius-18 card padding 24: (1) 735:6828 Total Asset Card · 总资产卡片 350×83 dark gradient — (2) 735:7161 快捷 350×82 quick actions strip — (3) 735:6963 所有账户收起 350×36 collapsed section header — (4) 735:6965 所有账户打开 350×36 expanded section header — (5) 735:6982 美元 350×48 USD row — (6) 735:7020 港币 350×48 HKD row — (7) 769:10865 USDT 350×48 crypto row. Boot expo web (pnpm exec expo start --web --port 8082) and: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen account-card",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-account-card-master/fidelity/out",
+  "screens": [
+    {
+      "id": "account-card",
+      "node": "258:758",
+      "figmaJson": "docs/figma-account-card-master/fidelity/figma-dump/account-card.json",
+      "figmaPng": "docs/figma-account-card-master/fidelity/figma-dump/account-card.png",
+      "url": "http://localhost:8082/__fidelity/account-card",
+      "width": 398,
+      "height": 525,
+      "root": "[data-figma-root='258:758']",
+      "wait": "text=总资产",
+      "anchor": "母版 Master · 258:758"
+    }
+  ]
+}

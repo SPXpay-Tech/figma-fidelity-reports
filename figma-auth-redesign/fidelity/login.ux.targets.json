@@ -1,0 +1,44 @@
+[
+  {
+    "_scope": "LIVE targets = self-contained interactions only (focus / filled / reveal / selected). Form-controlled states (error / loading / disabled / countdown-end) are NOT reachable by touching one field — login.tsx validates on submit and passes an `error` prop down. Verify those in the states-harness route (Principle 4), where each field is rendered directly in its error/loading variant. The live probe verifies the screen *behaves*; the harness verifies each state *looks* right.",
+    "_note": "Snapshot the bordered field container (carries border/bg/glow); drive the inner <input>. RNW renders TextInput as <input>, a direct child of the styled View, so `div:has(> input[...])` selects the container. expect = the Figma 02_聚焦 variant token (focus border #EABB62 = border-primary).",
+    "key": "username",
+    "selector": "div:has(> input[data-testid='input-username'])",
+    "driveSelector": "input[data-testid='input-username']",
+    "kind": "input",
+    "states": ["focus", "filled"],
+    "arg": { "sampleText": "user@spx.com" },
+    "expect": { "focus": { "border-top-color": "#eabb62" } }
+  },
+  {
+    "key": "password",
+    "selector": "div:has(> input[data-testid='input-password'])",
+    "driveSelector": "input[data-testid='input-password']",
+    "kind": "password",
+    "states": ["focus", "filled", "reveal"],
+    "arg": {
+      "sampleText": "Secret123!",
+      "_revealNote": "set revealSelector to the eye toggle's testID once confirmed in DOM; reveal asserts input type flips password->text",
+      "revealSelector": "[data-testid='input-password-eye']"
+    },
+    "expect": { "focus": { "border-top-color": "#eabb62" } }
+  },
+  {
+    "key": "captcha",
+    "selector": "div:has(> input[data-testid='input-captcha'])",
+    "driveSelector": "input[data-testid='input-captcha']",
+    "kind": "input",
+    "states": ["focus", "filled"],
+    "arg": { "sampleText": "8F3A" },
+    "expect": { "focus": { "border-top-color": "#eabb62" } }
+  },
+  {
+    "_buttonNote": "Submit button intentionally has NO live-probe state: the Figma button master defines only 默认/加载/禁用 (no press affordance). Its default look is static-verified; 加载 (loading) + 禁用 (disabled) are form-controlled → states-harness, not the live probe. So nothing self-contained to drive here — omitted rather than over-asserting a press state the design doesn't define."
+  },
+  {
+    "key": "segmented-email",
+    "selector": "[data-testid='seg-login-email']",
+    "kind": "toggle",
+    "states": ["selected"]
+  }
+]

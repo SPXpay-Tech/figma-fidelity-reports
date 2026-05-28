@@ -1,0 +1,34 @@
+{
+  "_comment": "Project fidelity config for SPX dialog master 463:3300. Same tolerances as buttons/cards. Icons are Feather glyphs (font-glyph not vector) so iconDeviations waives the per-icon vector-path identity check (geometry/box still validated).",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels the CJK family 'HarmonyOS Sans TC'; app ships HarmonyOS Sans SC + PlusJakartaSans-* for Latin. These aliases keep the diff free of phantom font deviations.",
+  "ignoreText": [],
+  "deviations": [],
+  "iconDeviations": [
+    { "name": "^icon$", "reason": "Outer 'icon' frame (36×36 round tinted bg) wraps each result-dialog tone icon. Impl renders the bg via View styles + a Feather glyph child — no <svg> on the bg frame itself. The named child icon (icon-check / Danger Triangle / Close Circle / Letter / Clock Circle) is separately waived; the bg frame's box/color is still validated by token diff." },
+    { "name": "^Outline / Essentional, UI / Danger Triangle$", "reason": "Result-dialog 注册失败·邮箱已注册 icon is a Feather alert-triangle glyph (app-wide @expo/vector-icons system, see cards master deviation). Geometry/box still validated; only vector-path identity waived." },
+    { "name": "^Outline / Essentional, UI / Close Circle$", "reason": "Result-dialog 操作失败 icon is Feather X glyph. Same reason as Danger Triangle." },
+    { "name": "^Outline / Messages, Conversation  /  Letter$", "reason": "Result-dialog 验证邮件已发送 icon is Feather mail glyph. Same reason as Danger Triangle." },
+    { "name": "^Outline / Time / Clock Circle$", "reason": "Result-dialog 登录已过期 icon is Feather clock glyph. Same reason as Danger Triangle." },
+    { "name": "^icon-check$", "reason": "Result-dialog 密码重置成功/账户创建成功 success icon is Feather check glyph; geometry/box validated." },
+    { "name": "^Vector$", "reason": "Inner SVG vector node of the Feather icon glyph — wrapped by the icon frame above which is already validated. Vector-path identity per-Feather glyph follows the icon system." }
+  ],
+  "_iconDeviationsNote": "All result-dialog tone icons use Feather glyphs (icon font) consistent with the app-wide icon system. icon-diff downgrades these from fail to waive — the icon frame's bg/size/color is still numerically checked by token diff.",
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "gate": { "minFidelityScore": 97, "maxCritical": 0, "maxMajor": 0 }
+}

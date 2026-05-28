@@ -1,0 +1,40 @@
+{
+  "frame": {
+    "id": "454:3399",
+    "name": "主按钮 Button·Primary",
+    "width": 390,
+    "height": 230
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 0,
+  "regions": [
+    {
+      "name": "状态=加载",
+      "type": "COMPONENT",
+      "box": {
+        "x": 20,
+        "y": 88,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 1.4
+    },
+    {
+      "name": "状态=禁用",
+      "type": "COMPONENT",
+      "box": {
+        "x": 20,
+        "y": 156,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": "#f6f6f4",
+      "mismatch": 0.6
+    }
+  ]
+}

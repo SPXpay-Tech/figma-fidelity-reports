@@ -1,0 +1,65 @@
+{
+  "_comment": "Project fidelity config for SPX currency-dropdown master 943:7972. Same tolerances as button/input master harnesses. Trigger surface is checked via checkTextContainerStyle (USD/请选择 anchor → bg/border/radius of the 160×48 trigger).",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 2, "y": 2, "w": 2, "h": 2,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels the CJK family 'HarmonyOS Sans TC'; impl ships PlusJakartaSans-* (Latin) + falls through to platform CJK. Same alias bridge as cards/auth/button-master.",
+  "ignoreText": [
+    "^币种下拉 · 状态库 Currency Dropdown · Status Library$",
+    "^Figma master 943:7972",
+    "^卖出 · 金色系 Sell$",
+    "^买入 · 蓝灰系 Buy$",
+    "^ComponentSet ",
+    "^💱 兑换币种下拉 · 状态库$",
+    "^卖出（金色系）/ 买入（蓝灰系）",
+    "^Default(-USD)?$|^Focus$|^Disabled$|^Empty$|^Error$|^Open$"
+  ],
+  "_ignoreTextNote": "Strip harness-only chrome (page title, subtitle, column headers, state captions). The Figma frame ALSO carries those cap-* labels so they multi-match across cells; ignoring removes the duplicate noise. Real comparable text (USD / 请选择 / HKD / EUR / SGD / GBP / CNY) is left in.",
+  "textMatch": { "maxCenterDist": 60 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "_deviationsNote": "12 VECTOR borderColor deviations: each chevron path is 11.67×5 px, below extract-impl's svg-rect size filter (>=6×6), so the diff falls back to reading the <svg>'s default CSS borderTopColor (#e5e7eb from nativewind/tailwind reset). The figma vector's stroke is the chevron path color (#866d31 / #aaa286 / #f52f32 / #152b51 / #9ca3af) — visually verified via `<Path stroke={color}>`. The CSS-border channel doesn't carry the stroke, so the diff fails the borderColor check though the visual is correct. Documented per-vector below.",
+  "deviations": [
+    { "figmaId": "939:7968", "prop": "borderColor", "reason": "chevron stroke #866d31 (sell default) drawn via <Path stroke>, not CSS border — tool limitation on 11.67×5 vectors" },
+    { "figmaId": "939:7972", "prop": "borderColor", "reason": "chevron stroke #866d31 (sell focus) drawn via <Path stroke>, not CSS border — tool limitation on 11.67×5 vectors" },
+    { "figmaId": "939:7976", "prop": "borderColor", "reason": "chevron stroke #aaa286 (sell disabled) drawn via <Path stroke>, not CSS border — tool limitation on 11.67×5 vectors" },
+    { "figmaId": "939:7980", "prop": "borderColor", "reason": "chevron stroke #866d31 (sell empty) drawn via <Path stroke>, not CSS border — tool limitation on 11.67×5 vectors" },
+    { "figmaId": "939:7984", "prop": "borderColor", "reason": "chevron stroke #f52f32 (sell error) drawn via <Path stroke>, not CSS border — tool limitation on 11.67×5 vectors" },
+    { "figmaId": "939:7988", "prop": "borderColor", "reason": "chevron stroke #866d31 (sell open) drawn via <Path stroke>, not CSS border — tool limitation on 11.67×5 vectors" },
+    { "figmaId": "942:7975", "prop": "borderColor", "reason": "chevron stroke #152b51 (buy default) drawn via <Path stroke>, not CSS border — tool limitation on 11.67×5 vectors" },
+    { "figmaId": "942:7979", "prop": "borderColor", "reason": "chevron stroke #152b51 (buy focus) drawn via <Path stroke>, not CSS border — tool limitation on 11.67×5 vectors" },
+    { "figmaId": "942:7983", "prop": "borderColor", "reason": "chevron stroke #9ca3af (buy disabled) drawn via <Path stroke>, not CSS border — tool limitation on 11.67×5 vectors" },
+    { "figmaId": "942:7987", "prop": "borderColor", "reason": "chevron stroke #152b51 (buy empty) drawn via <Path stroke>, not CSS border — tool limitation on 11.67×5 vectors" },
+    { "figmaId": "942:7991", "prop": "borderColor", "reason": "chevron stroke #f52f32 (buy error) drawn via <Path stroke>, not CSS border — tool limitation on 11.67×5 vectors" },
+    { "figmaId": "942:7995", "prop": "borderColor", "reason": "chevron stroke #152b51 (buy open) drawn via <Path stroke>, not CSS border — tool limitation on 11.67×5 vectors" }
+  ],
+  "_iconDeviationsNote": "Chevron arrow vectors are 11.67×5 px in figma — extract-impl filters out svgs under 6×6 (its icon-size band), so the chevron is never captured as a vector record. icon-diff then sees figma=1 path but impl=0 paths (font-glyph false alarm). The Chevron component DOES render <Svg><Path d='M1 1L6 4L11 1'/></Svg> with the figma stroke color — visually correct, tool-limitation only.",
+  "iconDeviations": [
+    { "name": "arrow-down", "reason": "11.67×5 chevron — below extract-impl svg-size filter (>=6×6); <Path> renders correctly with figma stroke color, tool limitation only" },
+    { "name": "arrow-up", "reason": "11.67×5 chevron (rotated for Open head) — below extract-impl svg-size filter; <Path> renders correctly" }
+  ],
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "focus":    { "duration": 150, "easing": "ease-out" },
+      "error":    { "duration": 200, "easing": "ease-in-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" },
+      "selected": { "duration": 150, "easing": "ease-out" }
+    },
+    "durationToleranceMs": 40,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["background-color", "border-color"]
+  },
+  "gate": { "minFidelityScore": 95, "maxCritical": 0, "maxMajor": 0 }
+}

@@ -1,0 +1,58 @@
+{
+  "type": "ux.impl",
+  "url": "http://localhost:8082/__fidelity/home-header",
+  "targets": [
+    {
+      "key": "lang-en",
+      "selector": "[data-figma-id='I619:8197;514:5533;476:5']",
+      "kind": "button",
+      "snapshots": {
+        "rest": {
+          "style": {
+            "border-top-color": "rgb(0, 0, 0)",
+            "border-top-width": "0px",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "13px"
+          },
+          "transitionProperty": "all",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "EN",
+          "imgSrc": null
+        },
+        "press": {
+          "style": {
+            "border-top-color": "rgb(0, 0, 0)",
+            "border-top-width": "0px",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "13px"
+          },
+          "transitionProperty": "all",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "EN",
+          "imgSrc": null
+        }
+      },
+      "notes": []
+    }
+  ]
+}

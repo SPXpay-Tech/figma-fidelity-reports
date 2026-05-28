@@ -1,0 +1,63 @@
+{
+  "_note": "figma-fidelity for SPX 454:3372 login-component library (mis-labelled 'Button Masters' — actually all login-page primitives). Master 454:3399 is the canonical Button·Primary; siblings (back-button 107:6 / checkbox 456:3451 / language-toggle 476:12 / account-type-cards 456:3427) are each their own harness screen. Boot expo web (pnpm exec expo start --web --port 8082) and run a screen with: node <skill>/scripts/run.mjs --target this --config fidelity.config.json --screen <id>",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-button-master/fidelity/out",
+  "screens": [
+    {
+      "id": "button-primary",
+      "node": "454:3399",
+      "figmaJson": "docs/figma-button-master/fidelity/figma-dump/button-primary.json",
+      "figmaPng": "docs/figma-button-master/fidelity/figma-dump/button-primary.png",
+      "url": "http://localhost:8082/__fidelity/buttons",
+      "width": 2541,
+      "height": 1400,
+      "root": "[data-figma-root='454:3399']",
+      "wait": "text=主按钮 Button·Primary",
+      "anchor": "主按钮 Button·Primary"
+    },
+    {
+      "id": "back-button",
+      "node": "107:6",
+      "figmaJson": "docs/figma-button-master/fidelity/figma-dump/back-button.json",
+      "figmaPng": "docs/figma-button-master/fidelity/figma-dump/back-button.png",
+      "url": "http://localhost:8082/__fidelity/login-lib/back-button",
+      "width": 42,
+      "height": 42,
+      "root": "[data-figma-root='true']",
+      "wait": "[data-figma-id='107:6']"
+    },
+    {
+      "id": "checkbox",
+      "node": "456:3451",
+      "figmaJson": "docs/figma-button-master/fidelity/figma-dump/checkbox.json",
+      "figmaPng": "docs/figma-button-master/fidelity/figma-dump/checkbox.png",
+      "url": "http://localhost:8082/__fidelity/login-lib/checkbox",
+      "width": 272,
+      "height": 146,
+      "root": "[data-figma-root='true']",
+      "wait": "[data-figma-id='456:3451']"
+    },
+    {
+      "id": "language-toggle",
+      "node": "476:12",
+      "figmaJson": "docs/figma-button-master/fidelity/figma-dump/language-toggle.json",
+      "figmaPng": "docs/figma-button-master/fidelity/figma-dump/language-toggle.png",
+      "url": "http://localhost:8082/__fidelity/login-lib/language-toggle",
+      "width": 148,
+      "height": 138,
+      "root": "[data-figma-root='true']",
+      "wait": "[data-figma-id='476:12']"
+    },
+    {
+      "id": "account-type-cards",
+      "node": "456:3427",
+      "figmaJson": "docs/figma-button-master/fidelity/figma-dump/account-type-cards.json",
+      "figmaPng": "docs/figma-button-master/fidelity/figma-dump/account-type-cards.png",
+      "url": "http://localhost:8082/__fidelity/login-lib/account-type-cards",
+      "width": 205,
+      "height": 562,
+      "root": "[data-figma-root='true']",
+      "wait": "[data-figma-id='456:3427']"
+    }
+  ]
+}

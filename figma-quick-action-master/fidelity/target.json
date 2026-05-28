@@ -1,0 +1,20 @@
+{
+  "_note": "figma-fidelity for SPX home 快捷功能 strip (Figma file eqhwFT0W55JotQkpxndDl9). Strip frame 619:8208 (350×74) holds 5 Quick Action instances 619:8209 (存款) · 619:8210 (转账) · 619:8211 (划转) · 619:8212 (换汇) · 619:8213 (收款管理). The five 24×24 icon frames are real Figma SVGs (DepositMark / WithdrawMark / TransferMark / ExchangeMark / PayoutsMark in src/components/ui/QuickActionIcons.tsx) — no iconDeviations needed. Boot expo web with `pnpm exec expo start --web --port 8082`, then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen home-quick-actions",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-quick-action-master/fidelity/out",
+  "screens": [
+    {
+      "id": "home-quick-actions",
+      "node": "619:8208",
+      "figmaJson": "docs/figma-quick-action-master/fidelity/figma-dump/strip.json",
+      "figmaPng": "docs/figma-quick-action-master/fidelity/figma-dump/strip.png",
+      "url": "http://localhost:8082/__fidelity/home-quick-actions",
+      "width": 350,
+      "height": 74,
+      "root": "[data-figma-root='619:8208']",
+      "wait": "text=存款",
+      "anchor": "Quick Action · 快捷功能",
+      "uxTargets": "docs/figma-quick-action-master/fidelity/ux.targets.json"
+    }
+  ]
+}

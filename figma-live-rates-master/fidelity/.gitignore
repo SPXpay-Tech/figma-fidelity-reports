@@ -1,0 +1,4 @@
+# out/ holds per-run diff artifacts (impl/figma png, findings, report.html).
+# Regenerable via `node ~/.claude/skills/figma-fidelity/scripts/run.mjs ...`.
+# The publishable report is uploaded to SPXpay-Tech/figma-fidelity-reports.
+out/

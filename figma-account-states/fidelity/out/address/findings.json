@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "figmaFrame": {
+      "id": "954:8244",
+      "name": "State=收款方地址",
+      "width": 350,
+      "height": 58
+    },
+    "implFrame": {
+      "id": "page",
+      "name": "page",
+      "width": 350,
+      "height": 58
+    },
+    "matchMode": "fallback",
+    "originOffset": {
+      "x": 1,
+      "y": 1
+    },
+    "generated": "2026-05-28T09:50:57.103Z"
+  },
+  "summary": {
+    "checks": 19,
+    "fails": 0,
+    "fidelityScore": 100,
+    "bySeverity": {},
+    "gate": {
+      "blocking": 0,
+      "minor": 0,
+      "pass": true
+    },
+    "approved": 0
+  },
+  "failsByNode": {},
+  "approvedDeviations": [],
+  "findings": [
+    {
+      "figmaId": "954:8246",
+      "node": "收款方地址",
+      "type": "TEXT",
+      "text": "收款方地址",
+      "prop": "box.x",
+      "figma": 0,
+      "impl": -1,
+      "delta": 1,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8246",
+      "node": "收款方地址",
+      "type": "TEXT",
+      "text": "收款方地址",
+      "prop": "box.y",
+      "figma": 0,
+      "impl": -1,
+      "delta": 1,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8246",
+      "node": "收款方地址",
+      "type": "TEXT",
+      "text": "收款方地址",
+      "prop": "fontSize",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8246",
+      "node": "收款方地址",
+      "type": "TEXT",
+      "text": "收款方地址",
+      "prop": "fontWeight",
+      "figma": 700,
+      "impl": 700,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8246",
+      "node": "收款方地址",
+      "type": "TEXT",
+      "text": "收款方地址",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8246",
+      "node": "收款方地址",
+      "type": "TEXT",
+      "text": "收款方地址",
+      "prop": "lineHeight",
+      "figma": 14.06,
+      "impl": 14.06,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8246",
+      "node": "收款方地址",
+      "type": "TEXT",
+      "text": "收款方地址",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8246",
+      "node": "收款方地址",
+      "type": "TEXT",
+      "text": "收款方地址",
+      "prop": "color",
+      "figma": "#3d3218",
+      "impl": "#3d3218",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8248",
+      "node": "请输入收款方英文地址",
+      "type": "TEXT",
+      "text": "请输入收款方英文地址",
+      "prop": "box.x",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8248",
+      "node": "请输入收款方英文地址",
+      "type": "TEXT",
+      "text": "请输入收款方英文地址",
+      "prop": "box.y",
+      "figma": 32,
+      "impl": 32,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8248",
+      "node": "请输入收款方英文地址",
+      "type": "TEXT",
+      "text": "请输入收款方英文地址",
+      "prop": "fontSize",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8248",
+      "node": "请输入收款方英文地址",
+      "type": "TEXT",
+      "text": "请输入收款方英文地址",
+      "prop": "fontWeight",
+      "figma": 500,
+      "impl": 500,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8248",
+      "node": "请输入收款方英文地址",
+      "type": "TEXT",
+      "text": "请输入收款方英文地址",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8248",
+      "node": "请输入收款方英文地址",
+      "type": "TEXT",
+      "text": "请输入收款方英文地址",
+      "prop": "lineHeight",
+      "figma": 14.06,
+      "impl": 14.06,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8248",
+      "node": "请输入收款方英文地址",
+      "type": "TEXT",
+      "text": "请输入收款方英文地址",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8248",
+      "node": "请输入收款方英文地址",
+      "type": "TEXT",
+      "text": "请输入收款方英文地址",
+      "prop": "color",
+      "figma": "#aaa286",
+      "impl": "#aaa286",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8248",
+      "node": "请输入收款方英文地址",
+      "type": "TEXT",
+      "text": "请输入收款方英文地址",
+      "prop": "parent.backgroundColor",
+      "figma": "#ffffff",
+      "impl": "#ffffff",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8248",
+      "node": "请输入收款方英文地址",
+      "type": "TEXT",
+      "text": "请输入收款方英文地址",
+      "prop": "parent.borderColor",
+      "figma": "#aaa286@0.20",
+      "impl": "#aaa286@0.20",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:8248",
+      "node": "请输入收款方英文地址",
+      "type": "TEXT",
+      "text": "请输入收款方英文地址",
+      "prop": "parent.borderWidth",
+      "figma": 1,
+      "impl": 1,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    }
+  ]
+}

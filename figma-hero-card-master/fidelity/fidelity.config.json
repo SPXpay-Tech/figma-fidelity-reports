@@ -1,0 +1,55 @@
+{
+  "_comment": "Project fidelity config for the SPX mobile HeroCard (Total Asset Card · 总资产卡片) master 619:8205. Tolerances/gate match cards/auth.",
+  "checkTextContainerStyle": true,
+  "_checkTextContainerStyleNote": "Opt-in: for each TEXT match, also compare the nearest styled-ancestor's bg/border. Catches container chrome drift (eye-pill missing gold fill, hero gradient drift) that the text-anchored diff is structurally blind to.",
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels the CJK family 'HarmonyOS Sans TC' (Traditional). The app correctly ships 'HarmonyOS Sans SC' (Simplified) for its zh_CN UI — same Huawei type family, correct script variant. Latin labels use the bundled PlusJakartaSans-*.",
+  "ignoreText": [],
+  "deviations": [
+    {
+      "text": "USD",
+      "prop": "box.x",
+      "node": "I619:8205;560:4486",
+      "reason": "Hero-card amount unit (USD suffix) — pure typeface-metrics drift. Figma master renders '≈ 8,540.97' in HarmonyOS Sans TC Bold at 120px wide; impl renders the IDENTICAL string in PlusJakartaSans-Bold at 128.25px (~8px wider — Latin numerals are slightly broader in Plus Jakarta Sans). The figma frame `Frame 2147225254` has gap=12 (matched 1:1 in impl), so USD's leading edge inherits the amount's actual rendered width: 24 + 128.25 + 12 = 164.25 vs figma's 24 + 120 + 12 = 156. Same physical layout (amount + 12 gap + USD), driven by the bundled font choice — not a HeroCard defect. Approved 2026-05-28."
+    }
+  ],
+  "iconDeviations": [
+    {
+      "name": "^icon$",
+      "reason": "Inner iris sub-node of the balance eye — Figma exports the eye as outer-stroke + iris as two icon nodes. The impl renders the whole eye as one combined EyeMark SVG (react-native-svg, exported 1:1 from /tmp/ff-spx/icons/eye.svg), so the iris is not a separate <svg>. Same waiver shipped in the Cards module 2026-05-28. The eye glyph itself is gated normally — must pass on its own."
+    }
+  ],
+  "_iconDeviationsNote": "Read by icon-diff.mjs: a matched icon's fail/warn is downgraded to `waive` (info) and excluded from `fails`. The outer-eye + iris geometry/box is still token-checked. The eye is NOT waived as a whole — this is a real EyeMark SVG upgrade (Feather glyph -> EyeMark SVG), it must pass on its own.",
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "focus":    { "duration": 150, "easing": "ease-out" },
+      "error":    { "duration": 200, "easing": "ease-in-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" },
+      "hover":    { "duration": 120, "easing": "ease-out" },
+      "selected": { "duration": 150, "easing": "ease-out" },
+      "mismatch": { "duration": 200, "easing": "ease-in-out" },
+      "required": { "duration": 200, "easing": "ease-in-out" },
+      "loading":  { "animated": true }
+    },
+    "durationToleranceMs": 40,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["border-color", "background-color", "box-shadow", "opacity", "transform"]
+  },
+  "gate": { "minFidelityScore": 97, "maxCritical": 0, "maxMajor": 0 }
+}

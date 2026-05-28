@@ -1,0 +1,17 @@
+{
+  "_note": "staging-m.spxpay.com session (SAME-SITE → cookie persists → balances/rates/tx load populated). Prod build: dev pay-gate bypass is OFF, so use an account that already HAS a pay password (template yixin427 does). Email-OTP login (123456) needs no password. Secret via env SPX_USER.",
+  "url": "https://staging-m.spxpay.com/login",
+  "width": 390,
+  "height": 1600,
+  "locale": "zh-CN",
+  "steps": [
+    { "click": "[data-testid='seg-login-email']", "thenWaitMs": 500 },
+    { "fill": "[data-testid='input-email']", "value": "${SPX_USER}" },
+    { "click": "text=发送验证码", "thenWaitMs": 1500 },
+    { "fill": "[data-testid='input-code']", "value": "123456" },
+    { "click": "[data-testid='btn-login-submit']", "thenWaitMs": 3000 }
+  ],
+  "waitFor": "text=快捷操作",
+  "seedLocalStorage": { "spx.locale": "zh_CN" },
+  "out": "docs/figma-home-redesign/fidelity/storage.staging.json"
+}

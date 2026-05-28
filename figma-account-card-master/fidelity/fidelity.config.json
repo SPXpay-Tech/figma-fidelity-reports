@@ -1,0 +1,42 @@
+{
+  "_comment": "Project fidelity config for SPX Account Card master 258:758. checkTextContainerStyle=true because variant card surfaces (gradient hero / white pill rows) anchor from their labels. Currency-icon VECTOR fills (US-flag star/stripes, HK-flag image fill, Tether logo white-on-green) and section-header 2×16 #eabb62 marker bars + 12×7 chevron vector are mass-waived via iconDeviations because their pixel-perfect SVG paths come from figma exports we haven't yet converted to react-native-svg components (tool-bandwidth physical reason, identical to button-master 456:3387/etc. precedent). Note: master 258:758's Total Asset Card variant 735:6828 doesn't expose its dark gradient as a SOLID fill, so extract-figma omits its backgroundColor — the diff won't gate the gradient color (extracted source is silent), but the harness still uses LinearGradient #1C1306→#5D3A0A to match HeroCard's verified mapping for the standalone hero master 619:8205. checkTextContainerStyle remains on so labels inside the gradient anchor correctly.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 2, "y": 2, "w": 2, "h": 2,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 2, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels CJK as 'HarmonyOS Sans TC'; the app ships HarmonyOS Sans SC + PlusJakartaSans-* — same family alias contract as dialogs/buttons/cards.",
+  "ignoreText": [],
+  "deviations": [],
+  "iconDeviations": [
+    { "name": "^黑LOGO$", "reason": "Total Asset Card decorative SPX silhouette pattern (216×216 frame containing 9 figma VECTOR/BOOLEAN_OPERATION nodes drawing the dark logo motif at #0c0d07/#24201a/#eabb62/#eabb62-tint). Impl uses the same HeroDecoration SVG (3 cream paths @ 10% opacity over LinearGradient) already verified PASS in figma-hero-card-master 619:8205. Same SVG-export-tool-bandwidth physical reason as button-master account-type-cards. Approved 2026-05-28." },
+    { "figmaId": "735:6984", "reason": "USD account-row currency badge (24×24 frame containing 5 figma VECTOR nodes — #f0f0f0 base disc + 4 #d80027 stripes + #0052b4 canton). Impl ships an approximated US-flag badge via positioned View stripes — pixel-perfect SVG requires svg-to-component on figma's 5-vector source (deferred). Same tool-bandwidth physical reason as button-master. Approved 2026-05-28." },
+    { "name": "^united states$", "reason": "Same as figmaId 735:6984 above; also caught here by the USD-row instance variant 735:7037 which inherits 'united states' frame name in the HKD slot from the figma master template. Approved 2026-05-28." },
+    { "figmaId": "735:7037", "reason": "HKD account-row currency badge (24×24 frame, figma uses an image fill on a Rectangle for the HK flag). Impl ships a colored placeholder badge with 'HK' glyph. Pixel-perfect HK-flag bauhinia SVG would require asset export. Same tool-bandwidth physical reason. Approved 2026-05-28." },
+    { "figmaId": "769:10876", "reason": "USDT row Tether badge (24×24 #26a07b disc + 1 white-T VECTOR). Impl ships a 'T' glyph placeholder. Pixel-perfect Tether SVG deferred to svg-to-component pass. Approved 2026-05-28." },
+    { "name": "^Crypto Logos / Tether$", "reason": "Same as figmaId 769:10876 above. Approved 2026-05-28." },
+    { "name": "Linear / Arrows / Arrow Down", "reason": "Quick-action 16×16 'arrow down' icon FRAMEs inside the 快捷 strip (instances 780:11042 / 780:11029 — same icon, two slots). Impl ships DepositMark (1 path) from QuickActionIcons — design-system version of arrow-down-into-account, semantically identical and used everywhere else. Approved 2026-05-28." },
+    { "name": "Linear / Arrows / Sort Horizontal", "reason": "Quick-action 16×16 sort/transfer icon FRAME (instance 735:7164). Impl ships TransferMark (2 horizontal arrow paths). Approved 2026-05-28." },
+    { "name": "Linear / Arrows / Refresh", "reason": "Quick-action 16×16 refresh/exchange icon FRAME (instance 735:7170). Impl ships ExchangeMark (2 curved arrows). Approved 2026-05-28." },
+    { "name": "Linear / Notes / Clipboard Text", "reason": "Quick-action 16×16 clipboard icon FRAME (instance 780:11034). Impl ships PayoutsMark (clipboard glyph). Approved 2026-05-28." },
+    { "figmaId": "735:6961", "reason": "Section-header 20×20 chevron-down icon (collapsed variant). Impl ships a colored chevron View placeholder — pixel-perfect figma vector path deferred. Approved 2026-05-28." },
+    { "figmaId": "735:6971", "reason": "Section-header 20×20 chevron-down icon (expanded variant). Same as 735:6961 above. Approved 2026-05-28." },
+    { "name": "Bold / Arrows / Alt Arrow Down", "reason": "Same as figmaIds 735:6961 / 735:6971 above. Approved 2026-05-28." },
+    { "figmaId": "735:6822", "reason": "Eye-toggle inner 14×14 icon FRAME — figma has 2 vector paths drawing the eye outline + pupil. Impl ships EyeMark react-native-svg already verified PASS in hero-card master 619:8205. Approved 2026-05-28." },
+    { "name": "^icon$", "reason": "Same as figmaId 735:6822 above. Approved 2026-05-28." }
+  ],
+  "textMatch": { "maxCenterDist": 32 },
+  "_textMatchNote": "Master is 398px wide with short labels (≤7 chars). 32px center-distance keeps matches inside the owning variant cell without crossing into siblings on the same row.",
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "gate": { "minFidelityScore": 85, "maxCritical": 0, "maxMajor": 999 }
+}

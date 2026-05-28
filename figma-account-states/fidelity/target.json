@@ -1,0 +1,150 @@
+{
+  "_note": "figma-fidelity for SPX accounts inline-state library (§4.5 vocabulary). These are NOT modal popups; they are screen-level COMPONENT_SET variant states inside transfer/exchange/accounts screens. 13 screens wired: buysell (917:10462), recvamount (922:8515), receiver-account/add-receiver (954:8045 subset), transfer-panels (929:8500), and the remaining 8 variants of the 954:8045 set as single-cell canvases — remark/name/country-select/country-dropdown/city/address/address-long/delete-dialog. Boot expo web (pnpm exec expo start --web --port 8082), then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen <id>",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-account-states/fidelity/out",
+  "screens": [
+    {
+      "id": "buysell",
+      "node": "917:10462",
+      "figmaJson": "docs/figma-account-states/fidelity/figma-dump/buysell.json",
+      "figmaPng": "docs/figma-account-states/fidelity/figma-dump/buysell.png",
+      "url": "http://localhost:8082/__fidelity/account-states",
+      "width": 880,
+      "height": 800,
+      "root": "[data-figma-root='917:10462']",
+      "wait": "text=State=买入"
+    },
+    {
+      "id": "recvamount",
+      "node": "922:8515",
+      "figmaJson": "docs/figma-account-states/fidelity/figma-dump/recvamount.json",
+      "figmaPng": "docs/figma-account-states/fidelity/figma-dump/recvamount.png",
+      "url": "http://localhost:8082/__fidelity/account-states",
+      "width": 430,
+      "height": 293,
+      "root": "[data-figma-root='922:8515']",
+      "wait": "text=计算中"
+    },
+    {
+      "id": "receiver-account",
+      "node": "917:12737",
+      "figmaJson": "docs/figma-account-states/fidelity/figma-dump/receiver-account.json",
+      "figmaPng": "docs/figma-account-states/fidelity/figma-dump/receiver-account.png",
+      "url": "http://localhost:8082/__fidelity/account-states",
+      "width": 430,
+      "height": 158,
+      "root": "[data-figma-root='954:8045']",
+      "wait": "text=新增收款账户"
+    },
+    {
+      "id": "add-receiver",
+      "node": "917:12741",
+      "figmaJson": "docs/figma-account-states/fidelity/figma-dump/add-receiver.json",
+      "figmaPng": "docs/figma-account-states/fidelity/figma-dump/add-receiver.png",
+      "url": "http://localhost:8082/__fidelity/account-states",
+      "width": 430,
+      "height": 158,
+      "root": "[data-figma-root='954:8045']",
+      "wait": "text=新增收款账户"
+    },
+    {
+      "id": "transfer-panels",
+      "node": "929:8500",
+      "figmaJson": "docs/figma-account-states/fidelity/figma-dump/transfer-panels.json",
+      "figmaPng": "docs/figma-account-states/fidelity/figma-dump/transfer-panels.png",
+      "url": "http://localhost:8082/__fidelity/account-states",
+      "width": 430,
+      "height": 848,
+      "root": "[data-figma-root='929:8500']",
+      "wait": "text=SGB 银行账户 USD"
+    },
+    {
+      "id": "remark",
+      "node": "954:8185",
+      "figmaJson": "docs/figma-account-states/fidelity/figma-dump/remark.json",
+      "figmaPng": "docs/figma-account-states/fidelity/figma-dump/remark.png",
+      "url": "http://localhost:8082/__fidelity/account-states",
+      "width": 350,
+      "height": 58,
+      "root": "[data-figma-root='954:8185']",
+      "wait": "text=请输入账户备注"
+    },
+    {
+      "id": "name",
+      "node": "954:8219",
+      "figmaJson": "docs/figma-account-states/fidelity/figma-dump/name.json",
+      "figmaPng": "docs/figma-account-states/fidelity/figma-dump/name.png",
+      "url": "http://localhost:8082/__fidelity/account-states",
+      "width": 350,
+      "height": 58,
+      "root": "[data-figma-root='954:8219']",
+      "wait": "text=姓 (英文/拼音) *"
+    },
+    {
+      "id": "country-select",
+      "node": "954:8578",
+      "figmaJson": "docs/figma-account-states/fidelity/figma-dump/country-select.json",
+      "figmaPng": "docs/figma-account-states/fidelity/figma-dump/country-select.png",
+      "url": "http://localhost:8082/__fidelity/account-states",
+      "width": 350,
+      "height": 58,
+      "root": "[data-figma-root='954:8578']",
+      "wait": "text=请选择或搜索收款方国家"
+    },
+    {
+      "id": "country-dropdown",
+      "node": "954:8046",
+      "figmaJson": "docs/figma-account-states/fidelity/figma-dump/country-dropdown.json",
+      "figmaPng": "docs/figma-account-states/fidelity/figma-dump/country-dropdown.png",
+      "url": "http://localhost:8082/__fidelity/account-states",
+      "width": 350,
+      "height": 434,
+      "root": "[data-figma-root='954:8046']",
+      "wait": "text=搜索国家或区号"
+    },
+    {
+      "id": "city",
+      "node": "954:8234",
+      "figmaJson": "docs/figma-account-states/fidelity/figma-dump/city.json",
+      "figmaPng": "docs/figma-account-states/fidelity/figma-dump/city.png",
+      "url": "http://localhost:8082/__fidelity/account-states",
+      "width": 350,
+      "height": 58,
+      "root": "[data-figma-root='954:8234']",
+      "wait": "text=收款方所在城市"
+    },
+    {
+      "id": "address",
+      "node": "954:8244",
+      "figmaJson": "docs/figma-account-states/fidelity/figma-dump/address.json",
+      "figmaPng": "docs/figma-account-states/fidelity/figma-dump/address.png",
+      "url": "http://localhost:8082/__fidelity/account-states",
+      "width": 350,
+      "height": 58,
+      "root": "[data-figma-root='954:8244']",
+      "wait": "text=请输入收款方英文地址"
+    },
+    {
+      "id": "address-long",
+      "node": "954:8251",
+      "figmaJson": "docs/figma-account-states/fidelity/figma-dump/address-long.json",
+      "figmaPng": "docs/figma-account-states/fidelity/figma-dump/address-long.png",
+      "url": "http://localhost:8082/__fidelity/account-states",
+      "width": 350,
+      "height": 72,
+      "root": "[data-figma-root='954:8251']",
+      "wait": "text=30 Raffles Place"
+    },
+    {
+      "id": "delete-dialog",
+      "node": "954:10129",
+      "figmaJson": "docs/figma-account-states/fidelity/figma-dump/delete-dialog.json",
+      "figmaPng": "docs/figma-account-states/fidelity/figma-dump/delete-dialog.png",
+      "url": "http://localhost:8082/__fidelity/account-states",
+      "width": 300,
+      "height": 206,
+      "root": "[data-figma-root='954:10129']",
+      "wait": "text=你确认想要删除此收款人"
+    }
+  ]
+}

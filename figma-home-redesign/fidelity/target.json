@@ -1,0 +1,32 @@
+{
+  "_note": "figma-fidelity for SPX mobile HOME + ACCOUNTS. Ground truth = assembled gold frames (dev-cited): home 619:8194, accounts 704:5893. Rendered in DEV mock mode (?mock=1 + mock-state.json) so fixtures match the design's seeded data — true pixel/numeric diff, no auth. Run: FIGMA_TOKEN=figd_xxx node <skill>/scripts/run.mjs --target this --config fidelity.home.config.json --screen home",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-home-redesign/fidelity/out",
+  "topInset": 54,
+  "screens": [
+    {
+      "id": "home",
+      "node": "619:8194",
+      "url": "http://localhost:8082/?mock=1",
+      "width": 390,
+      "height": 2009,
+      "root": "body",
+      "storageState": "docs/figma-home-redesign/fidelity/mock-state.json",
+      "wait": "text=快捷操作",
+      "anchor": "快捷操作",
+      "topInset": 54
+    },
+    {
+      "id": "accounts",
+      "node": "704:5893",
+      "url": "http://localhost:8082/accounts?mock=1",
+      "width": 390,
+      "height": 1990,
+      "root": "body",
+      "storageState": "docs/figma-home-redesign/fidelity/mock-state.json",
+      "wait": "text=操作",
+      "anchor": "操作",
+      "topInset": 54
+    }
+  ]
+}

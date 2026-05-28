@@ -1,0 +1,40 @@
+{
+  "_comment": "Project fidelity config for SPX auth screens. Extends the skill's example with project-specific ignores/deviations. Tolerances match the example; ux.motion is the design's motion-token scale (verified by ux-diff).",
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "ignoreText": [
+    "^9:41$",
+    "^9 4 X K$"
+  ],
+  "_ignoreTextNote": "iOS status-bar mock (clock 9:41 + signal/wifi/battery glyphs) drawn in the Figma device frame. Never implemented on web — it's device chrome, not app UI. topInset reserves the band; these TEXT nodes are dropped so they don't perpetually flag as critical MISSING.",
+  "deviations": [
+    { "text": "区号", "prop": "*", "reason": "Phone field country-code selector renders the live dial code (+86 ▾) instead of the literal label word 区号. Functional equivalent + better UX; approved 2026-05-28." }
+  ],
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "focus":    { "duration": 150, "easing": "ease-out" },
+      "error":    { "duration": 200, "easing": "ease-in-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" },
+      "hover":    { "duration": 120, "easing": "ease-out" },
+      "selected": { "duration": 150, "easing": "ease-out" },
+      "mismatch": { "duration": 200, "easing": "ease-in-out" },
+      "required": { "duration": 200, "easing": "ease-in-out" },
+      "loading":  { "animated": true }
+    },
+    "_motionNote": "mismatch/required are error subtypes → they animate on the field's error transition (errorDurationMs 200 / ease-in-out), same as `error`. Without these the diff would compare them to the 150ms default and flag a phantom motion-minor.",
+    "durationToleranceMs": 40,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["border-color", "background-color", "box-shadow", "opacity", "transform"]
+  },
+  "gate": { "minFidelityScore": 97, "maxCritical": 0, "maxMajor": 0 }
+}

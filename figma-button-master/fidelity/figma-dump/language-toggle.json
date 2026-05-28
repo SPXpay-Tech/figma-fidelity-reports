@@ -1,0 +1,314 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "476:12",
+    "name": "🌐 语言切换 Language Toggle",
+    "width": 148,
+    "height": 138
+  },
+  "nodes": [
+    {
+      "key": "476:12",
+      "figmaId": "476:12",
+      "name": "🌐 语言切换 Language Toggle",
+      "type": "COMPONENT_SET",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 148,
+        "h": 138
+      },
+      "style": {
+        "backgroundColor": "#fcfcfa",
+        "borderRadius": 5,
+        "padding": {
+          "t": 28,
+          "r": 40,
+          "b": 28,
+          "l": 40
+        },
+        "gap": 18,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "476:2",
+      "figmaId": "476:2",
+      "name": "当前=中文",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 28,
+        "w": 68,
+        "h": 32
+      },
+      "style": {
+        "backgroundColor": "#f3f1e8",
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 4,
+          "b": 4,
+          "l": 4
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "476:3",
+      "figmaId": "476:3",
+      "name": "seg-中",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 32,
+        "w": 30,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 6,
+          "b": 4,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "476:4",
+      "figmaId": "476:4",
+      "name": "中",
+      "type": "TEXT",
+      "text": "中",
+      "box": {
+        "x": 53,
+        "y": 37,
+        "w": 12,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#ffffff"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "476:5",
+      "figmaId": "476:5",
+      "name": "seg-EN",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 74,
+        "y": 32,
+        "w": 30,
+        "h": 24
+      },
+      "style": {
+        "borderRadius": 13,
+        "padding": {
+          "t": 4,
+          "r": 6,
+          "b": 4,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "476:6",
+      "figmaId": "476:6",
+      "name": "EN",
+      "type": "TEXT",
+      "text": "EN",
+      "box": {
+        "x": 80.5,
+        "y": 36.5,
+        "w": 17,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "lineHeight": 15.12,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f3f1e8",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "476:7",
+      "figmaId": "476:7",
+      "name": "当前=英文",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 78,
+        "w": 68,
+        "h": 32
+      },
+      "style": {
+        "backgroundColor": "#f3f1e8",
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 4,
+          "b": 4,
+          "l": 4
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "476:8",
+      "figmaId": "476:8",
+      "name": "seg-中",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 44,
+        "y": 82,
+        "w": 30,
+        "h": 24
+      },
+      "style": {
+        "borderRadius": 13,
+        "padding": {
+          "t": 4,
+          "r": 6,
+          "b": 4,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "476:9",
+      "figmaId": "476:9",
+      "name": "中",
+      "type": "TEXT",
+      "text": "中",
+      "box": {
+        "x": 53,
+        "y": 87,
+        "w": 12,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f3f1e8",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "476:10",
+      "figmaId": "476:10",
+      "name": "seg-EN",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 74,
+        "y": 82,
+        "w": 30,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 6,
+          "b": 4,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "476:11",
+      "figmaId": "476:11",
+      "name": "EN",
+      "type": "TEXT",
+      "text": "EN",
+      "box": {
+        "x": 80.5,
+        "y": 86.5,
+        "w": 17,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "lineHeight": 15.12,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#ffffff"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    }
+  ]
+}

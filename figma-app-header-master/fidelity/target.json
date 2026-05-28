@@ -1,0 +1,21 @@
+{
+  "_note": "figma-fidelity for SPX mobile AppHeader brand variant + KYC compliance banner. Ground truth = subset of home frame 619:8194 — header instance 619:8197 + compliance pill 692:5294 + 查看详情 link. Run: pnpm exec expo start --web --port 8082 then `FIGMA_TOKEN=figd_… node <skill>/scripts/run.mjs --target this --config fidelity.config.json --screen home-header`.",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-app-header-master/fidelity/out",
+  "screens": [
+    {
+      "id": "home-header",
+      "node": "app-header-master",
+      "figmaJson": "docs/figma-app-header-master/fidelity/figma-dump/app-header.json",
+      "figmaPng": "docs/figma-app-header-master/fidelity/figma-dump/app-header.png",
+      "url": "http://localhost:8082/__fidelity/home-header",
+      "width": 1400,
+      "height": 900,
+      "root": "[data-figma-root='app-header-master']",
+      "storageState": "docs/figma-app-header-master/fidelity/mock-state.json",
+      "wait": "text=Master mirror",
+      "anchor": "中",
+      "uxTargets": "docs/figma-app-header-master/fidelity/ux.targets.json"
+    }
+  ]
+}

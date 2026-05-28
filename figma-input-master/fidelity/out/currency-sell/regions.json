@@ -1,0 +1,164 @@
+{
+  "frame": {
+    "id": "939:7989",
+    "name": "兑换币种下拉·卖出 Sell Currency Dropdown",
+    "width": 208,
+    "height": 712
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 1,
+  "regions": [
+    {
+      "name": "State=Error",
+      "type": "COMPONENT",
+      "box": {
+        "x": 24,
+        "y": 344,
+        "w": 160,
+        "h": 48
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 90.6,
+      "crops": {
+        "figma": "State_Error_939_7981.figma.png",
+        "impl": "State_Error_939_7981.impl.png"
+      }
+    },
+    {
+      "name": "State=Focus",
+      "type": "COMPONENT",
+      "box": {
+        "x": 24,
+        "y": 104,
+        "w": 160,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 4.5
+    },
+    {
+      "name": "head",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 424,
+        "w": 160,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 4.2
+    },
+    {
+      "name": "State=Empty",
+      "type": "COMPONENT",
+      "box": {
+        "x": 24,
+        "y": 264,
+        "w": 160,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.7
+    },
+    {
+      "name": "State=Disabled",
+      "type": "COMPONENT",
+      "box": {
+        "x": 24,
+        "y": 184,
+        "w": 160,
+        "h": 48
+      },
+      "figmaFill": "#f6f6f4",
+      "mismatch": 1.6
+    },
+    {
+      "name": "panel",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 478,
+        "w": 160,
+        "h": 210
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.9
+    },
+    {
+      "name": "opt-SGD",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 583,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0.8
+    },
+    {
+      "name": "opt-GBP",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 614,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0.7
+    },
+    {
+      "name": "opt-HKD",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 521,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0.4
+    },
+    {
+      "name": "opt-CNY",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 645,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0.3
+    },
+    {
+      "name": "opt-USD",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 490,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0.1
+    },
+    {
+      "name": "opt-EUR",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 552,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0.1
+    }
+  ]
+}

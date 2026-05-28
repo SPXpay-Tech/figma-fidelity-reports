@@ -1,0 +1,190 @@
+<!doctype html><meta charset="utf8"><title>Figma Fidelity Report</title>
+<style>
+ body{font:14px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#fafafa;color:#222}
+ header{padding:20px 28px;background:#111;color:#fff}
+ h1{margin:0;font-size:18px} .score{font-size:42px;font-weight:700}
+ .meta{color:#aaa;font-size:12px}
+ .wrap{padding:20px 28px;max-width:1400px;margin:auto}
+ .triptych{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:18px 0}
+ .triptych figure{margin:0;background:#fff;border:1px solid #eee;border-radius:8px;padding:10px;text-align:center}
+ .triptych img{max-width:100%;border:1px solid #f0f0f0}
+ figcaption{font-size:12px;color:#666;margin-top:6px}
+ table{border-collapse:collapse;width:100%;background:#fff;font-size:13px}
+ th,td{border:1px solid #eee;padding:6px 9px;text-align:left;vertical-align:top}
+ th{background:#f5f5f5;position:sticky;top:0}
+ tr.bad td{background:#fff6f6} tr.ok td{color:#999}
+ .node{font-weight:600} .iss{font-family:monospace;font-size:12px;color:#c92a2a}
+ code{background:#f0f0f0;padding:1px 4px;border-radius:3px}
+ .pill{display:inline-block;padding:2px 8px;border-radius:10px;font-size:12px;margin-right:6px;background:#333;color:#fff}
+ h2{margin-top:34px;border-bottom:2px solid #eee;padding-bottom:6px}
+</style>
+<header>
+ <h1>Figma Fidelity Report — 返回按钮 / Nav Back</h1>
+ <div style="display:flex;align-items:baseline;gap:18px;flex-wrap:wrap">
+   <div class="gate" style="font-size:30px;font-weight:700;color:#7ee787">GATE ✅ PASS</div>
+   <div class="score" style="font-size:30px;color:#888">100%</div>
+ </div>
+ <div class="meta">
+   <b style="color:#ff7b72">0 blocking</b> (critical+major) ·
+   <b style="color:#ffd43b">0 icon-fail</b> ·
+   <span style="color:#888">0 minor noise (sub-px — ignore)</span> ·
+   match mode: <b>tagged</b> ·
+   
+   · 2026-05-28T13:53:11.751Z
+ </div>
+ <div class="meta" style="margin-top:6px;color:#888">The <b>gate</b> is the verdict, not the %. Minor = unavoidable web-render sub-pixel noise. Icon check = Figma vector path-set vs rendered SVG.</div>
+
+</header>
+<div class="wrap">
+ <div class="triptych">
+   <figure><img src="data:image/png;base64,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"><figcaption>Figma 设计稿 (ground truth)</figcaption></figure>
+   <figure><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAIAAACTCYeWAAAFhElEQVR4nOycTW8jRRCGa8Y93+OYiBAiwbKIAweEEAckDqyQVtoDB8RpD1z4CfwqhMSBH7BISIuQEBc4cOOwEgKEWDZZEseeD4/tMW93mYk3yTpfM5OembxaOfbE3szTXV1d3e4qsVgs6ILCR2bTbDbL8vk8l5KPuEz1yTCleuqhJ4QtLNswDLqgjPPDAzXL0ul0AnLST+C3LMe2XTTHOT9yLnh0bJqMJ2lcXEGL246n2p6bX1yi4S8t3HM+n7HRzefoiwmeFL913MD1fNzTmf/PGfD4K2kSpUnMVi0tzHbRwD1hkU5CC8Aks2yCJ+qCAX7XDTA81nxqHfx8NhuP9rlRMbI8P7Rsl/TWNEvjeASDwHPYf9jfxJ0/783PhYctjccH6HoYtef3YeTUHGWTJEET5DkGY9DftCz71LedDo/hHUeHpLwIGq/O8VyWwBWN9qfKN/vBwHFP6bxT4Aty9HYQDqjJisfDySQhyb/huP6x3x73B3CdTA5Tbzo55IcDuCo8AdT0xAz9DDz8BDwcqT53vYBaIdcL2WFhFLAjLHQEv8hzkGMUCGHBSKhFAg7mZqAxYHH9CD5NIwQMiA2CZnq4NQKOdNumCUBEa8X1JTwm81QFcH64Ya4NDBoqQAWBdGFw52oloi7yD4RxJA1ehsfUUlm2I5TxS1glCY9u57jdC/rUarEvm6QRh60SHsEc/d8w1GrB7bFpM7KEx0IVj7b2cXspshyJycgCMxyvz1s82lfFmEDG4DexEiQVwxttdPInBbfPoxv8cuqjztg8ixfm2IYTS7937q2fFohX+AAXy3W/0QmbZ/EAB7jgcKcjA57FISzARb5Q8J3qeQULcEFqldOylcx6LWEx1VGHdQPfVd3Ad1V1wyOa/u3RL3E0JA0kqEZhIfnwwReHwz0srT6+//m1bx/UB1+QkzaqCX6VHBvEH9y9r8OuUR3wx8g/vPfpSy+/RhqocnhtyalqeJ3JqVJ4zcmpOnj9yaki+EaQUxXwWZZ8982XxXy+tf3qk8e/4x9dQZ4X3n7j7dJPQZUP//OPD4YHu8XLq5Ozdp/8+f6dT6hUlQ8/z2dUgXiLvVyVD//ue/eyNHm69xe/3N65vbV9i64mfKfyyq03qWwZ/+79jR+bL+5QedLf4e0/fUwVLWnx/c/djz7bGGyR+m7g+2+/2v3nD9JPVa3nG8Ff4WaG/vzV7uRozl/5NpbO/HXs4WnLX9MG5jH+Hx5+PVsejL9O1bd7u8qviWrdvWX+R7/+tL3zelf28FYF/rfeuUN66OYbm67qBr6r6ji8OqByiYza5moJaxgmn8BbTcdsvRbq9J3JycjF644oX6hzl6bseHnwNO8U/PLcZU9wz1exN6qtONnYLM5fT9Xh+46I0ywAbgp1+H6u0tGpA+KUe1JZB6rzVZIxZx20XqvJFXLAc6ZBRyx/OpHwjCzhi4Sj1ru9mSqwQCqVjBje7PU4bZjzp1usJBqRTC0OuKLGMrZ33ADRniwAo2UllFIk67zMMmC67jJBfAmPwc+dH0XDxaKFbh9zWTyWdg3MIq3kaFXnuD6mPplCf7jfsnUOl5DAJNfDxL5SP+EIXtXWeAGtAq/QssEfj4eAAloIwJWckmfW83ADYX+TVLWR1TzzRiuJR5w8CrRjlYPWFgyxXT8cNDf9BmhxNMwmkjwIByer3ZxVKkZYXHOAmiaMcDgvjlxOLZVCa4oEYc7jChOYGzw/sB2/KSaAe0bnpUmEaQs3j3EuLlQkiIVmi0YH3HgYLV7Q1z/lVtZGSsacJtrriXBjc02FsDMLg3ErjvltmCps27Fsd03BqWuRqo2WYnhzV8FIMZ+ryG2dtTa0JFxe1CE8WRIOAZwjA9iz/dRNMcALqjVlIP8DAAD//2mQGUwAAAAGSURBVAMAL9lf1QfxvXkAAAAASUVORK5CYII="><figcaption>产品截图 (implementation)</figcaption></figure>
+   <figure><img src="data:image/png;base64,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"><figcaption>像素热力图 (directional)</figcaption></figure>
+ </div>
+
+ <h2>Issues by component (actionable)</h2>
+ <table><thead><tr><th>Component</th><th>What to fix</th></tr></thead><tbody><tr><td colspan=2>✅ No issues</td></tr></tbody></table>
+
+ <h2>Icon vector check (1 icons · 0 fail · 0 warn · 0 waived)</h2>
+ <div class="meta" style="margin:0 0 8px">Each Figma icon's exported SVG path-set vs the rendered icon's <code>&lt;path&gt;</code> set. A count mismatch = a glyph element missing/wrong (e.g. a shield without its checkmark, or a font-glyph icon rendering no vector at all).</div>
+ <table><thead><tr><th>Icon</th><th>Figma paths</th><th>Impl paths</th><th>Status</th><th>Note</th></tr></thead><tbody>
+   <tr class="ok"><td>icon</td><td>1</td><td>1</td>
+   <td style="color:#2b8a3e">pass</td><td></td></tr></tbody></table>
+
+
+
+ <h2>All checks (22)</h2>
+ <table><thead><tr><th>Node</th><th>Prop</th><th>Figma</th><th>Impl</th><th>Δ</th><th>Sev</th><th>Hint</th></tr></thead><tbody>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>box.x</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>box.y</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>box.w</code></td>
+    <td>42</td><td>42</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>box.h</code></td>
+    <td>42</td><td>42</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>backgroundColor</code></td>
+    <td>#ffffff</td><td>#ffffff</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>borderColor</code></td>
+    <td>#aaa286@0.20</td><td>#aaa286@0.20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>borderRadius</code></td>
+    <td>12</td><td>12</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>borderWidth</code></td>
+    <td>1.5</td><td>1</td>
+    <td>0.5</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>padding.t</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>padding.r</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>padding.b</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>padding.l</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>icon</td><td><code>box.x</code></td>
+    <td>11</td><td>11</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>icon</td><td><code>box.y</code></td>
+    <td>11</td><td>11</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>icon</td><td><code>box.w</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>icon</td><td><code>box.h</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>box.x</code></td>
+    <td>14.33</td><td>14.33</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>box.y</code></td>
+    <td>16</td><td>16</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>box.w</code></td>
+    <td>13.33</td><td>13.33</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>box.h</code></td>
+    <td>10</td><td>10</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>borderColor</code></td>
+    <td>#aaa286</td><td>#aaa286</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>borderWidth</code></td>
+    <td>1.5</td><td>1</td>
+    <td>0.5</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr></tbody></table>
+</div>

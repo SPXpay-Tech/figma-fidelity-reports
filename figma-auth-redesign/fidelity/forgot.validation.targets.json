@@ -1,0 +1,36 @@
+[
+  {
+    "_scope": "VALIDATION targets — exercise the field error variants the Figma masters define (07_错误·格式 / 07_错误·强度 / 错误·未填写 / 两次密码不一致). Per the design these render INLINE on the field (red border + ⚠ helper text), so expect.feedback='inline'. The probe types a bad value / a mismatching confirm, blurs + submits, then checks WHERE the feedback landed (inline vs dialog vs silent). Server-side states (07_错误·未注册 / 08_错误·不对 / 08_错误·已过期) are wired in code via mapServerError; they require backend round-trip and aren't driven here.",
+    "key": "email",
+    "selector": "div:has(> input[data-testid='input-email'])",
+    "driveSelector": "input[data-testid='input-email']",
+    "kind": "input",
+    "states": ["error"],
+    "arg": { "badFormatValue": "not-an-email", "submitSelector": "[data-testid='btn-forgot-submit']" },
+    "expect": { "error": { "feedback": "inline" } }
+  },
+  {
+    "_note": "07_错误·强度 — typed password fails backend PASSWORD_REGEX. With the regex tightened to mirror prod, an obviously-weak value triggers inline feedback (red border + ⚠ helper).",
+    "key": "password",
+    "selector": "div:has(> input[data-testid='input-password'])",
+    "driveSelector": "input[data-testid='input-password']",
+    "kind": "password",
+    "states": ["error"],
+    "arg": { "badFormatValue": "weak", "submitSelector": "[data-testid='btn-forgot-submit']" },
+    "expect": { "error": { "feedback": "inline" } }
+  },
+  {
+    "_note": "Cross-field: password mismatch. precondition fills the password field first, then this confirm field gets a different value. The error belongs to the confirm field per register's pattern. Sample updated to a 12+ value so the password field itself passes the strength check, isolating the mismatch state.",
+    "key": "confirm",
+    "selector": "div:has(> input[data-testid='input-confirm'])",
+    "driveSelector": "input[data-testid='input-confirm']",
+    "kind": "password",
+    "states": ["mismatch"],
+    "arg": {
+      "precondition": [{ "fill": "input[data-testid='input-password']", "value": "Secret12345!" }],
+      "mismatchValue": "Different98765!",
+      "submitSelector": "[data-testid='btn-forgot-submit']"
+    },
+    "expect": { "mismatch": { "feedback": "inline" } }
+  }
+]

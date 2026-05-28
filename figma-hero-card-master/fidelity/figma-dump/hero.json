@@ -1,0 +1,439 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "619:8205",
+    "name": "Total Asset Card · 总资产卡片",
+    "width": 350,
+    "height": 118
+  },
+  "nodes": [
+    {
+      "key": "619:8205",
+      "figmaId": "619:8205",
+      "name": "Total Asset Card · 总资产卡片",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 350,
+        "h": 118
+      },
+      "style": {
+        "borderRadius": 20,
+        "padding": {
+          "t": 24,
+          "r": 24,
+          "b": 24,
+          "l": 24
+        },
+        "gap": 18,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "I619:8205;548:6250",
+      "figmaId": "I619:8205;548:6250",
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 185,
+        "y": -38,
+        "w": 215.99,
+        "h": 216
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "I619:8205;548:6251",
+      "figmaId": "I619:8205;548:6251",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 236.02,
+        "y": 15.8,
+        "w": 147,
+        "h": 96.53
+      },
+      "style": {
+        "backgroundColor": "#f9ac1c"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I619:8205;548:6252",
+      "figmaId": "I619:8205;548:6252",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 202.99,
+        "y": 27.87,
+        "w": 146.97,
+        "h": 96.25
+      },
+      "style": {
+        "backgroundColor": "#0c0d07"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I619:8205;548:6253",
+      "figmaId": "I619:8205;548:6253",
+      "name": "Group 1707484082",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 203,
+        "y": -20.01,
+        "w": 180.71,
+        "h": 180.7
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I619:8205;548:6254",
+      "figmaId": "I619:8205;548:6254",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 203.03,
+        "y": 79.78,
+        "w": 146.92,
+        "h": 80.91
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I619:8205;548:6255",
+      "figmaId": "I619:8205;548:6255",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 236.01,
+        "y": -20.01,
+        "w": 146.98,
+        "h": 81.19
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I619:8205;548:6256",
+      "figmaId": "I619:8205;548:6256",
+      "name": "Subtract",
+      "type": "BOOLEAN_OPERATION",
+      "text": null,
+      "box": {
+        "x": 203,
+        "y": 39.68,
+        "w": 146.97,
+        "h": 84.98
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I619:8205;548:6257",
+      "figmaId": "I619:8205;548:6257",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 203,
+        "y": 28.05,
+        "w": 146.97,
+        "h": 96.62
+      },
+      "style": {
+        "backgroundColor": "#0c0d07"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I619:8205;548:6258",
+      "figmaId": "I619:8205;548:6258",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 236.02,
+        "y": 15.93,
+        "w": 147,
+        "h": 82.12
+      },
+      "style": {
+        "backgroundColor": "#eabb62"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I619:8205;548:6259",
+      "figmaId": "I619:8205;548:6259",
+      "name": "Subtract",
+      "type": "BOOLEAN_OPERATION",
+      "text": null,
+      "box": {
+        "x": 236.71,
+        "y": 15.76,
+        "w": 147,
+        "h": 85.09
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I619:8205;548:6260",
+      "figmaId": "I619:8205;548:6260",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 236.71,
+        "y": 15.76,
+        "w": 147,
+        "h": 96.9
+      },
+      "style": {
+        "backgroundColor": "#24201a"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I619:8205;548:6261",
+      "figmaId": "I619:8205;548:6261",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 203.68,
+        "y": 65.32,
+        "w": 152.36,
+        "h": 59.17
+      },
+      "style": {
+        "backgroundColor": "#0c0d07"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I619:8205;548:6243",
+      "figmaId": "I619:8205;548:6243",
+      "name": "Frame 2147225255",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 24,
+        "w": 302,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 200,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "I619:8205;560:4480",
+      "figmaId": "I619:8205;560:4480",
+      "name": "label",
+      "type": "TEXT",
+      "text": "总资产余额",
+      "box": {
+        "x": 24,
+        "y": 28,
+        "w": 70,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f3f1e8"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I619:8205;560:4481",
+      "figmaId": "I619:8205;560:4481",
+      "name": "eye",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 302,
+        "y": 24,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 12
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I619:8205;548:6236",
+      "figmaId": "I619:8205;548:6236",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 307,
+        "y": 29,
+        "w": 14,
+        "h": 14
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I619:8205;548:6237",
+      "figmaId": "I619:8205;548:6237",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 308.17,
+        "y": 31.33,
+        "w": 11.67,
+        "h": 9.33
+      },
+      "style": {
+        "borderColor": "#ffffff",
+        "borderWidth": 1.0124999284744263
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I619:8205;548:6238",
+      "figmaId": "I619:8205;548:6238",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 312.25,
+        "y": 34.25,
+        "w": 3.5,
+        "h": 3.5
+      },
+      "style": {
+        "borderColor": "#ffffff",
+        "borderWidth": 1.0124999284744263
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I619:8205;548:6232",
+      "figmaId": "I619:8205;548:6232",
+      "name": "Frame 2147225254",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 66,
+        "w": 165,
+        "h": 28
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "I619:8205;560:4485",
+      "figmaId": "I619:8205;560:4485",
+      "name": "amount",
+      "type": "TEXT",
+      "text": "≈ 8,540.97",
+      "box": {
+        "x": 24,
+        "y": 66,
+        "w": 120,
+        "h": 28
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "lineHeight": 28.13,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I619:8205;560:4486",
+      "figmaId": "I619:8205;560:4486",
+      "name": "unit",
+      "type": "TEXT",
+      "text": "USD",
+      "box": {
+        "x": 156,
+        "y": 75,
+        "w": 33,
+        "h": 19
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 16,
+        "fontWeight": 500,
+        "lineHeight": 18.75,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f3f1e8"
+      },
+      "parentStyle": null,
+      "depth": 2
+    }
+  ]
+}

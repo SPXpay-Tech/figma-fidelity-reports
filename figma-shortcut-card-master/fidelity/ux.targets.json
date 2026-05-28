@@ -1,0 +1,10 @@
+[
+  {
+    "_comment": "GroupShortcutCard is a Pressable opening the corresponding account list (SPX → /accounts, SGB → /bank-accounts, consumer → /cards). Press affordance must dim on pointerdown.",
+    "key": "shortcut-spx",
+    "selector": "[data-figma-root='677:4761']",
+    "driveSelector": "[data-figma-root='677:4761'] > div",
+    "kind": "card",
+    "states": ["press"]
+  }
+]

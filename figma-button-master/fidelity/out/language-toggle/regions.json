@@ -1,0 +1,52 @@
+{
+  "frame": {
+    "id": "476:12",
+    "name": "🌐 语言切换 Language Toggle",
+    "width": 148,
+    "height": 138
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 0,
+  "regions": [
+    {
+      "name": "seg-EN",
+      "type": "FRAME",
+      "box": {
+        "x": 74,
+        "y": 82,
+        "w": 30,
+        "h": 24
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 0.5
+    },
+    {
+      "name": "当前=英文",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 78,
+        "w": 68,
+        "h": 32
+      },
+      "figmaFill": "#f3f1e8",
+      "mismatch": 0.2
+    },
+    {
+      "name": "seg-中",
+      "type": "FRAME",
+      "box": {
+        "x": 44,
+        "y": 82,
+        "w": 30,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    }
+  ]
+}

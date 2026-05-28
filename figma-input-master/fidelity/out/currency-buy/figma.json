@@ -1,0 +1,996 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "942:7996",
+    "name": "兑换币种下拉·买入 Buy Currency Dropdown",
+    "width": 208,
+    "height": 712
+  },
+  "nodes": [
+    {
+      "key": "942:7996",
+      "figmaId": "942:7996",
+      "name": "兑换币种下拉·买入 Buy Currency Dropdown",
+      "type": "COMPONENT_SET",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 208,
+        "h": 712
+      },
+      "style": {
+        "borderRadius": 5,
+        "padding": {
+          "t": 24,
+          "r": 24,
+          "b": 24,
+          "l": 24
+        },
+        "gap": 32,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "942:7972",
+      "figmaId": "942:7972",
+      "name": "State=Default-USD",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 24,
+        "w": 160,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "942:7973",
+      "figmaId": "942:7973",
+      "name": "USD",
+      "type": "TEXT",
+      "text": "USD",
+      "box": {
+        "x": 36,
+        "y": 40,
+        "w": 29,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1
+      },
+      "depth": 2
+    },
+    {
+      "key": "942:7974",
+      "figmaId": "942:7974",
+      "name": "arrow-down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 152,
+        "y": 38,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "942:7975",
+      "figmaId": "942:7975",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 156.17,
+        "y": 45.5,
+        "w": 11.67,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#152b51",
+        "borderWidth": 1.25
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "942:7976",
+      "figmaId": "942:7976",
+      "name": "State=Focus",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 104,
+        "w": 160,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#152b51",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#152b51@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "942:7977",
+      "figmaId": "942:7977",
+      "name": "USD",
+      "type": "TEXT",
+      "text": "USD",
+      "box": {
+        "x": 36,
+        "y": 120,
+        "w": 29,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#152b51",
+        "borderWidth": 1.5
+      },
+      "depth": 2
+    },
+    {
+      "key": "942:7978",
+      "figmaId": "942:7978",
+      "name": "arrow-down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 152,
+        "y": 118,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "942:7979",
+      "figmaId": "942:7979",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 156.17,
+        "y": 125.5,
+        "w": 11.67,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#152b51",
+        "borderWidth": 1.25
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "942:7980",
+      "figmaId": "942:7980",
+      "name": "State=Disabled",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 184,
+        "w": 160,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#f6f6f4",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "942:7981",
+      "figmaId": "942:7981",
+      "name": "USD",
+      "type": "TEXT",
+      "text": "USD",
+      "box": {
+        "x": 36,
+        "y": 200,
+        "w": 29,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#9ca3af"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f6f6f4",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1
+      },
+      "depth": 2
+    },
+    {
+      "key": "942:7982",
+      "figmaId": "942:7982",
+      "name": "arrow-down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 152,
+        "y": 198,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "942:7983",
+      "figmaId": "942:7983",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 156.17,
+        "y": 205.5,
+        "w": 11.67,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#9ca3af",
+        "borderWidth": 1.25
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "942:7984",
+      "figmaId": "942:7984",
+      "name": "State=Empty",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 264,
+        "w": 160,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "942:7985",
+      "figmaId": "942:7985",
+      "name": "请选择",
+      "type": "TEXT",
+      "text": "请选择",
+      "box": {
+        "x": 36,
+        "y": 280,
+        "w": 42,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#9ca3af"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1
+      },
+      "depth": 2
+    },
+    {
+      "key": "942:7986",
+      "figmaId": "942:7986",
+      "name": "arrow-down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 152,
+        "y": 278,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "942:7987",
+      "figmaId": "942:7987",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 156.17,
+        "y": 285.5,
+        "w": 11.67,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#152b51",
+        "borderWidth": 1.25
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "942:7988",
+      "figmaId": "942:7988",
+      "name": "State=Error",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 344,
+        "w": 160,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#f52f32@0.10",
+        "borderColor": "#f52f32",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "942:7989",
+      "figmaId": "942:7989",
+      "name": "请选择",
+      "type": "TEXT",
+      "text": "请选择",
+      "box": {
+        "x": 36,
+        "y": 360,
+        "w": 42,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#9ca3af"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f52f32@0.10",
+        "borderColor": "#f52f32",
+        "borderWidth": 1.5
+      },
+      "depth": 2
+    },
+    {
+      "key": "942:7990",
+      "figmaId": "942:7990",
+      "name": "arrow-down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 152,
+        "y": 358,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "942:7991",
+      "figmaId": "942:7991",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 156.17,
+        "y": 365.5,
+        "w": 11.67,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#f52f32",
+        "borderWidth": 1.25
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "942:7992",
+      "figmaId": "942:7992",
+      "name": "State=Open",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 424,
+        "w": 160,
+        "h": 264
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "942:7997",
+      "figmaId": "942:7997",
+      "name": "head",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 424,
+        "w": 160,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#152b51",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#152b51@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "942:7993",
+      "figmaId": "942:7993",
+      "name": "USD",
+      "type": "TEXT",
+      "text": "USD",
+      "box": {
+        "x": 36,
+        "y": 440,
+        "w": 29,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#152b51",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "942:7994",
+      "figmaId": "942:7994",
+      "name": "arrow-up",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 152,
+        "y": 438,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "942:7995",
+      "figmaId": "942:7995",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 156.17,
+        "y": 445.5,
+        "w": 11.67,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#152b51",
+        "borderWidth": 1.25
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "942:7998",
+      "figmaId": "942:7998",
+      "name": "panel",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 478,
+        "w": 160,
+        "h": 210
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 6,
+          "blur": 12,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "942:7999",
+      "figmaId": "942:7999",
+      "name": "opt-USD",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 490,
+        "w": 136,
+        "h": 31
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderRadius": 6,
+        "padding": {
+          "t": 8,
+          "r": 12,
+          "b": 8,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "942:8000",
+      "figmaId": "942:8000",
+      "name": "USD",
+      "type": "TEXT",
+      "text": "USD",
+      "box": {
+        "x": 48,
+        "y": 498,
+        "w": 27,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "942:8001",
+      "figmaId": "942:8001",
+      "name": "opt-HKD",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 521,
+        "w": 136,
+        "h": 31
+      },
+      "style": {
+        "borderRadius": 6,
+        "padding": {
+          "t": 8,
+          "r": 12,
+          "b": 8,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "942:8002",
+      "figmaId": "942:8002",
+      "name": "HKD",
+      "type": "TEXT",
+      "text": "HKD",
+      "box": {
+        "x": 48,
+        "y": 529,
+        "w": 29,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "942:8003",
+      "figmaId": "942:8003",
+      "name": "opt-EUR",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 552,
+        "w": 136,
+        "h": 31
+      },
+      "style": {
+        "borderRadius": 6,
+        "padding": {
+          "t": 8,
+          "r": 12,
+          "b": 8,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "942:8004",
+      "figmaId": "942:8004",
+      "name": "EUR",
+      "type": "TEXT",
+      "text": "EUR",
+      "box": {
+        "x": 48,
+        "y": 560,
+        "w": 26,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "942:8005",
+      "figmaId": "942:8005",
+      "name": "opt-SGD",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 583,
+        "w": 136,
+        "h": 31
+      },
+      "style": {
+        "borderRadius": 6,
+        "padding": {
+          "t": 8,
+          "r": 12,
+          "b": 8,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "942:8006",
+      "figmaId": "942:8006",
+      "name": "SGD",
+      "type": "TEXT",
+      "text": "SGD",
+      "box": {
+        "x": 48,
+        "y": 591,
+        "w": 27,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "942:8007",
+      "figmaId": "942:8007",
+      "name": "opt-GBP",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 614,
+        "w": 136,
+        "h": 31
+      },
+      "style": {
+        "borderRadius": 6,
+        "padding": {
+          "t": 8,
+          "r": 12,
+          "b": 8,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "942:8008",
+      "figmaId": "942:8008",
+      "name": "GBP",
+      "type": "TEXT",
+      "text": "GBP",
+      "box": {
+        "x": 48,
+        "y": 622,
+        "w": 26,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "942:8009",
+      "figmaId": "942:8009",
+      "name": "opt-CNY",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 645,
+        "w": 136,
+        "h": 31
+      },
+      "style": {
+        "borderRadius": 6,
+        "padding": {
+          "t": 8,
+          "r": 12,
+          "b": 8,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "942:8010",
+      "figmaId": "942:8010",
+      "name": "CNY",
+      "type": "TEXT",
+      "text": "CNY",
+      "box": {
+        "x": 48,
+        "y": 653,
+        "w": 27,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    }
+  ]
+}

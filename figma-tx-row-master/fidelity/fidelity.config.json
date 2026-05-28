@@ -1,0 +1,78 @@
+{
+  "_comment": "Project fidelity config for SPX home tx-rows master 619:8235. Same tolerances/gate as the toast/dialog masters. textContainerStyle off — TxRow surface (bg/border/radius) is anchored from the row container, not the label text, and each label sits inside its own mid/pill frame. fontAliases match the HarmonyOS Sans TC ↔ bundled Plus Jakarta Sans (Latin) contract used across cards/auth/toast/dialog.",
+  "checkTextContainerStyle": false,
+  "tolerances": {
+    "x": 2, "y": 2, "w": 2, "h": 2,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels the CJK family 'HarmonyOS Sans TC'; impl uses the bundled PlusJakartaSans-* (Latin) — same family alias contract as cards/auth/buttons.",
+  "ignoreText": [
+    "^11 instances · 326×41\\(normal\\)/47\\(audit\\) · 5 status variants · HarmonyOS Sans TC 14/20 w500 #24201a$",
+    "^📜 交易记录 TxRow · 全集预览 · master 619:8235$",
+    "^Master mirror · 619:8235$",
+    "^入金×7 \\+ 出金 \\+ 审核中 \\+ 出款失败$",
+    "^impl-only · 划转/兑换$",
+    "^not in master; visual coverage of sort-horizontal icon$"
+  ],
+  "deviations": [
+    {
+      "node": "Vector",
+      "prop": "borderColor",
+      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+    },
+    {
+      "node": "Vector",
+      "prop": "borderWidth",
+      "reason": "Same tool limitation as borderColor — SVG strokeWidth is not surfaced as CSS borderWidth by getComputedStyle. Already validated via icon-diff (stroke widths come from the Figma SVG verbatim through svg-to-component.mjs)."
+    },
+    {
+      "node": "Vector",
+      "prop": "backgroundColor",
+      "reason": "Same SVG-fill tool limitation — the danger-circle inner dot (I619:8247;586:7400) renders <circle fill='#F52F32'/> in impl; getComputedStyle returns transparent because there's no CSS background-color on an SVG <circle>. Fill is verified path-by-path by icon-diff."
+    },
+    {
+      "node": "+120.00 USD",
+      "prop": "box.x",
+      "reason": "Plus Jakarta Sans Medium renders '+120.00 USD' ~76px wide vs HarmonyOS Sans TC's 73px in the Figma reference (3-4px font-metric drift baked into the bundled-Latin substitution). Text is right-aligned to the row's right edge in both designs, so the right edge matches — only the left edge (box.x) shifts by the width delta. Same fontAliases reconciliation pattern used by cards/auth/toast/dialog masters."
+    },
+    {
+      "node": "-120.00 USD",
+      "prop": "box.x",
+      "reason": "Same font-metric drift as +120.00 USD — Plus Jakarta Sans Medium is wider than HarmonyOS Sans TC, shifting the right-aligned amount's left edge ~3-4px."
+    },
+    {
+      "node": "2026-05-15 19:13",
+      "prop": "box.w",
+      "reason": "Date Text drops the explicit width:101 from the figma master so the string cannot wrap (visual bug caught in wave-4 user review — PlusJakartaSans-Regular renders '2026-05-15 19:13' wider than HarmonyOS Sans TC; with width:101 the second line clipped below the 33px mid container). Single-line is enforced via numberOfLines={1}; intrinsic width measures ~108px vs figma 101 (~7px drift, same family as the amount.x deviations). Overflow lands in the row's right-side flex spacer, never overlapping the amount column."
+    }
+  ],
+  "iconDeviations": [],
+  "textMatch": { "maxCenterDist": 80 },
+  "_textMatchNote": "Master frame is 350px wide with rows stacked vertically gap=12. Same-text date strings repeat across rows but matched by y-position; 80px max-center-dist is safe.",
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "focus":    { "duration": 150, "easing": "ease-out" },
+      "error":    { "duration": 200, "easing": "ease-in-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" },
+      "hover":    { "duration": 120, "easing": "ease-out" },
+      "selected": { "duration": 150, "easing": "ease-out" },
+      "loading":  { "animated": true }
+    },
+    "durationToleranceMs": 40,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["background-color", "border-color", "box-shadow", "opacity", "transform"]
+  },
+  "gate": { "minFidelityScore": 97, "maxCritical": 0, "maxMajor": 0 }
+}

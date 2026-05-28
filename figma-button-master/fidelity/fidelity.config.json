@@ -1,0 +1,48 @@
+{
+  "_comment": "Project fidelity config for SPX button master 454:3372. Same tolerances/gate as the cards/auth harnesses. checkTextContainerStyle=true so the diff also compares the BUTTON SURFACE (bg/border/radius) anchored from the label text — this is the whole point for a button master.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 2, "y": 2, "w": 2, "h": 2,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels the CJK family 'HarmonyOS Sans TC'; impl uses the bundled PlusJakartaSans-* (Latin) — same family alias contract as cards/auth.",
+  "ignoreText": [
+    "^由 🧩 组件母板 · Kochibov 派生 · 按钮/卡片/勾选/配饰 各状态变体已铺好 · 交互后续单独做$"
+  ],
+  "deviations": [
+    { "figmaId": "451:4629", "prop": "borderColor", "reason": "Figma node 451:4629 'Vector' is the SVG path data of the static loading-spinner glyph (stroke #ffffff @ 1.5px). The impl renders the loading state via RN ActivityIndicator (native rotating spinner — same intent, different glyph), with a Vector wrapper View that has no border. App-wide loading-indicator system; the visible glyph difference is already documented via iconDeviations (the wrapper 451:4628). The wrapper's borderColor is a side-effect of the figma SVG stroke being modeled as borderTopColor; not an impl rendering choice. Approved 2026-05-28." },
+    { "figmaId": "451:4629", "prop": "borderWidth", "reason": "Same as above — figma's Vector node carries a 1.5px stroke that diff.mjs surfaces as borderWidth. Impl uses ActivityIndicator (no explicit border on its layout container). Approved 2026-05-28." }
+  ],
+  "iconDeviations": [
+    { "name": "^Linear / Essentional, UI / Transfer Horizontal Square$", "reason": "Figma master's 状态=加载 includes a 20×20 spinner vector node; the impl ships react-native's ActivityIndicator (rotating spinner — same intent, different glyph). App-wide loading-indicator system, geometry+box still token-checked. Approved 2026-05-28." }
+  ],
+  "_iconWaiversRemovedNote": "2026-05-28 follow-up — back-button chevron (159:2), checkbox check (458:2), and 8 account-type-cards icon frames (456:3387/3395, 953:7898/8008, 456:3403/3416, 953:7982/8016) previously waived because the harness rendered bordered Views. Now they render real react-native-svg <Svg><Path/> components generated from Figma SVG export (svg-to-component → LoginLibIcons.tsx). Waivers no longer needed; icon-diff verifies path count + glyph match.",
+  "textMatch": { "maxCenterDist": 80 },
+  "_textMatchNote": "Master frame is wide (2541px) with columns; text occurs many times (label '登录' repeats across 3+ cells). 80px center-distance keeps matches inside their owning button cell (≤350px wide) without crossing into siblings.",
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "focus":    { "duration": 150, "easing": "ease-out" },
+      "error":    { "duration": 200, "easing": "ease-in-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" },
+      "hover":    { "duration": 120, "easing": "ease-out" },
+      "selected": { "duration": 150, "easing": "ease-out" },
+      "loading":  { "animated": true }
+    },
+    "durationToleranceMs": 40,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["background-color", "border-color", "box-shadow", "opacity", "transform"]
+  },
+  "gate": { "minFidelityScore": 97, "maxCritical": 0, "maxMajor": 0 }
+}

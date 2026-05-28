@@ -1,0 +1,60 @@
+{
+  "type": "ux.impl",
+  "url": "http://localhost:8082/__fidelity/home-shortcuts",
+  "targets": [
+    {
+      "key": "shortcut-spx",
+      "selector": "[data-figma-root='677:4761']",
+      "kind": "card",
+      "snapshots": {
+        "rest": {
+          "style": {
+            "border-top-color": "rgb(0, 0, 0)",
+            "border-top-width": "0px",
+            "background-color": "rgb(255, 255, 255)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "0px"
+          },
+          "transitionProperty": "all",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "SPX 资金账户查看全部总余额6,011.86USD",
+          "imgSrc": null,
+          "driveInputType": null
+        },
+        "press": {
+          "style": {
+            "border-top-color": "rgb(0, 0, 0)",
+            "border-top-width": "0px",
+            "background-color": "rgb(255, 255, 255)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "0px"
+          },
+          "transitionProperty": "all",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "SPX 资金账户查看全部总余额6,011.86USD",
+          "imgSrc": null,
+          "driveInputType": null
+        }
+      },
+      "notes": []
+    }
+  ]
+}

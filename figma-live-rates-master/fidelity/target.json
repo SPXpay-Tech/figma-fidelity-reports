@@ -1,0 +1,21 @@
+{
+  "_note": "figma-fidelity for SPX mobile LiveRates master 744:7619 (实时汇率 · Exchange Rate Card, 350×554). Module mirror of the home-frame LiveRates region (619:8194 @ y=704), rendered standalone on the /__fidelity/home-live-rates hidden route so the diff scores the component in isolation without home-frame neighbours (KYC banner, hero card, quick actions, tx list) polluting the token table. Boot expo web with `pnpm exec expo start --web --port 8082`, then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen live-rates",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-live-rates-master/fidelity/out",
+  "screens": [
+    {
+      "id": "live-rates",
+      "node": "744:7619",
+      "figmaJson": "docs/figma-live-rates-master/fidelity/figma-dump/master.json",
+      "figmaPng": "docs/figma-live-rates-master/fidelity/figma-dump/master.png",
+      "url": "http://localhost:8082/__fidelity/home-live-rates?mock=1",
+      "width": 1400,
+      "height": 900,
+      "storageState": "docs/figma-live-rates-master/fidelity/storage.json",
+      "root": "[data-figma-root='744:7619']",
+      "wait": "text=实时汇率 · master 744:7619",
+      "anchor": "实时汇率 · master 744:7619",
+      "uxTargets": "docs/figma-live-rates-master/fidelity/ux.targets.json"
+    }
+  ]
+}

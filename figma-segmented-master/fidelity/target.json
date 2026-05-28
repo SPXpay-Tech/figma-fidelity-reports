@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for the SPX 分段控件 Segmented master 958:13407. The master is a COMPONENT_SET 390×318 with 5 variants (2-tab × 2 + 3-tab × 3); /__fidelity/segmented mirrors those 5 with exact Figma component/seg/text tag IDs (data-figma-id) inside a data-figma-root='958:13407' wrapper. Additional design-system extension columns (4-tab + hover/pressed) sit beside the master mirror — they share the master id and are visual-only state coverage. Boot expo web (pnpm exec expo start --web --port 8082) and: node <skill>/scripts/run.mjs --target this --config fidelity.config.json --screen segmented",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-segmented-master/fidelity/out",
+  "screens": [
+    {
+      "id": "segmented",
+      "node": "958:13407",
+      "figmaJson": "docs/figma-segmented-master/fidelity/figma-dump/segmented.json",
+      "figmaPng": "docs/figma-segmented-master/fidelity/figma-dump/segmented.png",
+      "url": "http://localhost:8082/__fidelity/segmented",
+      "width": 2200,
+      "height": 1400,
+      "root": "[data-figma-root='958:13407']",
+      "wait": "text=Master mirror · 958:13407",
+      "anchor": "分段控件 Segmented"
+    }
+  ]
+}

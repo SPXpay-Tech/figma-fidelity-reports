@@ -1,0 +1,638 @@
+{
+  "meta": {
+    "figmaFrame": {
+      "id": "922:8515",
+      "name": "划转相关·实收金额",
+      "width": 430,
+      "height": 293
+    },
+    "implFrame": {
+      "id": "page",
+      "name": "page",
+      "width": 430,
+      "height": 293
+    },
+    "matchMode": "fallback",
+    "originOffset": {
+      "x": 0,
+      "y": 8.44
+    },
+    "generated": "2026-05-28T09:50:27.949Z"
+  },
+  "summary": {
+    "checks": 48,
+    "fails": 3,
+    "fidelityScore": 93.8,
+    "bySeverity": {
+      "minor": 3
+    },
+    "gate": {
+      "blocking": 0,
+      "minor": 3,
+      "pass": true
+    },
+    "approved": 2
+  },
+  "failsByNode": {
+    "10,000.00 USD": [
+      "box.y: 55.81 → move to y≈58px"
+    ],
+    "计算中…": [
+      "box.y: 134.81 → move to y≈137px"
+    ],
+    "-- USD": [
+      "box.y: 213.81 → move to y≈216px"
+    ]
+  },
+  "approvedDeviations": [
+    {
+      "figmaId": "922:8504",
+      "node": "10,000.00 USD",
+      "prop": "box.x",
+      "figma": 261,
+      "impl": 277.98,
+      "reason": "Same flex space-between text-width artifact as 可用余额: above. The balance-row right edge is aligned correctly; the value's left edge sits ~10px further right because PJS glyph widths are tighter than figma's HarmonyOS reference."
+    },
+    {
+      "figmaId": "922:8512",
+      "node": "-- USD",
+      "prop": "box.x",
+      "figma": 323,
+      "impl": 331.33,
+      "reason": "Receive-amount 未选转入 right-aligned amount value: same PJS-glyph-width-narrower-than-HarmonyOS artifact as 10,000.00 USD on the buysell screen. Right edge anchored, left edge ~8px right of figma."
+    }
+  ],
+  "findings": [
+    {
+      "figmaId": "922:8503",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "box.x",
+      "figma": 52,
+      "impl": 52,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8503",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "box.y",
+      "figma": 60.5,
+      "impl": 60.5,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8503",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "fontSize",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8503",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "fontWeight",
+      "figma": 500,
+      "impl": 500,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8503",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8503",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "lineHeight",
+      "figma": 14.06,
+      "impl": 14.06,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8503",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8503",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "color",
+      "figma": "#152b51",
+      "impl": "#152b51",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8504",
+      "node": "10,000.00 USD",
+      "type": "TEXT",
+      "text": "10,000.00 USD",
+      "prop": "box.x",
+      "figma": 261,
+      "impl": 277.98,
+      "delta": 16.98,
+      "pass": true,
+      "severity": "approved",
+      "hint": "move to x≈261px",
+      "note": "Same flex space-between text-width artifact as 可用余额: above. The balance-row right edge is aligned correctly; the value's left edge sits ~10px further right because PJS glyph widths are tighter than figma's HarmonyOS reference."
+    },
+    {
+      "figmaId": "922:8504",
+      "node": "10,000.00 USD",
+      "type": "TEXT",
+      "text": "10,000.00 USD",
+      "prop": "box.y",
+      "figma": 58,
+      "impl": 55.81,
+      "delta": 2.19,
+      "pass": false,
+      "severity": "minor",
+      "hint": "move to y≈58px"
+    },
+    {
+      "figmaId": "922:8504",
+      "node": "10,000.00 USD",
+      "type": "TEXT",
+      "text": "10,000.00 USD",
+      "prop": "fontSize",
+      "figma": 16,
+      "impl": 16,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8504",
+      "node": "10,000.00 USD",
+      "type": "TEXT",
+      "text": "10,000.00 USD",
+      "prop": "fontWeight",
+      "figma": 900,
+      "impl": 900,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8504",
+      "node": "10,000.00 USD",
+      "type": "TEXT",
+      "text": "10,000.00 USD",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8504",
+      "node": "10,000.00 USD",
+      "type": "TEXT",
+      "text": "10,000.00 USD",
+      "prop": "lineHeight",
+      "figma": 18.75,
+      "impl": 18.75,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8504",
+      "node": "10,000.00 USD",
+      "type": "TEXT",
+      "text": "10,000.00 USD",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8504",
+      "node": "10,000.00 USD",
+      "type": "TEXT",
+      "text": "10,000.00 USD",
+      "prop": "color",
+      "figma": "#152b51",
+      "impl": "#152b51",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8507",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "box.x",
+      "figma": 52,
+      "impl": 52,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8507",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "box.y",
+      "figma": 139.5,
+      "impl": 139.5,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8507",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "fontSize",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8507",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "fontWeight",
+      "figma": 500,
+      "impl": 500,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8507",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8507",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "lineHeight",
+      "figma": 14.06,
+      "impl": 14.06,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8507",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8507",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "color",
+      "figma": "#152b51",
+      "impl": "#152b51",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8508",
+      "node": "计算中…",
+      "type": "TEXT",
+      "text": "计算中…",
+      "prop": "box.x",
+      "figma": 314,
+      "impl": 314,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8508",
+      "node": "计算中…",
+      "type": "TEXT",
+      "text": "计算中…",
+      "prop": "box.y",
+      "figma": 137,
+      "impl": 134.81,
+      "delta": 2.19,
+      "pass": false,
+      "severity": "minor",
+      "hint": "move to y≈137px"
+    },
+    {
+      "figmaId": "922:8508",
+      "node": "计算中…",
+      "type": "TEXT",
+      "text": "计算中…",
+      "prop": "fontSize",
+      "figma": 16,
+      "impl": 16,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8508",
+      "node": "计算中…",
+      "type": "TEXT",
+      "text": "计算中…",
+      "prop": "fontWeight",
+      "figma": 900,
+      "impl": 900,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8508",
+      "node": "计算中…",
+      "type": "TEXT",
+      "text": "计算中…",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8508",
+      "node": "计算中…",
+      "type": "TEXT",
+      "text": "计算中…",
+      "prop": "lineHeight",
+      "figma": 18.75,
+      "impl": 18.75,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8508",
+      "node": "计算中…",
+      "type": "TEXT",
+      "text": "计算中…",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8508",
+      "node": "计算中…",
+      "type": "TEXT",
+      "text": "计算中…",
+      "prop": "color",
+      "figma": "#9ca3af",
+      "impl": "#9ca3af",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8511",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "box.x",
+      "figma": 52,
+      "impl": 52,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8511",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "box.y",
+      "figma": 218.5,
+      "impl": 218.5,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8511",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "fontSize",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8511",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "fontWeight",
+      "figma": 500,
+      "impl": 500,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8511",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8511",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "lineHeight",
+      "figma": 14.06,
+      "impl": 14.06,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8511",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8511",
+      "node": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "prop": "color",
+      "figma": "#152b51",
+      "impl": "#152b51",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8512",
+      "node": "-- USD",
+      "type": "TEXT",
+      "text": "-- USD",
+      "prop": "box.x",
+      "figma": 323,
+      "impl": 331.33,
+      "delta": 8.33,
+      "pass": true,
+      "severity": "approved",
+      "hint": "move to x≈323px",
+      "note": "Receive-amount 未选转入 right-aligned amount value: same PJS-glyph-width-narrower-than-HarmonyOS artifact as 10,000.00 USD on the buysell screen. Right edge anchored, left edge ~8px right of figma."
+    },
+    {
+      "figmaId": "922:8512",
+      "node": "-- USD",
+      "type": "TEXT",
+      "text": "-- USD",
+      "prop": "box.y",
+      "figma": 216,
+      "impl": 213.81,
+      "delta": 2.19,
+      "pass": false,
+      "severity": "minor",
+      "hint": "move to y≈216px"
+    },
+    {
+      "figmaId": "922:8512",
+      "node": "-- USD",
+      "type": "TEXT",
+      "text": "-- USD",
+      "prop": "fontSize",
+      "figma": 16,
+      "impl": 16,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8512",
+      "node": "-- USD",
+      "type": "TEXT",
+      "text": "-- USD",
+      "prop": "fontWeight",
+      "figma": 900,
+      "impl": 900,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8512",
+      "node": "-- USD",
+      "type": "TEXT",
+      "text": "-- USD",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8512",
+      "node": "-- USD",
+      "type": "TEXT",
+      "text": "-- USD",
+      "prop": "lineHeight",
+      "figma": 18.75,
+      "impl": 18.75,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8512",
+      "node": "-- USD",
+      "type": "TEXT",
+      "text": "-- USD",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "922:8512",
+      "node": "-- USD",
+      "type": "TEXT",
+      "text": "-- USD",
+      "prop": "color",
+      "figma": "#9ca3af",
+      "impl": "#9ca3af",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    }
+  ]
+}

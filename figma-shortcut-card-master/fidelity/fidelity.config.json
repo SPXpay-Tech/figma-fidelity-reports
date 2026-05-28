@@ -1,0 +1,46 @@
+{
+  "_comment": "Project fidelity config for the GroupShortcutCard 3-row library on home (619:8194). Tolerances mirror account-states/dialog/cards. The harness renders 3 rows (677:4761/4762/4763), each in its own 350×87 canvas. The figma master uses placeholder text 'amount' / 'unit' inside the bottom row — impl renders the real formatted balance + currency, so we ignoreText those template tokens.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "ignoreText": [
+    "^amount$",
+    "^unit$",
+    "^[\\d,]+\\.\\d{2}$",
+    "^(USD|EUR|HKD|SGD|GBP|CNY|USDT|USDC)$"
+  ],
+  "_ignoreTextNote": "Figma master ships placeholder 'amount' / 'unit' in the bottom-row text frames. Impl renders the live formatted balance + currency code via the GroupShortcutCard props. Box / typography / color of these frames is still scored — only the text content is data-vs-template.",
+  "deviations": [
+    {
+      "node": "Account Balance Card · 账户余额卡片",
+      "prop": "boxShadow",
+      "reason": "Outer drop-shadow alpha intentionally raised from figma's #000000@0.01 to #000000@0.06. The 0.01 token is effectively 'no shadow' on real iOS/Android pixel rounding (and reads flat in figma's raster export against the cream surface-subtle bg). Wave-4 user review flagged the three account cards as detached/borderless; 6% alpha + 12px blur restores the subtle elevation the design intent communicates while keeping the cards light against #F7F5EE. Captured as deviation rather than fixed in figma because the rest of the master's tokens (size/radius/padding/border/color/typography) all match — only the shadow alpha is an under-spec'd token."
+    }
+  ],
+  "iconDeviations": [],
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" },
+      "hover":    { "duration": 120, "easing": "ease-out" }
+    },
+    "durationToleranceMs": 80,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["opacity"]
+  },
+  "gate": { "minFidelityScore": 97, "maxCritical": 0, "maxMajor": 0 }
+}

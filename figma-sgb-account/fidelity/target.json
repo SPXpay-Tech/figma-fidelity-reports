@@ -1,0 +1,20 @@
+{
+  "_note": "figma-fidelity for SGB account screen. Ground truth = Figma 769:10510 (📱 Account. SGB 账户). Rendered in DEV mock mode (?mock=1&group=sgb + mock-state.json) so the real /accounts route opens on the SGB tab with fixtures matching the seeded data — true pixel/numeric diff, no auth. Run: FIGMA_TOKEN=figd_xxx node <skill>/scripts/run.mjs --target this --config fidelity.config.json --screen sgb-account",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-sgb-account/fidelity/out",
+  "topInset": 54,
+  "screens": [
+    {
+      "id": "sgb-account",
+      "node": "769:10510",
+      "url": "http://localhost:8082/accounts?mock=1&group=sgb",
+      "width": 390,
+      "height": 1067,
+      "root": "body",
+      "storageState": "docs/figma-sgb-account/fidelity/mock-state.json",
+      "wait": "text=SGB 银行账户",
+      "anchor": "SGB 银行账户",
+      "topInset": 54
+    }
+  ]
+}

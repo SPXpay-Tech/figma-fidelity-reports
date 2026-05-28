@@ -1,0 +1,58 @@
+{
+  "type": "ux.impl",
+  "url": "http://localhost:8082/__fidelity/home-quick-actions",
+  "targets": [
+    {
+      "key": "qa-deposit",
+      "selector": "[data-figma-id='619:8209']",
+      "kind": "button",
+      "snapshots": {
+        "rest": {
+          "style": {
+            "border-top-color": "rgb(0, 0, 0)",
+            "border-top-width": "0px",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "0px"
+          },
+          "transitionProperty": "opacity, transform, background-color",
+          "transitionDuration": "0.12s, 0.12s, 0.12s",
+          "transitionTimingFunction": "ease, ease, ease",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": "button",
+          "disabled": false,
+          "text": "存款",
+          "imgSrc": null
+        },
+        "press": {
+          "style": {
+            "border-top-color": "rgb(0, 0, 0)",
+            "border-top-width": "0px",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "0px"
+          },
+          "transitionProperty": "opacity, transform, background-color",
+          "transitionDuration": "0.12s, 0.12s, 0.12s",
+          "transitionTimingFunction": "ease, ease, ease",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": "button",
+          "disabled": false,
+          "text": "存款",
+          "imgSrc": null
+        }
+      },
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "figmaFrame": {
+      "id": "917:12737",
+      "name": "State=收款账户",
+      "width": 350,
+      "height": 56
+    },
+    "implFrame": {
+      "id": "page",
+      "name": "page",
+      "width": 430,
+      "height": 158
+    },
+    "matchMode": "fallback",
+    "originOffset": {
+      "x": 40,
+      "y": 40
+    },
+    "generated": "2026-05-28T09:50:29.968Z"
+  },
+  "summary": {
+    "checks": 16,
+    "fails": 0,
+    "fidelityScore": 100,
+    "bySeverity": {},
+    "gate": {
+      "blocking": 0,
+      "minor": 0,
+      "pass": true
+    },
+    "approved": 0
+  },
+  "failsByNode": {},
+  "approvedDeviations": [],
+  "findings": [
+    {
+      "figmaId": "917:12558",
+      "node": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "type": "TEXT",
+      "text": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "prop": "box.x",
+      "figma": 56,
+      "impl": 56,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12558",
+      "node": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "type": "TEXT",
+      "text": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "prop": "box.y",
+      "figma": 12.5,
+      "impl": 12.44,
+      "delta": 0.06,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12558",
+      "node": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "type": "TEXT",
+      "text": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "prop": "fontSize",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12558",
+      "node": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "type": "TEXT",
+      "text": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "prop": "fontWeight",
+      "figma": 500,
+      "impl": 500,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12558",
+      "node": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "type": "TEXT",
+      "text": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12558",
+      "node": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "type": "TEXT",
+      "text": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "prop": "lineHeight",
+      "figma": 14.06,
+      "impl": 14.06,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12558",
+      "node": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "type": "TEXT",
+      "text": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12558",
+      "node": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "type": "TEXT",
+      "text": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "prop": "color",
+      "figma": "#24201a",
+      "impl": "#24201a",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12559",
+      "node": "2026-05-15 19:13",
+      "type": "TEXT",
+      "text": "2001168429",
+      "prop": "box.x",
+      "figma": 56,
+      "impl": 56,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12559",
+      "node": "2026-05-15 19:13",
+      "type": "TEXT",
+      "text": "2001168429",
+      "prop": "box.y",
+      "figma": 29.5,
+      "impl": 29.5,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12559",
+      "node": "2026-05-15 19:13",
+      "type": "TEXT",
+      "text": "2001168429",
+      "prop": "fontSize",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12559",
+      "node": "2026-05-15 19:13",
+      "type": "TEXT",
+      "text": "2001168429",
+      "prop": "fontWeight",
+      "figma": 400,
+      "impl": 400,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12559",
+      "node": "2026-05-15 19:13",
+      "type": "TEXT",
+      "text": "2001168429",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12559",
+      "node": "2026-05-15 19:13",
+      "type": "TEXT",
+      "text": "2001168429",
+      "prop": "lineHeight",
+      "figma": 14.06,
+      "impl": 14.06,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12559",
+      "node": "2026-05-15 19:13",
+      "type": "TEXT",
+      "text": "2001168429",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "917:12559",
+      "node": "2026-05-15 19:13",
+      "type": "TEXT",
+      "text": "2001168429",
+      "prop": "color",
+      "figma": "#9499a2",
+      "impl": "#9499a2",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    }
+  ]
+}

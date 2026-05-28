@@ -1,0 +1,103 @@
+{
+  "frame": {
+    "id": "954:8045",
+    "name": "转账信息·支付目的",
+    "width": 430,
+    "height": 1392
+  },
+  "checked": 6,
+  "fails": 0,
+  "warns": 5,
+  "waived": 0,
+  "icons": [
+    {
+      "name": "arrow-down",
+      "figmaId": "917:12560",
+      "box": {
+        "x": 358,
+        "y": 58,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "pass",
+      "severity": "pass"
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "954:8583",
+      "box": {
+        "x": 362,
+        "y": 377,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "954:8051",
+      "box": {
+        "x": 362,
+        "y": 459,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "figmaId": "I954:9200;441:12",
+      "box": {
+        "x": 64,
+        "y": 516,
+        "w": 18,
+        "h": 18
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "icon",
+      "figmaId": "954:10119",
+      "box": {
+        "x": 172,
+        "y": 1170,
+        "w": 36,
+        "h": 36
+      },
+      "figmaPaths": 3,
+      "implPaths": 3,
+      "status": "warn",
+      "severity": "minor",
+      "note": "3 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "Outline / Essentional, UI / Danger Triangle",
+      "figmaId": "954:10120",
+      "box": {
+        "x": 180,
+        "y": 1178,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 3,
+      "implPaths": 3,
+      "status": "warn",
+      "severity": "minor",
+      "note": "3 paths present but geometry differs from Figma — eyeball the glyph."
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "frame": {
+    "id": "888:7376",
+    "name": "转账信息·支付目的",
+    "width": 430,
+    "height": 1780
+  },
+  "offset": {
+    "x": 1,
+    "y": 2.03
+  },
+  "threshold": 12,
+  "flagged": 4,
+  "regions": [
+    {
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "type": "FRAME",
+      "box": {
+        "x": 199,
+        "y": 1622,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 17.2,
+      "crops": {
+        "figma": "Outline_Search_Minimalistic_Magnifer_I90.figma.png",
+        "impl": "Outline_Search_Minimalistic_Magnifer_I90.impl.png"
+      }
+    },
+    {
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 884,
+        "w": 18,
+        "h": 18
+      },
+      "figmaFill": null,
+      "mismatch": 12.5,
+      "crops": {
+        "figma": "Outline_Search_Minimalistic_Magnifer_887.figma.png",
+        "impl": "Outline_Search_Minimalistic_Magnifer_887.impl.png"
+      }
+    },
+    {
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "type": "FRAME",
+      "box": {
+        "x": 62,
+        "y": 1353,
+        "w": 18,
+        "h": 18
+      },
+      "figmaFill": null,
+      "mismatch": 12.5,
+      "crops": {
+        "figma": "Outline_Search_Minimalistic_Magnifer_887.figma.png",
+        "impl": "Outline_Search_Minimalistic_Magnifer_887.impl.png"
+      }
+    },
+    {
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 1557,
+        "w": 18,
+        "h": 18
+      },
+      "figmaFill": null,
+      "mismatch": 12.5,
+      "crops": {
+        "figma": "Outline_Search_Minimalistic_Magnifer_I90.figma.png",
+        "impl": "Outline_Search_Minimalistic_Magnifer_I90.impl.png"
+      }
+    },
+    {
+      "name": "search-box",
+      "type": "FRAME",
+      "box": {
+        "x": 48,
+        "y": 1340,
+        "w": 334,
+        "h": 44
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 152,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 5.9
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 336,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 5.8
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 428,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 5.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 806,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 5.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 1274,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 5.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 1478,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 5.6
+    },
+    {
+      "name": "Linear / Essentional, UI / Close Circle",
+      "type": "FRAME",
+      "box": {
+        "x": 350,
+        "y": 1556,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 5.4
+    },
+    {
+      "name": "dropdown-panel",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 1328,
+        "w": 350,
+        "h": 106
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.3
+    },
+    {
+      "name": "row-家庭赡养",
+      "type": "FRAME",
+      "box": {
+        "x": 48,
+        "y": 1072,
+        "w": 334,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 1
+    },
+    {
+      "name": "row-教育学费",
+      "type": "FRAME",
+      "box": {
+        "x": 48,
+        "y": 1148,
+        "w": 334,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 1
+    },
+    {
+      "name": "dropdown-panel",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 1532,
+        "w": 350,
+        "h": 208
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.8
+    },
+    {
+      "name": "search-box",
+      "type": "FRAME",
+      "box": {
+        "x": 48,
+        "y": 872,
+        "w": 334,
+        "h": 42
+      },
+      "figmaFill": "#f6f6f4",
+      "mismatch": 0.7
+    },
+    {
+      "name": "search-box",
+      "type": "FRAME",
+      "box": {
+        "x": 48,
+        "y": 1544,
+        "w": 334,
+        "h": 44
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.7
+    },
+    {
+      "name": "dropdown-panel",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 482,
+        "w": 350,
+        "h": 280
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.6
+    },
+    {
+      "name": "row-工资发放",
+      "type": "FRAME",
+      "box": {
+        "x": 48,
+        "y": 1034,
+        "w": 334,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 0.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 60,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.5
+    },
+    {
+      "name": "row-服务费",
+      "type": "FRAME",
+      "box": {
+        "x": 48,
+        "y": 958,
+        "w": 334,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 0.5
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 244,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.4
+    },
+    {
+      "name": "dropdown-panel",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 860,
+        "w": 350,
+        "h": 370
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.4
+    },
+    {
+      "name": "row-货款",
+      "type": "FRAME",
+      "box": {
+        "x": 48,
+        "y": 920,
+        "w": 334,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 0.4
+    },
+    {
+      "name": "row-个人消费",
+      "type": "FRAME",
+      "box": {
+        "x": 48,
+        "y": 1110,
+        "w": 334,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 0.4
+    },
+    {
+      "name": "row-货款",
+      "type": "FRAME",
+      "box": {
+        "x": 48,
+        "y": 1390,
+        "w": 334,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 0.4
+    },
+    {
+      "name": "Outline / Essentional, UI / Close Circle",
+      "type": "FRAME",
+      "box": {
+        "x": 348,
+        "y": 1352,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 0.3
+    },
+    {
+      "name": "option-货款",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 494,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0.2
+    },
+    {
+      "name": "row-佣金",
+      "type": "FRAME",
+      "box": {
+        "x": 48,
+        "y": 996,
+        "w": 334,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 0.2
+    },
+    {
+      "name": "row-其他",
+      "type": "FRAME",
+      "box": {
+        "x": 48,
+        "y": 1186,
+        "w": 334,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 0.2
+    }
+  ]
+}

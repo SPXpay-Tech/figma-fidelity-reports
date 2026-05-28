@@ -1,0 +1,952 @@
+{
+  "frame": {
+    "id": "888:7262",
+    "name": "转账信息·转账账户",
+    "width": 430,
+    "height": 890
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 48,
+  "regions": [
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 78,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_868_18579.figma.png",
+        "impl": "Rectangle_5247_868_18579.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 78,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_868_18583.figma.png",
+        "impl": "Rectangle_5247_868_18583.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 170,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7252.figma.png",
+        "impl": "Rectangle_5247_877_7252.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 170,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7256.figma.png",
+        "impl": "Rectangle_5247_877_7256.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 262,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7273.figma.png",
+        "impl": "Rectangle_5247_877_7273.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 262,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7277.figma.png",
+        "impl": "Rectangle_5247_877_7277.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 354,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7294.figma.png",
+        "impl": "Rectangle_5247_877_7294.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 354,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7298.figma.png",
+        "impl": "Rectangle_5247_877_7298.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 538,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7336.figma.png",
+        "impl": "Rectangle_5247_877_7336.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 538,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7340.figma.png",
+        "impl": "Rectangle_5247_877_7340.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 70,
+        "y": 598,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7354.figma.png",
+        "impl": "Rectangle_5247_877_7354.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 70,
+        "y": 598,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7358.figma.png",
+        "impl": "Rectangle_5247_877_7358.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 70,
+        "y": 634,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7369.figma.png",
+        "impl": "Rectangle_5247_877_7369.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 70,
+        "y": 634,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7373.figma.png",
+        "impl": "Rectangle_5247_877_7373.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 70,
+        "y": 670,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7384.figma.png",
+        "impl": "Rectangle_5247_877_7384.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 70,
+        "y": 670,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7388.figma.png",
+        "impl": "Rectangle_5247_877_7388.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 70,
+        "y": 706,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7399.figma.png",
+        "impl": "Rectangle_5247_877_7399.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 70,
+        "y": 706,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7403.figma.png",
+        "impl": "Rectangle_5247_877_7403.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 70,
+        "y": 742,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7414.figma.png",
+        "impl": "Rectangle_5247_877_7414.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 70,
+        "y": 742,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 76.9,
+      "crops": {
+        "figma": "Rectangle_5247_877_7418.figma.png",
+        "impl": "Rectangle_5247_877_7418.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 76,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 51.8,
+      "crops": {
+        "figma": "_LOGO_868_18574.figma.png",
+        "impl": "_LOGO_868_18574.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 168,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 51.8,
+      "crops": {
+        "figma": "_LOGO_877_7247.figma.png",
+        "impl": "_LOGO_877_7247.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 260,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 51.8,
+      "crops": {
+        "figma": "_LOGO_877_7268.figma.png",
+        "impl": "_LOGO_877_7268.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 352,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 51.8,
+      "crops": {
+        "figma": "_LOGO_877_7289.figma.png",
+        "impl": "_LOGO_877_7289.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 536,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 51.8,
+      "crops": {
+        "figma": "_LOGO_877_7331.figma.png",
+        "impl": "_LOGO_877_7331.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 68,
+        "y": 596,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 51.8,
+      "crops": {
+        "figma": "_LOGO_877_7349.figma.png",
+        "impl": "_LOGO_877_7349.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 68,
+        "y": 632,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 51.8,
+      "crops": {
+        "figma": "_LOGO_877_7364.figma.png",
+        "impl": "_LOGO_877_7364.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 68,
+        "y": 668,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 51.8,
+      "crops": {
+        "figma": "_LOGO_877_7379.figma.png",
+        "impl": "_LOGO_877_7379.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 68,
+        "y": 704,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 51.8,
+      "crops": {
+        "figma": "_LOGO_877_7394.figma.png",
+        "impl": "_LOGO_877_7394.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 68,
+        "y": 740,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 51.8,
+      "crops": {
+        "figma": "_LOGO_877_7409.figma.png",
+        "impl": "_LOGO_877_7409.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 68,
+        "y": 776,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 34.4,
+      "crops": {
+        "figma": "_LOGO_917_7567.figma.png",
+        "impl": "_LOGO_917_7567.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 68,
+        "y": 812,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 34.4,
+      "crops": {
+        "figma": "_LOGO_917_7582.figma.png",
+        "impl": "_LOGO_917_7582.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 72,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 24.7,
+      "crops": {
+        "figma": "chip_868_18573.figma.png",
+        "impl": "chip_868_18573.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 164,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 24.7,
+      "crops": {
+        "figma": "chip_877_7246.figma.png",
+        "impl": "chip_877_7246.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 256,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 24.7,
+      "crops": {
+        "figma": "chip_877_7267.figma.png",
+        "impl": "chip_877_7267.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 348,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 24.7,
+      "crops": {
+        "figma": "chip_877_7288.figma.png",
+        "impl": "chip_877_7288.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 532,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 24.7,
+      "crops": {
+        "figma": "chip_877_7330.figma.png",
+        "impl": "chip_877_7330.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 592,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 24.7,
+      "crops": {
+        "figma": "chip_877_7348.figma.png",
+        "impl": "chip_877_7348.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 628,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 24.7,
+      "crops": {
+        "figma": "chip_877_7363.figma.png",
+        "impl": "chip_877_7363.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 664,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 24.7,
+      "crops": {
+        "figma": "chip_877_7378.figma.png",
+        "impl": "chip_877_7378.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 700,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 24.7,
+      "crops": {
+        "figma": "chip_877_7393.figma.png",
+        "impl": "chip_877_7393.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 736,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 24.7,
+      "crops": {
+        "figma": "chip_877_7408.figma.png",
+        "impl": "chip_877_7408.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 444,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 21.1,
+      "crops": {
+        "figma": "_LOGO_877_7310.figma.png",
+        "impl": "_LOGO_877_7310.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 446,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 16.8,
+      "crops": {
+        "figma": "Rectangle_5247_877_7315.figma.png",
+        "impl": "Rectangle_5247_877_7315.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 446,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 16.8,
+      "crops": {
+        "figma": "Rectangle_5247_877_7319.figma.png",
+        "impl": "Rectangle_5247_877_7319.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 440,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 16.1,
+      "crops": {
+        "figma": "chip_877_7309.figma.png",
+        "impl": "chip_877_7309.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 772,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 15.3,
+      "crops": {
+        "figma": "chip_917_7566.figma.png",
+        "impl": "chip_917_7566.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 808,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 15.3,
+      "crops": {
+        "figma": "chip_917_7581.figma.png",
+        "impl": "chip_917_7581.impl.png"
+      }
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 152,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 5.1
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 520,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 4.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 336,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 3.7
+    },
+    {
+      "name": "option-SGB 银行账户 SGD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 694,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": null,
+      "mismatch": 3.1
+    },
+    {
+      "name": "option-SGB 银行账户 GBP",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 730,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": null,
+      "mismatch": 3.1
+    },
+    {
+      "name": "option-SGB 银行账户 HKD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 622,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": null,
+      "mismatch": 2.8
+    },
+    {
+      "name": "option-SGB 银行账户 EUR",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 658,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": null,
+      "mismatch": 2.6
+    },
+    {
+      "name": "option-SGB 银行账户 GBP",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 802,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": null,
+      "mismatch": 2.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 60,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.5
+    },
+    {
+      "name": "option-SGB 银行账户 USD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 586,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 2.5
+    },
+    {
+      "name": "dropdown-panel",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 574,
+        "w": 350,
+        "h": 276
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.4
+    },
+    {
+      "name": "option-SGB 银行账户 GBP",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 766,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": null,
+      "mismatch": 2.4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 244,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.7
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 428,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#f5f5f5",
+      "mismatch": 1.6
+    }
+  ]
+}

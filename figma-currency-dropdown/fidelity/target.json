@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for SPX currency-dropdown master 943:7972 ('币种下拉·状态库 Currency Dropdown · Status Library', 880×860). Master holds 12 component variants: 2 ComponentSets (卖出 939:7989 / 买入 942:7996) × 6 states each (Default-USD / Focus / Disabled / Empty / Error / Open). The /__fidelity/currency route renders all 12 cells with their specific component / text / arrow figma ids tagged so the diff matches by node id, not text+position. Boot expo web on :8082 first: `pnpm exec expo start --web --port 8082`. Run: `node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target docs/figma-currency-dropdown/fidelity/target.json --config docs/figma-currency-dropdown/fidelity/fidelity.config.json`.",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-currency-dropdown/fidelity/out",
+  "screens": [
+    {
+      "id": "currency-dropdown",
+      "node": "943:7972",
+      "figmaJson": "docs/figma-currency-dropdown/fidelity/figma-dump/currency.json",
+      "figmaPng": "docs/figma-currency-dropdown/fidelity/figma-dump/currency.png",
+      "url": "http://localhost:8082/__fidelity/currency",
+      "width": 880,
+      "height": 900,
+      "root": "[data-figma-root]",
+      "wait": "[data-figma-root]",
+      "anchor": "币种下拉 · 状态库 Currency Dropdown · Status Library"
+    }
+  ]
+}

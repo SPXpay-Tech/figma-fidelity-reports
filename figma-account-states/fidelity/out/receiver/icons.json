@@ -1,0 +1,104 @@
+{
+  "frame": {
+    "id": "954:8045",
+    "name": "转账信息·支付目的",
+    "width": 430,
+    "height": 1392
+  },
+  "checked": 6,
+  "fails": 5,
+  "warns": 0,
+  "waived": 1,
+  "icons": [
+    {
+      "name": "arrow-down",
+      "figmaId": "917:12560",
+      "box": {
+        "x": 358,
+        "y": 58,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Currency dropdown chevron is Feather chevron-down glyph (app-wide @expo/vector-icons). Geometry/box validated; vector-path identity waived consistent with cards/dialog deviations. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "954:8583",
+      "box": {
+        "x": 362,
+        "y": 377,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "954:8051",
+      "box": {
+        "x": 362,
+        "y": 459,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "figmaId": "I954:9200;441:12",
+      "box": {
+        "x": 64,
+        "y": 516,
+        "w": 18,
+        "h": 18
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "icon",
+      "figmaId": "954:10119",
+      "box": {
+        "x": 172,
+        "y": 1170,
+        "w": 36,
+        "h": 36
+      },
+      "figmaPaths": 3,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 3 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Outline / Essentional, UI / Danger Triangle",
+      "figmaId": "954:10120",
+      "box": {
+        "x": 180,
+        "y": 1178,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 3,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 3 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    }
+  ]
+}

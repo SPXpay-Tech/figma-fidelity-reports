@@ -1,0 +1,224 @@
+{
+  "frame": {
+    "id": "917:9387",
+    "name": "划转相关·实收金额",
+    "width": 430,
+    "height": 332
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 10,
+  "regions": [
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 170,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 77.4,
+      "crops": {
+        "figma": "Rectangle_5247_917_7983.figma.png",
+        "impl": "Rectangle_5247_917_7983.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 170,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 77.4,
+      "crops": {
+        "figma": "Rectangle_5247_917_7987.figma.png",
+        "impl": "Rectangle_5247_917_7987.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 262,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 77.4,
+      "crops": {
+        "figma": "Rectangle_5247_917_7903.figma.png",
+        "impl": "Rectangle_5247_917_7903.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 58,
+        "y": 262,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 77.4,
+      "crops": {
+        "figma": "Rectangle_5247_917_7907.figma.png",
+        "impl": "Rectangle_5247_917_7907.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 168,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 52.4,
+      "crops": {
+        "figma": "_LOGO_917_7978.figma.png",
+        "impl": "_LOGO_917_7978.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 260,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 52.4,
+      "crops": {
+        "figma": "_LOGO_917_7898.figma.png",
+        "impl": "_LOGO_917_7898.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 76,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 34.4,
+      "crops": {
+        "figma": "_LOGO_917_7855.figma.png",
+        "impl": "_LOGO_917_7855.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 164,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#9ca3af@0.20",
+      "mismatch": 24.7,
+      "crops": {
+        "figma": "chip_917_7977.figma.png",
+        "impl": "chip_917_7977.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 256,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#9ca3af@0.20",
+      "mismatch": 24.7,
+      "crops": {
+        "figma": "chip_917_7897.figma.png",
+        "impl": "chip_917_7897.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 72,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 15.3,
+      "crops": {
+        "figma": "chip_917_7854.figma.png",
+        "impl": "chip_917_7854.impl.png"
+      }
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 362,
+        "y": 260,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": "#152b51",
+      "mismatch": 8.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 152,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.2
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 244,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#f6f6f4",
+      "mismatch": 2.9
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 60,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.5
+    }
+  ]
+}

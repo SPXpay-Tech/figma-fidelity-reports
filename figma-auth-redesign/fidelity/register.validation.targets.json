@@ -1,0 +1,4 @@
+[
+  { "key": "email", "selector": "div:has(> input[data-testid='input-email'])", "driveSelector": "input[data-testid='input-email']", "kind": "input", "states": ["error"], "arg": { "badFormatValue": "bad-email", "submitSelector": "[data-testid='btn-register-submit']" }, "expect": { "error": { "feedback": "inline" } } },
+  { "key": "confirm", "selector": "div:has(> input[data-testid='input-confirm'])", "driveSelector": "input[data-testid='input-confirm']", "kind": "password", "states": ["mismatch"], "arg": { "precondition": [{ "fill": "input[data-testid='input-password']", "value": "Secret123!" }], "mismatchValue": "Different9!", "submitSelector": "[data-testid='btn-register-submit']" }, "expect": { "mismatch": { "feedback": "inline" } } }
+]

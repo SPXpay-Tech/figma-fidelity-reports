@@ -1,0 +1,144 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "954:8234",
+    "name": "State=所在城市",
+    "width": 350,
+    "height": 58
+  },
+  "nodes": [
+    {
+      "key": "954:8234",
+      "figmaId": "954:8234",
+      "name": "State=所在城市",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 350,
+        "h": 58
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "954:8235",
+      "figmaId": "954:8235",
+      "name": "转账信息·支付备注",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 350,
+        "h": 58
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "954:8242",
+      "figmaId": "954:8242",
+      "name": "收款方所在城市",
+      "type": "TEXT",
+      "text": "收款方所在城市",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "954:8239",
+      "figmaId": "954:8239",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 20,
+        "w": 350,
+        "h": 38
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "954:8240",
+      "figmaId": "954:8240",
+      "name": "请输入收款方英文城市名",
+      "type": "TEXT",
+      "text": "请输入收款方英文城市名",
+      "box": {
+        "x": 12,
+        "y": 32,
+        "w": 132,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 3
+    }
+  ]
+}

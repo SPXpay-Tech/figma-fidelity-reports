@@ -1,0 +1,144 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "954:8251",
+    "name": "State=地址很长",
+    "width": 350,
+    "height": 72
+  },
+  "nodes": [
+    {
+      "key": "954:8251",
+      "figmaId": "954:8251",
+      "name": "State=地址很长",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 350,
+        "h": 72
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "954:8252",
+      "figmaId": "954:8252",
+      "name": "转账信息·支付备注",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 350,
+        "h": 72
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "954:8253",
+      "figmaId": "954:8253",
+      "name": "收款方地址",
+      "type": "TEXT",
+      "text": "收款方地址",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 60,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "954:8254",
+      "figmaId": "954:8254",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 20,
+        "w": 350,
+        "h": 52
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "954:8255",
+      "figmaId": "954:8255",
+      "name": "30 Raffles Place, #04-01, Singapore 04862230 Raffles Place, #04-01, Singapore 048622",
+      "type": "TEXT",
+      "text": "30 Raffles Place, #04-01, Singapore 04862230 Raffles Place, #04-01, Singapore 048622 ",
+      "box": {
+        "x": 12,
+        "y": 32,
+        "w": 326,
+        "h": 28
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 3
+    }
+  ]
+}

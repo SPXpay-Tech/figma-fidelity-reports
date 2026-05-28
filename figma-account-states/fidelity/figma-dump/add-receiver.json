@@ -1,0 +1,65 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "917:12741",
+    "name": "State=新增收款账户",
+    "width": 350,
+    "height": 38
+  },
+  "nodes": [
+    {
+      "key": "917:12741",
+      "figmaId": "917:12741",
+      "name": "State=新增收款账户",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 350,
+        "h": 38
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1,
+        "borderRadius": 6,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "917:12548",
+      "figmaId": "917:12548",
+      "name": "新增收款账户",
+      "type": "TEXT",
+      "text": "新增收款账户",
+      "box": {
+        "x": 139,
+        "y": 12,
+        "w": 72,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#eabb62"
+      },
+      "parentStyle": null,
+      "depth": 1
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "_note": "figma-fidelity for SPX home tx-rows master 619:8235 (inside 📱 04 Home · 首页 完整 619:8194). The /__fidelity/home-tx-rows route renders a master-mirror column tagged with each row's figmaId (619:8236 header · 619:8238..8245 入金/出金 · 619:8246 审核中 · 619:8247 出款失败 · 619:8248 footer) plus an impl-only column for 划转/兑换. Boot expo web (pnpm exec expo start --web --port 8082) then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen home-tx-rows-master",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-tx-row-master/fidelity/out",
+  "screens": [
+    {
+      "id": "home-tx-rows-master",
+      "node": "619:8235",
+      "figmaJson": "docs/figma-tx-row-master/fidelity/figma-dump/tx-rows.json",
+      "figmaPng": "docs/figma-tx-row-master/fidelity/figma-dump/tx-rows.png",
+      "url": "http://localhost:8082/__fidelity/home-tx-rows",
+      "width": 1400,
+      "height": 900,
+      "root": "[data-figma-root='619:8235']",
+      "wait": "text=交易记录 TxRow · 全集预览",
+      "anchor": "交易记录 TxRow · 全集预览",
+      "uxTargets": "docs/figma-tx-row-master/fidelity/ux.targets.json"
+    }
+  ]
+}

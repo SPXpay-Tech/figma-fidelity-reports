@@ -1,0 +1,269 @@
+{
+  "frame": {
+    "id": "769:10510",
+    "name": "📱 Account. SGB 账户",
+    "width": 390,
+    "height": 844
+  },
+  "checked": 17,
+  "fails": 11,
+  "warns": 0,
+  "waived": 5,
+  "icons": [
+    {
+      "name": "eye",
+      "figmaId": "I769:10515;735:6821",
+      "box": {
+        "x": 322,
+        "y": 183,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 2,
+      "implPaths": 2,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Hero-card balance reveal eye glyph — uses @expo/vector-icons Feather 'eye'. Cards migrated to EyeMark SVG already; Home still on font-glyph (separate hero-card master). App-wide icon-font policy. Approved 2026-05-28. (was: 2 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I769:10515;735:6822",
+      "box": {
+        "x": 327,
+        "y": 188,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 2,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Inner iris sub-node of the balance eye (Figma exports the eye as outer-stroke + iris). Impl renders the whole eye as one Feather glyph; iris is not a separate <svg>. Same waiver as 'eye'. Approved 2026-05-28. (was: Figma icon has 2 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I769:10516;780:11042",
+      "box": {
+        "x": 44,
+        "y": 304,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I769:10516;780:11029",
+      "box": {
+        "x": 114,
+        "y": 304,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Linear / Arrows / Sort Horizontal",
+      "figmaId": "I769:10516;735:7164",
+      "box": {
+        "x": 180,
+        "y": 304,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 2,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 2 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Linear / Arrows / Refresh",
+      "figmaId": "I769:10516;735:7170",
+      "box": {
+        "x": 242,
+        "y": 304,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 0,
+      "implPaths": 0,
+      "status": "skip",
+      "severity": "pass",
+      "note": "no Figma SVG (export failed)"
+    },
+    {
+      "name": "Bold / Arrows / Alt Arrow Down",
+      "figmaId": "I769:10518;735:6970",
+      "box": {
+        "x": 348,
+        "y": 368,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Hero-card dropdown chevron next to the 美元账户 balance label — Figma master uses a bold filled triangle, impl ships a thin chevron-down stroke. Same family, different stroke vs. fill style. App-wide @expo/vector-icons font-glyph. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Bold / Arrows / Alt Arrow Down",
+      "figmaId": "I769:10528;619:7892",
+      "box": {
+        "x": 348,
+        "y": 524,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Hero-card dropdown chevron next to the 美元账户 balance label — Figma master uses a bold filled triangle, impl ships a thin chevron-down stroke. Same family, different stroke vs. fill style. App-wide @expo/vector-icons font-glyph. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Bold / Arrows / Alt Arrow Down",
+      "figmaId": "I769:10530;769:8710;769:8727",
+      "box": {
+        "x": 348,
+        "y": 572,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Hero-card dropdown chevron next to the 美元账户 balance label — Figma master uses a bold filled triangle, impl ships a thin chevron-down stroke. Same family, different stroke vs. fill style. App-wide @expo/vector-icons font-glyph. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Restart",
+      "figmaId": "I769:10530;769:8511;586:7566",
+      "box": {
+        "x": 38,
+        "y": 664,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Linear / Arrows / Arrow Right",
+      "figmaId": "I769:10530;769:8511;586:7559",
+      "box": {
+        "x": 340,
+        "y": 667,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I769:10530;769:8513;586:7319",
+      "box": {
+        "x": 38,
+        "y": 706.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I769:10530;769:8699;586:7319",
+      "box": {
+        "x": 38,
+        "y": 759.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I769:10530;769:8515;752:8119",
+      "box": {
+        "x": 38,
+        "y": 812.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I769:10530;769:8517;752:8407",
+      "box": {
+        "x": 38,
+        "y": 918.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Linear / Arrows / Arrow Down ",
+      "figmaId": "I769:10530;769:8519;586:7319",
+      "box": {
+        "x": 38,
+        "y": 971.5,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I769:10531;548:6635",
+      "box": {
+        "x": 329.25,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_note": "DEV mock-mode storage for LiveRates fidelity harness: zh-CN locale + spx.mock=1 so the impl renders Chinese text matching the figma master 744:7619.",
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "http://localhost:8082",
+      "localStorage": [
+        { "name": "spx.locale", "value": "zh_CN" },
+        { "name": "spx.mock", "value": "1" }
+      ]
+    }
+  ]
+}

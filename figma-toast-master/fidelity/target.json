@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for SPX Toast master 245:736 ('Toast · 轻提示'). 5-variant COMPONENT_SET stacked vertically inside a 368×364 frame: Success (245:720) · 成功2号 (917:12141) · Error (245:724) · Warning (245:728) · Info (245:732). Each variant is 320×52, radius 14, 1px tinted border, white bg, with a 24×24 tinted-circle icon and HarmonyOS Sans TC 14/20 w500 #24201a label. The /__fidelity/toast route renders a master-mirror column (column 1) tagged with these IDs plus top/bottom position columns for visual coverage. Boot expo web (pnpm exec expo start --web --port 8082) and: node <skill>/scripts/run.mjs --target this --config fidelity.config.json --screen toast-master",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-toast-master/fidelity/out",
+  "screens": [
+    {
+      "id": "toast-master",
+      "node": "245:736",
+      "figmaJson": "docs/figma-toast-master/fidelity/figma-dump/toast.json",
+      "figmaPng": "docs/figma-toast-master/fidelity/figma-dump/toast.png",
+      "url": "http://localhost:8082/__fidelity/toast",
+      "width": 1400,
+      "height": 900,
+      "root": "[data-figma-root='245:736']",
+      "wait": "text=轻提示 toast · 全集预览",
+      "anchor": "轻提示 toast · 全集预览"
+    }
+  ]
+}

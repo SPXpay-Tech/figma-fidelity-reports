@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "figmaFrame": {
+      "id": "107:6",
+      "name": "返回按钮 / Nav Back",
+      "width": 42,
+      "height": 42
+    },
+    "implFrame": {
+      "id": "page",
+      "name": "page",
+      "width": 42,
+      "height": 42
+    },
+    "matchMode": "tagged",
+    "originOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "generated": "2026-05-28T13:53:11.751Z"
+  },
+  "summary": {
+    "checks": 22,
+    "fails": 0,
+    "fidelityScore": 100,
+    "bySeverity": {},
+    "gate": {
+      "blocking": 0,
+      "minor": 0,
+      "pass": true
+    },
+    "approved": 0
+  },
+  "failsByNode": {},
+  "approvedDeviations": [],
+  "findings": [
+    {
+      "figmaId": "107:6",
+      "node": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "prop": "box.x",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "107:6",
+      "node": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "prop": "box.y",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "107:6",
+      "node": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "prop": "box.w",
+      "figma": 42,
+      "impl": 42,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "107:6",
+      "node": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "prop": "box.h",
+      "figma": 42,
+      "impl": 42,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "107:6",
+      "node": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "prop": "backgroundColor",
+      "figma": "#ffffff",
+      "impl": "#ffffff",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "107:6",
+      "node": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "prop": "borderColor",
+      "figma": "#aaa286@0.20",
+      "impl": "#aaa286@0.20",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "107:6",
+      "node": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "prop": "borderRadius",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "107:6",
+      "node": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "prop": "borderWidth",
+      "figma": 1.5,
+      "impl": 1,
+      "delta": 0.5,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "107:6",
+      "node": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "prop": "padding.t",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "107:6",
+      "node": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "prop": "padding.r",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "107:6",
+      "node": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "prop": "padding.b",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "107:6",
+      "node": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "prop": "padding.l",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "159:2",
+      "node": "icon",
+      "type": "FRAME",
+      "prop": "box.x",
+      "figma": 11,
+      "impl": 11,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "159:2",
+      "node": "icon",
+      "type": "FRAME",
+      "prop": "box.y",
+      "figma": 11,
+      "impl": 11,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "159:2",
+      "node": "icon",
+      "type": "FRAME",
+      "prop": "box.w",
+      "figma": 20,
+      "impl": 20,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "159:2",
+      "node": "icon",
+      "type": "FRAME",
+      "prop": "box.h",
+      "figma": 20,
+      "impl": 20,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "159:3",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "box.x",
+      "figma": 14.33,
+      "impl": 14.33,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "159:3",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "box.y",
+      "figma": 16,
+      "impl": 16,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "159:3",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "box.w",
+      "figma": 13.33,
+      "impl": 13.33,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "159:3",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "box.h",
+      "figma": 10,
+      "impl": 10,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "159:3",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "borderColor",
+      "figma": "#aaa286",
+      "impl": "#aaa286",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "159:3",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "borderWidth",
+      "figma": 1.5,
+      "impl": 1,
+      "delta": 0.5,
+      "pass": true,
+      "severity": "pass"
+    }
+  ]
+}

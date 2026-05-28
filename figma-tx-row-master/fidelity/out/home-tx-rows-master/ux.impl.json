@@ -1,0 +1,58 @@
+{
+  "type": "ux.impl",
+  "url": "http://localhost:8082/__fidelity/home-tx-rows",
+  "targets": [
+    {
+      "key": "tx-view-all",
+      "selector": "[data-figma-id='I619:8236;586:7557']",
+      "kind": "link",
+      "snapshots": {
+        "rest": {
+          "style": {
+            "border-top-color": "rgb(0, 0, 0)",
+            "border-top-width": "0px",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "0px"
+          },
+          "transitionProperty": "all",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "查看全部",
+          "imgSrc": null
+        },
+        "press": {
+          "style": {
+            "border-top-color": "rgb(0, 0, 0)",
+            "border-top-width": "0px",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "box-shadow": "none",
+            "opacity": "1",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "border-top-left-radius": "0px"
+          },
+          "transitionProperty": "all",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "animationIterationCount": "1",
+          "inputType": null,
+          "disabled": false,
+          "text": "查看全部",
+          "imgSrc": null
+        }
+      },
+      "notes": []
+    }
+  ]
+}

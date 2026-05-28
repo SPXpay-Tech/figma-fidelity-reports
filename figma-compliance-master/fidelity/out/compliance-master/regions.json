@@ -1,0 +1,64 @@
+{
+  "frame": {
+    "id": "560:4405",
+    "name": "Compliance Status · 合规状态",
+    "width": 192,
+    "height": 242
+  },
+  "offset": {
+    "x": 0,
+    "y": -1.03
+  },
+  "threshold": 12,
+  "flagged": 0,
+  "regions": [
+    {
+      "name": "Status=Rejected",
+      "type": "COMPONENT",
+      "box": {
+        "x": 36,
+        "y": 192,
+        "w": 120,
+        "h": 26
+      },
+      "figmaFill": "#fcebed",
+      "mismatch": 2.6
+    },
+    {
+      "name": "Status=Verified",
+      "type": "COMPONENT",
+      "box": {
+        "x": 30,
+        "y": 150,
+        "w": 132,
+        "h": 26
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 1.9
+    },
+    {
+      "name": "Status=Pending",
+      "type": "COMPONENT",
+      "box": {
+        "x": 24,
+        "y": 66,
+        "w": 144,
+        "h": 26
+      },
+      "figmaFill": "#f9ac1c@0.10",
+      "mismatch": 1
+    },
+    {
+      "name": "Status=Processing",
+      "type": "COMPONENT",
+      "box": {
+        "x": 36,
+        "y": 108,
+        "w": 120,
+        "h": 26
+      },
+      "figmaFill": "#f9ac1c@0.10",
+      "mismatch": 1
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "_comment": "Project fidelity config for SPX compliance-status master 560:4405. Same tolerances/gate as dialogs. checkTextContainerStyle=true so the pill surface (bg/radius) is anchored from the label text — necessary for a tinted-pill master.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels CJK as 'HarmonyOS Sans TC'; the app ships HarmonyOS Sans SC + PlusJakartaSans-* — same family alias contract as dialogs/buttons/cards.",
+  "ignoreText": [],
+  "deviations": [],
+  "iconDeviations": [],
+  "_iconDeviationsNote": "Compliance pills are text-only (no icon glyph) — icon-diff has nothing to flag here.",
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "gate": { "minFidelityScore": 97, "maxCritical": 0, "maxMajor": 0 }
+}

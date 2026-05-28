@@ -1,0 +1,319 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "954:10129",
+    "name": "State=删除弹窗",
+    "width": 300,
+    "height": 206
+  },
+  "nodes": [
+    {
+      "key": "954:10129",
+      "figmaId": "954:10129",
+      "name": "State=删除弹窗",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 206
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 10,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 24,
+          "r": 24,
+          "b": 24,
+          "l": 24
+        },
+        "gap": 24,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "954:10118",
+      "figmaId": "954:10118",
+      "name": "head",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 24,
+        "w": 252,
+        "h": 94
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "954:10119",
+      "figmaId": "954:10119",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 132,
+        "y": 24,
+        "w": 36,
+        "h": 36
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 18,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "954:10120",
+      "figmaId": "954:10120",
+      "name": "Outline / Essentional, UI / Danger Triangle",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 140,
+        "y": 32,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "954:10121",
+      "figmaId": "954:10121",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 141.04,
+        "y": 33.88,
+        "w": 17.92,
+        "h": 16.25
+      },
+      "style": {
+        "backgroundColor": "#f9ac1c"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "954:10122",
+      "figmaId": "954:10122",
+      "name": "该邮箱已注册",
+      "type": "TEXT",
+      "text": "你确认想要删除此收款人",
+      "box": {
+        "x": 73,
+        "y": 72,
+        "w": 154,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 900,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "954:10123",
+      "figmaId": "954:10123",
+      "name": "换个邮箱注册，或直接用该邮箱登录",
+      "type": "TEXT",
+      "text": "此操作将永久删除该记录，是否继续",
+      "box": {
+        "x": 24,
+        "y": 100,
+        "w": 252,
+        "h": 18
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "textTransform": "none",
+        "color": "#9ca3af"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "954:10124",
+      "figmaId": "954:10124",
+      "name": "btns",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 142,
+        "w": 252,
+        "h": 40
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "954:10125",
+      "figmaId": "954:10125",
+      "name": "btn-secondary",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 142,
+        "w": 120,
+        "h": 40
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#e4e4e9",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "954:10126",
+      "figmaId": "954:10126",
+      "name": "换个邮箱",
+      "type": "TEXT",
+      "text": "取消",
+      "box": {
+        "x": 72,
+        "y": 155,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#5b5f69"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#e4e4e9",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "954:10127",
+      "figmaId": "954:10127",
+      "name": "btn-primary",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 156,
+        "y": 142,
+        "w": 120,
+        "h": 40
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "954:10128",
+      "figmaId": "954:10128",
+      "name": "去登录",
+      "type": "TEXT",
+      "text": "确认",
+      "box": {
+        "x": 204,
+        "y": 155,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#ffffff"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    }
+  ]
+}

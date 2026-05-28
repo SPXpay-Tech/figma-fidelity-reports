@@ -1,0 +1,31 @@
+{
+  "_comment": "Input-master tolerances. Wide-frame library (5013px) rendered at 1024 — geometry tolerances loosened a touch because the master uses different per-section vocabulary than the harness's §4.1 grid (multi-match expected). Token diffs (color/typography/border) stay strict.",
+  "tolerances": {
+    "x": 4,
+    "y": 4,
+    "w": 2,
+    "h": 2,
+    "fontSize": 0.5,
+    "lineHeight": 1,
+    "letterSpacing": 0.2,
+    "borderRadius": 1,
+    "borderWidth": 0.5,
+    "padding": 2,
+    "gap": 2,
+    "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "textMatch": { "maxCenterDist": 60 },
+  "severity": {
+    "geometry": "major",
+    "typography": "major",
+    "color": "major",
+    "missing": "critical",
+    "extra": "minor"
+  },
+  "gate": {
+    "minFidelityScore": 95,
+    "maxCritical": 0,
+    "maxMajor": 0
+  }
+}

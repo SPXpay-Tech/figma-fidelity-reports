@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for SPX compliance-status master 560:4405 ('Compliance Status · 合规状态', COMPONENT_SET 192×242). Five vertical pills (Unverified / Pending / Processing / Verified / Rejected) sharing radius 16, padding 6×12, gap 10, HarmonyOS Sans TC 12/14.06 w500. Semantic colors only — red #f52f32 (alt token) + amber #f9ac1c + green #00d17d — NO brand gold (system feedback, not brand identity). Used in me/kyc page + KYC/KYB result dialogs. Boot expo web with `pnpm exec expo start --web --port 8082`, then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen compliance-master",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-compliance-master/fidelity/out",
+  "screens": [
+    {
+      "id": "compliance-master",
+      "node": "560:4405",
+      "figmaJson": "docs/figma-compliance-master/fidelity/figma-dump/master.json",
+      "figmaPng": "docs/figma-compliance-master/fidelity/figma-dump/master.png",
+      "url": "http://localhost:8082/__fidelity/compliance",
+      "width": 192,
+      "height": 242,
+      "root": "[data-figma-root='560:4405']",
+      "wait": "text=合规状态：未认证",
+      "anchor": "母版 Master · 560:4405"
+    }
+  ]
+}

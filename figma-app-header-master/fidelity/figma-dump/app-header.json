@@ -1,0 +1,318 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "app-header-master",
+    "name": "AppHeader · brand + KYC banner (subset of 619:8194)",
+    "width": 390,
+    "height": 150,
+    "_note": "Filtered from home.json — keeps only AppHeader instance 619:8197 + KYC compliance row (692:5294 + 619:8201/2/3/4). Coords are inherited (header at y=66, banner at y=111)."
+  },
+  "nodes": [
+    {
+      "key": "619:8197",
+      "figmaId": "619:8197",
+      "name": "App Header · 页头",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 350,
+        "h": 33
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 24,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 2
+    },
+    {
+      "key": "I619:8197;514:5532",
+      "figmaId": "I619:8197;514:5532",
+      "name": "配饰 Accessory",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 95.64,
+        "h": 33
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 2,
+          "b": 0,
+          "l": 2
+        },
+        "gap": 2,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I619:8197;514:5533",
+      "figmaId": "I619:8197;514:5533",
+      "name": "🌐 语言切换 Language Toggle",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 302,
+        "y": 67,
+        "w": 68,
+        "h": 32
+      },
+      "style": {
+        "backgroundColor": "#f3f1e8",
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 4,
+          "b": 4,
+          "l": 4
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 3
+    },
+    {
+      "key": "I619:8197;514:5533;476:3",
+      "figmaId": "I619:8197;514:5533;476:3",
+      "name": "seg-中",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 306,
+        "y": 71,
+        "w": 30,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 6,
+          "b": 4,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I619:8197;514:5533;476:4",
+      "figmaId": "I619:8197;514:5533;476:4",
+      "name": "中",
+      "type": "TEXT",
+      "text": "中",
+      "box": {
+        "x": 315,
+        "y": 76,
+        "w": 12,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#ffffff"
+      },
+      "depth": 5
+    },
+    {
+      "key": "I619:8197;514:5533;476:5",
+      "figmaId": "I619:8197;514:5533;476:5",
+      "name": "seg-EN",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 336,
+        "y": 71,
+        "w": 30,
+        "h": 24
+      },
+      "style": {
+        "borderRadius": 13,
+        "padding": {
+          "t": 4,
+          "r": 6,
+          "b": 4,
+          "l": 6
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I619:8197;514:5533;476:6",
+      "figmaId": "I619:8197;514:5533;476:6",
+      "name": "EN",
+      "type": "TEXT",
+      "text": "EN",
+      "box": {
+        "x": 342.5,
+        "y": 75.5,
+        "w": 17,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "lineHeight": 15.12,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#aaa286"
+      },
+      "depth": 5
+    },
+    {
+      "key": "619:8199",
+      "figmaId": "619:8199",
+      "name": "Frame 2147225256",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 111,
+        "w": 350,
+        "h": 26
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 24,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 3
+    },
+    {
+      "key": "692:5294",
+      "figmaId": "692:5294",
+      "name": "Compliance Status · 合规状态",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 111,
+        "w": 144,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#f9ac1c@0.10",
+        "borderRadius": 16,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "I692:5294;548:6307",
+      "figmaId": "I692:5294;548:6307",
+      "name": "label",
+      "type": "TEXT",
+      "text": "合规状态：待提交认证",
+      "box": {
+        "x": 32,
+        "y": 117,
+        "w": 120,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#f9ac1c"
+      },
+      "depth": 5
+    },
+    {
+      "key": "619:8201",
+      "figmaId": "619:8201",
+      "name": "r",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 316,
+        "y": 118,
+        "w": 54,
+        "h": 12
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 2,
+        "layout": "HORIZONTAL"
+      },
+      "depth": 4
+    },
+    {
+      "key": "619:8202",
+      "figmaId": "619:8202",
+      "name": "查看详情",
+      "type": "TEXT",
+      "text": "查看详情",
+      "box": {
+        "x": 316,
+        "y": 118,
+        "w": 40,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 400,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#9ca3af"
+      },
+      "depth": 5
+    },
+    {
+      "key": "619:8203",
+      "figmaId": "619:8203",
+      "name": "Linear / Arrows / Arrow Right",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 358,
+        "y": 118,
+        "w": 12,
+        "h": 12
+      },
+      "style": {},
+      "depth": 5
+    }
+  ]
+}

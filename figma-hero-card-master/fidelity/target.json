@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for SPX mobile HeroCard (Total Asset Card · 总资产卡片). Ground truth = Figma master node 619:8205 (350×118, radius 20, dark warm gradient with gold eye-pill). Diffs the REVEALED state — the harness renders a hidden companion too, but only the revealed state has a Figma master to gate against. Boot expo web (pnpm exec expo start --web --port 8082), then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen hero-revealed",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-hero-card-master/fidelity/out",
+  "screens": [
+    {
+      "id": "hero-revealed",
+      "node": "619:8205",
+      "figmaJson": "docs/figma-hero-card-master/fidelity/figma-dump/hero.json",
+      "figmaPng": "docs/figma-hero-card-master/fidelity/figma-dump/hero.png",
+      "url": "http://localhost:8082/__fidelity/home-hero",
+      "width": 350,
+      "height": 118,
+      "root": "[data-figma-root='619:8205']",
+      "wait": "text=总资产余额",
+      "uxTargets": "docs/figma-hero-card-master/fidelity/ux.targets.json"
+    }
+  ]
+}

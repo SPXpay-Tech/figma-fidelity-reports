@@ -1,0 +1,12 @@
+{
+  "header": "// TxRow status icons — 1:1 from Figma file eqhwFT0W55JotQkpxndDl9 (home master 619:8194)\n// Sources: arrow-down (I619:8238;586:7319 #00D17D), arrow-up (I619:8245;586:7367 #884DFE),\n// clock-circle (I619:8246;586:7383 #F9AC1C), danger-circle (I619:8247;586:7397 #F52F32).\n// sort-horizontal sourced from home exchange-rate row (I619:8211;586:7206 #EABB62) and\n// re-fitted to a 20x20 viewBox for impl-side 划转/兑换 — not present in tx-row figma master.",
+  "icons": [
+    { "name": "ArrowDownDepositMark", "in": "icon_ArrowDownDeposit.svg", "defaultColor": "#00D17D", "defaultSize": 20 },
+    { "name": "ArrowUpWithdrawMark", "in": "icon_ArrowUpWithdraw.svg", "defaultColor": "#884DFE", "defaultSize": 20 },
+    { "name": "ClockCircleAuditMark", "in": "icon_ClockCircleAudit.svg", "defaultColor": "#F9AC1C", "defaultSize": 20 },
+    { "name": "DangerCircleFailedMark", "in": "icon_DangerCircleFailed.svg", "defaultColor": "#F52F32", "defaultSize": 20 },
+    { "name": "SortHorizontalTransferMark", "in": "icon_SortHorizontalTransfer.svg", "defaultColor": "#EABB62", "defaultSize": 20 },
+    { "name": "HeaderRestartMark", "in": "icon_HeaderRestart.svg", "defaultColor": "#AAA286", "defaultSize": 20 },
+    { "name": "HeaderArrowRightMark", "in": "icon_HeaderArrowRight.svg", "defaultColor": "#AAA286", "defaultSize": 14 }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "ux.findings",
+  "summary": {
+    "targets": 1,
+    "critical": 0,
+    "major": 0,
+    "minor": 1,
+    "info": 0,
+    "gate": {
+      "blocking": 0,
+      "pass": true
+    }
+  },
+  "matrix": [
+    {
+      "target": "shortcut-spx",
+      "state": "press",
+      "reachable": false,
+      "destination": null,
+      "motion": null,
+      "feedback": null
+    }
+  ],
+  "findings": [
+    {
+      "node": "shortcut-spx",
+      "prop": "press",
+      "expected": "visible state change",
+      "actual": "no change",
+      "severity": "minor",
+      "hint": "interaction \"press\" produces no visible change — add a press/hover affordance if the design specifies one (see STATE-SEMANTICS.md)",
+      "kind": "reachability"
+    }
+  ]
+}

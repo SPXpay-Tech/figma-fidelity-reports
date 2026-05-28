@@ -1,0 +1,4 @@
+# storage.json is a Playwright storageState minted by make-storage-state.mjs — it embeds a staging
+# session + the login response user blob (bcrypt hash + PII). Regenerable; never commit.
+storage.json
+storage*.json

@@ -1,0 +1,1362 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "917:9387",
+    "name": "划转相关·实收金额",
+    "width": 430,
+    "height": 332
+  },
+  "nodes": [
+    {
+      "key": "917:9387",
+      "figmaId": "917:9387",
+      "name": "划转相关·实收金额",
+      "type": "COMPONENT_SET",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 430,
+        "h": 332
+      },
+      "style": {
+        "borderRadius": 5,
+        "padding": {
+          "t": 40,
+          "r": 40,
+          "b": 40,
+          "l": 40
+        },
+        "gap": 24,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "917:7870",
+      "figmaId": "917:7870",
+      "name": "State=转出账户",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 350,
+        "h": 68
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "917:7850",
+      "figmaId": "917:7850",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "917:7851",
+      "figmaId": "917:7851",
+      "name": "转出账户 *",
+      "type": "TEXT",
+      "text": "转出账户",
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "917:7852",
+      "figmaId": "917:7852",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 60,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "917:7853",
+      "figmaId": "917:7853",
+      "name": "Frame 2147225294",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 72,
+        "w": 132,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "917:7854",
+      "figmaId": "917:7854",
+      "name": "chip",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 72,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 5.999999046325684,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "917:7855",
+      "figmaId": "917:7855",
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 76,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "917:7856",
+      "figmaId": "917:7856",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 59.78,
+        "y": 79.99,
+        "w": 10.89,
+        "h": 7.15
+      },
+      "style": {
+        "backgroundColor": "#f9ac1c"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "917:7857",
+      "figmaId": "917:7857",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 57.33,
+        "y": 80.88,
+        "w": 10.89,
+        "h": 7.13
+      },
+      "style": {
+        "backgroundColor": "#0c0d07"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "917:7858",
+      "figmaId": "917:7858",
+      "name": "Group 1707484082",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 57.34,
+        "y": 77.33,
+        "w": 13.39,
+        "h": 13.39
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "917:7859",
+      "figmaId": "917:7859",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 57.34,
+        "y": 84.73,
+        "w": 10.88,
+        "h": 5.99
+      },
+      "style": {
+        "backgroundColor": "#24201a"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "917:7860",
+      "figmaId": "917:7860",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 59.78,
+        "y": 77.33,
+        "w": 10.89,
+        "h": 6.01
+      },
+      "style": {
+        "backgroundColor": "#24201a"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "917:7861",
+      "figmaId": "917:7861",
+      "name": "Subtract",
+      "type": "BOOLEAN_OPERATION",
+      "text": null,
+      "box": {
+        "x": 57.34,
+        "y": 81.76,
+        "w": 10.89,
+        "h": 6.3
+      },
+      "style": {
+        "backgroundColor": "#24201a"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "917:7862",
+      "figmaId": "917:7862",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 57.34,
+        "y": 80.89,
+        "w": 10.89,
+        "h": 7.16
+      },
+      "style": {
+        "backgroundColor": "#0c0d07"
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7863",
+      "figmaId": "917:7863",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 59.78,
+        "y": 80,
+        "w": 10.89,
+        "h": 6.08
+      },
+      "style": {
+        "backgroundColor": "#eabb62"
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7864",
+      "figmaId": "917:7864",
+      "name": "Subtract",
+      "type": "BOOLEAN_OPERATION",
+      "text": null,
+      "box": {
+        "x": 59.83,
+        "y": 79.98,
+        "w": 10.89,
+        "h": 6.3
+      },
+      "style": {
+        "backgroundColor": "#eabb62"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "917:7865",
+      "figmaId": "917:7865",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 59.83,
+        "y": 79.98,
+        "w": 10.89,
+        "h": 7.18
+      },
+      "style": {
+        "backgroundColor": "#eabb62"
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7866",
+      "figmaId": "917:7866",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 57.39,
+        "y": 83.66,
+        "w": 11.29,
+        "h": 4.38
+      },
+      "style": {
+        "backgroundColor": "#0c0d07"
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7867",
+      "figmaId": "917:7867",
+      "name": "SPX 资金账户 USD",
+      "type": "TEXT",
+      "text": "SPX 资金账户 USD",
+      "box": {
+        "x": 82,
+        "y": 77,
+        "w": 102,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "917:7868",
+      "figmaId": "917:7868",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 72,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "917:7869",
+      "figmaId": "917:7869",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 81,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "917:7972",
+      "figmaId": "917:7972",
+      "name": "State=转入",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 132,
+        "w": 350,
+        "h": 68
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "917:7973",
+      "figmaId": "917:7973",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 132,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "917:7974",
+      "figmaId": "917:7974",
+      "name": "转入账户",
+      "type": "TEXT",
+      "text": "转入账户",
+      "box": {
+        "x": 40,
+        "y": 132,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#13213a"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "917:7975",
+      "figmaId": "917:7975",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 152,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "917:7976",
+      "figmaId": "917:7976",
+      "name": "Frame 2147225294",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 164,
+        "w": 133,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "917:7977",
+      "figmaId": "917:7977",
+      "name": "chip",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 164,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.20",
+        "borderRadius": 5.999999046325684,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "917:7978",
+      "figmaId": "917:7978",
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 168,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "917:7979",
+      "figmaId": "917:7979",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 59.78,
+        "y": 171.99,
+        "w": 10.89,
+        "h": 7.15
+      },
+      "style": {
+        "backgroundColor": "#f9ac1c"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "917:7980",
+      "figmaId": "917:7980",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 57.33,
+        "y": 172.88,
+        "w": 10.89,
+        "h": 7.13
+      },
+      "style": {
+        "backgroundColor": "#0c0d07"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "917:7981",
+      "figmaId": "917:7981",
+      "name": "Group 1707484083",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 170,
+        "w": 12,
+        "h": 12
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "917:7982",
+      "figmaId": "917:7982",
+      "name": "Subtract",
+      "type": "BOOLEAN_OPERATION",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 170,
+        "w": 12,
+        "h": 7.2
+      },
+      "style": {
+        "backgroundColor": "#152b51"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "917:7983",
+      "figmaId": "917:7983",
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 170,
+        "w": 12,
+        "h": 12
+      },
+      "style": {
+        "backgroundColor": "#d9d9d9",
+        "borderRadius": 1.1999999284744263
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7984",
+      "figmaId": "917:7984",
+      "name": "Rectangle 5248",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 177.2,
+        "w": 12,
+        "h": 5.2
+      },
+      "style": {
+        "backgroundColor": "#bd9292"
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7985",
+      "figmaId": "917:7985",
+      "name": "Rectangle 5249",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 62,
+        "y": 174,
+        "w": 8,
+        "h": 6.4
+      },
+      "style": {
+        "backgroundColor": "#bd9292"
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7986",
+      "figmaId": "917:7986",
+      "name": "Subtract",
+      "type": "BOOLEAN_OPERATION",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 174.8,
+        "w": 12,
+        "h": 7.2
+      },
+      "style": {
+        "backgroundColor": "#152b51"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "917:7987",
+      "figmaId": "917:7987",
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 170,
+        "w": 12,
+        "h": 12
+      },
+      "style": {
+        "backgroundColor": "#d9d9d9",
+        "borderRadius": 1.1999999284744263
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7988",
+      "figmaId": "917:7988",
+      "name": "Rectangle 5248",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 169.6,
+        "w": 12,
+        "h": 5.2
+      },
+      "style": {
+        "backgroundColor": "#bd9292"
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7989",
+      "figmaId": "917:7989",
+      "name": "Rectangle 5249",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 171.6,
+        "w": 8,
+        "h": 6.4
+      },
+      "style": {
+        "backgroundColor": "#bd9292"
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7990",
+      "figmaId": "917:7990",
+      "name": "SGB 银行账户 USD",
+      "type": "TEXT",
+      "text": "SGB 银行账户 USD",
+      "box": {
+        "x": 82,
+        "y": 169,
+        "w": 103,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "917:7995",
+      "figmaId": "917:7995",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 164,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "917:7996",
+      "figmaId": "917:7996",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 173,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#152b51",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "917:7913",
+      "figmaId": "917:7913",
+      "name": "State=转入不可选",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 224,
+        "w": 350,
+        "h": 68
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "917:7893",
+      "figmaId": "917:7893",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 224,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "917:7894",
+      "figmaId": "917:7894",
+      "name": "转入账户",
+      "type": "TEXT",
+      "text": "转入账户",
+      "box": {
+        "x": 40,
+        "y": 224,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#13213a"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "917:7895",
+      "figmaId": "917:7895",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 244,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#f6f6f4",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "917:7896",
+      "figmaId": "917:7896",
+      "name": "Frame 2147225294",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 256,
+        "w": 133,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "917:7897",
+      "figmaId": "917:7897",
+      "name": "chip",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 256,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.20",
+        "borderRadius": 5.999999046325684,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "917:7898",
+      "figmaId": "917:7898",
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 260,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "917:7899",
+      "figmaId": "917:7899",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 59.78,
+        "y": 263.99,
+        "w": 10.89,
+        "h": 7.15
+      },
+      "style": {
+        "backgroundColor": "#f9ac1c"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "917:7900",
+      "figmaId": "917:7900",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 57.33,
+        "y": 264.88,
+        "w": 10.89,
+        "h": 7.13
+      },
+      "style": {
+        "backgroundColor": "#0c0d07"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "917:7901",
+      "figmaId": "917:7901",
+      "name": "Group 1707484083",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 262,
+        "w": 12,
+        "h": 12
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "917:7902",
+      "figmaId": "917:7902",
+      "name": "Subtract",
+      "type": "BOOLEAN_OPERATION",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 262,
+        "w": 12,
+        "h": 7.2
+      },
+      "style": {
+        "backgroundColor": "#152b51"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "917:7903",
+      "figmaId": "917:7903",
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 262,
+        "w": 12,
+        "h": 12
+      },
+      "style": {
+        "backgroundColor": "#d9d9d9",
+        "borderRadius": 1.1999999284744263
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7904",
+      "figmaId": "917:7904",
+      "name": "Rectangle 5248",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 269.2,
+        "w": 12,
+        "h": 5.2
+      },
+      "style": {
+        "backgroundColor": "#bd9292"
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7905",
+      "figmaId": "917:7905",
+      "name": "Rectangle 5249",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 62,
+        "y": 266,
+        "w": 8,
+        "h": 6.4
+      },
+      "style": {
+        "backgroundColor": "#bd9292"
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7906",
+      "figmaId": "917:7906",
+      "name": "Subtract",
+      "type": "BOOLEAN_OPERATION",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 266.8,
+        "w": 12,
+        "h": 7.2
+      },
+      "style": {
+        "backgroundColor": "#152b51"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "917:7907",
+      "figmaId": "917:7907",
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 262,
+        "w": 12,
+        "h": 12
+      },
+      "style": {
+        "backgroundColor": "#d9d9d9",
+        "borderRadius": 1.1999999284744263
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7908",
+      "figmaId": "917:7908",
+      "name": "Rectangle 5248",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 261.6,
+        "w": 12,
+        "h": 5.2
+      },
+      "style": {
+        "backgroundColor": "#bd9292"
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7909",
+      "figmaId": "917:7909",
+      "name": "Rectangle 5249",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 263.6,
+        "w": 8,
+        "h": 6.4
+      },
+      "style": {
+        "backgroundColor": "#bd9292"
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "917:7910",
+      "figmaId": "917:7910",
+      "name": "SGB 银行账户 USD",
+      "type": "TEXT",
+      "text": "SGB 银行账户 USD",
+      "box": {
+        "x": 82,
+        "y": 261,
+        "w": 103,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f6f6f4",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "917:7965",
+      "figmaId": "917:7965",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 362,
+        "y": 260,
+        "w": 16,
+        "h": 16
+      },
+      "style": {
+        "backgroundColor": "#152b51",
+        "borderRadius": 8,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "917:7966",
+      "figmaId": "917:7966",
+      "name": "icon-check",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 364.29,
+        "y": 262.29,
+        "w": 11.43,
+        "h": 11.43
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "917:7967",
+      "figmaId": "917:7967",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 366.19,
+        "y": 265.14,
+        "w": 7.62,
+        "h": 5.24
+      },
+      "style": {
+        "borderColor": "#fcfcfa",
+        "borderWidth": 1.3333333730697632
+      },
+      "parentStyle": null,
+      "depth": 5
+    }
+  ]
+}

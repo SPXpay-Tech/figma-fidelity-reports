@@ -1,0 +1,11 @@
+{
+  "_note": "QuickAction icons exported 1:1 from Figma file eqhwFT0W55JotQkpxndDl9 home frame 619:8194. Five glyphs in the 快捷功能 strip — deposit/withdraw/transfer/exchange/payouts. All 24×24, brand gold #EABB62 stroke or fill. Generated via figma-fidelity svg-to-component.mjs (leaf-count validated).",
+  "header": "// QuickAction icons — 1:1 from Figma file eqhwFT0W55JotQkpxndDl9 (home 619:8194)\n// Frames I619:8209;586:7183 / I619:8210;586:7187 / I619:8211;586:7206 / I619:8212;586:7210 / I619:8213;586:7214",
+  "icons": [
+    { "name": "DepositMark",  "in": "svgs/icon_deposit.svg",  "defaultColor": "#EABB62", "defaultSize": 24 },
+    { "name": "WithdrawMark", "in": "svgs/icon_withdraw.svg", "defaultColor": "#EABB62", "defaultSize": 24 },
+    { "name": "TransferMark", "in": "svgs/icon_transfer.svg", "defaultColor": "#EABB62", "defaultSize": 24 },
+    { "name": "ExchangeMark", "in": "svgs/icon_exchange.svg", "defaultColor": "#EABB62", "defaultSize": 24 },
+    { "name": "PayoutsMark",  "in": "svgs/icon_payouts.svg",  "defaultColor": "#EABB62", "defaultSize": 24 }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "frame": {
+    "id": "917:10462",
+    "name": "转账信息·支付目的",
+    "width": 880,
+    "height": 480
+  },
+  "offset": {
+    "x": 1,
+    "y": 0.97
+  },
+  "threshold": 12,
+  "flagged": 0,
+  "regions": [
+    {
+      "name": "State=买入",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 182,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#9ca3af@0.10",
+      "mismatch": 1.8
+    },
+    {
+      "name": "State=兑换信息",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 324,
+        "w": 350,
+        "h": 116
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.2
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 72,
+        "w": 160,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 214,
+        "w": 160,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.4
+    },
+    {
+      "name": "兑换币种下拉·卖出 Sell Currency Dropdown",
+      "type": "INSTANCE",
+      "box": {
+        "x": 218,
+        "y": 72,
+        "w": 160,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.3
+    },
+    {
+      "name": "兑换币种下拉·买入 Buy Currency Dropdown",
+      "type": "INSTANCE",
+      "box": {
+        "x": 218,
+        "y": 214,
+        "w": 160,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.3
+    }
+  ]
+}

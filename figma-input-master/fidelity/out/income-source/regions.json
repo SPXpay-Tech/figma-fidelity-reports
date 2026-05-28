@@ -1,0 +1,352 @@
+{
+  "frame": {
+    "id": "888:7368",
+    "name": "转账信息·收入来源",
+    "width": 430,
+    "height": 1180
+  },
+  "offset": {
+    "x": 2,
+    "y": 1
+  },
+  "threshold": 12,
+  "flagged": 0,
+  "regions": [
+    {
+      "name": "chip-投资收益",
+      "type": "FRAME",
+      "box": {
+        "x": 131,
+        "y": 349,
+        "w": 73,
+        "h": 22
+      },
+      "figmaFill": "#eabb62@0.12",
+      "mismatch": 8.3
+    },
+    {
+      "name": "chip-投资收益",
+      "type": "FRAME",
+      "box": {
+        "x": 131,
+        "y": 819,
+        "w": 73,
+        "h": 22
+      },
+      "figmaFill": "#eabb62@0.12",
+      "mismatch": 8.3
+    },
+    {
+      "name": "chip-公司分红",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 349,
+        "w": 73,
+        "h": 22
+      },
+      "figmaFill": "#eabb62@0.12",
+      "mismatch": 6.1
+    },
+    {
+      "name": "chip-公司分红",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 819,
+        "w": 73,
+        "h": 22
+      },
+      "figmaFill": "#eabb62@0.12",
+      "mismatch": 6.1
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 806,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 4.3
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 945,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 4.3
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 977,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 4.3
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 152,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.1
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 244,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 3.1
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 428,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.8
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 336,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.8
+    },
+    {
+      "name": "ms-dropdown-panel",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 482,
+        "w": 350,
+        "h": 280
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 60,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.5
+    },
+    {
+      "name": "ms-dropdown-panel",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 860,
+        "w": 350,
+        "h": 280
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.5
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 503,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 535,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 567,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 599,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 631,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 663,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 695,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 727,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 881,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 913,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 1009,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 1041,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 1073,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "checkbox",
+      "type": "FRAME",
+      "box": {
+        "x": 56,
+        "y": 1105,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    }
+  ]
+}

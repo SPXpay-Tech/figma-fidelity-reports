@@ -1,0 +1,10 @@
+[
+  {
+    "_comment": "LiveRates search input (744:7619 → search-box) — focus state is the primary affordance for the FX table filter.",
+    "key": "rates-search",
+    "selector": "input[aria-label='搜索币种']",
+    "driveSelector": "input[aria-label='搜索币种']",
+    "kind": "input",
+    "states": ["focus"]
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "frame": {
+    "id": "245:736",
+    "name": "Toast · 轻提示",
+    "width": 368,
+    "height": 364
+  },
+  "checked": 7,
+  "fails": 0,
+  "warns": 5,
+  "waived": 0,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "681:4851",
+      "box": {
+        "x": 38,
+        "y": 38,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "icon-check",
+      "figmaId": "681:4852",
+      "box": {
+        "x": 43.33,
+        "y": 43.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "pass",
+      "severity": "pass"
+    },
+    {
+      "name": "icon",
+      "figmaId": "917:12142",
+      "box": {
+        "x": 38,
+        "y": 104,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "icon-check",
+      "figmaId": "917:12143",
+      "box": {
+        "x": 43.33,
+        "y": 109.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "pass",
+      "severity": "pass"
+    },
+    {
+      "name": "icon",
+      "figmaId": "681:4861",
+      "box": {
+        "x": 38,
+        "y": 170,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "icon",
+      "figmaId": "681:4865",
+      "box": {
+        "x": 38,
+        "y": 236,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 2,
+      "implPaths": 2,
+      "status": "warn",
+      "severity": "minor",
+      "note": "2 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "icon",
+      "figmaId": "681:4926",
+      "box": {
+        "x": 38,
+        "y": 302,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 2,
+      "implPaths": 2,
+      "status": "warn",
+      "severity": "minor",
+      "note": "2 paths present but geometry differs from Figma — eyeball the glyph."
+    }
+  ]
+}

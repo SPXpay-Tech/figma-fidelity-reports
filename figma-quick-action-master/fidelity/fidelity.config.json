@@ -1,0 +1,45 @@
+{
+  "_comment": "Project fidelity config for SPX home 快捷功能 strip 619:8208 (5 instances × QuickAction). Same tolerances/gate as cards/compliance/transfer-state. checkTextContainerStyle=true so the QuickAction circle (48×48 #eabb62@0.20 radius 25.71) is anchored from the label below it — critical for verifying the gold-tint background.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma labels CJK as 'HarmonyOS Sans TC'; app ships HarmonyOS Sans SC + Plus Jakarta Sans Latin — same alias contract as cards/auth/dialogs/compliance.",
+  "ignoreText": [],
+  "deviations": [
+    { "node": "Vector", "prop": "borderColor", "reason": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28." },
+    { "node": "Vector", "prop": "borderWidth", "reason": "Same SVG-stroke-vs-CSS-border impedance as Vector borderColor — figma reports stroke-width 1.5 as borderWidth, impl <path> CSS borderWidth is 0. icon-diff confirms the stroke is rendered correctly. Approved 2026-05-28." },
+    { "node": "Vector", "prop": "box.w", "reason": "Exchange icon's fill-vector children (I619:8212;586:7211/7212 Refresh arrows) — figma's VECTOR absoluteBoundingBox excludes the path's stroke half-width while impl <path>.getBoundingClientRect includes it. Path data is identical (icon-diff PASS); the ~1-2px width delta is the stroke inflation. Approved 2026-05-28." },
+    { "node": "Vector", "prop": "box.h", "reason": "Same stroke-inflation as Vector box.w — affects the Refresh arrows and the 8×0 PayoutsMark dividers (zero-height stroked lines getBoundingClientRect-ed as 1.5px tall in impl). icon-diff still confirms path identity. Approved 2026-05-28." },
+    { "node": "Vector", "prop": "borderRadius", "reason": "PayoutsMark's clipboard-clip vector (I619:8213;586:7218) has cornerRadius 1.5 inside the figma path; impl renders the path geometrically (rounded corners baked into the d-attribute) so there's no separate CSS border-radius. Visually identical, icon-diff PASS. Approved 2026-05-28." },
+    { "node": "Linear / Notes / Clipboard Text", "prop": "borderRadius", "reason": "Figma's 24×24 icon FRAME (I619:8213;586:7214) has cornerRadius 5 as a clip mask in the master. Impl renders the SVG inside a plain 24×24 View — clipping is implicit in the viewBox, so no border-radius needed on the wrapper. The visible glyph matches 1:1 (icon-diff PASS). Approved 2026-05-28." }
+  ],
+  "iconDeviations": [],
+  "_iconDeviationsNote": "All 5 QuickAction icons are now true Figma SVGs (DepositMark / WithdrawMark / TransferMark / ExchangeMark / PayoutsMark, generated 1:1 by svg-to-component.mjs). NO iconDeviations are permitted here — that was the whole point of this harness, per Charlie's 2026-05-28 directive that the home strip glyphs must match figma exactly. The deviations[] above only document the SVG-stroke-vs-CSS-border impedance mismatch that the icon-diff path-set check already supersedes.",
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" },
+      "hover":    { "duration": 120, "easing": "ease-out" },
+      "loading":  { "animated": true }
+    },
+    "durationToleranceMs": 80,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["opacity"]
+  },
+  "_uxNote": "Press is the primary affordance of the 5 quick-action buttons. RN Pressable applies an opacity dim on pressIn → translates to a pointerdown opacity change on rn-web. requireTransitionOn:opacity asserts the dim eases rather than snaps.",
+  "gate": { "minFidelityScore": 97, "maxCritical": 0, "maxMajor": 0 }
+}

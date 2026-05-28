@@ -1,0 +1,10 @@
+[
+  {
+    "_comment": "HeroCard balance reveal/conceal — the gold eye pill (619:8205;560:4481) toggles the masked amount '••••••' ↔ the actual figure. Reveal is the marquee interaction of this card.",
+    "key": "hero-eye",
+    "selector": "[data-figma-root='619:8205'] [aria-label='Hide balance']",
+    "driveSelector": "[data-figma-root='619:8205'] [aria-label='Hide balance']",
+    "kind": "button",
+    "states": ["press"]
+  }
+]

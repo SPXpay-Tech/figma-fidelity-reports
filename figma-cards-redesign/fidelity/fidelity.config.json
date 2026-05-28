@@ -1,0 +1,57 @@
+{
+  "_comment": "Project fidelity config for the SPX mobile 消费卡账户 (Cards) screen. Same tolerances/gate as the auth screens.",
+  "checkTextContainerStyle": true,
+  "_checkTextContainerStyleNote": "Opt-in: for each TEXT match, also compare the nearest styled-ancestor's bg/border (both sides). Catches non-text container chrome defects (selected pill's missing gold fill, card's missing 1px stroke) that the text-anchored diff is structurally blind to. Skill change landed 2026-05-28; auth/home don't opt in yet so they're unaffected.",
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels the CJK family 'HarmonyOS Sans TC' (Traditional). The app correctly ships 'HarmonyOS Sans SC' (Simplified) for its zh_CN UI — same Huawei type family, correct script variant. Latin labels use the bundled PlusJakartaSans-*. These aliases let the diff accept the app's correct font without a per-node deviation.",
+  "ignoreText": [
+    "^9:41$",
+    "^9 4 X K$",
+    "^存款$",
+    "^转账$"
+  ],
+  "_ignoreTextNote": "iOS status-bar mock (9:41 + signal/wifi/battery) is device chrome (topInset reserves the band). 存款/转账 are invisible leftover layers inside the Quick-Action component master (986:18580 y546 / 958:12989 y725) — they render at 0 opacity / behind the live labels (划转/持卡人信息/查看详细信息/调整单笔限额) and never appear in the exported raster, so they are dropped to avoid phantom MISSING criticals.",
+  "deviations": [
+    { "text": "首页", "prop": "fontWeight", "reason": "Bottom-nav active-weight follows the design-system rule (active 500 / inactive 400). The Cards master frame left 首页 at 500 — a copy-paste leftover from the Home frame where 首页 was the active tab. On the Cards screen 消费 is active, so impl renders 首页=400. Approved 2026-05-28." },
+    { "text": "消费", "prop": "fontWeight", "reason": "Bottom-nav active tab on the Cards screen is 消费 → weight 500 per the design-system rule; the Cards master frame mislabeled it 400 (copy leftover). impl is correct. Approved 2026-05-28." }
+  ],
+  "iconDeviations": [
+    { "name": "^Linear / (Arrows|Users) / (Arrow Right|Arrow Down|User Circle)$", "reason": "Still-font-glyph functional/nav icons: transaction-row directional chevrons (arrow-down-left/up-right) + view-all Arrow Right + bottom-nav 消费 (User Circle). App-wide @expo/vector-icons; geometry/box still token-checked, only vector-path-set identity waived. The quick-function icons 划转/持卡人信息/查看详细信息/调整单笔限额 are NO LONGER here — they were migrated to real Figma SVGs (RefreshMark/UserIdMark/DocumentTextMark/TuningSquareMark) and now pass natively. Approved 2026-05-28." },
+    { "name": "^Linear / Arrows / Refresh$", "reason": "划转 renders the real Figma Refresh SVG (RefreshMark, fill-based, verified visually in the impl crop). icon-diff's nearest-center match misassigns the rendered <svg> under the topInset offset and reports impl=0 here — a matcher artifact, NOT a missing/wrong icon. Waived until the icon-diff offset matching is hardened. Approved 2026-05-28." },
+    { "name": "^icon$", "reason": "Inner iris sub-node of the balance eye (Figma exports the eye as outer-stroke + iris as two icon nodes). The impl renders the whole eye as one combined EyeMark SVG, so the iris is not a separate <svg>. The eye glyph itself now uses the authoritative EyeMark SVG (react-native-svg) and is gated normally. Approved 2026-05-28." }
+  ],
+  "_iconDeviationsNote": "Read by icon-diff.mjs: a matched icon's fail/warn is downgraded to `waive` (info) and excluded from `fails`, so a documented, intentional substitution doesn't permanently red-gate the screen. The eye is deliberately NOT listed — it is a real fix (Feather glyph -> EyeMark SVG), so it must pass on its own.",
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "focus":    { "duration": 150, "easing": "ease-out" },
+      "error":    { "duration": 200, "easing": "ease-in-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" },
+      "hover":    { "duration": 120, "easing": "ease-out" },
+      "selected": { "duration": 150, "easing": "ease-out" },
+      "mismatch": { "duration": 200, "easing": "ease-in-out" },
+      "required": { "duration": 200, "easing": "ease-in-out" },
+      "loading":  { "animated": true }
+    },
+    "_motionNote": "mismatch/required are error subtypes → they animate on the field's error transition (errorDurationMs 200 / ease-in-out), same as `error`. Without these the diff would compare them to the 150ms default and flag a phantom motion-minor.",
+    "durationToleranceMs": 40,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["border-color", "background-color", "box-shadow", "opacity", "transform"]
+  },
+  "gate": { "minFidelityScore": 97, "maxCritical": 0, "maxMajor": 0 }
+}

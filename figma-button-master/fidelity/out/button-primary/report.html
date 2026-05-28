@@ -1,0 +1,520 @@
+<!doctype html><meta charset="utf8"><title>Figma Fidelity Report</title>
+<style>
+ body{font:14px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#fafafa;color:#222}
+ header{padding:20px 28px;background:#111;color:#fff}
+ h1{margin:0;font-size:18px} .score{font-size:42px;font-weight:700}
+ .meta{color:#aaa;font-size:12px}
+ .wrap{padding:20px 28px;max-width:1400px;margin:auto}
+ .triptych{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:18px 0}
+ .triptych figure{margin:0;background:#fff;border:1px solid #eee;border-radius:8px;padding:10px;text-align:center}
+ .triptych img{max-width:100%;border:1px solid #f0f0f0}
+ figcaption{font-size:12px;color:#666;margin-top:6px}
+ table{border-collapse:collapse;width:100%;background:#fff;font-size:13px}
+ th,td{border:1px solid #eee;padding:6px 9px;text-align:left;vertical-align:top}
+ th{background:#f5f5f5;position:sticky;top:0}
+ tr.bad td{background:#fff6f6} tr.ok td{color:#999}
+ .node{font-weight:600} .iss{font-family:monospace;font-size:12px;color:#c92a2a}
+ code{background:#f0f0f0;padding:1px 4px;border-radius:3px}
+ .pill{display:inline-block;padding:2px 8px;border-radius:10px;font-size:12px;margin-right:6px;background:#333;color:#fff}
+ h2{margin-top:34px;border-bottom:2px solid #eee;padding-bottom:6px}
+</style>
+<header>
+ <h1>Figma Fidelity Report — 主按钮 Button·Primary</h1>
+ <div style="display:flex;align-items:baseline;gap:18px;flex-wrap:wrap">
+   <div class="gate" style="font-size:30px;font-weight:700;color:#7ee787">GATE ✅ PASS</div>
+   <div class="score" style="font-size:30px;color:#888">100%</div>
+ </div>
+ <div class="meta">
+   <b style="color:#ff7b72">0 blocking</b> (critical+major) ·
+   <b style="color:#ffd43b">0 icon-fail</b> ·
+   <span style="color:#888">0 minor noise (sub-px — ignore)</span> ·
+   match mode: <b>tagged</b> ·
+   
+   · 2026-05-28T10:32:11.776Z
+ </div>
+ <div class="meta" style="margin-top:6px;color:#888">The <b>gate</b> is the verdict, not the %. Minor = unavoidable web-render sub-pixel noise. Icon check = Figma vector path-set vs rendered SVG.</div>
+
+ <div style="margin-top:14px;padding:12px 14px;background:#3d2b00;border-left:4px solid #ffd43b;border-radius:6px">
+   <div style="color:#ffd43b;font-weight:700;font-size:14px;letter-spacing:0.3px">⚠ 2 FINDING(S) WAIVED VIA <code style="background:#000;padding:1px 6px;border-radius:3px">cfg.deviations</code></div>
+   <div style="color:#ccc;margin-top:6px;font-size:12px">These are <b>real Figma↔impl diffs</b> the config opts to ignore. They DO NOT count against the gate. Audit each before trusting the green PASS — color deviations especially are a common footgun (overriding the master with a phantom "spec").</div>
+   <table style="margin-top:10px;width:100%;font-size:12px"><thead><tr style="color:#888;text-align:left"><th style="padding:4px 8px">Node</th><th style="padding:4px 8px">Prop</th><th style="padding:4px 8px">Figma</th><th style="padding:4px 8px">Impl</th><th style="padding:4px 8px">Reason</th></tr></thead><tbody>
+     <tr style="color:#ddd"><td style="padding:4px 8px"><code style="color:#79c0ff">451:4629</code></td><td style="padding:4px 8px;color:#aaa"><b>borderColor</b></td><td style="padding:4px 8px;font-family:monospace">#ffffff</td><td style="padding:4px 8px;font-family:monospace">#000000</td><td style="padding:4px 8px;color:#aaa">Figma node 451:4629 'Vector' is the SVG path data of the static loading-spinner glyph (stroke #ffffff @ 1.5px). The impl renders the loading state via RN ActivityIndicator (native rotating spinner — s</td></tr>
+     <tr style="color:#ddd"><td style="padding:4px 8px"><code style="color:#79c0ff">451:4629</code></td><td style="padding:4px 8px;color:#aaa"><b>borderWidth</b></td><td style="padding:4px 8px;font-family:monospace">1.5</td><td style="padding:4px 8px;font-family:monospace">0</td><td style="padding:4px 8px;color:#aaa">Same as above — figma's Vector node carries a 1.5px stroke that diff.mjs surfaces as borderWidth. Impl uses ActivityIndicator (no explicit border on its layout container). Approved 2026-05-28.</td></tr>
+   </tbody></table>
+ </div>
+</header>
+<div class="wrap">
+ <div class="triptych">
+   <figure><img src="data:image/png;base64,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"><figcaption>Figma 设计稿 (ground truth)</figcaption></figure>
+   <figure><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwwAAAHMCAIAAAD3arixAAAQAElEQVR4nOzdeXBcd4Hg8d87+m6pdVh2HMvyJd+2fMXOTRziBAgDLIEMbAqmpmAOUmEGdgemipr5g2FmamtrzoUws2xBWGYGFhiWMCQ4FySGxIlz2PF927Jk2ZZlWVJL6vsd8+tuuy1LT221JPs9Wd9PNc3r16+7BX+kvvn93vs93bZtAQAAgKupAgAAACMQSQAAAA6IJAAAAAdEEgAAgAMiCQAAwAGRBAAA4IBIAgAAcEAkAQAAOCCSAAAAHBBJAAAADogkAAAAB0QSAACAAyIJAADAAZEEAADggEgCAABwQCQBAAA4IJIAAAAcEEkAAAAOiCQAAAAHRBIAAIADIgkAAMABkQQAAOCASAIAAHBAJAEAADggkgAAABwQSQAAAA6IJAAAAAdEEgAAgAMiCQAAwAGRBAAA4IBIAgAAcEAkAQAAOCCSAAAAHBBJAAAADogkAAAAB0QSAACAAyIJAADAAZEEAADggEgCAABwoIspxMple4/k+o5b6YtmptdK91qZXtvMCAAA4D2KFlADtWqwVss/1/tqmv21S4XqE1OEYtu28DYr3ZPpeifbvT/bd0RYhgAAAFOUqstO8tevCszaKPtJeJunI8nODSZO/jzVsU3YpgAAADcN1Rdu2hKe9z7FVyW8yqORZJvp5KnnU+0vMpsGAMDNStGCoXkP5VNJCwrv8WIkmYlz8T1PmslOAQAAbnZaZHZs7Re0UIPwGM9FUq7nYHzPN+VIkgAAANOD4ovG1nzeV7NYeIm3IinVsW3w8L/J2TYBAACmFUWrWvG7wdl3Cc/wUCQVCulfBQAAmK6iyz4datwsvMEri0nm+o4NHvmBAAAA05iMAZkEwhs8EUlWuie+50mu8wcAYLqzTZkEMgyEB7gfSbaRiu/+up0bFAAAYNqTSRDf8w1hZYXb3I+kZPuLxuBpAQAAUGAMtCdOPSfc5nIkWdl4qv0lAQAAMITMA9tICle5HEnJ1q1yuk0AAAAMIfMgeWqrcJWbkZQfRjqzTQAAAIyQbP+llekT7nEzkjJd7wrLEAAAACNZucyF3cI9bkZS9sIuAQAAMAp3U8G1SJJzjdmewwIAAGAU+VSwXZt0ci2Sshf3sXokAAAoxzazPYeES1yLJCNxTgAAAJSVi58ULtGFS6xUtwAAACjLxWBwLZJMIgkAAFyLOQ0jycr2CwAAgLJcDAYXIykuAAAAynIxGFyLJO5GAgAArsnFYHD53m0AAADeRCQBAAA4IJIAAAAcEEkAAAAOiCQAAAAHRBIAAIADIgkAAMABkQQAAOCASAIAAHBAJAEAADggkgAAABwQSQAAAA6IJAAAAAdEEgAAgAMiCQAAwAGRBAAA4IBIAnB9qYEaAQBTkC4AoHJqoNZft6LMAVa2L9d3Irzg4XDTg/0Hvps5/1Z+r6JFl/x2su0lK90trkWvXqCFGkTljIF2M9kpAGBiiCQA46FXza1a+ZkyB+R6D1vZ/sCsTXI70vxIpmun3Ii1PO5vWCd3xt/9B5kyoqxQ4/3BW+8WlRs8+qNUO5EEYKKYbgNwvSRanxXClhtyQCjUtKVYSPKl6q8OzX1AAIC3MZIEYDzkKFH2wu5hOxU96KtdVtzO9R0zB8+kz74WvPVe+TK6+LdLh6XPvjpw8Hv5LVUXljHaTxj9rRnNL8YsMHO9nM4TADBJiCQA46EouhqI9e//9tCzf6pXf664YaUvJlq3yo3EiZ/JyTVFC5SOSbW9MHjsx3JDDdbXbPhyumNbsu15x59IdbwiH2LMZmx+UtFDAgAmCZEEoGL+upWxtZ+X02a1m/68f9+3shf3yZ2hpocCszYWDxg8+iM51iQ3rEzfwMH/W736D4v7jfiJUiHV3vananBGZPGjarBu8MgPHH9I0YLK2AeTFEUAwOQhkgBUTI4hySQR+fm1UGzdFxLHfpLrPxVd/Gjx3WzPgeJp2kWZ82+lYgtDTQ/KbT22KNL8sVTHtmIhFd63y5zBHV7wW+H5HxAA4AYiCUDF0udeNwbPxNY8IQeEZCnJ0SBhm0IpXAhim4OHhw8LydEjvXqer2aJ3A7PfzjUeP/leTF74MBT8tsEAHgPkQRgPIyBtp43vxZb/Tlf3fL86yFnTNds+NLI4xX1yqzZpUKyrf4D3850vjn6jwgr3WPET4qx0avnXwo1AJgMRBKAcVI0v22mR+5VA7Vj+biVG7Cy/eWPSXW8LB9ibDhxG8Dk4t+6AFRM0YLh+R+sv+uvi+seifyJRankqa3X/GD67PbiWd4iv1pSrGb9l6pX/6HTfUuUcT1G+wYAGA/Ftm3hhgu//KwAMNXIUaJQ05bQnPuGjtnIGbH4/m9Z6T4tVF/+41YuYecSkeaPysYq7ZTDUYnjT6dO/6q48mTdHX+hRRvF5DFTXT3bvyIATFkNW74j3MB0G4AKBG+5PTzv/VdeW9nkqecTrc8I25KvzOT5sXxJ4vhPc/HWquW/o/qrRWFcKtS4OX1uuxyOEgDgGUQSgAok257XYwsDMzfYZibV8Uq2e2/1qj8IznmPqNDAwad6Xv+z6OJHg3PutbMDfe/+I4UEwGuIJACVGTjwlDFwWhaSnRvUo3OdzigaA9VnG8mBQ99Ln3vDtrJWurv0Ts+bXysuCylHmPSqubm+YyM/XXfnX2qhmaKwoney7blh70aXfFKGV+LULy69duecAgBTHpEEoDK2mU7K+bVJkus7OvIHZNYoerhm3Rf16vmJkz9Pnnxm1NKRB19997dQ4/3yITe08Mz+g98tc284ACiPSAIwOXp3fNVInClzgKIFZmx+UoxNrOVxvXqB3Igs/Ii/Zkl87zfHMh/nr18VXfpYcdtXu0yOclmpbgEA48ISAAAmhy2s/Onb5R9j1n/gO7neI8VtX93y2tu+UprXU3xRVQsWtwMNa5XL28HGzbE1f1RcT9LODfTt+lsKCcBEMJIEYHKE526xsgPljlA1MWZWpq9v599EFn00vCC/WIAWnRNZ+OGBQ/8ix4eqV/2+UrgsThRuBlez/k/ie/8puvjjgVvuKO60c4N9O//OTJwTADABRBKAyTGOa9yuxU6c+KmZ6ala9qls976BIz+MLHokvODhYetD6rGF9ff8z9J9UXI9B/sPPGVlegUATAyRBMDT0h3bzOR5K91bu+FLctxo+NtyCk/OrxULyTIGj/24sCglAEwCIgnA+JmZ3sEj3xf5e9ZGtGCdMXi6zMG+2qVyEq244KQx0CHGTPVXx1qeKN0WVw4vyVGr4hIAybbn9Kp5/vpVheM0LTJb0YIOd5QDgMoRSQDGz84NGv3toaYtgYZ1tpVNtD5rpS86HilDR06WydAx4icTJ382dGGkMny1y6LNH5MTasWXsrH6930r13e0NLVnG+n47v9VtezThT1KqPF++ZfIbst07RIAMDFEEoAJsYyEv265UHVF1WMtj/e+/T/yaxeNEF3yieJQkBadY4zh7iV6VVOk+eP++pWlPbnew/F937Kz/cMPta2BQ98zU12R5o/JTlIDNdUtT2S79ySOP11+ZAsAyiOSAEyImTjXt+vvazZ8WTaQXr0guvjRwaM/HHaMr2556dKzwWM/Ln9lvpxHizQ/Eph125ATtO1k69bEiafLLJ6dPPWcmequXvlZofrkS/+MNfKRT6WTzxj9rQIAKkckAaiMnNtS/FXDdsqJMK0wUBRqelALNdhXDyb5Ls+XyUEmf90K+bjqs+mLg0d/VNxWgzPq7vqr0qVqkhE/MXD4+8ZA29CPqHpYjJA5/3ZPf5scsvI3rC3uKaZSpuud/r3/LACgQkQSgMr4G9aogdqyB6wd9T1FC8zcMGyfOXjlJG4r3W30txVPQrKy8cSxn6TPvV58q3rl7wktYBsJRQsqvuil43OJq74q1RXf8w1f3YqqpZ/UInOKO3N9JwQAVI5IAuAtyfaXqlf9nnxOnnzmquvUVBlY64cdbAy0j/yGXM/Bnh1fDc3ZHFn0EVlRLAoAYHyIJACVSba9ULoTyKSwclet053p2tnzRps54uTuXO+xwKxNQ/ekz24f9Xwj20p1vJzu3KEG6xxPJAeAayKSAFQm1f6SuK5s03S6/C3d9Y5lJK8ck+i85sVrtpE0B5MCAMaFSAIwNdjZ/kznDgEAN4oqAAAAMAKRBAAA4IBIAgAAcEAkAQAAOCCSAAAAHBBJAAAADogkAAAAB0QSAACAAyIJAADAAZEEAADggEgCAABw4FokKXpIAAAAlOViMLgWSao/JgAAAMpyMRhcjKRqAQAAUJaLwaALl6gBRpIAAMA1uBgM7kUS020AAOBapuN0m69mkQAAACjLxWBwLZL89auFogkAAIDRKJp/RotwiZtLAPjrlgkAAIBRyFRQtKBwiZuLSfob1gsAAIBRuJsKbkZSoGGtAAAAGEVg5jrhHjcjSQ3UhBd+WAAAAIwgI8Hda+FdvndbuOkhhVUlAQDA1RRflYwE4SqXI0nRQ5H5DwsAAIAhIgs+6PptXl2OJCk0972+miUCAACgwFezWOaBcJv7kSQULdbyuBqsEwAAYNpTA7WxNU94YTFFD0SSzCR/dWzN51lbEgCA6U71xdb+seKrEh7giUiS9Kp50aWPCQAAMI1Vr/yMXtUkvMG1G9yOFGrcLJ8Hj/xA2KYAAADTiqJVLftUYNYm4RmKbdvCS3Lx4/HdX7dzCQEAAKYH1R+LrXlCj3nr5veeiyTJSnfH93zTGGgXAADgZqdH58bWfVEN1AiP8WIk5dlGqv1XidZnbSMpAADAzUjRw+EFHww3bZFbwnu8GkkFtpFInHwmdfplzlICAOCmovrCTQ+G579f0SPCqzwdSUVWuifT9U724v5s7xFhGQIAAExRqu6vWeqfsSowa6MaqBXeNgUi6QorJzsp13fcSl80M71WutfK9NpmRgAAAO9RtIAsITVYq+Wf6301zf7apXIMSUwRUyqSAAAAbhSvLCYJAADgKUQSAACAAyIJAADAAZEEAADggEgCAABwQCQBAAA4IJIAAAAcEEkAAAAOiCQAAAAHRBIAAIADIgkAAMABkQQAAOCASAIAAHBAJAEAADggkgAAABwQSQAAAA6IJAAAAAdEEgAAgAMiCQAAwAGRBAAA4IBIAgAAcEAkAQAAOCCSAAAAHBBJAAAADogkAAAAB0QSAACAAyIJAADAgS6mECuX7T2S6ztupS+amV4r3Wtlem0zIwAAgPcoWkAN1KrBWi3/XO+rafbXLhWqT0wRim3bwtusdE+m651s9/5s3xFhGQIAAExRqi47yV+/KjBro+wn4W2ejiQ7N5g4+fNUxzZhmwIAANw0VF+4aUt43vsUX5XwKo9Gkm2mk6eeT7W/yGwaAAA3K0ULhuY9lE8lLSi8x4uRZCbOxfc8aSY7BQAAuNlpkdmxtV/QQg3CYzwXSbmeg/E935QjSQIAAEwPii8aW/N5X81i4SXeiqRUx7bBw/8mZ9sEAACYVhStasXvBmffJTzD4sMaTAAAEABJREFUQ5FUKKR/FQAAYLqKLvt0qHGz8AavLCaZ6zs2eOQHAgAATGMyBmQSCG/wRCRZ6Z74nie5zh8AgOnONmUSyDAQHuB+JNlGKr7763ZuUAAAgGlPJkF8zzeElRVucz+Sku0vGoOnBQAAQIEx0J449Zxwm8uRZGXjqfaXBAAAwBAyD2wjKVzlciQlW7fK6TYBAAAwhMyD5KmtwlVuRlJ+GOnMNgEAADBCsv2XVqZPuMfNSMp0vSssQwAAAIxk5TIXdgv3uBlJ2Qu7BAAAwCjcTQXXIknONWZ7DgsAAIBR5FPBdm3SybVIyl7cx+qRAACgHNvM9hwSLnEtkozEOQEAAFBWLn5SuEQXLrFS3QIAAKAsF4PBtUgyiSQAAHAt5jSMJCvbLwAAAMpyMRhcjKS4AAAAKMvFYHAtkrgbCQAAuCYXg8Hle7cBAAB4E5EEAADggEgCAABwQCQBAAA4IJIAAAAcEEkAAAAOiCQAAAAHRBIAAIAD1xaTBABJUXXFV2UbCTVQK2xTbstnI3FWUX3CMm0rKwDAJUQSABeoelDxx3w1ixU97K9fmd/ji6j+mGUkFdVvpS9auUT+bgTd+8xkp5E4xxr9AG48IgnADaVoQX/DGi00M9R4n3wpw6iwtzj1b6uiTj5r4Zn5F1bOV7dCbmTOv53rO5a9uN/OlxMA3CBEEoAbRwvPijQ/ooVm6VVzZQXJOLr6fWXIswwnX37SzbZDt94bmrM52facET+ZufCuAIAbgkgCcIMEb7k9tOBDWiAmp9gKO5RRDrSveldRhCL/SWWH5j5gz75L8UXkkJKV6RMAcJ1xdRuA609R9Or5kaWP6eFZlwvpMtvOn29kGWbinJXpzcVPmIlO2zKtbFzY5lVfoQXk3Fx06WOBW+7UQjMEAFxnjCQBuL5k3ajBemFbydZfRJd8orRftpGZvmgmu3J9x2QSGQPtwsopvqgMJjVYp2h+/4y1clZO9pCiBUvfJVMp3PSAovlSbc/bJte+AbiOiCQA15GsGdVfI4tH9k2u70j6zK+Dc/Lna8skypx/yxg8k714ID+hZhmXPpDqzj8PdsinXM9hxV8VvOUOX+0SPTpX0UPFQ2QbyZEpLTTTKBwGANcJkQTgesmvgaRH1dAM20gW96TO/FoL32ImO5PtL9nZASs3mN9rO388/25uMNn+gtLxcqjpIX/dCplKVm5AdlXmwk757WqgVs7QCQC4PogkAOMhA8VfuD5/NFa2z0h0RhZ+SA4FJU4+k+3ZX9itmamuZNuL8llOwImy9OoFWqjh0relLubiJ1R/da6/1cr0+etWXf6VftvMDPugHKaSHSYAYGKIJADjoVfNrVr5mTIH5PqOynzx16+W26G592d7DgnbiCz6kH9Gi3/Gmvi7/5A/CamsUOP9wVvvHrYz0LBOPsp/cPDoj1LtRBKAieLqNgDXhaKoqbOvFufS5LBTYNZt0eZHZCHlX/qrQ3MfEADgbYwkARgPOc+VvbB72E5FD/pqlxW3jcGzVrJbHuMvDPyE572vdFj67KsDB7+X31L1K6dsj2D0t2Y0/8j9+dPAVd+V17Zlmzk5TBWYuV6+JwBgkhBJAMZDUXQ1EOvf/+2hZ/9Ur/5cccPK9KbOviYUkerY5qtfqahXWifV9sLgsR/LDTVYX7Phy+mObcm25x1/ItXxinw4/LIW0IJ1QrvSSVam387G/fd9vXQFHABMHNNtACrmr1tZs+FP9OoFtZv+vHjWkRRqeigwa2NxO9X2khzaEfkr1AaSJ58pfdCInygVUu1tf6qFGiKLH40ufWy0H1K0oJybu/pRlS8hzafqYVWPFh965BY5o5dfSgAAJg8jSQAqJseQircNkb0SW/eFxLGf5PpPRRc/Wnw323s423NAqJdmvuSMmxqoKZ6EpMcWRZo/JoeXZCGpweKq2XaZM7jDC34rPP8DAgDcQCQBqFj63OvG4JnYmifyS2kLRY4G5W8hohRGpm0zeeI/Lm0X2LYxeOzf9aq5vpol8mV4/sOhxvsvz4vZAweekt8mAMB7iCQA42EMtPW8+bXY6s/56pbnXw85Y7q65XNX37zWFrY19LSkS4VkW/0Hvp3pfLPMr1jpHiN+0vk9RVPyg1WXf8i2teitQ+MMACaISAIwTormt830yL2qPzaWj1u5ASvbX/6YVMfL8uH4luqLqqH60kvbyNRu+nNO3AYwifi3LgAVU7RgeP4H6+/6a//ldR1tI5U8tfWaH0yf3Z69uK+4LVuqZv2Xqlf/oRqoGfkL13zkL/s3jSt7hl/8P/RgABgPxbZt4YYLv/ysADDVqIHaUNOW0Jz7ho7ZyBmx+P5vWek+LVSvqD4ZPcrl9Y1sK2dl4qU7h1i5hJ1LRJo/Khur9HE5HJU4/nTq9K+KK0/W3fEXWrRRTB4z1dWz/SsCwJTVsOU7wg1MtwGoQPCW28Pz3n/ltZVNnno+0fpM8UZsZvK8HNHR5XZpESPLlDtlKg39ksTxn+birVXLf0f1V4vCuFSocXP63HY5HCUAwDOIJAAVSLY9r8cWBmZukINDqY5Xst17q1f9QXDOe646aNjMV76fho9YDxx8quf1P4sufjQ45147O9D37j9SSAC8hkgCUJmBA08ZA6dlIdm5QT061+mMojFQfbaRHDj0vfS5N2wra6W7S+/0vPm14rKQcoRJr5qb6zs28tN1d/6lFpop8md2byuuICAby0xfEIXzB6JLPinDK3HqF5eOduecAgBTHpEEoDK2mU62PiMmSa7v6MgfkFmj6OGadV/Uq+cnTv68sGb3KKUjh6kKS3sLM1M4j9sONd4vH3KHFp7Zf/C7Ze4NBwDlEUkAJkfvjq8aiTNyAEj1RdRg3eXLyuz8GE/qgsiPDAVmbH5yjN8Wa3lcr14gNyILP+KvWRLf+81y83G2XTztyV+/qnSTE1/tMjnKZaW6BQCMC0sAAJgctrAK4zqmLQdvzKyQL0XxbKT8LWkLb1lj/7b+A9/J9R4pbvvqltfe9pXSvJ7ii6pasLjtr12iqIH8j5qZYON9sTV/VFxP0s4N9O36WwoJwEQwkgRgcoTnbrGyAyLfRIqiR/Knb18eS5IFY8tsUiv4tzIr09e3828iiz4aXpBfLECLzoks/PDAoX+R40PVq35fKVwWV9jfWLXsUwNH/l/Vgt8KzNpU3GnnBvt2/p2ZOCcAYAKIJACTY/g1bpPATpz4qZnpkRmU7d43cOSHkUWPhBc8PGx9SNlPNev/W+mSulzPwf4DT1mZXgEAE0MkAfC0dMc2M3neSvfWbviSHls0/G05hSfn14qFZBmDx35cWJQSACYBkQRg/MxM7+CR74v8PWsjWrDOGDxdekv1ReV/ihfzF+mR2WbqopnsFPn743aIMVP91bGWJ0q3xU2d/mVg1m1qoE6+Sp/broUa5Bxc4ThNi8xWtKDDHeUAoHJEEoDxs3ODRn97qGlLoGGdbWUTrc9a6YvFtxRVV0MzlXwn5V+qejTU+F7/jIARb02cfHrowkhlyPqJNn9Mjy0svrQy8cTx/28kOmQkXfoDjEx87z9Fmz9emOxTQo33y79Edluma5cAgInh6jYAE2IZCX/dchlBih6OtTxeOjfItgwr01c6fSg078H8NW6FU4jMyyFVhl7VFFv332s2fLlUSLm+Y/0HviMLaehhtpG0c4mBQ99LHP9JcS0lNVBT3fJEbO0f69G5AgAmgJEkABNiJs717fp7WTNyOkyvXhBd/Ojg0R8W35IFY2X6VX+VDB1//erizmT7C/kFHvMtZTsuCqCFZkaaHymMFZWm6uzU6W3pc6+NXFLSts1LX3vqOTPVXb3ys/k5PiH8M9bIR7Z7T+LkM0Z/qwCAyhFJACpTtezTir9q2E45aKQVzhkKNT2ohRpK7SIKa0jKYaFLL2zLF2uWj0srKuUX17bl1Nvg0R8V31eDM+ru+quhd38zBtqSrVvztxwZQrm8TtLQzMqcf7unvy265BP+hrXFPcVUynS907/3nwUAVIhIAlAZf8MaNVBb9oC1o76nqPm5uavJsSjVv9Uu3D/EzvUbA+3Ftbat3ECq7aXsxX3Fs78jC/+LUP3CTMlnObVX/KyVS1z1Vamu+J5v+OpWVC39pBaZU9yZ6zshAKByRBIAlymKmr+NiWUWr+dPn38nWjUv3bkjfeZV28pcuT5O1fx1y4Z9VhbVyC/M9Rzs2fHV0JzNkUUfkRXFogAAxodIAlCZZNsLV2a7xk5RFUUrXMavDF0XQBROXcr/lyqn2PKzbLneo/37/nnkyd1G/JS/buXQPemz20c938i2Uh0vy9LK59eQuT8AGDsiCUBlUu0vifGSdaVofjUQK7xSr146u8S8qpDyN3/LX+qfubDLSJ6/VDy2aSY6hy7L5EjmlzmYFAAwLkQSgBvHNtNyBs02M4oWUHxRJb9YtnppYMm++nYj9qU4sm3Lzg7kqyh53ug/JQDgRiGSANxYl+93q8hZNkXP15Kq5+faFPmPI1tOxeWv8reN/GFGyhaWMNJ2PphsAQA3FpEEwBV24XI2o3ALESU/hqRo+UKyLTm8dGkFAdoIgKuIJACus/MtJGfWii84zxqAN3BbEgAAAAdEEgAAgAMiCQAAwAGRBAAA4IBIAgAAcEAkAQAAOCCSAAAAHBBJAAAADlyLpMLNwAEAAMpxMRhciyTVHxMAAABluRgMLkZStQAAACjLxWBw7d5taoCRJAAAcA0uBoN7kcR0GwAAuJbpON3mq1kkAAAAynIxGFyLJH/9aqFoAgAAYDSK5p/RIlzi5hIA/rplAgAAYBQyFRQtKFzi5mKS/ob1AgAAYBTupoKbkRRoWCsAAABGEZi5TrjHzUhSAzXhhR8WAAAAI8hIcPdaeJfv3RZuekhhVUkAAHA1xVclI0G4yuVIUvRQZP7DAgAAYIjIgg+6fptXlyNJCs19r69miQAAACjw1SyWeSDc5n4kCUWLtTyuBusEAACY9tRAbWzNE15YTNEDkSQzyV8dW/N51pYEAGC6U32xtX+s+KqEB3gikiS9al506WMCAABMY9UrP6NXNQlvcO0GtyOFGjfL58EjPxC2KQAAwLSiaFXLPhWYtUl4hmLbtvCSXPx4fPfX7VxCAACA6UH1x2JrntBj3rr5veciSbLS3fE93zQG2gUAALjZ6dG5sXVfVAM1wmO8GEl5tpFq/1Wi9VnbSAoAAHAzUvRweMEHw01b5JbwHq9GUoFtJBInn0mdfpmzlAAAuKmovnDTg+H571f0iPAqT0dSkZXuyXS9k724P9t7RFiGAAAAU5Sq+2uW+mesCszaqAZqhbdNgUi6wsrJTsr1HbfSF81Mr5XutTK9tpkRAADAexQtIEtIDdZq+ed6X02zv3apHEMSU8SUiiQAAIAbxSuLSQIAAHgKkQQAAOCASAIAAHBAJAEAADggkgAAABwQSQAAAA6IJAAAAAdEEgAAgAMiCQAAwAGRBAAA4IBIAgVqHGcAAA1cSURBVAAAcEAkAQAAOCCSAAAAHBBJAAAADogkAAAAB0QSAACAAyIJAADAAZEEAADggEgCAABwQCQBAAA4IJIAAAAcEEkAAAAOiCQAAAAHRBIAAIADIgkAAMABkQQAAOCASAIAAHCgiynFskzJvsSS/xEAAMCrlDy18Kxomqaqmpg6FO93hvwLTdOQbSQLSQAAgKlMdlKBLrNJeJvXIymXyxpGTgAAgJuLrvskmSLCq7wbSeQRAAA3vUIq+YUneTGS5J+UyaQ43wgAgOlAzrsFAiEPzr55LpIsy8xk0gIAAEwnspNU1VsX3Xsrkgw5wZbLCAAAMP34/QFN89B19x5KNgoJAIDpLJvNyBgQnuGVSLIsi0ICAGCakzEgk0B4gyciqXimtgAAANOedy7e8kQkcaY2AAAo8UgYuB9JuVzWtr0ysAYAAFwnw0DmgXCb65Fks2IkAAAYxgt54HIk5XIUEgAAcOD6YJK7kcQwEgAAcCYjwd0zuN2MJMMwBQAAwChM081UcDOSTNNDC0YBAACvcTcV3Fz827IYSQIAAKNyNxVcG0liGAkAAFyTi53kWiR5Z9FxAADgWS6eluTadJtHVhwHAABe5mIwuBhJjCQBAIBrcDEYGEkCAADeNT1HkogkAABwDS4Gg/s3uAUAAPAgIgkAAMABkQQAAOCASAIAAHBAJAEAADggkgAAABwQSQAAAA6IJAAAAAdEEgAAgAMiCQAAwAGRBAAA4IBIAgAAcEAkAQAAOCCSAAAAHBBJAAAADogkAAAAB0QSAACAAyIJwPWVTicEAExBugCAyqVTgxfOt5c5IBCM1NbfcuLIztZju1s2bJnTtETutCzr4N5XFy5eG47ExLX09XQmE/2ictU1M6JVdQIAJoZIAjAe8b4Le975ZZkD6hvmBALhsx3H5PaRA2/MblwkhLJzx3Pnz54413F0490fqamdKcpqO7nv9KlDonIrWu4lkgBMHNNtAK6X5uWbihvJRLz1+J5iIcmXmXSq7cReAQDexkgSgPEIBsMzZy8YttM0shcvnClu182YUx2rnzt/xelTB+XLQ3tfKx3WtGDl6vXvzR9vGpo26j+FampnGUZOjFnnmRO2bQsAmCREEoDxME0zk06u2/hgtPrKxNbOHVuLG6FwVfPSDXJj6ao75YybOaR1Fi5ZJ6fD5EYq2f/Gr5+et3DVosKRI81b1CIfYsye/4//beSyAgAmCZEEoGIXOtvfeeNZOQ60/ZV/X7fpfTNnz5c7Tx7dda7jePGAFWvu0XSfyA84RVrWP/DuW88X99fU3VIqpNe3/VQ+H9q3PZUaWLV2s+MPyegxDEOMEcNIACYVkQSgYul0ojixlctl3tr+8+Wr747VzpK5U3y3Ydbc2XMWlw6e07Skr7ez9dhuUbhgTR42f9HqYiEVD6iONYz2Q8cOv33iyE4BAG4gkgBUbO785VXV9Tt3/CKVHJAvZfcoilrMJrmxcu19w45f0XJPvPdCT3f+dCUZPe0n98u6Kr61duODjfOWCwDwHiIJwHjU1M2854FPvPvm891dHSI/02WV3trxm5+NPN4yr8yaFQtJUZS1Gx+a07S0zK+EwlVyhk6MTbz3PCduA5hERBKAcbJMU9MDw3bKWkqnBsfy8UAg5A+Eyx8zf1HL/DGfu82J2wAmF5EEoGKyRVqP7zl++G3z8viQ7vPLmjl++J3yH5TzdJl0squzTeRPbEq++erTtzYuXrH2PcFgZOhhEx4Qsod+gxyyEgBQOcWt0elUits5AVOPHCVqPba7vfVA6aQiUbhmbf3t7wuGote8i4jPF/AHQkcOvDE0p3Tdv3TlHfOb1xRr5jcvfb8/flFMnki05v73/44AMGWFQhHhBkaSAFTgTPuRE0d3lV5qmr5o6YbFyzcqSn75/mhV7Vi+ZNmqu2pqZ+5795VMOiVfGka27eT+xnnLfP6gAADPIJIAVEAmUW/P+c4zxzXdN3/h6pmzF+x683mZOKJCa27bct9Dnz68b7sclAoEQ5vu+RCFBMBriCQAlVlz2wPVsfp5C1cHguF4X3cmPZ6pc9sy/P5gy4YH5jQtlb0VjsRKb93zwCeLpwEYuexA/8Xa+tkjP/7rF7+fTMTlxpIVt49csPvgntdkeJX2c04SgPEhkgBUxucLyDQRk6S+oXHYHlXV5HM2m357+zN9veflby1evmlY6JReyoOH3f2t7cTetpP5u+cmBntbNmwpc284ACiPf3wAmBz3bvmvcoSpzAFyZOiFn/8fMTa7djwnC0luHD34Zk/3mQ13PDyW+biuzrb9u39d3O7u6pCjXEPHqACgIqoAgMmgKOo1HmoF/8BZu+mh0iCTzJ3Xf/2T0vJLmUzSMC5dW3f+bGtpbSQ5gPTO688Wp+oCgdAd7/kohQRgIhhJAjA5Tp3Y4/eHyhxgWaYYs2AwIivnyIEdxw+/LV8OxHuOHnyrZcN7ZTC9+9YLxcvipN6eczte/dltdz58aN9rZ9qPFnfKP2PTvR+tqq4XADABRBKAydFe+TVu5SmKsmzVnaFwZN+ubbNmz1+x5t7D+98oNtNQfT2dv9r63dKSbzNmzl278cFgKCoAYGKIJACeNm9hSyRaGwxF3vzNz+S40bB3ZUjZ9qX1tVVVW95yz4LmNQIAJgORBGD8gqHwqrWbRf5itFQ6naiunlHm4IsXzgRC4Wg0v+BkVWyGGLNMOrnzja2l2+IuXXlne+uB4hIAi5ZuiPd1XehsF4XpvMH+XnmYzxcQADBhRBKA8QsEwtU1M1qP7z5/tlXT9OYtt4Uj1Y5HplPJIwfekAVTU3fLkhW3j/GU6u6ujsP7X5cTapd+Lhhef/v76xsaT586WNyj6/5Nd39437vbipN9bSf3dp49sXrdfbfMaRYAMDFEEoAJ8fkDcohIjuLIx84dz919/8eLCx0Nc2jfb4pDQQP9F6NVNdf82r7eriP7X79wvr20p75hzrrbPxAMhocdqShqy/r3hsPVMqdEftgp8c4bW2fesmDpqjtiNQ0CAMaLSAIwIVXV9Zvu/siOV39q5LLx3vOH9r62cu19w47p7jpduvRsRcvd5YeREoO9h/e/ca7j+NCdzcs2Ll15R5m1s5uX3RaOxna/9WLxGrquzlb5kKm0ZMVGOXYlAKByRBKAyuzd+Uo2mxq2MxiMDuZ65Ebr8T3JxMCwJZH6Ll464VpWzoXzHfIx9N1wuGrFmnuL28lEfNsL/1a6VE2qrZstq6umbubQj+SymZF/2K2Ni2M1Mw7sea3rXGtxTzGVZs9ZvOHODwgAqBCRBKAyMjtK6zo6On/u5GhvyfrpPHN82M6h63TLQaZY7aziSUhyZm3Z6rsb5y0vvvXuWy+YhiFn9wwjW6o0v/+qc7Qj0dpNd39ITtId3PObgf6e4s7a+lkCACpHJAHwlgXNa3e//eLCxWsXL9+k+/yl/bZtdZ49MezgaqezjhpmNb3nwcfaTu4/euBNGVXzm9cKAKgckQSgMouWrC+egj1ZAsGr1ume3dgcq22IVtUOO6xuxpyzp48N3TN3/vLRzjdSFHX+opZb5y5JJwdVlfsvARgPZejc/42USiUEAIxZOp3svnyxm6pqkaoaLl4DpolQKCLcQCQBAABPcyuSGIUGAABwQCQBAAA4IJIAAAAcEEkAAAAOiCQAAAAHRBIAAIADIgkAAMABkQQAAOCASAIAAHBAJAEAADggkgAAABwQSQAAAA5ciyRFUQQAAEBZLgYDkQQAALxrekYSM30AAOAaXAwGXbiEkSQAAHBNLgaDa5GkqowkAQCAa3AxGFz7YU1zrc8AAMBU4WIwuDmco6qaAAAAGIW7qeBmJDGYBAAAynA3FdyNJEaSAADAqHR9uo4kKYqi6z4BAAAwQiES3LwW3uVLzHw+v7v/+wEAgCcphUhwk/vX4ft8DCYBAICreCEP3I8kOZjGmkkAAKBEhoEXTsjxRJ0EAkEW4AYAAKJwyrIMA+EBHhnC8cr/HQAAwF2FJPDE0IlX5rkURfX5AgIAAExjfn/AxTvaDuOh5Rx1Pf/H5HIZAQAAph9ZSJ5aaFqxbVt4iWVZmUxKAACAaSR/4o3XLuTyXCRJ8k/KZNK2bQkAAHCzk/Nr3ryEy4uRVGQYuVwuKwAAwM3L5/N79vYb3o2kItlJspYEAAC4ucg2cn1N7fK8HkmiMPtmmoZpmpZlCgAAMJWpqlage3+JxCkQSUPJTpLsS6yp9ccDADDdKHlq4VmRZSQLSUwdUyySAAAAbgxumgYAAOCASAIAAHBAJAEAADggkgAAABwQSQAAAA6IJAAAAAdEEgAAgAMiCQAAwAGRBAAA4IBIAgAAcEAkAQAAOCCSAAAAHBBJAAAADogkAAAAB0QSAACAAyIJAADAAZEEAADggEgCAABwQCQBAAA4IJIAAAAcEEkAAAAOiCQAAAAHRBIAAIADIgkAAMABkQQAAOCASAIAAHBAJAEAADggkgAAABwQSQAAAA6IJAAAAAdEEgAAgAMiCQAAwAGRBAAA4IBIAgAAcEAkAQAAOCCSAAAAHBBJAAAADogkAAAAB0QSAACAg/8EAAD//4ckKlUAAAAGSURBVAMAqmh8CSgmhskAAAAASUVORK5CYII="><figcaption>产品截图 (implementation)</figcaption></figure>
+   <figure><img src="data:image/png;base64,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"><figcaption>像素热力图 (directional)</figcaption></figure>
+ </div>
+
+ <h2>Issues by component (actionable)</h2>
+ <table><thead><tr><th>Component</th><th>What to fix</th></tr></thead><tbody><tr><td colspan=2>✅ No issues</td></tr></tbody></table>
+
+ <h2>Icon vector check (0 icons · 0 fail · 0 warn · 0 waived)</h2>
+ <div class="meta" style="margin:0 0 8px">Each Figma icon's exported SVG path-set vs the rendered icon's <code>&lt;path&gt;</code> set. A count mismatch = a glyph element missing/wrong (e.g. a shield without its checkmark, or a font-glyph icon rendering no vector at all).</div>
+ <table><thead><tr><th>Icon</th><th>Figma paths</th><th>Impl paths</th><th>Status</th><th>Note</th></tr></thead><tbody></tbody></table>
+
+
+
+ <h2>All checks (76)</h2>
+ <table><thead><tr><th>Node</th><th>Prop</th><th>Figma</th><th>Impl</th><th>Δ</th><th>Sev</th><th>Hint</th></tr></thead><tbody>
+  <tr class="ok">
+    <td>主按钮 Button·Primary</td><td><code>box.x</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>主按钮 Button·Primary</td><td><code>box.y</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>主按钮 Button·Primary</td><td><code>box.w</code></td>
+    <td>390</td><td>390</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>主按钮 Button·Primary</td><td><code>box.h</code></td>
+    <td>230</td><td>230</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>主按钮 Button·Primary</td><td><code>borderRadius</code></td>
+    <td>5</td><td>5</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>主按钮 Button·Primary</td><td><code>padding.t</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>主按钮 Button·Primary</td><td><code>padding.r</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>主按钮 Button·Primary</td><td><code>padding.b</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>主按钮 Button·Primary</td><td><code>padding.l</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=默认</td><td><code>box.x</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=默认</td><td><code>box.y</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=默认</td><td><code>box.w</code></td>
+    <td>350</td><td>350</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=默认</td><td><code>box.h</code></td>
+    <td>54</td><td>54</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=默认</td><td><code>backgroundColor</code></td>
+    <td>#eabb62</td><td>#eabb62</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=默认</td><td><code>borderRadius</code></td>
+    <td>12</td><td>12</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=默认</td><td><code>padding.t</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=默认</td><td><code>padding.r</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=默认</td><td><code>padding.b</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=默认</td><td><code>padding.l</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>box.x</code></td>
+    <td>179</td><td>179</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>box.y</code></td>
+    <td>37.5</td><td>36.5</td>
+    <td>1</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>fontSize</code></td>
+    <td>16</td><td>16</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>fontWeight</code></td>
+    <td>700</td><td>700</td>
+    <td></td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>fontFamily</code></td>
+    <td>HarmonyOS Sans TC</td><td>PlusJakartaSans-Bold</td>
+    <td></td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>lineHeight</code></td>
+    <td>18.75</td><td>19</td>
+    <td>0.25</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>letterSpacing</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>color</code></td>
+    <td>#ffffff</td><td>#ffffff</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>parent.backgroundColor</code></td>
+    <td>#eabb62</td><td>#eabb62</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=加载</td><td><code>box.x</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=加载</td><td><code>box.y</code></td>
+    <td>88</td><td>88</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=加载</td><td><code>box.w</code></td>
+    <td>350</td><td>350</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=加载</td><td><code>box.h</code></td>
+    <td>54</td><td>54</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=加载</td><td><code>backgroundColor</code></td>
+    <td>#eabb62</td><td>#eabb62</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=加载</td><td><code>borderRadius</code></td>
+    <td>12</td><td>12</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=加载</td><td><code>padding.t</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=加载</td><td><code>padding.r</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=加载</td><td><code>padding.b</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=加载</td><td><code>padding.l</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>box.x</code></td>
+    <td>179</td><td>179</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>box.y</code></td>
+    <td>105.5</td><td>104.5</td>
+    <td>1</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>fontSize</code></td>
+    <td>16</td><td>16</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>fontWeight</code></td>
+    <td>700</td><td>700</td>
+    <td></td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>fontFamily</code></td>
+    <td>HarmonyOS Sans TC</td><td>PlusJakartaSans-Bold</td>
+    <td></td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>lineHeight</code></td>
+    <td>18.75</td><td>19</td>
+    <td>0.25</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>letterSpacing</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>color</code></td>
+    <td>#ffffff</td><td>#ffffff</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>parent.backgroundColor</code></td>
+    <td>#eabb62</td><td>#eabb62</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Linear / Essentional, UI / Traffic  </td><td><code>box.x</code></td>
+    <td>185</td><td>185</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Linear / Essentional, UI / Traffic  </td><td><code>box.y</code></td>
+    <td>105</td><td>105</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Linear / Essentional, UI / Traffic  </td><td><code>box.w</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Linear / Essentional, UI / Traffic  </td><td><code>box.h</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>box.x</code></td>
+    <td>186.67</td><td>186.67</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>box.y</code></td>
+    <td>106.67</td><td>106.67</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>box.w</code></td>
+    <td>16.67</td><td>16.66</td>
+    <td>0.01</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>box.h</code></td>
+    <td>16.67</td><td>16.66</td>
+    <td>0.01</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>borderColor</code></td>
+    <td>#ffffff</td><td>#000000</td>
+    <td>100</td>
+    <td style="color:undefined">approved</td>
+    <td>set border-color to #ffffff</td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>borderWidth</code></td>
+    <td>1.5</td><td>0</td>
+    <td>1.5</td>
+    <td style="color:undefined">approved</td>
+    <td>set border-width to 1.5px</td></tr>
+  <tr class="ok">
+    <td>状态=禁用</td><td><code>box.x</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=禁用</td><td><code>box.y</code></td>
+    <td>156</td><td>156</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=禁用</td><td><code>box.w</code></td>
+    <td>350</td><td>350</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=禁用</td><td><code>box.h</code></td>
+    <td>54</td><td>54</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=禁用</td><td><code>backgroundColor</code></td>
+    <td>#f6f6f4</td><td>#f6f6f4</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=禁用</td><td><code>borderRadius</code></td>
+    <td>12</td><td>12</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=禁用</td><td><code>padding.t</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=禁用</td><td><code>padding.r</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=禁用</td><td><code>padding.b</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>状态=禁用</td><td><code>padding.l</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>box.x</code></td>
+    <td>179</td><td>179</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>box.y</code></td>
+    <td>173.5</td><td>172.5</td>
+    <td>1</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>fontSize</code></td>
+    <td>16</td><td>16</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>fontWeight</code></td>
+    <td>700</td><td>700</td>
+    <td></td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>fontFamily</code></td>
+    <td>HarmonyOS Sans TC</td><td>PlusJakartaSans-Bold</td>
+    <td></td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>lineHeight</code></td>
+    <td>18.75</td><td>19</td>
+    <td>0.25</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>letterSpacing</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>color</code></td>
+    <td>#aaa286</td><td>#aaa286</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>登录</td><td><code>parent.backgroundColor</code></td>
+    <td>#f6f6f4</td><td>#f6f6f4</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr></tbody></table>
+</div>

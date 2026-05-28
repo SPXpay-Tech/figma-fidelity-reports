@@ -1,0 +1,37 @@
+{
+  "_comment": "Project fidelity config for SPX LiveRates master 744:7619. Same tolerances as buttons / dialogs / cards. Real SVG icons are shipped (LiveRatesIcons.tsx) so icon-diff should find vector-path-set parity — no font-glyph waivers needed.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 2, "y": 2, "w": 2, "h": 2,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "_tolerancesNote": "x/y/w/h tolerances widened to 2 px (matching the toast master's config) to absorb the 1-2 px discrepancy between figma's auto-layout source dimensions and the rasterised content area when the master draws a 1 px stroke (figma reports child widths from the pre-stroke auto-layout target — impl content area is reduced by border-box stroke).",
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels the CJK family 'HarmonyOS Sans TC'; the app ships HarmonyOS Sans SC + PlusJakartaSans-* for Latin. These aliases keep the diff free of phantom font deviations.",
+  "ignoreText": [],
+  "_ignoreTextNote": "Empty by design — diff.mjs does NOT compare text content directly (only box/typography), so the seed-data mismatch between figma's 'USD/CNY × 10' and the impl's mockRates pairs doesn't surface as a finding. Filtering them via ignoreText would orphan the impl figmaIds as EXTRA, since the diff drops filtered figma nodes from the pairing pass.",
+  "deviations": [],
+  "iconDeviations": [],
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "focus":    { "duration": 150, "easing": "ease-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" }
+    },
+    "durationToleranceMs": 80,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["border-color", "box-shadow"]
+  },
+  "gate": { "minFidelityScore": 97, "maxCritical": 0, "maxMajor": 0 }
+}

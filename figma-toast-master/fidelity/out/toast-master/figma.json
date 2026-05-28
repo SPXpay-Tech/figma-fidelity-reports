@@ -1,0 +1,761 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "245:736",
+    "name": "Toast · 轻提示",
+    "width": 368,
+    "height": 364
+  },
+  "nodes": [
+    {
+      "key": "245:736",
+      "figmaId": "245:736",
+      "name": "Toast · 轻提示",
+      "type": "COMPONENT_SET",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 368,
+        "h": 364
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 18,
+        "padding": {
+          "t": 24,
+          "r": 24,
+          "b": 24,
+          "l": 24
+        },
+        "gap": 14,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "245:720",
+      "figmaId": "245:720",
+      "name": "Type=Success",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 24,
+        "w": 320,
+        "h": 52
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#00d17d@0.30",
+        "borderWidth": 1,
+        "borderRadius": 14,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 12,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 0,
+          "r": 14,
+          "b": 0,
+          "l": 14
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "681:4851",
+      "figmaId": "681:4851",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 38,
+        "y": 38,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#00d17d@0.10",
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "681:4852",
+      "figmaId": "681:4852",
+      "name": "icon-check",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 43.33,
+        "y": 43.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "681:4853",
+      "figmaId": "681:4853",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 45.56,
+        "y": 46.67,
+        "w": 8.89,
+        "h": 6.11
+      },
+      "style": {
+        "borderColor": "#00d17d",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "245:723",
+      "figmaId": "245:723",
+      "name": "操作成功",
+      "type": "TEXT",
+      "text": "操作成功",
+      "box": {
+        "x": 72,
+        "y": 40,
+        "w": 56,
+        "h": 20
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 20,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#24201a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#00d17d@0.30",
+        "borderWidth": 1
+      },
+      "depth": 2
+    },
+    {
+      "key": "917:12141",
+      "figmaId": "917:12141",
+      "name": "Type=成功2号",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 90,
+        "w": 320,
+        "h": 52
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#00d17d@0.30",
+        "borderWidth": 1,
+        "borderRadius": 14,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 12,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 0,
+          "r": 14,
+          "b": 0,
+          "l": 14
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "917:12142",
+      "figmaId": "917:12142",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 38,
+        "y": 104,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#00d17d@0.10",
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "917:12143",
+      "figmaId": "917:12143",
+      "name": "icon-check",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 43.33,
+        "y": 109.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "917:12144",
+      "figmaId": "917:12144",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 45.56,
+        "y": 112.67,
+        "w": 8.89,
+        "h": 6.11
+      },
+      "style": {
+        "borderColor": "#00d17d",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "917:12145",
+      "figmaId": "917:12145",
+      "name": "兑换成功",
+      "type": "TEXT",
+      "text": "兑换成功",
+      "box": {
+        "x": 72,
+        "y": 106,
+        "w": 56,
+        "h": 20
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 20,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#24201a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#00d17d@0.30",
+        "borderWidth": 1
+      },
+      "depth": 2
+    },
+    {
+      "key": "245:724",
+      "figmaId": "245:724",
+      "name": "Type=Error",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 156,
+        "w": 320,
+        "h": 52
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#f52f32@0.30",
+        "borderWidth": 1,
+        "borderRadius": 14,
+        "boxShadow": {
+          "x": 0,
+          "y": 8,
+          "blur": 24,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 0,
+          "r": 14,
+          "b": 0,
+          "l": 14
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "681:4861",
+      "figmaId": "681:4861",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 38,
+        "y": 170,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#f52f32@0.12",
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "681:4937",
+      "figmaId": "681:4937",
+      "name": "Linear / Essentional, UI / Close Circle",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 43,
+        "y": 175,
+        "w": 14,
+        "h": 14
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "681:4938",
+      "figmaId": "681:4938",
+      "name": "Vector",
+      "type": "ELLIPSE",
+      "text": null,
+      "box": {
+        "x": 44.17,
+        "y": 176.17,
+        "w": 11.67,
+        "h": 11.67
+      },
+      "style": {
+        "borderColor": "#f52f32",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "681:4939",
+      "figmaId": "681:4939",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 48.54,
+        "y": 180.54,
+        "w": 2.92,
+        "h": 2.92
+      },
+      "style": {
+        "borderColor": "#f52f32",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "245:727",
+      "figmaId": "245:727",
+      "name": "操作失败，请重试",
+      "type": "TEXT",
+      "text": "操作失败，请重试",
+      "box": {
+        "x": 72,
+        "y": 172,
+        "w": 112,
+        "h": 20
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 20,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#24201a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#f52f32@0.30",
+        "borderWidth": 1
+      },
+      "depth": 2
+    },
+    {
+      "key": "245:728",
+      "figmaId": "245:728",
+      "name": "Type=Warning",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 222,
+        "w": 320,
+        "h": 52
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#f9ac1c@0.30",
+        "borderWidth": 1,
+        "borderRadius": 14,
+        "boxShadow": {
+          "x": 0,
+          "y": 8,
+          "blur": 24,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 0,
+          "r": 14,
+          "b": 0,
+          "l": 14
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "681:4865",
+      "figmaId": "681:4865",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 38,
+        "y": 236,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#fcc719@0.15",
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "681:4932",
+      "figmaId": "681:4932",
+      "name": "Linear / Essentional, UI / Danger Triangle",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 43,
+        "y": 241,
+        "w": 14,
+        "h": 14
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "681:4933",
+      "figmaId": "681:4933",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 44.17,
+        "y": 242.75,
+        "w": 11.67,
+        "h": 10.5
+      },
+      "style": {
+        "borderColor": "#f9ac1c",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "681:4934",
+      "figmaId": "681:4934",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 50,
+        "y": 245.67,
+        "w": 0,
+        "h": 2.92
+      },
+      "style": {
+        "borderColor": "#f9ac1c",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "681:4935",
+      "figmaId": "681:4935",
+      "name": "Vector",
+      "type": "ELLIPSE",
+      "text": null,
+      "box": {
+        "x": 49.42,
+        "y": 249.75,
+        "w": 1.17,
+        "h": 1.17
+      },
+      "style": {
+        "backgroundColor": "#f9ac1c"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "245:731",
+      "figmaId": "245:731",
+      "name": "请先完成实名认证",
+      "type": "TEXT",
+      "text": "请先完成实名认证",
+      "box": {
+        "x": 72,
+        "y": 238,
+        "w": 112,
+        "h": 20
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 20,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#24201a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#f9ac1c@0.30",
+        "borderWidth": 1
+      },
+      "depth": 2
+    },
+    {
+      "key": "245:732",
+      "figmaId": "245:732",
+      "name": "Type=Info",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 288,
+        "w": 320,
+        "h": 52
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#f9ac1c@0.30",
+        "borderWidth": 1,
+        "borderRadius": 14,
+        "boxShadow": {
+          "x": 0,
+          "y": 8,
+          "blur": 24,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 0,
+          "r": 14,
+          "b": 0,
+          "l": 14
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "681:4926",
+      "figmaId": "681:4926",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 38,
+        "y": 302,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#fcc719@0.15",
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "681:4927",
+      "figmaId": "681:4927",
+      "name": "Linear / Essentional, UI / Info Square",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 43.33,
+        "y": 307.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "681:4928",
+      "figmaId": "681:4928",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 50,
+        "y": 313.44,
+        "w": 0,
+        "h": 3.33
+      },
+      "style": {
+        "borderColor": "#f9ac1c",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "681:4929",
+      "figmaId": "681:4929",
+      "name": "Vector",
+      "type": "ELLIPSE",
+      "text": null,
+      "box": {
+        "x": 49.44,
+        "y": 311.22,
+        "w": 1.11,
+        "h": 1.11
+      },
+      "style": {
+        "backgroundColor": "#f9ac1c"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "681:4930",
+      "figmaId": "681:4930",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 44.44,
+        "y": 308.45,
+        "w": 11.11,
+        "h": 11.11
+      },
+      "style": {
+        "borderColor": "#f9ac1c",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "245:735",
+      "figmaId": "245:735",
+      "name": "验证码已发送",
+      "type": "TEXT",
+      "text": "验证码已发送",
+      "box": {
+        "x": 72,
+        "y": 304,
+        "w": 84,
+        "h": 20
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 20,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#24201a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#f9ac1c@0.30",
+        "borderWidth": 1
+      },
+      "depth": 2
+    }
+  ]
+}

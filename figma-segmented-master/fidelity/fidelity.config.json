@@ -1,0 +1,48 @@
+{
+  "_comment": "Project fidelity config for the SPX 分段控件 Segmented master 958:13407. Same tolerances/gate as the button-master harness. checkTextContainerStyle=true so the diff also compares the active pill SURFACE (bg/border/radius) anchored from the label text — this is the whole point for the segmented master.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 2, "y": 2, "w": 2, "h": 2,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels the CJK family 'HarmonyOS Sans TC' (Traditional). The app correctly ships 'HarmonyOS Sans SC' (Simplified) — same Huawei type family, correct zh_CN script variant. Latin labels fall through to PlusJakartaSans-*. Same alias contract as button-master/cards/auth.",
+  "ignoreText": [
+    "^🎚 分段控件 Segmented · 全集预览 Library v1$",
+    "^958:13407 master mirror.*$",
+    "^Master mirror.*$",
+    "^2-tab .*$",
+    "^3-tab .*$",
+    "^4-tab .*$",
+    "^selected=tab.*$"
+  ],
+  "_ignoreTextNote": "Title + column captions + per-cell state labels are harness chrome (not part of the master). Skipped so the gate scores ONLY the 5 master-mirror rows + their seg/text nodes.",
+  "deviations": [],
+  "_deviationsNote": "No deviations. Impl matches Figma master exactly: 2-tab(lg) selected text = #FFFFFF, 3-tab(sm) selected text = #24201A, inactive text = #AAA286 both sizes. (Earlier session attempted to override the master on a phantom 'design-system §6.1 spec' anchoring all selected text at #3D3218 — that was wrong; the master is the truth. Dropped 2026-05-28.)",
+  "iconDeviations": [],
+  "textMatch": { "maxCenterDist": 80 },
+  "_textMatchNote": "Master frame is wide once the extension columns are unfurled (~2200px). 80px center-distance keeps matches inside their owning seg cell (≤169px wide) without crossing into sibling tabs.",
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "focus":    { "duration": 150, "easing": "ease-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" },
+      "hover":    { "duration": 120, "easing": "ease-out" },
+      "selected": { "duration": 150, "easing": "ease-out" }
+    },
+    "durationToleranceMs": 40,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["background-color", "box-shadow", "color"]
+  },
+  "gate": { "minFidelityScore": 97, "maxCritical": 0, "maxMajor": 0 }
+}

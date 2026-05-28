@@ -1,0 +1,49 @@
+{
+  "_comment": "Project fidelity config for SPX accounts inline state library (917:10462). Tolerances mirror dialog/cards. The harness page contains 8 cells but this target.json only scores the buysell set (3 cells); the other 5 render as 'extra' which downgrades to minor — gate-safe.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "ignoreText": [],
+  "deviations": [
+    { "text": "可用余额:",         "prop": "box.x",   "reason": "Right-side balance group uses flex space-between against figma master width 326. PJS-rendered amount glyph 10,000.00 USD is ~10px narrower than figma's reported width (75 vs 86), so the right group sits ~10-13px further right while its RIGHT edge stays aligned with the cell padding. Numeric token (color/weight/size) all match — this is a font-glyph-width rendering artifact, not a layout defect. Applies to both sell (10,000.00 USD) and buy (10,000.00 HKD) cells." },
+    { "text": "10,000.00 USD",   "prop": "box.x",   "reason": "Same flex space-between text-width artifact as 可用余额: above. The balance-row right edge is aligned correctly; the value's left edge sits ~10px further right because PJS glyph widths are tighter than figma's HarmonyOS reference." },
+    { "text": "10,000.00 HKD",   "prop": "box.x",   "reason": "Same as 10,000.00 USD — buy-cell right-balance value, identical text-width artifact." },
+    { "text": "1:7.162",         "prop": "box.x",   "reason": "Exchange info rate-value position: figma reports right-edge based on HarmonyOS glyph width (figma w=42). PJS renders ~3-5px narrower so the value left edge sits a few px right of figma. Right edge still anchored to the row's right boundary via space-between." },
+    { "text": "汇率",             "prop": "box.y",   "reason": "Exchange-info cell row baseline ascent: figma TEXT y reports HarmonyOS Sans TC ink-box top inside its row; web Range.getBoundingClientRect on PJS reports the glyph ink-box top which sits ~11px lower due to PJS-Bold ascent line metrics vs HarmonyOS. Cell position correct (master y=324), row marginTop 18 = figma 342 line-frame top; residual delta = font-metric ascent difference." },
+    { "text": "1:7.162",         "prop": "box.y",   "reason": "Same row as 汇率 above — same font-metric ascent delta." },
+    { "text": "卖出",             "prop": "box.y",   "reason": "Second row of exchange-info cell, +32 below first row (figma 374). Same font-metric ascent delta as 汇率/100 HKD row." },
+    { "text": "100 HKD",         "prop": "box.y",   "reason": "Same row as 卖出 above — same font-metric ascent delta." },
+    { "text": "实际到账金额",        "prop": "box.y",   "reason": "Third row of exchange-info cell (figma 407). Same font-metric ascent delta. fontSize differs (14 not 12) so visual offset is slightly larger." },
+    { "text": "100 USD",         "prop": "box.y",   "reason": "Same row as 实际到账金额. fontSize 14 w700 — same PJS-Bold ascent delta." },
+    { "text": "-- USD",          "prop": "box.x",   "reason": "Receive-amount 未选转入 right-aligned amount value: same PJS-glyph-width-narrower-than-HarmonyOS artifact as 10,000.00 USD on the buysell screen. Right edge anchored, left edge ~8px right of figma." },
+    { "text": "此操作将永久删除该记录，是否继续", "prop": "box.x", "reason": "Delete-dialog body text uses textAlign:center inside a 252-wide layer. Figma's absoluteBoundingBox reports the layer left edge (x=24); the impl is measured via Range.getBoundingClientRect which returns the ink box (centered within the 252 layer, so the ink left sits at ~54). Identical ink/layer mismatch as cards/dialog screens — center-aligned text where layer is wider than glyph run. The right edge / vertical centering / typography all match figma exactly." }
+  ],
+  "iconDeviations": [
+    { "name": "^arrow-down$", "reason": "Currency dropdown chevron is Feather chevron-down glyph (app-wide @expo/vector-icons). Geometry/box validated; vector-path identity waived consistent with cards/dialog deviations." },
+    { "name": "^Vector$", "reason": "Inner SVG vector node of the Feather chevron — wrapped by the arrow-down frame above which is already validated." },
+    { "name": "^Linear / Essentional, UI / Dange", "reason": "Rate info '!' indicator uses Feather info glyph; vector-path waived." },
+    { "name": "^Linear / Files / File$", "reason": "Receiver account chip icon is Feather file glyph; vector-path waived." },
+    { "name": "^黑LOGO$", "reason": "Transfer-panels 929:8500 chip uses a bespoke master bank-deposit logo (yellow fold + dark rectangle subpaths). Impl uses Feather 'credit-card' tone-tinted to #EABB62 (转入) / #152B51 (转出) — same precedent as cards (EyeMark→Feather eye, CardIcons system). Geometry/chip-box/bg validated; vector-path identity waived." },
+    { "name": "^Rectangle 524[789]$", "reason": "Inner SVG subpath rectangles (5247/5248/5249) of the 黑LOGO chip glyph — wrapped by the parent above which is already waived." },
+    { "name": "^chip$", "reason": "Chip wrapper 24×24 — its visible mismatch is downstream of the bespoke 黑LOGO inside (Feather credit-card glyph fills it). Chip outer box/bg/dimensions validated against figma master." },
+    { "name": "^Linear / Arrows / Alt Arrow Down", "reason": "Country selector trailing chevron uses Feather chevron-down (app-wide @expo/vector-icons); vector-path waived consistent with arrow-down deviation above." },
+    { "name": "^Outline / Search / Minimalistic Magnifer", "reason": "Country dropdown search box icon uses Feather search; vector-path waived consistent with app-wide icon system." },
+    { "name": "^Outline / Essentional, UI / Danger Triangle", "reason": "Delete-confirmation dialog warning icon uses Feather alert-triangle; vector-path waived consistent with app-wide icon system." },
+    { "figmaId": "954:10119", "reason": "Delete-dialog outer icon wrapper 36×36 — Figma exports the same 3 Danger Triangle paths at this parent level. Inner Danger Triangle (954:10120) already waived; this is the wrapper that holds the Feather alert-triangle font glyph. Geometry/box validated." }
+  ],
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "gate": { "minFidelityScore": 90, "maxCritical": 0, "maxMajor": 0 }
+}

@@ -1,0 +1,240 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "454:3399",
+    "name": "主按钮 Button·Primary",
+    "width": 390,
+    "height": 230
+  },
+  "nodes": [
+    {
+      "key": "454:3399",
+      "figmaId": "454:3399",
+      "name": "主按钮 Button·Primary",
+      "type": "COMPONENT_SET",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 230
+      },
+      "style": {
+        "borderRadius": 5,
+        "padding": {
+          "t": 20,
+          "r": 20,
+          "b": 20,
+          "l": 20
+        },
+        "gap": 14,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "454:3392",
+      "figmaId": "454:3392",
+      "name": "状态=默认",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 20,
+        "w": 350,
+        "h": 54
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "454:3393",
+      "figmaId": "454:3393",
+      "name": "登录",
+      "type": "TEXT",
+      "text": "登录",
+      "box": {
+        "x": 179,
+        "y": 37.5,
+        "w": 32,
+        "h": 19
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "lineHeight": 18.75,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#ffffff"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 2
+    },
+    {
+      "key": "454:3394",
+      "figmaId": "454:3394",
+      "name": "状态=加载",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 88,
+        "w": 350,
+        "h": 54
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "454:3395",
+      "figmaId": "454:3395",
+      "name": "登录",
+      "type": "TEXT",
+      "text": "登录",
+      "box": {
+        "x": 179,
+        "y": 105.5,
+        "w": 32,
+        "h": 19
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "lineHeight": 18.75,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#ffffff"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 2
+    },
+    {
+      "key": "451:4628",
+      "figmaId": "451:4628",
+      "name": "Linear / Essentional, UI / Traffic  ",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 185,
+        "y": 105,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "451:4629",
+      "figmaId": "451:4629",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 186.67,
+        "y": 106.67,
+        "w": 16.67,
+        "h": 16.67
+      },
+      "style": {
+        "borderColor": "#ffffff",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "454:3396",
+      "figmaId": "454:3396",
+      "name": "状态=禁用",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 156,
+        "w": 350,
+        "h": 54
+      },
+      "style": {
+        "backgroundColor": "#f6f6f4",
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "454:3397",
+      "figmaId": "454:3397",
+      "name": "登录",
+      "type": "TEXT",
+      "text": "登录",
+      "box": {
+        "x": 179,
+        "y": 173.5,
+        "w": 32,
+        "h": 19
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "lineHeight": 18.75,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f6f6f4",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 2
+    }
+  ]
+}

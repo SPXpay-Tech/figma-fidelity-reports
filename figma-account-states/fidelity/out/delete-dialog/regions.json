@@ -1,0 +1,40 @@
+{
+  "frame": {
+    "id": "954:10129",
+    "name": "State=删除弹窗",
+    "width": 300,
+    "height": 206
+  },
+  "offset": {
+    "x": 0,
+    "y": -0.03
+  },
+  "threshold": 12,
+  "flagged": 0,
+  "regions": [
+    {
+      "name": "btn-primary",
+      "type": "FRAME",
+      "box": {
+        "x": 156,
+        "y": 142,
+        "w": 120,
+        "h": 40
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 4.9
+    },
+    {
+      "name": "btn-secondary",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 142,
+        "w": 120,
+        "h": 40
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.4
+    }
+  ]
+}

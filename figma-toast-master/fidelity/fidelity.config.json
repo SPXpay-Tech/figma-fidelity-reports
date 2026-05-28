@@ -1,0 +1,50 @@
+{
+  "_comment": "Project fidelity config for SPX Toast master 245:736. Same tolerances/gate as the button master (textContainerStyle on so the toast surface — bg/border/radius — is anchored from the label text). fontAliases match HarmonyOS Sans TC ↔ bundled Plus Jakarta Sans (Latin) same as cards/auth.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 2, "y": 2, "w": 2, "h": 2,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels the CJK family 'HarmonyOS Sans TC'; impl uses the bundled PlusJakartaSans-* (Latin) — same family alias contract as cards/auth/buttons.",
+  "ignoreText": [
+    "^5 variants · 320×52 · radius 14 · HarmonyOS Sans TC 14/20 w500 #24201a$",
+    "^Figma COMPONENT_SET 5 变体（含 成功2号）$",
+    "^runtime placement · 安全区下$",
+    "^runtime placement · 主页提交反馈$",
+    "^success$", "^error$", "^warning$", "^info$",
+    "^Master mirror · 245:736$",
+    "^顶部 toast · top stack$",
+    "^底部 toast · bottom stack$",
+    "^🍞 轻提示 toast · 全集预览 · master 245:736$"
+  ],
+  "deviations": [],
+  "iconDeviations": [],
+  "textMatch": { "maxCenterDist": 80 },
+  "_textMatchNote": "Master frame is wide (368px) with cells gap 14; toast messages don't repeat across cells so 80px is safe.",
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "focus":    { "duration": 150, "easing": "ease-out" },
+      "error":    { "duration": 200, "easing": "ease-in-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" },
+      "hover":    { "duration": 120, "easing": "ease-out" },
+      "selected": { "duration": 150, "easing": "ease-out" },
+      "loading":  { "animated": true }
+    },
+    "durationToleranceMs": 40,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["background-color", "border-color", "box-shadow", "opacity", "transform"]
+  },
+  "gate": { "minFidelityScore": 97, "maxCritical": 0, "maxMajor": 0 }
+}

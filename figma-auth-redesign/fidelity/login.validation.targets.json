@@ -1,0 +1,3 @@
+[
+  { "key": "email", "selector": "div:has(> input[data-testid='input-email'])", "driveSelector": "input[data-testid='input-email']", "kind": "input", "states": ["error"], "arg": { "badFormatValue": "bad-email", "submitSelector": "[data-testid='btn-login-submit']" }, "expect": { "error": { "feedback": "inline" } } }
+]

@@ -1,0 +1,240 @@
+{
+  "frame": {
+    "id": "954:8046",
+    "name": "State=国家下拉",
+    "width": 350,
+    "height": 434
+  },
+  "offset": {
+    "x": 1,
+    "y": 1
+  },
+  "threshold": 12,
+  "flagged": 2,
+  "regions": [
+    {
+      "name": "row-菲律宾",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 390,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 42.9,
+      "crops": {
+        "figma": "row_954_9236.figma.png",
+        "impl": "row_954_9236.impl.png"
+      }
+    },
+    {
+      "name": "flag-philippines",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 396,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 42.5,
+      "crops": {
+        "figma": "flag_philippines_954_9238.figma.png",
+        "impl": "flag_philippines_954_9238.impl.png"
+      }
+    },
+    {
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 88,
+        "w": 18,
+        "h": 18
+      },
+      "figmaFill": null,
+      "mismatch": 9.1
+    },
+    {
+      "name": "flag-vietnam",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 358,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 8.3
+    },
+    {
+      "name": "flag-china",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 206,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 8.1
+    },
+    {
+      "name": "flag-thailand",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 320,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 7.1
+    },
+    {
+      "name": "flag-malaysia",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 168,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 5.2
+    },
+    {
+      "name": "row-中国香港",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 238,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 3.5
+    },
+    {
+      "name": "flag-china",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 244,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 3.4
+    },
+    {
+      "name": "row-中国大陆",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 200,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 3.3
+    },
+    {
+      "name": "row-越南",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 352,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 3
+    },
+    {
+      "name": "search-box",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 76,
+        "w": 326,
+        "h": 42
+      },
+      "figmaFill": "#f6f6f4",
+      "mismatch": 2.9
+    },
+    {
+      "name": "row-马来西亚",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 162,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 2.8
+    },
+    {
+      "name": "flag-indonesia",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 282,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 2.8
+    },
+    {
+      "name": "row-泰国",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 314,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 2.7
+    },
+    {
+      "name": "row-印度尼西亚",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 276,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 2.4
+    },
+    {
+      "name": "row-新加坡",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 124,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 2.2
+    },
+    {
+      "name": "flag-singapore",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 130,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 1.7
+    }
+  ]
+}

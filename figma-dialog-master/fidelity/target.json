@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for SPX dialog master 463:3300 ('🪟 弹窗母版 · 全集预览 Dialog Masters · Library v1', 2484×714). Master contains 6 result-dialog variants + 1 terms sheet (登录认证流程的结果/提示弹窗 — NOT the 买入/卖出/兑换/转账/删除 domain modals, which live on screen-level masters elsewhere). Boot expo web with `pnpm exec expo start --web --port 8082`, then: FIGMA_TOKEN=figd_… node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen dialog-master",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-dialog-master/fidelity/out",
+  "screens": [
+    {
+      "id": "dialog-master",
+      "node": "463:3300",
+      "figmaJson": "docs/figma-dialog-master/fidelity/figma-dump/master.json",
+      "figmaPng": "docs/figma-dialog-master/fidelity/figma-dump/master.png",
+      "url": "http://localhost:8082/__fidelity/dialogs",
+      "width": 2484,
+      "height": 800,
+      "root": "[data-figma-root]",
+      "wait": "text=结果弹窗 Result Dialog",
+      "anchor": "🪟 弹窗母版"
+    }
+  ]
+}

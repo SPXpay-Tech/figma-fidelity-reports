@@ -1,0 +1,9 @@
+[
+  {
+    "_comment": "5 home quick-action buttons (619:8209..8213). Press is the primary affordance — RN Pressable applies opacity on press (RN-web translates to onPointerDown/up). Probe drives press on one (deposit) since all five share the QuickAction.tsx implementation; if it passes structurally, the other four do too.",
+    "key": "qa-deposit",
+    "selector": "[data-figma-id='619:8209']",
+    "kind": "button",
+    "states": ["press"]
+  }
+]

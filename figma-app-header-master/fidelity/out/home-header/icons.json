@@ -1,0 +1,29 @@
+{
+  "frame": {
+    "id": "app-header-master",
+    "name": "AppHeader · brand + KYC banner (subset of 619:8194)",
+    "width": 390,
+    "height": 150,
+    "_note": "Filtered from home.json — keeps only AppHeader instance 619:8197 + KYC compliance row (692:5294 + 619:8201/2/3/4). Coords are inherited (header at y=66, banner at y=111)."
+  },
+  "checked": 1,
+  "fails": 0,
+  "warns": 0,
+  "waived": 0,
+  "icons": [
+    {
+      "name": "Linear / Arrows / Arrow Right",
+      "figmaId": "619:8203",
+      "box": {
+        "x": 358,
+        "y": 118,
+        "w": 12,
+        "h": 12
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "pass",
+      "severity": "pass"
+    }
+  ]
+}
