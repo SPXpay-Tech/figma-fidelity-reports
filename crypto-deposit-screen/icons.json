@@ -1,0 +1,59 @@
+{
+  "frame": {
+    "id": "790:15656",
+    "name": "📱 Account-SPX 虚拟币存款",
+    "width": 390,
+    "height": 844
+  },
+  "checked": 3,
+  "fails": 0,
+  "warns": 0,
+  "waived": 3,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "I790:15659;784:12446;159:2",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Back-button chevron-left icon (20×20 frame at header) — impl ships Feather 'chevron-left' glyph. App-wide @expo/vector-icons policy for nav directional icons (matches home/accounts/cards back-button policy). Approved 2026-05-29 w2-6. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I790:16142;790:16129",
+      "box": {
+        "x": 174,
+        "y": 154,
+        "w": 12,
+        "h": 12
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Selected-pill check 'icon' frame (12×12 wrapper around the icon-check vector) — impl renders Feather 'check' glyph at the same vector position. App-wide font-glyph policy for ui-state check icons. Approved 2026-05-29 w2-6. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I790:15667;548:6635",
+      "box": {
+        "x": 329.25,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Bottom-nav 我的 icon — same app-wide font-glyph policy. Approved 2026-05-29 w2-6. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}

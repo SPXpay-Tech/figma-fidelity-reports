@@ -1,0 +1,476 @@
+{
+  "frame": {
+    "id": "790:15656",
+    "name": "📱 Account-SPX 虚拟币存款",
+    "width": 390,
+    "height": 844
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 13,
+  "regions": [
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 174,
+        "y": 154,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 53.1,
+      "crops": {
+        "figma": "icon_I790_16142_790_16129.figma.png",
+        "impl": "icon_I790_16142_790_16129.impl.png"
+      }
+    },
+    {
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "box": {
+        "x": 260.67,
+        "y": 224,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": "#000000",
+      "mismatch": 48.3,
+      "crops": {
+        "figma": "Crypto_Logos_Tether_I790_16401_790_16326.figma.png",
+        "impl": "Crypto_Logos_Tether_I790_16401_790_16326.impl.png"
+      }
+    },
+    {
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 260.67,
+        "y": 224,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 48.3,
+      "crops": {
+        "figma": "Logo_Container_I790_16401_790_16327.figma.png",
+        "impl": "Logo_Container_I790_16401_790_16327.impl.png"
+      }
+    },
+    {
+      "name": "tron-trx-logo",
+      "type": "INSTANCE",
+      "box": {
+        "x": 47.33,
+        "y": 567.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "figmaFill": null,
+      "mismatch": 36.9,
+      "crops": {
+        "figma": "tron_trx_logo_I823_16630_823_16625.figma.png",
+        "impl": "tron_trx_logo_I823_16630_823_16625.impl.png"
+      }
+    },
+    {
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "box": {
+        "x": 44,
+        "y": 564,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 29,
+      "crops": {
+        "figma": "Crypto_Logos_Tether_I823_16630_823_16623.figma.png",
+        "impl": "Crypto_Logos_Tether_I823_16630_823_16623.impl.png"
+      }
+    },
+    {
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 44,
+        "y": 564,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 29,
+      "crops": {
+        "figma": "Logo_Container_I823_16630_823_16624.figma.png",
+        "impl": "Logo_Container_I823_16630_823_16624.impl.png"
+      }
+    },
+    {
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "box": {
+        "x": 30,
+        "y": 224,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 28.7,
+      "crops": {
+        "figma": "Crypto_Logos_Tether_I790_16401_790_16320.figma.png",
+        "impl": "Crypto_Logos_Tether_I790_16401_790_16320.impl.png"
+      }
+    },
+    {
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 30,
+        "y": 224,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 28.7,
+      "crops": {
+        "figma": "Logo_Container_I790_16401_790_16321.figma.png",
+        "impl": "Logo_Container_I790_16401_790_16321.impl.png"
+      }
+    },
+    {
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "box": {
+        "x": 145.33,
+        "y": 224,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 26,
+      "crops": {
+        "figma": "Crypto_Logos_Tether_I790_16401_790_16334.figma.png",
+        "impl": "Crypto_Logos_Tether_I790_16401_790_16334.impl.png"
+      }
+    },
+    {
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 145.33,
+        "y": 224,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 26,
+      "crops": {
+        "figma": "Logo_Container_I790_16401_790_16335.figma.png",
+        "impl": "Logo_Container_I790_16401_790_16335.impl.png"
+      }
+    },
+    {
+      "name": "Crypto Logos / USD Coin",
+      "type": "FRAME",
+      "box": {
+        "x": 204,
+        "y": 152,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": "#2775ca",
+      "mismatch": 18,
+      "crops": {
+        "figma": "Crypto_Logos_USD_Coin_I790_16142_790_161.figma.png",
+        "impl": "Crypto_Logos_USD_Coin_I790_16142_790_161.impl.png"
+      }
+    },
+    {
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 204,
+        "y": 152,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 18,
+      "crops": {
+        "figma": "Logo_Container_I790_16142_790_16135.figma.png",
+        "impl": "Logo_Container_I790_16142_790_16135.impl.png"
+      }
+    },
+    {
+      "name": "Linear / Money / Card",
+      "type": "FRAME",
+      "box": {
+        "x": 231.75,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 16.8,
+      "crops": {
+        "figma": "Linear_Money_Card_I790_15667_548_6628.figma.png",
+        "impl": "Linear_Money_Card_I790_15667_548_6628.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36.75,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 8.4
+    },
+    {
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "box": {
+        "x": 167.5,
+        "y": 360,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": "#26a07b",
+      "mismatch": 8.1
+    },
+    {
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 167.5,
+        "y": 360,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 8.1
+    },
+    {
+      "name": "copy",
+      "type": "FRAME",
+      "box": {
+        "x": 322,
+        "y": 634,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 7.4
+    },
+    {
+      "name": "虚拟币存款",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 348,
+        "w": 350,
+        "h": 394
+      },
+      "figmaFill": "#9ca3af@0.08",
+      "mismatch": 7.2
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 5.6
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 216,
+        "w": 111.33,
+        "h": 32
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 5.6
+    },
+    {
+      "name": "Crypto Logos / Tether",
+      "type": "FRAME",
+      "box": {
+        "x": 30,
+        "y": 152,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": "#26a07b",
+      "mismatch": 4.7
+    },
+    {
+      "name": "Logo Container",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 30,
+        "y": 152,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 4.7
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 139.33,
+        "y": 216,
+        "w": 111.33,
+        "h": 32
+      },
+      "figmaFill": "#f6f6f4",
+      "mismatch": 4.2
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 254.67,
+        "y": 216,
+        "w": 111.33,
+        "h": 32
+      },
+      "figmaFill": "#f6f6f4",
+      "mismatch": 3.8
+    },
+    {
+      "name": "虚拟币存款/Default",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 212,
+        "w": 350,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 3.5
+    },
+    {
+      "name": "warn",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 264,
+        "w": 350,
+        "h": 72
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 3
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 144,
+        "w": 168,
+        "h": 32
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 1.9
+    },
+    {
+      "name": "账户信息",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 532,
+        "w": 326,
+        "h": 72
+      },
+      "figmaFill": null,
+      "mismatch": 1.7
+    },
+    {
+      "name": "返回按钮 / Nav Back",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 42,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.3
+    },
+    {
+      "name": "Frame 2147225300",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 532,
+        "w": 326,
+        "h": 144
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.3
+    },
+    {
+      "name": "虚拟币存款/Default",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 140,
+        "w": 350,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.1
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 198,
+        "y": 144,
+        "w": 168,
+        "h": 32
+      },
+      "figmaFill": "#f6f6f4",
+      "mismatch": 0.9
+    },
+    {
+      "name": "账户信息",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 604,
+        "w": 326,
+        "h": 72
+      },
+      "figmaFill": null,
+      "mismatch": 0.9
+    },
+    {
+      "name": "Account Hearder, 页头",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 350,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.7
+    }
+  ]
+}
