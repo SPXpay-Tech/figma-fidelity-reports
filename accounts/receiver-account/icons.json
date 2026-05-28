@@ -1,0 +1,29 @@
+{
+  "frame": {
+    "id": "917:12737",
+    "name": "State=收款账户",
+    "width": 350,
+    "height": 56
+  },
+  "checked": 1,
+  "fails": 0,
+  "warns": 0,
+  "waived": 1,
+  "icons": [
+    {
+      "name": "arrow-down",
+      "figmaId": "917:12560",
+      "box": {
+        "x": 318,
+        "y": 18,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Currency dropdown chevron is Feather chevron-down glyph (app-wide @expo/vector-icons). Geometry/box validated; vector-path identity waived consistent with cards/dialog deviations. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}

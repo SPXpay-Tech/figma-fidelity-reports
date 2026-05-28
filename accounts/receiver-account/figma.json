@@ -1,0 +1,279 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "917:12737",
+    "name": "State=收款账户",
+    "width": 350,
+    "height": 56
+  },
+  "nodes": [
+    {
+      "key": "917:12737",
+      "figmaId": "917:12737",
+      "name": "State=收款账户",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 350,
+        "h": 56
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 12,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "917:12551",
+      "figmaId": "917:12551",
+      "name": "Frame 2147225261",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 12,
+        "w": 268,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "917:12552",
+      "figmaId": "917:12552",
+      "name": "chip",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 12,
+        "w": 32,
+        "h": 32
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 7.999999046325684,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "917:12553",
+      "figmaId": "917:12553",
+      "name": "Linear / Files / File",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 17.33,
+        "y": 17.33,
+        "w": 21.33,
+        "h": 21.33
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "917:12554",
+      "figmaId": "917:12554",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 19.11,
+        "y": 19.11,
+        "w": 17.78,
+        "h": 17.78
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.3333333730697632
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "917:12555",
+      "figmaId": "917:12555",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 28.89,
+        "y": 19.56,
+        "w": 8,
+        "h": 6.67
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.3333333730697632
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "917:12556",
+      "figmaId": "917:12556",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 21.78,
+        "y": 27.11,
+        "w": 3.56,
+        "h": 7.11
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.3333333730697632
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "917:12557",
+      "figmaId": "917:12557",
+      "name": "mid",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 12.5,
+        "w": 224,
+        "h": 31
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 3,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "917:12558",
+      "figmaId": "917:12558",
+      "name": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "type": "TEXT",
+      "text": "Charlie CIMB (CIMB Bank Berhad Sin...)",
+      "box": {
+        "x": 56,
+        "y": 12.5,
+        "w": 224,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#24201a"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "917:12559",
+      "figmaId": "917:12559",
+      "name": "2026-05-15 19:13",
+      "type": "TEXT",
+      "text": "2001168429",
+      "box": {
+        "x": 56,
+        "y": 29.5,
+        "w": 69,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#9499a2"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "917:12560",
+      "figmaId": "917:12560",
+      "name": "arrow-down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 318,
+        "y": 18,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "917:12561",
+      "figmaId": "917:12561",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 325.5,
+        "y": 22.17,
+        "w": 5,
+        "h": 11.67
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.25
+      },
+      "parentStyle": null,
+      "depth": 2
+    }
+  ]
+}
