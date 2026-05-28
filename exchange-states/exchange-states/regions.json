@@ -1,0 +1,456 @@
+{
+  "frame": {
+    "id": "917:11876",
+    "name": "📱 Account. 情况变化换汇",
+    "width": 390,
+    "height": 1041
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 2,
+  "regions": [
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36.75,
+        "y": 976,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 20.7,
+      "crops": {
+        "figma": "_LOGO_I917_11899_548_6607.figma.png",
+        "impl": "_LOGO_I917_11899_548_6607.impl.png"
+      }
+    },
+    {
+      "name": "Linear / Money / Card",
+      "type": "FRAME",
+      "box": {
+        "x": 231.75,
+        "y": 976,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 15.3,
+      "crops": {
+        "figma": "Linear_Money_Card_I917_11899_548_6628.figma.png",
+        "impl": "Linear_Money_Card_I917_11899_548_6628.impl.png"
+      }
+    },
+    {
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "type": "FRAME",
+      "box": {
+        "x": 82,
+        "y": 774,
+        "w": 18,
+        "h": 18
+      },
+      "figmaFill": null,
+      "mismatch": 8.8
+    },
+    {
+      "name": "Frame 2147225324",
+      "type": "FRAME",
+      "box": {
+        "x": 179,
+        "y": 286,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 8.2
+    },
+    {
+      "name": "Frame 2147225265",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 767,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 5.8
+    },
+    {
+      "name": "head",
+      "type": "FRAME",
+      "box": {
+        "x": 198,
+        "y": 188,
+        "w": 160,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.1
+    },
+    {
+      "name": "金额信息·手续费扣费",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 628,
+        "w": 350,
+        "h": 70
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.7
+    },
+    {
+      "name": "Account Hearder, 页头",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 350,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.8
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 49,
+        "y": 75,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#f52f32@0.12",
+      "mismatch": 0.7
+    },
+    {
+      "name": "转账信息·支付目的",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 156,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0.6
+    },
+    {
+      "name": "返回按钮 / Nav Back",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 42,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.5
+    },
+    {
+      "name": "search-box",
+      "type": "FRAME",
+      "box": {
+        "x": 70,
+        "y": 762,
+        "w": 288,
+        "h": 42
+      },
+      "figmaFill": "#f6f6f4",
+      "mismatch": 0.5
+    },
+    {
+      "name": "Toast · 轻提示",
+      "type": "INSTANCE",
+      "box": {
+        "x": 35,
+        "y": 61,
+        "w": 320,
+        "h": 52
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.5
+    },
+    {
+      "name": "Exchange Rate · 汇率 - 搜索状态",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 750,
+        "w": 350,
+        "h": 136
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.4
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 0.3
+    },
+    {
+      "name": "转账信息·支付目的",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 500,
+        "w": 350,
+        "h": 116
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.3
+    },
+    {
+      "name": "主按钮 Button·Primary",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 898,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 0.2
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 188,
+        "w": 160,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.1
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 362,
+        "w": 160,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.1
+    },
+    {
+      "name": "Compliance Status · 合规状态",
+      "type": "INSTANCE",
+      "box": {
+        "x": 234,
+        "y": 74,
+        "w": 98,
+        "h": 26
+      },
+      "figmaFill": "#f9ac1c@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "panel",
+      "type": "FRAME",
+      "box": {
+        "x": 198,
+        "y": 242,
+        "w": 160,
+        "h": 210
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0
+    },
+    {
+      "name": "opt-USD",
+      "type": "FRAME",
+      "box": {
+        "x": 210,
+        "y": 254,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "opt-HKD",
+      "type": "FRAME",
+      "box": {
+        "x": 210,
+        "y": 285,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "opt-EUR",
+      "type": "FRAME",
+      "box": {
+        "x": 210,
+        "y": 316,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "opt-SGD",
+      "type": "FRAME",
+      "box": {
+        "x": 210,
+        "y": 347,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "opt-GBP",
+      "type": "FRAME",
+      "box": {
+        "x": 210,
+        "y": 378,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "opt-CNY",
+      "type": "FRAME",
+      "box": {
+        "x": 210,
+        "y": 409,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "转账信息·支付目的",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 330,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#9ca3af@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "兑换币种下拉·买入 Buy Currency Dropdown",
+      "type": "INSTANCE",
+      "box": {
+        "x": 198,
+        "y": 362,
+        "w": 160,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0
+    },
+    {
+      "name": "panel",
+      "type": "FRAME",
+      "box": {
+        "x": 198,
+        "y": 242,
+        "w": 160,
+        "h": 210
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0
+    },
+    {
+      "name": "opt-USD",
+      "type": "FRAME",
+      "box": {
+        "x": 210,
+        "y": 254,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "opt-HKD",
+      "type": "FRAME",
+      "box": {
+        "x": 210,
+        "y": 285,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "opt-EUR",
+      "type": "FRAME",
+      "box": {
+        "x": 210,
+        "y": 316,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "opt-SGD",
+      "type": "FRAME",
+      "box": {
+        "x": 210,
+        "y": 347,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "opt-GBP",
+      "type": "FRAME",
+      "box": {
+        "x": 210,
+        "y": 378,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "opt-CNY",
+      "type": "FRAME",
+      "box": {
+        "x": 210,
+        "y": 409,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    }
+  ]
+}
