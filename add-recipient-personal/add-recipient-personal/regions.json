@@ -1,0 +1,304 @@
+{
+  "frame": {
+    "id": "953:7721",
+    "name": "📱 Account. 收款方个人",
+    "width": 390,
+    "height": 1131
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 3,
+  "regions": [
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 222.68,
+        "y": 169.68,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "figmaFill": null,
+      "mismatch": 25.8,
+      "crops": {
+        "figma": "icon_I953_7875_456_3403.figma.png",
+        "impl": "icon_I953_7875_456_3403.impl.png"
+      }
+    },
+    {
+      "name": "Linear / Money / Card",
+      "type": "FRAME",
+      "box": {
+        "x": 231.75,
+        "y": 1066,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 16.8,
+      "crops": {
+        "figma": "Linear_Money_Card_I953_7731_548_6628.figma.png",
+        "impl": "Linear_Money_Card_I953_7731_548_6628.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36.75,
+        "y": 1066,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 15.5,
+      "crops": {
+        "figma": "_LOGO_I953_7731_548_6607.figma.png",
+        "impl": "_LOGO_I953_7731_548_6607.impl.png"
+      }
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 37.68,
+        "y": 169.68,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "figmaFill": null,
+      "mismatch": 10.7
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 7
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 217,
+        "y": 164,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#aaa286@0.20",
+      "mismatch": 6.9
+    },
+    {
+      "name": "warn",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 208,
+        "w": 350,
+        "h": 66
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 5.8
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 164,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 2.8
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 412,
+        "w": 172,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.8
+    },
+    {
+      "name": "账户类型卡片 Card·Type",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 152,
+        "w": 165,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 198,
+        "y": 412,
+        "w": 172,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 938,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.5
+    },
+    {
+      "name": "Account Hearder, 页头",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 350,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.8
+    },
+    {
+      "name": "返回按钮 / Nav Back",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 42,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 482,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 552,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.2
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 622,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.1
+    },
+    {
+      "name": "账户类型卡片 Card·Type",
+      "type": "INSTANCE",
+      "box": {
+        "x": 205,
+        "y": 152,
+        "w": 165,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 342,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.9
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 798,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.9
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 868,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.8
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 728,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.7
+    },
+    {
+      "name": "主按钮 Button·Primary",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 988,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 0.5
+    }
+  ]
+}
