@@ -1,0 +1,292 @@
+{
+  "frame": {
+    "id": "888:7354",
+    "name": "转账信息·收款账户",
+    "width": 430,
+    "height": 750
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 0,
+  "regions": [
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 294,
+        "y": 144,
+        "w": 96,
+        "h": 26
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 9.2
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 294,
+        "y": 248,
+        "w": 96,
+        "h": 26
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 9.2
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 294,
+        "y": 352,
+        "w": 96,
+        "h": 26
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 9.2
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 294,
+        "y": 456,
+        "w": 96,
+        "h": 26
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 9.2
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 488,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 5.2
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 280,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 4.4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 384,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 4.3
+    },
+    {
+      "name": "option-Wang Mei  OCBC（OCBC Bank, Singapore）",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 590,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": null,
+      "mismatch": 2.7
+    },
+    {
+      "name": "option-Charlie CIMB（CIMB Bank Berhad, Singapore）",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 554,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 2.5
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 176,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.4
+    },
+    {
+      "name": "option-Zhang San  HSBC（HSBC Hong Kong）",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 626,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": null,
+      "mismatch": 2.3
+    },
+    {
+      "name": "dropdown-panel",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 542,
+        "w": 350,
+        "h": 168
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.1
+    },
+    {
+      "name": "option-Li Si  DBS（DBS Bank, Singapore）",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 662,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": null,
+      "mismatch": 1.8
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 72,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.3
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 84,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 188,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 292,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 396,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 500,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 560,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 596,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 632,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 668,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    }
+  ]
+}

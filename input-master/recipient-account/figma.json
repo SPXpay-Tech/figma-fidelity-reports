@@ -1,0 +1,2592 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "888:7354",
+    "name": "转账信息·收款账户",
+    "width": 430,
+    "height": 750
+  },
+  "nodes": [
+    {
+      "key": "888:7354",
+      "figmaId": "888:7354",
+      "name": "转账信息·收款账户",
+      "type": "COMPONENT_SET",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 430,
+        "h": 750
+      },
+      "style": {
+        "backgroundColor": "#fafaf7",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1,
+        "borderRadius": 16,
+        "padding": {
+          "t": 40,
+          "r": 40,
+          "b": 40,
+          "l": 40
+        },
+        "gap": 24,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "887:20803",
+      "figmaId": "887:20803",
+      "name": "State=默认",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 350,
+        "h": 80
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "887:20804",
+      "figmaId": "887:20804",
+      "name": "Frame 2147225304",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 350,
+        "h": 26
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "887:20805",
+      "figmaId": "887:20805",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 46,
+        "w": 57,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "887:20806",
+      "figmaId": "887:20806",
+      "name": "收款账户 *",
+      "type": "TEXT",
+      "text": "收款账户 *",
+      "box": {
+        "x": 40,
+        "y": 46,
+        "w": 57,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "887:20807",
+      "figmaId": "887:20807",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 294,
+        "y": 40,
+        "w": 96,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1,
+        "borderRadius": 6,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "887:20808",
+      "figmaId": "887:20808",
+      "name": "新增收款账户",
+      "type": "TEXT",
+      "text": "新增收款账户",
+      "box": {
+        "x": 306,
+        "y": 46,
+        "w": 72,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#eabb62"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "887:20809",
+      "figmaId": "887:20809",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 72,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "887:20810",
+      "figmaId": "887:20810",
+      "name": "Frame 2147225294",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 84,
+        "w": 114,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "887:20811",
+      "figmaId": "887:20811",
+      "name": "chip",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 84,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 5.999999046325684,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "887:20812",
+      "figmaId": "887:20812",
+      "name": "Linear / Files / File",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 88,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "887:20813",
+      "figmaId": "887:20813",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 57.33,
+        "y": 89.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "887:20814",
+      "figmaId": "887:20814",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 64.67,
+        "y": 89.67,
+        "w": 6,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "887:20815",
+      "figmaId": "887:20815",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 59.33,
+        "y": 95.33,
+        "w": 2.67,
+        "h": 5.33
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "887:20816",
+      "figmaId": "887:20816",
+      "name": "请选择收款账户",
+      "type": "TEXT",
+      "text": "请选择收款账户",
+      "box": {
+        "x": 82,
+        "y": 89,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "887:20817",
+      "figmaId": "887:20817",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 84,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "887:20818",
+      "figmaId": "887:20818",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 93,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "888:7338",
+      "figmaId": "888:7338",
+      "name": "State=Selected",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 144,
+        "w": 350,
+        "h": 80
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "888:7339",
+      "figmaId": "888:7339",
+      "name": "Frame 2147225304",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 144,
+        "w": 350,
+        "h": 26
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "888:7340",
+      "figmaId": "888:7340",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 150,
+        "w": 57,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "888:7341",
+      "figmaId": "888:7341",
+      "name": "收款账户 *",
+      "type": "TEXT",
+      "text": "收款账户 *",
+      "box": {
+        "x": 40,
+        "y": 150,
+        "w": 57,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "888:7342",
+      "figmaId": "888:7342",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 294,
+        "y": 144,
+        "w": 96,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1,
+        "borderRadius": 6,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "888:7343",
+      "figmaId": "888:7343",
+      "name": "新增收款账户",
+      "type": "TEXT",
+      "text": "新增收款账户",
+      "box": {
+        "x": 306,
+        "y": 150,
+        "w": 72,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#eabb62"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "888:7344",
+      "figmaId": "888:7344",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 176,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#eabb62@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "888:7345",
+      "figmaId": "888:7345",
+      "name": "Frame 2147225294",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 188,
+        "w": 249,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "888:7346",
+      "figmaId": "888:7346",
+      "name": "chip",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 188,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 5.999999046325684,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "888:7347",
+      "figmaId": "888:7347",
+      "name": "Linear / Files / File",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 192,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "888:7348",
+      "figmaId": "888:7348",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 57.33,
+        "y": 193.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "888:7349",
+      "figmaId": "888:7349",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 64.67,
+        "y": 193.67,
+        "w": 6,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "888:7350",
+      "figmaId": "888:7350",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 59.33,
+        "y": 199.33,
+        "w": 2.67,
+        "h": 5.33
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "888:7351",
+      "figmaId": "888:7351",
+      "name": "Charlie CIMB（CIMB Bank Berhad, Singapore）",
+      "type": "TEXT",
+      "text": "Charlie CIMB（CIMB Bank Berhad, Singapore）",
+      "box": {
+        "x": 82,
+        "y": 194,
+        "w": 219,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "888:7352",
+      "figmaId": "888:7352",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 188,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "888:7353",
+      "figmaId": "888:7353",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 197,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7241",
+      "figmaId": "883:7241",
+      "name": "State=Focus",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 248,
+        "w": 350,
+        "h": 80
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "883:7242",
+      "figmaId": "883:7242",
+      "name": "Frame 2147225304",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 248,
+        "w": 350,
+        "h": 26
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "883:7243",
+      "figmaId": "883:7243",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 254,
+        "w": 57,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7244",
+      "figmaId": "883:7244",
+      "name": "收款账户 *",
+      "type": "TEXT",
+      "text": "收款账户 *",
+      "box": {
+        "x": 40,
+        "y": 254,
+        "w": 57,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7245",
+      "figmaId": "883:7245",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 294,
+        "y": 248,
+        "w": 96,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1,
+        "borderRadius": 6,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7246",
+      "figmaId": "883:7246",
+      "name": "新增收款账户",
+      "type": "TEXT",
+      "text": "新增收款账户",
+      "box": {
+        "x": 306,
+        "y": 254,
+        "w": 72,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#eabb62"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "883:7247",
+      "figmaId": "883:7247",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 280,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#eabb62@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "883:7248",
+      "figmaId": "883:7248",
+      "name": "Frame 2147225294",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 292,
+        "w": 114,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7249",
+      "figmaId": "883:7249",
+      "name": "chip",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 292,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 5.999999046325684,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7250",
+      "figmaId": "883:7250",
+      "name": "Linear / Files / File",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 296,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "883:7251",
+      "figmaId": "883:7251",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 57.33,
+        "y": 297.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7252",
+      "figmaId": "883:7252",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 64.67,
+        "y": 297.67,
+        "w": 6,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7253",
+      "figmaId": "883:7253",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 59.33,
+        "y": 303.33,
+        "w": 2.67,
+        "h": 5.33
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7254",
+      "figmaId": "883:7254",
+      "name": "请选择收款账户",
+      "type": "TEXT",
+      "text": "请选择收款账户",
+      "box": {
+        "x": 82,
+        "y": 297,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5
+      },
+      "depth": 4
+    },
+    {
+      "key": "883:7255",
+      "figmaId": "883:7255",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 292,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7256",
+      "figmaId": "883:7256",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 301,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7257",
+      "figmaId": "883:7257",
+      "name": "State=Error",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 352,
+        "w": 350,
+        "h": 80
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "883:7258",
+      "figmaId": "883:7258",
+      "name": "Frame 2147225304",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 352,
+        "w": 350,
+        "h": 26
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "883:7259",
+      "figmaId": "883:7259",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 358,
+        "w": 57,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7260",
+      "figmaId": "883:7260",
+      "name": "收款账户 *",
+      "type": "TEXT",
+      "text": "收款账户 *",
+      "box": {
+        "x": 40,
+        "y": 358,
+        "w": 57,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7261",
+      "figmaId": "883:7261",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 294,
+        "y": 352,
+        "w": 96,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1,
+        "borderRadius": 6,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7262",
+      "figmaId": "883:7262",
+      "name": "新增收款账户",
+      "type": "TEXT",
+      "text": "新增收款账户",
+      "box": {
+        "x": 306,
+        "y": 358,
+        "w": 72,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#eabb62"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "883:7263",
+      "figmaId": "883:7263",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 384,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#f52f32@0.10",
+        "borderColor": "#f52f32",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "883:7264",
+      "figmaId": "883:7264",
+      "name": "Frame 2147225294",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 396,
+        "w": 114,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7265",
+      "figmaId": "883:7265",
+      "name": "chip",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 396,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 5.999999046325684,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7266",
+      "figmaId": "883:7266",
+      "name": "Linear / Files / File",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 400,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "883:7267",
+      "figmaId": "883:7267",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 57.33,
+        "y": 401.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7268",
+      "figmaId": "883:7268",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 64.67,
+        "y": 401.67,
+        "w": 6,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7269",
+      "figmaId": "883:7269",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 59.33,
+        "y": 407.33,
+        "w": 2.67,
+        "h": 5.33
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7270",
+      "figmaId": "883:7270",
+      "name": "请选择收款账户",
+      "type": "TEXT",
+      "text": "请选择收款账户",
+      "box": {
+        "x": 82,
+        "y": 401,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f52f32@0.10",
+        "borderColor": "#f52f32",
+        "borderWidth": 1.5
+      },
+      "depth": 4
+    },
+    {
+      "key": "883:7271",
+      "figmaId": "883:7271",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 396,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7272",
+      "figmaId": "883:7272",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 405,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7273",
+      "figmaId": "883:7273",
+      "name": "State=Open",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 456,
+        "w": 350,
+        "h": 254
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "883:7274",
+      "figmaId": "883:7274",
+      "name": "Frame 2147225304",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 456,
+        "w": 350,
+        "h": 26
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "883:7275",
+      "figmaId": "883:7275",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 462,
+        "w": 57,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7276",
+      "figmaId": "883:7276",
+      "name": "收款账户 *",
+      "type": "TEXT",
+      "text": "收款账户 *",
+      "box": {
+        "x": 40,
+        "y": 462,
+        "w": 57,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7277",
+      "figmaId": "883:7277",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 294,
+        "y": 456,
+        "w": 96,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1,
+        "borderRadius": 6,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7278",
+      "figmaId": "883:7278",
+      "name": "新增收款账户",
+      "type": "TEXT",
+      "text": "新增收款账户",
+      "box": {
+        "x": 306,
+        "y": 462,
+        "w": 72,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#eabb62"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "883:7279",
+      "figmaId": "883:7279",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 488,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#eabb62@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "883:7280",
+      "figmaId": "883:7280",
+      "name": "Frame 2147225294",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 500,
+        "w": 249,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7281",
+      "figmaId": "883:7281",
+      "name": "chip",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 500,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 5.999999046325684,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7282",
+      "figmaId": "883:7282",
+      "name": "Linear / Files / File",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 504,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "883:7283",
+      "figmaId": "883:7283",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 57.33,
+        "y": 505.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7284",
+      "figmaId": "883:7284",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 64.67,
+        "y": 505.67,
+        "w": 6,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7285",
+      "figmaId": "883:7285",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 59.33,
+        "y": 511.33,
+        "w": 2.67,
+        "h": 5.33
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7286",
+      "figmaId": "883:7286",
+      "name": "Charlie CIMB（CIMB Bank Berhad, Singapore）",
+      "type": "TEXT",
+      "text": "Charlie CIMB（CIMB Bank Berhad, Singapore）",
+      "box": {
+        "x": 82,
+        "y": 506,
+        "w": 219,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5
+      },
+      "depth": 4
+    },
+    {
+      "key": "883:7287",
+      "figmaId": "883:7287",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 500,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7288",
+      "figmaId": "883:7288",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 509,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7289",
+      "figmaId": "883:7289",
+      "name": "dropdown-panel",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 542,
+        "w": 350,
+        "h": 168
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 12,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "883:7290",
+      "figmaId": "883:7290",
+      "name": "option-Charlie CIMB（CIMB Bank Berhad, Singapore）",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 554,
+        "w": 326,
+        "h": 36
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 6,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7291",
+      "figmaId": "883:7291",
+      "name": "chip",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 64,
+        "y": 560,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 5.999999046325684,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7292",
+      "figmaId": "883:7292",
+      "name": "Linear / Files / File",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 68,
+        "y": 564,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "883:7293",
+      "figmaId": "883:7293",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 69.33,
+        "y": 565.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7294",
+      "figmaId": "883:7294",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 76.67,
+        "y": 565.67,
+        "w": 6,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7295",
+      "figmaId": "883:7295",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 71.33,
+        "y": 571.33,
+        "w": 2.67,
+        "h": 5.33
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7296",
+      "figmaId": "883:7296",
+      "name": "Charlie CIMB（CIMB Bank Berhad, Singapore）",
+      "type": "TEXT",
+      "text": "Charlie CIMB（CIMB Bank Berhad, Singapore）",
+      "box": {
+        "x": 96,
+        "y": 566,
+        "w": 219,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#eabb62"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "883:7297",
+      "figmaId": "883:7297",
+      "name": "option-Wang Mei  OCBC（OCBC Bank, Singapore）",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 590,
+        "w": 326,
+        "h": 36
+      },
+      "style": {
+        "borderRadius": 6,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7298",
+      "figmaId": "883:7298",
+      "name": "chip",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 64,
+        "y": 596,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 5.999999046325684,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7299",
+      "figmaId": "883:7299",
+      "name": "Linear / Files / File",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 68,
+        "y": 600,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "883:7300",
+      "figmaId": "883:7300",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 69.33,
+        "y": 601.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7301",
+      "figmaId": "883:7301",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 76.67,
+        "y": 601.67,
+        "w": 6,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7302",
+      "figmaId": "883:7302",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 71.33,
+        "y": 607.33,
+        "w": 2.67,
+        "h": 5.33
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7303",
+      "figmaId": "883:7303",
+      "name": "Wang Mei OCBC（OCBC Bank, Singapore）",
+      "type": "TEXT",
+      "text": "Wang Mei  OCBC（OCBC Bank, Singapore）",
+      "box": {
+        "x": 96,
+        "y": 602,
+        "w": 205,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "883:7304",
+      "figmaId": "883:7304",
+      "name": "option-Zhang San  HSBC（HSBC Hong Kong）",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 626,
+        "w": 326,
+        "h": 36
+      },
+      "style": {
+        "borderRadius": 6,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7305",
+      "figmaId": "883:7305",
+      "name": "chip",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 64,
+        "y": 632,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 5.999999046325684,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7306",
+      "figmaId": "883:7306",
+      "name": "Linear / Files / File",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 68,
+        "y": 636,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "883:7307",
+      "figmaId": "883:7307",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 69.33,
+        "y": 637.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7308",
+      "figmaId": "883:7308",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 76.67,
+        "y": 637.67,
+        "w": 6,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7309",
+      "figmaId": "883:7309",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 71.33,
+        "y": 643.33,
+        "w": 2.67,
+        "h": 5.33
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7310",
+      "figmaId": "883:7310",
+      "name": "Zhang San HSBC（HSBC Hong Kong）",
+      "type": "TEXT",
+      "text": "Zhang San  HSBC（HSBC Hong Kong）",
+      "box": {
+        "x": 96,
+        "y": 638,
+        "w": 184,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "883:7311",
+      "figmaId": "883:7311",
+      "name": "option-Li Si  DBS（DBS Bank, Singapore）",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 662,
+        "w": 326,
+        "h": 36
+      },
+      "style": {
+        "borderRadius": 6,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "883:7312",
+      "figmaId": "883:7312",
+      "name": "chip",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 64,
+        "y": 668,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 5.999999046325684,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "883:7313",
+      "figmaId": "883:7313",
+      "name": "Linear / Files / File",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 68,
+        "y": 672,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "883:7314",
+      "figmaId": "883:7314",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 69.33,
+        "y": 673.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7315",
+      "figmaId": "883:7315",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 76.67,
+        "y": 673.67,
+        "w": 6,
+        "h": 5
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7316",
+      "figmaId": "883:7316",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 71.33,
+        "y": 679.33,
+        "w": 2.67,
+        "h": 5.33
+      },
+      "style": {
+        "borderColor": "#eabb62",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "883:7317",
+      "figmaId": "883:7317",
+      "name": "Li Si DBS（DBS Bank, Singapore）",
+      "type": "TEXT",
+      "text": "Li Si  DBS（DBS Bank, Singapore）",
+      "box": {
+        "x": 96,
+        "y": 674,
+        "w": 163,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    }
+  ]
+}

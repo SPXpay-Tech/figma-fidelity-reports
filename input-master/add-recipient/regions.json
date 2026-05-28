@@ -1,0 +1,448 @@
+{
+  "frame": {
+    "id": "954:8045",
+    "name": "转账信息·支付目的",
+    "width": 430,
+    "height": 1392
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 9,
+  "regions": [
+    {
+      "name": "flag-vietnam",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 786,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 65.4,
+      "crops": {
+        "figma": "flag_vietnam_954_9233.figma.png",
+        "impl": "flag_vietnam_954_9233.impl.png"
+      }
+    },
+    {
+      "name": "flag-china",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 672,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 62.1,
+      "crops": {
+        "figma": "flag_china_954_9218.figma.png",
+        "impl": "flag_china_954_9218.impl.png"
+      }
+    },
+    {
+      "name": "flag-china",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 634,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 62,
+      "crops": {
+        "figma": "flag_china_954_9213.figma.png",
+        "impl": "flag_china_954_9213.impl.png"
+      }
+    },
+    {
+      "name": "flag-philippines",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 824,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 54.4,
+      "crops": {
+        "figma": "flag_philippines_954_9238.figma.png",
+        "impl": "flag_philippines_954_9238.impl.png"
+      }
+    },
+    {
+      "name": "flag-thailand",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 748,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 46.5,
+      "crops": {
+        "figma": "flag_thailand_954_9228.figma.png",
+        "impl": "flag_thailand_954_9228.impl.png"
+      }
+    },
+    {
+      "name": "flag-malaysia",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 596,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 34.9,
+      "crops": {
+        "figma": "flag_malaysia_954_9208.figma.png",
+        "impl": "flag_malaysia_954_9208.impl.png"
+      }
+    },
+    {
+      "name": "flag-indonesia",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 710,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 32.4,
+      "crops": {
+        "figma": "flag_indonesia_954_9223.figma.png",
+        "impl": "flag_indonesia_954_9223.impl.png"
+      }
+    },
+    {
+      "name": "flag-singapore",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 558,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 28.1,
+      "crops": {
+        "figma": "flag_singapore_954_9203.figma.png",
+        "impl": "flag_singapore_954_9203.impl.png"
+      }
+    },
+    {
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 516,
+        "w": 18,
+        "h": 18
+      },
+      "figmaFill": null,
+      "mismatch": 12.5,
+      "crops": {
+        "figma": "Outline_Search_Minimalistic_Magnifer_I95.figma.png",
+        "impl": "Outline_Search_Minimalistic_Magnifer_I95.impl.png"
+      }
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 448,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 5.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 1070,
+        "w": 350,
+        "h": 52
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 5.5
+    },
+    {
+      "name": "Outline / Essentional, UI / Danger Triangle",
+      "type": "FRAME",
+      "box": {
+        "x": 180,
+        "y": 1178,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 4.6
+    },
+    {
+      "name": "row-中国香港",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 666,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 3.4
+    },
+    {
+      "name": "State=新增收款账户",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 120,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.3
+    },
+    {
+      "name": "row-中国大陆",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 628,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 3
+    },
+    {
+      "name": "row-越南",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 780,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 3
+    },
+    {
+      "name": "row-菲律宾",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 818,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 2.7
+    },
+    {
+      "name": "row-泰国",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 742,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 2.3
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 284,
+        "w": 172,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.1
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 218,
+        "y": 284,
+        "w": 172,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.1
+    },
+    {
+      "name": "转账信息·支付目的/State11",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 492,
+        "w": 350,
+        "h": 370
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.9
+    },
+    {
+      "name": "row-印度尼西亚",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 704,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 1.9
+    },
+    {
+      "name": "row-马来西亚",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 590,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 1.8
+    },
+    {
+      "name": "State=删除弹窗",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 1146,
+        "w": 300,
+        "h": 206
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.4
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 172,
+        "y": 1170,
+        "w": 36,
+        "h": 36
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 1.4
+    },
+    {
+      "name": "row-新加坡",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 552,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 1.2
+    },
+    {
+      "name": "search-box",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 504,
+        "w": 326,
+        "h": 42
+      },
+      "figmaFill": "#f6f6f4",
+      "mismatch": 0.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 366,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 988,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.4
+    },
+    {
+      "name": "btn-secondary",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 1288,
+        "w": 120,
+        "h": 40
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 202,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.3
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 906,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.3
+    },
+    {
+      "name": "btn-primary",
+      "type": "FRAME",
+      "box": {
+        "x": 196,
+        "y": 1288,
+        "w": 120,
+        "h": 40
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 0.1
+    }
+  ]
+}

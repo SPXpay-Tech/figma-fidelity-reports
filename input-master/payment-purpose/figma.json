@@ -1,0 +1,3379 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "888:7376",
+    "name": "转账信息·支付目的",
+    "width": 430,
+    "height": 1780
+  },
+  "nodes": [
+    {
+      "key": "888:7376",
+      "figmaId": "888:7376",
+      "name": "转账信息·支付目的",
+      "type": "COMPONENT_SET",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 430,
+        "h": 1780
+      },
+      "style": {
+        "backgroundColor": "#fafaf7",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1,
+        "borderRadius": 16,
+        "padding": {
+          "t": 40,
+          "r": 40,
+          "b": 40,
+          "l": 40
+        },
+        "gap": 24,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "888:7369",
+      "figmaId": "888:7369",
+      "name": "State=Empty",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 350,
+        "h": 68
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "888:7370",
+      "figmaId": "888:7370",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "888:7371",
+      "figmaId": "888:7371",
+      "name": "支付目的*",
+      "type": "TEXT",
+      "text": "支付目的*",
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "888:7372",
+      "figmaId": "888:7372",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 60,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "888:7373",
+      "figmaId": "888:7373",
+      "name": "请选择支付目的",
+      "type": "TEXT",
+      "text": "请选择支付目的",
+      "box": {
+        "x": 52,
+        "y": 77,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 3
+    },
+    {
+      "key": "888:7374",
+      "figmaId": "888:7374",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 72,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "888:7375",
+      "figmaId": "888:7375",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 81,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "886:7241",
+      "figmaId": "886:7241",
+      "name": "State=Focus",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 132,
+        "w": 350,
+        "h": 68
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "886:7242",
+      "figmaId": "886:7242",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 132,
+        "w": 57,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "886:7243",
+      "figmaId": "886:7243",
+      "name": "支付目的 *",
+      "type": "TEXT",
+      "text": "支付目的 *",
+      "box": {
+        "x": 40,
+        "y": 132,
+        "w": 57,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7244",
+      "figmaId": "886:7244",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 152,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#eabb62@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "886:7245",
+      "figmaId": "886:7245",
+      "name": "请选择支付目的",
+      "type": "TEXT",
+      "text": "请选择支付目的",
+      "box": {
+        "x": 52,
+        "y": 169,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "886:7246",
+      "figmaId": "886:7246",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 164,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7247",
+      "figmaId": "886:7247",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 173,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "886:7248",
+      "figmaId": "886:7248",
+      "name": "State=Selected",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 224,
+        "w": 350,
+        "h": 68
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "886:7249",
+      "figmaId": "886:7249",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 224,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "886:7250",
+      "figmaId": "886:7250",
+      "name": "支付目的*",
+      "type": "TEXT",
+      "text": "支付目的*",
+      "box": {
+        "x": 40,
+        "y": 224,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7251",
+      "figmaId": "886:7251",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 244,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "886:7252",
+      "figmaId": "886:7252",
+      "name": "货款",
+      "type": "TEXT",
+      "text": "货款",
+      "box": {
+        "x": 52,
+        "y": 261,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 3
+    },
+    {
+      "key": "886:7253",
+      "figmaId": "886:7253",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 256,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7254",
+      "figmaId": "886:7254",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 265,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "886:7255",
+      "figmaId": "886:7255",
+      "name": "State=Error",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 316,
+        "w": 350,
+        "h": 68
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "886:7256",
+      "figmaId": "886:7256",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 316,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "886:7257",
+      "figmaId": "886:7257",
+      "name": "支付目的*",
+      "type": "TEXT",
+      "text": "支付目的*",
+      "box": {
+        "x": 40,
+        "y": 316,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7258",
+      "figmaId": "886:7258",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 336,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#f52f32@0.10",
+        "borderColor": "#f52f32",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "886:7259",
+      "figmaId": "886:7259",
+      "name": "请选择支付目的",
+      "type": "TEXT",
+      "text": "请选择支付目的",
+      "box": {
+        "x": 52,
+        "y": 353,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f52f32@0.10",
+        "borderColor": "#f52f32",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "886:7260",
+      "figmaId": "886:7260",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 348,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7261",
+      "figmaId": "886:7261",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 357,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "886:7262",
+      "figmaId": "886:7262",
+      "name": "State=Open",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 408,
+        "w": 350,
+        "h": 354
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "886:7263",
+      "figmaId": "886:7263",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 408,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "886:7264",
+      "figmaId": "886:7264",
+      "name": "支付目的*",
+      "type": "TEXT",
+      "text": "支付目的*",
+      "box": {
+        "x": 40,
+        "y": 408,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7265",
+      "figmaId": "886:7265",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 428,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#eabb62@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "886:7266",
+      "figmaId": "886:7266",
+      "name": "请选择支付目的",
+      "type": "TEXT",
+      "text": "请选择支付目的",
+      "box": {
+        "x": 52,
+        "y": 445,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "886:7267",
+      "figmaId": "886:7267",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 440,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7268",
+      "figmaId": "886:7268",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 449,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "886:7269",
+      "figmaId": "886:7269",
+      "name": "dropdown-panel",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 482,
+        "w": 350,
+        "h": 280
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 12,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "886:7270",
+      "figmaId": "886:7270",
+      "name": "option-货款",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 494,
+        "w": 326,
+        "h": 32
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 6,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7271",
+      "figmaId": "886:7271",
+      "name": "货款",
+      "type": "TEXT",
+      "text": "货款",
+      "box": {
+        "x": 64,
+        "y": 502.5,
+        "w": 26,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#eabb62"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 4
+    },
+    {
+      "key": "886:7272",
+      "figmaId": "886:7272",
+      "name": "option-服务费",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 526,
+        "w": 326,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7273",
+      "figmaId": "886:7273",
+      "name": "服务费",
+      "type": "TEXT",
+      "text": "服务费",
+      "box": {
+        "x": 64,
+        "y": 534.5,
+        "w": 39,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "886:7274",
+      "figmaId": "886:7274",
+      "name": "option-佣金",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 558,
+        "w": 326,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7275",
+      "figmaId": "886:7275",
+      "name": "佣金",
+      "type": "TEXT",
+      "text": "佣金",
+      "box": {
+        "x": 64,
+        "y": 566.5,
+        "w": 26,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "886:7276",
+      "figmaId": "886:7276",
+      "name": "option-工资发放",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 590,
+        "w": 326,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7277",
+      "figmaId": "886:7277",
+      "name": "工资发放",
+      "type": "TEXT",
+      "text": "工资发放",
+      "box": {
+        "x": 64,
+        "y": 598.5,
+        "w": 52,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "886:7278",
+      "figmaId": "886:7278",
+      "name": "option-家庭赡养",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 622,
+        "w": 326,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7279",
+      "figmaId": "886:7279",
+      "name": "家庭赡养",
+      "type": "TEXT",
+      "text": "家庭赡养",
+      "box": {
+        "x": 64,
+        "y": 630.5,
+        "w": 52,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "886:7280",
+      "figmaId": "886:7280",
+      "name": "option-个人消费",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 654,
+        "w": 326,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7281",
+      "figmaId": "886:7281",
+      "name": "个人消费",
+      "type": "TEXT",
+      "text": "个人消费",
+      "box": {
+        "x": 64,
+        "y": 662.5,
+        "w": 52,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "886:7282",
+      "figmaId": "886:7282",
+      "name": "option-教育学费",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 686,
+        "w": 326,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7283",
+      "figmaId": "886:7283",
+      "name": "教育学费",
+      "type": "TEXT",
+      "text": "教育学费",
+      "box": {
+        "x": 64,
+        "y": 694.5,
+        "w": 52,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "886:7284",
+      "figmaId": "886:7284",
+      "name": "option-其他",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 718,
+        "w": 326,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "886:7285",
+      "figmaId": "886:7285",
+      "name": "其他",
+      "type": "TEXT",
+      "text": "其他",
+      "box": {
+        "x": 64,
+        "y": 726.5,
+        "w": 26,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "902:7241",
+      "figmaId": "902:7241",
+      "name": "State=Open-Search-Empty",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 786,
+        "w": 350,
+        "h": 444
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "902:7242",
+      "figmaId": "902:7242",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 786,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "902:7243",
+      "figmaId": "902:7243",
+      "name": "支付目的*",
+      "type": "TEXT",
+      "text": "支付目的*",
+      "box": {
+        "x": 40,
+        "y": 786,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7244",
+      "figmaId": "902:7244",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 806,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#eabb62@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "902:7245",
+      "figmaId": "902:7245",
+      "name": "请选择支付目的",
+      "type": "TEXT",
+      "text": "请选择支付目的",
+      "box": {
+        "x": 52,
+        "y": 823,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "902:7246",
+      "figmaId": "902:7246",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 818,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7247",
+      "figmaId": "902:7247",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 827,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "902:7248",
+      "figmaId": "902:7248",
+      "name": "dropdown-panel",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 860,
+        "w": 350,
+        "h": 370
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1,
+        "borderRadius": 16,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 12,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 12,
+          "r": 8,
+          "b": 12,
+          "l": 8
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "887:20996",
+      "figmaId": "887:20996",
+      "name": "search-default",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 872,
+        "w": 334,
+        "h": 42
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 10,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "887:20997",
+      "figmaId": "887:20997",
+      "name": "search-box",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 872,
+        "w": 334,
+        "h": 42
+      },
+      "style": {
+        "backgroundColor": "#f6f6f4",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "887:20998",
+      "figmaId": "887:20998",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 60,
+        "y": 884,
+        "w": 98,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "887:20999",
+      "figmaId": "887:20999",
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 60,
+        "y": 884,
+        "w": 18,
+        "h": 18
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "887:21000",
+      "figmaId": "887:21000",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 60.94,
+        "y": 884.94,
+        "w": 16.13,
+        "h": 16.13
+      },
+      "style": {
+        "backgroundColor": "#aaa286"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "887:21001",
+      "figmaId": "887:21001",
+      "name": "搜索支付目的",
+      "type": "TEXT",
+      "text": "搜索支付目的",
+      "box": {
+        "x": 86,
+        "y": 886,
+        "w": 72,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f6f6f4",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 6
+    },
+    {
+      "key": "902:7255",
+      "figmaId": "902:7255",
+      "name": "row-货款",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 920,
+        "w": 334,
+        "h": 32
+      },
+      "style": {
+        "borderRadius": 10,
+        "padding": {
+          "t": 0,
+          "r": 12,
+          "b": 0,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7256",
+      "figmaId": "902:7256",
+      "name": "left",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 60,
+        "y": 929,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "902:7257",
+      "figmaId": "902:7257",
+      "name": "货款",
+      "type": "TEXT",
+      "text": "货款",
+      "box": {
+        "x": 60,
+        "y": 929,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "902:7258",
+      "figmaId": "902:7258",
+      "name": "row-服务费",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 958,
+        "w": 334,
+        "h": 32
+      },
+      "style": {
+        "borderRadius": 10,
+        "padding": {
+          "t": 0,
+          "r": 12,
+          "b": 0,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7259",
+      "figmaId": "902:7259",
+      "name": "left",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 60,
+        "y": 967,
+        "w": 36,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "902:7260",
+      "figmaId": "902:7260",
+      "name": "服务费",
+      "type": "TEXT",
+      "text": "服务费",
+      "box": {
+        "x": 60,
+        "y": 967,
+        "w": 36,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "902:7261",
+      "figmaId": "902:7261",
+      "name": "row-佣金",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 996,
+        "w": 334,
+        "h": 32
+      },
+      "style": {
+        "borderRadius": 10,
+        "padding": {
+          "t": 0,
+          "r": 12,
+          "b": 0,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7262",
+      "figmaId": "902:7262",
+      "name": "left",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 60,
+        "y": 1005,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "902:7263",
+      "figmaId": "902:7263",
+      "name": "佣金",
+      "type": "TEXT",
+      "text": "佣金",
+      "box": {
+        "x": 60,
+        "y": 1005,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "902:7264",
+      "figmaId": "902:7264",
+      "name": "row-工资发放",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 1034,
+        "w": 334,
+        "h": 32
+      },
+      "style": {
+        "borderRadius": 10,
+        "padding": {
+          "t": 0,
+          "r": 12,
+          "b": 0,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7265",
+      "figmaId": "902:7265",
+      "name": "left",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 60,
+        "y": 1043,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "902:7266",
+      "figmaId": "902:7266",
+      "name": "工资发放",
+      "type": "TEXT",
+      "text": "工资发放",
+      "box": {
+        "x": 60,
+        "y": 1043,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "902:7267",
+      "figmaId": "902:7267",
+      "name": "row-家庭赡养",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 1072,
+        "w": 334,
+        "h": 32
+      },
+      "style": {
+        "borderRadius": 10,
+        "padding": {
+          "t": 0,
+          "r": 12,
+          "b": 0,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7268",
+      "figmaId": "902:7268",
+      "name": "left",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 60,
+        "y": 1081,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "902:7269",
+      "figmaId": "902:7269",
+      "name": "家庭赡养",
+      "type": "TEXT",
+      "text": "家庭赡养",
+      "box": {
+        "x": 60,
+        "y": 1081,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "902:7270",
+      "figmaId": "902:7270",
+      "name": "row-个人消费",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 1110,
+        "w": 334,
+        "h": 32
+      },
+      "style": {
+        "borderRadius": 10,
+        "padding": {
+          "t": 0,
+          "r": 12,
+          "b": 0,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7271",
+      "figmaId": "902:7271",
+      "name": "left",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 60,
+        "y": 1119,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "902:7272",
+      "figmaId": "902:7272",
+      "name": "个人消费",
+      "type": "TEXT",
+      "text": "个人消费",
+      "box": {
+        "x": 60,
+        "y": 1119,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "902:7273",
+      "figmaId": "902:7273",
+      "name": "row-教育学费",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 1148,
+        "w": 334,
+        "h": 32
+      },
+      "style": {
+        "borderRadius": 10,
+        "padding": {
+          "t": 0,
+          "r": 12,
+          "b": 0,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7274",
+      "figmaId": "902:7274",
+      "name": "left",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 60,
+        "y": 1157,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "902:7275",
+      "figmaId": "902:7275",
+      "name": "教育学费",
+      "type": "TEXT",
+      "text": "教育学费",
+      "box": {
+        "x": 60,
+        "y": 1157,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "902:7276",
+      "figmaId": "902:7276",
+      "name": "row-其他",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 1186,
+        "w": 334,
+        "h": 32
+      },
+      "style": {
+        "borderRadius": 10,
+        "padding": {
+          "t": 0,
+          "r": 12,
+          "b": 0,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7277",
+      "figmaId": "902:7277",
+      "name": "left",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 60,
+        "y": 1195,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "902:7278",
+      "figmaId": "902:7278",
+      "name": "其他",
+      "type": "TEXT",
+      "text": "其他",
+      "box": {
+        "x": 60,
+        "y": 1195,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "902:7279",
+      "figmaId": "902:7279",
+      "name": "State=Open-Searching",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 1254,
+        "w": 350,
+        "h": 180
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "902:7280",
+      "figmaId": "902:7280",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 1254,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "902:7281",
+      "figmaId": "902:7281",
+      "name": "支付目的*",
+      "type": "TEXT",
+      "text": "支付目的*",
+      "box": {
+        "x": 40,
+        "y": 1254,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7282",
+      "figmaId": "902:7282",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 1274,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#eabb62@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "902:7283",
+      "figmaId": "902:7283",
+      "name": "请选择支付目的",
+      "type": "TEXT",
+      "text": "请选择支付目的",
+      "box": {
+        "x": 52,
+        "y": 1291,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "902:7284",
+      "figmaId": "902:7284",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 1286,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7285",
+      "figmaId": "902:7285",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 1295,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "902:7286",
+      "figmaId": "902:7286",
+      "name": "dropdown-panel",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 1328,
+        "w": 350,
+        "h": 106
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1,
+        "borderRadius": 16,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 12,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 12,
+          "r": 8,
+          "b": 12,
+          "l": 8
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "887:21002",
+      "figmaId": "887:21002",
+      "name": "search-typing",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 1340,
+        "w": 334,
+        "h": 44
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 10,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "887:21003",
+      "figmaId": "887:21003",
+      "name": "search-box",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 1340,
+        "w": 334,
+        "h": 44
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 14,
+          "b": 12,
+          "l": 14
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "887:21004",
+      "figmaId": "887:21004",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 62,
+        "y": 1353,
+        "w": 42,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "887:21005",
+      "figmaId": "887:21005",
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 62,
+        "y": 1353,
+        "w": 18,
+        "h": 18
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "887:21006",
+      "figmaId": "887:21006",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 62.94,
+        "y": 1353.94,
+        "w": 16.13,
+        "h": 16.13
+      },
+      "style": {
+        "backgroundColor": "#aaa286"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "887:21007",
+      "figmaId": "887:21007",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 88,
+        "y": 1353,
+        "w": 16,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 2,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "887:21008",
+      "figmaId": "887:21008",
+      "name": "货",
+      "type": "TEXT",
+      "text": "货",
+      "box": {
+        "x": 88,
+        "y": 1355,
+        "w": 12,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5
+      },
+      "depth": 7
+    },
+    {
+      "key": "887:21009",
+      "figmaId": "887:21009",
+      "name": "Rectangle",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 102,
+        "y": 1353,
+        "w": 2,
+        "h": 18
+      },
+      "style": {
+        "backgroundColor": "#eabb62"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "887:21010",
+      "figmaId": "887:21010",
+      "name": "Outline / Essentional, UI / Close Circle",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 348,
+        "y": 1352,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "887:21011",
+      "figmaId": "887:21011",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 349.04,
+        "y": 1353.04,
+        "w": 17.92,
+        "h": 17.92
+      },
+      "style": {
+        "backgroundColor": "#aaa286"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "902:7297",
+      "figmaId": "902:7297",
+      "name": "row-货款",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 1390,
+        "w": 334,
+        "h": 32
+      },
+      "style": {
+        "borderRadius": 10,
+        "padding": {
+          "t": 0,
+          "r": 12,
+          "b": 0,
+          "l": 12
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7298",
+      "figmaId": "902:7298",
+      "name": "left",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 60,
+        "y": 1399,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "902:7299",
+      "figmaId": "902:7299",
+      "name": "货款",
+      "type": "TEXT",
+      "text": "货款",
+      "box": {
+        "x": 60,
+        "y": 1399,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "902:7300",
+      "figmaId": "902:7300",
+      "name": "State=Open-NoResults",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 1458,
+        "w": 350,
+        "h": 282
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "902:7301",
+      "figmaId": "902:7301",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 1458,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "902:7302",
+      "figmaId": "902:7302",
+      "name": "支付目的*",
+      "type": "TEXT",
+      "text": "支付目的*",
+      "box": {
+        "x": 40,
+        "y": 1458,
+        "w": 54,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7303",
+      "figmaId": "902:7303",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 1478,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#eabb62@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "902:7304",
+      "figmaId": "902:7304",
+      "name": "请选择支付目的",
+      "type": "TEXT",
+      "text": "请选择支付目的",
+      "box": {
+        "x": 52,
+        "y": 1495,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "902:7305",
+      "figmaId": "902:7305",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 1490,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "902:7306",
+      "figmaId": "902:7306",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 1499,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "902:7307",
+      "figmaId": "902:7307",
+      "name": "dropdown-panel",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 1532,
+        "w": 350,
+        "h": 208
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1,
+        "borderRadius": 16,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 12,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 12,
+          "r": 8,
+          "b": 12,
+          "l": 8
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "902:7308",
+      "figmaId": "902:7308",
+      "name": "search-noresult",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 1544,
+        "w": 334,
+        "h": 184
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 10,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I902:7308;441:34",
+      "figmaId": "I902:7308;441:34",
+      "name": "search-box",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 1544,
+        "w": 334,
+        "h": 44
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I902:7308;441:35",
+      "figmaId": "I902:7308;441:35",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 60,
+        "y": 1557,
+        "w": 45,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I902:7308;441:36",
+      "figmaId": "I902:7308;441:36",
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 60,
+        "y": 1557,
+        "w": 18,
+        "h": 18
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "I902:7308;441:37",
+      "figmaId": "I902:7308;441:37",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 60.94,
+        "y": 1557.94,
+        "w": 16.13,
+        "h": 16.13
+      },
+      "style": {
+        "backgroundColor": "#aaa286"
+      },
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "I902:7308;441:38",
+      "figmaId": "I902:7308;441:38",
+      "name": "Xyzzz",
+      "type": "TEXT",
+      "text": "xyz",
+      "box": {
+        "x": 86,
+        "y": 1559,
+        "w": 19,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 6
+    },
+    {
+      "key": "I902:7308;887:21022",
+      "figmaId": "I902:7308;887:21022",
+      "name": "Linear / Essentional, UI / Close Circle",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 350,
+        "y": 1556,
+        "w": 20,
+        "h": 20
+      },
+      "style": {
+        "borderRadius": 30
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I902:7308;887:21023",
+      "figmaId": "I902:7308;887:21023",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 356,
+        "y": 1562,
+        "w": 8,
+        "h": 8
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "I902:7308;441:42",
+      "figmaId": "I902:7308;441:42",
+      "name": "empty-hint",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 48,
+        "y": 1598,
+        "w": 334,
+        "h": 130
+      },
+      "style": {
+        "padding": {
+          "t": 24,
+          "r": 0,
+          "b": 24,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I902:7308;441:43",
+      "figmaId": "I902:7308;441:43",
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 199,
+        "y": 1622,
+        "w": 32,
+        "h": 32
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I902:7308;441:44",
+      "figmaId": "I902:7308;441:44",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 200.67,
+        "y": 1623.67,
+        "w": 28.67,
+        "h": 28.67
+      },
+      "style": {
+        "backgroundColor": "#aaa286"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "I902:7308;441:45",
+      "figmaId": "I902:7308;441:45",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 214.5,
+        "y": 1660,
+        "w": 1,
+        "h": 2
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I902:7308;441:46",
+      "figmaId": "I902:7308;441:46",
+      "name": "没有找到相关国家或区号",
+      "type": "TEXT",
+      "text": "没有找到相关支付目的",
+      "box": {
+        "x": 145,
+        "y": 1668,
+        "w": 140,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "I902:7308;441:47",
+      "figmaId": "I902:7308;441:47",
+      "name": "换个关键词试试",
+      "type": "TEXT",
+      "text": "换个关键词试试",
+      "box": {
+        "x": 173,
+        "y": 1690,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 5
+    }
+  ]
+}

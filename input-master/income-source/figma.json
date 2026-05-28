@@ -1,0 +1,2744 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "888:7368",
+    "name": "转账信息·收入来源",
+    "width": 430,
+    "height": 1180
+  },
+  "nodes": [
+    {
+      "key": "888:7368",
+      "figmaId": "888:7368",
+      "name": "转账信息·收入来源",
+      "type": "COMPONENT_SET",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 430,
+        "h": 1180
+      },
+      "style": {
+        "backgroundColor": "#fafaf7",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1,
+        "borderRadius": 16,
+        "padding": {
+          "t": 40,
+          "r": 40,
+          "b": 40,
+          "l": 40
+        },
+        "gap": 24,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "888:7361",
+      "figmaId": "888:7361",
+      "name": "State=Empty",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 350,
+        "h": 68
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "888:7362",
+      "figmaId": "888:7362",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "888:7363",
+      "figmaId": "888:7363",
+      "name": "收入来源",
+      "type": "TEXT",
+      "text": "收入来源",
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "888:7364",
+      "figmaId": "888:7364",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 60,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "888:7365",
+      "figmaId": "888:7365",
+      "name": "请选择收入来源",
+      "type": "TEXT",
+      "text": "请选择收入来源",
+      "box": {
+        "x": 52,
+        "y": 77,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 3
+    },
+    {
+      "key": "888:7366",
+      "figmaId": "888:7366",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 72,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "888:7367",
+      "figmaId": "888:7367",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 81,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7241",
+      "figmaId": "885:7241",
+      "name": "State=Focus",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 132,
+        "w": 350,
+        "h": 68
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "885:7242",
+      "figmaId": "885:7242",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 132,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "885:7243",
+      "figmaId": "885:7243",
+      "name": "收入来源",
+      "type": "TEXT",
+      "text": "收入来源",
+      "box": {
+        "x": 40,
+        "y": 132,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7244",
+      "figmaId": "885:7244",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 152,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#eabb62@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "885:7245",
+      "figmaId": "885:7245",
+      "name": "请选择收入来源",
+      "type": "TEXT",
+      "text": "请选择收入来源",
+      "box": {
+        "x": 52,
+        "y": 169,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "885:7246",
+      "figmaId": "885:7246",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 164,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7247",
+      "figmaId": "885:7247",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 173,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7248",
+      "figmaId": "885:7248",
+      "name": "State=Error",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 224,
+        "w": 350,
+        "h": 68
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "885:7249",
+      "figmaId": "885:7249",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 224,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "885:7250",
+      "figmaId": "885:7250",
+      "name": "收入来源",
+      "type": "TEXT",
+      "text": "收入来源",
+      "box": {
+        "x": 40,
+        "y": 224,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7251",
+      "figmaId": "885:7251",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 244,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#f52f32@0.10",
+        "borderColor": "#f52f32",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "885:7252",
+      "figmaId": "885:7252",
+      "name": "请选择收入来源",
+      "type": "TEXT",
+      "text": "请选择收入来源",
+      "box": {
+        "x": 52,
+        "y": 261,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f52f32@0.10",
+        "borderColor": "#f52f32",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "885:7253",
+      "figmaId": "885:7253",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 256,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7254",
+      "figmaId": "885:7254",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 265,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7255",
+      "figmaId": "885:7255",
+      "name": "State=MultiSelected",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 316,
+        "w": 350,
+        "h": 68
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "885:7256",
+      "figmaId": "885:7256",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 316,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "885:7257",
+      "figmaId": "885:7257",
+      "name": "收入来源",
+      "type": "TEXT",
+      "text": "收入来源",
+      "box": {
+        "x": 40,
+        "y": 316,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7258",
+      "figmaId": "885:7258",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 336,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "885:7262",
+      "figmaId": "885:7262",
+      "name": "selected-chips",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 349,
+        "w": 152,
+        "h": 22
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7263",
+      "figmaId": "885:7263",
+      "name": "chip-公司分红",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 349,
+        "w": 73,
+        "h": 22
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.12",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1,
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 6,
+          "b": 4,
+          "l": 8
+        },
+        "gap": 4,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7264",
+      "figmaId": "885:7264",
+      "name": "公司分红",
+      "type": "TEXT",
+      "text": "公司分红",
+      "box": {
+        "x": 60,
+        "y": 353,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.12",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "885:7265",
+      "figmaId": "885:7265",
+      "name": "×",
+      "type": "TEXT",
+      "text": "×",
+      "box": {
+        "x": 112,
+        "y": 353,
+        "w": 7,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.12",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "885:7266",
+      "figmaId": "885:7266",
+      "name": "chip-投资收益",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 131,
+        "y": 349,
+        "w": 73,
+        "h": 22
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.12",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1,
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 6,
+          "b": 4,
+          "l": 8
+        },
+        "gap": 4,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7267",
+      "figmaId": "885:7267",
+      "name": "投资收益",
+      "type": "TEXT",
+      "text": "投资收益",
+      "box": {
+        "x": 139,
+        "y": 353,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.12",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "885:7268",
+      "figmaId": "885:7268",
+      "name": "×",
+      "type": "TEXT",
+      "text": "×",
+      "box": {
+        "x": 191,
+        "y": 353,
+        "w": 7,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.12",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "885:7260",
+      "figmaId": "885:7260",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 348,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7261",
+      "figmaId": "885:7261",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 357,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7269",
+      "figmaId": "885:7269",
+      "name": "State=Open-Empty",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 408,
+        "w": 350,
+        "h": 354
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "885:7270",
+      "figmaId": "885:7270",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 408,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "885:7271",
+      "figmaId": "885:7271",
+      "name": "收入来源",
+      "type": "TEXT",
+      "text": "收入来源",
+      "box": {
+        "x": 40,
+        "y": 408,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7272",
+      "figmaId": "885:7272",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 428,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#eabb62@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "885:7273",
+      "figmaId": "885:7273",
+      "name": "请选择收入来源",
+      "type": "TEXT",
+      "text": "请选择收入来源",
+      "box": {
+        "x": 52,
+        "y": 445,
+        "w": 84,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "885:7274",
+      "figmaId": "885:7274",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 440,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7275",
+      "figmaId": "885:7275",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 449,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7276",
+      "figmaId": "885:7276",
+      "name": "ms-dropdown-panel",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 482,
+        "w": 350,
+        "h": 280
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 12,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 12,
+          "r": 0,
+          "b": 12,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "885:7277",
+      "figmaId": "885:7277",
+      "name": "option-工资收入",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 494,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7278",
+      "figmaId": "885:7278",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 503,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7279",
+      "figmaId": "885:7279",
+      "name": "工资收入",
+      "type": "TEXT",
+      "text": "工资收入",
+      "box": {
+        "x": 80,
+        "y": 502.5,
+        "w": 52,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7280",
+      "figmaId": "885:7280",
+      "name": "option-个体经营",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 526,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7281",
+      "figmaId": "885:7281",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 535,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7282",
+      "figmaId": "885:7282",
+      "name": "个体经营",
+      "type": "TEXT",
+      "text": "个体经营",
+      "box": {
+        "x": 80,
+        "y": 534.5,
+        "w": 52,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7283",
+      "figmaId": "885:7283",
+      "name": "option-公司分红",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 558,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7284",
+      "figmaId": "885:7284",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 567,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7285",
+      "figmaId": "885:7285",
+      "name": "公司分红",
+      "type": "TEXT",
+      "text": "公司分红",
+      "box": {
+        "x": 80,
+        "y": 566.5,
+        "w": 52,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7286",
+      "figmaId": "885:7286",
+      "name": "option-投资收益",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 590,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7287",
+      "figmaId": "885:7287",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 599,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7288",
+      "figmaId": "885:7288",
+      "name": "投资收益",
+      "type": "TEXT",
+      "text": "投资收益",
+      "box": {
+        "x": 80,
+        "y": 598.5,
+        "w": 52,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7289",
+      "figmaId": "885:7289",
+      "name": "option-房地产收入",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 622,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7290",
+      "figmaId": "885:7290",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 631,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7291",
+      "figmaId": "885:7291",
+      "name": "房地产收入",
+      "type": "TEXT",
+      "text": "房地产收入",
+      "box": {
+        "x": 80,
+        "y": 630.5,
+        "w": 65,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7292",
+      "figmaId": "885:7292",
+      "name": "option-继承",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 654,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7293",
+      "figmaId": "885:7293",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 663,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7294",
+      "figmaId": "885:7294",
+      "name": "继承",
+      "type": "TEXT",
+      "text": "继承",
+      "box": {
+        "x": 80,
+        "y": 662.5,
+        "w": 26,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7295",
+      "figmaId": "885:7295",
+      "name": "option-赠与",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 686,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7296",
+      "figmaId": "885:7296",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 695,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7297",
+      "figmaId": "885:7297",
+      "name": "赠与",
+      "type": "TEXT",
+      "text": "赠与",
+      "box": {
+        "x": 80,
+        "y": 694.5,
+        "w": 26,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7298",
+      "figmaId": "885:7298",
+      "name": "option-储蓄",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 718,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7299",
+      "figmaId": "885:7299",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 727,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7300",
+      "figmaId": "885:7300",
+      "name": "储蓄",
+      "type": "TEXT",
+      "text": "储蓄",
+      "box": {
+        "x": 80,
+        "y": 726.5,
+        "w": 26,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7301",
+      "figmaId": "885:7301",
+      "name": "State=Open-Selected",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 786,
+        "w": 350,
+        "h": 354
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "885:7302",
+      "figmaId": "885:7302",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 786,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "885:7303",
+      "figmaId": "885:7303",
+      "name": "收入来源",
+      "type": "TEXT",
+      "text": "收入来源",
+      "box": {
+        "x": 40,
+        "y": 786,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7304",
+      "figmaId": "885:7304",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 806,
+        "w": 350,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#eabb62@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "885:7308",
+      "figmaId": "885:7308",
+      "name": "selected-chips",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 819,
+        "w": 152,
+        "h": 22
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7309",
+      "figmaId": "885:7309",
+      "name": "chip-公司分红",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 819,
+        "w": 73,
+        "h": 22
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.12",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1,
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 6,
+          "b": 4,
+          "l": 8
+        },
+        "gap": 4,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7310",
+      "figmaId": "885:7310",
+      "name": "公司分红",
+      "type": "TEXT",
+      "text": "公司分红",
+      "box": {
+        "x": 60,
+        "y": 823,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.12",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "885:7311",
+      "figmaId": "885:7311",
+      "name": "×",
+      "type": "TEXT",
+      "text": "×",
+      "box": {
+        "x": 112,
+        "y": 823,
+        "w": 7,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.12",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "885:7312",
+      "figmaId": "885:7312",
+      "name": "chip-投资收益",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 131,
+        "y": 819,
+        "w": 73,
+        "h": 22
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.12",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1,
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 6,
+          "b": 4,
+          "l": 8
+        },
+        "gap": 4,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7313",
+      "figmaId": "885:7313",
+      "name": "投资收益",
+      "type": "TEXT",
+      "text": "投资收益",
+      "box": {
+        "x": 139,
+        "y": 823,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.12",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "885:7314",
+      "figmaId": "885:7314",
+      "name": "×",
+      "type": "TEXT",
+      "text": "×",
+      "box": {
+        "x": 191,
+        "y": 823,
+        "w": 7,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.12",
+        "borderColor": "#eabb62@0.60",
+        "borderWidth": 1
+      },
+      "depth": 5
+    },
+    {
+      "key": "885:7306",
+      "figmaId": "885:7306",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 354,
+        "y": 818,
+        "w": 24,
+        "h": 24
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7307",
+      "figmaId": "885:7307",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 359,
+        "y": 827,
+        "w": 14,
+        "h": 6
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7315",
+      "figmaId": "885:7315",
+      "name": "ms-dropdown-panel",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 860,
+        "w": 350,
+        "h": 280
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 12,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 12,
+          "r": 0,
+          "b": 12,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "885:7316",
+      "figmaId": "885:7316",
+      "name": "option-工资收入",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 872,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7317",
+      "figmaId": "885:7317",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 881,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7318",
+      "figmaId": "885:7318",
+      "name": "工资收入",
+      "type": "TEXT",
+      "text": "工资收入",
+      "box": {
+        "x": 80,
+        "y": 880.5,
+        "w": 52,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7319",
+      "figmaId": "885:7319",
+      "name": "option-个体经营",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 904,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7320",
+      "figmaId": "885:7320",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 913,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7321",
+      "figmaId": "885:7321",
+      "name": "个体经营",
+      "type": "TEXT",
+      "text": "个体经营",
+      "box": {
+        "x": 80,
+        "y": 912.5,
+        "w": 52,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7322",
+      "figmaId": "885:7322",
+      "name": "option-公司分红",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 936,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "887:20765",
+      "figmaId": "887:20765",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 945,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 7,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "887:20766",
+      "figmaId": "887:20766",
+      "name": "icon-check",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 947,
+        "w": 10,
+        "h": 10
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "887:20767",
+      "figmaId": "887:20767",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 59.67,
+        "y": 949.5,
+        "w": 6.67,
+        "h": 4.58
+      },
+      "style": {
+        "borderColor": "#fcfcfa",
+        "borderWidth": 1.1666667461395264
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "885:7325",
+      "figmaId": "885:7325",
+      "name": "公司分红",
+      "type": "TEXT",
+      "text": "公司分红",
+      "box": {
+        "x": 80,
+        "y": 944.5,
+        "w": 52,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#eabb62"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7326",
+      "figmaId": "885:7326",
+      "name": "option-投资收益",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 968,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "887:20769",
+      "figmaId": "887:20769",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 977,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 7,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "887:20770",
+      "figmaId": "887:20770",
+      "name": "icon-check",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 58,
+        "y": 979,
+        "w": 10,
+        "h": 10
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "887:20771",
+      "figmaId": "887:20771",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 59.67,
+        "y": 981.5,
+        "w": 6.67,
+        "h": 4.58
+      },
+      "style": {
+        "borderColor": "#fcfcfa",
+        "borderWidth": 1.1666667461395264
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "885:7329",
+      "figmaId": "885:7329",
+      "name": "投资收益",
+      "type": "TEXT",
+      "text": "投资收益",
+      "box": {
+        "x": 80,
+        "y": 976.5,
+        "w": 52,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#eabb62"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7330",
+      "figmaId": "885:7330",
+      "name": "option-房地产收入",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 1000,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7331",
+      "figmaId": "885:7331",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 1009,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7332",
+      "figmaId": "885:7332",
+      "name": "房地产收入",
+      "type": "TEXT",
+      "text": "房地产收入",
+      "box": {
+        "x": 80,
+        "y": 1008.5,
+        "w": 65,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7333",
+      "figmaId": "885:7333",
+      "name": "option-继承",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 1032,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7334",
+      "figmaId": "885:7334",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 1041,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7335",
+      "figmaId": "885:7335",
+      "name": "继承",
+      "type": "TEXT",
+      "text": "继承",
+      "box": {
+        "x": 80,
+        "y": 1040.5,
+        "w": 26,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7336",
+      "figmaId": "885:7336",
+      "name": "option-赠与",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 1064,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7337",
+      "figmaId": "885:7337",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 1073,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7338",
+      "figmaId": "885:7338",
+      "name": "赠与",
+      "type": "TEXT",
+      "text": "赠与",
+      "box": {
+        "x": 80,
+        "y": 1072.5,
+        "w": 26,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "885:7339",
+      "figmaId": "885:7339",
+      "name": "option-储蓄",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 1096,
+        "w": 350,
+        "h": 32
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 16
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "885:7340",
+      "figmaId": "885:7340",
+      "name": "checkbox",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 1105,
+        "w": 14,
+        "h": 14
+      },
+      "style": {
+        "borderColor": "#aaa286@0.60",
+        "borderWidth": 1,
+        "borderRadius": 3
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "885:7341",
+      "figmaId": "885:7341",
+      "name": "储蓄",
+      "type": "TEXT",
+      "text": "储蓄",
+      "box": {
+        "x": 80,
+        "y": 1104.5,
+        "w": 26,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 4
+    }
+  ]
+}

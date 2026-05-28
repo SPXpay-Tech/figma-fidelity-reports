@@ -1,0 +1,40 @@
+{
+  "frame": {
+    "id": "922:8515",
+    "name": "划转相关·实收金额",
+    "width": 430,
+    "height": 293
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 0,
+  "regions": [
+    {
+      "name": "State=计算中",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 119,
+        "w": 350,
+        "h": 55
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.8
+    },
+    {
+      "name": "State=未选转入",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 198,
+        "w": 350,
+        "h": 55
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.2
+    }
+  ]
+}

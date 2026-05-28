@@ -1,0 +1,59 @@
+{
+  "frame": {
+    "id": "917:9387",
+    "name": "划转相关·实收金额",
+    "width": 430,
+    "height": 332
+  },
+  "checked": 3,
+  "fails": 0,
+  "warns": 3,
+  "waived": 0,
+  "icons": [
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "917:7868",
+      "box": {
+        "x": 354,
+        "y": 72,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "917:7995",
+      "box": {
+        "x": 354,
+        "y": 164,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "icon",
+      "figmaId": "917:7965",
+      "box": {
+        "x": 362,
+        "y": 260,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    }
+  ]
+}

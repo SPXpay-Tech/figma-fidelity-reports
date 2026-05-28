@@ -1,0 +1,832 @@
+{
+  "frame": {
+    "id": "929:8500",
+    "name": "划转·下拉面板",
+    "width": 430,
+    "height": 848
+  },
+  "offset": {
+    "x": 1,
+    "y": 1.97
+  },
+  "threshold": 12,
+  "flagged": 0,
+  "regions": [
+    {
+      "name": "row-SPX 资金账户 HKD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 360,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.8
+    },
+    {
+      "name": "row-SPX 资金账户 HKD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 756,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.8
+    },
+    {
+      "name": "row-SPX 资金账户 USD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 272,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.7
+    },
+    {
+      "name": "row-SPX 资金账户 EUR",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 316,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.7
+    },
+    {
+      "name": "row-SPX 资金账户 USD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 668,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": "#9ca3af@0.10",
+      "mismatch": 1.7
+    },
+    {
+      "name": "row-SPX 资金账户 EUR",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 712,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.7
+    },
+    {
+      "name": "row-SGB 银行账户 HKD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 96,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.6
+    },
+    {
+      "name": "row-SGB 银行账户 HKD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 492,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.6
+    },
+    {
+      "name": "row-SGB 银行账户 EUR",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 140,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.5
+    },
+    {
+      "name": "State=转出",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 436,
+        "w": 350,
+        "h": 372
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.5
+    },
+    {
+      "name": "row-SGB 银行账户 EUR",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 536,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.5
+    },
+    {
+      "name": "row-SGB 银行账户 SGD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 184,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.4
+    },
+    {
+      "name": "row-SGB 银行账户 USD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 448,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.4
+    },
+    {
+      "name": "row-SGB 银行账户 SGD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 580,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.4
+    },
+    {
+      "name": "row-SGB 银行账户 GBP",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 624,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.4
+    },
+    {
+      "name": "row-SGB 银行账户 GBP",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 228,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": null,
+      "mismatch": 1.3
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 284,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0.1
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 328,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0.1
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 680,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0.1
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 724,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0.1
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 768,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0.1
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 60,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 64,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 66,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 66,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 104,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 108,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 110,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 110,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 148,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 152,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 154,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 154,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 192,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 196,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 198,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 198,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 236,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 240,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 242,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 242,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 280,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 324,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 368,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 372,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 456,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#9ca3af@0.20",
+      "mismatch": 0
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 460,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 462,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 462,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 500,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#9ca3af@0.20",
+      "mismatch": 0
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 504,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 506,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 506,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 544,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#9ca3af@0.20",
+      "mismatch": 0
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 548,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 550,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 550,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 588,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#9ca3af@0.20",
+      "mismatch": 0
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 592,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 594,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 594,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 632,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#9ca3af@0.20",
+      "mismatch": 0
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 636,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 638,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 66,
+        "y": 638,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 676,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#9ca3af@0.20",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 720,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#9ca3af@0.20",
+      "mismatch": 0
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 60,
+        "y": 764,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#9ca3af@0.20",
+      "mismatch": 0
+    }
+  ]
+}

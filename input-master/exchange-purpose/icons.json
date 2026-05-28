@@ -1,0 +1,44 @@
+{
+  "frame": {
+    "id": "917:10462",
+    "name": "转账信息·支付目的",
+    "width": 880,
+    "height": 480
+  },
+  "checked": 2,
+  "fails": 0,
+  "warns": 2,
+  "waived": 0,
+  "icons": [
+    {
+      "name": "arrow-down",
+      "figmaId": "I917:11281;939:7967",
+      "box": {
+        "x": 346,
+        "y": 86,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "arrow-down",
+      "figmaId": "I917:11291;942:7974",
+      "box": {
+        "x": 346,
+        "y": 228,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    }
+  ]
+}
