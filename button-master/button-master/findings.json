@@ -1,0 +1,3726 @@
+{
+  "meta": {
+    "figmaFrame": {
+      "id": "454:3372",
+      "name": "🔘 按钮组件母版 · 全集预览 Button Masters · Library v1",
+      "width": 2541,
+      "height": 785
+    },
+    "implFrame": {
+      "id": "page",
+      "name": "page",
+      "width": 2541,
+      "height": 1400
+    },
+    "matchMode": "tagged",
+    "originOffset": {
+      "x": 408.5,
+      "y": 33
+    },
+    "generated": "2026-05-28T05:31:06.296Z"
+  },
+  "summary": {
+    "checks": 289,
+    "fails": 260,
+    "fidelityScore": 10,
+    "bySeverity": {
+      "major": 10,
+      "critical": 214,
+      "minor": 36
+    },
+    "gate": {
+      "blocking": 224,
+      "minor": 36,
+      "pass": false
+    }
+  },
+  "failsByNode": {
+    "🔘 按钮组件母版 · 全集预览 Button Masters · Library v1": [
+      "box.x: 3102 → move to x≈0px",
+      "box.y: 723 → move to y≈0px",
+      "box.w: 160 → set width to 2541px",
+      "box.h: 54 → set height to 785px",
+      "backgroundColor: #eabb62 → set background to #ffffff",
+      "borderRadius: 12 → set border-radius to 24px",
+      "padding.t: 0 → set padding-top to 44px",
+      "padding.r: 0 → set padding-right to 44px",
+      "padding.b: 0 → set padding-bottom to 48px",
+      "padding.l: 0 → set padding-left to 44px"
+    ],
+    "title": [
+      "*: MISSING → expected present"
+    ],
+    "🧩 登录组件母版 · 全集预览 Login Components · Library v1": [
+      "*: MISSING → expected present"
+    ],
+    "row": [
+      "*: MISSING → expected present"
+    ],
+    "col·返回按钮 Nav Back": [
+      "*: MISSING → expected present"
+    ],
+    "cap": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "返回按钮 Nav Back": [
+      "*: MISSING → expected present"
+    ],
+    "顶部返回 · 单态": [
+      "*: MISSING → expected present"
+    ],
+    "返回按钮 / Nav Back": [
+      "*: MISSING → expected present"
+    ],
+    "icon": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "Vector": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "col·分段控件 Segmented": [
+      "*: MISSING → expected present"
+    ],
+    "分段控件 Segmented": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "登录方式切换 · 2 态": [
+      "*: MISSING → expected present"
+    ],
+    "选中=密码登录": [
+      "*: MISSING → expected present"
+    ],
+    "seg": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "密码登录": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "邮箱登录": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "选中=邮箱登录": [
+      "*: MISSING → expected present"
+    ],
+    "col·主按钮 Button·Primary": [
+      "*: MISSING → expected present"
+    ],
+    "主按钮 Button·Primary": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "主行动按钮 · 3 态": [
+      "*: MISSING → expected present"
+    ],
+    "登录": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "Linear / Essentional, UI / Traffic  ": [
+      "*: MISSING → expected present"
+    ],
+    "状态=禁用": [
+      "box.y: 327 → move to y≈331px"
+    ],
+    "col·账户类型卡片 Card·Type": [
+      "*: MISSING → expected present"
+    ],
+    "账户类型卡片 Card·Type": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "个人/企业 × 默认/选中 · 4 态": [
+      "*: MISSING → expected present"
+    ],
+    "类型=个人, 状态=默认": [
+      "*: MISSING → expected present"
+    ],
+    "chip": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "tc": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "个人": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "个人用户": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "类型=个人, 状态=选中": [
+      "*: MISSING → expected present"
+    ],
+    "类型=个人收款账户, 状态=选中": [
+      "*: MISSING → expected present"
+    ],
+    "类型=个人收款账户, 状态=默认": [
+      "*: MISSING → expected present"
+    ],
+    "类型=企业收款账户, 状态=默认": [
+      "*: MISSING → expected present"
+    ],
+    "企业": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "类型=企业收款账户, 状态=选中": [
+      "*: MISSING → expected present"
+    ],
+    "类型=企业, 状态=默认": [
+      "*: MISSING → expected present"
+    ],
+    "公司机构": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "类型=企业, 状态=选中": [
+      "*: MISSING → expected present"
+    ],
+    "col·服务条款勾选框 Terms": [
+      "*: MISSING → expected present"
+    ],
+    "服务条款勾选框 Terms": [
+      "*: MISSING → expected present"
+    ],
+    "未勾选/已勾选/报错 · 3 态": [
+      "*: MISSING → expected present"
+    ],
+    "服务条款勾选框 Terms Checkbox": [
+      "*: MISSING → expected present"
+    ],
+    "状态=未勾选": [
+      "*: MISSING → expected present"
+    ],
+    "Checkbox · 勾选框": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "tt": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "我已阅读并同意": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "《服务条款》": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "状态=已勾选": [
+      "*: MISSING → expected present"
+    ],
+    "icon-check": [
+      "*: MISSING → expected present"
+    ],
+    "状态=报错": [
+      "*: MISSING → expected present"
+    ],
+    "col·文字链接 Text Link": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "文字链接 Text Link": [
+      "*: MISSING → expected present"
+    ],
+    "忘记密码 · 创建账户 · 单态": [
+      "*: MISSING → expected present"
+    ],
+    "links": [
+      "*: MISSING → expected present"
+    ],
+    "忘记密码": [
+      "*: MISSING → expected present"
+    ],
+    "忘记密码？": [
+      "*: MISSING → expected present"
+    ],
+    "重置": [
+      "*: MISSING → expected present"
+    ],
+    "创建账户": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "还没有账户？": [
+      "*: MISSING → expected present"
+    ],
+    "🌐 语言切换 Language Toggle": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "顶栏右上角 · 中文 / English 切换 · 2 态": [
+      "*: MISSING → expected present"
+    ],
+    "当前=中文": [
+      "*: MISSING → expected present"
+    ],
+    "seg-中": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "中": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "seg-EN": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "EN": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "当前=英文": [
+      "*: MISSING → expected present"
+    ],
+    "col·配饰 Accessory": [
+      "*: MISSING → expected present"
+    ],
+    "配饰 Accessory": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "顶栏/底部/LOGO/文案 · 4 态": [
+      "*: MISSING → expected present"
+    ],
+    "State=顶部拦": [
+      "*: MISSING → expected present"
+    ],
+    "9:41": [
+      "*: MISSING → expected present"
+    ],
+    "Frame": [
+      "*: MISSING → expected present"
+    ],
+    "State=底部": [
+      "*: MISSING → expected present"
+    ],
+    "Rectangle": [
+      "*: MISSING → expected present"
+    ],
+    "State=完整LOGO 黑": [
+      "*: MISSING → expected present"
+    ],
+    "Frame 2147225243": [
+      "*: MISSING → expected present"
+    ],
+    "Frame 2147225239": [
+      "*: MISSING → expected present"
+    ],
+    "Group 1707484082": [
+      "*: MISSING → expected present"
+    ],
+    "Subtract": [
+      "*: MISSING → expected present",
+      "*: MISSING → expected present"
+    ],
+    "Frame 2147225172": [
+      "*: MISSING → expected present"
+    ],
+    "SPX": [
+      "*: MISSING → expected present"
+    ],
+    "PAY": [
+      "*: MISSING → expected present"
+    ],
+    "State=文案": [
+      "*: MISSING → expected present"
+    ],
+    "欢迎回来 👋": [
+      "*: MISSING → expected present"
+    ],
+    "登录 SPX Pay，管理你的全球支付": [
+      "*: MISSING → expected present"
+    ],
+    "div.css-view-g5y9jx": [
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent",
+      "*: EXTRA → expected absent"
+    ]
+  },
+  "findings": [
+    {
+      "figmaId": "454:3372",
+      "node": "🔘 按钮组件母版 · 全集预览 Button Masters · Library v1",
+      "type": "FRAME",
+      "prop": "box.x",
+      "figma": 0,
+      "impl": 3102,
+      "delta": 3102,
+      "pass": false,
+      "severity": "major",
+      "hint": "move to x≈0px"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "🔘 按钮组件母版 · 全集预览 Button Masters · Library v1",
+      "type": "FRAME",
+      "prop": "box.y",
+      "figma": 0,
+      "impl": 723,
+      "delta": 723,
+      "pass": false,
+      "severity": "major",
+      "hint": "move to y≈0px"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "🔘 按钮组件母版 · 全集预览 Button Masters · Library v1",
+      "type": "FRAME",
+      "prop": "box.w",
+      "figma": 2541,
+      "impl": 160,
+      "delta": 2381,
+      "pass": false,
+      "severity": "major",
+      "hint": "set width to 2541px"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "🔘 按钮组件母版 · 全集预览 Button Masters · Library v1",
+      "type": "FRAME",
+      "prop": "box.h",
+      "figma": 785,
+      "impl": 54,
+      "delta": 731,
+      "pass": false,
+      "severity": "major",
+      "hint": "set height to 785px"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "🔘 按钮组件母版 · 全集预览 Button Masters · Library v1",
+      "type": "FRAME",
+      "prop": "backgroundColor",
+      "figma": "#ffffff",
+      "impl": "#eabb62",
+      "delta": 55.62,
+      "pass": false,
+      "severity": "major",
+      "hint": "set background to #ffffff"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "🔘 按钮组件母版 · 全集预览 Button Masters · Library v1",
+      "type": "FRAME",
+      "prop": "borderRadius",
+      "figma": 24,
+      "impl": 12,
+      "delta": 12,
+      "pass": false,
+      "severity": "major",
+      "hint": "set border-radius to 24px"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "🔘 按钮组件母版 · 全集预览 Button Masters · Library v1",
+      "type": "FRAME",
+      "prop": "padding.t",
+      "figma": 44,
+      "impl": 0,
+      "delta": 44,
+      "pass": false,
+      "severity": "major",
+      "hint": "set padding-top to 44px"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "🔘 按钮组件母版 · 全集预览 Button Masters · Library v1",
+      "type": "FRAME",
+      "prop": "padding.r",
+      "figma": 44,
+      "impl": 0,
+      "delta": 44,
+      "pass": false,
+      "severity": "major",
+      "hint": "set padding-right to 44px"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "🔘 按钮组件母版 · 全集预览 Button Masters · Library v1",
+      "type": "FRAME",
+      "prop": "padding.b",
+      "figma": 48,
+      "impl": 0,
+      "delta": 48,
+      "pass": false,
+      "severity": "major",
+      "hint": "set padding-bottom to 48px"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "🔘 按钮组件母版 · 全集预览 Button Masters · Library v1",
+      "type": "FRAME",
+      "prop": "padding.l",
+      "figma": 44,
+      "impl": 0,
+      "delta": 44,
+      "pass": false,
+      "severity": "major",
+      "hint": "set padding-left to 44px"
+    },
+    {
+      "figmaId": "454:3373",
+      "node": "title",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3374",
+      "node": "🧩 登录组件母版 · 全集预览 Login Components · Library v1",
+      "type": "TEXT",
+      "text": "🧩 登录组件母版 · 全集预览 Login Components · Library v1",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3376",
+      "node": "row",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "459:3385",
+      "node": "col·返回按钮 Nav Back",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "459:3386",
+      "node": "cap",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "459:3387",
+      "node": "返回按钮 Nav Back",
+      "type": "TEXT",
+      "text": "返回按钮 Nav Back",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "459:3388",
+      "node": "顶部返回 · 单态",
+      "type": "TEXT",
+      "text": "顶部返回 · 单态",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "107:6",
+      "node": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "159:2",
+      "node": "icon",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "159:3",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3388",
+      "node": "col·分段控件 Segmented",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3389",
+      "node": "cap",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3390",
+      "node": "分段控件 Segmented",
+      "type": "TEXT",
+      "text": "分段控件 Segmented",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3391",
+      "node": "登录方式切换 · 2 态",
+      "type": "TEXT",
+      "text": "登录方式切换 · 2 态",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3387",
+      "node": "分段控件 Segmented",
+      "type": "COMPONENT_SET",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3377",
+      "node": "选中=密码登录",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3378",
+      "node": "seg",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3379",
+      "node": "密码登录",
+      "type": "TEXT",
+      "text": "密码登录",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3380",
+      "node": "seg",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3381",
+      "node": "邮箱登录",
+      "type": "TEXT",
+      "text": "邮箱登录",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3382",
+      "node": "选中=邮箱登录",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3383",
+      "node": "seg",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3384",
+      "node": "密码登录",
+      "type": "TEXT",
+      "text": "密码登录",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3385",
+      "node": "seg",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3386",
+      "node": "邮箱登录",
+      "type": "TEXT",
+      "text": "邮箱登录",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3400",
+      "node": "col·主按钮 Button·Primary",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3401",
+      "node": "cap",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3402",
+      "node": "主按钮 Button·Primary",
+      "type": "TEXT",
+      "text": "主按钮 Button·Primary",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3403",
+      "node": "主行动按钮 · 3 态",
+      "type": "TEXT",
+      "text": "主行动按钮 · 3 态",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3399",
+      "node": "主按钮 Button·Primary",
+      "type": "COMPONENT_SET",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3392",
+      "node": "状态=默认",
+      "type": "COMPONENT",
+      "prop": "box.x",
+      "figma": 666,
+      "impl": 666,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3392",
+      "node": "状态=默认",
+      "type": "COMPONENT",
+      "prop": "box.y",
+      "figma": 195,
+      "impl": 195,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3392",
+      "node": "状态=默认",
+      "type": "COMPONENT",
+      "prop": "box.w",
+      "figma": 350,
+      "impl": 350,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3392",
+      "node": "状态=默认",
+      "type": "COMPONENT",
+      "prop": "box.h",
+      "figma": 54,
+      "impl": 54,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3392",
+      "node": "状态=默认",
+      "type": "COMPONENT",
+      "prop": "backgroundColor",
+      "figma": "#eabb62",
+      "impl": "#eabb62",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3392",
+      "node": "状态=默认",
+      "type": "COMPONENT",
+      "prop": "borderRadius",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3392",
+      "node": "状态=默认",
+      "type": "COMPONENT",
+      "prop": "padding.t",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3392",
+      "node": "状态=默认",
+      "type": "COMPONENT",
+      "prop": "padding.r",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3392",
+      "node": "状态=默认",
+      "type": "COMPONENT",
+      "prop": "padding.b",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3392",
+      "node": "状态=默认",
+      "type": "COMPONENT",
+      "prop": "padding.l",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3393",
+      "node": "登录",
+      "type": "TEXT",
+      "text": "登录",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3394",
+      "node": "状态=加载",
+      "type": "COMPONENT",
+      "prop": "box.x",
+      "figma": 666,
+      "impl": 666,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3394",
+      "node": "状态=加载",
+      "type": "COMPONENT",
+      "prop": "box.y",
+      "figma": 263,
+      "impl": 261,
+      "delta": 2,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3394",
+      "node": "状态=加载",
+      "type": "COMPONENT",
+      "prop": "box.w",
+      "figma": 350,
+      "impl": 350,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3394",
+      "node": "状态=加载",
+      "type": "COMPONENT",
+      "prop": "box.h",
+      "figma": 54,
+      "impl": 54,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3394",
+      "node": "状态=加载",
+      "type": "COMPONENT",
+      "prop": "backgroundColor",
+      "figma": "#eabb62",
+      "impl": "#eabb62",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3394",
+      "node": "状态=加载",
+      "type": "COMPONENT",
+      "prop": "borderRadius",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3394",
+      "node": "状态=加载",
+      "type": "COMPONENT",
+      "prop": "padding.t",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3394",
+      "node": "状态=加载",
+      "type": "COMPONENT",
+      "prop": "padding.r",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3394",
+      "node": "状态=加载",
+      "type": "COMPONENT",
+      "prop": "padding.b",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3394",
+      "node": "状态=加载",
+      "type": "COMPONENT",
+      "prop": "padding.l",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3395",
+      "node": "登录",
+      "type": "TEXT",
+      "text": "登录",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "451:4628",
+      "node": "Linear / Essentional, UI / Traffic  ",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "451:4629",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3396",
+      "node": "状态=禁用",
+      "type": "COMPONENT",
+      "prop": "box.x",
+      "figma": 666,
+      "impl": 666,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3396",
+      "node": "状态=禁用",
+      "type": "COMPONENT",
+      "prop": "box.y",
+      "figma": 331,
+      "impl": 327,
+      "delta": 4,
+      "pass": false,
+      "severity": "minor",
+      "hint": "move to y≈331px"
+    },
+    {
+      "figmaId": "454:3396",
+      "node": "状态=禁用",
+      "type": "COMPONENT",
+      "prop": "box.w",
+      "figma": 350,
+      "impl": 350,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3396",
+      "node": "状态=禁用",
+      "type": "COMPONENT",
+      "prop": "box.h",
+      "figma": 54,
+      "impl": 54,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3396",
+      "node": "状态=禁用",
+      "type": "COMPONENT",
+      "prop": "backgroundColor",
+      "figma": "#f6f6f4",
+      "impl": "#f6f6f4",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3396",
+      "node": "状态=禁用",
+      "type": "COMPONENT",
+      "prop": "borderRadius",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3396",
+      "node": "状态=禁用",
+      "type": "COMPONENT",
+      "prop": "padding.t",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3396",
+      "node": "状态=禁用",
+      "type": "COMPONENT",
+      "prop": "padding.r",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3396",
+      "node": "状态=禁用",
+      "type": "COMPONENT",
+      "prop": "padding.b",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3396",
+      "node": "状态=禁用",
+      "type": "COMPONENT",
+      "prop": "padding.l",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "454:3397",
+      "node": "登录",
+      "type": "TEXT",
+      "text": "登录",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3428",
+      "node": "col·账户类型卡片 Card·Type",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3429",
+      "node": "cap",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3430",
+      "node": "账户类型卡片 Card·Type",
+      "type": "TEXT",
+      "text": "账户类型卡片 Card·Type",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3431",
+      "node": "个人/企业 × 默认/选中 · 4 态",
+      "type": "TEXT",
+      "text": "个人/企业 × 默认/选中 · 4 态",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3427",
+      "node": "账户类型卡片 Card·Type",
+      "type": "COMPONENT_SET",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3385",
+      "node": "类型=个人, 状态=默认",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3386",
+      "node": "chip",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3387",
+      "node": "icon",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3388",
+      "node": "Vector",
+      "type": "ELLIPSE",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3389",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3390",
+      "node": "tc",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3391",
+      "node": "个人",
+      "type": "TEXT",
+      "text": "个人",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3392",
+      "node": "个人用户",
+      "type": "TEXT",
+      "text": "个人用户",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3393",
+      "node": "类型=个人, 状态=选中",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3394",
+      "node": "chip",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3395",
+      "node": "icon",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3396",
+      "node": "Vector",
+      "type": "ELLIPSE",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3397",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3398",
+      "node": "tc",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3399",
+      "node": "个人",
+      "type": "TEXT",
+      "text": "个人",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3400",
+      "node": "个人用户",
+      "type": "TEXT",
+      "text": "个人用户",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7896",
+      "node": "类型=个人收款账户, 状态=选中",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7897",
+      "node": "chip",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7898",
+      "node": "icon",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7899",
+      "node": "Vector",
+      "type": "ELLIPSE",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7900",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7901",
+      "node": "tc",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7902",
+      "node": "个人",
+      "type": "TEXT",
+      "text": "个人",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8006",
+      "node": "类型=个人收款账户, 状态=默认",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8007",
+      "node": "chip",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8008",
+      "node": "icon",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8009",
+      "node": "Vector",
+      "type": "ELLIPSE",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8010",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8011",
+      "node": "tc",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8012",
+      "node": "个人",
+      "type": "TEXT",
+      "text": "个人",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3401",
+      "node": "类型=企业收款账户, 状态=默认",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3402",
+      "node": "chip",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3403",
+      "node": "icon",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3404",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3405",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3406",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3407",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3408",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3409",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3410",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3411",
+      "node": "tc",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3412",
+      "node": "企业",
+      "type": "TEXT",
+      "text": "企业",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8014",
+      "node": "类型=企业收款账户, 状态=选中",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8015",
+      "node": "chip",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8016",
+      "node": "icon",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8017",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8018",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8019",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8020",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8021",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8022",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8023",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8024",
+      "node": "tc",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:8025",
+      "node": "企业",
+      "type": "TEXT",
+      "text": "企业",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7980",
+      "node": "类型=企业, 状态=默认",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7981",
+      "node": "chip",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7982",
+      "node": "icon",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7983",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7984",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7985",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7986",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7987",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7988",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7989",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7990",
+      "node": "tc",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7991",
+      "node": "企业",
+      "type": "TEXT",
+      "text": "企业",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "953:7992",
+      "node": "公司机构",
+      "type": "TEXT",
+      "text": "公司机构",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3414",
+      "node": "类型=企业, 状态=选中",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3415",
+      "node": "chip",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3416",
+      "node": "icon",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3417",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3418",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3419",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3420",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3421",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3422",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3423",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3424",
+      "node": "tc",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3425",
+      "node": "企业",
+      "type": "TEXT",
+      "text": "企业",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3426",
+      "node": "公司机构",
+      "type": "TEXT",
+      "text": "公司机构",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3452",
+      "node": "col·服务条款勾选框 Terms",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3453",
+      "node": "cap",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3454",
+      "node": "服务条款勾选框 Terms",
+      "type": "TEXT",
+      "text": "服务条款勾选框 Terms",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3455",
+      "node": "未勾选/已勾选/报错 · 3 态",
+      "type": "TEXT",
+      "text": "未勾选/已勾选/报错 · 3 态",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3451",
+      "node": "服务条款勾选框 Terms Checkbox",
+      "type": "COMPONENT_SET",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3432",
+      "node": "状态=未勾选",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3433",
+      "node": "Checkbox · 勾选框",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3434",
+      "node": "tt",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3435",
+      "node": "我已阅读并同意",
+      "type": "TEXT",
+      "text": "我已阅读并同意 ",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3436",
+      "node": "《服务条款》",
+      "type": "TEXT",
+      "text": "《服务条款》",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3437",
+      "node": "状态=已勾选",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3438",
+      "node": "Checkbox · 勾选框",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "458:2",
+      "node": "icon-check",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "458:3",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3439",
+      "node": "tt",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3440",
+      "node": "我已阅读并同意",
+      "type": "TEXT",
+      "text": "我已阅读并同意 ",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3441",
+      "node": "《服务条款》",
+      "type": "TEXT",
+      "text": "《服务条款》",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3442",
+      "node": "状态=报错",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3443",
+      "node": "Checkbox · 勾选框",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3444",
+      "node": "tt",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3445",
+      "node": "我已阅读并同意",
+      "type": "TEXT",
+      "text": "我已阅读并同意 ",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "456:3446",
+      "node": "《服务条款》",
+      "type": "TEXT",
+      "text": "《服务条款》",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "459:3392",
+      "node": "col·文字链接 Text Link",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "459:3393",
+      "node": "cap",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "459:3394",
+      "node": "文字链接 Text Link",
+      "type": "TEXT",
+      "text": "文字链接 Text Link",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "459:3395",
+      "node": "忘记密码 · 创建账户 · 单态",
+      "type": "TEXT",
+      "text": "忘记密码 · 创建账户 · 单态",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "459:3396",
+      "node": "links",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "440:3804",
+      "node": "忘记密码",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "440:3798",
+      "node": "忘记密码？",
+      "type": "TEXT",
+      "text": "忘记密码？",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "440:3799",
+      "node": "重置",
+      "type": "TEXT",
+      "text": "重置",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "440:3805",
+      "node": "创建账户",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "440:3801",
+      "node": "还没有账户？",
+      "type": "TEXT",
+      "text": "还没有账户？",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "440:3802",
+      "node": "创建账户",
+      "type": "TEXT",
+      "text": "创建账户",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "482:3474",
+      "node": "col·文字链接 Text Link",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "482:3475",
+      "node": "cap",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "482:3476",
+      "node": "🌐 语言切换 Language Toggle",
+      "type": "TEXT",
+      "text": "🌐 语言切换 Language Toggle",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "482:3477",
+      "node": "顶栏右上角 · 中文 / English 切换 · 2 态",
+      "type": "TEXT",
+      "text": "顶栏右上角 · 中文 / English 切换 · 2 态",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "476:12",
+      "node": "🌐 语言切换 Language Toggle",
+      "type": "COMPONENT_SET",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "476:2",
+      "node": "当前=中文",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "476:3",
+      "node": "seg-中",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "476:4",
+      "node": "中",
+      "type": "TEXT",
+      "text": "中",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "476:5",
+      "node": "seg-EN",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "476:6",
+      "node": "EN",
+      "type": "TEXT",
+      "text": "EN",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "476:7",
+      "node": "当前=英文",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "476:8",
+      "node": "seg-中",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "476:9",
+      "node": "中",
+      "type": "TEXT",
+      "text": "中",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "476:10",
+      "node": "seg-EN",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "476:11",
+      "node": "EN",
+      "type": "TEXT",
+      "text": "EN",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3433",
+      "node": "col·配饰 Accessory",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3434",
+      "node": "cap",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3435",
+      "node": "配饰 Accessory",
+      "type": "TEXT",
+      "text": "配饰 Accessory",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3436",
+      "node": "顶栏/底部/LOGO/文案 · 4 态",
+      "type": "TEXT",
+      "text": "顶栏/底部/LOGO/文案 · 4 态",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3432",
+      "node": "配饰 Accessory",
+      "type": "COMPONENT_SET",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3391",
+      "node": "State=顶部拦",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3392",
+      "node": "9:41",
+      "type": "TEXT",
+      "text": "9:41",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3393",
+      "node": "Frame",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3394",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3395",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3396",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3397",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3398",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3399",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3400",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3401",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3402",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3403",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3404",
+      "node": "State=底部",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3405",
+      "node": "Rectangle",
+      "type": "RECTANGLE",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3406",
+      "node": "State=完整LOGO 黑",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3407",
+      "node": "Frame 2147225243",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3408",
+      "node": "Frame 2147225239",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3409",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3410",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3411",
+      "node": "Group 1707484082",
+      "type": "GROUP",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3412",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3413",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3414",
+      "node": "Subtract",
+      "type": "BOOLEAN_OPERATION",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3415",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3416",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3417",
+      "node": "Subtract",
+      "type": "BOOLEAN_OPERATION",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3418",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3419",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3420",
+      "node": "Frame 2147225172",
+      "type": "FRAME",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3421",
+      "node": "SPX",
+      "type": "GROUP",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3422",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3423",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3424",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3425",
+      "node": "PAY",
+      "type": "GROUP",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3426",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3427",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3428",
+      "node": "Vector",
+      "type": "VECTOR",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3429",
+      "node": "State=文案",
+      "type": "COMPONENT",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3430",
+      "node": "欢迎回来 👋",
+      "type": "TEXT",
+      "text": "欢迎回来 👋",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "460:3431",
+      "node": "登录 SPX Pay，管理你的全球支付",
+      "type": "TEXT",
+      "text": "登录 SPX Pay，管理你的全球支付",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "pass": false,
+      "severity": "critical",
+      "hint": "expected present"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    },
+    {
+      "figmaId": "454:3372",
+      "node": "div.css-view-g5y9jx",
+      "type": "div",
+      "prop": "*",
+      "figma": "absent",
+      "impl": "EXTRA",
+      "pass": false,
+      "severity": "minor",
+      "hint": "expected absent"
+    }
+  ]
+}
