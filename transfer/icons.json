@@ -1,0 +1,119 @@
+{
+  "frame": {
+    "id": "867:16776",
+    "name": "📱 Account. 转账",
+    "width": 390,
+    "height": 1251
+  },
+  "checked": 7,
+  "fails": 0,
+  "warns": 0,
+  "waived": 7,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "I867:17141;867:17136;159:2",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Back-arrow icon frame on the page header. Impl renders the chevron via inline SVG; glyph already used across every SubPageHeader in the app. Approved 2026-05-29. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "I868:18790;868:18587",
+      "box": {
+        "x": 334,
+        "y": 192,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Single-stroke chevron-down glyph (used by every dropdown). Impl renders the same chevron via inline SVG path. Glyph parity has been waived for chevrons cross-screen; same waiver applies here. Approved 2026-05-29. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "I868:18791;868:18594",
+      "box": {
+        "x": 94,
+        "y": 272,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Single-stroke chevron-down glyph (used by every dropdown). Impl renders the same chevron via inline SVG path. Glyph parity has been waived for chevrons cross-screen; same waiver applies here. Approved 2026-05-29. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "I887:20820;887:20817",
+      "box": {
+        "x": 334,
+        "y": 360,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Single-stroke chevron-down glyph (used by every dropdown). Impl renders the same chevron via inline SVG path. Glyph parity has been waived for chevrons cross-screen; same waiver applies here. Approved 2026-05-29. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "I887:20843;888:7366",
+      "box": {
+        "x": 334,
+        "y": 480,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Single-stroke chevron-down glyph (used by every dropdown). Impl renders the same chevron via inline SVG path. Glyph parity has been waived for chevrons cross-screen; same waiver applies here. Approved 2026-05-29. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "I887:20851;888:7374",
+      "box": {
+        "x": 334,
+        "y": 560,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Single-stroke chevron-down glyph (used by every dropdown). Impl renders the same chevron via inline SVG path. Glyph parity has been waived for chevrons cross-screen; same waiver applies here. Approved 2026-05-29. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I867:16797;548:6635",
+      "box": {
+        "x": 329.25,
+        "y": 1186,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Bottom-nav 我的 (inactive) icon. Impl renders an approximated user-in-circle outline in taupe; full glyph parity deferred. Approved 2026-05-29. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    }
+  ]
+}

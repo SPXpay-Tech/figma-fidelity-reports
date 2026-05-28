@@ -1,0 +1,328 @@
+{
+  "frame": {
+    "id": "867:16776",
+    "name": "📱 Account. 转账",
+    "width": 390,
+    "height": 1251
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 6,
+  "regions": [
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 38,
+        "y": 198,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 63,
+      "crops": {
+        "figma": "Rectangle_5247_I868_18790_868_18579.figma.png",
+        "impl": "Rectangle_5247_I868_18790_868_18579.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 38,
+        "y": 198,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 63,
+      "crops": {
+        "figma": "Rectangle_5247_I868_18790_868_18583.figma.png",
+        "impl": "Rectangle_5247_I868_18790_868_18583.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 196,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 37.8,
+      "crops": {
+        "figma": "_LOGO_I868_18790_868_18574.figma.png",
+        "impl": "_LOGO_I868_18790_868_18574.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 192,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 16.8,
+      "crops": {
+        "figma": "chip_I868_18790_868_18573.figma.png",
+        "impl": "chip_I868_18790_868_18573.impl.png"
+      }
+    },
+    {
+      "name": "Linear / Money / Card",
+      "type": "FRAME",
+      "box": {
+        "x": 231.75,
+        "y": 1186,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 15.2,
+      "crops": {
+        "figma": "Linear_Money_Card_I867_16797_548_6628.figma.png",
+        "impl": "Linear_Money_Card_I867_16797_548_6628.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36.75,
+        "y": 1186,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 14.1,
+      "crops": {
+        "figma": "_LOGO_I867_16797_548_6607.figma.png",
+        "impl": "_LOGO_I867_16797_548_6607.impl.png"
+      }
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 274,
+        "y": 316,
+        "w": 96,
+        "h": 26
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 9.6
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 360,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 9.5
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 6.1
+    },
+    {
+      "name": "金额信息·转账金额",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 734,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 2.6
+    },
+    {
+      "name": "金额信息·实收金额",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 864,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#9ca3af@0.10",
+      "mismatch": 2.1
+    },
+    {
+      "name": "金额信息·手续费扣费",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 994,
+        "w": 350,
+        "h": 102
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.7
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 180,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.6
+    },
+    {
+      "name": "Frame 1410107233",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 336,
+        "w": 350,
+        "h": 94
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.5
+    },
+    {
+      "name": "返回按钮 / Nav Back",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 42,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 766,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.3
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 260,
+        "w": 106,
+        "h": 44
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.2
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 348,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.2
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 628,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.2
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 896,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1
+    },
+    {
+      "name": "主按钮 Button·Primary",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 1108,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 0.9
+    },
+    {
+      "name": "Account Hearder, 页头",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 350,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.8
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 468,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.7
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 548,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.7
+    }
+  ]
+}
