@@ -1,0 +1,318 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "560:4405",
+    "name": "Compliance Status · 合规状态",
+    "width": 192,
+    "height": 242
+  },
+  "nodes": [
+    {
+      "key": "560:4405",
+      "figmaId": "560:4405",
+      "name": "Compliance Status · 合规状态",
+      "type": "COMPONENT_SET",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 242
+      },
+      "style": {
+        "backgroundColor": "#f7f7fc",
+        "borderRadius": 12,
+        "padding": {
+          "t": 24,
+          "r": 24,
+          "b": 24,
+          "l": 24
+        },
+        "gap": 16,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "560:4392",
+      "figmaId": "560:4392",
+      "name": "Status=Unverified",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 24,
+        "w": 120,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#fcebed",
+        "borderRadius": 16,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "560:4391",
+      "figmaId": "560:4391",
+      "name": "label",
+      "type": "TEXT",
+      "text": "合规状态：未认证",
+      "box": {
+        "x": 48,
+        "y": 30,
+        "w": 96,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#fcebed",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 2
+    },
+    {
+      "key": "548:6306",
+      "figmaId": "548:6306",
+      "name": "Status=Pending",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 66,
+        "w": 144,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#f9ac1c@0.10",
+        "borderRadius": 16,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "548:6307",
+      "figmaId": "548:6307",
+      "name": "label",
+      "type": "TEXT",
+      "text": "合规状态：待提交认证",
+      "box": {
+        "x": 36,
+        "y": 72,
+        "w": 120,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f9ac1c"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f9ac1c@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 2
+    },
+    {
+      "key": "560:4398",
+      "figmaId": "560:4398",
+      "name": "Status=Processing",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 108,
+        "w": 120,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#f9ac1c@0.10",
+        "borderRadius": 16,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "560:4397",
+      "figmaId": "560:4397",
+      "name": "label",
+      "type": "TEXT",
+      "text": "合规状态：处理中",
+      "box": {
+        "x": 48,
+        "y": 114,
+        "w": 96,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f9ac1c"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f9ac1c@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 2
+    },
+    {
+      "key": "560:4401",
+      "figmaId": "560:4401",
+      "name": "Status=Verified",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 30,
+        "y": 150,
+        "w": 132,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#00d17d@0.15",
+        "borderRadius": 16,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "560:4400",
+      "figmaId": "560:4400",
+      "name": "label",
+      "type": "TEXT",
+      "text": "合规状态：认证通过",
+      "box": {
+        "x": 42,
+        "y": 156,
+        "w": 108,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#00d17d"
+      },
+      "parentStyle": {
+        "backgroundColor": "#00d17d@0.15",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 2
+    },
+    {
+      "key": "548:6309",
+      "figmaId": "548:6309",
+      "name": "Status=Rejected",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 36,
+        "y": 192,
+        "w": 120,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#fcebed",
+        "borderRadius": 16,
+        "padding": {
+          "t": 6,
+          "r": 12,
+          "b": 6,
+          "l": 12
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "548:6310",
+      "figmaId": "548:6310",
+      "name": "label",
+      "type": "TEXT",
+      "text": "合规状态：未通过",
+      "box": {
+        "x": 48,
+        "y": 198,
+        "w": 96,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#fcebed",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 2
+    }
+  ]
+}
