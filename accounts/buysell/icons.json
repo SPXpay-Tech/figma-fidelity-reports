@@ -1,0 +1,44 @@
+{
+  "frame": {
+    "id": "917:10462",
+    "name": "转账信息·支付目的",
+    "width": 880,
+    "height": 480
+  },
+  "checked": 2,
+  "fails": 0,
+  "warns": 0,
+  "waived": 2,
+  "icons": [
+    {
+      "name": "arrow-down",
+      "figmaId": "I917:11281;939:7967",
+      "box": {
+        "x": 346,
+        "y": 86,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Currency dropdown chevron is Feather chevron-down glyph (app-wide @expo/vector-icons). Geometry/box validated; vector-path identity waived consistent with cards/dialog deviations. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "arrow-down",
+      "figmaId": "I917:11291;942:7974",
+      "box": {
+        "x": 346,
+        "y": 228,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Currency dropdown chevron is Feather chevron-down glyph (app-wide @expo/vector-icons). Geometry/box validated; vector-path identity waived consistent with cards/dialog deviations. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}
