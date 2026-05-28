@@ -1,0 +1,312 @@
+{
+  "frame": {
+    "id": "917:8094",
+    "name": "📱 Account. SPX 划转SGB or 消费",
+    "width": 390,
+    "height": 844
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 8,
+  "regions": [
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 38,
+        "y": 306,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 80.7,
+      "crops": {
+        "figma": "Rectangle_5247_I917_8107_917_7983.figma.png",
+        "impl": "Rectangle_5247_I917_8107_917_7983.impl.png"
+      }
+    },
+    {
+      "name": "Rectangle 5247",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 38,
+        "y": 306,
+        "w": 12,
+        "h": 12
+      },
+      "figmaFill": "#d9d9d9",
+      "mismatch": 80.7,
+      "crops": {
+        "figma": "Rectangle_5247_I917_8107_917_7987.figma.png",
+        "impl": "Rectangle_5247_I917_8107_917_7987.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 304,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 53.3,
+      "crops": {
+        "figma": "_LOGO_I917_8107_917_7978.figma.png",
+        "impl": "_LOGO_I917_8107_917_7978.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 192,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 25.4,
+      "crops": {
+        "figma": "_LOGO_I917_8101_917_7855.figma.png",
+        "impl": "_LOGO_I917_8101_917_7855.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 300,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#9ca3af@0.20",
+      "mismatch": 23.7,
+      "crops": {
+        "figma": "chip_I917_8107_917_7977.figma.png",
+        "impl": "chip_I917_8107_917_7977.impl.png"
+      }
+    },
+    {
+      "name": "Linear / Money / Card",
+      "type": "FRAME",
+      "box": {
+        "x": 231.75,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 16.8,
+      "crops": {
+        "figma": "Linear_Money_Card_I917_8115_548_6628.figma.png",
+        "impl": "Linear_Money_Card_I917_8115_548_6628.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36.75,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 15.5,
+      "crops": {
+        "figma": "_LOGO_I917_8115_548_6607.figma.png",
+        "impl": "_LOGO_I917_8115_548_6607.impl.png"
+      }
+    },
+    {
+      "name": "icon-check",
+      "type": "FRAME",
+      "box": {
+        "x": 54.33,
+        "y": 80.33,
+        "w": 13.33,
+        "h": 13.33
+      },
+      "figmaFill": null,
+      "mismatch": 13.9,
+      "crops": {
+        "figma": "icon_check_I917_12146_917_12143.figma.png",
+        "impl": "icon_check_I917_12146_917_12143.impl.png"
+      }
+    },
+    {
+      "name": "Frame 2147225324",
+      "type": "FRAME",
+      "box": {
+        "x": 179,
+        "y": 230,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 11.5
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 188,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 11.3
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 49,
+        "y": 75,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#00d17d@0.10",
+      "mismatch": 6.5
+    },
+    {
+      "name": "划转相关·实收金额",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 518,
+        "w": 350,
+        "h": 55
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.2
+    },
+    {
+      "name": "金额信息·转账金额",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 388,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 2.3
+    },
+    {
+      "name": "金额信息·手续费扣费",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 585,
+        "w": 350,
+        "h": 70
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.1
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 288,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.9
+    },
+    {
+      "name": "Account Hearder, 页头",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 350,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.5
+    },
+    {
+      "name": "返回按钮 / Nav Back",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 42,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 176,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 420,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.3
+    },
+    {
+      "name": "Toast · 轻提示",
+      "type": "INSTANCE",
+      "box": {
+        "x": 35,
+        "y": 61,
+        "w": 320,
+        "h": 52
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.9
+    },
+    {
+      "name": "主按钮 Button·Primary",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 667,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 0.5
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 0.4
+    }
+  ]
+}
