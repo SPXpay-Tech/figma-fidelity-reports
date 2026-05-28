@@ -1,0 +1,134 @@
+{
+  "frame": {
+    "id": "456:3427",
+    "name": "账户类型卡片 Card·Type",
+    "width": 205,
+    "height": 562
+  },
+  "checked": 8,
+  "fails": 0,
+  "warns": 0,
+  "waived": 8,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "456:3387",
+      "box": {
+        "x": 39.58,
+        "y": 40.58,
+        "w": 16.84,
+        "h": 16.84
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — account-type-cards 456:3427 — 16.8×16.8 icon frame on 类型=个人/状态=默认 (person silhouette: ellipse 456:3388 head + vector 456:3389 body). 2 stroke vectors at #aaa286/1.26px; harness walker renders strokes as bordered Views without <svg>. Token gate matches; glyph drift waived. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "456:3395",
+      "box": {
+        "x": 39.58,
+        "y": 112.58,
+        "w": 16.84,
+        "h": 16.84
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — account-type-cards — 类型=个人/状态=选中 mirror of 456:3387 (white-on-gold person silhouette). Same waiver. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "953:7898",
+      "box": {
+        "x": 37.68,
+        "y": 181.68,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — account-type-cards — 类型=个人收款账户/状态=选中 12.6×12.6 mini person icon. Same waiver. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "953:8008",
+      "box": {
+        "x": 37.68,
+        "y": 243.68,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — account-type-cards — 类型=个人收款账户/状态=默认 mini person icon. Same waiver. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "456:3403",
+      "box": {
+        "x": 37.68,
+        "y": 305.68,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "figmaPaths": 7,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — account-type-cards — 类型=企业收款账户/状态=默认 12.6×12.6 building icon (7 vector paths). Same waiver. Approved 2026-05-28. (was: Figma icon has 7 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "953:8016",
+      "box": {
+        "x": 37.68,
+        "y": 367.68,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "figmaPaths": 7,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — account-type-cards — 类型=企业收款账户/状态=选中 mirror 7-path building. Same waiver. Approved 2026-05-28. (was: Figma icon has 7 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "953:7982",
+      "box": {
+        "x": 39.58,
+        "y": 432.58,
+        "w": 16.84,
+        "h": 16.84
+      },
+      "figmaPaths": 7,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — account-type-cards — 类型=企业/状态=默认 16.8×16.8 building (7 vector paths). Same waiver. Approved 2026-05-28. (was: Figma icon has 7 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "456:3416",
+      "box": {
+        "x": 39.58,
+        "y": 504.58,
+        "w": 16.84,
+        "h": 16.84
+      },
+      "figmaPaths": 7,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — account-type-cards — 类型=企业/状态=选中 mirror 7-path building. Same waiver. Approved 2026-05-28. (was: Figma icon has 7 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}

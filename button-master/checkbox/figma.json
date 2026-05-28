@@ -1,0 +1,459 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "456:3451",
+    "name": "服务条款勾选框 Terms Checkbox",
+    "width": 272,
+    "height": 146
+  },
+  "nodes": [
+    {
+      "key": "456:3451",
+      "figmaId": "456:3451",
+      "name": "服务条款勾选框 Terms Checkbox",
+      "type": "COMPONENT_SET",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 272,
+        "h": 146
+      },
+      "style": {
+        "borderRadius": 5,
+        "padding": {
+          "t": 20,
+          "r": 20,
+          "b": 20,
+          "l": 20
+        },
+        "gap": 14,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "456:3432",
+      "figmaId": "456:3432",
+      "name": "状态=未勾选",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 20,
+        "w": 232,
+        "h": 26
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "456:3433",
+      "figmaId": "456:3433",
+      "name": "Checkbox · 勾选框",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 20,
+        "w": 26,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#c9c9d0",
+        "borderWidth": 2,
+        "borderRadius": 8,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "456:3434",
+      "figmaId": "456:3434",
+      "name": "tt",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 24,
+        "w": 169,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "456:3435",
+      "figmaId": "456:3435",
+      "name": "我已阅读并同意",
+      "type": "TEXT",
+      "text": "我已阅读并同意 ",
+      "box": {
+        "x": 56,
+        "y": 24,
+        "w": 91,
+        "h": 18
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 400,
+        "lineHeight": 18,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#8a8f98"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "456:3436",
+      "figmaId": "456:3436",
+      "name": "《服务条款》",
+      "type": "TEXT",
+      "text": "《服务条款》",
+      "box": {
+        "x": 147,
+        "y": 24,
+        "w": 78,
+        "h": 18
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 18,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#eabb62"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "456:3437",
+      "figmaId": "456:3437",
+      "name": "状态=已勾选",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 60,
+        "w": 232,
+        "h": 26
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "456:3438",
+      "figmaId": "456:3438",
+      "name": "Checkbox · 勾选框",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 60,
+        "w": 26,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderColor": "#eabb62",
+        "borderWidth": 2,
+        "borderRadius": 8,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "458:2",
+      "figmaId": "458:2",
+      "name": "icon-check",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 25,
+        "y": 65,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "458:3",
+      "figmaId": "458:3",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 27.67,
+        "y": 69,
+        "w": 10.67,
+        "h": 7.33
+      },
+      "style": {
+        "borderColor": "#ffffff",
+        "borderWidth": 1.3333333730697632
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "456:3439",
+      "figmaId": "456:3439",
+      "name": "tt",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 64,
+        "w": 169,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "456:3440",
+      "figmaId": "456:3440",
+      "name": "我已阅读并同意",
+      "type": "TEXT",
+      "text": "我已阅读并同意 ",
+      "box": {
+        "x": 56,
+        "y": 64,
+        "w": 91,
+        "h": 18
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 400,
+        "lineHeight": 18,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#8a8f98"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "456:3441",
+      "figmaId": "456:3441",
+      "name": "《服务条款》",
+      "type": "TEXT",
+      "text": "《服务条款》",
+      "box": {
+        "x": 147,
+        "y": 64,
+        "w": 78,
+        "h": 18
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 18,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#eabb62"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "456:3442",
+      "figmaId": "456:3442",
+      "name": "状态=报错",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 100,
+        "w": 232,
+        "h": 26
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 10,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "456:3443",
+      "figmaId": "456:3443",
+      "name": "Checkbox · 勾选框",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 20,
+        "y": 100,
+        "w": 26,
+        "h": 26
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#f52f32",
+        "borderWidth": 2,
+        "borderRadius": 8,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "456:3444",
+      "figmaId": "456:3444",
+      "name": "tt",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 56,
+        "y": 104,
+        "w": 169,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "456:3445",
+      "figmaId": "456:3445",
+      "name": "我已阅读并同意",
+      "type": "TEXT",
+      "text": "我已阅读并同意 ",
+      "box": {
+        "x": 56,
+        "y": 104,
+        "w": 91,
+        "h": 18
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 400,
+        "lineHeight": 18,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#8a8f98"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "456:3446",
+      "figmaId": "456:3446",
+      "name": "《服务条款》",
+      "type": "TEXT",
+      "text": "《服务条款》",
+      "box": {
+        "x": 147,
+        "y": 104,
+        "w": 78,
+        "h": 18
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 18,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#eabb62"
+      },
+      "parentStyle": null,
+      "depth": 3
+    }
+  ]
+}

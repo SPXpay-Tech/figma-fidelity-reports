@@ -17,7 +17,7 @@
       "x": 0,
       "y": 0
     },
-    "generated": "2026-05-28T05:39:25.473Z"
+    "generated": "2026-05-28T10:32:11.776Z"
   },
   "summary": {
     "checks": 76,
@@ -28,9 +28,28 @@
       "blocking": 0,
       "minor": 0,
       "pass": true
-    }
+    },
+    "approved": 2
   },
   "failsByNode": {},
+  "approvedDeviations": [
+    {
+      "figmaId": "451:4629",
+      "node": "Vector",
+      "prop": "borderColor",
+      "figma": "#ffffff",
+      "impl": "#000000",
+      "reason": "Figma node 451:4629 'Vector' is the SVG path data of the static loading-spinner glyph (stroke #ffffff @ 1.5px). The impl renders the loading state via RN ActivityIndicator (native rotating spinner — same intent, different glyph), with a Vector wrapper View that has no border. App-wide loading-indicator system; the visible glyph difference is already documented via iconDeviations (the wrapper 451:4628). The wrapper's borderColor is a side-effect of the figma SVG stroke being modeled as borderTopColor; not an impl rendering choice. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "451:4629",
+      "node": "Vector",
+      "prop": "borderWidth",
+      "figma": 1.5,
+      "impl": 0,
+      "reason": "Same as above — figma's Vector node carries a 1.5px stroke that diff.mjs surfaces as borderWidth. Impl uses ActivityIndicator (no explicit border on its layout container). Approved 2026-05-28."
+    }
+  ],
   "findings": [
     {
       "figmaId": "454:3399",

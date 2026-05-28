@@ -1,0 +1,68 @@
+{
+  "frame": {
+    "id": "456:3451",
+    "name": "服务条款勾选框 Terms Checkbox",
+    "width": 272,
+    "height": 146
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 1,
+  "regions": [
+    {
+      "name": "状态=已勾选",
+      "type": "COMPONENT",
+      "box": {
+        "x": 20,
+        "y": 60,
+        "w": 232,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 74.1,
+      "crops": {
+        "figma": "_456_3437.figma.png",
+        "impl": "_456_3437.impl.png"
+      }
+    },
+    {
+      "name": "Checkbox · 勾选框",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 60,
+        "w": 26,
+        "h": 26
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 10.4
+    },
+    {
+      "name": "icon-check",
+      "type": "FRAME",
+      "box": {
+        "x": 25,
+        "y": 65,
+        "w": 16,
+        "h": 16
+      },
+      "figmaFill": null,
+      "mismatch": 9.5
+    },
+    {
+      "name": "Checkbox · 勾选框",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 100,
+        "w": 26,
+        "h": 26
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 6.3
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "107:6",
+    "name": "返回按钮 / Nav Back",
+    "width": 42,
+    "height": 42
+  },
+  "nodes": [
+    {
+      "key": "107:6",
+      "figmaId": "107:6",
+      "name": "返回按钮 / Nav Back",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 42,
+        "h": 42
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "159:2",
+      "figmaId": "159:2",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 11,
+        "y": 11,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "159:3",
+      "figmaId": "159:3",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 14.33,
+        "y": 16,
+        "w": 13.33,
+        "h": 10
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 2
+    }
+  ]
+}

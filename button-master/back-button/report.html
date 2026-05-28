@@ -1,0 +1,190 @@
+<!doctype html><meta charset="utf8"><title>Figma Fidelity Report</title>
+<style>
+ body{font:14px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#fafafa;color:#222}
+ header{padding:20px 28px;background:#111;color:#fff}
+ h1{margin:0;font-size:18px} .score{font-size:42px;font-weight:700}
+ .meta{color:#aaa;font-size:12px}
+ .wrap{padding:20px 28px;max-width:1400px;margin:auto}
+ .triptych{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:18px 0}
+ .triptych figure{margin:0;background:#fff;border:1px solid #eee;border-radius:8px;padding:10px;text-align:center}
+ .triptych img{max-width:100%;border:1px solid #f0f0f0}
+ figcaption{font-size:12px;color:#666;margin-top:6px}
+ table{border-collapse:collapse;width:100%;background:#fff;font-size:13px}
+ th,td{border:1px solid #eee;padding:6px 9px;text-align:left;vertical-align:top}
+ th{background:#f5f5f5;position:sticky;top:0}
+ tr.bad td{background:#fff6f6} tr.ok td{color:#999}
+ .node{font-weight:600} .iss{font-family:monospace;font-size:12px;color:#c92a2a}
+ code{background:#f0f0f0;padding:1px 4px;border-radius:3px}
+ .pill{display:inline-block;padding:2px 8px;border-radius:10px;font-size:12px;margin-right:6px;background:#333;color:#fff}
+ h2{margin-top:34px;border-bottom:2px solid #eee;padding-bottom:6px}
+</style>
+<header>
+ <h1>Figma Fidelity Report — 返回按钮 / Nav Back</h1>
+ <div style="display:flex;align-items:baseline;gap:18px;flex-wrap:wrap">
+   <div class="gate" style="font-size:30px;font-weight:700;color:#7ee787">GATE ✅ PASS</div>
+   <div class="score" style="font-size:30px;color:#888">100%</div>
+ </div>
+ <div class="meta">
+   <b style="color:#ff7b72">0 blocking</b> (critical+major) ·
+   <b style="color:#ffd43b">0 icon-fail</b> ·
+   <span style="color:#888">0 minor noise (sub-px — ignore)</span> ·
+   match mode: <b>tagged</b> ·
+   
+   · 2026-05-28T10:32:13.943Z
+ </div>
+ <div class="meta" style="margin-top:6px;color:#888">The <b>gate</b> is the verdict, not the %. Minor = unavoidable web-render sub-pixel noise. Icon check = Figma vector path-set vs rendered SVG.</div>
+
+</header>
+<div class="wrap">
+ <div class="triptych">
+   <figure><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAB1tJREFUeAHtnc9z20QUx9+uJNuJk8ZqU0ragdgDww3IAS5cyAUuPaRwhENz50D/g6b/QfkPmgOc0xk4lUOAmV7KDASG4cB07DKUlJRESmInTixpu0/yyivHca3WsS15PzOudqW1m3zz3ttf8hOBPmFZ/86DyxaAkCKv8hcpMMKPjBWw3GrJy/65AUCIDcDsVh0qzYJNmIflCv9ZKqDpFdO8tAF9gMALUi6XC4Vz2euM0EVgsDgwkc4KFJ/AOvGcNXu/cbdUKtkv8CnxBQ2EzH3JgNxIvIhd4N51h1K2YpqXH8V5XyxBre3Nm6cJSQgFXTdAozoQTQNKCX9pQPgRr8n/JaUUBoHnefxf1qq7bvM84y8XGK87bgNc1+G/ktfxM1zm3bp48coK9EhPgm5ulosZPbtGCHlXPq/rGTAyOchks754ScblwjoNB44Oq+B6bvQij72EssVerPW5glrW5nXmkduyVaKQuckpMIwMpBGncQwH1d02YZlNgC2bs1fudntvV0F9F2ewEjbmrpubzEMul4dxoH5Y4xZbA08KB88LAacK2i4muvTUufOgacl27bhgfK3tWRFr7SZqR0Et6/ESc+maqOuaDnku5qA6k1HDF3V/14+zAm6zy7Ozc6vtbU8Iih1QNjPxi4iZ4y6mAEcB+7uWJCqPqRostHdUJ1TKGLl1ISa6+eS0OfZiIth/TM+YfFgoQh6fCXqw1t4uohTGTW6y8+IDxjFmdgM1yZ/jBibG1YwsPH36eCXSRhR8VzdyZVGfyE+PTW8eF+z9Dw/2mzV0/aOSaQZT1dBCc0bmpiijqysxTyc3kffH4gGk4DiZG+Kab6GWVS4wN2eJk9Mz56U3KDqBg//9vZ1mrWWlTQvNLYmGaJ1KzOej81mibKXgZa9jKRDUZddEQ5xSKnrDMHJh2V/GhKagDIIKomkGKHoDF4VCPG8RD3Rr658FLqk/7uSrSdyMdVD0BsVlynBpkhQO+a4FNQx9XjRQ1hkfXVpxq/MtIJS3GF5UgsaGyLNIvp9GwfGKYV1XU8y4UNIKkS6DEgXSslBKVfyMC271CHgfNEPlLV75oqI3qLTWwfv0ovLxlwRHRiGMFCKdUtI32oZBdEeXFZSF9hklaJ+hLHrfESjiQeSOnPkuz6ReXhlsXNruihnNGNo4PoK//nwA9s4WJI2RG8nXqrvw472vocqPhpGFq59+AUYmC0lhpCxUFhNpNI4gaYyMoO1iIu99cDVR1omMhKCniVl64x1IGkMXNE1iIkMVNG1iIkMTNI1iIkMRNK1iIgMXNM1iIgMd2HcSs2C+4t9+/cfGT3AW4B9qcmoGBsVABX1w/9uImIhtbfmvs+Lpf3/D4sefw6BQqyF9ZqAW+j6PlT/c+8Z3fQG6/OXX3oKzAG+VKb35NgwSsvP/ZvjNKPPCq3DW1Kr2CVGT3ilZ20/C8sBdPj9VgA8/+owfWx3Fz/e/g/LD3yANDCWGplnUoXVKaRV1qL18GkUd+rApbaKOxDg0TaKOzMC+k6gbD773N+ySxEjNlNpFTeKe0sjtegpRKw9/h4uXXk/cntLAZ0pppG2mRMLsL0GODkUcorlKmE2JnNdISnii6A3mSZoRYqvluz6jBO0zNEhnFuB5yuXj4smZcwhUKI+qUgxVndLLgi5fERXXdUERj6hXY6ckWehp6coUp+NJRsiHnY8o6LQiTjBHCRoXjzlhWSNQjrq8p1w+LpjTKYSxCt5jHyYidZzkLUYMG89pCWpoeoWa5lxFTD8ZY9FhgKIrrtOQ8uIxe8q8tOEP7Al466LR8XEdFL3hSNYJlK77B7+iBRWkcaTcvlcw16gAUw3jsTn1PFwVbu84x/5L0R1MMxTpxLWGn1fUFxTzDRHCbotrh7UqKLpzIN35gvmaT2QWA1r/SrbSer0Gis7UDw4i1jk5yVZEORS03UrrB1XV43fA8xxubC0PxuSsExOtlJcnvi27s/0Ec4cuYBm/Pz89c0F9B7QJilndjWS7rZyfnSvJbU4oRejhJ8L10UKreztqawSCdY7ani2JSeyJPFtsb3dCUO76Fb4tEmYbxKlVIOr4uj+KWd3dAUeaZhLNXZZdXdDRl83ZuVVCWgmtUdT93fEUFd18396OiIlx0zQ7p1+PmXad+MkGxybtOu/NsQNi/Ui7LrCsJ0vMhTvRRAUa5KdnUpsWs8EH7XU+C8LBewtiE43d4Gsfq93e21NODMsqFz0nt84NdF4+72fC5RaLOfOSnoQQw9kxn3Y3GvU2If2t4o3JaVjqFDPbif9wFSkERD6IUNC4qJg/j3ChNZ2G6SPk9EUYNqJpJc4OdFVcQRME2xWev8qOZcZFxF4bBey8W0H8sbl5Ye4W9EjsrC1oreBmbjKgy5BaAiFx9iimlD2/E14QzNvspxp22bUgoWvSn63ERcRlTALrQI9W4woZfgr0CQsTu1JahCDOFoEFj1HDa0xKWIjpzAYnPj7FS94mx0enMTt4lJp/vsJ/zkfQIL+ac7jQ/vI8Axlpb/fFYe/BAAAAAElFTkSuQmCC"><figcaption>Figma 设计稿 (ground truth)</figcaption></figure>
+   <figure><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAIAAACTCYeWAAAEc0lEQVR4nOycW3baMBCGx7ZsyxdCOX3pxvrYhXQFXUgfu7D2oW2a4Dtg95fGdUhCTJIDKZb8PxBiIPEnzYxGHM2IruvohcJHtptmu23a3a5VUo+4TG8nx1Xy9IMnRCD8wHEceqGc58MDtWmqzaYGOV2ewO/7YRBIDMczP/IseExsVWZ1VQxXMOJBGOmx5+EXrxj4Vwv33O62bHS7HeaixpPh1VAmMopxT0f/zhF4/JeqzKuyYKtWFhZIDLAnfLokYQRgkk1T44m+4IBfygTuMfKpMfjddputr3lQ4VlRnPqBpMvWpqmKYg2DwHPYf7pY4c6fevOT8LClLPuDqYdRR/ECRk7TUVOXJYagbeGMyWLl+8HBtx2Gh3sX+S3pKILBe0t/PpXAla+vNzo2x8kylAcm7wD8QI7ZTtIlTVlFdlPXJSn+q1DGD159GA8QOpkcpj51cihOlwhVeAKozaMV+h484gQiHOk5l1FCRkhGKQcseAEHwkF38F3bghxeIIQPIyGDBByszUBjwOH6HXxV5UgYkBsk04xwIwKOCtuuC0Bka8P1Hh6LeaUTuDi9ckcTg4kKUEmiQhjCud6J6Iv8A2kcKYNX6TEZKj8IhTZ+Baul4DHtnLdHyYKMFseyuso5bVXwSObo38CQ0ULYY9NmZAWPjSoeg4vP208iP1SYjCywwvH+3GBv3xdjAhnO72InSDqHd0wM8o+FsM/eDX619JE1Ns/ijTm+hhN93Hv2Vz8GiHf4ABf9vt+xwuZZ7OAAF5zuWOLwLE5hAS7aTsNbNfMaFuCC9C7HsJ3MuHpYLHVksWZ4WzXD26oZ3lYJOoO+ff1Cp9bHT5/p1Jpn/jw61Vydw45Yc8CzVTO8rZrhbdUMb6tmeFs1w9uqGd5Wzfv58+h8+/BTyeqZd37//I4fq/cfyCZd//pBc8CzVzO8rZrhbZXl8PqAyisqaqerHtZxXD6Bt1+Oabw6ffrO5WLk4XdL1Hb63KWrJl4dPG2tgu/PXXqCZ56PH1siLjZ2h/PXG3343hJxmQXAXaEP3+90OTpZIC65J111oCdfFxlz1YHx2i+uUA7PlQaWWP6mVvCMrOCHgiPjw95WN1ggXUpGDO96HpcNc/20wSrzNanS4oQ7avS5fSgTZHuqAcxFdkI5iVSfl20DTCn7AvEeHs7Pk5/nN11nYNjHWlZkyq6BOZSV3O3qQhlj6VMl9LfXhu1zuIUEFjkPC/te/4Q7eN1b4x1GBVHBMOcvshtAAS0F4F5Nyb39PMJAuliR7jayX2c+aZXFmotHgfagc9Bow5BAxulyuuU3QCvym6ZW5Em6fNzt5lirGOFzzwGamuDhCF6cuRxslUIjTYKw5nGHCawNUZwEYTwVE8A9Y/KqMseyhZuHn4sXNQliYdjy9R8ePHhLlCwuv+RW9UYqMy4T9TyRXq1GOoQdbQzGo5jx27BUBEHoB3Kk4dR/ke6NVsG9eapgpFjPdeY2Zq0TbQnXDn0IH7eEQwIXqgT2eJyamwG+UMa0gfwLAAD//6VTdNIAAAAGSURBVAMA4B2YWd/M8zcAAAAASUVORK5CYII="><figcaption>产品截图 (implementation)</figcaption></figure>
+   <figure><img src="data:image/png;base64,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"><figcaption>像素热力图 (directional)</figcaption></figure>
+ </div>
+
+ <h2>Issues by component (actionable)</h2>
+ <table><thead><tr><th>Component</th><th>What to fix</th></tr></thead><tbody><tr><td colspan=2>✅ No issues</td></tr></tbody></table>
+
+ <h2>Icon vector check (1 icons · 0 fail · 0 warn · 1 waived)</h2>
+ <div class="meta" style="margin:0 0 8px">Each Figma icon's exported SVG path-set vs the rendered icon's <code>&lt;path&gt;</code> set. A count mismatch = a glyph element missing/wrong (e.g. a shield without its checkmark, or a font-glyph icon rendering no vector at all).</div>
+ <table><thead><tr><th>Icon</th><th>Figma paths</th><th>Impl paths</th><th>Status</th><th>Note</th></tr></thead><tbody>
+   <tr class="ok"><td>icon</td><td>1</td><td>0</td>
+   <td style="color:#0969da">waive</td><td>WAIVED — back-button 107:6 — inner chevron-left 20×20 icon frame (159:2) wraps a single stroke Vector 159:3 #aaa286 1.5px. The harness FigmaNode walker renders the inner vector's tokens as a bordered View (no &lt;svg&gt;); icon glyph drift waived as it's a tagged-element-only diff (token gate already PASS 100%). Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no &lt;svg&gt; here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)</td></tr></tbody></table>
+
+
+
+ <h2>All checks (22)</h2>
+ <table><thead><tr><th>Node</th><th>Prop</th><th>Figma</th><th>Impl</th><th>Δ</th><th>Sev</th><th>Hint</th></tr></thead><tbody>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>box.x</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>box.y</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>box.w</code></td>
+    <td>42</td><td>42</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>box.h</code></td>
+    <td>42</td><td>42</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>backgroundColor</code></td>
+    <td>#ffffff</td><td>#ffffff</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>borderColor</code></td>
+    <td>#aaa286@0.20</td><td>#aaa286@0.20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>borderRadius</code></td>
+    <td>12</td><td>12</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>borderWidth</code></td>
+    <td>1.5</td><td>1</td>
+    <td>0.5</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>padding.t</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>padding.r</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>padding.b</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>返回按钮 / Nav Back</td><td><code>padding.l</code></td>
+    <td>0</td><td>0</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>icon</td><td><code>box.x</code></td>
+    <td>11</td><td>11</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>icon</td><td><code>box.y</code></td>
+    <td>11</td><td>11</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>icon</td><td><code>box.w</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>icon</td><td><code>box.h</code></td>
+    <td>20</td><td>20</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>box.x</code></td>
+    <td>14.33</td><td>14.33</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>box.y</code></td>
+    <td>16</td><td>16</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>box.w</code></td>
+    <td>13.33</td><td>13.33</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>box.h</code></td>
+    <td>10</td><td>10</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>borderColor</code></td>
+    <td>#aaa286</td><td>#aaa286</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
+  <tr class="ok">
+    <td>Vector</td><td><code>borderWidth</code></td>
+    <td>1.5</td><td>1</td>
+    <td>0.5</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr></tbody></table>
+</div>

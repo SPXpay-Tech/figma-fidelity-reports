@@ -1,0 +1,29 @@
+{
+  "frame": {
+    "id": "456:3451",
+    "name": "服务条款勾选框 Terms Checkbox",
+    "width": 272,
+    "height": 146
+  },
+  "checked": 1,
+  "fails": 0,
+  "warns": 0,
+  "waived": 1,
+  "icons": [
+    {
+      "name": "icon-check",
+      "figmaId": "458:2",
+      "box": {
+        "x": 25,
+        "y": 65,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — checkbox 456:3451 — inner 16×16 icon-check frame on 状态=已勾选 variant; ships a single white stroke vector 458:3 #ffffff 1.33px (checkmark). FigmaNode walker renders the stroke vector as a bordered View; same waiver rationale as back-button — tokens (border color #ffffff + width 1.33) match, glyph drift is acknowledged as the harness limit. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}

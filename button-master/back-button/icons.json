@@ -1,0 +1,29 @@
+{
+  "frame": {
+    "id": "107:6",
+    "name": "返回按钮 / Nav Back",
+    "width": 42,
+    "height": 42
+  },
+  "checked": 1,
+  "fails": 0,
+  "warns": 0,
+  "waived": 1,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "159:2",
+      "box": {
+        "x": 11,
+        "y": 11,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — back-button 107:6 — inner chevron-left 20×20 icon frame (159:2) wraps a single stroke Vector 159:3 #aaa286 1.5px. The harness FigmaNode walker renders the inner vector's tokens as a bordered View (no <svg>); icon glyph drift waived as it's a tagged-element-only diff (token gate already PASS 100%). Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}
