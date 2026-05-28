@@ -1,0 +1,119 @@
+{
+  "frame": {
+    "id": "917:8262",
+    "name": "📱 Account. SPX 换汇",
+    "width": 390,
+    "height": 1333
+  },
+  "checked": 7,
+  "fails": 0,
+  "warns": 0,
+  "waived": 7,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "I917:9594;917:9567;159:2",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Back button glyph (figma '返回按钮 / Nav Back' interior named 'icon') uses Feather chevron-left (@expo/vector-icons font glyph, no <svg>). Box/geometry validated at x=31 y=77 20×20; vector-path identity waived per account-states/cards precedent for app-wide Feather icon system. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "arrow-down",
+      "figmaId": "I917:11337;917:11281;939:7967",
+      "box": {
+        "x": 326,
+        "y": 202,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Currency dropdown chevron uses app-wide Feather chevron-down (@expo/vector-icons). Geometry/box validated; vector-path identity waived per account-states/cards/dialog precedent. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Round Transfer Vertical",
+      "figmaId": "917:8271",
+      "box": {
+        "x": 183,
+        "y": 290,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 2,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Currency-card convert arrow uses Feather repeat glyph (vs bespoke Solar 'round-transfer-vertical' 2-arrow shape); geometry/circle bg validated, vector-path waived consistent with home/cards harness. (was: Figma icon has 2 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "arrow-down",
+      "figmaId": "I917:11336;917:11291;942:7974",
+      "box": {
+        "x": 326,
+        "y": 376,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Currency dropdown chevron uses app-wide Feather chevron-down (@expo/vector-icons). Geometry/box validated; vector-path identity waived per account-states/cards/dialog precedent. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Restart",
+      "figmaId": "I917:11639;661:6668;619:8095",
+      "box": {
+        "x": 34.67,
+        "y": 769.67,
+        "w": 26.67,
+        "h": 26.67
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Rate-list refresh chip uses Feather refresh-cw glyph; vector-path waived. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "figmaId": "I917:11639;661:6668;619:8115",
+      "box": {
+        "x": 82,
+        "y": 774,
+        "w": 18,
+        "h": 18
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Search box magnifier uses Feather search; vector-path waived. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I917:8283;548:6635",
+      "box": {
+        "x": 329.25,
+        "y": 1268,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Bottom nav 我的 tab uses Feather user; vector-path waived. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}
