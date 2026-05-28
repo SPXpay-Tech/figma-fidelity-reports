@@ -17,21 +17,30 @@
       "x": 0,
       "y": 0
     },
-    "generated": "2026-05-28T10:32:25.358Z"
+    "generated": "2026-05-28T13:53:49.580Z"
   },
   "summary": {
     "checks": 605,
-    "fails": 0,
-    "fidelityScore": 100,
-    "bySeverity": {},
+    "fails": 4,
+    "fidelityScore": 99.3,
+    "bySeverity": {
+      "minor": 4
+    },
     "gate": {
       "blocking": 0,
-      "minor": 0,
+      "minor": 4,
       "pass": true
     },
     "approved": 0
   },
-  "failsByNode": {},
+  "failsByNode": {
+    "icon": [
+      "borderRadius: 0 → set border-radius to 1.5789473056793213px",
+      "borderRadius: 0 → set border-radius to 1.5789474248886108px",
+      "borderRadius: 0 → set border-radius to 2.1052632331848145px",
+      "borderRadius: 0 → set border-radius to 2.1052632331848145px"
+    ]
+  },
   "approvedDeviations": [],
   "findings": [
     {
@@ -3013,10 +3022,11 @@
       "type": "FRAME",
       "prop": "borderRadius",
       "figma": 1.5789473056793213,
-      "impl": 1.57895,
-      "delta": 0,
-      "pass": true,
-      "severity": "pass"
+      "impl": 0,
+      "delta": 1.58,
+      "pass": false,
+      "severity": "minor",
+      "hint": "set border-radius to 1.5789473056793213px"
     },
     {
       "figmaId": "456:3404",
@@ -3976,10 +3986,11 @@
       "type": "FRAME",
       "prop": "borderRadius",
       "figma": 1.5789474248886108,
-      "impl": 1.57895,
-      "delta": 0,
-      "pass": true,
-      "severity": "pass"
+      "impl": 0,
+      "delta": 1.58,
+      "pass": false,
+      "severity": "minor",
+      "hint": "set border-radius to 1.5789474248886108px"
     },
     {
       "figmaId": "953:8017",
@@ -4939,10 +4950,11 @@
       "type": "FRAME",
       "prop": "borderRadius",
       "figma": 2.1052632331848145,
-      "impl": 2.10526,
-      "delta": 0,
-      "pass": true,
-      "severity": "pass"
+      "impl": 0,
+      "delta": 2.11,
+      "pass": false,
+      "severity": "minor",
+      "hint": "set border-radius to 2.1052632331848145px"
     },
     {
       "figmaId": "953:7983",
@@ -5996,10 +6008,11 @@
       "type": "FRAME",
       "prop": "borderRadius",
       "figma": 2.1052632331848145,
-      "impl": 2.10526,
-      "delta": 0,
-      "pass": true,
-      "severity": "pass"
+      "impl": 0,
+      "delta": 2.11,
+      "pass": false,
+      "severity": "minor",
+      "hint": "set border-radius to 2.1052632331848145px"
     },
     {
       "figmaId": "456:3417",

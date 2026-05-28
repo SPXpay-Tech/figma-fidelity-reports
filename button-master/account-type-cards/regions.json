@@ -10,40 +10,8 @@
     "y": 0
   },
   "threshold": 12,
-  "flagged": 6,
+  "flagged": 1,
   "regions": [
-    {
-      "name": "icon",
-      "type": "FRAME",
-      "box": {
-        "x": 39.58,
-        "y": 432.58,
-        "w": 16.84,
-        "h": 16.84
-      },
-      "figmaFill": null,
-      "mismatch": 17,
-      "crops": {
-        "figma": "icon_953_7982.figma.png",
-        "impl": "icon_953_7982.impl.png"
-      }
-    },
-    {
-      "name": "icon",
-      "type": "FRAME",
-      "box": {
-        "x": 39.58,
-        "y": 504.58,
-        "w": 16.84,
-        "h": 16.84
-      },
-      "figmaFill": null,
-      "mismatch": 17,
-      "crops": {
-        "figma": "icon_456_3416.figma.png",
-        "impl": "icon_456_3416.impl.png"
-      }
-    },
     {
       "name": "icon",
       "type": "FRAME",
@@ -54,42 +22,10 @@
         "h": 12.63
       },
       "figmaFill": null,
-      "mismatch": 13.6,
+      "mismatch": 12.2,
       "crops": {
         "figma": "icon_953_8008.figma.png",
         "impl": "icon_953_8008.impl.png"
-      }
-    },
-    {
-      "name": "icon",
-      "type": "FRAME",
-      "box": {
-        "x": 37.68,
-        "y": 181.68,
-        "w": 12.63,
-        "h": 12.63
-      },
-      "figmaFill": null,
-      "mismatch": 13.4,
-      "crops": {
-        "figma": "icon_953_7898.figma.png",
-        "impl": "icon_953_7898.impl.png"
-      }
-    },
-    {
-      "name": "icon",
-      "type": "FRAME",
-      "box": {
-        "x": 37.68,
-        "y": 305.68,
-        "w": 12.63,
-        "h": 12.63
-      },
-      "figmaFill": null,
-      "mismatch": 13.3,
-      "crops": {
-        "figma": "icon_456_3403.figma.png",
-        "impl": "icon_456_3403.impl.png"
       }
     },
     {
@@ -102,47 +38,19 @@
         "h": 12.63
       },
       "figmaFill": null,
-      "mismatch": 13.3,
-      "crops": {
-        "figma": "icon_953_8016.figma.png",
-        "impl": "icon_953_8016.impl.png"
-      }
-    },
-    {
-      "name": "chip",
-      "type": "FRAME",
-      "box": {
-        "x": 32,
-        "y": 497,
-        "w": 32,
-        "h": 32
-      },
-      "figmaFill": "#eabb62",
-      "mismatch": 6.8
-    },
-    {
-      "name": "chip",
-      "type": "FRAME",
-      "box": {
-        "x": 32,
-        "y": 362,
-        "w": 24,
-        "h": 24
-      },
-      "figmaFill": "#eabb62",
-      "mismatch": 5.3
+      "mismatch": 6.7
     },
     {
       "name": "icon",
       "type": "FRAME",
       "box": {
-        "x": 39.58,
-        "y": 112.58,
-        "w": 16.84,
-        "h": 16.84
+        "x": 37.68,
+        "y": 305.68,
+        "w": 12.63,
+        "h": 12.63
       },
       "figmaFill": null,
-      "mismatch": 5
+      "mismatch": 6.6
     },
     {
       "name": "类型=企业收款账户, 状态=选中",
@@ -154,18 +62,6 @@
         "h": 48
       },
       "figmaFill": "#ffffff",
-      "mismatch": 5
-    },
-    {
-      "name": "chip",
-      "type": "FRAME",
-      "box": {
-        "x": 32,
-        "y": 425,
-        "w": 32,
-        "h": 32
-      },
-      "figmaFill": "#aaa286@0.20",
       "mismatch": 4.8
     },
     {
@@ -178,19 +74,31 @@
         "h": 58
       },
       "figmaFill": "#ffffff",
-      "mismatch": 4.8
+      "mismatch": 4.2
     },
     {
-      "name": "chip",
+      "name": "icon",
       "type": "FRAME",
       "box": {
-        "x": 32,
-        "y": 300,
-        "w": 24,
-        "h": 24
+        "x": 39.58,
+        "y": 504.58,
+        "w": 16.84,
+        "h": 16.84
       },
-      "figmaFill": "#aaa286@0.20",
-      "mismatch": 4.4
+      "figmaFill": null,
+      "mismatch": 4.2
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 39.58,
+        "y": 432.58,
+        "w": 16.84,
+        "h": 16.84
+      },
+      "figmaFill": null,
+      "mismatch": 4.1
     },
     {
       "name": "类型=个人收款账户, 状态=选中",
@@ -202,31 +110,19 @@
         "h": 48
       },
       "figmaFill": "#ffffff",
-      "mismatch": 4.1
+      "mismatch": 3.9
     },
     {
-      "name": "chip",
+      "name": "icon",
       "type": "FRAME",
       "box": {
-        "x": 32,
-        "y": 176,
-        "w": 24,
-        "h": 24
+        "x": 37.68,
+        "y": 181.68,
+        "w": 12.63,
+        "h": 12.63
       },
-      "figmaFill": "#eabb62",
-      "mismatch": 3.6
-    },
-    {
-      "name": "chip",
-      "type": "FRAME",
-      "box": {
-        "x": 32,
-        "y": 238,
-        "w": 24,
-        "h": 24
-      },
-      "figmaFill": "#aaa286@0.20",
-      "mismatch": 3.6
+      "figmaFill": null,
+      "mismatch": 3.5
     },
     {
       "name": "类型=个人, 状态=选中",
@@ -238,7 +134,31 @@
         "h": 58
       },
       "figmaFill": "#ffffff",
-      "mismatch": 3.5
+      "mismatch": 3.4
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 238,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#aaa286@0.20",
+      "mismatch": 3.2
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 362,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 2.3
     },
     {
       "name": "类型=企业, 状态=默认",
@@ -250,7 +170,19 @@
         "h": 58
       },
       "figmaFill": "#ffffff",
-      "mismatch": 2.7
+      "mismatch": 2.3
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 300,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#aaa286@0.20",
+      "mismatch": 2.2
     },
     {
       "name": "类型=企业收款账户, 状态=默认",
@@ -262,7 +194,19 @@
         "h": 48
       },
       "figmaFill": "#ffffff",
-      "mismatch": 1.8
+      "mismatch": 1.9
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 39.58,
+        "y": 112.58,
+        "w": 16.84,
+        "h": 16.84
+      },
+      "figmaFill": null,
+      "mismatch": 1.7
     },
     {
       "name": "类型=个人收款账户, 状态=默认",
@@ -281,12 +225,48 @@
       "type": "FRAME",
       "box": {
         "x": 32,
+        "y": 497,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 1.2
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 425,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#aaa286@0.20",
+      "mismatch": 1.1
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 176,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 0.7
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
         "y": 105,
         "w": 32,
         "h": 32
       },
       "figmaFill": "#eabb62",
-      "mismatch": 1.4
+      "mismatch": 0.5
     }
   ]
 }

@@ -1184,7 +1184,7 @@
         "textTransform": "none",
         "color": "#000000",
         "backgroundColor": "transparent",
-        "borderRadius": 1.57895,
+        "borderRadius": 0,
         "borderColor": "#000000",
         "borderWidth": 0,
         "padding": {
@@ -1604,7 +1604,7 @@
         "textTransform": "none",
         "color": "#000000",
         "backgroundColor": "transparent",
-        "borderRadius": 1.57895,
+        "borderRadius": 0,
         "borderColor": "#000000",
         "borderWidth": 0,
         "padding": {
@@ -2024,7 +2024,7 @@
         "textTransform": "none",
         "color": "#000000",
         "backgroundColor": "transparent",
-        "borderRadius": 2.10526,
+        "borderRadius": 0,
         "borderColor": "#000000",
         "borderWidth": 0,
         "padding": {
@@ -2479,7 +2479,7 @@
         "textTransform": "none",
         "color": "#000000",
         "backgroundColor": "transparent",
-        "borderRadius": 2.10526,
+        "borderRadius": 0,
         "borderColor": "#000000",
         "borderWidth": 0,
         "padding": {
@@ -2831,6 +2831,334 @@
         "backgroundColor": "transparent",
         "borderRadius": 0,
         "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M14.1666 12.3955C14.1666 14.1558 14.1666 15.5829 8.50002 15.5829C2.83342 15.5829 2.83342 14.1558 2.83342 12.3955C2.83342 10.6351 5.37044 9.20798 8.50002 9.20798C11.6296 9.20798 14.1666 10.6351 14.1666 12.3955Z"
+      ],
+      "box": {
+        "x": 39.58,
+        "y": 40.58,
+        "w": 16.83,
+        "h": 16.83
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M14.1666 12.3955C14.1666 14.1558 14.1666 15.5829 8.50002 15.5829C2.83342 15.5829 2.83342 14.1558 2.83342 12.3955C2.83342 10.6351 5.37044 9.20798 8.50002 9.20798C11.6296 9.20798 14.1666 10.6351 14.1666 12.3955Z"
+      ],
+      "box": {
+        "x": 39.58,
+        "y": 112.58,
+        "w": 16.83,
+        "h": 16.83
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M10.833 9.47934C10.833 10.8255 10.833 11.9168 6.4997 11.9168C2.16637 11.9168 2.16637 10.8255 2.16637 9.47934C2.16637 8.13315 4.10647 7.04184 6.4997 7.04184C8.89293 7.04184 10.833 8.13315 10.833 9.47934Z"
+      ],
+      "box": {
+        "x": 37.67,
+        "y": 181.67,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M10.8335 9.47884C10.8335 10.825 10.8335 11.9163 6.50021 11.9163C2.16688 11.9163 2.16688 10.825 2.16688 9.47884C2.16688 8.13265 4.10697 7.04134 6.50021 7.04134C8.89344 7.04134 10.8335 8.13265 10.8335 9.47884Z"
+      ],
+      "box": {
+        "x": 37.67,
+        "y": 243.67,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M11.9165 11.9168L1.08319 11.9168",
+        "M11.375 11.9168V3.2501C11.375 2.22873 11.375 1.71804 11.0577 1.40074C10.7404 1.08344 10.2297 1.08344 9.20831 1.08344H8.12498C7.1036 1.08344 6.59292 1.08344 6.27561 1.40074C6.0202 1.65616 5.97038 2.03689 5.96067 2.70844",
+        "M8.1249 11.9169V4.87526C8.1249 3.85388 8.1249 3.3432 7.8076 3.0259C7.4903 2.7086 6.97961 2.7086 5.95823 2.7086H3.79157C2.77019 2.7086 2.25951 2.7086 1.94221 3.0259C1.62491 3.3432 1.62491 3.85388 1.62491 4.87526V11.9169",
+        "M4.87497 11.9167V10.2917",
+        "M3.24981 4.33325H6.49981",
+        "M3.24981 5.95841H6.49981",
+        "M3.24981 7.58356H6.49981"
+      ],
+      "box": {
+        "x": 37.67,
+        "y": 305.67,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M11.9168 11.9163L1.08344 11.9163",
+        "M11.3752 11.9163V3.2496C11.3752 2.22822 11.3752 1.71754 11.0579 1.40024C10.7406 1.08294 10.2299 1.08294 9.20856 1.08294H8.12523C7.10385 1.08294 6.59317 1.08294 6.27587 1.40024C6.02045 1.65565 5.97063 2.03639 5.96092 2.70793",
+        "M8.12515 11.9159V4.87425C8.12515 3.85288 8.12515 3.34219 7.80785 3.02489C7.49055 2.70759 6.97986 2.70759 5.95849 2.70759H3.79182C2.77045 2.70759 2.25976 2.70759 1.94246 3.02489C1.62516 3.34219 1.62516 3.85288 1.62516 4.87425V11.9159",
+        "M4.87522 11.9167V10.2917",
+        "M3.25031 4.33275H6.50031",
+        "M3.25031 5.9579H6.50031",
+        "M3.25031 7.58306H6.50031"
+      ],
+      "box": {
+        "x": 37.67,
+        "y": 367.67,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M15.5832 15.583L1.41671 15.583",
+        "M14.8752 15.583V4.24976C14.8752 2.91413 14.8752 2.24632 14.4602 1.83139C14.0453 1.41646 13.3775 1.41646 12.0418 1.41646H10.6252C9.28957 1.41646 8.62175 1.41646 8.20682 1.83139C7.87282 2.16539 7.80768 2.66327 7.79497 3.54144",
+        "M10.6251 15.5827V6.37446C10.6251 5.03882 10.6251 4.37101 10.2102 3.95608C9.79524 3.54115 9.12742 3.54115 7.79179 3.54115H4.95849C3.62286 3.54115 2.95504 3.54115 2.54011 3.95608C2.12518 4.37101 2.12518 5.03882 2.12518 6.37446V15.5827",
+        "M6.37506 15.5833V13.4584",
+        "M4.25012 5.66634H8.50008",
+        "M4.25012 7.79152H8.50008",
+        "M4.25012 9.91621H8.50008"
+      ],
+      "box": {
+        "x": 39.58,
+        "y": 432.58,
+        "w": 16.83,
+        "h": 16.83
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M15.5832 15.583L1.41671 15.583",
+        "M14.8752 15.583V4.24976C14.8752 2.91413 14.8752 2.24632 14.4602 1.83139C14.0453 1.41646 13.3775 1.41646 12.0418 1.41646H10.6252C9.28957 1.41646 8.62175 1.41646 8.20682 1.83139C7.87282 2.16539 7.80768 2.66327 7.79497 3.54144",
+        "M10.6251 15.5827V6.37446C10.6251 5.03882 10.6251 4.37101 10.2102 3.95608C9.79524 3.54115 9.12742 3.54115 7.79179 3.54115H4.95849C3.62286 3.54115 2.95504 3.54115 2.54011 3.95608C2.12518 4.37101 2.12518 5.03882 2.12518 6.37446V15.5827",
+        "M6.37506 15.5833V13.4584",
+        "M4.25012 5.66634H8.50008",
+        "M4.25012 7.79152H8.50008",
+        "M4.25012 9.91621H8.50008"
+      ],
+      "box": {
+        "x": 39.58,
+        "y": 504.58,
+        "w": 16.83,
+        "h": 16.83
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
