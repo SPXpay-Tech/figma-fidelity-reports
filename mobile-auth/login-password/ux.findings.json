@@ -1,0 +1,90 @@
+{
+  "type": "ux.findings",
+  "summary": {
+    "targets": 5,
+    "critical": 0,
+    "major": 0,
+    "minor": 1,
+    "info": 0,
+    "gate": {
+      "blocking": 0,
+      "pass": true
+    }
+  },
+  "matrix": [
+    {
+      "target": "username",
+      "state": "focus",
+      "reachable": true,
+      "destination": true,
+      "motion": true
+    },
+    {
+      "target": "username",
+      "state": "filled",
+      "reachable": true,
+      "destination": null,
+      "motion": true
+    },
+    {
+      "target": "password",
+      "state": "focus",
+      "reachable": true,
+      "destination": true,
+      "motion": true
+    },
+    {
+      "target": "password",
+      "state": "filled",
+      "reachable": true,
+      "destination": null,
+      "motion": true
+    },
+    {
+      "target": "password",
+      "state": "reveal",
+      "reachable": true,
+      "destination": null,
+      "motion": null
+    },
+    {
+      "target": "captcha",
+      "state": "focus",
+      "reachable": true,
+      "destination": true,
+      "motion": true
+    },
+    {
+      "target": "captcha",
+      "state": "filled",
+      "reachable": true,
+      "destination": null,
+      "motion": true
+    },
+    {
+      "target": "submit",
+      "state": "press",
+      "reachable": false,
+      "destination": null,
+      "motion": null
+    },
+    {
+      "target": "segmented-email",
+      "state": "selected",
+      "reachable": true,
+      "destination": null,
+      "motion": true
+    }
+  ],
+  "findings": [
+    {
+      "node": "submit",
+      "prop": "press",
+      "expected": "visible state change",
+      "actual": "no change",
+      "severity": "minor",
+      "hint": "interaction \"press\" produces no visible change — add a press/hover affordance if the design specifies one (see STATE-SEMANTICS.md)",
+      "kind": "reachability"
+    }
+  ]
+}

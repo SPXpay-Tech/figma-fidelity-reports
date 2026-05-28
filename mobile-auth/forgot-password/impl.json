@@ -1,0 +1,1789 @@
+{
+  "source": "impl",
+  "frame": {
+    "id": "page",
+    "name": "page",
+    "width": 390,
+    "height": 1227
+  },
+  "nodes": [
+    {
+      "key": "div",
+      "figmaId": null,
+      "name": "div",
+      "type": "div",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 27,
+        "w": 390,
+        "h": 1200
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 33.67,
+        "y": 66.5,
+        "w": 14.67,
+        "h": 11
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "中",
+      "box": {
+        "x": 312.91,
+        "y": 63.97,
+        "w": 12,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Medium",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#ffffff",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#eabb62",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "EN",
+      "box": {
+        "x": 341.91,
+        "y": 64.44,
+        "w": 16.09,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-SemiBold",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 15.12,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#aaa286",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f3f1e8",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "重置密码",
+      "box": {
+        "x": 20,
+        "y": 116,
+        "w": 80,
+        "h": 25
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Bold",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#24201a",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f9f9fa",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "验证邮箱后设置新的登录密码",
+      "box": {
+        "x": 20,
+        "y": 148,
+        "w": 182,
+        "h": 18
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Regular",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#6e6b7b",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f9f9fa",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "邮箱",
+      "box": {
+        "x": 20,
+        "y": 188,
+        "w": 24,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Bold",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#3d3218",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f9f9fa",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 38.67,
+        "y": 229.33,
+        "w": 16.67,
+        "h": 13.33
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 42,
+        "y": 232.67,
+        "w": 10,
+        "h": 3.41
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "input.css-textinput-11aywtz",
+      "figmaId": null,
+      "name": "input.css-textinput-11aywtz",
+      "type": "input",
+      "text": null,
+      "box": {
+        "x": 69,
+        "y": 228,
+        "w": 286,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Regular",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#9ca3af",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "验证码",
+      "box": {
+        "x": 20,
+        "y": 286,
+        "w": 36,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Bold",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#3d3218",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f9f9fa",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 39.5,
+        "y": 325.67,
+        "w": 15,
+        "h": 16.67
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 44.92,
+        "y": 332.33,
+        "w": 4.17,
+        "h": 3.33
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "input.css-textinput-11aywtz",
+      "figmaId": null,
+      "name": "input.css-textinput-11aywtz",
+      "type": "input",
+      "text": null,
+      "box": {
+        "x": 69,
+        "y": 326,
+        "w": 200,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Regular",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#9ca3af",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "div.css-view-g5y9jx",
+      "figmaId": null,
+      "name": "div.css-view-g5y9jx",
+      "type": "div",
+      "text": null,
+      "box": {
+        "x": 277,
+        "y": 324,
+        "w": 1,
+        "h": 20
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#f3f1e8",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "发送验证码",
+      "box": {
+        "x": 290,
+        "y": 325.38,
+        "w": 65,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Bold",
+        "fontSize": 13,
+        "fontWeight": 400,
+        "lineHeight": 15.24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#eabb62",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "新登录密码",
+      "box": {
+        "x": 20,
+        "y": 384,
+        "w": 60,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Bold",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#3d3218",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f9f9fa",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 42.83,
+        "y": 431.17,
+        "w": 1.67,
+        "h": 1.67
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 46.17,
+        "y": 431.17,
+        "w": 1.67,
+        "h": 1.67
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 49.5,
+        "y": 431.17,
+        "w": 1.67,
+        "h": 1.67
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 38.04,
+        "y": 424.71,
+        "w": 17.92,
+        "h": 14.58
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "input.css-textinput-11aywtz",
+      "figmaId": null,
+      "name": "input.css-textinput-11aywtz",
+      "type": "input",
+      "text": null,
+      "box": {
+        "x": 69,
+        "y": 424.97,
+        "w": 258,
+        "h": 14.06
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Regular",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#9ca3af",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 336.67,
+        "y": 425.33,
+        "w": 16.67,
+        "h": 13.33
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 342.5,
+        "y": 429.5,
+        "w": 5,
+        "h": 5
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "确认密码",
+      "box": {
+        "x": 20,
+        "y": 482,
+        "w": 48,
+        "h": 15
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Bold",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#3d3218",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f9f9fa",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 42.83,
+        "y": 529.17,
+        "w": 1.67,
+        "h": 1.67
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 46.17,
+        "y": 529.17,
+        "w": 1.67,
+        "h": 1.67
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 49.5,
+        "y": 529.17,
+        "w": 1.67,
+        "h": 1.67
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 38.04,
+        "y": 522.71,
+        "w": 17.92,
+        "h": 14.58
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "input.css-textinput-11aywtz",
+      "figmaId": null,
+      "name": "input.css-textinput-11aywtz",
+      "type": "input",
+      "text": null,
+      "box": {
+        "x": 69,
+        "y": 522,
+        "w": 258,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Regular",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#9ca3af",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 336.67,
+        "y": 523.33,
+        "w": 16.67,
+        "h": 13.33
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 342.5,
+        "y": 527.5,
+        "w": 5,
+        "h": 5
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#aaa286@0.20",
+          "borderWidth": 1
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "重置密码",
+      "box": {
+        "x": 163,
+        "y": 597.5,
+        "w": 64,
+        "h": 21
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Bold",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 19,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#ffffff",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#eabb62",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "想起密码了？",
+      "box": {
+        "x": 20,
+        "y": 656,
+        "w": 80.22,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Regular",
+        "fontSize": 13,
+        "fontWeight": 400,
+        "lineHeight": 18,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#8a8f98",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f9f9fa",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "返回登录",
+      "box": {
+        "x": 100.22,
+        "y": 656,
+        "w": 52,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Medium",
+        "fontSize": 13,
+        "fontWeight": 400,
+        "lineHeight": 18,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#eabb62",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f9f9fa",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "placeholder",
+      "figmaId": null,
+      "name": "placeholder",
+      "type": "placeholder",
+      "text": "你的邮箱地址",
+      "box": {
+        "x": 69,
+        "y": 228,
+        "w": 286,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Regular",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#aaa286",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "placeholder",
+      "figmaId": null,
+      "name": "placeholder",
+      "type": "placeholder",
+      "text": "邮箱验证码",
+      "box": {
+        "x": 69,
+        "y": 326,
+        "w": 200,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Regular",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#aaa286",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "placeholder",
+      "figmaId": null,
+      "name": "placeholder",
+      "type": "placeholder",
+      "text": "设置新登录密码（≥12位含大小写+数字）",
+      "box": {
+        "x": 69,
+        "y": 424.97,
+        "w": 258,
+        "h": 14.06
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Regular",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#aaa286",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "placeholder",
+      "figmaId": null,
+      "name": "placeholder",
+      "type": "placeholder",
+      "text": "请再次输入密码",
+      "box": {
+        "x": 69,
+        "y": 522,
+        "w": 258,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "PlusJakartaSans-Regular",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#aaa286",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M16.6668 10H3.3335M8.3335 15L3.3335 10L8.3335 5"
+      ],
+      "box": {
+        "x": 30,
+        "y": 61,
+        "w": 22,
+        "h": 22
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M1.6665 10.0002C1.6665 6.85747 1.6665 5.28612 2.64281 4.30981C3.61913 3.3335 5.19047 3.3335 8.33317 3.3335H11.6665C14.8092 3.3335 16.3805 3.3335 17.3569 4.30981C18.3332 5.28612 18.3332 6.85747 18.3332 10.0002C18.3332 13.1429 18.3332 14.7142 17.3569 15.6905C16.3805 16.6668 14.8092 16.6668 11.6665 16.6668H8.33317C5.19047 16.6668 3.61913 16.6668 2.64281 15.6905C1.6665 14.7142 1.6665 13.1429 1.6665 10.0002Z",
+        "M5 6.6665L6.79908 8.16574C8.32961 9.44118 9.09488 10.0789 10 10.0789C10.9051 10.0789 11.6704 9.44118 13.2009 8.16574L15 6.6665"
+      ],
+      "box": {
+        "x": 37,
+        "y": 226,
+        "w": 20,
+        "h": 20
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M2.5 8.68038C2.5 6.01573 2.5 4.6834 2.8146 4.23518C3.12919 3.78695 4.38194 3.35813 6.88743 2.5005L7.36477 2.3371C8.67082 1.89004 9.32384 1.6665 10 1.6665C10.6762 1.6665 11.3292 1.89004 12.6352 2.3371L13.1126 2.5005C15.6181 3.35813 16.8708 3.78695 17.1854 4.23518C17.5 4.6834 17.5 6.01573 17.5 8.68038C17.5 9.08288 17.5 9.51935 17.5 9.99264C17.5 14.691 13.9675 16.9711 11.7512 17.9392C11.15 18.2019 10.8494 18.3332 10 18.3332C9.15062 18.3332 8.85001 18.2019 8.2488 17.9392C6.03247 16.9711 2.5 14.691 2.5 9.99264C2.5 9.51935 2.5 9.08288 2.5 8.68038Z",
+        "M7.9165 10.3335L9.10698 11.6668L12.0832 8.3335"
+      ],
+      "box": {
+        "x": 37,
+        "y": 324,
+        "w": 20,
+        "h": 20
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M6.6665 10.8335C7.12674 10.8335 7.49984 10.4604 7.49984 10.0002C7.49984 9.53993 7.12674 9.16683 6.6665 9.16683C6.20627 9.16683 5.83317 9.53993 5.83317 10.0002C5.83317 10.4604 6.20627 10.8335 6.6665 10.8335Z",
+        "M10.8332 10.0002C10.8332 10.4604 10.4601 10.8335 9.99984 10.8335C9.5396 10.8335 9.1665 10.4604 9.1665 10.0002C9.1665 9.53993 9.5396 9.16683 9.99984 9.16683C10.4601 9.16683 10.8332 9.53993 10.8332 10.0002Z",
+        "M13.3332 10.8335C13.7934 10.8335 14.1665 10.4604 14.1665 10.0002C14.1665 9.53993 13.7934 9.16683 13.3332 9.16683C12.8729 9.16683 12.4998 9.53993 12.4998 10.0002C12.4998 10.4604 12.8729 10.8335 13.3332 10.8335Z",
+        "M8.28616 2.7085C6.7547 2.70848 5.54166 2.70847 4.59232 2.83611C3.6153 2.96747 2.82451 3.24423 2.20087 3.86787C1.57724 4.4915 1.30047 5.28229 1.16912 6.25931C1.04148 7.20865 1.04149 8.42168 1.0415 9.95314V10.0472C1.04149 11.5786 1.04148 12.7917 1.16912 13.741C1.30047 14.718 1.57724 15.5088 2.20087 16.1325C2.82451 16.7561 3.6153 17.0329 4.59232 17.1642C5.54166 17.2919 6.75467 17.2918 8.28612 17.2918H11.7135C13.245 17.2918 14.458 17.2919 15.4074 17.1642C16.3844 17.0329 17.1752 16.7561 17.7988 16.1325C18.4224 15.5088 18.6992 14.718 18.8306 13.741C18.9582 12.7917 18.9582 11.5787 18.9582 10.0472V9.95315C18.9582 8.4217 18.9582 7.20865 18.8306 6.25931C18.6992 5.28229 18.4224 4.4915 17.7988 3.86787C17.1752 3.24423 16.3844 2.96747 15.4074 2.83611C14.458 2.70847 13.245 2.70848 11.7135 2.7085H8.28616ZM3.08476 4.75175C3.43743 4.39907 3.92047 4.18768 4.75888 4.07496C5.61527 3.95982 6.74415 3.9585 8.33317 3.9585H11.6665C13.2555 3.9585 14.3844 3.95982 15.2408 4.07496C16.0792 4.18768 16.5622 4.39907 16.9149 4.75175C17.2676 5.10442 17.479 5.58746 17.5917 6.42587C17.7068 7.28226 17.7082 8.41115 17.7082 10.0002C17.7082 11.5892 17.7068 12.7181 17.5917 13.5745C17.479 14.4129 17.2676 14.8959 16.9149 15.2486C16.5622 15.6013 16.0792 15.8126 15.2408 15.9254C14.3844 16.0405 13.2555 16.0418 11.6665 16.0418H8.33317C6.74415 16.0418 5.61527 16.0405 4.75888 15.9254C3.92047 15.8126 3.43743 15.6013 3.08476 15.2486C2.73208 14.8959 2.52069 14.4129 2.40797 13.5745C2.29283 12.7181 2.2915 11.5892 2.2915 10.0002C2.2915 8.41115 2.29283 7.28226 2.40797 6.42587C2.52069 5.58746 2.73208 5.10442 3.08476 4.75175Z"
+      ],
+      "box": {
+        "x": 37,
+        "y": 422,
+        "w": 20,
+        "h": 20
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M2.72891 12.7466C2.02064 11.8264 1.6665 11.3663 1.6665 10.0002C1.6665 8.63402 2.02064 8.17393 2.72891 7.25377C4.14314 5.41646 6.51493 3.3335 9.99984 3.3335C13.4847 3.3335 15.8565 5.41646 17.2708 7.25377C17.979 8.17393 18.3332 8.63402 18.3332 10.0002C18.3332 11.3663 17.979 11.8264 17.2708 12.7466C15.8565 14.5839 13.4847 16.6668 9.99984 16.6668C6.51493 16.6668 4.14314 14.5839 2.72891 12.7466Z",
+        "M12.5 10C12.5 11.3807 11.3807 12.5 10 12.5C8.61929 12.5 7.5 11.3807 7.5 10C7.5 8.61929 8.61929 7.5 10 7.5C11.3807 7.5 12.5 8.61929 12.5 10Z"
+      ],
+      "box": {
+        "x": 335,
+        "y": 422,
+        "w": 20,
+        "h": 20
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M6.6665 10.8335C7.12674 10.8335 7.49984 10.4604 7.49984 10.0002C7.49984 9.53993 7.12674 9.16683 6.6665 9.16683C6.20627 9.16683 5.83317 9.53993 5.83317 10.0002C5.83317 10.4604 6.20627 10.8335 6.6665 10.8335Z",
+        "M10.8332 10.0002C10.8332 10.4604 10.4601 10.8335 9.99984 10.8335C9.5396 10.8335 9.1665 10.4604 9.1665 10.0002C9.1665 9.53993 9.5396 9.16683 9.99984 9.16683C10.4601 9.16683 10.8332 9.53993 10.8332 10.0002Z",
+        "M13.3332 10.8335C13.7934 10.8335 14.1665 10.4604 14.1665 10.0002C14.1665 9.53993 13.7934 9.16683 13.3332 9.16683C12.8729 9.16683 12.4998 9.53993 12.4998 10.0002C12.4998 10.4604 12.8729 10.8335 13.3332 10.8335Z",
+        "M8.28616 2.7085C6.7547 2.70848 5.54166 2.70847 4.59232 2.83611C3.6153 2.96747 2.82451 3.24423 2.20087 3.86787C1.57724 4.4915 1.30047 5.28229 1.16912 6.25931C1.04148 7.20865 1.04149 8.42168 1.0415 9.95314V10.0472C1.04149 11.5786 1.04148 12.7917 1.16912 13.741C1.30047 14.718 1.57724 15.5088 2.20087 16.1325C2.82451 16.7561 3.6153 17.0329 4.59232 17.1642C5.54166 17.2919 6.75467 17.2918 8.28612 17.2918H11.7135C13.245 17.2918 14.458 17.2919 15.4074 17.1642C16.3844 17.0329 17.1752 16.7561 17.7988 16.1325C18.4224 15.5088 18.6992 14.718 18.8306 13.741C18.9582 12.7917 18.9582 11.5787 18.9582 10.0472V9.95315C18.9582 8.4217 18.9582 7.20865 18.8306 6.25931C18.6992 5.28229 18.4224 4.4915 17.7988 3.86787C17.1752 3.24423 16.3844 2.96747 15.4074 2.83611C14.458 2.70847 13.245 2.70848 11.7135 2.7085H8.28616ZM3.08476 4.75175C3.43743 4.39907 3.92047 4.18768 4.75888 4.07496C5.61527 3.95982 6.74415 3.9585 8.33317 3.9585H11.6665C13.2555 3.9585 14.3844 3.95982 15.2408 4.07496C16.0792 4.18768 16.5622 4.39907 16.9149 4.75175C17.2676 5.10442 17.479 5.58746 17.5917 6.42587C17.7068 7.28226 17.7082 8.41115 17.7082 10.0002C17.7082 11.5892 17.7068 12.7181 17.5917 13.5745C17.479 14.4129 17.2676 14.8959 16.9149 15.2486C16.5622 15.6013 16.0792 15.8126 15.2408 15.9254C14.3844 16.0405 13.2555 16.0418 11.6665 16.0418H8.33317C6.74415 16.0418 5.61527 16.0405 4.75888 15.9254C3.92047 15.8126 3.43743 15.6013 3.08476 15.2486C2.73208 14.8959 2.52069 14.4129 2.40797 13.5745C2.29283 12.7181 2.2915 11.5892 2.2915 10.0002C2.2915 8.41115 2.29283 7.28226 2.40797 6.42587C2.52069 5.58746 2.73208 5.10442 3.08476 4.75175Z"
+      ],
+      "box": {
+        "x": 37,
+        "y": 520,
+        "w": 20,
+        "h": 20
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M2.72891 12.7466C2.02064 11.8264 1.6665 11.3663 1.6665 10.0002C1.6665 8.63402 2.02064 8.17393 2.72891 7.25377C4.14314 5.41646 6.51493 3.3335 9.99984 3.3335C13.4847 3.3335 15.8565 5.41646 17.2708 7.25377C17.979 8.17393 18.3332 8.63402 18.3332 10.0002C18.3332 11.3663 17.979 11.8264 17.2708 12.7466C15.8565 14.5839 13.4847 16.6668 9.99984 16.6668C6.51493 16.6668 4.14314 14.5839 2.72891 12.7466Z",
+        "M12.5 10C12.5 11.3807 11.3807 12.5 10 12.5C8.61929 12.5 7.5 11.3807 7.5 10C7.5 8.61929 8.61929 7.5 10 7.5C11.3807 7.5 12.5 8.61929 12.5 10Z"
+      ],
+      "box": {
+        "x": 335,
+        "y": 520,
+        "w": 20,
+        "h": 20
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    }
+  ],
+  "matchMode": "fallback"
+}

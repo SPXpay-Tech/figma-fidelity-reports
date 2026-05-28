@@ -1,0 +1,208 @@
+{
+  "frame": {
+    "id": "451:3122",
+    "name": "📱 Login · 忘记密码",
+    "width": 390,
+    "height": 844
+  },
+  "offset": {
+    "x": 0,
+    "y": -16
+  },
+  "threshold": 12,
+  "flagged": 0,
+  "regions": [
+    {
+      "name": "🌐 语言切换 Language Toggle",
+      "type": "INSTANCE",
+      "box": {
+        "x": 302,
+        "y": 76,
+        "w": 68,
+        "h": 32
+      },
+      "figmaFill": "#f3f1e8",
+      "mismatch": 2.4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 423,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.1
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 325,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.7
+    },
+    {
+      "name": "主按钮 / Button·Primary",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 599,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 1.3
+    },
+    {
+      "name": "seg-EN",
+      "type": "FRAME",
+      "box": {
+        "x": 336,
+        "y": 80,
+        "w": 30,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 1.1
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 521,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.9
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 227,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.5
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 0.3
+    },
+    {
+      "name": "返回按钮 / Nav Back",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 42,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.1
+    },
+    {
+      "name": "seg-中",
+      "type": "FRAME",
+      "box": {
+        "x": 306,
+        "y": 80,
+        "w": 30,
+        "h": 24
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 0
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 244,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 342,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "Outline / Security / Password Minimalistic",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 440,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 336,
+        "y": 440,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "Outline / Security / Password Minimalistic",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 538,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 336,
+        "y": 538,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    }
+  ]
+}

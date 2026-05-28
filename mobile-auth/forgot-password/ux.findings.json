@@ -1,0 +1,121 @@
+{
+  "type": "ux.findings",
+  "summary": {
+    "targets": 7,
+    "critical": 0,
+    "major": 0,
+    "minor": 0,
+    "info": 0,
+    "gate": {
+      "blocking": 0,
+      "pass": true
+    }
+  },
+  "matrix": [
+    {
+      "target": "email",
+      "state": "focus",
+      "reachable": true,
+      "destination": true,
+      "motion": true,
+      "feedback": null
+    },
+    {
+      "target": "email",
+      "state": "filled",
+      "reachable": true,
+      "destination": null,
+      "motion": true,
+      "feedback": null
+    },
+    {
+      "target": "code",
+      "state": "focus",
+      "reachable": true,
+      "destination": true,
+      "motion": true,
+      "feedback": null
+    },
+    {
+      "target": "code",
+      "state": "filled",
+      "reachable": true,
+      "destination": null,
+      "motion": true,
+      "feedback": null
+    },
+    {
+      "target": "password",
+      "state": "focus",
+      "reachable": true,
+      "destination": true,
+      "motion": true,
+      "feedback": null
+    },
+    {
+      "target": "password",
+      "state": "filled",
+      "reachable": true,
+      "destination": null,
+      "motion": true,
+      "feedback": null
+    },
+    {
+      "target": "password",
+      "state": "reveal",
+      "reachable": true,
+      "destination": null,
+      "motion": null,
+      "feedback": null
+    },
+    {
+      "target": "confirm",
+      "state": "focus",
+      "reachable": true,
+      "destination": true,
+      "motion": true,
+      "feedback": null
+    },
+    {
+      "target": "confirm",
+      "state": "filled",
+      "reachable": true,
+      "destination": null,
+      "motion": true,
+      "feedback": null
+    },
+    {
+      "target": "confirm",
+      "state": "reveal",
+      "reachable": true,
+      "destination": null,
+      "motion": null,
+      "feedback": null
+    },
+    {
+      "target": "email-format",
+      "state": "error",
+      "reachable": true,
+      "destination": null,
+      "motion": true,
+      "feedback": "inline"
+    },
+    {
+      "target": "password-strength",
+      "state": "error",
+      "reachable": true,
+      "destination": null,
+      "motion": true,
+      "feedback": "inline"
+    },
+    {
+      "target": "confirm-mismatch",
+      "state": "mismatch",
+      "reachable": true,
+      "destination": null,
+      "motion": null,
+      "feedback": "inline"
+    }
+  ],
+  "findings": []
+}
