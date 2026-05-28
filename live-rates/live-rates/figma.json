@@ -1,0 +1,1742 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "744:7619",
+    "name": "Frame 2147225284",
+    "width": 350,
+    "height": 554
+  },
+  "nodes": [
+    {
+      "key": "744:7619",
+      "figmaId": "744:7619",
+      "name": "Frame 2147225284",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 350,
+        "h": 554
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "619:8218",
+      "figmaId": "619:8218",
+      "name": "Section Header · 区块标题",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 350,
+        "h": 36
+      },
+      "style": {
+        "padding": {
+          "t": 6,
+          "r": 0,
+          "b": 6,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "I619:8218;619:7907",
+      "figmaId": "I619:8218;619:7907",
+      "name": "l",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 6,
+        "w": 64,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I619:8218;619:7908",
+      "figmaId": "I619:8218;619:7908",
+      "name": "Rectangle",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 10,
+        "w": 2,
+        "h": 16
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 2
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I619:8218;619:7909",
+      "figmaId": "I619:8218;619:7909",
+      "name": "实时汇率",
+      "type": "TEXT",
+      "text": "实时汇率",
+      "box": {
+        "x": 8,
+        "y": 6,
+        "w": 56,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#24201a"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I619:8218;619:7910",
+      "figmaId": "I619:8218;619:7910",
+      "name": "Frame 2147225266",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 326,
+        "y": 6,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "borderRadius": 30,
+        "padding": {
+          "t": 2,
+          "r": 2,
+          "b": 2,
+          "l": 2
+        },
+        "gap": 124,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I619:8218;619:7911",
+      "figmaId": "I619:8218;619:7911",
+      "name": "Bold / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 328,
+        "y": 8,
+        "w": 20,
+        "h": 20
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I619:8218;619:7912",
+      "figmaId": "I619:8218;619:7912",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 332.17,
+        "y": 14.67,
+        "w": 11.67,
+        "h": 6.67
+      },
+      "style": {
+        "backgroundColor": "#eabb62",
+        "borderRadius": 0
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "677:4989",
+      "figmaId": "677:4989",
+      "name": "Exchange Rate · 汇率",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 42,
+        "w": 350,
+        "h": 512
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 15,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "I677:4989;619:8220",
+      "figmaId": "I677:4989;619:8220",
+      "name": "Exchange Rate · 汇率",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 54,
+        "w": 326,
+        "h": 42
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I677:4989;619:8220;619:8094",
+      "figmaId": "I677:4989;619:8220;619:8094",
+      "name": "Frame 2147225265",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 59,
+        "w": 32,
+        "h": 32
+      },
+      "style": {
+        "borderRadius": 30,
+        "padding": {
+          "t": 2.6666667461395264,
+          "r": 2.6666667461395264,
+          "b": 2.6666667461395264,
+          "l": 2.6666667461395264
+        },
+        "gap": 165.33334350585938,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8220;619:8095",
+      "figmaId": "I677:4989;619:8220;619:8095",
+      "name": "Linear / Arrows / Restart",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 14.67,
+        "y": 61.67,
+        "w": 26.67,
+        "h": 26.67
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8220;619:8096",
+      "figmaId": "I677:4989;619:8220;619:8096",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 19.11,
+        "y": 65.9,
+        "w": 17.78,
+        "h": 19.1
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.5
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I677:4989;619:8220;619:8113",
+      "figmaId": "I677:4989;619:8220;619:8113",
+      "name": "search-box",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 50,
+        "y": 54,
+        "w": 288,
+        "h": 42
+      },
+      "style": {
+        "backgroundColor": "#f6f6f4",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8220;619:8114",
+      "figmaId": "I677:4989;619:8220;619:8114",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 62,
+        "y": 66,
+        "w": 82,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 8,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8220;619:8115",
+      "figmaId": "I677:4989;619:8220;619:8115",
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 62,
+        "y": 66,
+        "w": 18,
+        "h": 18
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I677:4989;619:8220;619:8116",
+      "figmaId": "I677:4989;619:8220;619:8116",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 62.94,
+        "y": 66.94,
+        "w": 16.13,
+        "h": 16.13
+      },
+      "style": {
+        "backgroundColor": "#aaa286"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "I677:4989;619:8220;619:8117",
+      "figmaId": "I677:4989;619:8220;619:8117",
+      "name": "搜索币种",
+      "type": "TEXT",
+      "text": "搜索币种",
+      "box": {
+        "x": 88,
+        "y": 67,
+        "w": 56,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f6f6f4",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 5
+    },
+    {
+      "key": "I677:4989;619:8221",
+      "figmaId": "I677:4989;619:8221",
+      "name": "Exchange Rate · 汇率",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 108,
+        "w": 326,
+        "h": 22
+      },
+      "style": {
+        "padding": {
+          "t": 4,
+          "r": 0,
+          "b": 4,
+          "l": 0
+        },
+        "gap": 87,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I677:4989;619:8221;619:7860",
+      "figmaId": "I677:4989;619:8221;619:7860",
+      "name": "h",
+      "type": "TEXT",
+      "text": "币对",
+      "box": {
+        "x": 12,
+        "y": 112,
+        "w": 90,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8221;619:7861",
+      "figmaId": "I677:4989;619:8221;619:7861",
+      "name": "h",
+      "type": "TEXT",
+      "text": "买入",
+      "box": {
+        "x": 156,
+        "y": 112,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8221;619:7862",
+      "figmaId": "I677:4989;619:8221;619:7862",
+      "name": "h",
+      "type": "TEXT",
+      "text": "卖出",
+      "box": {
+        "x": 274,
+        "y": 112,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8222",
+      "figmaId": "I677:4989;619:8222",
+      "name": "Frame 2147225268",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 142,
+        "w": 326,
+        "h": 348
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 12,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I677:4989;619:8223",
+      "figmaId": "I677:4989;619:8223",
+      "name": "Exchange Rate · 汇率",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 142,
+        "w": 326,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 12,
+          "r": 0,
+          "b": 12,
+          "l": 0
+        },
+        "gap": 87,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8223;619:7865",
+      "figmaId": "I677:4989;619:8223;619:7865",
+      "name": "h",
+      "type": "TEXT",
+      "text": "USD/CNY",
+      "box": {
+        "x": 12,
+        "y": 146,
+        "w": 90,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8223;619:7866",
+      "figmaId": "I677:4989;619:8223;619:7866",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.1450",
+      "box": {
+        "x": 156,
+        "y": 147,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#00d17d"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8223;619:7867",
+      "figmaId": "I677:4989;619:8223;619:7867",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.0321",
+      "box": {
+        "x": 274,
+        "y": 147,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8224",
+      "figmaId": "I677:4989;619:8224",
+      "name": "Exchange Rate · 汇率",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 178,
+        "w": 326,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 12,
+          "r": 0,
+          "b": 12,
+          "l": 0
+        },
+        "gap": 87,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8224;619:7865",
+      "figmaId": "I677:4989;619:8224;619:7865",
+      "name": "h",
+      "type": "TEXT",
+      "text": "USD/HKD",
+      "box": {
+        "x": 12,
+        "y": 182,
+        "w": 90,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8224;619:7866",
+      "figmaId": "I677:4989;619:8224;619:7866",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.1450",
+      "box": {
+        "x": 156,
+        "y": 183,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#00d17d"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8224;619:7867",
+      "figmaId": "I677:4989;619:8224;619:7867",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.0321",
+      "box": {
+        "x": 274,
+        "y": 183,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8225",
+      "figmaId": "I677:4989;619:8225",
+      "name": "Exchange Rate · 汇率",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 214,
+        "w": 326,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 12,
+          "r": 0,
+          "b": 12,
+          "l": 0
+        },
+        "gap": 87,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8225;619:7865",
+      "figmaId": "I677:4989;619:8225;619:7865",
+      "name": "h",
+      "type": "TEXT",
+      "text": "USD/USDT",
+      "box": {
+        "x": 12,
+        "y": 218,
+        "w": 90,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8225;619:7866",
+      "figmaId": "I677:4989;619:8225;619:7866",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.1450",
+      "box": {
+        "x": 156,
+        "y": 219,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#00d17d"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8225;619:7867",
+      "figmaId": "I677:4989;619:8225;619:7867",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.0321",
+      "box": {
+        "x": 274,
+        "y": 219,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8226",
+      "figmaId": "I677:4989;619:8226",
+      "name": "Exchange Rate · 汇率",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 250,
+        "w": 326,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 12,
+          "r": 0,
+          "b": 12,
+          "l": 0
+        },
+        "gap": 87,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8226;619:7865",
+      "figmaId": "I677:4989;619:8226;619:7865",
+      "name": "h",
+      "type": "TEXT",
+      "text": "USD/CNY",
+      "box": {
+        "x": 12,
+        "y": 254,
+        "w": 90,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8226;619:7866",
+      "figmaId": "I677:4989;619:8226;619:7866",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.1450",
+      "box": {
+        "x": 156,
+        "y": 255,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#00d17d"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8226;619:7867",
+      "figmaId": "I677:4989;619:8226;619:7867",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.0321",
+      "box": {
+        "x": 274,
+        "y": 255,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8227",
+      "figmaId": "I677:4989;619:8227",
+      "name": "Exchange Rate · 汇率",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 286,
+        "w": 326,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 12,
+          "r": 0,
+          "b": 12,
+          "l": 0
+        },
+        "gap": 87,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8227;619:7865",
+      "figmaId": "I677:4989;619:8227;619:7865",
+      "name": "h",
+      "type": "TEXT",
+      "text": "USD/CNY",
+      "box": {
+        "x": 12,
+        "y": 290,
+        "w": 90,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8227;619:7866",
+      "figmaId": "I677:4989;619:8227;619:7866",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.1450",
+      "box": {
+        "x": 156,
+        "y": 291,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#00d17d"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8227;619:7867",
+      "figmaId": "I677:4989;619:8227;619:7867",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.0321",
+      "box": {
+        "x": 274,
+        "y": 291,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8228",
+      "figmaId": "I677:4989;619:8228",
+      "name": "Exchange Rate · 汇率",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 322,
+        "w": 326,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 12,
+          "r": 0,
+          "b": 12,
+          "l": 0
+        },
+        "gap": 87,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8228;619:7865",
+      "figmaId": "I677:4989;619:8228;619:7865",
+      "name": "h",
+      "type": "TEXT",
+      "text": "USD/CNY",
+      "box": {
+        "x": 12,
+        "y": 326,
+        "w": 90,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8228;619:7866",
+      "figmaId": "I677:4989;619:8228;619:7866",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.1450",
+      "box": {
+        "x": 156,
+        "y": 327,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#00d17d"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8228;619:7867",
+      "figmaId": "I677:4989;619:8228;619:7867",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.0321",
+      "box": {
+        "x": 274,
+        "y": 327,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8229",
+      "figmaId": "I677:4989;619:8229",
+      "name": "Exchange Rate · 汇率",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 358,
+        "w": 326,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 12,
+          "r": 0,
+          "b": 12,
+          "l": 0
+        },
+        "gap": 87,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8229;619:7865",
+      "figmaId": "I677:4989;619:8229;619:7865",
+      "name": "h",
+      "type": "TEXT",
+      "text": "USD/CNY",
+      "box": {
+        "x": 12,
+        "y": 362,
+        "w": 90,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8229;619:7866",
+      "figmaId": "I677:4989;619:8229;619:7866",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.1450",
+      "box": {
+        "x": 156,
+        "y": 363,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#00d17d"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8229;619:7867",
+      "figmaId": "I677:4989;619:8229;619:7867",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.0321",
+      "box": {
+        "x": 274,
+        "y": 363,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8230",
+      "figmaId": "I677:4989;619:8230",
+      "name": "Exchange Rate · 汇率",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 394,
+        "w": 326,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 12,
+          "r": 0,
+          "b": 12,
+          "l": 0
+        },
+        "gap": 87,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8230;619:7865",
+      "figmaId": "I677:4989;619:8230;619:7865",
+      "name": "h",
+      "type": "TEXT",
+      "text": "USD/CNY",
+      "box": {
+        "x": 12,
+        "y": 398,
+        "w": 90,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8230;619:7866",
+      "figmaId": "I677:4989;619:8230;619:7866",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.1450",
+      "box": {
+        "x": 156,
+        "y": 399,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#00d17d"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8230;619:7867",
+      "figmaId": "I677:4989;619:8230;619:7867",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.0321",
+      "box": {
+        "x": 274,
+        "y": 399,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8231",
+      "figmaId": "I677:4989;619:8231",
+      "name": "Exchange Rate · 汇率",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 430,
+        "w": 326,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 12,
+          "r": 0,
+          "b": 12,
+          "l": 0
+        },
+        "gap": 87,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8231;619:7865",
+      "figmaId": "I677:4989;619:8231;619:7865",
+      "name": "h",
+      "type": "TEXT",
+      "text": "USD/CNY",
+      "box": {
+        "x": 12,
+        "y": 434,
+        "w": 90,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8231;619:7866",
+      "figmaId": "I677:4989;619:8231;619:7866",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.1450",
+      "box": {
+        "x": 156,
+        "y": 435,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#00d17d"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8231;619:7867",
+      "figmaId": "I677:4989;619:8231;619:7867",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.0321",
+      "box": {
+        "x": 274,
+        "y": 435,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8232",
+      "figmaId": "I677:4989;619:8232",
+      "name": "Exchange Rate · 汇率",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 466,
+        "w": 326,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 12,
+          "r": 0,
+          "b": 12,
+          "l": 0
+        },
+        "gap": 87,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I677:4989;619:8232;619:7865",
+      "figmaId": "I677:4989;619:8232;619:7865",
+      "name": "h",
+      "type": "TEXT",
+      "text": "USD/CNY",
+      "box": {
+        "x": 12,
+        "y": 470,
+        "w": 90,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8232;619:7866",
+      "figmaId": "I677:4989;619:8232;619:7866",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.1450",
+      "box": {
+        "x": 156,
+        "y": 471,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#00d17d"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8232;619:7867",
+      "figmaId": "I677:4989;619:8232;619:7867",
+      "name": "h",
+      "type": "TEXT",
+      "text": "7.0321",
+      "box": {
+        "x": 274,
+        "y": 471,
+        "w": 64,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#eabb62@0.10",
+        "borderWidth": 1
+      },
+      "depth": 4
+    },
+    {
+      "key": "I677:4989;619:8233",
+      "figmaId": "I677:4989;619:8233",
+      "name": "Transaction Row · 交易行",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 502,
+        "w": 326,
+        "h": 40
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I677:4989;619:8233;586:7663",
+      "figmaId": "I677:4989;619:8233;586:7663",
+      "name": "查看更多",
+      "type": "TEXT",
+      "text": "查看更多",
+      "box": {
+        "x": 151,
+        "y": 515,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    }
+  ]
+}

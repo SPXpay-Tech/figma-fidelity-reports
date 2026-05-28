@@ -1,0 +1,44 @@
+{
+  "frame": {
+    "id": "744:7619",
+    "name": "Frame 2147225284",
+    "width": 350,
+    "height": 554
+  },
+  "offset": {
+    "x": 1,
+    "y": -0.03
+  },
+  "threshold": 12,
+  "flagged": 1,
+  "regions": [
+    {
+      "name": "Frame 2147225265",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 59,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 13,
+      "crops": {
+        "figma": "Frame_2147225265_I677_4989_619_8220_619_.figma.png",
+        "impl": "Frame_2147225265_I677_4989_619_8220_619_.impl.png"
+      }
+    },
+    {
+      "name": "Outline / Search / Minimalistic Magnifer",
+      "type": "FRAME",
+      "box": {
+        "x": 62,
+        "y": 66,
+        "w": 18,
+        "h": 18
+      },
+      "figmaFill": null,
+      "mismatch": 6.6
+    }
+  ]
+}
