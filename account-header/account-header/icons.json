@@ -1,0 +1,104 @@
+{
+  "frame": {
+    "id": "704:5117",
+    "name": "Account Hearder, 页头",
+    "width": 398,
+    "height": 429
+  },
+  "checked": 6,
+  "fails": 0,
+  "warns": 0,
+  "waived": 6,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "I784:12446;159:2",
+      "box": {
+        "x": 35,
+        "y": 84,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Nav-back 'icon' frame (159:2 instance) holds a single 13.33×10 chevron path in figma; impl ships a Feather 'chevron-left' icon-font glyph instead of a path-set. Same path-set vs icon-font waiver pattern used in app-header/cards/auth masters. Parent NavBack 42×42 frame geometry is the real proof of position. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I867:17136;159:2",
+      "box": {
+        "x": 35,
+        "y": 142,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Nav-back 'icon' frame (159:2 instance) holds a single 13.33×10 chevron path in figma; impl ships a Feather 'chevron-left' icon-font glyph instead of a path-set. Same path-set vs icon-font waiver pattern used in app-header/cards/auth masters. Parent NavBack 42×42 frame geometry is the real proof of position. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I917:7287;159:2",
+      "box": {
+        "x": 35,
+        "y": 200,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Nav-back 'icon' frame (159:2 instance) holds a single 13.33×10 chevron path in figma; impl ships a Feather 'chevron-left' icon-font glyph instead of a path-set. Same path-set vs icon-font waiver pattern used in app-header/cards/auth masters. Parent NavBack 42×42 frame geometry is the real proof of position. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I917:9567;159:2",
+      "box": {
+        "x": 35,
+        "y": 258,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Nav-back 'icon' frame (159:2 instance) holds a single 13.33×10 chevron path in figma; impl ships a Feather 'chevron-left' icon-font glyph instead of a path-set. Same path-set vs icon-font waiver pattern used in app-header/cards/auth masters. Parent NavBack 42×42 frame geometry is the real proof of position. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I917:12368;159:2",
+      "box": {
+        "x": 35,
+        "y": 316,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Nav-back 'icon' frame (159:2 instance) holds a single 13.33×10 chevron path in figma; impl ships a Feather 'chevron-left' icon-font glyph instead of a path-set. Same path-set vs icon-font waiver pattern used in app-header/cards/auth masters. Parent NavBack 42×42 frame geometry is the real proof of position. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I953:7833;159:2",
+      "box": {
+        "x": 35,
+        "y": 374,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Nav-back 'icon' frame (159:2 instance) holds a single 13.33×10 chevron path in figma; impl ships a Feather 'chevron-left' icon-font glyph instead of a path-set. Same path-set vs icon-font waiver pattern used in app-header/cards/auth masters. Parent NavBack 42×42 frame geometry is the real proof of position. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}
