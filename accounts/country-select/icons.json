@@ -1,0 +1,29 @@
+{
+  "frame": {
+    "id": "954:8578",
+    "name": "State=收款国家选择",
+    "width": 350,
+    "height": 58
+  },
+  "checked": 1,
+  "fails": 0,
+  "warns": 0,
+  "waived": 1,
+  "icons": [
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "954:8583",
+      "box": {
+        "x": 322,
+        "y": 31,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Country selector trailing chevron uses Feather chevron-down (app-wide @expo/vector-icons); vector-path waived consistent with arrow-down deviation above. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}

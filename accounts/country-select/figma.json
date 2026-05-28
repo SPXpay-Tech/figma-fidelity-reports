@@ -1,0 +1,179 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "954:8578",
+    "name": "State=收款国家选择",
+    "width": 350,
+    "height": 58
+  },
+  "nodes": [
+    {
+      "key": "954:8578",
+      "figmaId": "954:8578",
+      "name": "State=收款国家选择",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 350,
+        "h": 58
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "954:8579",
+      "figmaId": "954:8579",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 66,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "954:8580",
+      "figmaId": "954:8580",
+      "name": "收款方国家*",
+      "type": "TEXT",
+      "text": "收款方国家*",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 66,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "954:8581",
+      "figmaId": "954:8581",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 20,
+        "w": 350,
+        "h": 38
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "954:8582",
+      "figmaId": "954:8582",
+      "name": "请选择或搜索收款方国家",
+      "type": "TEXT",
+      "text": "请选择或搜索收款方国家",
+      "box": {
+        "x": 12,
+        "y": 32,
+        "w": 132,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#aaa286"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#aaa286@0.20",
+        "borderWidth": 1
+      },
+      "depth": 2
+    },
+    {
+      "key": "954:8583",
+      "figmaId": "954:8583",
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 322,
+        "y": 31,
+        "w": 16,
+        "h": 16
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "954:8584",
+      "figmaId": "954:8584",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 325.34,
+        "y": 37,
+        "w": 9.33,
+        "h": 4
+      },
+      "style": {
+        "borderColor": "#866d31",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 3
+    }
+  ]
+}
