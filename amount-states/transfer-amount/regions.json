@@ -1,0 +1,176 @@
+{
+  "frame": {
+    "id": "903:7399",
+    "name": "金额信息·转账金额",
+    "width": 430,
+    "height": 908
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 7,
+  "regions": [
+    {
+      "name": "State=Error-超过限额",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 750,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 95,
+      "crops": {
+        "figma": "State_Error_903_7326.figma.png",
+        "impl": "State_Error_903_7326.impl.png"
+      }
+    },
+    {
+      "name": "State=Error-余额不足",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 608,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 94.8,
+      "crops": {
+        "figma": "State_Error_903_7313.figma.png",
+        "impl": "State_Error_903_7313.impl.png"
+      }
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 640,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 93.3,
+      "crops": {
+        "figma": "input_903_7316.figma.png",
+        "impl": "input_903_7316.impl.png"
+      }
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 782,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 93,
+      "crops": {
+        "figma": "input_903_7329.figma.png",
+        "impl": "input_903_7329.impl.png"
+      }
+    },
+    {
+      "name": "State=Focus",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 182,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 60.5,
+      "crops": {
+        "figma": "State_Focus_903_7289.figma.png",
+        "impl": "State_Focus_903_7289.impl.png"
+      }
+    },
+    {
+      "name": "State=输入中",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 324,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 60,
+      "crops": {
+        "figma": "State_913_7542.figma.png",
+        "impl": "State_913_7542.impl.png"
+      }
+    },
+    {
+      "name": "State=Filled",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 466,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 59.1,
+      "crops": {
+        "figma": "State_Filled_903_7301.figma.png",
+        "impl": "State_Filled_903_7301.impl.png"
+      }
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 214,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 5.4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 356,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 72,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.3
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 498,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.7
+    }
+  ]
+}

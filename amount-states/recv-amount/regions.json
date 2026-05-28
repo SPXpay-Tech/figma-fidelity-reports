@@ -1,0 +1,204 @@
+{
+  "frame": {
+    "id": "903:7400",
+    "name": "金额信息·实收金额",
+    "width": 430,
+    "height": 1050
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 8,
+  "regions": [
+    {
+      "name": "State=Error-低于最低到账",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 750,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#9ca3af@0.10",
+      "mismatch": 94.6,
+      "crops": {
+        "figma": "State_Error_912_7381.figma.png",
+        "impl": "State_Error_912_7381.impl.png"
+      }
+    },
+    {
+      "name": "State=Error-超过转账金额",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 892,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#9ca3af@0.10",
+      "mismatch": 94.2,
+      "crops": {
+        "figma": "State_Error_912_7389.figma.png",
+        "impl": "State_Error_912_7389.impl.png"
+      }
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 782,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 93.4,
+      "crops": {
+        "figma": "input_912_7384.figma.png",
+        "impl": "input_912_7384.impl.png"
+      }
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 924,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 92.6,
+      "crops": {
+        "figma": "input_912_7392.figma.png",
+        "impl": "input_912_7392.impl.png"
+      }
+    },
+    {
+      "name": "State=Focus",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 182,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#9ca3af@0.10",
+      "mismatch": 62,
+      "crops": {
+        "figma": "State_Focus_912_7374.figma.png",
+        "impl": "State_Focus_912_7374.impl.png"
+      }
+    },
+    {
+      "name": "State=Disabled",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 608,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#9ca3af@0.10",
+      "mismatch": 61.9,
+      "crops": {
+        "figma": "State_Disabled_903_7353.figma.png",
+        "impl": "State_Disabled_903_7353.impl.png"
+      }
+    },
+    {
+      "name": "State=输入中",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 324,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#9ca3af@0.10",
+      "mismatch": 61.6,
+      "crops": {
+        "figma": "State_913_7556.figma.png",
+        "impl": "State_913_7556.impl.png"
+      }
+    },
+    {
+      "name": "State=Filled-自动",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 466,
+        "w": 350,
+        "h": 118
+      },
+      "figmaFill": "#9ca3af@0.10",
+      "mismatch": 60.7,
+      "crops": {
+        "figma": "State_Filled_903_7346.figma.png",
+        "impl": "State_Filled_903_7346.impl.png"
+      }
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 214,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 5.1
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 640,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#f6f6f4",
+      "mismatch": 4.4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 356,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.9
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 72,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.7
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 498,
+        "w": 326,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.7
+    }
+  ]
+}
