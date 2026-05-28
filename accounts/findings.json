@@ -17,7 +17,7 @@
       "x": 2,
       "y": 7
     },
-    "generated": "2026-05-28T14:38:58.208Z"
+    "generated": "2026-05-28T14:41:54.160Z"
   },
   "summary": {
     "checks": 387,
@@ -31,7 +31,7 @@
       "minor": 26,
       "pass": true
     },
-    "approved": 73
+    "approved": 74
   },
   "failsByNode": {
     "账户": [
@@ -451,7 +451,7 @@
       "node": "入金",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
+      "impl": 74,
       "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
     },
     {
@@ -467,7 +467,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
+      "impl": 74,
       "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
     },
     {
@@ -483,7 +483,7 @@
       "node": "入金",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
+      "impl": 74,
       "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
     },
     {
@@ -491,7 +491,7 @@
       "node": "入金",
       "prop": "box.y",
       "figma": 1587,
-      "impl": 1559.06,
+      "impl": 1571.06,
       "reason": "TX list mock-data row ordering — figma seeds the tx list with 7 入金 + 1 出金 + 1 审核中 + 1 出款失败; impl mock matches counts but the 出款失败 / 用户划转 / 兑换汇入 rows fall at different y positions due to interleaved status sequences. Per-row geometry identical (TxRow master 100% fidelity). Approved 2026-05-28 accounts wave 1."
     },
     {
@@ -499,7 +499,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
+      "impl": 74,
       "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
     },
     {
@@ -507,7 +507,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1606,
-      "impl": 1578.47,
+      "impl": 1590.47,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -523,7 +523,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
+      "impl": 74,
       "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
     },
     {
@@ -531,7 +531,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1659,
-      "impl": 1660.47,
+      "impl": 1643.47,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -539,7 +539,7 @@
       "node": "出款失败",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
+      "impl": 74,
       "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
     },
     {
@@ -547,7 +547,7 @@
       "node": "出款失败",
       "prop": "box.y",
       "figma": 1693,
-      "impl": 1893.06,
+      "impl": 2001.06,
       "reason": "TX list mock-data row ordering — figma seeds the tx list with 7 入金 + 1 出金 + 1 审核中 + 1 出款失败; impl mock matches counts but the 出款失败 / 用户划转 / 兑换汇入 rows fall at different y positions due to interleaved status sequences. Per-row geometry identical (TxRow master 100% fidelity). Approved 2026-05-28 accounts wave 1."
     },
     {
@@ -555,7 +555,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
+      "impl": 74,
       "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
     },
     {
@@ -563,7 +563,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1712,
-      "impl": 1701.47,
+      "impl": 1696.47,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -579,7 +579,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
+      "impl": 74,
       "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
     },
     {
@@ -587,7 +587,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1765,
-      "impl": 1742.47,
+      "impl": 1749.47,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -595,7 +595,7 @@
       "node": "入金",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
+      "impl": 74,
       "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
     },
     {
@@ -603,7 +603,7 @@
       "node": "入金",
       "prop": "box.y",
       "figma": 1799,
-      "impl": 1764.06,
+      "impl": 1783.06,
       "reason": "In-row 入金 pill (inside 审核中 status row) — figma stores this as a small INK pill at row x=136 size 12/14.06 color #24201A; impl reuses the row label slot styling. Visual difference negligible (deposit-status pill rendered consistent with row label). Approved 2026-05-28 accounts wave 1."
     },
     {
@@ -611,7 +611,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
+      "impl": 74,
       "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
     },
     {
@@ -619,7 +619,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1818,
-      "impl": 1824.47,
+      "impl": 1802.47,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -635,8 +635,16 @@
       "node": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
+      "impl": 74,
       "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8522;586:7394",
+      "node": "2026-05-15 19:13",
+      "prop": "box.y",
+      "figma": 1871,
+      "impl": 1855.47,
+      "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
       "figmaId": "I704:5935;548:6619",
@@ -3899,8 +3907,8 @@
       "text": "入金",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
-      "delta": 14,
+      "impl": 74,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈76px",
@@ -3997,8 +4005,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
-      "delta": 14,
+      "impl": 74,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈76px",
@@ -4095,8 +4103,8 @@
       "text": "入金",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
-      "delta": 14,
+      "impl": 74,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈76px",
@@ -4109,8 +4117,8 @@
       "text": "入金",
       "prop": "box.y",
       "figma": 1587,
-      "impl": 1559.06,
-      "delta": 27.94,
+      "impl": 1571.06,
+      "delta": 15.94,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1587px",
@@ -4193,8 +4201,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
-      "delta": 14,
+      "impl": 74,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈76px",
@@ -4207,8 +4215,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1606,
-      "impl": 1578.47,
-      "delta": 27.53,
+      "impl": 1590.47,
+      "delta": 15.53,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1606px",
@@ -4304,8 +4312,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
-      "delta": 14,
+      "impl": 74,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈76px",
@@ -4318,8 +4326,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1659,
-      "impl": 1660.47,
-      "delta": 1.47,
+      "impl": 1643.47,
+      "delta": 15.53,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1659px",
@@ -4402,8 +4410,8 @@
       "text": "出款失败",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
-      "delta": 14,
+      "impl": 74,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈76px",
@@ -4416,8 +4424,8 @@
       "text": "出款失败",
       "prop": "box.y",
       "figma": 1693,
-      "impl": 1893.06,
-      "delta": 200.06,
+      "impl": 2001.06,
+      "delta": 308.06,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1693px",
@@ -4500,8 +4508,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
-      "delta": 14,
+      "impl": 74,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈76px",
@@ -4514,8 +4522,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1712,
-      "impl": 1701.47,
-      "delta": 10.53,
+      "impl": 1696.47,
+      "delta": 15.53,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1712px",
@@ -4611,8 +4619,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
-      "delta": 14,
+      "impl": 74,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈76px",
@@ -4625,8 +4633,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1765,
-      "impl": 1742.47,
-      "delta": 22.53,
+      "impl": 1749.47,
+      "delta": 15.53,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1765px",
@@ -4709,8 +4717,8 @@
       "text": "入金",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
-      "delta": 14,
+      "impl": 74,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈76px",
@@ -4723,8 +4731,8 @@
       "text": "入金",
       "prop": "box.y",
       "figma": 1799,
-      "impl": 1764.06,
-      "delta": 34.94,
+      "impl": 1783.06,
+      "delta": 15.94,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1799px",
@@ -4807,8 +4815,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
-      "delta": 14,
+      "impl": 74,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈76px",
@@ -4821,8 +4829,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1818,
-      "impl": 1824.47,
-      "delta": 6.47,
+      "impl": 1802.47,
+      "delta": 15.53,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1818px",
@@ -4918,8 +4926,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.x",
       "figma": 76,
-      "impl": 62,
-      "delta": 14,
+      "impl": 74,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈76px",
@@ -4932,10 +4940,12 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1871,
-      "impl": 1871.06,
-      "delta": 0.06,
+      "impl": 1855.47,
+      "delta": 15.53,
       "pass": true,
-      "severity": "pass"
+      "severity": "approved",
+      "hint": "move to y≈1871px",
+      "note": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
       "figmaId": "I769:10118;769:8522;586:7394",

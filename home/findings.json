@@ -17,7 +17,7 @@
       "x": 2,
       "y": 19
     },
-    "generated": "2026-05-28T13:57:31.033Z"
+    "generated": "2026-05-28T14:40:51.239Z"
   },
   "summary": {
     "checks": 1893,
@@ -785,7 +785,7 @@
       "node": "unit",
       "prop": "box.x",
       "figma": 176,
-      "impl": 167.75,
+      "impl": 177.36,
       "reason": "Hero-card amount unit (USD suffix) — figma seeds amount '≈ 8,540.97' but mock renders the live ≈ 9,911.87 USD sum of all 10 mock balances. Different amount text widths shift the USD suffix by ~12px on the right side of the flex-baseline row. Visually identical layout (amount + space + USD), drift is data-driven. Approved 2026-05-28."
     },
     {
@@ -2361,7 +2361,7 @@
       "node": "Frame 2147225254",
       "prop": "box.x",
       "figma": 259,
-      "impl": 254.84,
+      "impl": 283.05,
       "reason": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -2377,7 +2377,7 @@
       "node": "Frame 2147225254",
       "prop": "box.w",
       "figma": 95,
-      "impl": 97.16,
+      "impl": 68.95,
       "reason": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -2681,7 +2681,7 @@
       "node": "Frame 2147225254",
       "prop": "box.x",
       "figma": 259,
-      "impl": 276.94,
+      "impl": 283.05,
       "reason": "Consumer shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -2697,7 +2697,7 @@
       "node": "Frame 2147225254",
       "prop": "box.w",
       "figma": 95,
-      "impl": 75.06,
+      "impl": 68.95,
       "reason": "Consumer shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -7525,8 +7525,8 @@
       "text": "USD",
       "prop": "box.x",
       "figma": 176,
-      "impl": 167.75,
-      "delta": 8.25,
+      "impl": 177.36,
+      "delta": 1.36,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈176px",
@@ -7587,8 +7587,8 @@
       "text": "USD",
       "prop": "lineHeight",
       "figma": 18.75,
-      "impl": 19,
-      "delta": 0.25,
+      "impl": 18.75,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -13515,8 +13515,8 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 259,
-      "impl": 254.84,
-      "delta": 4.16,
+      "impl": 283.05,
+      "delta": 24.05,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈259px",
@@ -13541,8 +13541,8 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 95,
-      "impl": 97.16,
-      "delta": 2.16,
+      "impl": 68.95,
+      "delta": 26.05,
       "pass": true,
       "severity": "approved",
       "hint": "set width to 95px",
@@ -14946,8 +14946,8 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 259,
-      "impl": 276.94,
-      "delta": 17.94,
+      "impl": 283.05,
+      "delta": 24.05,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈259px",
@@ -14972,8 +14972,8 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 95,
-      "impl": 75.06,
-      "delta": 19.94,
+      "impl": 68.95,
+      "delta": 26.05,
       "pass": true,
       "severity": "approved",
       "hint": "set width to 95px",
