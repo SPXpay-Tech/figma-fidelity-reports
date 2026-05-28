@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "figmaFrame": {
+      "id": "954:10129",
+      "name": "State=删除弹窗",
+      "width": 300,
+      "height": 206
+    },
+    "implFrame": {
+      "id": "page",
+      "name": "page",
+      "width": 300,
+      "height": 206
+    },
+    "matchMode": "fallback",
+    "originOffset": {
+      "x": 0,
+      "y": -0.03
+    },
+    "generated": "2026-05-28T09:51:01.259Z"
+  },
+  "summary": {
+    "checks": 36,
+    "fails": 0,
+    "fidelityScore": 100,
+    "bySeverity": {},
+    "gate": {
+      "blocking": 0,
+      "minor": 0,
+      "pass": true
+    },
+    "approved": 1
+  },
+  "failsByNode": {},
+  "approvedDeviations": [
+    {
+      "figmaId": "954:10123",
+      "node": "换个邮箱注册，或直接用该邮箱登录",
+      "prop": "box.x",
+      "figma": 24,
+      "impl": 54,
+      "reason": "Delete-dialog body text uses textAlign:center inside a 252-wide layer. Figma's absoluteBoundingBox reports the layer left edge (x=24); the impl is measured via Range.getBoundingClientRect which returns the ink box (centered within the 252 layer, so the ink left sits at ~54). Identical ink/layer mismatch as cards/dialog screens — center-aligned text where layer is wider than glyph run. The right edge / vertical centering / typography all match figma exactly."
+    }
+  ],
+  "findings": [
+    {
+      "figmaId": "954:10122",
+      "node": "该邮箱已注册",
+      "type": "TEXT",
+      "text": "你确认想要删除此收款人",
+      "prop": "box.x",
+      "figma": 73,
+      "impl": 73,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10122",
+      "node": "该邮箱已注册",
+      "type": "TEXT",
+      "text": "你确认想要删除此收款人",
+      "prop": "box.y",
+      "figma": 72,
+      "impl": 71.03,
+      "delta": 0.97,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10122",
+      "node": "该邮箱已注册",
+      "type": "TEXT",
+      "text": "你确认想要删除此收款人",
+      "prop": "fontSize",
+      "figma": 14,
+      "impl": 14,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10122",
+      "node": "该邮箱已注册",
+      "type": "TEXT",
+      "text": "你确认想要删除此收款人",
+      "prop": "fontWeight",
+      "figma": 900,
+      "impl": 900,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10122",
+      "node": "该邮箱已注册",
+      "type": "TEXT",
+      "text": "你确认想要删除此收款人",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10122",
+      "node": "该邮箱已注册",
+      "type": "TEXT",
+      "text": "你确认想要删除此收款人",
+      "prop": "lineHeight",
+      "figma": 16.41,
+      "impl": 16.41,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10122",
+      "node": "该邮箱已注册",
+      "type": "TEXT",
+      "text": "你确认想要删除此收款人",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10122",
+      "node": "该邮箱已注册",
+      "type": "TEXT",
+      "text": "你确认想要删除此收款人",
+      "prop": "color",
+      "figma": "#3d3218",
+      "impl": "#3d3218",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10123",
+      "node": "换个邮箱注册，或直接用该邮箱登录",
+      "type": "TEXT",
+      "text": "此操作将永久删除该记录，是否继续",
+      "prop": "box.x",
+      "figma": 24,
+      "impl": 54,
+      "delta": 30,
+      "pass": true,
+      "severity": "approved",
+      "hint": "move to x≈24px",
+      "note": "Delete-dialog body text uses textAlign:center inside a 252-wide layer. Figma's absoluteBoundingBox reports the layer left edge (x=24); the impl is measured via Range.getBoundingClientRect which returns the ink box (centered within the 252 layer, so the ink left sits at ~54). Identical ink/layer mismatch as cards/dialog screens — center-aligned text where layer is wider than glyph run. The right edge / vertical centering / typography all match figma exactly."
+    },
+    {
+      "figmaId": "954:10123",
+      "node": "换个邮箱注册，或直接用该邮箱登录",
+      "type": "TEXT",
+      "text": "此操作将永久删除该记录，是否继续",
+      "prop": "box.y",
+      "figma": 100,
+      "impl": 100.03,
+      "delta": 0.03,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10123",
+      "node": "换个邮箱注册，或直接用该邮箱登录",
+      "type": "TEXT",
+      "text": "此操作将永久删除该记录，是否继续",
+      "prop": "fontSize",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10123",
+      "node": "换个邮箱注册，或直接用该邮箱登录",
+      "type": "TEXT",
+      "text": "此操作将永久删除该记录，是否继续",
+      "prop": "fontWeight",
+      "figma": 400,
+      "impl": 400,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10123",
+      "node": "换个邮箱注册，或直接用该邮箱登录",
+      "type": "TEXT",
+      "text": "此操作将永久删除该记录，是否继续",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10123",
+      "node": "换个邮箱注册，或直接用该邮箱登录",
+      "type": "TEXT",
+      "text": "此操作将永久删除该记录，是否继续",
+      "prop": "lineHeight",
+      "figma": 14.06,
+      "impl": 14.06,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10123",
+      "node": "换个邮箱注册，或直接用该邮箱登录",
+      "type": "TEXT",
+      "text": "此操作将永久删除该记录，是否继续",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10123",
+      "node": "换个邮箱注册，或直接用该邮箱登录",
+      "type": "TEXT",
+      "text": "此操作将永久删除该记录，是否继续",
+      "prop": "color",
+      "figma": "#9ca3af",
+      "impl": "#9ca3af",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10126",
+      "node": "换个邮箱",
+      "type": "TEXT",
+      "text": "取消",
+      "prop": "box.x",
+      "figma": 72,
+      "impl": 72,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10126",
+      "node": "换个邮箱",
+      "type": "TEXT",
+      "text": "取消",
+      "prop": "box.y",
+      "figma": 155,
+      "impl": 155,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10126",
+      "node": "换个邮箱",
+      "type": "TEXT",
+      "text": "取消",
+      "prop": "fontSize",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10126",
+      "node": "换个邮箱",
+      "type": "TEXT",
+      "text": "取消",
+      "prop": "fontWeight",
+      "figma": 700,
+      "impl": 700,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10126",
+      "node": "换个邮箱",
+      "type": "TEXT",
+      "text": "取消",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10126",
+      "node": "换个邮箱",
+      "type": "TEXT",
+      "text": "取消",
+      "prop": "lineHeight",
+      "figma": 14.06,
+      "impl": 14.06,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10126",
+      "node": "换个邮箱",
+      "type": "TEXT",
+      "text": "取消",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10126",
+      "node": "换个邮箱",
+      "type": "TEXT",
+      "text": "取消",
+      "prop": "color",
+      "figma": "#5b5f69",
+      "impl": "#5b5f69",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10126",
+      "node": "换个邮箱",
+      "type": "TEXT",
+      "text": "取消",
+      "prop": "parent.backgroundColor",
+      "figma": "#ffffff",
+      "impl": "#ffffff",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10126",
+      "node": "换个邮箱",
+      "type": "TEXT",
+      "text": "取消",
+      "prop": "parent.borderColor",
+      "figma": "#e4e4e9",
+      "impl": "#e4e4e9",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10126",
+      "node": "换个邮箱",
+      "type": "TEXT",
+      "text": "取消",
+      "prop": "parent.borderWidth",
+      "figma": 1.5,
+      "impl": 1,
+      "delta": 0.5,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10128",
+      "node": "去登录",
+      "type": "TEXT",
+      "text": "确认",
+      "prop": "box.x",
+      "figma": 204,
+      "impl": 204,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10128",
+      "node": "去登录",
+      "type": "TEXT",
+      "text": "确认",
+      "prop": "box.y",
+      "figma": 155,
+      "impl": 155,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10128",
+      "node": "去登录",
+      "type": "TEXT",
+      "text": "确认",
+      "prop": "fontSize",
+      "figma": 12,
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10128",
+      "node": "去登录",
+      "type": "TEXT",
+      "text": "确认",
+      "prop": "fontWeight",
+      "figma": 700,
+      "impl": 700,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10128",
+      "node": "去登录",
+      "type": "TEXT",
+      "text": "确认",
+      "prop": "fontFamily",
+      "figma": "HarmonyOS Sans TC",
+      "impl": "\"Plus Jakarta Sans\"",
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10128",
+      "node": "去登录",
+      "type": "TEXT",
+      "text": "确认",
+      "prop": "lineHeight",
+      "figma": 14.06,
+      "impl": 14.06,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10128",
+      "node": "去登录",
+      "type": "TEXT",
+      "text": "确认",
+      "prop": "letterSpacing",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10128",
+      "node": "去登录",
+      "type": "TEXT",
+      "text": "确认",
+      "prop": "color",
+      "figma": "#ffffff",
+      "impl": "#ffffff",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "954:10128",
+      "node": "去登录",
+      "type": "TEXT",
+      "text": "确认",
+      "prop": "parent.backgroundColor",
+      "figma": "#eabb62",
+      "impl": "#eabb62",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    }
+  ]
+}

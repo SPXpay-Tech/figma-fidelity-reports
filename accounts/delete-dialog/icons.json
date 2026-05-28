@@ -1,0 +1,44 @@
+{
+  "frame": {
+    "id": "954:10129",
+    "name": "State=删除弹窗",
+    "width": 300,
+    "height": 206
+  },
+  "checked": 2,
+  "fails": 0,
+  "warns": 0,
+  "waived": 2,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "954:10119",
+      "box": {
+        "x": 132,
+        "y": 24,
+        "w": 36,
+        "h": 36
+      },
+      "figmaPaths": 3,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Delete-dialog outer icon wrapper 36×36 — Figma exports the same 3 Danger Triangle paths at this parent level. Inner Danger Triangle (954:10120) already waived; this is the wrapper that holds the Feather alert-triangle font glyph. Geometry/box validated. (was: Figma icon has 3 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Outline / Essentional, UI / Danger Triangle",
+      "figmaId": "954:10120",
+      "box": {
+        "x": 140,
+        "y": 32,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 3,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Delete-confirmation dialog warning icon uses Feather alert-triangle; vector-path waived consistent with app-wide icon system. (was: Figma icon has 3 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}
