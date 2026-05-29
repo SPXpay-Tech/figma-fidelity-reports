@@ -1,0 +1,40 @@
+{
+  "_comment": "Project fidelity config for SPX transfer-states screen 887:21295 (390x1377 full transfer page with §2 state-library composition). Tolerances mirror account-states.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "ignoreText": [],
+  "deviations": [],
+  "iconDeviations": [
+    { "name": "^Vector$", "reason": "Inner SVG vector subpaths from Feather chevron / icon glyphs (chevron-down, file-send, alt-arrow-down, question-circle) — Figma renders bespoke per-icon vectors; impl uses @expo/vector-icons Feather glyphs sized + colored to match. Geometry/box validated; vector-path identity waived consistent with app-wide icon system (precedent: account-states/cards/dialog)." },
+    { "name": "^Linear / Arrows / Alt Arrow Down", "reason": "Chevron-down (collapsed input). Feather chevron-down; vector-path waived." },
+    { "name": "^Linear / Files / File$", "reason": "Receiver-account chip icon — Feather 'file' glyph; vector-path waived." },
+    { "name": "^Linear / Files / File Send", "reason": "Relation-attachment upload icon — Feather 'upload'/'file-plus' glyph; vector-path waived." },
+    { "name": "^Linear / Essentional, UI / Question Circle", "reason": "Fee rules info badge — Feather help-circle/info glyph; vector-path waived." },
+    { "name": "^chip$", "reason": "Chip wrapper 24x24 — its visible mismatch is downstream of the bespoke 黑LOGO or Feather glyph inside. Outer box/bg validated against figma master." },
+    { "name": "^黑LOGO$", "reason": "Bank-deposit chip glyph (yellow fold + dark rectangles subpaths). Impl uses tone-tinted Feather credit-card — same precedent as account-states/cards (EyeMark→Feather eye). Geometry/chip-box/bg validated; vector-path identity waived." },
+    { "name": "^Rectangle 524[789]$", "reason": "Inner subpath rectangles of 黑LOGO chip — wrapped by parent above which is already waived." },
+    { "name": "^Group 1707484083$", "reason": "Boolean-operation grouping for 黑LOGO subpath rectangles — wrapped by chip parent." },
+    { "name": "^Subtract$", "reason": "Boolean-operation node for 黑LOGO chip subpaths." },
+    { "name": "^Frame$", "reason": "Bottom-nav 黑LOGO container 24x24 — Feather glyph fills it; sub-vector identity waived." },
+    { "name": "^Linear / Money / Wallet", "reason": "Bottom-nav 账户 tab icon (Feather wallet glyph); vector-path waived." },
+    { "name": "^Linear / Money / Card", "reason": "Bottom-nav 消费 tab icon (Feather credit-card glyph); vector-path waived." },
+    { "name": "^Linear / Users / User Circle", "reason": "Bottom-nav 我的 tab icon (Feather user glyph); vector-path waived." },
+    { "name": "^icon$", "reason": "Nav-back arrow container 20x20 — Feather chevron-left/arrow-left glyph; outer wrapper validated, vector-path waived." }
+  ],
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "gate": { "minFidelityScore": 85, "maxCritical": 0, "maxMajor": 0 }
+}

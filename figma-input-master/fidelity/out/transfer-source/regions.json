@@ -785,19 +785,19 @@
       "type": "FRAME",
       "box": {
         "x": 40,
-        "y": 152,
+        "y": 336,
         "w": 350,
         "h": 48
       },
-      "figmaFill": "#ffffff",
-      "mismatch": 5.1
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 4.7
     },
     {
       "name": "input",
       "type": "FRAME",
       "box": {
         "x": 40,
-        "y": 520,
+        "y": 152,
         "w": 350,
         "h": 48
       },
@@ -809,36 +809,12 @@
       "type": "FRAME",
       "box": {
         "x": 40,
-        "y": 336,
+        "y": 520,
         "w": 350,
         "h": 48
       },
-      "figmaFill": "#f52f32@0.10",
-      "mismatch": 3.7
-    },
-    {
-      "name": "option-SGB 银行账户 SGD",
-      "type": "FRAME",
-      "box": {
-        "x": 52,
-        "y": 694,
-        "w": 326,
-        "h": 36
-      },
-      "figmaFill": null,
-      "mismatch": 3.1
-    },
-    {
-      "name": "option-SGB 银行账户 GBP",
-      "type": "FRAME",
-      "box": {
-        "x": 52,
-        "y": 730,
-        "w": 326,
-        "h": 36
-      },
-      "figmaFill": null,
-      "mismatch": 3.1
+      "figmaFill": "#ffffff",
+      "mismatch": 4.2
     },
     {
       "name": "option-SGB 银行账户 HKD",
@@ -850,7 +826,7 @@
         "h": 36
       },
       "figmaFill": null,
-      "mismatch": 2.8
+      "mismatch": 2.7
     },
     {
       "name": "option-SGB 银行账户 EUR",
@@ -858,6 +834,30 @@
       "box": {
         "x": 52,
         "y": 658,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": null,
+      "mismatch": 2.7
+    },
+    {
+      "name": "option-SGB 银行账户 SGD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 694,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": null,
+      "mismatch": 2.7
+    },
+    {
+      "name": "option-SGB 银行账户 GBP",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 730,
         "w": 326,
         "h": 36
       },
@@ -874,42 +874,6 @@
         "h": 36
       },
       "figmaFill": null,
-      "mismatch": 2.6
-    },
-    {
-      "name": "input",
-      "type": "FRAME",
-      "box": {
-        "x": 40,
-        "y": 60,
-        "w": 350,
-        "h": 48
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 2.5
-    },
-    {
-      "name": "option-SGB 银行账户 USD",
-      "type": "FRAME",
-      "box": {
-        "x": 52,
-        "y": 586,
-        "w": 326,
-        "h": 36
-      },
-      "figmaFill": "#eabb62@0.10",
-      "mismatch": 2.5
-    },
-    {
-      "name": "dropdown-panel",
-      "type": "FRAME",
-      "box": {
-        "x": 40,
-        "y": 574,
-        "w": 350,
-        "h": 276
-      },
-      "figmaFill": "#ffffff",
       "mismatch": 2.4
     },
     {
@@ -922,19 +886,19 @@
         "h": 36
       },
       "figmaFill": null,
-      "mismatch": 2.4
+      "mismatch": 2.3
     },
     {
       "name": "input",
       "type": "FRAME",
       "box": {
         "x": 40,
-        "y": 244,
+        "y": 60,
         "w": 350,
         "h": 48
       },
       "figmaFill": "#ffffff",
-      "mismatch": 1.7
+      "mismatch": 2.1
     },
     {
       "name": "input",
@@ -946,7 +910,43 @@
         "h": 48
       },
       "figmaFill": "#f5f5f5",
-      "mismatch": 1.6
+      "mismatch": 2.1
+    },
+    {
+      "name": "dropdown-panel",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 574,
+        "w": 350,
+        "h": 276
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.1
+    },
+    {
+      "name": "option-SGB 银行账户 USD",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 586,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 2.1
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 244,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.9
     }
   ]
 }

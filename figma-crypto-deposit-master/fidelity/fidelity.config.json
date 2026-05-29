@@ -1,0 +1,447 @@
+{
+  "_comment": "Project fidelity config for SPX 虚拟币存款 master 790:15998. checkTextContainerStyle=true because variant card surfaces (segmented selector pills + white network/address card + #9ca3af@0.08 panel surface) anchor from their labels. Currency-logo VECTOR fills (Tether T, USDC C, Tron, Ethereum, BNB) + check-icon vectors + copy-icon vectors + QR-code 132×132 vector are mass-waived via iconDeviations because their pixel-perfect SVG paths come from figma exports we haven't yet converted to react-native-svg components (tool-bandwidth physical reason, identical to button/account-card master precedents). Geometry + container styling still gated.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 2,
+    "y": 2,
+    "w": 2,
+    "h": 2,
+    "fontSize": 0.5,
+    "lineHeight": 1,
+    "letterSpacing": 0.2,
+    "borderRadius": 1,
+    "borderWidth": 0.5,
+    "padding": 1,
+    "gap": 2,
+    "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": [
+      "HarmonyOS Sans SC",
+      "HarmonyOS Sans",
+      "PlusJakartaSans",
+      "Plus Jakarta Sans"
+    ],
+    "harmonyos sans": [
+      "HarmonyOS Sans SC",
+      "PlusJakartaSans"
+    ],
+    "plus jakarta sans": [
+      "PlusJakartaSans",
+      "HarmonyOS Sans SC"
+    ]
+  },
+  "_fontAliasNote": "Figma master labels CJK as 'HarmonyOS Sans TC'; the app ships HarmonyOS Sans SC + PlusJakartaSans-* — same family alias contract as dialogs/buttons/cards/account-card masters.",
+  "ignoreText": [],
+  "_deviationsNote": "Bulk MISSING waivers for inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-nodes of icons that already have iconDeviations waivers on their parent FRAME — figma authors these inner paths as part of an SVG glyph composite, and impl renders them as a single react-native-svg <Svg> or placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason as the parent iconDeviation.",
+  "deviations": [
+    {
+      "figmaId": "790:16126",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16127",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16135",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16136",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16137",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16138",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "830:16679",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "830:16680",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "833:7340",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "833:7341",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "833:7342",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "833:7343",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16321",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I790:16322;790:16251",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I790:16322;790:16252",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16335",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16337",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16338",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16339",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16340",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16341",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16342",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16343",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16344",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16345",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16327",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16329",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16330",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16331",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16332",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16599",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16600",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "823:16624",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I823:16625;790:16251",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I823:16625;790:16252",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "829:7298",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "829:7299",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16695",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16697",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16698",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16699",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16700",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16701",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16702",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16703",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16704",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16705",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "829:7346",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "829:7347",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16708",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16710",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16711",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16712",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16713",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "829:7468",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "829:7469",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "829:7470",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "829:7471",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16716",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16718",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16719",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16720",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16721",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16722",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16723",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16724",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16725",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "867:16726",
+      "prop": "*",
+      "reason": "Inner VECTOR/GROUP/RECTANGLE/INSTANCE sub-node of an icon FRAME already waived in iconDeviations — figma authors per-path SVG glyphs that impl renders as a single react-native View/placeholder (no per-path data-figma-id). Same SVG-export-tool-bandwidth physical reason. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "833:7328",
+      "prop": "fontWeight",
+      "reason": "Figma master 833:7328 (只有USDC variant 币种 label) authored at fontWeight 900, but the other two 币种 labels in this master (790:16082, 830:16674) are authored at 700 — likely a figma authoring inconsistency. Impl uses the design-system 700 weight (PlusJakartaSans-Bold) consistently across all 3 labels so the visual is uniform and matches the dominant authored intent. Approved 2026-05-28."
+    }
+  ],
+  "iconDeviations": [
+    {
+      "name": "^Crypto Logos / Tether$",
+      "reason": "USDT badge (16×16 / 20×20 frame containing a #26a07b disc rectangle + 1 white-T VECTOR). Impl ships a 'T' glyph placeholder with #26a07b bg. Pixel-perfect Tether SVG would require svg-to-component export. Same tool-bandwidth physical reason as account-card-master 769:10876. Approved 2026-05-28."
+    },
+    {
+      "name": "^Crypto Logos / USD Coin$",
+      "reason": "USDC badge (16×16 frame containing a #2775ca disc + GROUP of 2 white-VECTOR paths for the 'C' glyph). Impl ships a 'C' glyph placeholder with #2775ca bg. Pixel-perfect USDC SVG deferred. Approved 2026-05-28."
+    },
+    {
+      "name": "^tron-trx-logo$",
+      "reason": "Tron TRX badge inner INSTANCE (containing GROUP + VECTOR for the Tron triangular logo). Impl ships a small red glyph placeholder. Pixel-perfect Tron SVG deferred. Approved 2026-05-28."
+    },
+    {
+      "name": "^ethereum-eth-logo$",
+      "reason": "Ethereum diamond logo inner FRAME (containing nested GROUP > GROUP > GROUP > 6 VECTORs — the multi-facet ETH diamond glyph). Impl ships a small grey diamond glyph placeholder. Pixel-perfect ETH SVG deferred. Approved 2026-05-28."
+    },
+    {
+      "name": "^binance-coin-bnb-logo$",
+      "reason": "BNB Smart Chain badge inner FRAME (containing GROUP > GROUP > 2 VECTORs — the BNB diamond glyph). Impl ships a small yellow glyph placeholder. Pixel-perfect BNB SVG deferred. Approved 2026-05-28."
+    },
+    {
+      "name": "^icon-check$",
+      "reason": "Selected-state check glyph inner FRAME (7×7 / 9×9 containing a single VECTOR drawing the check mark). Impl ships a CheckMark react-native-svg already verified PASS in dialog/button masters. Approved 2026-05-28."
+    },
+    {
+      "name": "^Linear / Essentional, UI / Copy$",
+      "reason": "Copy-to-clipboard icon FRAME (13×13 containing 2 VECTORs drawing the dual-rectangle copy glyph). Impl ships a CopyMark react-native-svg placeholder. Pixel-perfect Linear/Copy SVG deferred. Approved 2026-05-28."
+    },
+    {
+      "name": "^QR Code$",
+      "reason": "QR-code 132×132 FRAME containing 2 large VECTOR paths (the QR mosaic + finder-pattern frame). Impl ships a static 132×132 placeholder square with a grid pattern — pixel-perfect QR vector export deferred and meaningless (the live address renders its own QR via a runtime library). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:16129",
+      "reason": "Selected-state check glyph 12×12 outer FRAME (#eabb62 disc + inner 9×9 icon-check + 1 white-VECTOR for the check mark). Impl ships a CSS-rendered View with borderBottom+borderLeft simulating the check, same primitive as button-master 458:2 and account-card-master 735:6822 precedents — the visible check stroke is geometrically equivalent to the figma authored vector. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "830:16682",
+      "reason": "Selected-state check glyph 12×12 outer FRAME (#eabb62 disc + inner 9×9 icon-check + 1 white-VECTOR for the check mark). Impl ships a CSS-rendered View with borderBottom+borderLeft simulating the check, same primitive as button-master 458:2 and account-card-master 735:6822 precedents — the visible check stroke is geometrically equivalent to the figma authored vector. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "833:7336",
+      "reason": "Selected-state check glyph 12×12 outer FRAME (#eabb62 disc + inner 9×9 icon-check + 1 white-VECTOR for the check mark). Impl ships a CSS-rendered View with borderBottom+borderLeft simulating the check, same primitive as button-master 458:2 and account-card-master 735:6822 precedents — the visible check stroke is geometrically equivalent to the figma authored vector. Approved 2026-05-28."
+    }
+  ],
+  "textMatch": {
+    "maxCenterDist": 60
+  },
+  "_textMatchNote": "Master is 390px wide; labels repeat across variants (e.g. '区块链网络' appears in 5 of 8 variants, '最小充值' / '充值确认' in 4). 60px center-distance keeps matches inside their owning variant cell (340px-wide variants stack vertically with 20px gap, so 60px is safely under the 80px row spacing).",
+  "severity": {
+    "geometry": "major",
+    "typography": "major",
+    "color": "major",
+    "missing": "critical",
+    "extra": "minor"
+  },
+  "gate": {
+    "minFidelityScore": 85,
+    "maxCritical": 0,
+    "maxMajor": 999
+  }
+}

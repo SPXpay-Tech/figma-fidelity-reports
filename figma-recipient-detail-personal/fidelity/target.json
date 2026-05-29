@@ -1,0 +1,18 @@
+{
+  "_note": "figma-fidelity for 954:9716 '📱 Account. 收款方信息和删除【个人】' — single full mobile screen (390×915). Renders a personal recipient detail view with §4.5 vocabulary: account-type badge + 复制全部 link, 基本信息 (4 rows + multi-line address), 银行账户信息 (4 rows), gold 编辑 button, bottom tab bar. Pre-req: pnpm exec expo start --web --port 8082. Run: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --screen recipient-detail-personal",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-recipient-detail-personal/fidelity/out",
+  "screens": [
+    {
+      "id": "recipient-detail-personal",
+      "node": "954:9716",
+      "figmaJson": "docs/figma-recipient-detail-personal/fidelity/figma-dump/recipient-detail-personal.json",
+      "figmaPng": "docs/figma-recipient-detail-personal/fidelity/figma-dump/recipient-detail-personal.png",
+      "url": "http://localhost:8082/__fidelity/recipient-detail-personal",
+      "width": 390,
+      "height": 915,
+      "root": "[data-figma-root='954:9716']",
+      "wait": "text=收款人信息"
+    }
+  ]
+}

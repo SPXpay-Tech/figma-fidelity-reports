@@ -1,0 +1,64 @@
+{
+  "frame": {
+    "id": "903:7401",
+    "name": "金额信息·手续费扣费",
+    "width": 430,
+    "height": 340
+  },
+  "offset": {
+    "x": 0,
+    "y": -1
+  },
+  "threshold": 12,
+  "flagged": 0,
+  "regions": [
+    {
+      "name": "Exchange Rate · 汇率",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 210,
+        "w": 326,
+        "h": 24
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 4
+    },
+    {
+      "name": "Exchange Rate · 汇率",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 240,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": "#9ca3af@0.10",
+      "mismatch": 2.5
+    },
+    {
+      "name": "State=费率弹窗",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 166,
+        "w": 350,
+        "h": 134
+      },
+      "figmaFill": "#fcfcfa",
+      "mismatch": 2
+    },
+    {
+      "name": "Linear / Essentional, UI / Close Circle",
+      "type": "FRAME",
+      "box": {
+        "x": 358,
+        "y": 178,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 0.9
+    }
+  ]
+}

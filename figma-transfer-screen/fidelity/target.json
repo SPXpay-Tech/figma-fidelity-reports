@@ -1,0 +1,18 @@
+{
+  "_note": "figma-fidelity for SPX mobile transfer phone screen. Ground truth = Figma 867:16776 (📱 Account. 转账, 390×1251). Rendered via the __fidelity/transfer-screen harness — a single deterministic composition of the assembled screen masters (header / 3 sections / submit button / bottom nav). No auth, no business logic, no mock back-end — every dropdown is closed-default, every figmaId is pinned via dataSet so the diff matches 1:1 by id. Run: FIGMA_TOKEN=figd_xxx node <skill>/scripts/run.mjs --target this --config fidelity.config.json --screen transfer",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-transfer-screen/fidelity/out",
+  "screens": [
+    {
+      "id": "transfer",
+      "node": "867:16776",
+      "figmaJson": "docs/figma-transfer-screen/fidelity/figma-dump/transfer.json",
+      "figmaPng": "docs/figma-transfer-screen/fidelity/figma-dump/transfer.png",
+      "url": "http://localhost:8082/__fidelity/transfer-screen",
+      "width": 390,
+      "height": 1251,
+      "root": "[data-figma-root='867:16776']",
+      "wait": "text=提交转账"
+    }
+  ]
+}

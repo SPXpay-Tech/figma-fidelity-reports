@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for SGB→SPX 划转 screen. Ground truth = Figma 917:7331 (📱 Account. SGB 划转 SPX资金, 390x844). Rendered via the __fidelity harness route so the diff hits a deterministic static layout that matches the figma seed values exactly. Run: FIGMA_TOKEN=figd_xxx node <skill>/scripts/run.mjs --target this --config fidelity.config.json --screen sgb-to-spx",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-sgb-to-spx-transfer/fidelity/out",
+  "topInset": 54,
+  "screens": [
+    {
+      "id": "sgb-to-spx",
+      "node": "917:7331",
+      "url": "http://localhost:8082/__fidelity/sgb-to-spx-transfer",
+      "width": 390,
+      "height": 844,
+      "root": "[data-figma-root]",
+      "wait": "text=划转",
+      "anchor": "划转",
+      "topInset": 54
+    }
+  ]
+}

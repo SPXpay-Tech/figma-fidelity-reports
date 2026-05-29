@@ -15,9 +15,9 @@
     "matchMode": "fallback",
     "originOffset": {
       "x": 0,
-      "y": -1.03
+      "y": -0.03
     },
-    "generated": "2026-05-28T12:26:10.309Z"
+    "generated": "2026-05-28T20:17:19.152Z"
   },
   "summary": {
     "checks": 24,
@@ -88,7 +88,7 @@
       "text": "SGB银行账户",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -182,7 +182,7 @@
       "text": "查看全部",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -241,8 +241,8 @@
       "text": "总余额",
       "prop": "box.y",
       "figma": 58.5,
-      "impl": 59.03,
-      "delta": 0.53,
+      "impl": 58.03,
+      "delta": 0.47,
       "pass": true,
       "severity": "pass"
     },
@@ -276,7 +276,7 @@
       "text": "总余额",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },

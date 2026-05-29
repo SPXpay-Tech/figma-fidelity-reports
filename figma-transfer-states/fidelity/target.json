@@ -1,0 +1,18 @@
+{
+  "_note": "figma-fidelity for SPX transfer-states full-screen 887:21295 (📱 Account.情况变化转账 — 390x1377 device frame composing all §2 transfer-info state-library variants in a single page). Boot expo web (pnpm exec expo start --web --port 8082), then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target docs/figma-transfer-states/fidelity/target.json --config docs/figma-transfer-states/fidelity/fidelity.config.json --screen transfer-states",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-transfer-states/fidelity/out",
+  "screens": [
+    {
+      "id": "transfer-states",
+      "node": "887:21295",
+      "figmaJson": "docs/figma-transfer-states/fidelity/figma-dump/transfer-states.json",
+      "figmaPng": "docs/figma-transfer-states/fidelity/figma-dump/transfer-states.png",
+      "url": "http://localhost:8082/__fidelity/transfer-states",
+      "width": 390,
+      "height": 1377,
+      "root": "[data-figma-root='887:21295']",
+      "wait": "text=转账金额"
+    }
+  ]
+}

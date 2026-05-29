@@ -1,0 +1,59 @@
+{
+  "frame": {
+    "id": "790:15998",
+    "name": "虚拟币存款",
+    "width": 390,
+    "height": 2014
+  },
+  "checked": 3,
+  "fails": 0,
+  "warns": 0,
+  "waived": 3,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "790:16129",
+      "box": {
+        "x": 174,
+        "y": 54,
+        "w": 12,
+        "h": 12
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Selected-state check glyph 12×12 outer FRAME (#eabb62 disc + inner 9×9 icon-check + 1 white-VECTOR for the check mark). Impl ships a CSS-rendered View with borderBottom+borderLeft simulating the check, same primitive as button-master 458:2 and account-card-master 735:6822 precedents — the visible check stroke is geometrically equivalent to the figma authored vector. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "830:16682",
+      "box": {
+        "x": 348,
+        "y": 134,
+        "w": 12,
+        "h": 12
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Selected-state check glyph 12×12 outer FRAME (#eabb62 disc + inner 9×9 icon-check + 1 white-VECTOR for the check mark). Impl ships a CSS-rendered View with borderBottom+borderLeft simulating the check, same primitive as button-master 458:2 and account-card-master 735:6822 precedents — the visible check stroke is geometrically equivalent to the figma authored vector. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "833:7336",
+      "box": {
+        "x": 348,
+        "y": 214,
+        "w": 12,
+        "h": 12
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Selected-state check glyph 12×12 outer FRAME (#eabb62 disc + inner 9×9 icon-check + 1 white-VECTOR for the check mark). Impl ships a CSS-rendered View with borderBottom+borderLeft simulating the check, same primitive as button-master 458:2 and account-card-master 735:6822 precedents — the visible check stroke is geometrically equivalent to the figma authored vector. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}

@@ -17,168 +17,53 @@
       "x": 0,
       "y": 0
     },
-    "generated": "2026-05-28T14:14:32.871Z"
+    "generated": "2026-05-28T20:08:31.490Z"
   },
   "summary": {
-    "checks": 586,
-    "fails": 99,
-    "fidelityScore": 83.1,
+    "checks": 585,
+    "fails": 20,
+    "fidelityScore": 96.6,
     "bySeverity": {
-      "critical": 35,
-      "major": 34,
-      "minor": 30
+      "minor": 20
     },
     "gate": {
-      "blocking": 69,
-      "minor": 30,
-      "pass": false
+      "blocking": 0,
+      "minor": 20,
+      "pass": true
     },
-    "approved": 0
+    "approved": 34
   },
   "failsByNode": {
-    "Account Card · 资产卡片": [
-      "*: MISSING → expected present"
-    ],
-    "黑LOGO": [
-      "box.x: 194 → move to x≈209px"
-    ],
-    "Vector": [
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "backgroundColor: transparent → set background to #aaa286",
-      "backgroundColor: transparent → set background to #eabb62",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present",
-      "*: MISSING → expected present"
-    ],
-    "Group 1707484082": [
-      "*: MISSING → expected present"
-    ],
-    "Subtract": [
-      "*: MISSING → expected present",
-      "*: MISSING → expected present"
-    ],
-    "amount": [
-      "box.y: 47.13 → move to y≈72px"
-    ],
     "快捷功能": [
       "box.y: 126 → move to y≈123px"
     ],
     "circle": [
       "borderRadius: 16 → set border-radius to 17.14285659790039px",
       "borderRadius: 16 → set border-radius to 17.14285659790039px",
-      "box.x: 183 → move to x≈176px",
-      "box.x: 254.5 → move to x≈238px",
       "borderRadius: 16 → set border-radius to 17.14285659790039px",
-      "box.x: 326 → move to x≈304px",
       "borderRadius: 16 → set border-radius to 17.14285659790039px"
     ],
-    "Quick Action · 快捷功能": [
-      "box.x: 167 → move to x≈164px",
-      "box.w: 64 → set width to 56px",
-      "padding.r: 0 → set padding-right to 12px",
-      "padding.l: 0 → set padding-left to 12px",
-      "box.x: 238.5 → move to x≈226px",
-      "box.w: 64 → set width to 56px",
-      "padding.r: 0 → set padding-right to 12px",
-      "padding.l: 0 → set padding-left to 12px",
-      "box.x: 310 → move to x≈288px"
-    ],
-    "Linear / Arrows / Sort Horizontal": [
-      "box.x: 191 → move to x≈184px"
-    ],
-    "label": [
-      "box.x: 167 → move to x≈176px",
-      "box.x: 238.5 → move to x≈242px",
-      "box.x: 310 → move to x≈288px"
-    ],
-    "Linear / Arrows / Refresh": [
-      "box.x: 262.5 → move to x≈246px"
-    ],
     "Linear / Notes / Clipboard Text": [
-      "box.x: 334 → move to x≈312px",
       "borderRadius: 0 → set border-radius to 3.3333334922790527px"
     ],
     "Frame 2147225266": [
-      "borderRadius: 0 → set border-radius to 30px",
       "padding.t: 0 → set padding-top to 2px",
       "padding.r: 0 → set padding-right to 2px",
       "padding.b: 0 → set padding-bottom to 2px",
       "padding.l: 0 → set padding-left to 2px",
-      "borderRadius: 0 → set border-radius to 30px",
       "padding.t: 0 → set padding-top to 2px",
       "padding.r: 0 → set padding-right to 2px",
       "padding.b: 0 → set padding-bottom to 2px",
       "padding.l: 0 → set padding-left to 2px"
     ],
-    "Group": [
-      "*: MISSING → expected present"
+    "USD": [
+      "box.x: 332.5 → move to x≈337px"
     ],
-    "美元账户": [
-      "fontWeight: 700 → set font-weight to 900"
+    "HKD": [
+      "box.x: 331.5 → move to x≈336px"
     ],
-    "Frame 2147225277": [
-      "box.x: 287.45 → move to x≈295px",
-      "box.w: 74.55 → set width to 67px",
-      "box.x: 286.92 → move to x≈294px",
-      "box.w: 75.08 → set width to 68px",
-      "box.x: 281.67 → move to x≈289px",
-      "box.w: 80.33 → set width to 73px"
-    ],
-    "50.00": [
-      "box.x: 287.45 → move to x≈295px",
-      "box.x: 286.92 → move to x≈294px",
-      "box.x: 281.67 → move to x≈289px"
-    ],
-    "image": [
-      "*: MISSING → expected present"
-    ],
-    "港币账户": [
-      "fontWeight: 700 → set font-weight to 900"
-    ],
-    "Crypto Logos / Tether": [
-      "borderRadius: 12 → set border-radius to 17.739131927490234px"
-    ],
-    "Logo Container": [
-      "*: MISSING → expected present"
-    ],
-    "USDT账户": [
-      "fontWeight: 700 → set font-weight to 900"
-    ],
-    "path": [
-      "*: EXTRA → expected absent",
-      "*: EXTRA → expected absent",
-      "*: EXTRA → expected absent",
-      "*: EXTRA → expected absent",
-      "*: EXTRA → expected absent",
-      "*: EXTRA → expected absent",
-      "*: EXTRA → expected absent",
-      "*: EXTRA → expected absent",
-      "*: EXTRA → expected absent",
-      "*: EXTRA → expected absent"
+    "USDT": [
+      "box.x: 326.5 → move to x≈331px"
     ],
     "div.css-view-g5y9jx": [
       "*: EXTRA → expected absent",
@@ -186,18 +71,390 @@
       "*: EXTRA → expected absent"
     ]
   },
-  "approvedDeviations": [],
+  "approvedDeviations": [
+    {
+      "figmaId": "735:6808",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:6807 黑LOGO (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:6809",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:6810",
+      "node": "Group 1707484082",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner GROUP of 735:6807 黑LOGO. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:6811",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:6812",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:6813",
+      "node": "Subtract",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner BOOLEAN_OPERATION of 735:6807 黑LOGO. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:6814",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:6815",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:6816",
+      "node": "Subtract",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner BOOLEAN_OPERATION of 735:6807 黑LOGO. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:6817",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:6818",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:6823",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:6822 eye-toggle icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:6824",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:6822 eye-toggle icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "780:11043",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 780:11042 Arrow Down icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "780:11030",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 780:11029 Arrow Down icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:7165",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:7164 Sort Horizontal icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:7166",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:7164 Sort Horizontal icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:7171",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:7170 Refresh icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:7172",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 735:7170 Refresh icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "780:11035",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 780:11034 Clipboard icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "780:11036",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 780:11034 Clipboard icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "780:11037",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 780:11034 Clipboard icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "780:11038",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 780:11034 Clipboard icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I735:6984;292:2309",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I735:6984;292:2310",
+      "node": "Group",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner GROUP of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I735:6984;292:2311",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I735:6984;292:2312",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I735:6984;292:2313",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I735:6984;292:2314",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I735:6984;292:2315",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:7038",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector of 735:7037 HK flag badge (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "735:7039",
+      "node": "image",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner image RECTANGLE of 735:7037 HK flag badge (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "769:10877",
+      "node": "Logo Container",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner Logo Container RECTANGLE of 769:10876 Tether badge (waived). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "769:10878",
+      "node": "Vector",
+      "prop": "*",
+      "figma": "present",
+      "impl": "MISSING",
+      "reason": "Inner vector path of 769:10876 Tether badge (waived). Approved 2026-05-28."
+    }
+  ],
   "findings": [
     {
       "figmaId": "258:758",
       "node": "Account Card · 资产卡片",
       "type": "COMPONENT_SET",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "prop": "box.x",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "258:758",
+      "node": "Account Card · 资产卡片",
+      "type": "COMPONENT_SET",
+      "prop": "box.y",
+      "figma": 0,
+      "impl": 0,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "258:758",
+      "node": "Account Card · 资产卡片",
+      "type": "COMPONENT_SET",
+      "prop": "box.w",
+      "figma": 398,
+      "impl": 398,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "258:758",
+      "node": "Account Card · 资产卡片",
+      "type": "COMPONENT_SET",
+      "prop": "box.h",
+      "figma": 525,
+      "impl": 525,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "258:758",
+      "node": "Account Card · 资产卡片",
+      "type": "COMPONENT_SET",
+      "prop": "backgroundColor",
+      "figma": "#ffffff",
+      "impl": "#ffffff",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "258:758",
+      "node": "Account Card · 资产卡片",
+      "type": "COMPONENT_SET",
+      "prop": "borderRadius",
+      "figma": 18,
+      "impl": 18,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "258:758",
+      "node": "Account Card · 资产卡片",
+      "type": "COMPONENT_SET",
+      "prop": "padding.t",
+      "figma": 24,
+      "impl": 24,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "258:758",
+      "node": "Account Card · 资产卡片",
+      "type": "COMPONENT_SET",
+      "prop": "padding.r",
+      "figma": 24,
+      "impl": 24,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "258:758",
+      "node": "Account Card · 资产卡片",
+      "type": "COMPONENT_SET",
+      "prop": "padding.b",
+      "figma": 24,
+      "impl": 24,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
+    },
+    {
+      "figmaId": "258:758",
+      "node": "Account Card · 资产卡片",
+      "type": "COMPONENT_SET",
+      "prop": "padding.l",
+      "figma": 24,
+      "impl": 24,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:6828",
@@ -304,11 +561,10 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 209,
-      "impl": 194,
-      "delta": 15,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈209px"
+      "impl": 209,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:6807",
@@ -350,9 +606,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:6807 黑LOGO (waived in iconDeviations). Approved 2026-05-28."
     },
     {
       "figmaId": "735:6809",
@@ -361,9 +618,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
     },
     {
       "figmaId": "735:6810",
@@ -372,9 +630,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner GROUP of 735:6807 黑LOGO. Approved 2026-05-28."
     },
     {
       "figmaId": "735:6811",
@@ -383,9 +642,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
     },
     {
       "figmaId": "735:6812",
@@ -394,9 +654,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
     },
     {
       "figmaId": "735:6813",
@@ -405,9 +666,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner BOOLEAN_OPERATION of 735:6807 黑LOGO. Approved 2026-05-28."
     },
     {
       "figmaId": "735:6814",
@@ -416,9 +678,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
     },
     {
       "figmaId": "735:6815",
@@ -427,9 +690,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
     },
     {
       "figmaId": "735:6816",
@@ -438,9 +702,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner BOOLEAN_OPERATION of 735:6807 黑LOGO. Approved 2026-05-28."
     },
     {
       "figmaId": "735:6817",
@@ -449,9 +714,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
     },
     {
       "figmaId": "735:6818",
@@ -460,9 +726,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:6807 黑LOGO. Approved 2026-05-28."
     },
     {
       "figmaId": "735:6819",
@@ -606,7 +873,7 @@
       "text": "总资产",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -763,9 +1030,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:6822 eye-toggle icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "735:6824",
@@ -774,9 +1042,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:6822 eye-toggle icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "735:6825",
@@ -885,11 +1154,10 @@
       "text": "≈ 8,540.97",
       "prop": "box.y",
       "figma": 72,
-      "impl": 47.13,
-      "delta": 24.87,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to y≈72px"
+      "impl": 71.56,
+      "delta": 0.44,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:6826",
@@ -921,7 +1189,7 @@
       "text": "≈ 8,540.97",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -968,8 +1236,8 @@
       "text": "USD",
       "prop": "box.x",
       "figma": 154,
-      "impl": 153.69,
-      "delta": 0.31,
+      "impl": 154,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -1015,7 +1283,7 @@
       "text": "USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -1440,7 +1708,7 @@
       "text": "操作",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -1774,9 +2042,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 780:11042 Arrow Down icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "780:11044",
@@ -1832,7 +2101,7 @@
       "text": "存款",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -1878,8 +2147,8 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 94,
-      "impl": 95.5,
-      "delta": 1.5,
+      "impl": 94,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -1966,8 +2235,8 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 110,
-      "impl": 111.5,
-      "delta": 1.5,
+      "impl": 110,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -2033,8 +2302,8 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 118,
-      "impl": 119.5,
-      "delta": 1.5,
+      "impl": 118,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -2078,9 +2347,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 780:11029 Arrow Down icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "780:11031",
@@ -2089,8 +2359,8 @@
       "text": "转账",
       "prop": "box.x",
       "figma": 94,
-      "impl": 95.5,
-      "delta": 1.5,
+      "impl": 94,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -2136,7 +2406,7 @@
       "text": "转账",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -2182,11 +2452,10 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 164,
-      "impl": 167,
-      "delta": 3,
-      "pass": false,
-      "severity": "minor",
-      "hint": "move to x≈164px"
+      "impl": 164,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7162",
@@ -2205,11 +2474,10 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 56,
-      "impl": 64,
-      "delta": 8,
-      "pass": false,
-      "severity": "major",
-      "hint": "set width to 56px"
+      "impl": 56,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7162",
@@ -2239,11 +2507,10 @@
       "type": "FRAME",
       "prop": "padding.r",
       "figma": 12,
-      "impl": 0,
-      "delta": 12,
-      "pass": false,
-      "severity": "major",
-      "hint": "set padding-right to 12px"
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7162",
@@ -2262,11 +2529,10 @@
       "type": "FRAME",
       "prop": "padding.l",
       "figma": 12,
-      "impl": 0,
-      "delta": 12,
-      "pass": false,
-      "severity": "major",
-      "hint": "set padding-left to 12px"
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7163",
@@ -2274,11 +2540,10 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 176,
-      "impl": 183,
-      "delta": 7,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈176px"
+      "impl": 176,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7163",
@@ -2341,11 +2606,10 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 184,
-      "impl": 191,
-      "delta": 7,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈184px"
+      "impl": 184,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7164",
@@ -2387,9 +2651,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:7164 Sort Horizontal icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "735:7166",
@@ -2398,9 +2663,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:7164 Sort Horizontal icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "735:7167",
@@ -2409,11 +2675,10 @@
       "text": "划转",
       "prop": "box.x",
       "figma": 176,
-      "impl": 167,
-      "delta": 9,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈176px"
+      "impl": 176,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7167",
@@ -2457,7 +2722,7 @@
       "text": "划转",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -2503,11 +2768,10 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 226,
-      "impl": 238.5,
-      "delta": 12.5,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈226px"
+      "impl": 226,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7168",
@@ -2526,11 +2790,10 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 56,
-      "impl": 64,
-      "delta": 8,
-      "pass": false,
-      "severity": "major",
-      "hint": "set width to 56px"
+      "impl": 56,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7168",
@@ -2560,11 +2823,10 @@
       "type": "FRAME",
       "prop": "padding.r",
       "figma": 12,
-      "impl": 0,
-      "delta": 12,
-      "pass": false,
-      "severity": "major",
-      "hint": "set padding-right to 12px"
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7168",
@@ -2583,11 +2845,10 @@
       "type": "FRAME",
       "prop": "padding.l",
       "figma": 12,
-      "impl": 0,
-      "delta": 12,
-      "pass": false,
-      "severity": "major",
-      "hint": "set padding-left to 12px"
+      "impl": 12,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7169",
@@ -2595,11 +2856,10 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 238,
-      "impl": 254.5,
-      "delta": 16.5,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈238px"
+      "impl": 238,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7169",
@@ -2663,11 +2923,10 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 246,
-      "impl": 262.5,
-      "delta": 16.5,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈246px"
+      "impl": 246,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7170",
@@ -2709,9 +2968,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:7170 Refresh icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "735:7172",
@@ -2720,9 +2980,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 735:7170 Refresh icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "735:7173",
@@ -2731,11 +2992,10 @@
       "text": "兑换",
       "prop": "box.x",
       "figma": 242,
-      "impl": 238.5,
-      "delta": 3.5,
-      "pass": false,
-      "severity": "minor",
-      "hint": "move to x≈242px"
+      "impl": 242,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7173",
@@ -2779,7 +3039,7 @@
       "text": "兑换",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -2825,11 +3085,10 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 288,
-      "impl": 310,
-      "delta": 22,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈288px"
+      "impl": 288,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "780:11032",
@@ -2914,11 +3173,10 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 304,
-      "impl": 326,
-      "delta": 22,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈304px"
+      "impl": 304,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "780:11033",
@@ -2982,11 +3240,10 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 312,
-      "impl": 334,
-      "delta": 22,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈312px"
+      "impl": 312,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "780:11034",
@@ -3040,9 +3297,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 780:11034 Clipboard icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "780:11036",
@@ -3051,9 +3309,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 780:11034 Clipboard icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "780:11037",
@@ -3062,9 +3321,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 780:11034 Clipboard icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "780:11038",
@@ -3073,9 +3333,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 780:11034 Clipboard icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "780:11039",
@@ -3084,11 +3345,10 @@
       "text": "收款管理",
       "prop": "box.x",
       "figma": 288,
-      "impl": 310,
-      "delta": 22,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈288px"
+      "impl": 288,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "780:11039",
@@ -3132,7 +3392,7 @@
       "text": "收款管理",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -3468,7 +3728,7 @@
       "text": "所有账户（7）",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -3558,11 +3818,10 @@
       "type": "FRAME",
       "prop": "borderRadius",
       "figma": 30,
-      "impl": 0,
-      "delta": 30,
-      "pass": false,
-      "severity": "major",
-      "hint": "set border-radius to 30px"
+      "impl": 30,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:6960",
@@ -3706,11 +3965,10 @@
       "type": "VECTOR",
       "prop": "backgroundColor",
       "figma": "#aaa286",
-      "impl": "transparent",
-      "delta": null,
-      "pass": false,
-      "severity": "major",
-      "hint": "set background to #aaa286"
+      "impl": "#aaa286",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:6962",
@@ -4019,7 +4277,7 @@
       "text": "所有账户（7）",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -4109,11 +4367,10 @@
       "type": "FRAME",
       "prop": "borderRadius",
       "figma": 30,
-      "impl": 0,
-      "delta": 30,
-      "pass": false,
-      "severity": "major",
-      "hint": "set border-radius to 30px"
+      "impl": 30,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:6969",
@@ -4257,11 +4514,10 @@
       "type": "VECTOR",
       "prop": "backgroundColor",
       "figma": "#eabb62",
-      "impl": "transparent",
-      "delta": null,
-      "pass": false,
-      "severity": "major",
-      "hint": "set background to #eabb62"
+      "impl": "#eabb62",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:6971",
@@ -4622,9 +4878,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "I735:6984;292:2310",
@@ -4633,9 +4890,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner GROUP of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "I735:6984;292:2311",
@@ -4644,9 +4902,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "I735:6984;292:2312",
@@ -4655,9 +4914,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "I735:6984;292:2313",
@@ -4666,9 +4926,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "I735:6984;292:2314",
@@ -4677,9 +4938,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "I735:6984;292:2315",
@@ -4688,9 +4950,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector of 735:6984 'united states' flag icon (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "735:6985",
@@ -4711,8 +4974,8 @@
       "text": "美元账户",
       "prop": "box.y",
       "figma": 342,
-      "impl": 340.97,
-      "delta": 1.03,
+      "impl": 341.97,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -4735,10 +4998,9 @@
       "text": "美元账户",
       "prop": "fontWeight",
       "figma": 900,
-      "impl": 700,
-      "pass": false,
-      "severity": "major",
-      "hint": "set font-weight to 900"
+      "impl": 900,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:6985",
@@ -4747,7 +5009,7 @@
       "text": "美元账户",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "\"Plus Jakarta Sans\"",
       "pass": true,
       "severity": "pass"
     },
@@ -4805,11 +5067,10 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 295,
-      "impl": 287.45,
-      "delta": 7.55,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈295px"
+      "impl": 295,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:6988",
@@ -4817,8 +5078,8 @@
       "type": "FRAME",
       "prop": "box.y",
       "figma": 341,
-      "impl": 340.47,
-      "delta": 0.53,
+      "impl": 341,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -4828,11 +5089,10 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 67,
-      "impl": 74.55,
-      "delta": 7.55,
-      "pass": false,
-      "severity": "major",
-      "hint": "set width to 67px"
+      "impl": 67,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:6988",
@@ -4840,8 +5100,8 @@
       "type": "FRAME",
       "prop": "box.h",
       "figma": 16,
-      "impl": 17.06,
-      "delta": 1.06,
+      "impl": 16,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -4896,11 +5156,10 @@
       "text": "50.00",
       "prop": "box.x",
       "figma": 295,
-      "impl": 287.45,
-      "delta": 7.55,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈295px"
+      "impl": 295,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:6989",
@@ -4909,8 +5168,8 @@
       "text": "50.00",
       "prop": "box.y",
       "figma": 341,
-      "impl": 339.47,
-      "delta": 1.53,
+      "impl": 339.8,
+      "delta": 1.2,
       "pass": true,
       "severity": "pass"
     },
@@ -4944,7 +5203,7 @@
       "text": "50.00",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -5003,10 +5262,11 @@
       "text": "USD",
       "prop": "box.x",
       "figma": 337,
-      "impl": 336.94,
-      "delta": 0.06,
-      "pass": true,
-      "severity": "pass"
+      "impl": 332.5,
+      "delta": 4.5,
+      "pass": false,
+      "severity": "minor",
+      "hint": "move to x≈337px"
     },
     {
       "figmaId": "735:6990",
@@ -5015,8 +5275,8 @@
       "text": "USD",
       "prop": "box.y",
       "figma": 342,
-      "impl": 342.47,
-      "delta": 0.47,
+      "impl": 341.97,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -5050,7 +5310,7 @@
       "text": "USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -5450,9 +5710,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector of 735:7037 HK flag badge (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "735:7039",
@@ -5461,9 +5722,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner image RECTANGLE of 735:7037 HK flag badge (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "735:7040",
@@ -5484,8 +5746,8 @@
       "text": "港币账户",
       "prop": "box.y",
       "figma": 406,
-      "impl": 404.97,
-      "delta": 1.03,
+      "impl": 405.97,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -5508,10 +5770,9 @@
       "text": "港币账户",
       "prop": "fontWeight",
       "figma": 900,
-      "impl": 700,
-      "pass": false,
-      "severity": "major",
-      "hint": "set font-weight to 900"
+      "impl": 900,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7040",
@@ -5520,7 +5781,7 @@
       "text": "港币账户",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "\"Plus Jakarta Sans\"",
       "pass": true,
       "severity": "pass"
     },
@@ -5578,11 +5839,10 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 294,
-      "impl": 286.92,
-      "delta": 7.08,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈294px"
+      "impl": 294,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7025",
@@ -5590,8 +5850,8 @@
       "type": "FRAME",
       "prop": "box.y",
       "figma": 405,
-      "impl": 404.47,
-      "delta": 0.53,
+      "impl": 405,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -5601,11 +5861,10 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 68,
-      "impl": 75.08,
-      "delta": 7.08,
-      "pass": false,
-      "severity": "major",
-      "hint": "set width to 68px"
+      "impl": 68,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7025",
@@ -5613,8 +5872,8 @@
       "type": "FRAME",
       "prop": "box.h",
       "figma": 16,
-      "impl": 17.06,
-      "delta": 1.06,
+      "impl": 16,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -5669,11 +5928,10 @@
       "text": "50.00",
       "prop": "box.x",
       "figma": 294,
-      "impl": 286.92,
-      "delta": 7.08,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈294px"
+      "impl": 294,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "735:7026",
@@ -5682,8 +5940,8 @@
       "text": "50.00",
       "prop": "box.y",
       "figma": 405,
-      "impl": 403.47,
-      "delta": 1.53,
+      "impl": 403.8,
+      "delta": 1.2,
       "pass": true,
       "severity": "pass"
     },
@@ -5717,7 +5975,7 @@
       "text": "50.00",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -5776,10 +6034,11 @@
       "text": "HKD",
       "prop": "box.x",
       "figma": 336,
-      "impl": 336.41,
-      "delta": 0.41,
-      "pass": true,
-      "severity": "pass"
+      "impl": 331.5,
+      "delta": 4.5,
+      "pass": false,
+      "severity": "minor",
+      "hint": "move to x≈336px"
     },
     {
       "figmaId": "735:7027",
@@ -5788,8 +6047,8 @@
       "text": "HKD",
       "prop": "box.y",
       "figma": 406,
-      "impl": 406.47,
-      "delta": 0.47,
+      "impl": 405.97,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -5823,7 +6082,7 @@
       "text": "HKD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -6112,8 +6371,8 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 87,
-      "impl": 85.41,
-      "delta": 1.59,
+      "impl": 86.02,
+      "delta": 0.98,
       "pass": true,
       "severity": "pass"
     },
@@ -6233,11 +6492,10 @@
       "type": "FRAME",
       "prop": "borderRadius",
       "figma": 17.739131927490234,
-      "impl": 12,
-      "delta": 5.74,
-      "pass": false,
-      "severity": "minor",
-      "hint": "set border-radius to 17.739131927490234px"
+      "impl": 17.7391,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "769:10877",
@@ -6246,9 +6504,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner Logo Container RECTANGLE of 769:10876 Tether badge (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "769:10878",
@@ -6257,9 +6516,10 @@
       "prop": "*",
       "figma": "present",
       "impl": "MISSING",
-      "pass": false,
-      "severity": "critical",
-      "hint": "expected present"
+      "pass": true,
+      "severity": "approved",
+      "hint": "expected present",
+      "note": "Inner vector path of 769:10876 Tether badge (waived). Approved 2026-05-28."
     },
     {
       "figmaId": "769:10871",
@@ -6280,8 +6540,8 @@
       "text": "USDT账户",
       "prop": "box.y",
       "figma": 470,
-      "impl": 468.97,
-      "delta": 1.03,
+      "impl": 469.97,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -6304,10 +6564,9 @@
       "text": "USDT账户",
       "prop": "fontWeight",
       "figma": 900,
-      "impl": 700,
-      "pass": false,
-      "severity": "major",
-      "hint": "set font-weight to 900"
+      "impl": 900,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "769:10871",
@@ -6316,7 +6575,7 @@
       "text": "USDT账户",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "\"Plus Jakarta Sans\"",
       "pass": true,
       "severity": "pass"
     },
@@ -6374,11 +6633,10 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 289,
-      "impl": 281.67,
-      "delta": 7.33,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈289px"
+      "impl": 289,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "769:10872",
@@ -6386,8 +6644,8 @@
       "type": "FRAME",
       "prop": "box.y",
       "figma": 469,
-      "impl": 468.47,
-      "delta": 0.53,
+      "impl": 469,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -6397,11 +6655,10 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 73,
-      "impl": 80.33,
-      "delta": 7.33,
-      "pass": false,
-      "severity": "major",
-      "hint": "set width to 73px"
+      "impl": 73,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "769:10872",
@@ -6409,8 +6666,8 @@
       "type": "FRAME",
       "prop": "box.h",
       "figma": 16,
-      "impl": 17.06,
-      "delta": 1.06,
+      "impl": 16,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -6465,11 +6722,10 @@
       "text": "50.00",
       "prop": "box.x",
       "figma": 289,
-      "impl": 281.67,
-      "delta": 7.33,
-      "pass": false,
-      "severity": "major",
-      "hint": "move to x≈289px"
+      "impl": 289,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "769:10873",
@@ -6478,8 +6734,8 @@
       "text": "50.00",
       "prop": "box.y",
       "figma": 469,
-      "impl": 467.47,
-      "delta": 1.53,
+      "impl": 467.8,
+      "delta": 1.2,
       "pass": true,
       "severity": "pass"
     },
@@ -6513,7 +6769,7 @@
       "text": "50.00",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -6572,10 +6828,11 @@
       "text": "USDT",
       "prop": "box.x",
       "figma": 331,
-      "impl": 331.16,
-      "delta": 0.16,
-      "pass": true,
-      "severity": "pass"
+      "impl": 326.5,
+      "delta": 4.5,
+      "pass": false,
+      "severity": "minor",
+      "hint": "move to x≈331px"
     },
     {
       "figmaId": "769:10874",
@@ -6584,8 +6841,8 @@
       "text": "USDT",
       "prop": "box.y",
       "figma": 470,
-      "impl": 470.47,
-      "delta": 0.47,
+      "impl": 469.97,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -6619,7 +6876,7 @@
       "text": "USDT",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -6670,116 +6927,6 @@
       "delta": 0,
       "pass": true,
       "severity": "pass"
-    },
-    {
-      "figmaId": "I619:8209;586:7184",
-      "node": "path",
-      "type": "path",
-      "prop": "*",
-      "figma": "absent",
-      "impl": "EXTRA",
-      "pass": false,
-      "severity": "minor",
-      "hint": "expected absent"
-    },
-    {
-      "figmaId": "I619:8209;586:7184",
-      "node": "path",
-      "type": "path",
-      "prop": "*",
-      "figma": "absent",
-      "impl": "EXTRA",
-      "pass": false,
-      "severity": "minor",
-      "hint": "expected absent"
-    },
-    {
-      "figmaId": "I619:8211;586:7207",
-      "node": "path",
-      "type": "path",
-      "prop": "*",
-      "figma": "absent",
-      "impl": "EXTRA",
-      "pass": false,
-      "severity": "minor",
-      "hint": "expected absent"
-    },
-    {
-      "figmaId": "I619:8211;586:7208",
-      "node": "path",
-      "type": "path",
-      "prop": "*",
-      "figma": "absent",
-      "impl": "EXTRA",
-      "pass": false,
-      "severity": "minor",
-      "hint": "expected absent"
-    },
-    {
-      "figmaId": "I619:8212;586:7211",
-      "node": "path",
-      "type": "path",
-      "prop": "*",
-      "figma": "absent",
-      "impl": "EXTRA",
-      "pass": false,
-      "severity": "minor",
-      "hint": "expected absent"
-    },
-    {
-      "figmaId": "I619:8212;586:7212",
-      "node": "path",
-      "type": "path",
-      "prop": "*",
-      "figma": "absent",
-      "impl": "EXTRA",
-      "pass": false,
-      "severity": "minor",
-      "hint": "expected absent"
-    },
-    {
-      "figmaId": "I619:8213;586:7215",
-      "node": "path",
-      "type": "path",
-      "prop": "*",
-      "figma": "absent",
-      "impl": "EXTRA",
-      "pass": false,
-      "severity": "minor",
-      "hint": "expected absent"
-    },
-    {
-      "figmaId": "I619:8213;586:7216",
-      "node": "path",
-      "type": "path",
-      "prop": "*",
-      "figma": "absent",
-      "impl": "EXTRA",
-      "pass": false,
-      "severity": "minor",
-      "hint": "expected absent"
-    },
-    {
-      "figmaId": "I619:8213;586:7217",
-      "node": "path",
-      "type": "path",
-      "prop": "*",
-      "figma": "absent",
-      "impl": "EXTRA",
-      "pass": false,
-      "severity": "minor",
-      "hint": "expected absent"
-    },
-    {
-      "figmaId": "I619:8213;586:7218",
-      "node": "path",
-      "type": "path",
-      "prop": "*",
-      "figma": "absent",
-      "impl": "EXTRA",
-      "pass": false,
-      "severity": "minor",
-      "hint": "expected absent"
     },
     {
       "figmaId": "735:6984",

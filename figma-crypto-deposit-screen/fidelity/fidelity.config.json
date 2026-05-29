@@ -1,0 +1,55 @@
+{
+  "_comment": "Project fidelity config for the SPX mobile 虚拟币存款 (Crypto Deposit) phone screen 790:15656. Same tolerances/gate as home/accounts/cards.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels CJK 'HarmonyOS Sans TC'; impl ships SC variant + Plus Jakarta Sans. Same Huawei family.",
+  "ignoreText": [
+    "^9:41$",
+    "^9 4 X K$"
+  ],
+  "_ignoreTextNote": "iOS status-bar mock only — every other text on the figma frame is a literal label or fixed seed (address string / 1 USDT / 3次网络确认), so we don't waive content.",
+  "deviations": [
+    { "text": "首页", "prop": "box.y", "reason": "Bottom-nav label position — managed by global Tabs layout (height 84 vs figma's 65). Cross-screen invariant (same as home/accounts/cards/me). Approved 2026-05-29 w2-6." },
+    { "text": "首页", "prop": "fontWeight", "reason": "Bottom-nav active weight differs because deposit is a hidden Tabs.Screen (no visible tab is 'active' in expo-router). Figma seeds 账户 as active because the design context is from accounts. Approved 2026-05-29 w2-6." },
+    { "text": "账户", "prop": "box.y", "reason": "Bottom-nav label position — same Tabs layout invariant as 首页. Approved 2026-05-29 w2-6." },
+    { "text": "账户", "prop": "color", "reason": "Bottom-nav active color — figma seeds 账户 as the active tab (gold #EABB62) because deposit is reached from the accounts context. Impl renders it inactive because deposit is a hidden Tabs.Screen — none of the visible tabs are auto-marked active. Same as home/cards screens that share this hidden-tab pattern. Approved 2026-05-29 w2-6." },
+    { "text": "消费", "prop": "box.y", "reason": "Bottom-nav label position — same Tabs layout invariant. Approved 2026-05-29 w2-6." },
+    { "text": "我的", "prop": "box.y", "reason": "Bottom-nav label position — same Tabs layout invariant. Approved 2026-05-29 w2-6." }
+  ],
+  "iconDeviations": [
+    { "name": "^Linear / Arrows / Arrow Left$", "reason": "Back-button chevron renders as @expo/vector-icons Feather chevron-left (app-wide nav icon policy from home/accounts/cards). Geometry token still checked. Approved 2026-05-29 w2-6." },
+    { "name": "^Linear / Money / Wallet$", "reason": "Bottom-nav 账户 icon — app-wide @expo/vector-icons Feather (same policy as home/accounts bottom-nav icons). Approved 2026-05-29 w2-6." },
+    { "name": "^Linear / Money / Card$", "reason": "Bottom-nav 消费 icon — app-wide @expo/vector-icons Feather (same policy as home/accounts/cards). Approved 2026-05-29 w2-6." },
+    { "name": "^Linear / Users / User Circle$", "reason": "Bottom-nav 我的 icon — same app-wide font-glyph policy. Approved 2026-05-29 w2-6." },
+    { "name": "^Linear / Essentional, UI / Copy$", "reason": "Address copy-icon renders Feather 'copy' glyph. App-wide @expo/vector-icons policy; geometry token still checked. Approved 2026-05-29 w2-6." },
+    { "name": "^icon-check$", "reason": "Selected-pill check renders Feather 'check' glyph at the same 8.57×8.57 vector position. App-wide font-glyph policy for simple ui-state icons. Approved 2026-05-29 w2-6." },
+    { "figmaId": "I790:15659;784:12446;159:2", "reason": "Back-button chevron-left icon (20×20 frame at header) — impl ships Feather 'chevron-left' glyph. App-wide @expo/vector-icons policy for nav directional icons (matches home/accounts/cards back-button policy). Approved 2026-05-29 w2-6." },
+    { "figmaId": "I790:16142;790:16129", "reason": "Selected-pill check 'icon' frame (12×12 wrapper around the icon-check vector) — impl renders Feather 'check' glyph at the same vector position. App-wide font-glyph policy for ui-state check icons. Approved 2026-05-29 w2-6." },
+    { "name": "^icon$", "reason": "Generic 'icon' frame nodes containing single-path nav/state glyphs (back-chevron / check) — impl renders matching Feather glyphs. App-wide @expo/vector-icons policy. Approved 2026-05-29 w2-6." }
+  ],
+  "textMatch": {
+    "maxCenterDist": 24
+  },
+  "severity": {
+    "geometry": "major",
+    "typography": "major",
+    "color": "major",
+    "missing": "critical",
+    "extra": "minor"
+  },
+  "gate": {
+    "minFidelityScore": 85,
+    "maxCritical": 0,
+    "maxMajor": 999
+  }
+}

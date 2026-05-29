@@ -1,0 +1,18 @@
+{
+  "_note": "figma-fidelity for Figma 917:12169 (📱 Account. 收款方账户显示, 390×844). Isolated harness at /__fidelity/recipient-list; tagged container carries data-figma-root='917:12169' with id-pinned sub-tags so the diff matches by figmaId not text position. Boot expo (pnpm exec expo start --web --port 8082), then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen recipient-list",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-recipient-list/fidelity/out",
+  "screens": [
+    {
+      "id": "recipient-list",
+      "node": "917:12169",
+      "figmaJson": "docs/figma-recipient-list/fidelity/figma-dump/recipient-list.json",
+      "figmaPng": "docs/figma-recipient-list/fidelity/figma-dump/recipient-list.png",
+      "url": "http://localhost:8082/__fidelity/recipient-list",
+      "width": 390,
+      "height": 844,
+      "root": "[data-figma-root='917:12169']",
+      "wait": "text=收款方管理"
+    }
+  ]
+}

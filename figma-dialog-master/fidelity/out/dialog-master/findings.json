@@ -17,7 +17,7 @@
       "x": 0,
       "y": -1
     },
-    "generated": "2026-05-28T05:43:39.814Z"
+    "generated": "2026-05-29T03:32:23.298Z"
   },
   "summary": {
     "checks": 268,
@@ -30,7 +30,8 @@
       "blocking": 0,
       "minor": 23,
       "pass": true
-    }
+    },
+    "approved": 0
   },
   "failsByNode": {
     "登录认证流程的结果/提示弹窗 · 风格对齐现成 Dialog 母版 · 交互后续单独做": [
@@ -99,6 +100,7 @@
       "box.y: 586.33 → move to y≈585px"
     ]
   },
+  "approvedDeviations": [],
   "findings": [
     {
       "figmaId": "463:3301",

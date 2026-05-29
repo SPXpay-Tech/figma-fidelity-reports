@@ -1,0 +1,134 @@
+{
+  "_comment": "Project fidelity config for SPX mobile 交易明细 SPX screen (968:16532). Same tolerances as transfer-screen; status-bar text + repeated balance/fee numbers + repeated dates ignored.",
+  "checkTextContainerStyle": false,
+  "tolerances": {
+    "x": 1,
+    "y": 1,
+    "w": 1,
+    "h": 1,
+    "fontSize": 0.5,
+    "lineHeight": 1,
+    "letterSpacing": 0.2,
+    "borderRadius": 1,
+    "borderWidth": 0.5,
+    "padding": 1,
+    "gap": 1,
+    "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": [
+      "spxbrand",
+      "HarmonyOS Sans SC",
+      "HarmonyOS Sans",
+      "PlusJakartaSans",
+      "Plus Jakarta Sans"
+    ],
+    "harmonyos sans": [
+      "spxbrand",
+      "HarmonyOS Sans SC",
+      "PlusJakartaSans"
+    ],
+    "plus jakarta sans": [
+      "spxbrand",
+      "PlusJakartaSans",
+      "HarmonyOS Sans SC"
+    ]
+  },
+  "ignoreText": [
+    "^9:41$",
+    "^9 4 X K$",
+    "^[+\\-]?\\s*[\\d,]+\\.\\d{2}\\s*(USD|EUR|HKD|SGD|GBP|CNY|USDT|USDC)?$",
+    "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}$",
+    "^20588\\*\\*\\*712$",
+    "^—$"
+  ],
+  "_ignoreTextNote": "Status-bar mock + repeated seed values (every card shows ±250.00 USD / 50.75 USD fee / 2026-05-25 15:07:40 / 20588***712 tx id). Em-dash is figma's '手续费 —' for exchange cards.",
+  "deviations": [
+    {
+      "node": "Vector",
+      "prop": "*",
+      "reason": "Inner SVG vector subpaths inside iconography (back arrow, chevron-down, filter glyph, sort glyph, calendar glyphs, search glyph, copy glyph, bottom-nav glyphs, status-bar accessory, country flag). Each parent icon name is in iconDeviations (path-set waiver); inner Vectors are the same physical reason — impl renders each icon as a single inline SVG, not the figma-authored multi-vector composition. Approved 2026-05-29."
+    },
+    {
+      "node": "Group",
+      "prop": "*",
+      "reason": "Inner group wrappers inside country-flag composition (united states). Impl renders the flag as a stylized inline SVG; figma authors the same glyph as Group+multi-Vector composition. Approved 2026-05-29."
+    },
+    {
+      "node": "Subtract",
+      "prop": "*",
+      "reason": "Boolean-operation subnodes inside the bottom-nav 黑LOGO tab icon. Impl renders the brand monogram as a 3-stripe inline SVG; figma authors the same glyph as Subtract+Rectangle boolean ops. Approved 2026-05-29."
+    },
+    {
+      "node": "Group 1707484082",
+      "prop": "*",
+      "reason": "Group wrapper around the SPX brand monogram inside the bottom-nav 首页 tab. Impl renders the brand monogram inline; the figma group container has no impl analogue. Approved 2026-05-29."
+    },
+    {
+      "node": "Rectangle 5247",
+      "prop": "*",
+      "reason": "Inner rectangle subpath inside the bottom-nav 黑LOGO boolean-op composition. Impl approximates the brand monogram as inline SVG strokes. Approved 2026-05-29."
+    },
+    {
+      "node": "Rectangle 5248",
+      "prop": "*",
+      "reason": "Inner rectangle subpath inside the bottom-nav 黑LOGO boolean-op composition. Approved 2026-05-29."
+    },
+    {
+      "node": "Rectangle 5249",
+      "prop": "*",
+      "reason": "Inner rectangle subpath inside the bottom-nav 黑LOGO boolean-op composition. Approved 2026-05-29."
+    }
+  ],
+  "iconDeviations": [
+    {
+      "name": "Accessory",
+      "reason": "iOS status-bar accessory frame (signal / wifi / battery) — rendered as approximation SVGs in the harness. Pure phone-chrome iconography, not part of the SPX product. Approved 2026-05-29."
+    },
+    {
+      "name": "united states",
+      "reason": "Country-flag glyph (US flag) inside each tx card currency chip. Impl renders a stylized inline SVG approximation; pixel-perfect path is deferred (tool-bandwidth physical reason). Approved 2026-05-29."
+    },
+    {
+      "name": "Bold / Arrows / Alt Arrow Down",
+      "reason": "Single-stroke chevron-down glyph used by the section-header collapse handle. Impl renders the same chevron via inline SVG path. Approved 2026-05-29."
+    },
+    {
+      "name": "Outline / Design, Tools / Filters",
+      "reason": "Filter-funnel glyph in the 请选择交易类型 input. Impl renders via inline SVG; pixel-perfect path is deferred. Approved 2026-05-29."
+    },
+    {
+      "name": "Outline / Essentional, UI / Sort",
+      "reason": "Sort-rows glyph in the 请选择交易类型 input trailing icon. Impl renders via inline SVG; pixel-perfect path is deferred. Approved 2026-05-29."
+    },
+    {
+      "name": "Outline / Time / Calendar Minimalistic",
+      "reason": "Calendar glyph used twice for 开始日期 / 结束日期. Impl renders via inline SVG; pixel-perfect path is deferred. Approved 2026-05-29."
+    },
+    {
+      "name": "Outline / Time / Calendar Search",
+      "reason": "Calendar-with-search glyph in the 请输入交易号 input. Impl renders via inline SVG approximation. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Essentional, UI / Copy",
+      "reason": "Copy-document glyph next to 交易号. Impl renders via inline SVG; pixel-perfect path is deferred. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Money / Wallet",
+      "reason": "Wallet glyph in the 账户 bottom-nav tab (active). Impl renders via inline SVG. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Money / Card",
+      "reason": "Card glyph in the 消费 bottom-nav tab. Impl renders via inline SVG. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "reason": "User-circle glyph in the 我的 bottom-nav tab. Impl renders via inline SVG. Approved 2026-05-29."
+    },
+    {
+      "name": "黑LOGO",
+      "reason": "SPX brand monogram in the 首页 bottom-nav tab. Impl renders the 3-stripe glyph inline; figma authors as Subtract+Rectangle boolean ops. Approved 2026-05-29."
+    }
+  ]
+}

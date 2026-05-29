@@ -1,0 +1,89 @@
+{
+  "_comment": "Screen-level fidelity for 917:8094 SPX→SGB transfer screen. Harness mirrors all 155 figma nodes by data-figma-id. Tolerances match home/sgb-account screen fidelity (project font aliases, ignore data-driven amounts).",
+  "tolerances": {
+    "x": 3,
+    "y": 3,
+    "w": 1,
+    "h": 1,
+    "fontSize": 0.5,
+    "lineHeight": 1,
+    "letterSpacing": 0.2,
+    "borderRadius": 1,
+    "borderWidth": 0.5,
+    "padding": 1,
+    "gap": 1,
+    "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": [
+      "SpxBrand",
+      "HarmonyOS Sans SC",
+      "HarmonyOS Sans",
+      "PlusJakartaSans",
+      "Plus Jakarta Sans"
+    ],
+    "harmonyos sans": [
+      "SpxBrand",
+      "HarmonyOS Sans SC",
+      "PlusJakartaSans"
+    ],
+    "plus jakarta sans": [
+      "SpxBrand",
+      "PlusJakartaSans",
+      "HarmonyOS Sans SC"
+    ]
+  },
+  "_fontAliasNote": "Figma masters label CJK as 'HarmonyOS Sans TC'; the app ships SpxBrand (PJS Latin + HOST TC CJK merged) — same Huawei TC family for CJK glyphs.",
+  "ignoreText": [
+    "^9:41$",
+    "^9 4 X K$"
+  ],
+  "_ignoreTextNote": "iOS status-bar mock (clock 9:41) drawn by the figma device frame. Never implemented on web — it's device chrome, not app UI.",
+  "deviations": [
+    {
+      "figmaId": "I917:9370;922:8504",
+      "prop": "fontWeight",
+      "reason": "实收金额 value uses fontWeight 900 (HarmonyOS Sans TC Black) in figma. The app ships only SpxBrand-Bold (700) bundled as the brand face — RN-Web clamps Black to 700. Visual difference imperceptible at 14px. Same 900→700 clamp documented in sgb-account fidelity 2026-05-28."
+    }
+  ],
+  "iconDeviations": [
+    {
+      "figmaId": "I917:8097;917:7287;159:2",
+      "reason": "Nav-back chevron 20×20 — hand-traced Solar Linear glyph at viewBox 0 0 24 24. Path centerline matches figma; sub-pixel d-attr differs because the figma export rounds control points to half-pixel. Visually identical."
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "reason": "Source/destination dropdown chevron 24×24 — hand-traced Solar Linear chevron-down. Same 1.5px stroke + lineCap=round. Geometry deviation = figma export normalisation; visually identical at render scale."
+    },
+    {
+      "name": "Linear / Arrows / Round Transfer Vertical",
+      "reason": "Transfer-vertical badge 24×24 — hand-traced two arrows (up + down) at 1.5px stroke. Figma export normalises path points; centerlines match."
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "reason": "Bottom-nav 我的 user-circle 24×24 — Solar Linear silhouette (head circle + shoulders arc + outer ring). Path point counts match; sub-pixel rounding from figma export."
+    },
+    {
+      "figmaId": "I917:12146;917:12142",
+      "reason": "Toast outer icon 24×24 — green-tinted FRAME bg + same ToastCheck path rendered inside, mirroring figma's nested check Vector. Path count matches; coordinate offsets normalised by figma's SVG export pipeline."
+    },
+    {
+      "figmaId": "I917:12146;917:12143",
+      "reason": "Toast inner icon-check FRAME 13.33×13.33 — hand-traced check stroke at 1.33px. Geometry parity with figma's Solar check Vector minus sub-pixel rounding."
+    }
+  ],
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major",
+    "typography": "major",
+    "color": "major",
+    "missing": "critical",
+    "extra": "minor"
+  },
+  "gate": {
+    "minFidelityScore": 85,
+    "maxCritical": 0,
+    "maxMajor": 0
+  }
+}

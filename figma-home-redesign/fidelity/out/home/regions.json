@@ -153,6 +153,18 @@
       "mismatch": 11.7
     },
     {
+      "name": "Compliance Status · 合规状态",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 111,
+        "w": 144,
+        "h": 26
+      },
+      "figmaFill": "#f9ac1c@0.10",
+      "mismatch": 8.9
+    },
+    {
       "name": "eye",
       "type": "FRAME",
       "box": {
@@ -175,18 +187,6 @@
       },
       "figmaFill": "#eabb62@0.10",
       "mismatch": 8
-    },
-    {
-      "name": "Compliance Status · 合规状态",
-      "type": "INSTANCE",
-      "box": {
-        "x": 20,
-        "y": 111,
-        "w": 144,
-        "h": 26
-      },
-      "figmaFill": "#f9ac1c@0.10",
-      "mismatch": 7.9
     },
     {
       "name": "Frame 2147225265",
@@ -249,16 +249,16 @@
       "mismatch": 5.6
     },
     {
-      "name": "ic",
+      "name": "seg-中",
       "type": "FRAME",
       "box": {
-        "x": 32,
-        "y": 1737.5,
-        "w": 32,
-        "h": 32
+        "x": 306,
+        "y": 71,
+        "w": 30,
+        "h": 24
       },
-      "figmaFill": "#884dfe@0.10",
-      "mismatch": 5
+      "figmaFill": "#eabb62",
+      "mismatch": 5.1
     },
     {
       "name": "Frame",
@@ -271,6 +271,18 @@
       },
       "figmaFill": "#00d17d@0.10",
       "mismatch": 5
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 1737.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#884dfe@0.10",
+      "mismatch": 4.9
     },
     {
       "name": "配饰 Accessory",
@@ -306,7 +318,7 @@
         "h": 32
       },
       "figmaFill": "#00d17d@0.15",
-      "mismatch": 4.1
+      "mismatch": 3.8
     },
     {
       "name": "ic",
@@ -318,19 +330,7 @@
         "h": 32
       },
       "figmaFill": "#00d17d@0.15",
-      "mismatch": 4
-    },
-    {
-      "name": "Account Balance Card · 账户余额卡片",
-      "type": "INSTANCE",
-      "box": {
-        "x": 20,
-        "y": 512,
-        "w": 350,
-        "h": 87
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 3.8
+      "mismatch": 3.7
     },
     {
       "name": "ic",
@@ -338,18 +338,6 @@
       "box": {
         "x": 32,
         "y": 1631.5,
-        "w": 32,
-        "h": 32
-      },
-      "figmaFill": "#00d17d@0.15",
-      "mismatch": 3.8
-    },
-    {
-      "name": "ic",
-      "type": "FRAME",
-      "box": {
-        "x": 32,
-        "y": 1366.5,
         "w": 32,
         "h": 32
       },
@@ -366,28 +354,40 @@
         "h": 32
       },
       "figmaFill": "#00d17d@0.15",
+      "mismatch": 3.7
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 1366.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
       "mismatch": 3.6
     },
     {
-      "name": "seg-中",
-      "type": "FRAME",
+      "name": "🌐 语言切换 Language Toggle",
+      "type": "INSTANCE",
       "box": {
-        "x": 306,
-        "y": 71,
-        "w": 30,
-        "h": 24
+        "x": 302,
+        "y": 67,
+        "w": 68,
+        "h": 32
       },
-      "figmaFill": "#eabb62",
+      "figmaFill": "#f3f1e8",
       "mismatch": 3.4
     },
     {
-      "name": "Frame 2147225261",
-      "type": "FRAME",
+      "name": "Account Balance Card · 账户余额卡片",
+      "type": "INSTANCE",
       "box": {
         "x": 20,
-        "y": 1312,
+        "y": 512,
         "w": 350,
-        "h": 632
+        "h": 87
       },
       "figmaFill": "#ffffff",
       "mismatch": 3.4
@@ -402,7 +402,7 @@
         "h": 32
       },
       "figmaFill": "#00d17d@0.15",
-      "mismatch": 3.4
+      "mismatch": 3.2
     },
     {
       "name": "Account Balance Card · 账户余额卡片",
@@ -414,19 +414,7 @@
         "h": 87
       },
       "figmaFill": "#ffffff",
-      "mismatch": 3.3
-    },
-    {
-      "name": "Account Balance Card · 账户余额卡片",
-      "type": "INSTANCE",
-      "box": {
-        "x": 20,
-        "y": 605,
-        "w": 350,
-        "h": 87
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 3.2
+      "mismatch": 3.1
     },
     {
       "name": "ic",
@@ -441,16 +429,40 @@
       "mismatch": 3.1
     },
     {
-      "name": "🌐 语言切换 Language Toggle",
+      "name": "Account Balance Card · 账户余额卡片",
       "type": "INSTANCE",
       "box": {
-        "x": 302,
-        "y": 67,
-        "w": 68,
-        "h": 32
+        "x": 20,
+        "y": 605,
+        "w": 350,
+        "h": 87
       },
-      "figmaFill": "#f3f1e8",
-      "mismatch": 2.3
+      "figmaFill": "#ffffff",
+      "mismatch": 2.9
+    },
+    {
+      "name": "Frame 2147225261",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 1312,
+        "w": 350,
+        "h": 632
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.9
+    },
+    {
+      "name": "seg-EN",
+      "type": "FRAME",
+      "box": {
+        "x": 336,
+        "y": 71,
+        "w": 30,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 1.9
     },
     {
       "name": "Exchange Rate · 汇率",
@@ -462,7 +474,7 @@
         "h": 512
       },
       "figmaFill": "#ffffff",
-      "mismatch": 1.7
+      "mismatch": 1.9
     },
     {
       "name": "Transaction Row · 交易行",
@@ -489,15 +501,15 @@
       "mismatch": 1.2
     },
     {
-      "name": "seg-EN",
-      "type": "FRAME",
+      "name": "Transaction Row · 交易行",
+      "type": "INSTANCE",
       "box": {
-        "x": 336,
-        "y": 71,
-        "w": 30,
-        "h": 24
+        "x": 32,
+        "y": 1206,
+        "w": 326,
+        "h": 40
       },
-      "figmaFill": null,
+      "figmaFill": "#ffffff",
       "mismatch": 0.8
     },
     {
@@ -511,18 +523,6 @@
       },
       "figmaFill": "#f6f6f4",
       "mismatch": 0.5
-    },
-    {
-      "name": "Transaction Row · 交易行",
-      "type": "INSTANCE",
-      "box": {
-        "x": 32,
-        "y": 1206,
-        "w": 326,
-        "h": 40
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 0.2
     },
     {
       "name": "circle",

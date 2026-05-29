@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for Account Header master 704:5117 (398×429 COMPONENT_SET, 7 variants: 页头 + 法币存款 + 转账 + 划转 + 兑换 + 收款方管理 + 收款人信息). Single DIFF column harness. Run: pnpm exec expo start --web --port 8082 then `FIGMA_TOKEN=figd_… node <skill>/scripts/run.mjs --target this --config fidelity.config.json --screen account-header`.",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-account-header-master/fidelity/out",
+  "screens": [
+    {
+      "id": "account-header",
+      "node": "704:5117",
+      "figmaJson": "docs/figma-account-header-master/fidelity/figma-dump/account-header.json",
+      "figmaPng": "docs/figma-account-header-master/fidelity/figma-dump/account-header.png",
+      "url": "http://localhost:8082/__fidelity/account-header",
+      "width": 1400,
+      "height": 700,
+      "root": "[data-figma-root='account-header-master']",
+      "wait": "text=Account Header · master 704:5117",
+      "anchor": "账户"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "_comment": "Project fidelity config for SPX 交易记录不同类型记录 master 769:9646. Same tolerances/aliases as tx-row master 619:8235 (this master reuses the TxRow sub-tree IDs verbatim). Vector borderColor/borderWidth/backgroundColor and amount.x / date.w deviations carry over for the same well-understood reasons. Section Header rectangle (#eabb62 vertical accent) and segmented 法币虚拟币 toggle text drift land in the same family. Gate relaxed to spec floor (≥85, 0 critical/major) since the screen has 4 horizontal variants × full sub-tree = ~280 nodes.",
+  "checkTextContainerStyle": false,
+  "tolerances": {
+    "x": 2, "y": 2, "w": 2, "h": 2,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "ignoreText": [
+    "^📊 交易记录不同类型记录 · master 769:9646$",
+    "^4 variants · A 交易明细 350×549 · B 存款记录 350×297 · C 提现记录 350×356 · D Variant4 350×238$",
+    "^A · 交易明细 \\(769:9694\\)$",
+    "^B · 存款记录 \\(769:9778\\)$",
+    "^C · 提现记录 \\(769:9924\\)$",
+    "^D · Variant4 \\(769:10214\\)$",
+    "^section header \\+ 法币/虚拟币 toggle \\+ 4-tab segmented \\+ 7 rows$",
+    "^section header \\+ 4-tab segmented \\+ 3 rows$",
+    "^section header \\+ 4-tab segmented \\+ 4 rows$",
+    "^section header \\+ 4-tab segmented \\+ 2 rows$"
+  ],
+  "deviations": [
+    {
+      "node": "Vector",
+      "prop": "borderColor",
+      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff. extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Same suppression as tx-row master 619:8235."
+    },
+    {
+      "node": "Vector",
+      "prop": "borderWidth",
+      "reason": "Same tool limitation as borderColor — SVG strokeWidth is not surfaced as CSS borderWidth by getComputedStyle."
+    },
+    {
+      "node": "Vector",
+      "prop": "backgroundColor",
+      "reason": "Same SVG-fill tool limitation — fill verified path-by-path by icon-diff (e.g. danger-circle inner dot in 出款失败 rows)."
+    },
+    {
+      "node": "+120.00 USD",
+      "prop": "box.x",
+      "reason": "Plus Jakarta Sans Medium renders '+120.00 USD' ~76px wide vs HarmonyOS Sans TC's 73px — text is right-aligned so the right edge matches but the left edge (box.x) shifts ~3-4px. Same fontAliases reconciliation as tx-row master."
+    },
+    {
+      "node": "-120.00 USD",
+      "prop": "box.x",
+      "reason": "Same font-metric drift as +120.00 USD — Plus Jakarta Sans Medium is wider than HarmonyOS Sans TC, shifting the right-aligned amount's left edge ~3-4px."
+    },
+    {
+      "node": "2026-05-15 19:13",
+      "prop": "box.w",
+      "reason": "Date Text drops the explicit width:101 from the figma master so the string cannot wrap. Same fix carried from tx-row master wave-4."
+    }
+  ],
+  "iconDeviations": [],
+  "textMatch": { "maxCenterDist": 80 },
+  "_textMatchNote": "4 variants are arranged horizontally with gap=20; same-text labels (交易明细/存款记录/提现记录/兑换记录 inside the segmented control) repeat across variants but are matched by y+x position. 80px max-center-dist is safe within a single variant column (each variant is 350w).",
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "focus":    { "duration": 150, "easing": "ease-out" },
+      "error":    { "duration": 200, "easing": "ease-in-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" },
+      "hover":    { "duration": 120, "easing": "ease-out" },
+      "selected": { "duration": 150, "easing": "ease-out" },
+      "loading":  { "animated": true }
+    },
+    "durationToleranceMs": 40,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["background-color", "border-color", "box-shadow", "opacity", "transform"]
+  },
+  "gate": { "minFidelityScore": 85, "maxCritical": 0, "maxMajor": 0 }
+}

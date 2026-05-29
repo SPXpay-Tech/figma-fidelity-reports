@@ -1,0 +1,89 @@
+{
+  "frame": {
+    "id": "954:9467",
+    "name": "📱 Account. 收款方企业",
+    "width": 390,
+    "height": 1131
+  },
+  "checked": 5,
+  "fails": 0,
+  "warns": 0,
+  "waived": 5,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "I954:9470;917:12368;159:2",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Generic icon wrapper FRAMEs (back-arrow + account-type chip icons) — wrapper geometry validated; inner vector-path identity waived under Feather precedent. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I954:9474;953:8008",
+      "box": {
+        "x": 37.68,
+        "y": 169.68,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Generic icon wrapper FRAMEs (back-arrow + account-type chip icons) — wrapper geometry validated; inner vector-path identity waived under Feather precedent. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I954:9475;953:8016",
+      "box": {
+        "x": 222.68,
+        "y": 169.68,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "figmaPaths": 7,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Generic icon wrapper FRAMEs (back-arrow + account-type chip icons) — wrapper geometry validated; inner vector-path identity waived under Feather precedent. (was: Figma icon has 7 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "figmaId": "I954:9483;954:8583",
+      "box": {
+        "x": 342,
+        "y": 493,
+        "w": 16,
+        "h": 16
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Country selector trailing chevron uses Feather chevron-down (app-wide @expo/vector-icons); vector-path waived consistent with account-states screens. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I954:9492;548:6635",
+      "box": {
+        "x": 329.25,
+        "y": 1066,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Bottom-nav 我的 tab — Feather user glyph, vector-path waived. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}

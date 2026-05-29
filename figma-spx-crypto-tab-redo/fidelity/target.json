@@ -1,0 +1,33 @@
+{
+  "_note": "REDO split of figma 782:12073 (SGB+虚拟币 Account screen) into two isolated sub-harnesses — header (account header→实时汇率) + content (交易记录 list). The W2-7 single-frame run (docs/figma-spx-crypto-tab, baseline 82%/30blk) is kept untouched. Splitting removes the full-page y-cascade the oversized bottom-nav injected. Each screen diffs an isolated /__fidelity fixture against a synthetic figma.json (782:12073 nodes re-origined per region, status-bar band dropped for header). Boot: pnpm exec expo start --web --port 8082, then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target docs/figma-spx-crypto-tab-redo/fidelity/target.json --config docs/figma-spx-crypto-tab-redo/fidelity/fidelity.config.json",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-spx-crypto-tab-redo/fidelity/out",
+  "screens": [
+    {
+      "id": "spx-crypto-tab-header",
+      "node": "782:12073",
+      "figmaJson": "docs/figma-spx-crypto-tab-redo/fidelity/header.figma.json",
+      "figmaPng": "docs/figma-spx-crypto-tab-redo/fidelity/header.figma.png",
+      "url": "http://localhost:8082/__fidelity/spx-crypto-tab-header",
+      "width": 390,
+      "height": 510,
+      "root": "[data-figma-root='782:12073-header']",
+      "wait": "text=账户",
+      "anchor": "账户",
+      "topInset": 0
+    },
+    {
+      "id": "spx-crypto-tab-content",
+      "node": "782:12087",
+      "figmaJson": "docs/figma-spx-crypto-tab-redo/fidelity/content.figma.json",
+      "figmaPng": "docs/figma-spx-crypto-tab-redo/fidelity/content.figma.png",
+      "url": "http://localhost:8082/__fidelity/spx-crypto-tab-content",
+      "width": 390,
+      "height": 443,
+      "root": "[data-figma-root='782:12087']",
+      "wait": "text=交易记录",
+      "anchor": "法币",
+      "topInset": 0
+    }
+  ]
+}

@@ -17,7 +17,7 @@
       "x": 0,
       "y": 0
     },
-    "generated": "2026-05-28T14:03:20.346Z"
+    "generated": "2026-05-28T20:15:56.968Z"
   },
   "summary": {
     "checks": 201,
@@ -29,33 +29,17 @@
       "minor": 0,
       "pass": true
     },
-    "approved": 26
+    "approved": 18
   },
   "failsByNode": {},
   "approvedDeviations": [
     {
       "figmaId": "I619:8209;586:7184",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8209;586:7184",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
       "reason": "Same SVG-stroke-vs-CSS-border impedance as Vector borderColor — figma reports stroke-width 1.5 as borderWidth, impl <path> CSS borderWidth is 0. icon-diff confirms the stroke is rendered correctly. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8210;586:7188",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
     },
     {
       "figmaId": "I619:8210;586:7188",
@@ -68,26 +52,10 @@
     {
       "figmaId": "I619:8211;586:7207",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8211;586:7207",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
       "reason": "Same SVG-stroke-vs-CSS-border impedance as Vector borderColor — figma reports stroke-width 1.5 as borderWidth, impl <path> CSS borderWidth is 0. icon-diff confirms the stroke is rendered correctly. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8211;586:7208",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
     },
     {
       "figmaId": "I619:8211;586:7208",
@@ -118,7 +86,7 @@
       "node": "Vector",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
+      "impl": "#000000@0.00",
       "reason": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
     },
     {
@@ -150,7 +118,7 @@
       "node": "Vector",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
+      "impl": "#000000@0.00",
       "reason": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
     },
     {
@@ -172,26 +140,10 @@
     {
       "figmaId": "I619:8213;586:7215",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8213;586:7215",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
       "reason": "Same SVG-stroke-vs-CSS-border impedance as Vector borderColor — figma reports stroke-width 1.5 as borderWidth, impl <path> CSS borderWidth is 0. icon-diff confirms the stroke is rendered correctly. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8213;586:7216",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
     },
     {
       "figmaId": "I619:8213;586:7216",
@@ -204,26 +156,10 @@
     {
       "figmaId": "I619:8213;586:7217",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8213;586:7217",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
       "reason": "Same SVG-stroke-vs-CSS-border impedance as Vector borderColor — figma reports stroke-width 1.5 as borderWidth, impl <path> CSS borderWidth is 0. icon-diff confirms the stroke is rendered correctly. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8213;586:7218",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
     },
     {
       "figmaId": "I619:8213;586:7218",
@@ -579,12 +515,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8209;586:7184",
@@ -653,7 +587,7 @@
       "text": "存款",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -941,12 +875,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8210;586:7188",
@@ -1015,7 +947,7 @@
       "text": "转账",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -1303,12 +1235,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8211;586:7207",
@@ -1373,12 +1303,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8211;586:7208",
@@ -1447,7 +1375,7 @@
       "text": "划转",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -1739,8 +1667,8 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#000000@0.00",
+      "delta": 93.68,
       "pass": true,
       "severity": "approved",
       "hint": "set border-color to #eabb62",
@@ -1813,8 +1741,8 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#000000@0.00",
+      "delta": 93.68,
       "pass": true,
       "severity": "approved",
       "hint": "set border-color to #eabb62",
@@ -1887,7 +1815,7 @@
       "text": "换汇",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -2188,12 +2116,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8213;586:7215",
@@ -2269,12 +2195,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8213;586:7216",
@@ -2339,12 +2263,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8213;586:7217",
@@ -2409,12 +2331,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Figma VECTOR child = an SVG <path> with stroke #EABB62 1.5px. Impl renders react-native-svg <Path stroke=...> which carries the same paint, but extract-impl reads CSS getComputedStyle — SVG `stroke` is a paint attribute, NOT a CSS border, so it reads as the default #e5e7eb. icon-diff already verifies the path-set is identical (figma SVG ↔ impl Path d-attribute), so this borderColor diff is the same impedance gap documented in figma-button-master 451:4629 / loading vector — applies to ALL 10 Vector children of the 5 icon frames here. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8213;586:7218",
@@ -2496,7 +2416,7 @@
       "text": "收款管理",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },

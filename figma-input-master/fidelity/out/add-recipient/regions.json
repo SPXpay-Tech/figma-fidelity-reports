@@ -166,7 +166,7 @@
         "h": 38
       },
       "figmaFill": "#ffffff",
-      "mismatch": 5.6
+      "mismatch": 6.6
     },
     {
       "name": "input",
@@ -178,7 +178,7 @@
         "h": 52
       },
       "figmaFill": "#ffffff",
-      "mismatch": 5.5
+      "mismatch": 5.6
     },
     {
       "name": "Outline / Essentional, UI / Danger Triangle",
@@ -193,18 +193,6 @@
       "mismatch": 4.6
     },
     {
-      "name": "row-中国香港",
-      "type": "FRAME",
-      "box": {
-        "x": 52,
-        "y": 666,
-        "w": 326,
-        "h": 32
-      },
-      "figmaFill": null,
-      "mismatch": 3.4
-    },
-    {
       "name": "State=新增收款账户",
       "type": "COMPONENT",
       "box": {
@@ -214,19 +202,19 @@
         "h": 38
       },
       "figmaFill": "#ffffff",
-      "mismatch": 3.3
+      "mismatch": 4.2
     },
     {
-      "name": "row-中国大陆",
+      "name": "row-中国香港",
       "type": "FRAME",
       "box": {
         "x": 52,
-        "y": 628,
+        "y": 666,
         "w": 326,
         "h": 32
       },
       "figmaFill": null,
-      "mismatch": 3
+      "mismatch": 3.6
     },
     {
       "name": "row-越南",
@@ -238,7 +226,19 @@
         "h": 32
       },
       "figmaFill": null,
-      "mismatch": 3
+      "mismatch": 3.4
+    },
+    {
+      "name": "row-中国大陆",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 628,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 3.3
     },
     {
       "name": "row-菲律宾",
@@ -250,19 +250,7 @@
         "h": 32
       },
       "figmaFill": null,
-      "mismatch": 2.7
-    },
-    {
-      "name": "row-泰国",
-      "type": "FRAME",
-      "box": {
-        "x": 52,
-        "y": 742,
-        "w": 326,
-        "h": 32
-      },
-      "figmaFill": null,
-      "mismatch": 2.3
+      "mismatch": 3.2
     },
     {
       "name": "input",
@@ -274,7 +262,7 @@
         "h": 38
       },
       "figmaFill": "#ffffff",
-      "mismatch": 2.1
+      "mismatch": 2.8
     },
     {
       "name": "input",
@@ -286,19 +274,7 @@
         "h": 38
       },
       "figmaFill": "#ffffff",
-      "mismatch": 2.1
-    },
-    {
-      "name": "转账信息·支付目的/State11",
-      "type": "FRAME",
-      "box": {
-        "x": 40,
-        "y": 492,
-        "w": 350,
-        "h": 370
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 1.9
+      "mismatch": 2.6
     },
     {
       "name": "row-印度尼西亚",
@@ -310,7 +286,19 @@
         "h": 32
       },
       "figmaFill": null,
-      "mismatch": 1.9
+      "mismatch": 2.6
+    },
+    {
+      "name": "row-泰国",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 742,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 2.6
     },
     {
       "name": "row-马来西亚",
@@ -322,7 +310,19 @@
         "h": 32
       },
       "figmaFill": null,
-      "mismatch": 1.8
+      "mismatch": 2.4
+    },
+    {
+      "name": "转账信息·支付目的/State11",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 492,
+        "w": 350,
+        "h": 370
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.1
     },
     {
       "name": "State=删除弹窗",
@@ -334,6 +334,30 @@
         "h": 206
       },
       "figmaFill": "#ffffff",
+      "mismatch": 1.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 366,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.4
+    },
+    {
+      "name": "row-新加坡",
+      "type": "FRAME",
+      "box": {
+        "x": 52,
+        "y": 552,
+        "w": 326,
+        "h": 32
+      },
+      "figmaFill": "#eabb62@0.10",
       "mismatch": 1.4
     },
     {
@@ -349,18 +373,6 @@
       "mismatch": 1.4
     },
     {
-      "name": "row-新加坡",
-      "type": "FRAME",
-      "box": {
-        "x": 52,
-        "y": 552,
-        "w": 326,
-        "h": 32
-      },
-      "figmaFill": "#eabb62@0.10",
-      "mismatch": 1.2
-    },
-    {
       "name": "search-box",
       "type": "FRAME",
       "box": {
@@ -370,55 +382,7 @@
         "h": 42
       },
       "figmaFill": "#f6f6f4",
-      "mismatch": 0.6
-    },
-    {
-      "name": "input",
-      "type": "FRAME",
-      "box": {
-        "x": 40,
-        "y": 366,
-        "w": 350,
-        "h": 38
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 0.4
-    },
-    {
-      "name": "input",
-      "type": "FRAME",
-      "box": {
-        "x": 40,
-        "y": 988,
-        "w": 350,
-        "h": 38
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 0.4
-    },
-    {
-      "name": "btn-secondary",
-      "type": "FRAME",
-      "box": {
-        "x": 64,
-        "y": 1288,
-        "w": 120,
-        "h": 40
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 0.4
-    },
-    {
-      "name": "input",
-      "type": "FRAME",
-      "box": {
-        "x": 40,
-        "y": 202,
-        "w": 350,
-        "h": 38
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 0.3
+      "mismatch": 1.2
     },
     {
       "name": "input",
@@ -430,7 +394,43 @@
         "h": 38
       },
       "figmaFill": "#ffffff",
-      "mismatch": 0.3
+      "mismatch": 1.2
+    },
+    {
+      "name": "btn-secondary",
+      "type": "FRAME",
+      "box": {
+        "x": 64,
+        "y": 1288,
+        "w": 120,
+        "h": 40
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.2
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 988,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.1
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 40,
+        "y": 202,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 0.9
     },
     {
       "name": "btn-primary",
@@ -442,7 +442,7 @@
         "h": 40
       },
       "figmaFill": "#eabb62",
-      "mismatch": 0.1
+      "mismatch": 0.9
     }
   ]
 }

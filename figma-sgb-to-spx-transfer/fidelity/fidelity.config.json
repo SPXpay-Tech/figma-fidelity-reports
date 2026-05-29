@@ -1,0 +1,60 @@
+{
+  "_comment": "Fidelity config for SGB→SPX 划转 screen (917:7331). Tolerances + font aliases mirror the SGB-account config. RN-web ships SpxBrand-* PostScript names for fontFamilyForWeight() — alias them to HarmonyOS Sans TC so the diff treats brand-face glyphs as canonical CJK weights, not novel families.",
+  "checkTextContainerStyle": false,
+  "tolerances": {
+    "x": 3,
+    "y": 3,
+    "w": 1,
+    "h": 1,
+    "fontSize": 0.5,
+    "lineHeight": 1,
+    "letterSpacing": 0.2,
+    "borderRadius": 1,
+    "borderWidth": 0.5,
+    "padding": 1,
+    "gap": 1,
+    "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": [
+      "HarmonyOS Sans SC",
+      "HarmonyOS Sans",
+      "PlusJakartaSans",
+      "Plus Jakarta Sans",
+      "SpxBrand-Regular",
+      "SpxBrand-Medium",
+      "SpxBrand-SemiBold",
+      "SpxBrand-Bold",
+      "SpxBrand-Black"
+    ],
+    "harmonyos sans": [
+      "HarmonyOS Sans SC",
+      "PlusJakartaSans",
+      "SpxBrand-Regular",
+      "SpxBrand-Medium",
+      "SpxBrand-Bold"
+    ],
+    "plus jakarta sans": [
+      "PlusJakartaSans",
+      "HarmonyOS Sans SC",
+      "SpxBrand-Regular",
+      "SpxBrand-Medium",
+      "SpxBrand-Bold"
+    ]
+  },
+  "ignoreText": [
+    "^9:41$",
+    "^9 4 X K$",
+    "^首页$",
+    "^消费$",
+    "^我的$"
+  ],
+  "deviations": [
+    {
+      "text": "10,000.00 USD",
+      "prop": "fontWeight",
+      "reason": "Figma seeds the 实收金额 hero value at fontWeight 900 (HarmonyOS Sans TC Black). The app ships only Plus Jakarta Sans Bold (700) bundled as the brand face — RN-Web clamps Black to 700. Visual difference imperceptible at 16px. Same waiver pattern as docs/figma-sgb-account/fidelity for 美元账户/港币账户 weights. Approved 2026-05-28."
+    }
+  ]
+}

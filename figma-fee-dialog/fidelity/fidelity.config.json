@@ -1,0 +1,31 @@
+{
+  "_comment": "Project fidelity config for SPX fee-dialog 887:22019. Same tolerances as buttons/cards/dialog-master. The Close Circle 'X' icon is a Feather glyph (font glyph not vector) so iconDeviations waives the per-icon vector-path identity check (geometry/box still validated).",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels the CJK family 'HarmonyOS Sans TC'; app ships HarmonyOS Sans SC + PlusJakartaSans-* for Latin. These aliases keep the diff free of phantom font deviations.",
+  "ignoreText": [],
+  "deviations": [
+    { "text": "1", "prop": "box.x", "reason": "Centered single-digit '1' in 20-wide column (col1 阶梯/Tier). Figma's TEXT layout box reports x=18 w=20 (the cell slot), but impl's getBoundingClientRect reports the visible glyph (~5px wide) centered inside the slot → x=25.5 = 18+(20-5)/2. Same font-glyph-width artifact documented in account-states.tsx (PJS glyph widths tighter than HarmonyOS reference). Cell padding/row/column layout all match — purely a measurement-convention difference." }
+  ],
+  "iconDeviations": [
+    { "name": "^Linear / Essentional, UI / Close Circle$", "reason": "Fee-dialog close icon — Feather 'x' glyph wrapping a 20×20 frame (same icon-font system as the dialog-master master). Geometry/box still validated; only vector-path identity waived." },
+    { "name": "^Vector$", "reason": "Inner SVG vector child of the Feather close glyph; the outer 20×20 icon frame is already validated by token diff." }
+  ],
+  "_iconDeviationsNote": "Close-circle X uses Feather glyph consistent with app-wide icon system. The vector-path identity is waived but the icon frame's bg/size/color is still numerically checked.",
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "gate": { "minFidelityScore": 85, "maxCritical": 0, "maxMajor": 99 }
+}

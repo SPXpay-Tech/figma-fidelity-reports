@@ -1,0 +1,89 @@
+{
+  "_comment": "Project fidelity config for the Account Header master (704:5117). Mirrors the AppHeader brand config tolerances (CJK-glyph sub-pixel jitter) and waives the nav-back chevron Vector node as an icon-deviation (icon-font glyph vs path-set master, same waiver pattern as cards/auth/buttons).",
+  "checkTextContainerStyle": false,
+  "tolerances": {
+    "x": 2,
+    "y": 2,
+    "w": 2,
+    "h": 2,
+    "fontSize": 0.5,
+    "lineHeight": 1,
+    "letterSpacing": 0.2,
+    "borderRadius": 1,
+    "borderWidth": 0.5,
+    "padding": 2,
+    "gap": 1,
+    "colorDeltaE": 2
+  },
+  "_toleranceNote": "x/y/w/h 2: CJK glyph ink box (账户/法币存款/转账/划转/兑换/收款方管理/收款人信息) renders 1-1.5 px taller in the OS fallback font vs figma's HarmonyOS Sans TC, shifting absolute positions. Sub-pixel jitter acknowledged in skill SKILL.md.",
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels CJK as 'HarmonyOS Sans TC'; impl ships PlusJakartaSans + system CJK fallback. Same family alias contract used across cards/auth/buttons.",
+  "ignoreText": [
+    "^Account Header · master 704:5117$",
+    "^diff column · all 7 variants tagged$",
+    "^visual reference \\(untagged\\)$",
+    "^\\(same 7 variants — untagged copy for eyeball review\\)$"
+  ],
+  "deviations": [
+    {"figmaId": "I784:12446;159:3", "prop": "*", "reason": "Chevron-left vector path (under 法币存款 nav-back icon). Path-set vs Feather icon-font waiver — same as iconDeviations Vector regex."},
+    {"figmaId": "I867:17136;159:3", "prop": "*", "reason": "Chevron-left vector path (under 转账 nav-back icon). Path-set vs Feather icon-font waiver."},
+    {"figmaId": "I917:7287;159:3",  "prop": "*", "reason": "Chevron-left vector path (under 划转 nav-back icon). Path-set vs Feather icon-font waiver."},
+    {"figmaId": "I917:9567;159:3",  "prop": "*", "reason": "Chevron-left vector path (under 兑换 nav-back icon). Path-set vs Feather icon-font waiver."},
+    {"figmaId": "I917:12368;159:3", "prop": "*", "reason": "Chevron-left vector path (under 收款方管理 nav-back icon). Path-set vs Feather icon-font waiver."},
+    {"figmaId": "I953:7833;159:3",  "prop": "*", "reason": "Chevron-left vector path (under 收款人信息 nav-back icon). Path-set vs Feather icon-font waiver."},
+    {"figmaId": "953:7850", "prop": "*", "reason": "Trash-bin vector sub-path 1 of 5 (lid handle). Path-set vs Feather trash-2 icon-font waiver."},
+    {"figmaId": "953:7851", "prop": "*", "reason": "Trash-bin vector sub-path 2 of 5 (top edge). Path-set vs Feather trash-2 icon-font waiver."},
+    {"figmaId": "953:7852", "prop": "*", "reason": "Trash-bin vector sub-path 3 of 5 (bin body)."},
+    {"figmaId": "953:7853", "prop": "*", "reason": "Trash-bin vector sub-path 4 of 5 (left stripe)."},
+    {"figmaId": "953:7854", "prop": "*", "reason": "Trash-bin vector sub-path 5 of 5 (right stripe)."}
+  ],
+  "iconDeviations": [
+    {
+      "name": "^icon$",
+      "reason": "Nav-back 'icon' frame (159:2 instance) holds a single 13.33×10 chevron path in figma; impl ships a Feather 'chevron-left' icon-font glyph instead of a path-set. Same path-set vs icon-font waiver pattern used in app-header/cards/auth masters. Parent NavBack 42×42 frame geometry is the real proof of position. Approved 2026-05-28."
+    },
+    {
+      "name": "Linear .* Trash|Trash$",
+      "reason": "Variant 7 收款人信息 (953:7849) trash icon — figma renders 5 vector paths under 'Linear / Essentional, UI / Trash'; impl ships Feather 'trash-2' icon-font glyph. Path-set vs icon-font waiver. Parent 20×20 trash frame (953:7848) geometry is the real proof of position. Approved 2026-05-28."
+    },
+    {
+      "name": "^Vector$",
+      "reason": "Stroked vector sub-paths under icon frames — same icon-font waiver as the parent icon. Approved 2026-05-28."
+    }
+  ],
+  "textMatch": {
+    "maxCenterDist": 60
+  },
+  "_textMatchNote": "Master is 398-wide with variants stacked 24→363. Distinct CJK labels per variant (账户/法币存款/转账/划转/兑换/收款方管理/收款人信息); 60px center distance safe.",
+  "severity": {
+    "geometry": "major",
+    "typography": "major",
+    "color": "major",
+    "missing": "critical",
+    "extra": "minor"
+  },
+  "ux": {
+    "motion": {
+      "default":  { "duration": 150, "easing": "ease-out" },
+      "focus":    { "duration": 150, "easing": "ease-out" },
+      "error":    { "duration": 200, "easing": "ease-in-out" },
+      "press":    { "duration": 90,  "easing": "ease-out" },
+      "hover":    { "duration": 120, "easing": "ease-out" },
+      "selected": { "duration": 150, "easing": "ease-out" },
+      "loading":  { "animated": true }
+    },
+    "durationToleranceMs": 40,
+    "colorDeltaE": 2,
+    "requireTransitionOn": ["background-color", "border-color", "box-shadow", "opacity", "transform"]
+  },
+  "gate": {
+    "minFidelityScore": 85,
+    "maxCritical": 0,
+    "maxMajor": 0
+  }
+}

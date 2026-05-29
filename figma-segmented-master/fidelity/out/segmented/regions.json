@@ -16,109 +16,37 @@
       "name": "seg",
       "type": "FRAME",
       "box": {
-        "x": 24,
-        "y": 160,
-        "w": 111.33,
-        "h": 26
-      },
-      "figmaFill": "#eabb62",
-      "mismatch": 2.5
-    },
-    {
-      "name": "seg",
-      "type": "FRAME",
-      "box": {
         "x": 139.33,
         "y": 214,
         "w": 111.33,
         "h": 26
       },
       "figmaFill": "#eabb62",
-      "mismatch": 2.3
-    },
-    {
-      "name": "seg",
-      "type": "FRAME",
-      "box": {
-        "x": 197,
-        "y": 92,
-        "w": 169,
-        "h": 40
-      },
-      "figmaFill": "#eabb62",
-      "mismatch": 1.4
+      "mismatch": 5.2
     },
     {
       "name": "seg",
       "type": "FRAME",
       "box": {
         "x": 24,
-        "y": 214,
-        "w": 111.33,
-        "h": 26
-      },
-      "figmaFill": null,
-      "mismatch": 1.4
-    },
-    {
-      "name": "seg",
-      "type": "FRAME",
-      "box": {
-        "x": 24,
-        "y": 268,
-        "w": 111.33,
-        "h": 26
-      },
-      "figmaFill": null,
-      "mismatch": 1.4
-    },
-    {
-      "name": "seg",
-      "type": "FRAME",
-      "box": {
-        "x": 139.33,
         "y": 160,
         "w": 111.33,
         "h": 26
       },
-      "figmaFill": null,
-      "mismatch": 1.3
+      "figmaFill": "#eabb62",
+      "mismatch": 4.4
     },
     {
       "name": "seg",
       "type": "FRAME",
       "box": {
-        "x": 139.33,
+        "x": 254.67,
         "y": 268,
         "w": 111.33,
         "h": 26
       },
-      "figmaFill": null,
-      "mismatch": 1.3
-    },
-    {
-      "name": "Property 1=实体卡",
-      "type": "COMPONENT",
-      "box": {
-        "x": 20,
-        "y": 88,
-        "w": 350,
-        "h": 48
-      },
-      "figmaFill": "#f3f1e8",
-      "mismatch": 1.1
-    },
-    {
-      "name": "Property 1=卡交易明细",
-      "type": "COMPONENT",
-      "box": {
-        "x": 20,
-        "y": 156,
-        "w": 350,
-        "h": 34
-      },
-      "figmaFill": null,
-      "mismatch": 1
+      "figmaFill": "#eabb62",
+      "mismatch": 3.4
     },
     {
       "name": "Property 1=卡消费明细",
@@ -130,19 +58,7 @@
         "h": 34
       },
       "figmaFill": null,
-      "mismatch": 1
-    },
-    {
-      "name": "seg",
-      "type": "FRAME",
-      "box": {
-        "x": 254.67,
-        "y": 268,
-        "w": 111.33,
-        "h": 26
-      },
-      "figmaFill": "#eabb62",
-      "mismatch": 1
+      "mismatch": 2.9
     },
     {
       "name": "Property 1=卡片记录",
@@ -154,7 +70,43 @@
         "h": 34
       },
       "figmaFill": null,
-      "mismatch": 0.9
+      "mismatch": 2.8
+    },
+    {
+      "name": "Property 1=卡交易明细",
+      "type": "COMPONENT",
+      "box": {
+        "x": 20,
+        "y": 156,
+        "w": 350,
+        "h": 34
+      },
+      "figmaFill": null,
+      "mismatch": 2.7
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 139.33,
+        "y": 160,
+        "w": 111.33,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 1.9
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 139.33,
+        "y": 268,
+        "w": 111.33,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 1.9
     },
     {
       "name": "seg",
@@ -166,7 +118,7 @@
         "h": 26
       },
       "figmaFill": null,
-      "mismatch": 0.5
+      "mismatch": 1.8
     },
     {
       "name": "seg",
@@ -178,7 +130,31 @@
         "h": 26
       },
       "figmaFill": null,
-      "mismatch": 0.5
+      "mismatch": 1.8
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 214,
+        "w": 111.33,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 1.5
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 268,
+        "w": 111.33,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 1.5
     },
     {
       "name": "seg",
@@ -190,7 +166,31 @@
         "h": 40
       },
       "figmaFill": null,
-      "mismatch": 0.2
+      "mismatch": 0.9
+    },
+    {
+      "name": "Property 1=实体卡",
+      "type": "COMPONENT",
+      "box": {
+        "x": 20,
+        "y": 88,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#f3f1e8",
+      "mismatch": 0.7
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 197,
+        "y": 92,
+        "w": 169,
+        "h": 40
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 0.7
     }
   ]
 }

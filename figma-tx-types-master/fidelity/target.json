@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for SPX 交易记录不同类型记录 master 769:9646 (COMPONENT_SET, 1500x589, 4 variants laid out horizontally with gap=20 padding=20). Each variant = Section Header (instance of 521:5624) + optional 法币虚拟币 toggle (variant A only, instance of 707:5747) + Segmented (variant of 744:7577-style 4-tab) + rows wrapper (Frame 2147225261/2, white card radius 12 padding 12 gap 6). Rows reuse the TxRow master 619:8238..8247 vocabulary (icon-bg + label + date + amount), exposed via figmaIds. Boot expo web (pnpm exec expo start --web --port 8082) then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen tx-types",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-tx-types-master/fidelity/out",
+  "screens": [
+    {
+      "id": "tx-types",
+      "node": "769:9646",
+      "figmaJson": "docs/figma-tx-types-master/fidelity/figma-dump/tx-types.json",
+      "figmaPng": "docs/figma-tx-types-master/fidelity/figma-dump/tx-types.png",
+      "url": "http://localhost:8082/__fidelity/tx-types",
+      "width": 1500,
+      "height": 700,
+      "root": "[data-figma-root='769:9646']",
+      "wait": "text=交易记录不同类型记录 · master 769:9646",
+      "anchor": "交易记录不同类型记录 · master 769:9646"
+    }
+  ]
+}

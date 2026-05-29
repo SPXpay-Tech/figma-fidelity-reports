@@ -1,0 +1,89 @@
+{
+  "frame": {
+    "id": "954:10306",
+    "name": "📱 Account. 收款方信息和删除【企业】",
+    "width": 390,
+    "height": 849
+  },
+  "checked": 5,
+  "fails": 0,
+  "warns": 0,
+  "waived": 4,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "I954:10309;953:7833;159:2",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Generic 'icon' frame inside Account Header back button — covers the inner Feather chevron-left glyph wrapper waived above. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I954:10313;953:7898",
+      "box": {
+        "x": 37.68,
+        "y": 169.68,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "figmaPaths": 0,
+      "implPaths": 0,
+      "status": "skip",
+      "severity": "pass",
+      "note": "no Figma SVG (export failed)"
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I954:10332;548:6592",
+      "box": {
+        "x": 329.25,
+        "y": 784,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Bottom-nav '我的' tab icon uses Feather user; vector-path waived (app-wide icon system). (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I954:10487;954:10119",
+      "box": {
+        "x": 177,
+        "y": 346,
+        "w": 36,
+        "h": 36
+      },
+      "figmaPaths": 3,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Generic 'icon' frame inside Account Header back button — covers the inner Feather chevron-left glyph wrapper waived above. (was: Figma icon has 3 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "Outline / Essentional, UI / Danger Triangle",
+      "figmaId": "I954:10487;954:10120",
+      "box": {
+        "x": 185,
+        "y": 354,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 3,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Delete-confirmation dialog warning icon uses Feather alert-triangle; vector-path waived consistent with app-wide icon system. Same precedent as account-states delete-dialog deviation. (was: Figma icon has 3 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}

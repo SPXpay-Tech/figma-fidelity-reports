@@ -1,0 +1,41 @@
+{
+  "_comment": "Project fidelity config for SPX exchange screen (figma 917:11876). Tolerances mirror account-states / amount-states / input-master. Single [data-figma-root='917:11876'] canvas — full-screen rebuild covering all sections in one diff. Gate: ≥85% / 0 critical / 0 major.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "ignoreText": [],
+  "deviations": [],
+  "iconDeviations": [
+    { "name": "^Linear / Arrows / Round Transfer", "reason": "Swap-currencies icon between sell/buy cells uses Feather 'refresh-cw' (app-wide @expo/vector-icons). Geometry/box validated; vector-path identity waived consistent with account-states / amount-states precedent for Feather glyph substitutes." },
+    { "name": "^Linear / Arrows / Restart", "reason": "汇率列表 search-box restart icon collapsed into Feather 'search' (the figma master ships an unused Restart inside the search-input INSTANCE; the impl renders just the magnifier)." },
+    { "name": "^Linear / Essentional, UI / Danger Circle", "reason": "Inline rate alert (red warning circle next to 1:7.162) uses Feather 'alert-triangle' as the app-wide approximation. Vector-path waived." },
+    { "name": "^Linear / Essentional, UI / Question Circle", "reason": "手续费规则 question-mark icon uses Feather 'info'. Vector-path waived." },
+    { "name": "^Linear / Essentional, UI / Close Circle", "reason": "Toast x-circle icon uses Feather 'x-circle'. Vector-path waived." },
+    { "name": "^Outline / Search / Minimalistic Magnifer", "reason": "Search-box magnifier icon uses Feather 'search'. Vector-path waived." },
+    { "name": "^Linear / Arrows / (Alt )?Arrow Left", "reason": "Nav-back chevron uses Feather 'chevron-left'. Vector-path waived." },
+    { "name": "^Linear / Money / Wallet", "reason": "Bottom-nav 账户 tab icon uses Feather 'credit-card' as the active-state wallet glyph. Vector-path waived per app-wide @expo/vector-icons mapping." },
+    { "name": "^Linear / Money / Card", "reason": "Bottom-nav 消费 tab icon uses Feather 'shopping-bag' as the inactive-state card glyph. Vector-path waived." },
+    { "name": "^Linear / Users / User Circle", "reason": "Bottom-nav 我的 tab icon uses Feather 'user'. Vector-path waived." },
+    { "name": "^arrow-up$", "reason": "Currency dropdown chevron-up (sell cell open state) rendered as inline SVG path approximating the figma 11.67×5 arrow. Vector-path identity waived." },
+    { "name": "^arrow-down$", "reason": "Currency dropdown chevron-down (buy cell collapsed state) rendered as inline SVG path approximating the figma 11.67×5 arrow. Vector-path identity waived." },
+    { "name": "^icon$", "reason": "Generic 'icon' frame wrappers (back-button glyph + toast close-circle glyph). Inner SVG is the already-waived chevron-left / x-circle Feather mapping; outer wrapper vector-path identity waived." },
+    { "name": "黑LOGO", "reason": "Bottom-nav 首页 active tab uses the home brand logo composite (5 vectors + 2 boolean ops). Rendered as Feather 'home' in the fidelity harness; logo vector-path identity waived." },
+    { "name": "^Vector$", "reason": "Inner SVG subpath of one of the above Feather/SVG icons — wrapped by parent which is already validated." },
+    { "name": "^Rectangle$", "reason": "Section-header 2×16 accent bars and the status-bar / home-indicator pills are rendered as inline View shapes (rn-web cannot inject SVG path identity). Geometry/color validated through text-cluster + region-diff." }
+  ],
+  "textMatch": { "maxCenterDist": 32 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "gate": { "minFidelityScore": 85, "maxCritical": 0, "maxMajor": 0 }
+}

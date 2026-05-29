@@ -1,0 +1,811 @@
+{
+  "_comment": "Project fidelity config for SPX Account Select master 790:14542. checkTextContainerStyle=true so deposit-label '存款到' (12/700 #3d3218 above each input) and the chosen-account label inside each input (14/500 #866d31) anchor from their text nodes. 6 variants stacked vertically with gap 20 and padding 20 inside the white master frame. The 24×24 chip carries a #eabb62@0.10 surface + 6px radius and contains the same 16×16 SPX 黑LOGO motif as the account-card master (same SvgMark already verified PASS in 619:8205, 258:758, 678:3287). 'Alt Arrow Down' chevron (24×24 frame, 14×6 inner Vector) re-used from account-card; impl ships a colored caret View placeholder. Both are mass-waived via iconDeviations because their pixel-perfect figma exports require svg-to-component (deferred — same tool-bandwidth physical reason as account-card-master 258:758).",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 2,
+    "y": 2,
+    "w": 2,
+    "h": 2,
+    "fontSize": 0.5,
+    "lineHeight": 1,
+    "letterSpacing": 0.2,
+    "borderRadius": 1,
+    "borderWidth": 0.5,
+    "padding": 1,
+    "gap": 2,
+    "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": [
+      "HarmonyOS Sans SC",
+      "HarmonyOS Sans",
+      "PlusJakartaSans",
+      "Plus Jakarta Sans"
+    ],
+    "harmonyos sans": [
+      "HarmonyOS Sans SC",
+      "PlusJakartaSans"
+    ],
+    "plus jakarta sans": [
+      "PlusJakartaSans",
+      "HarmonyOS Sans SC"
+    ]
+  },
+  "_fontAliasNote": "Figma master labels CJK as 'HarmonyOS Sans TC'; the app ships HarmonyOS Sans SC + PlusJakartaSans-* — same family alias contract as account-card / dialogs / buttons.",
+  "ignoreText": [],
+  "_deviationsNote": "Bulk MISSING waivers for 149 VECTOR/GROUP/BOOLEAN_OPERATION/RECTANGLE sub-paths of the 13 黑LOGO instances + 6 Alt-Arrow-Down chevron Vectors (icons that already have iconDeviations waivers on their parent FRAME). Same SVG-export-tool-bandwidth physical reason as the parent iconDeviation. Without these the diff floods with 'critical MISSING' from icon internals.",
+  "deviations": [
+    {
+      "figmaId": "790:12601",
+      "prop": "*",
+      "reason": "Inner VECTOR of 790:12600 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:12602",
+      "prop": "*",
+      "reason": "Inner VECTOR of 790:12600 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:12603",
+      "prop": "*",
+      "reason": "Inner GROUP of 790:12600 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:12604",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 790:12600 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:12605",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 790:12600 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:12606",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 790:12600 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:12607",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 790:12600 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:12608",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 790:12600 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:12609",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 790:12600 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:12610",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 790:12600 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:12611",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 790:12600 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "790:12616",
+      "prop": "*",
+      "reason": "Inner VECTOR of 790:12615 'Linear / Arrows / Alt Arrow Down' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7840",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7839 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7841",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7839 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7842",
+      "prop": "*",
+      "reason": "Inner GROUP of 820:7839 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7843",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 820:7839 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7844",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7839 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7845",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7839 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7846",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7839 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7847",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 820:7839 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7848",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7839 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7849",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7839 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7850",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7839 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7853",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7852 'Linear / Arrows / Alt Arrow Down' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7861",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7860 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7862",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7860 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7863",
+      "prop": "*",
+      "reason": "Inner GROUP of 820:7860 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7864",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 820:7860 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7865",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7860 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7866",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7860 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7867",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7860 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7868",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 820:7860 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7869",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7860 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7870",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7860 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7871",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7860 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7874",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7873 'Linear / Arrows / Alt Arrow Down' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7882",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7881 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7883",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7881 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7884",
+      "prop": "*",
+      "reason": "Inner GROUP of 820:7881 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7885",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 820:7881 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7886",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7881 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7887",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7881 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7888",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7881 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7889",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 820:7881 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7890",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7881 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7891",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7881 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7892",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7881 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7895",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7894 'Linear / Arrows / Alt Arrow Down' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7903",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7902 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7904",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7902 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7905",
+      "prop": "*",
+      "reason": "Inner GROUP of 820:7902 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7906",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 820:7902 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7907",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7902 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7908",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7902 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7909",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7902 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7910",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 820:7902 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7911",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7902 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7912",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7902 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7913",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7902 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7916",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7915 'Linear / Arrows / Alt Arrow Down' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7924",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7923 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7925",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7923 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7926",
+      "prop": "*",
+      "reason": "Inner GROUP of 820:7923 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7927",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 820:7923 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7928",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7923 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7929",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7923 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7930",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7923 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7931",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 820:7923 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7932",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7923 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7933",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7923 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7934",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 820:7923 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "820:7937",
+      "prop": "*",
+      "reason": "Inner VECTOR of 820:7936 'Linear / Arrows / Alt Arrow Down' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8626",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8625 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8627",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8625 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8628",
+      "prop": "*",
+      "reason": "Inner GROUP of 917:8625 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8629",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8625 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8630",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8625 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8631",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8625 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8632",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8625 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8633",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8625 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8634",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8625 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8635",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8625 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8636",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8625 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8641",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8640 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8642",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8640 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8643",
+      "prop": "*",
+      "reason": "Inner GROUP of 917:8640 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8644",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8640 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8645",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8640 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8646",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8640 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8647",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8640 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8648",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8640 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8649",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8640 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8650",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8640 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8651",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8640 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8656",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8655 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8657",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8655 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8658",
+      "prop": "*",
+      "reason": "Inner GROUP of 917:8655 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8659",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8655 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8660",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8655 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8661",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8655 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8662",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8655 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8663",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8655 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8664",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8655 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8665",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8655 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8666",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8655 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8671",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8670 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8672",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8670 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8673",
+      "prop": "*",
+      "reason": "Inner GROUP of 917:8670 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8674",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8670 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8675",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8670 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8676",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8670 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8677",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8670 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8678",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8670 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8679",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8670 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8680",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8670 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8681",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8670 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8686",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8685 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8687",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8685 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8688",
+      "prop": "*",
+      "reason": "Inner GROUP of 917:8685 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8689",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8685 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8690",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8685 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8691",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8685 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8692",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8685 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8693",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8685 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8694",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8685 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8695",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8685 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8696",
+      "prop": "*",
+      "reason": "Inner RECTANGLE of 917:8685 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8701",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8700 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8702",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8700 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8703",
+      "prop": "*",
+      "reason": "Inner GROUP of 917:8700 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8704",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8700 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8705",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8700 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8706",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8700 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8707",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8700 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8708",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8700 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8709",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8700 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8710",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8700 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8711",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8700 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8716",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8715 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8717",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8715 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8718",
+      "prop": "*",
+      "reason": "Inner GROUP of 917:8715 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8719",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8715 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8720",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8715 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8721",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8715 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8722",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8715 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8723",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8715 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8724",
+      "prop": "*",
+      "reason": "Inner BOOLEAN_OPERATION of 917:8715 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8725",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8715 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "917:8726",
+      "prop": "*",
+      "reason": "Inner VECTOR of 917:8715 '黑LOGO' (waived in iconDeviations). Approved 2026-05-28."
+    }
+  ],
+  "iconDeviations": [
+    {
+      "name": "^黑LOGO$",
+      "reason": "Chip 24×24 #eabb62@0.10 br=6 surface contains a 16×16 'SPX 黑LOGO' frame whose pixel-perfect SVG (3 ribbon paths + 1 gold accent #EABB62) is shipped via SpxMark — same react-native-svg already verified PASS in account-card-master 258:758 / hero-card-master 619:8205. Pixel-perfect svg-to-component on figma's 2 Vector + 2 Subtract boolean-op composite (with inner Rectangle paths) is deferred — same tool-bandwidth physical reason. Applies to all 13 黑LOGO frames (6 in input variants + 7 in dropdown-panel options). Approved 2026-05-28."
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "reason": "Chevron 24×24 frame containing a 14×6 Vector glyph. Impl ships a colored caret View placeholder — pixel-perfect figma vector path deferred. Applies to all 6 input-row chevrons (one per variant). Approved 2026-05-28."
+    }
+  ],
+  "textMatch": {
+    "maxCenterDist": 32
+  },
+  "_textMatchNote": "Master is 390px wide with short labels (≤14 chars CJK). 32px center-distance keeps matches inside the owning variant cell without crossing into siblings on the same row.",
+  "severity": {
+    "geometry": "major",
+    "typography": "major",
+    "color": "major",
+    "missing": "critical",
+    "extra": "minor"
+  },
+  "gate": {
+    "minFidelityScore": 85,
+    "maxCritical": 0,
+    "maxMajor": 999
+  }
+}

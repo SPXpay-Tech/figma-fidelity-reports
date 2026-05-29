@@ -1,0 +1,18 @@
+{
+  "_note": "figma-fidelity for SPX mobile transaction history (交易明细 SPX) phone screen. Ground truth = Figma 968:16532 (📱 account. 交易明细 SPX, 390×1515). Rendered via __fidelity/tx-detail-spx — deterministic composition of status-bar + app header + segmented controls + filter section + 6 tx cards + bottom nav. No auth, no business logic; every figmaId pinned via dataSet.",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-tx-detail-spx/fidelity/out",
+  "screens": [
+    {
+      "id": "tx-detail-spx",
+      "node": "968:16532",
+      "figmaJson": "docs/figma-tx-detail-spx/fidelity/figma-dump/tx-detail-spx.json",
+      "figmaPng": "docs/figma-tx-detail-spx/fidelity/figma-dump/tx-detail-spx.png",
+      "url": "http://localhost:8082/__fidelity/tx-detail-spx",
+      "width": 390,
+      "height": 1515,
+      "root": "[data-figma-root='968:16532']",
+      "wait": "text=导出银行水单"
+    }
+  ]
+}

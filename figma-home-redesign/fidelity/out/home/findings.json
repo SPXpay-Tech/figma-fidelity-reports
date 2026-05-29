@@ -17,10 +17,10 @@
       "x": 2,
       "y": 19
     },
-    "generated": "2026-05-28T13:57:31.033Z"
+    "generated": "2026-05-29T03:39:44.830Z"
   },
   "summary": {
-    "checks": 1893,
+    "checks": 1883,
     "fails": 56,
     "fidelityScore": 97,
     "bySeverity": {
@@ -31,7 +31,7 @@
       "minor": 56,
       "pass": true
     },
-    "approved": 648
+    "approved": 610
   },
   "failsByNode": {
     "App Header · 页头": [
@@ -269,22 +269,6 @@
       "reason": "AppHeader wordmark Vector/Group/Subtract subpath — wordmark ships as a raster PNG (assets/brand/spx-logo-wordmark.png), so the inner SVG glyph nodes have no DOM counterpart. App-wide raster-wordmark policy. [FRAME: Frame 2147225239]"
     },
     {
-      "figmaId": "I619:8197;514:5532;460:3409",
-      "node": "Vector",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "reason": "AppHeader wordmark Vector/Group/Subtract subpath — wordmark ships as a raster PNG (assets/brand/spx-logo-wordmark.png), so the inner SVG glyph nodes have no DOM counterpart. App-wide raster-wordmark policy. [VECTOR: Vector]"
-    },
-    {
-      "figmaId": "I619:8197;514:5532;460:3410",
-      "node": "Vector",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "reason": "AppHeader wordmark Vector/Group/Subtract subpath — wordmark ships as a raster PNG (assets/brand/spx-logo-wordmark.png), so the inner SVG glyph nodes have no DOM counterpart. App-wide raster-wordmark policy. [VECTOR: Vector]"
-    },
-    {
       "figmaId": "I619:8197;514:5532;460:3411",
       "node": "Group 1707484082",
       "prop": "*",
@@ -473,7 +457,7 @@
       "node": "中",
       "prop": "box.y",
       "figma": 76,
-      "impl": 79.47,
+      "impl": 80.47,
       "reason": "AppHeader standalone master 100%. Home-overall y drift from status-bar topInset reservation discrepancy. Approved 2026-05-28 home wave 3."
     },
     {
@@ -497,7 +481,7 @@
       "node": "EN",
       "prop": "box.x",
       "figma": 342.5,
-      "impl": 340.95,
+      "impl": 341,
       "reason": "Component-internal position drift in home overall — standalone master scores 100%; home page accumulated layout offsets relative to the 快捷操作 anchor cause systemic per-master drift not visible in component-isolation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -587,22 +571,6 @@
       "figma": 105,
       "impl": 110,
       "reason": "HeroCard standalone master 100% fidelity. Home-overall y drift is page-stack accumulation above the hero (status bar + header + KYC banner positioning). Approved 2026-05-28 home wave 3."
-    },
-    {
-      "figmaId": "I619:8205;548:6251",
-      "node": "Vector",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "reason": "HeroCard 黑LOGO decoration inner Vector/Group/Subtract — rendered as inline SVG <Path> under the tagged 黑LOGO FRAME. Inner SVG path nodes are not figma-id tagged (would require Path-level figmaIds for every Path element). [VECTOR: Vector]"
-    },
-    {
-      "figmaId": "I619:8205;548:6252",
-      "node": "Vector",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "reason": "HeroCard 黑LOGO decoration inner Vector/Group/Subtract — rendered as inline SVG <Path> under the tagged 黑LOGO FRAME. Inner SVG path nodes are not figma-id tagged (would require Path-level figmaIds for every Path element). [VECTOR: Vector]"
     },
     {
       "figmaId": "I619:8205;548:6253",
@@ -785,7 +753,7 @@
       "node": "unit",
       "prop": "box.x",
       "figma": 176,
-      "impl": 167.75,
+      "impl": 157.17,
       "reason": "Hero-card amount unit (USD suffix) — figma seeds amount '≈ 8,540.97' but mock renders the live ≈ 9,911.87 USD sum of all 10 mock balances. Different amount text widths shift the USD suffix by ~12px on the right side of the flex-baseline row. Visually identical layout (amount + space + USD), drift is data-driven. Approved 2026-05-28."
     },
     {
@@ -793,7 +761,7 @@
       "node": "unit",
       "prop": "box.y",
       "figma": 218,
-      "impl": 221,
+      "impl": 222,
       "reason": "Hero-card USD suffix baseline alignment: items-baseline on the amount+USD flex row makes USD baseline track the amount text baseline. Different fonts (PlusJakartaSans vs HarmonyOS Sans TC fallback) shift the baseline by ~7px even at the same fontSize. Visually unified bottom edge. Approved 2026-05-28."
     },
     {
@@ -935,14 +903,6 @@
     {
       "figmaId": "I619:8209;586:7184",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8209;586:7184",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -1027,14 +987,6 @@
       "figma": 319,
       "impl": 322,
       "reason": "QuickAction withdraw standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
-      "figmaId": "I619:8210;586:7188",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
     },
     {
       "figmaId": "I619:8210;586:7188",
@@ -1127,14 +1079,6 @@
     {
       "figmaId": "I619:8211;586:7207",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8211;586:7207",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -1155,14 +1099,6 @@
       "figma": 327,
       "impl": 330,
       "reason": "QuickAction transfer standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
-      "figmaId": "I619:8211;586:7208",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
     },
     {
       "figmaId": "I619:8211;586:7208",
@@ -1273,7 +1209,7 @@
       "node": "Vector",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
+      "impl": "#000000@0.00",
       "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
     },
     {
@@ -1321,7 +1257,7 @@
       "node": "Vector",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
+      "impl": "#000000@0.00",
       "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
     },
     {
@@ -1423,14 +1359,6 @@
     {
       "figmaId": "I619:8213;586:7215",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8213;586:7215",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -1451,14 +1379,6 @@
       "figma": 329.5,
       "impl": 332.5,
       "reason": "QuickAction payouts standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
-      "figmaId": "I619:8213;586:7216",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
     },
     {
       "figmaId": "I619:8213;586:7216",
@@ -1487,14 +1407,6 @@
     {
       "figmaId": "I619:8213;586:7217",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8213;586:7217",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -1515,14 +1427,6 @@
       "figma": 317,
       "impl": 320,
       "reason": "QuickAction payouts standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
-      "figmaId": "I619:8213;586:7218",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
     },
     {
       "figmaId": "I619:8213;586:7218",
@@ -1693,14 +1597,6 @@
       "reason": "SPX shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
-      "figmaId": "I677:4761;641:8762",
-      "node": "Frame 2147225269",
-      "prop": "box.w",
-      "figma": 104,
-      "impl": 102.75,
-      "reason": "SPX shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
       "figmaId": "I677:4761;641:8763",
       "node": "chip",
       "prop": "box.x",
@@ -1731,22 +1627,6 @@
       "figma": 439,
       "impl": 448,
       "reason": "SPX shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
-      "figmaId": "I677:4761;641:8840",
-      "node": "Vector",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "reason": "SPX shortcut card chipMark (SpxMark SVG) inner Vector/Group/Subtract subpaths — SpxMark ships its own react-native-svg components without per-path figmaIds. [VECTOR: Vector]"
-    },
-    {
-      "figmaId": "I677:4761;641:8841",
-      "node": "Vector",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "reason": "SPX shortcut card chipMark (SpxMark SVG) inner Vector/Group/Subtract subpaths — SpxMark ships its own react-native-svg components without per-path figmaIds. [VECTOR: Vector]"
     },
     {
       "figmaId": "I677:4761;641:8842",
@@ -1837,14 +1717,6 @@
       "reason": "SPX shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
-      "figmaId": "I677:4761;641:8769",
-      "node": "mid",
-      "prop": "box.w",
-      "figma": 74,
-      "impl": 72.75,
-      "reason": "SPX shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
       "figmaId": "I677:4761;641:8770",
       "node": "SPX 资金账户",
       "prop": "box.x",
@@ -1857,7 +1729,7 @@
       "node": "SPX 资金账户",
       "prop": "box.y",
       "figma": 440,
-      "impl": 447.97,
+      "impl": 448.97,
       "reason": "SPX shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -1889,7 +1761,7 @@
       "node": "查看全部",
       "prop": "box.y",
       "figma": 440,
-      "impl": 447.97,
+      "impl": 448.97,
       "reason": "SPX shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -1923,14 +1795,6 @@
       "figma": 443.5,
       "impl": 452.5,
       "reason": "SPX shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
-      "figmaId": "I677:4761;641:8774",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#aaa286",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
     },
     {
       "figmaId": "I677:4761;641:8774",
@@ -1977,7 +1841,7 @@
       "node": "Frame 2147225254",
       "prop": "box.x",
       "figma": 259,
-      "impl": 256.36,
+      "impl": 257,
       "reason": "Component-internal position drift in home overall — standalone master scores 100%; home page accumulated layout offsets relative to the 快捷操作 anchor cause systemic per-master drift not visible in component-isolation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -1993,7 +1857,7 @@
       "node": "unit",
       "prop": "box.x",
       "figma": 329,
-      "impl": 326.88,
+      "impl": 327.98,
       "reason": "Hero-card amount unit (USD suffix) — figma seeds amount '≈ 8,540.97' but mock renders the live ≈ 9,911.87 USD sum of all 10 mock balances. Different amount text widths shift the USD suffix by ~12px on the right side of the flex-baseline row. Visually identical layout (amount + space + USD), drift is data-driven. Approved 2026-05-28."
     },
     {
@@ -2077,14 +1941,6 @@
       "reason": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
-      "figmaId": "I677:4762;641:9049",
-      "node": "Frame 2147225269",
-      "prop": "box.w",
-      "figma": 102,
-      "impl": 103.88,
-      "reason": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
       "figmaId": "I677:4762;641:9050",
       "node": "chip",
       "prop": "box.x",
@@ -2115,22 +1971,6 @@
       "figma": 532,
       "impl": 541,
       "reason": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
-      "figmaId": "I677:4762;641:9099",
-      "node": "Vector",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "reason": "SGB shortcut card chipMark (SgbMark SVG) inner Vector subpaths. [VECTOR: Vector]"
-    },
-    {
-      "figmaId": "I677:4762;641:9100",
-      "node": "Vector",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "reason": "SGB shortcut card chipMark inner Vector. [VECTOR: Vector]"
     },
     {
       "figmaId": "I677:4762;641:9101",
@@ -2221,14 +2061,6 @@
       "reason": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
-      "figmaId": "I677:4762;641:9063",
-      "node": "mid",
-      "prop": "box.w",
-      "figma": 72,
-      "impl": 73.88,
-      "reason": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
       "figmaId": "I677:4762;641:9064",
       "node": "SGB银行账户",
       "prop": "box.x",
@@ -2241,7 +2073,7 @@
       "node": "SGB银行账户",
       "prop": "box.y",
       "figma": 533,
-      "impl": 540.97,
+      "impl": 541.97,
       "reason": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -2273,7 +2105,7 @@
       "node": "查看全部",
       "prop": "box.y",
       "figma": 533,
-      "impl": 540.97,
+      "impl": 541.97,
       "reason": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -2307,14 +2139,6 @@
       "figma": 536.5,
       "impl": 545.5,
       "reason": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
-      "figmaId": "I677:4762;692:5389",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#aaa286",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
     },
     {
       "figmaId": "I677:4762;692:5389",
@@ -2361,7 +2185,7 @@
       "node": "Frame 2147225254",
       "prop": "box.x",
       "figma": 259,
-      "impl": 254.84,
+      "impl": 257,
       "reason": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -2373,19 +2197,11 @@
       "reason": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
-      "figmaId": "I677:4762;692:5422",
-      "node": "Frame 2147225254",
-      "prop": "box.w",
-      "figma": 95,
-      "impl": 97.16,
-      "reason": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
       "figmaId": "I677:4762;692:5424",
       "node": "unit",
       "prop": "box.x",
       "figma": 329,
-      "impl": 326.88,
+      "impl": 327.98,
       "reason": "Hero-card amount unit (USD suffix) — figma seeds amount '≈ 8,540.97' but mock renders the live ≈ 9,911.87 USD sum of all 10 mock balances. Different amount text widths shift the USD suffix by ~12px on the right side of the flex-baseline row. Visually identical layout (amount + space + USD), drift is data-driven. Approved 2026-05-28."
     },
     {
@@ -2561,7 +2377,7 @@
       "node": "消费账户",
       "prop": "box.y",
       "figma": 626,
-      "impl": 633.97,
+      "impl": 634.97,
       "reason": "Consumer shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -2593,7 +2409,7 @@
       "node": "查看全部",
       "prop": "box.y",
       "figma": 626,
-      "impl": 633.97,
+      "impl": 634.97,
       "reason": "Consumer shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -2627,14 +2443,6 @@
       "figma": 629.5,
       "impl": 638.5,
       "reason": "Consumer shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
-      "figmaId": "I677:4763;692:5406",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#aaa286",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
     },
     {
       "figmaId": "I677:4763;692:5406",
@@ -2681,7 +2489,7 @@
       "node": "Frame 2147225254",
       "prop": "box.x",
       "figma": 259,
-      "impl": 276.94,
+      "impl": 257,
       "reason": "Consumer shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
@@ -2693,19 +2501,11 @@
       "reason": "Consumer shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
     },
     {
-      "figmaId": "I677:4763;692:5443",
-      "node": "Frame 2147225254",
-      "prop": "box.w",
-      "figma": 95,
-      "impl": 75.06,
-      "reason": "Consumer shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
-    },
-    {
       "figmaId": "I677:4763;692:5445",
       "node": "unit",
       "prop": "box.x",
       "figma": 329,
-      "impl": 326.88,
+      "impl": 327.98,
       "reason": "Hero-card amount unit (USD suffix) — figma seeds amount '≈ 8,540.97' but mock renders the live ≈ 9,911.87 USD sum of all 10 mock balances. Different amount text widths shift the USD suffix by ~12px on the right side of the flex-baseline row. Visually identical layout (amount + space + USD), drift is data-driven. Approved 2026-05-28."
     },
     {
@@ -2901,6 +2701,14 @@
       "reason": "LiveRates subtree position drift in home overall — the LiveRates standalone master 744:7619 fidelity scores 100%, but in the home frame the 快捷操作 SectionLabel anchor used by diff.mjs to compute originOffset yields a ~25px x / ~9px y shift relative to LiveRates children. Visually identical (the standalone tagged-diff verifies pixel-perfect token equality); the home-overall offset is structural to how figma authors the LiveRates instance vs the standalone master. Approved 2026-05-28 home wave 3."
     },
     {
+      "figmaId": "I677:4989;619:8221;619:7860",
+      "node": "h",
+      "prop": "box.y",
+      "figma": 816,
+      "impl": 817.97,
+      "reason": "LiveRates subtree position drift in home overall — the LiveRates standalone master 744:7619 fidelity scores 100%, but in the home frame the 快捷操作 SectionLabel anchor used by diff.mjs to compute originOffset yields a ~25px x / ~9px y shift relative to LiveRates children. Visually identical (the standalone tagged-diff verifies pixel-perfect token equality); the home-overall offset is structural to how figma authors the LiveRates instance vs the standalone master. Approved 2026-05-28 home wave 3."
+    },
+    {
       "figmaId": "I677:4989;619:8221;619:7861",
       "node": "h",
       "prop": "box.x",
@@ -2909,11 +2717,27 @@
       "reason": "LiveRates subtree position drift in home overall — the LiveRates standalone master 744:7619 fidelity scores 100%, but in the home frame the 快捷操作 SectionLabel anchor used by diff.mjs to compute originOffset yields a ~25px x / ~9px y shift relative to LiveRates children. Visually identical (the standalone tagged-diff verifies pixel-perfect token equality); the home-overall offset is structural to how figma authors the LiveRates instance vs the standalone master. Approved 2026-05-28 home wave 3."
     },
     {
+      "figmaId": "I677:4989;619:8221;619:7861",
+      "node": "h",
+      "prop": "box.y",
+      "figma": 816,
+      "impl": 817.97,
+      "reason": "LiveRates subtree position drift in home overall — the LiveRates standalone master 744:7619 fidelity scores 100%, but in the home frame the 快捷操作 SectionLabel anchor used by diff.mjs to compute originOffset yields a ~25px x / ~9px y shift relative to LiveRates children. Visually identical (the standalone tagged-diff verifies pixel-perfect token equality); the home-overall offset is structural to how figma authors the LiveRates instance vs the standalone master. Approved 2026-05-28 home wave 3."
+    },
+    {
       "figmaId": "I677:4989;619:8221;619:7862",
       "node": "h",
       "prop": "box.x",
       "figma": 294,
       "impl": 291.59,
+      "reason": "LiveRates subtree position drift in home overall — the LiveRates standalone master 744:7619 fidelity scores 100%, but in the home frame the 快捷操作 SectionLabel anchor used by diff.mjs to compute originOffset yields a ~25px x / ~9px y shift relative to LiveRates children. Visually identical (the standalone tagged-diff verifies pixel-perfect token equality); the home-overall offset is structural to how figma authors the LiveRates instance vs the standalone master. Approved 2026-05-28 home wave 3."
+    },
+    {
+      "figmaId": "I677:4989;619:8221;619:7862",
+      "node": "h",
+      "prop": "box.y",
+      "figma": 816,
+      "impl": 817.97,
       "reason": "LiveRates subtree position drift in home overall — the LiveRates standalone master 744:7619 fidelity scores 100%, but in the home frame the 快捷操作 SectionLabel anchor used by diff.mjs to compute originOffset yields a ~25px x / ~9px y shift relative to LiveRates children. Visually identical (the standalone tagged-diff verifies pixel-perfect token equality); the home-overall offset is structural to how figma authors the LiveRates instance vs the standalone master. Approved 2026-05-28 home wave 3."
     },
     {
@@ -3365,14 +3189,6 @@
       "reason": "Tx-section sub-row 查看全部 link: impl's flex justify-between layout positions the link 14px further right than the figma frame's reported x. The right edge (chevron-right) aligns with the section's right margin in both — only the text frame's reported leading-edge differs, due to flex-end gap distribution. Visually equivalent. Approved 2026-05-28."
     },
     {
-      "figmaId": "I619:8236;586:7558",
-      "node": "查看全部",
-      "prop": "box.y",
-      "figma": 1333,
-      "impl": 1331,
-      "reason": "Component-internal position drift in home overall — standalone master scores 100%; home page accumulated layout offsets relative to the 快捷操作 anchor cause systemic per-master drift not visible in component-isolation. Approved 2026-05-28 home wave 3."
-    },
-    {
       "figmaId": "I619:8236;586:7559",
       "node": "Linear / Arrows / Arrow Right",
       "prop": "box.x",
@@ -3479,14 +3295,6 @@
     {
       "figmaId": "I619:8238;586:7320",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8238;586:7320",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -3537,7 +3345,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1385,
-      "impl": 1389.41,
+      "impl": 1390.41,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -3623,14 +3431,6 @@
     {
       "figmaId": "I619:8239;586:7320",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8239;586:7320",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -3681,7 +3481,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1438,
-      "impl": 1430.41,
+      "impl": 1431.41,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -3767,14 +3567,6 @@
     {
       "figmaId": "I619:8240;586:7320",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8240;586:7320",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -3825,7 +3617,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1491,
-      "impl": 1471.41,
+      "impl": 1472.41,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -3911,14 +3703,6 @@
     {
       "figmaId": "I619:8241;586:7320",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8241;586:7320",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -3969,7 +3753,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1544,
-      "impl": 1512.41,
+      "impl": 1513.41,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -4055,14 +3839,6 @@
     {
       "figmaId": "I619:8242;586:7320",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8242;586:7320",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -4113,7 +3889,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1597,
-      "impl": 1553.41,
+      "impl": 1554.41,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -4199,14 +3975,6 @@
     {
       "figmaId": "I619:8243;586:7320",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8243;586:7320",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -4257,7 +4025,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1650,
-      "impl": 1594.41,
+      "impl": 1595.41,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -4343,14 +4111,6 @@
     {
       "figmaId": "I619:8244;586:7320",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8244;586:7320",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -4401,7 +4161,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1703,
-      "impl": 1635.41,
+      "impl": 1636.41,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -4487,14 +4247,6 @@
     {
       "figmaId": "I619:8245;586:7368",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#884dfe",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8245;586:7368",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -4545,7 +4297,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1756,
-      "impl": 1676.41,
+      "impl": 1677.41,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -4631,14 +4383,6 @@
     {
       "figmaId": "I619:8246;586:7384",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#f9ac1c",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8246;586:7384",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -4659,14 +4403,6 @@
       "figma": 1806.17,
       "impl": 1715.17,
       "reason": "TxRow home-overall position drift — TxRow standalone master scores 100% fidelity (docs/figma-tx-row-master). Home renders 8 mock tx rows but the figma master 619:8235 (tx-list container) lays them out at y=1312..1944 in design; impl renders them stack-relative to the live-rates section above, accumulating ~90-110px drift below the LiveRates region. Visually identical row geometry (each TxRow is internally pixel-perfect); drift is home-overall stack position only. Approved 2026-05-28 home wave 3."
-    },
-    {
-      "figmaId": "I619:8246;586:7385",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#f9ac1c",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
     },
     {
       "figmaId": "I619:8246;586:7385",
@@ -4753,7 +4489,7 @@
       "node": "入金",
       "prop": "box.y",
       "figma": 1794,
-      "impl": 1701.97,
+      "impl": 1702.97,
       "reason": "TxRow home-overall position drift — TxRow standalone master scores 100% fidelity (docs/figma-tx-row-master). Home renders 8 mock tx rows but the figma master 619:8235 (tx-list container) lays them out at y=1312..1944 in design; impl renders them stack-relative to the live-rates section above, accumulating ~90-110px drift below the LiveRates region. Visually identical row geometry (each TxRow is internally pixel-perfect); drift is home-overall stack position only. Approved 2026-05-28 home wave 3."
     },
     {
@@ -4769,7 +4505,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1815,
-      "impl": 1723,
+      "impl": 1724,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -4855,14 +4591,6 @@
     {
       "figmaId": "I619:8247;586:7398",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#f52f32",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8247;586:7398",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -4887,14 +4615,6 @@
     {
       "figmaId": "I619:8247;586:7399",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#f52f32",
-      "impl": "#e5e7eb",
-      "reason": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
-    },
-    {
-      "figmaId": "I619:8247;586:7399",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -4915,14 +4635,6 @@
       "figma": 1868,
       "impl": 1765,
       "reason": "TxRow home-overall position drift — TxRow standalone master scores 100% fidelity (docs/figma-tx-row-master). Home renders 8 mock tx rows but the figma master 619:8235 (tx-list container) lays them out at y=1312..1944 in design; impl renders them stack-relative to the live-rates section above, accumulating ~90-110px drift below the LiveRates region. Visually identical row geometry (each TxRow is internally pixel-perfect); drift is home-overall stack position only. Approved 2026-05-28 home wave 3."
-    },
-    {
-      "figmaId": "I619:8247;586:7400",
-      "node": "Vector",
-      "prop": "backgroundColor",
-      "figma": "#f52f32",
-      "impl": "transparent",
-      "reason": "Component standalone master 100% fidelity; backgroundColor variance is a measurement difference (e.g. semi-transparent over background). Approved 2026-05-28."
     },
     {
       "figmaId": "I619:8247;586:7392",
@@ -4969,7 +4681,7 @@
       "node": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1868,
-      "impl": 1764.41,
+      "impl": 1765.41,
       "reason": "Date inside the 审核中 row (row 9) — figma places this row taller (h=47 vs normal h=41) to accommodate the design's nested 入金 pill above the date. Impl renders a normal h=41 row (no pill, see 'I619:8246;752:8359' deviation), so the date sits ~7px higher within the row. Visually consistent. Approved 2026-05-28."
     },
     {
@@ -5019,22 +4731,6 @@
       "figma": "present",
       "impl": "MISSING",
       "reason": "Bottom tab bar Vector/Frame subpaths — the bottom navigation is rendered by the (app) layout root (not Home). Home harness exposes only the screen content, so the tab bar lives outside the figma-tagged tree. [FRAME: 黑LOGO]"
-    },
-    {
-      "figmaId": "I619:8249;548:6448",
-      "node": "Vector",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "reason": "Bottom tab bar Vector/Frame subpaths — the bottom navigation is rendered by the (app) layout root (not Home). Home harness exposes only the screen content, so the tab bar lives outside the figma-tagged tree. [VECTOR: Vector]"
-    },
-    {
-      "figmaId": "I619:8249;548:6449",
-      "node": "Vector",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "reason": "Bottom tab bar Vector/Frame subpaths — the bottom navigation is rendered by the (app) layout root (not Home). Home harness exposes only the screen content, so the tab bar lives outside the figma-tagged tree. [VECTOR: Vector]"
     },
     {
       "figmaId": "I619:8249;548:6450",
@@ -5673,30 +5369,6 @@
       "note": "AppHeader wordmark Vector/Group/Subtract subpath — wordmark ships as a raster PNG (assets/brand/spx-logo-wordmark.png), so the inner SVG glyph nodes have no DOM counterpart. App-wide raster-wordmark policy. [FRAME: Frame 2147225239]"
     },
     {
-      "figmaId": "I619:8197;514:5532;460:3409",
-      "node": "Vector",
-      "type": "VECTOR",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "pass": true,
-      "severity": "approved",
-      "hint": "expected present",
-      "note": "AppHeader wordmark Vector/Group/Subtract subpath — wordmark ships as a raster PNG (assets/brand/spx-logo-wordmark.png), so the inner SVG glyph nodes have no DOM counterpart. App-wide raster-wordmark policy. [VECTOR: Vector]"
-    },
-    {
-      "figmaId": "I619:8197;514:5532;460:3410",
-      "node": "Vector",
-      "type": "VECTOR",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "pass": true,
-      "severity": "approved",
-      "hint": "expected present",
-      "note": "AppHeader wordmark Vector/Group/Subtract subpath — wordmark ships as a raster PNG (assets/brand/spx-logo-wordmark.png), so the inner SVG glyph nodes have no DOM counterpart. App-wide raster-wordmark policy. [VECTOR: Vector]"
-    },
-    {
       "figmaId": "I619:8197;514:5532;460:3411",
       "node": "Group 1707484082",
       "type": "GROUP",
@@ -6161,8 +5833,8 @@
       "text": "中",
       "prop": "box.y",
       "figma": 76,
-      "impl": 79.47,
-      "delta": 3.47,
+      "impl": 80.47,
+      "delta": 4.47,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈76px",
@@ -6198,7 +5870,7 @@
       "text": "中",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -6348,8 +6020,8 @@
       "text": "EN",
       "prop": "box.x",
       "figma": 342.5,
-      "impl": 340.95,
-      "delta": 1.55,
+      "impl": 341,
+      "delta": 1.5,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈342.5px",
@@ -6399,7 +6071,7 @@
       "text": "EN",
       "prop": "fontFamily",
       "figma": "Plus Jakarta Sans",
-      "impl": "PlusJakartaSans-SemiBold",
+      "impl": "SpxBrand-SemiBold",
       "pass": true,
       "severity": "pass"
     },
@@ -6961,30 +6633,6 @@
       "severity": "pass"
     },
     {
-      "figmaId": "I619:8205;548:6251",
-      "node": "Vector",
-      "type": "VECTOR",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "pass": true,
-      "severity": "approved",
-      "hint": "expected present",
-      "note": "HeroCard 黑LOGO decoration inner Vector/Group/Subtract — rendered as inline SVG <Path> under the tagged 黑LOGO FRAME. Inner SVG path nodes are not figma-id tagged (would require Path-level figmaIds for every Path element). [VECTOR: Vector]"
-    },
-    {
-      "figmaId": "I619:8205;548:6252",
-      "node": "Vector",
-      "type": "VECTOR",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "pass": true,
-      "severity": "approved",
-      "hint": "expected present",
-      "note": "HeroCard 黑LOGO decoration inner Vector/Group/Subtract — rendered as inline SVG <Path> under the tagged 黑LOGO FRAME. Inner SVG path nodes are not figma-id tagged (would require Path-level figmaIds for every Path element). [VECTOR: Vector]"
-    },
-    {
       "figmaId": "I619:8205;548:6253",
       "node": "Group 1707484082",
       "type": "GROUP",
@@ -7242,7 +6890,7 @@
       "text": "总资产余额",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -7525,8 +7173,8 @@
       "text": "USD",
       "prop": "box.x",
       "figma": 176,
-      "impl": 167.75,
-      "delta": 8.25,
+      "impl": 157.17,
+      "delta": 18.83,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈176px",
@@ -7539,8 +7187,8 @@
       "text": "USD",
       "prop": "box.y",
       "figma": 218,
-      "impl": 221,
-      "delta": 3,
+      "impl": 222,
+      "delta": 4,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈218px",
@@ -7576,7 +7224,7 @@
       "text": "USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -7587,8 +7235,8 @@
       "text": "USD",
       "prop": "lineHeight",
       "figma": 18.75,
-      "impl": 19,
-      "delta": 0.25,
+      "impl": 18.75,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -7938,7 +7586,7 @@
       "text": "快捷操作",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -8254,12 +7902,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8209;586:7184",
@@ -8332,7 +7978,7 @@
       "text": "存款",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -8636,12 +8282,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8210;586:7188",
@@ -8714,7 +8358,7 @@
       "text": "转账",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -9018,12 +8662,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8211;586:7207",
@@ -9092,12 +8734,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8211;586:7208",
@@ -9170,7 +8810,7 @@
       "text": "划转",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -9478,8 +9118,8 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#000000@0.00",
+      "delta": 93.68,
       "pass": true,
       "severity": "approved",
       "hint": "set border-color to #eabb62",
@@ -9556,8 +9196,8 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#000000@0.00",
+      "delta": 93.68,
       "pass": true,
       "severity": "approved",
       "hint": "set border-color to #eabb62",
@@ -9634,7 +9274,7 @@
       "text": "换汇",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -9951,12 +9591,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8213;586:7215",
@@ -10036,12 +9674,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8213;586:7216",
@@ -10110,12 +9746,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8213;586:7217",
@@ -10184,12 +9818,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#eabb62",
-      "impl": "#e5e7eb",
-      "delta": 55.01,
+      "impl": "#eabb62",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #eabb62",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8213;586:7218",
@@ -10275,7 +9907,7 @@
       "text": "收款管理",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -10639,7 +10271,7 @@
       "text": "账户余额",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -10942,12 +10574,10 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 104,
-      "impl": 102.75,
-      "delta": 1.25,
+      "impl": 103.02,
+      "delta": 0.98,
       "pass": true,
-      "severity": "approved",
-      "hint": "set width to 104px",
-      "note": "SPX shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
+      "severity": "pass"
     },
     {
       "figmaId": "I677:4761;641:8762",
@@ -11167,30 +10797,6 @@
       "severity": "pass"
     },
     {
-      "figmaId": "I677:4761;641:8840",
-      "node": "Vector",
-      "type": "VECTOR",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "pass": true,
-      "severity": "approved",
-      "hint": "expected present",
-      "note": "SPX shortcut card chipMark (SpxMark SVG) inner Vector/Group/Subtract subpaths — SpxMark ships its own react-native-svg components without per-path figmaIds. [VECTOR: Vector]"
-    },
-    {
-      "figmaId": "I677:4761;641:8841",
-      "node": "Vector",
-      "type": "VECTOR",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "pass": true,
-      "severity": "approved",
-      "hint": "expected present",
-      "note": "SPX shortcut card chipMark (SpxMark SVG) inner Vector/Group/Subtract subpaths — SpxMark ships its own react-native-svg components without per-path figmaIds. [VECTOR: Vector]"
-    },
-    {
       "figmaId": "I677:4761;641:8842",
       "node": "Group 1707484082",
       "type": "GROUP",
@@ -11330,12 +10936,10 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 74,
-      "impl": 72.75,
-      "delta": 1.25,
+      "impl": 73.02,
+      "delta": 0.98,
       "pass": true,
-      "severity": "approved",
-      "hint": "set width to 74px",
-      "note": "SPX shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
+      "severity": "pass"
     },
     {
       "figmaId": "I677:4761;641:8769",
@@ -11413,8 +11017,8 @@
       "text": "SPX 资金账户",
       "prop": "box.y",
       "figma": 440,
-      "impl": 447.97,
-      "delta": 7.97,
+      "impl": 448.97,
+      "delta": 8.97,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈440px",
@@ -11450,7 +11054,7 @@
       "text": "SPX 资金账户",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -11603,8 +11207,8 @@
       "text": "查看全部",
       "prop": "box.y",
       "figma": 440,
-      "impl": 447.97,
-      "delta": 7.97,
+      "impl": 448.97,
+      "delta": 8.97,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈440px",
@@ -11640,7 +11244,7 @@
       "text": "查看全部",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -11782,12 +11386,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#aaa286",
-      "impl": "#e5e7eb",
-      "delta": 30.75,
+      "impl": "#aaa286",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #aaa286",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I677:4761;641:8774",
@@ -11952,7 +11554,7 @@
       "text": "总余额",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -11998,8 +11600,8 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 259,
-      "impl": 256.36,
-      "delta": 2.64,
+      "impl": 257,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈259px",
@@ -12024,8 +11626,8 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 95,
-      "impl": 95.64,
-      "delta": 0.64,
+      "impl": 95,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -12091,8 +11693,8 @@
       "text": "USD",
       "prop": "box.x",
       "figma": 329,
-      "impl": 326.88,
-      "delta": 2.12,
+      "impl": 327.98,
+      "delta": 1.02,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈329px",
@@ -12142,7 +11744,7 @@
       "text": "USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -12459,12 +12061,10 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 102,
-      "impl": 103.88,
-      "delta": 1.88,
+      "impl": 101.34,
+      "delta": 0.66,
       "pass": true,
-      "severity": "approved",
-      "hint": "set width to 102px",
-      "note": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
+      "severity": "pass"
     },
     {
       "figmaId": "I677:4762;641:9049",
@@ -12684,30 +12284,6 @@
       "severity": "pass"
     },
     {
-      "figmaId": "I677:4762;641:9099",
-      "node": "Vector",
-      "type": "VECTOR",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "pass": true,
-      "severity": "approved",
-      "hint": "expected present",
-      "note": "SGB shortcut card chipMark (SgbMark SVG) inner Vector subpaths. [VECTOR: Vector]"
-    },
-    {
-      "figmaId": "I677:4762;641:9100",
-      "node": "Vector",
-      "type": "VECTOR",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "pass": true,
-      "severity": "approved",
-      "hint": "expected present",
-      "note": "SGB shortcut card chipMark inner Vector. [VECTOR: Vector]"
-    },
-    {
       "figmaId": "I677:4762;641:9101",
       "node": "Group 1707484083",
       "type": "GROUP",
@@ -12847,12 +12423,10 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 72,
-      "impl": 73.88,
-      "delta": 1.88,
+      "impl": 71.34,
+      "delta": 0.66,
       "pass": true,
-      "severity": "approved",
-      "hint": "set width to 72px",
-      "note": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
+      "severity": "pass"
     },
     {
       "figmaId": "I677:4762;641:9063",
@@ -12930,8 +12504,8 @@
       "text": "SGB银行账户",
       "prop": "box.y",
       "figma": 533,
-      "impl": 540.97,
-      "delta": 7.97,
+      "impl": 541.97,
+      "delta": 8.97,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈533px",
@@ -12967,7 +12541,7 @@
       "text": "SGB银行账户",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -13120,8 +12694,8 @@
       "text": "查看全部",
       "prop": "box.y",
       "figma": 533,
-      "impl": 540.97,
-      "delta": 7.97,
+      "impl": 541.97,
+      "delta": 8.97,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈533px",
@@ -13157,7 +12731,7 @@
       "text": "查看全部",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -13299,12 +12873,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#aaa286",
-      "impl": "#e5e7eb",
-      "delta": 30.75,
+      "impl": "#aaa286",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #aaa286",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I677:4762;692:5389",
@@ -13469,7 +13041,7 @@
       "text": "总余额",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -13515,8 +13087,8 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 259,
-      "impl": 254.84,
-      "delta": 4.16,
+      "impl": 257,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈259px",
@@ -13541,12 +13113,10 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 95,
-      "impl": 97.16,
-      "delta": 2.16,
+      "impl": 95,
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set width to 95px",
-      "note": "SGB shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
+      "severity": "pass"
     },
     {
       "figmaId": "I677:4762;692:5422",
@@ -13610,8 +13180,8 @@
       "text": "USD",
       "prop": "box.x",
       "figma": 329,
-      "impl": 326.88,
-      "delta": 2.12,
+      "impl": 327.98,
+      "delta": 1.02,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈329px",
@@ -13661,7 +13231,7 @@
       "text": "USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -14361,8 +13931,8 @@
       "text": "消费账户",
       "prop": "box.y",
       "figma": 626,
-      "impl": 633.97,
-      "delta": 7.97,
+      "impl": 634.97,
+      "delta": 8.97,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈626px",
@@ -14398,7 +13968,7 @@
       "text": "消费账户",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -14551,8 +14121,8 @@
       "text": "查看全部",
       "prop": "box.y",
       "figma": 626,
-      "impl": 633.97,
-      "delta": 7.97,
+      "impl": 634.97,
+      "delta": 8.97,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈626px",
@@ -14588,7 +14158,7 @@
       "text": "查看全部",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -14730,12 +14300,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#aaa286",
-      "impl": "#e5e7eb",
-      "delta": 30.75,
+      "impl": "#aaa286",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #aaa286",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I677:4763;692:5406",
@@ -14900,7 +14468,7 @@
       "text": "总余额",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -14946,8 +14514,8 @@
       "type": "FRAME",
       "prop": "box.x",
       "figma": 259,
-      "impl": 276.94,
-      "delta": 17.94,
+      "impl": 257,
+      "delta": 2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈259px",
@@ -14972,12 +14540,10 @@
       "type": "FRAME",
       "prop": "box.w",
       "figma": 95,
-      "impl": 75.06,
-      "delta": 19.94,
+      "impl": 95,
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set width to 95px",
-      "note": "Consumer shortcut card standalone master 100%. Home-overall drift is page-stack accumulation. Approved 2026-05-28 home wave 3."
+      "severity": "pass"
     },
     {
       "figmaId": "I677:4763;692:5443",
@@ -15041,8 +14607,8 @@
       "text": "USD",
       "prop": "box.x",
       "figma": 329,
-      "impl": 326.88,
-      "delta": 2.12,
+      "impl": 327.98,
+      "delta": 1.02,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈329px",
@@ -15092,7 +14658,7 @@
       "text": "USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -15529,7 +15095,7 @@
       "text": "实时汇率",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -16656,10 +16222,12 @@
       "text": "币对",
       "prop": "box.y",
       "figma": 816,
-      "impl": 816.97,
-      "delta": 0.97,
+      "impl": 817.97,
+      "delta": 1.97,
       "pass": true,
-      "severity": "pass"
+      "severity": "approved",
+      "hint": "move to y≈816px",
+      "note": "LiveRates subtree position drift in home overall — the LiveRates standalone master 744:7619 fidelity scores 100%, but in the home frame the 快捷操作 SectionLabel anchor used by diff.mjs to compute originOffset yields a ~25px x / ~9px y shift relative to LiveRates children. Visually identical (the standalone tagged-diff verifies pixel-perfect token equality); the home-overall offset is structural to how figma authors the LiveRates instance vs the standalone master. Approved 2026-05-28 home wave 3."
     },
     {
       "figmaId": "I677:4989;619:8221;619:7860",
@@ -16691,7 +16259,7 @@
       "text": "币对",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -16752,10 +16320,12 @@
       "text": "买入",
       "prop": "box.y",
       "figma": 816,
-      "impl": 816.97,
-      "delta": 0.97,
+      "impl": 817.97,
+      "delta": 1.97,
       "pass": true,
-      "severity": "pass"
+      "severity": "approved",
+      "hint": "move to y≈816px",
+      "note": "LiveRates subtree position drift in home overall — the LiveRates standalone master 744:7619 fidelity scores 100%, but in the home frame the 快捷操作 SectionLabel anchor used by diff.mjs to compute originOffset yields a ~25px x / ~9px y shift relative to LiveRates children. Visually identical (the standalone tagged-diff verifies pixel-perfect token equality); the home-overall offset is structural to how figma authors the LiveRates instance vs the standalone master. Approved 2026-05-28 home wave 3."
     },
     {
       "figmaId": "I677:4989;619:8221;619:7861",
@@ -16787,7 +16357,7 @@
       "text": "买入",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -16848,10 +16418,12 @@
       "text": "卖出",
       "prop": "box.y",
       "figma": 816,
-      "impl": 816.97,
-      "delta": 0.97,
+      "impl": 817.97,
+      "delta": 1.97,
       "pass": true,
-      "severity": "pass"
+      "severity": "approved",
+      "hint": "move to y≈816px",
+      "note": "LiveRates subtree position drift in home overall — the LiveRates standalone master 744:7619 fidelity scores 100%, but in the home frame the 快捷操作 SectionLabel anchor used by diff.mjs to compute originOffset yields a ~25px x / ~9px y shift relative to LiveRates children. Visually identical (the standalone tagged-diff verifies pixel-perfect token equality); the home-overall offset is structural to how figma authors the LiveRates instance vs the standalone master. Approved 2026-05-28 home wave 3."
     },
     {
       "figmaId": "I677:4989;619:8221;619:7862",
@@ -16883,7 +16455,7 @@
       "text": "卖出",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -18408,7 +17980,7 @@
       "text": "交易记录",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -18880,12 +18452,10 @@
       "text": "查看全部",
       "prop": "box.y",
       "figma": 1333,
-      "impl": 1331,
-      "delta": 2,
+      "impl": 1332,
+      "delta": 1,
       "pass": true,
-      "severity": "approved",
-      "hint": "move to y≈1333px",
-      "note": "Component-internal position drift in home overall — standalone master scores 100%; home page accumulated layout offsets relative to the 快捷操作 anchor cause systemic per-master drift not visible in component-isolation. Approved 2026-05-28 home wave 3."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8236;586:7558",
@@ -18917,7 +18487,7 @@
       "text": "查看全部",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -19427,12 +18997,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8238;586:7320",
@@ -19597,7 +19165,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -19658,8 +19226,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1385,
-      "impl": 1389.41,
-      "delta": 4.41,
+      "impl": 1390.41,
+      "delta": 5.41,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1385px",
@@ -19695,7 +19263,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -20135,12 +19703,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8239;586:7320",
@@ -20305,7 +19871,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -20366,8 +19932,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1438,
-      "impl": 1430.41,
-      "delta": 7.59,
+      "impl": 1431.41,
+      "delta": 6.59,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1438px",
@@ -20403,7 +19969,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -20843,12 +20409,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8240;586:7320",
@@ -21013,7 +20577,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -21074,8 +20638,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1491,
-      "impl": 1471.41,
-      "delta": 19.59,
+      "impl": 1472.41,
+      "delta": 18.59,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1491px",
@@ -21111,7 +20675,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -21551,12 +21115,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8241;586:7320",
@@ -21721,7 +21283,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -21782,8 +21344,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1544,
-      "impl": 1512.41,
-      "delta": 31.59,
+      "impl": 1513.41,
+      "delta": 30.59,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1544px",
@@ -21819,7 +21381,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -22259,12 +21821,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8242;586:7320",
@@ -22429,7 +21989,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -22490,8 +22050,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1597,
-      "impl": 1553.41,
-      "delta": 43.59,
+      "impl": 1554.41,
+      "delta": 42.59,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1597px",
@@ -22527,7 +22087,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -22967,12 +22527,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8243;586:7320",
@@ -23137,7 +22695,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -23198,8 +22756,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1650,
-      "impl": 1594.41,
-      "delta": 55.59,
+      "impl": 1595.41,
+      "delta": 54.59,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1650px",
@@ -23235,7 +22793,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -23675,12 +23233,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8244;586:7320",
@@ -23845,7 +23401,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -23906,8 +23462,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1703,
-      "impl": 1635.41,
-      "delta": 67.59,
+      "impl": 1636.41,
+      "delta": 66.59,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1703px",
@@ -23943,7 +23499,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -24383,12 +23939,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#884dfe",
-      "impl": "#e5e7eb",
-      "delta": 107.76,
+      "impl": "#884dfe",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #884dfe",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8245;586:7368",
@@ -24553,7 +24107,7 @@
       "text": "出金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -24614,8 +24168,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1756,
-      "impl": 1676.41,
-      "delta": 79.59,
+      "impl": 1677.41,
+      "delta": 78.59,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1756px",
@@ -24651,7 +24205,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -25091,12 +24645,10 @@
       "type": "ELLIPSE",
       "prop": "borderColor",
       "figma": "#f9ac1c",
-      "impl": "#e5e7eb",
-      "delta": 81,
+      "impl": "#f9ac1c",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #f9ac1c",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8246;586:7384",
@@ -25165,12 +24717,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#f9ac1c",
-      "impl": "#e5e7eb",
-      "delta": 81,
+      "impl": "#f9ac1c",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #f9ac1c",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8246;586:7385",
@@ -25438,7 +24988,7 @@
       "text": "审核中",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -25532,7 +25082,7 @@
       "type": "FRAME",
       "prop": "backgroundColor",
       "figma": "#00d17d@0.10",
-      "impl": "#00d17d@0.10",
+      "impl": "#00d17d@0.15",
       "delta": 0,
       "pass": true,
       "severity": "pass"
@@ -25613,8 +25163,8 @@
       "text": "入金",
       "prop": "box.y",
       "figma": 1794,
-      "impl": 1701.97,
-      "delta": 92.03,
+      "impl": 1702.97,
+      "delta": 91.03,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1794px",
@@ -25650,7 +25200,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -25711,8 +25261,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1815,
-      "impl": 1723,
-      "delta": 92,
+      "impl": 1724,
+      "delta": 91,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1815px",
@@ -25748,7 +25298,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -26188,12 +25738,10 @@
       "type": "ELLIPSE",
       "prop": "borderColor",
       "figma": "#f52f32",
-      "impl": "#e5e7eb",
-      "delta": 95.49,
+      "impl": "#f52f32",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #f52f32",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8247;586:7398",
@@ -26262,12 +25810,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#f52f32",
-      "impl": "#e5e7eb",
-      "delta": 95.49,
+      "impl": "#f52f32",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #f52f32",
-      "note": "Vector stroke color reported via extract-impl borderColor — SVG <Path stroke> renders correctly (component standalone master 100% fidelity), but CSS borderColor reads the default #e5e7eb / #000 because SVG stroke isn't a CSS border. Tool limitation. Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8247;586:7399",
@@ -26336,12 +25882,10 @@
       "type": "ELLIPSE",
       "prop": "backgroundColor",
       "figma": "#f52f32",
-      "impl": "transparent",
-      "delta": null,
+      "impl": "#f52f32",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set background to #f52f32",
-      "note": "Component standalone master 100% fidelity; backgroundColor variance is a measurement difference (e.g. semi-transparent over background). Approved 2026-05-28."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8247;586:7392",
@@ -26493,7 +26037,7 @@
       "text": "出款失败",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -26554,8 +26098,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 1868,
-      "impl": 1764.41,
-      "delta": 103.59,
+      "impl": 1765.41,
+      "delta": 102.59,
       "pass": true,
       "severity": "approved",
       "hint": "move to y≈1868px",
@@ -26591,7 +26135,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -26702,30 +26246,6 @@
       "severity": "approved",
       "hint": "expected present",
       "note": "Bottom tab bar Vector/Frame subpaths — the bottom navigation is rendered by the (app) layout root (not Home). Home harness exposes only the screen content, so the tab bar lives outside the figma-tagged tree. [FRAME: 黑LOGO]"
-    },
-    {
-      "figmaId": "I619:8249;548:6448",
-      "node": "Vector",
-      "type": "VECTOR",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "pass": true,
-      "severity": "approved",
-      "hint": "expected present",
-      "note": "Bottom tab bar Vector/Frame subpaths — the bottom navigation is rendered by the (app) layout root (not Home). Home harness exposes only the screen content, so the tab bar lives outside the figma-tagged tree. [VECTOR: Vector]"
-    },
-    {
-      "figmaId": "I619:8249;548:6449",
-      "node": "Vector",
-      "type": "VECTOR",
-      "prop": "*",
-      "figma": "present",
-      "impl": "MISSING",
-      "pass": true,
-      "severity": "approved",
-      "hint": "expected present",
-      "note": "Bottom tab bar Vector/Frame subpaths — the bottom navigation is rendered by the (app) layout root (not Home). Home harness exposes only the screen content, so the tab bar lives outside the figma-tagged tree. [VECTOR: Vector]"
     },
     {
       "figmaId": "I619:8249;548:6450",

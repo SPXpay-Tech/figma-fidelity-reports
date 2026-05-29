@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for SPX Account Select master 790:14542 ('账户选择', COMPONENT_SET 390×818). Library v1 cluster of 6 stacked variants showing the deposit-account picker in all interaction states: (1) 790:14541 Default-USD 350×68 default unselected-state border #aaa286@0.20 — (2) 820:7833 Focus-USD 350×68 focused gold #eabb62 border — (3) 820:7854 Disabled-USD 350×68 muted #f5f5f5 surface with strike-through label — (4) 820:7875 Empty 350×68 placeholder '请选择存款账户' #aaa286 — (5) 820:7896 Error 350×68 #f52f32 ring + #f52f32@0.10 surface — (6) 820:7917 Open-USD 350×338 focus row + expanded 264h dropdown panel with 6 account options (USD highlighted). Each input row carries a 24×24 #eabb62@0.10 chip with the 16×16 SPX 黑LOGO + a 14px medium label + a 24×24 'Alt Arrow Down' chevron frame. Boot expo web (pnpm exec expo start --web --port 8082) and: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen account-select",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-account-select-master/fidelity/out",
+  "screens": [
+    {
+      "id": "account-select",
+      "node": "790:14542",
+      "figmaJson": "docs/figma-account-select-master/fidelity/figma-dump/account-select.json",
+      "figmaPng": "docs/figma-account-select-master/fidelity/figma-dump/account-select.png",
+      "url": "http://localhost:8082/__fidelity/account-select",
+      "width": 390,
+      "height": 818,
+      "root": "[data-figma-root='790:14542']",
+      "wait": "text=存款到",
+      "anchor": "母版 Master · 790:14542"
+    }
+  ]
+}

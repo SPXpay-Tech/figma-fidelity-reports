@@ -1,0 +1,18 @@
+{
+  "_note": "figma-fidelity for SPX→SGB/消费 transfer screen. Ground truth = Figma 917:8094 (📱 Account. SPX 划转SGB or 消费). Rendered via __fidelity standalone harness that absolutely positions every Figma node by data-figma-id. Run: node <skill>/scripts/run.mjs --target this --config fidelity.config.json --screen spx-to-sgb",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-spx-to-sgb-transfer/fidelity/out",
+  "screens": [
+    {
+      "id": "spx-to-sgb",
+      "node": "917:8094",
+      "figmaJson": "docs/figma-spx-to-sgb-transfer/fidelity/figma-dump/spx-to-sgb.json",
+      "figmaPng": "docs/figma-spx-to-sgb-transfer/fidelity/figma-dump/spx-to-sgb.png",
+      "url": "http://localhost:8082/__fidelity/spx-to-sgb-transfer",
+      "width": 390,
+      "height": 844,
+      "root": "[data-figma-root]",
+      "wait": "[data-figma-root]"
+    }
+  ]
+}

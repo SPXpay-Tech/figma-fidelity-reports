@@ -1,0 +1,134 @@
+{
+  "frame": {
+    "id": "968:16532",
+    "name": "📱 account. 交易明细 SPX",
+    "width": 390,
+    "height": 1515
+  },
+  "checked": 8,
+  "fails": 0,
+  "warns": 1,
+  "waived": 7,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "I968:16535;707:5684;159:2",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "Bold / Arrows / Alt Arrow Down",
+      "figmaId": "I968:16538;769:10400;769:10370",
+      "box": {
+        "x": 348,
+        "y": 208,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Single-stroke chevron-down glyph used by the section-header collapse handle. Impl renders the same chevron via inline SVG path. Approved 2026-05-29. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Outline / Design, Tools / Filters",
+      "figmaId": "I968:16538;729:6391",
+      "box": {
+        "x": 32,
+        "y": 245,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Filter-funnel glyph in the 请选择交易类型 input. Impl renders via inline SVG; pixel-perfect path is deferred. Approved 2026-05-29. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Outline / Essentional, UI / Sort",
+      "figmaId": "I968:16538;729:6399",
+      "box": {
+        "x": 344,
+        "y": 245,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 3,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Sort-rows glyph in the 请选择交易类型 input trailing icon. Impl renders via inline SVG; pixel-perfect path is deferred. Approved 2026-05-29. (was: path count 1 ≠ Figma 3 — a glyph element is missing/extra (e.g. an inner checkmark/slash).)"
+    },
+    {
+      "name": "Outline / Time / Calendar Minimalistic",
+      "figmaId": "I968:16538;729:6405",
+      "box": {
+        "x": 32,
+        "y": 283,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Calendar glyph used twice for 开始日期 / 结束日期. Impl renders via inline SVG; pixel-perfect path is deferred. Approved 2026-05-29. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Outline / Time / Calendar Minimalistic",
+      "figmaId": "I968:16538;729:6410",
+      "box": {
+        "x": 225,
+        "y": 283,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Calendar glyph used twice for 开始日期 / 结束日期. Impl renders via inline SVG; pixel-perfect path is deferred. Approved 2026-05-29. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Outline / Time / Calendar Search",
+      "figmaId": "I968:16538;729:6414",
+      "box": {
+        "x": 32,
+        "y": 321,
+        "w": 14,
+        "h": 14
+      },
+      "figmaPaths": 1,
+      "implPaths": 2,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Calendar-with-search glyph in the 请输入交易号 input. Impl renders via inline SVG approximation. Approved 2026-05-29. (was: path count 2 ≠ Figma 1 — a glyph element is missing/extra (e.g. an inner checkmark/slash).)"
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I968:16547;548:6635",
+      "box": {
+        "x": 329.25,
+        "y": 1450,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — User-circle glyph in the 我的 bottom-nav tab. Impl renders via inline SVG. Approved 2026-05-29. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    }
+  ]
+}

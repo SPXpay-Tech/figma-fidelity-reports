@@ -1,0 +1,28 @@
+{
+  "frame": {
+    "id": "887:22019",
+    "name": "金额信息·手续费扣费",
+    "width": 350,
+    "height": 134
+  },
+  "offset": {
+    "x": 0,
+    "y": -0.03
+  },
+  "threshold": 12,
+  "flagged": 0,
+  "regions": [
+    {
+      "name": "Exchange Rate · 汇率",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 74,
+        "w": 326,
+        "h": 36
+      },
+      "figmaFill": "#9ca3af@0.10",
+      "mismatch": 3.7
+    }
+  ]
+}

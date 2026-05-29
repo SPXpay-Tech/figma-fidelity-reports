@@ -89,12 +89,12 @@
       "text": "账户",
       "box": {
         "x": 20,
-        "y": 95.13,
+        "y": 61.13,
         "w": 32,
-        "h": 21
+        "h": 18
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 16,
         "fontWeight": 700,
         "lineHeight": 18.75,
@@ -128,12 +128,12 @@
       "text": "中",
       "box": {
         "x": 315,
-        "y": 98.47,
+        "y": 63.47,
         "w": 12,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -166,13 +166,13 @@
       "type": "div",
       "text": "EN",
       "box": {
-        "x": 342.95,
-        "y": 98.94,
-        "w": 16.09,
-        "h": 15
+        "x": 343,
+        "y": 62.94,
+        "w": 16,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-SemiBold",
+        "fontFamily": "SpxBrand-SemiBold",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 15.12,
@@ -205,20 +205,20 @@
       "type": "div",
       "text": "SPX 资金账户",
       "box": {
-        "x": 66.69,
-        "y": 149.8,
-        "w": 85.61,
-        "h": 18
+        "x": 66.52,
+        "y": 112.8,
+        "w": 85.95,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 14,
-        "fontWeight": 400,
+        "fontWeight": 700,
         "lineHeight": 16.41,
         "letterSpacing": 0,
         "textAlign": "START",
         "textTransform": "none",
-        "color": "#3d3218",
+        "color": "#ffffff",
         "backgroundColor": "transparent",
         "borderRadius": 0,
         "borderColor": "#000000",
@@ -244,15 +244,15 @@
       "type": "div",
       "text": "SGB 银行账户",
       "box": {
-        "x": 236.22,
-        "y": 149.8,
-        "w": 88.55,
-        "h": 18
+        "x": 237.13,
+        "y": 112.8,
+        "w": 86.73,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
-        "fontWeight": 400,
+        "fontWeight": 500,
         "lineHeight": 16.41,
         "letterSpacing": 0,
         "textAlign": "START",
@@ -284,7 +284,7 @@
       "text": null,
       "box": {
         "x": 208.02,
-        "y": 274.78,
+        "y": 230.78,
         "w": 146.92,
         "h": 80.91
       },
@@ -297,9 +297,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#f3f1e8",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -323,7 +323,7 @@
       "text": null,
       "box": {
         "x": 241,
-        "y": 175,
+        "y": 131,
         "w": 146.98,
         "h": 81.18
       },
@@ -336,9 +336,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#f3f1e8",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -362,7 +362,7 @@
       "text": null,
       "box": {
         "x": 208,
-        "y": 234.68,
+        "y": 190.68,
         "w": 146.97,
         "h": 84.98
       },
@@ -375,9 +375,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#f3f1e8",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -401,7 +401,7 @@
       "text": null,
       "box": {
         "x": 241.71,
-        "y": 210.76,
+        "y": 166.76,
         "w": 147,
         "h": 85.09
       },
@@ -414,9 +414,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#f3f1e8",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -440,12 +440,12 @@
       "text": "总资产",
       "box": {
         "x": 44,
-        "y": 210,
+        "y": 166,
         "w": 42,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16,
@@ -479,7 +479,7 @@
       "text": null,
       "box": {
         "x": 328.17,
-        "y": 214.33,
+        "y": 170.33,
         "w": 11.67,
         "h": 9.33
       },
@@ -492,9 +492,9 @@
         "textAlign": "CENTER",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#ffffff",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -518,7 +518,7 @@
       "text": null,
       "box": {
         "x": 332.25,
-        "y": 217.25,
+        "y": 173.25,
         "w": 3.5,
         "h": 3.5
       },
@@ -531,9 +531,9 @@
         "textAlign": "CENTER",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#ffffff",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -554,18 +554,18 @@
       "figmaId": null,
       "name": "div.css-text-146c3p1",
       "type": "div",
-      "text": "≈ 8,801.87",
+      "text": "≈ 8,540.97",
       "box": {
         "x": 44,
-        "y": 248,
-        "w": 123.36,
-        "h": 30
+        "y": 205,
+        "w": 85.98,
+        "h": 23
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
-        "fontSize": 24,
+        "fontFamily": "SpxBrand-Bold",
+        "fontSize": 20,
         "fontWeight": 700,
-        "lineHeight": 28,
+        "lineHeight": 23.44,
         "letterSpacing": 0,
         "textAlign": "START",
         "textTransform": "none",
@@ -595,16 +595,16 @@
       "type": "div",
       "text": "USD",
       "box": {
-        "x": 179.36,
-        "y": 256,
-        "w": 33.5,
-        "h": 21
+        "x": 141.98,
+        "y": 210,
+        "w": 28.02,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
-        "fontSize": 16,
+        "fontFamily": "SpxBrand-Medium",
+        "fontSize": 14,
         "fontWeight": 500,
-        "lineHeight": 19,
+        "lineHeight": 16.41,
         "letterSpacing": 0,
         "textAlign": "START",
         "textTransform": "none",
@@ -635,7 +635,7 @@
       "text": null,
       "box": {
         "x": 20,
-        "y": 305,
+        "y": 244.44,
         "w": 2,
         "h": 16
       },
@@ -674,12 +674,12 @@
       "text": "操作",
       "box": {
         "x": 30,
-        "y": 304,
+        "y": 243.44,
         "w": 28,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 14,
         "fontWeight": 700,
         "lineHeight": 24,
@@ -706,6 +706,45 @@
       }
     },
     {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 46,
+        "y": 286.44,
+        "w": 12,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#eabb62",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#eabb62@0.20",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
       "key": "div.css-text-146c3p1",
       "figmaId": null,
       "name": "div.css-text-146c3p1",
@@ -713,12 +752,12 @@
       "text": "存款",
       "box": {
         "x": 40,
-        "y": 396,
+        "y": 308.44,
         "w": 24,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14,
@@ -745,29 +784,29 @@
       }
     },
     {
-      "key": "div.css-text-146c3p1",
+      "key": "path",
       "figmaId": null,
-      "name": "div.css-text-146c3p1",
-      "type": "div",
-      "text": "划转",
+      "name": "path",
+      "type": "path",
+      "text": null,
       "box": {
-        "x": 111.5,
-        "y": 396,
-        "w": 24,
-        "h": 15
+        "x": 117.5,
+        "y": 286.44,
+        "w": 12,
+        "h": 16
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
-        "fontSize": 12,
-        "fontWeight": 500,
-        "lineHeight": 14,
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
         "letterSpacing": 0,
         "textAlign": "CENTER",
         "textTransform": "none",
-        "color": "#24201a",
-        "backgroundColor": "transparent",
+        "color": "#000000",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#000000",
+        "borderColor": "#eabb62",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -777,7 +816,7 @@
         },
         "boxShadow": null,
         "parentStyle": {
-          "backgroundColor": "#f9f9fa",
+          "backgroundColor": "#eabb62@0.20",
           "borderColor": "#000000",
           "borderWidth": 0
         }
@@ -790,13 +829,13 @@
       "type": "div",
       "text": "转账",
       "box": {
-        "x": 183,
-        "y": 396,
+        "x": 111.5,
+        "y": 308.44,
         "w": 24,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14,
@@ -817,6 +856,201 @@
         "boxShadow": null,
         "parentStyle": {
           "backgroundColor": "#f9f9fa",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 189,
+        "y": 286.44,
+        "w": 12,
+        "h": 8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#eabb62",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#eabb62@0.20",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 189,
+        "y": 294.44,
+        "w": 12,
+        "h": 8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#eabb62",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#eabb62@0.20",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "划转",
+      "box": {
+        "x": 183,
+        "y": 308.44,
+        "w": 24,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "SpxBrand-Medium",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "textTransform": "none",
+        "color": "#24201a",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f9f9fa",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 255.75,
+        "y": 284.69,
+        "w": 18.75,
+        "h": 11.5
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#eabb62",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#eabb62@0.20",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 258.43,
+        "y": 292.69,
+        "w": 18.82,
+        "h": 11.5
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#eabb62",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#eabb62@0.20",
           "borderColor": "#000000",
           "borderWidth": 0
         }
@@ -830,12 +1064,12 @@
       "text": "兑换",
       "box": {
         "x": 254.5,
-        "y": 396,
+        "y": 308.44,
         "w": 24,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14,
@@ -862,6 +1096,84 @@
       }
     },
     {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 329,
+        "y": 286.44,
+        "w": 18,
+        "h": 18
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#eabb62",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#eabb62@0.20",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 334,
+        "y": 284.44,
+        "w": 8,
+        "h": 4
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#eabb62",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#eabb62@0.20",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
       "key": "div.css-text-146c3p1",
       "figmaId": null,
       "name": "div.css-text-146c3p1",
@@ -869,12 +1181,12 @@
       "text": "收款管理",
       "box": {
         "x": 314,
-        "y": 396,
+        "y": 308.44,
         "w": 48,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14,
@@ -908,7 +1220,7 @@
       "text": null,
       "box": {
         "x": 20,
-        "y": 431,
+        "y": 354.44,
         "w": 2,
         "h": 16
       },
@@ -947,12 +1259,12 @@
       "text": "所有账户（7）",
       "box": {
         "x": 30,
-        "y": 430,
-        "w": 91.83,
-        "h": 18
+        "y": 353.44,
+        "w": 91,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 14,
         "fontWeight": 700,
         "lineHeight": 24,
@@ -979,29 +1291,29 @@
       }
     },
     {
-      "key": "div.css-text-146c3p1",
+      "key": "path",
       "figmaId": null,
-      "name": "div.css-text-146c3p1",
-      "type": "div",
-      "text": "$",
+      "name": "path",
+      "type": "path",
+      "text": null,
       "box": {
-        "x": 40.75,
-        "y": 481,
-        "w": 6.48,
-        "h": 12
+        "x": 28,
+        "y": 392.44,
+        "w": 32,
+        "h": 24
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
-        "fontSize": 10,
-        "fontWeight": 700,
-        "lineHeight": "normal",
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
         "letterSpacing": 0,
         "textAlign": "START",
         "textTransform": "none",
-        "color": "#eabb62",
-        "backgroundColor": "transparent",
+        "color": "#000000",
+        "backgroundColor": "#bd3d44",
         "borderRadius": 0,
-        "borderColor": "#000000",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -1011,7 +1323,1177 @@
         },
         "boxShadow": null,
         "parentStyle": {
-          "backgroundColor": "#f3f1e8",
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 28,
+        "y": 395.2,
+        "w": 32,
+        "h": 18.48
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#000000",
+        "borderRadius": 0,
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 28,
+        "y": 392.44,
+        "w": 18.24,
+        "h": 12.92
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#192f5d",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 29.5,
+        "y": 393.69,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 32.5,
+        "y": 393.69,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 35.5,
+        "y": 393.69,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 38.5,
+        "y": 393.69,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 41.5,
+        "y": 393.69,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 44.5,
+        "y": 393.69,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 31,
+        "y": 395.94,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 34,
+        "y": 395.94,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 37,
+        "y": 395.94,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 395.94,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 43,
+        "y": 395.94,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 29.5,
+        "y": 398.19,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 32.5,
+        "y": 398.19,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 35.5,
+        "y": 398.19,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 38.5,
+        "y": 398.19,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 41.5,
+        "y": 398.19,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 44.5,
+        "y": 398.19,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 31,
+        "y": 400.44,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 34,
+        "y": 400.44,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 37,
+        "y": 400.44,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 400.44,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 43,
+        "y": 400.44,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 29.5,
+        "y": 402.69,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 32.5,
+        "y": 402.69,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 35.5,
+        "y": 402.69,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 38.5,
+        "y": 402.69,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 41.5,
+        "y": 402.69,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 44.5,
+        "y": 402.69,
+        "w": 1,
+        "h": 1
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
           "borderColor": "#000000",
           "borderWidth": 0
         }
@@ -1025,12 +2507,12 @@
       "text": "美元账户",
       "box": {
         "x": 62,
-        "y": 478.97,
+        "y": 397.41,
         "w": 48,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 12,
         "fontWeight": 900,
         "lineHeight": 14.06,
@@ -1063,13 +2545,13 @@
       "type": "div",
       "text": "8,540.97",
       "box": {
-        "x": 267.75,
-        "y": 477.47,
-        "w": 61.19,
-        "h": 18
+        "x": 280.98,
+        "y": 395.23,
+        "w": 49,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -1102,13 +2584,13 @@
       "type": "div",
       "text": "USD",
       "box": {
-        "x": 332.94,
-        "y": 480.47,
-        "w": 25.06,
-        "h": 15
+        "x": 333.98,
+        "y": 397.23,
+        "w": 24.02,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -1135,29 +2617,29 @@
       }
     },
     {
-      "key": "div.css-text-146c3p1",
+      "key": "path",
       "figmaId": null,
-      "name": "div.css-text-146c3p1",
-      "type": "div",
-      "text": "€",
+      "name": "path",
+      "type": "path",
+      "text": null,
       "box": {
-        "x": 40.14,
-        "y": 541,
-        "w": 7.7,
-        "h": 12
+        "x": 28,
+        "y": 446.44,
+        "w": 32,
+        "h": 24
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
-        "fontSize": 10,
-        "fontWeight": 700,
-        "lineHeight": "normal",
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
         "letterSpacing": 0,
         "textAlign": "START",
         "textTransform": "none",
-        "color": "#eabb62",
-        "backgroundColor": "transparent",
+        "color": "#000000",
+        "backgroundColor": "#003399",
         "borderRadius": 0,
-        "borderColor": "#000000",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -1167,7 +2649,475 @@
         },
         "boxShadow": null,
         "parentStyle": {
-          "backgroundColor": "#f3f1e8",
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 43.1,
+        "y": 450.54,
+        "w": 1.8,
+        "h": 1.8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffcc00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 48.6,
+        "y": 452.29,
+        "w": 1.8,
+        "h": 1.8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffcc00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 52.1,
+        "y": 456.79,
+        "w": 1.8,
+        "h": 1.8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffcc00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 52.1,
+        "y": 462.29,
+        "w": 1.8,
+        "h": 1.8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffcc00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 48.6,
+        "y": 466.79,
+        "w": 1.8,
+        "h": 1.8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffcc00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 43.1,
+        "y": 468.54,
+        "w": 1.8,
+        "h": 1.8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffcc00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 37.6,
+        "y": 466.79,
+        "w": 1.8,
+        "h": 1.8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffcc00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 34.1,
+        "y": 462.29,
+        "w": 1.8,
+        "h": 1.8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffcc00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 34.1,
+        "y": 456.79,
+        "w": 1.8,
+        "h": 1.8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffcc00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 37.6,
+        "y": 452.29,
+        "w": 1.8,
+        "h": 1.8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffcc00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 43.1,
+        "y": 452.44,
+        "w": 1.8,
+        "h": 1.8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffcc00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "circle",
+      "figmaId": null,
+      "name": "circle",
+      "type": "circle",
+      "text": null,
+      "box": {
+        "x": 43.1,
+        "y": 466.64,
+        "w": 1.8,
+        "h": 1.8
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffcc00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
           "borderColor": "#000000",
           "borderWidth": 0
         }
@@ -1181,12 +3131,12 @@
       "text": "欧元账户",
       "box": {
         "x": 62,
-        "y": 538.97,
+        "y": 451.41,
         "w": 48,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 12,
         "fontWeight": 900,
         "lineHeight": 14.06,
@@ -1219,13 +3169,13 @@
       "type": "div",
       "text": "50.00",
       "box": {
-        "x": 287.08,
-        "y": 537.47,
-        "w": 43.48,
-        "h": 18
+        "x": 298.5,
+        "y": 449.23,
+        "w": 31.5,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -1258,13 +3208,13 @@
       "type": "div",
       "text": "EUR",
       "box": {
-        "x": 334.56,
-        "y": 540.47,
-        "w": 23.44,
-        "h": 15
+        "x": 334,
+        "y": 451.23,
+        "w": 24,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -1291,29 +3241,29 @@
       }
     },
     {
-      "key": "div.css-text-146c3p1",
+      "key": "path",
       "figmaId": null,
-      "name": "div.css-text-146c3p1",
-      "type": "div",
-      "text": "HK",
+      "name": "path",
+      "type": "path",
+      "text": null,
       "box": {
-        "x": 36.94,
-        "y": 601,
-        "w": 14.13,
-        "h": 12
+        "x": 28,
+        "y": 500.44,
+        "w": 32,
+        "h": 24
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
-        "fontSize": 10,
-        "fontWeight": 700,
-        "lineHeight": "normal",
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
         "letterSpacing": 0,
         "textAlign": "START",
         "textTransform": "none",
-        "color": "#eabb62",
-        "backgroundColor": "transparent",
+        "color": "#000000",
+        "backgroundColor": "#ec1b2e",
         "borderRadius": 0,
-        "borderColor": "#000000",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -1323,7 +3273,202 @@
         },
         "boxShadow": null,
         "parentStyle": {
-          "backgroundColor": "#f3f1e8",
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 41.23,
+        "y": 505.58,
+        "w": 4.09,
+        "h": 6.87
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "use",
+      "figmaId": null,
+      "name": "use",
+      "type": "use",
+      "text": null,
+      "box": {
+        "x": 43.04,
+        "y": 508.16,
+        "w": 7.8,
+        "h": 6.01
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "use",
+      "figmaId": null,
+      "name": "use",
+      "type": "use",
+      "text": null,
+      "box": {
+        "x": 42.35,
+        "y": 511.33,
+        "w": 7.34,
+        "h": 7.96
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "use",
+      "figmaId": null,
+      "name": "use",
+      "type": "use",
+      "text": null,
+      "box": {
+        "x": 38.13,
+        "y": 511.75,
+        "w": 7.34,
+        "h": 7.96
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "use",
+      "figmaId": null,
+      "name": "use",
+      "type": "use",
+      "text": null,
+      "box": {
+        "x": 36.2,
+        "y": 508.83,
+        "w": 7.8,
+        "h": 6.01
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#e5e7eb",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
           "borderColor": "#000000",
           "borderWidth": 0
         }
@@ -1337,12 +3482,12 @@
       "text": "港币账户",
       "box": {
         "x": 62,
-        "y": 598.97,
+        "y": 505.41,
         "w": 48,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 12,
         "fontWeight": 900,
         "lineHeight": 14.06,
@@ -1375,13 +3520,13 @@
       "type": "div",
       "text": "50.00",
       "box": {
-        "x": 284.92,
-        "y": 597.47,
-        "w": 43.48,
-        "h": 18
+        "x": 296.5,
+        "y": 503.23,
+        "w": 31.5,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -1414,13 +3559,13 @@
       "type": "div",
       "text": "HKD",
       "box": {
-        "x": 332.41,
-        "y": 600.47,
-        "w": 25.59,
-        "h": 15
+        "x": 332,
+        "y": 505.23,
+        "w": 26,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -1447,29 +3592,29 @@
       }
     },
     {
-      "key": "div.css-text-146c3p1",
+      "key": "path",
       "figmaId": null,
-      "name": "div.css-text-146c3p1",
-      "type": "div",
-      "text": "S$",
+      "name": "path",
+      "type": "path",
+      "text": null,
       "box": {
-        "x": 37.52,
-        "y": 661,
-        "w": 12.95,
-        "h": 12
+        "x": 28,
+        "y": 554.44,
+        "w": 32,
+        "h": 24
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
-        "fontSize": 10,
-        "fontWeight": 700,
-        "lineHeight": "normal",
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
         "letterSpacing": 0,
         "textAlign": "START",
         "textTransform": "none",
-        "color": "#eabb62",
-        "backgroundColor": "transparent",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
         "borderRadius": 0,
-        "borderColor": "#000000",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -1479,7 +3624,124 @@
         },
         "boxShadow": null,
         "parentStyle": {
-          "backgroundColor": "#f3f1e8",
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 28,
+        "y": 554.44,
+        "w": 32,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#df0000",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 29.85,
+        "y": 556.28,
+        "w": 5.49,
+        "h": 8.6
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 33.2,
+        "y": 557,
+        "w": 6.76,
+        "h": 6.3
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
           "borderColor": "#000000",
           "borderWidth": 0
         }
@@ -1493,12 +3755,12 @@
       "text": "新币账户",
       "box": {
         "x": 62,
-        "y": 658.97,
+        "y": 559.41,
         "w": 48,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 12,
         "fontWeight": 900,
         "lineHeight": 14.06,
@@ -1531,13 +3793,13 @@
       "type": "div",
       "text": "50.00",
       "box": {
-        "x": 284,
-        "y": 657.47,
-        "w": 43.48,
-        "h": 18
+        "x": 298.48,
+        "y": 557.23,
+        "w": 31.5,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -1570,13 +3832,13 @@
       "type": "div",
       "text": "SGD",
       "box": {
-        "x": 331.48,
-        "y": 660.47,
-        "w": 26.52,
-        "h": 15
+        "x": 333.98,
+        "y": 559.23,
+        "w": 24.02,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -1603,29 +3865,29 @@
       }
     },
     {
-      "key": "div.css-text-146c3p1",
+      "key": "path",
       "figmaId": null,
-      "name": "div.css-text-146c3p1",
-      "type": "div",
-      "text": "£",
+      "name": "path",
+      "type": "path",
+      "text": null,
       "box": {
-        "x": 40.67,
-        "y": 721,
-        "w": 6.64,
-        "h": 12
+        "x": 28,
+        "y": 608.44,
+        "w": 32,
+        "h": 24
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
-        "fontSize": 10,
-        "fontWeight": 700,
-        "lineHeight": "normal",
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
         "letterSpacing": 0,
         "textAlign": "START",
         "textTransform": "none",
-        "color": "#eabb62",
-        "backgroundColor": "transparent",
+        "color": "#000000",
+        "backgroundColor": "#012169",
         "borderRadius": 0,
-        "borderColor": "#000000",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -1635,7 +3897,163 @@
         },
         "boxShadow": null,
         "parentStyle": {
-          "backgroundColor": "#f3f1e8",
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 28,
+        "y": 608.44,
+        "w": 32,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 28,
+        "y": 608.44,
+        "w": 32,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#c8102e",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 28,
+        "y": 608.44,
+        "w": 32,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 28,
+        "y": 608.44,
+        "w": 32,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#c8102e",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
           "borderColor": "#000000",
           "borderWidth": 0
         }
@@ -1649,12 +4067,12 @@
       "text": "英镑账户",
       "box": {
         "x": 62,
-        "y": 718.97,
+        "y": 613.41,
         "w": 48,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 12,
         "fontWeight": 900,
         "lineHeight": 14.06,
@@ -1687,13 +4105,13 @@
       "type": "div",
       "text": "50.00",
       "box": {
-        "x": 284.63,
-        "y": 717.47,
-        "w": 43.48,
-        "h": 18
+        "x": 299.16,
+        "y": 611.23,
+        "w": 31.5,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -1726,13 +4144,13 @@
       "type": "div",
       "text": "GBP",
       "box": {
-        "x": 332.11,
-        "y": 720.47,
-        "w": 25.89,
-        "h": 15
+        "x": 334.66,
+        "y": 613.23,
+        "w": 23.34,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -1759,29 +4177,29 @@
       }
     },
     {
-      "key": "div.css-text-146c3p1",
+      "key": "circle",
       "figmaId": null,
-      "name": "div.css-text-146c3p1",
-      "type": "div",
-      "text": "T",
+      "name": "circle",
+      "type": "circle",
+      "text": null,
       "box": {
-        "x": 41.28,
-        "y": 781,
-        "w": 5.42,
-        "h": 12
+        "x": 32,
+        "y": 662.44,
+        "w": 24,
+        "h": 24
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
-        "fontSize": 10,
-        "fontWeight": 700,
-        "lineHeight": "normal",
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
         "letterSpacing": 0,
         "textAlign": "START",
         "textTransform": "none",
-        "color": "#eabb62",
-        "backgroundColor": "transparent",
+        "color": "#000000",
+        "backgroundColor": "#26a17b",
         "borderRadius": 0,
-        "borderColor": "#000000",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -1791,7 +4209,46 @@
         },
         "boxShadow": null,
         "parentStyle": {
-          "backgroundColor": "#f3f1e8",
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 36.72,
+        "y": 668.3,
+        "w": 14.49,
+        "h": 13.34
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
           "borderColor": "#000000",
           "borderWidth": 0
         }
@@ -1805,12 +4262,12 @@
       "text": "USDT账户",
       "box": {
         "x": 62,
-        "y": 778.97,
-        "w": 55.41,
-        "h": 15
+        "y": 667.41,
+        "w": 56.02,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 12,
         "fontWeight": 900,
         "lineHeight": 14.06,
@@ -1841,15 +4298,15 @@
       "figmaId": null,
       "name": "div.css-text-146c3p1",
       "type": "div",
-      "text": "50",
+      "text": "50.00",
       "box": {
-        "x": 304.39,
-        "y": 777.47,
-        "w": 18.77,
-        "h": 18
+        "x": 291.16,
+        "y": 665.23,
+        "w": 31.5,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -1882,13 +4339,13 @@
       "type": "div",
       "text": "USDT",
       "box": {
-        "x": 327.16,
-        "y": 780.47,
-        "w": 30.84,
-        "h": 15
+        "x": 326.66,
+        "y": 667.23,
+        "w": 31.34,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -1915,29 +4372,29 @@
       }
     },
     {
-      "key": "div.css-text-146c3p1",
+      "key": "circle",
       "figmaId": null,
-      "name": "div.css-text-146c3p1",
-      "type": "div",
-      "text": "C",
+      "name": "circle",
+      "type": "circle",
+      "text": null,
       "box": {
-        "x": 40.13,
-        "y": 841,
-        "w": 7.75,
-        "h": 12
+        "x": 32,
+        "y": 716.44,
+        "w": 24,
+        "h": 24
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
-        "fontSize": 10,
-        "fontWeight": 700,
-        "lineHeight": "normal",
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
         "letterSpacing": 0,
         "textAlign": "START",
         "textTransform": "none",
-        "color": "#eabb62",
-        "backgroundColor": "transparent",
+        "color": "#000000",
+        "backgroundColor": "#3e73c4",
         "borderRadius": 0,
-        "borderColor": "#000000",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -1947,7 +4404,85 @@
         },
         "boxShadow": null,
         "parentStyle": {
-          "backgroundColor": "#f3f1e8",
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 40.89,
+        "y": 722.93,
+        "w": 6.12,
+        "h": 10.97
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "path",
+      "figmaId": null,
+      "name": "path",
+      "type": "path",
+      "text": null,
+      "box": {
+        "x": 35.75,
+        "y": 720.56,
+        "w": 16.5,
+        "h": 15.75
+      },
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", \"HarmonyOS Sans SC\", -apple-system, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Segoe UI\", Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f0f0f0",
           "borderColor": "#000000",
           "borderWidth": 0
         }
@@ -1961,12 +4496,12 @@
       "text": "USDC账户",
       "box": {
         "x": 62,
-        "y": 838.97,
-        "w": 58.56,
-        "h": 15
+        "y": 721.41,
+        "w": 56.67,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 12,
         "fontWeight": 900,
         "lineHeight": 14.06,
@@ -1997,15 +4532,15 @@
       "figmaId": null,
       "name": "div.css-text-146c3p1",
       "type": "div",
-      "text": "50",
+      "text": "50.00",
       "box": {
-        "x": 300.8,
-        "y": 837.47,
-        "w": 18.77,
-        "h": 18
+        "x": 290.48,
+        "y": 719.23,
+        "w": 31.5,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -2038,13 +4573,13 @@
       "type": "div",
       "text": "USDC",
       "box": {
-        "x": 323.56,
-        "y": 840.47,
-        "w": 34.44,
-        "h": 15
+        "x": 325.98,
+        "y": 721.23,
+        "w": 32.02,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -2077,8 +4612,8 @@
       "type": "div",
       "text": null,
       "box": {
-        "x": 0,
-        "y": 881,
+        "x": 20,
+        "y": 770.44,
         "w": 2,
         "h": 16
       },
@@ -2116,13 +4651,13 @@
       "type": "div",
       "text": "实时汇率",
       "box": {
-        "x": 8,
-        "y": 878.5,
+        "x": 28,
+        "y": 767.94,
         "w": 56,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 14,
         "fontWeight": 700,
         "lineHeight": 24,
@@ -2155,8 +4690,8 @@
       "type": "path",
       "text": null,
       "box": {
-        "x": 332.17,
-        "y": 885.67,
+        "x": 352.17,
+        "y": 775.1,
         "w": 11.67,
         "h": 6.67
       },
@@ -2169,9 +4704,9 @@
         "textAlign": "CENTER",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#eabb62",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -2194,8 +4729,8 @@
       "type": "div",
       "text": null,
       "box": {
-        "x": 332.16,
-        "y": 885.66,
+        "x": 352.16,
+        "y": 775.09,
         "w": 11.66,
         "h": 6.66
       },
@@ -2233,8 +4768,8 @@
       "type": "path",
       "text": null,
       "box": {
-        "x": 20.12,
-        "y": 937.9,
+        "x": 40.12,
+        "y": 827.34,
         "w": 17.77,
         "h": 19.09
       },
@@ -2247,9 +4782,9 @@
         "textAlign": "CENTER",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#aaa286",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -2272,8 +4807,8 @@
       "type": "div",
       "text": null,
       "box": {
-        "x": 20.11,
-        "y": 937.89,
+        "x": 40.11,
+        "y": 827.33,
         "w": 17.77,
         "h": 19.09
       },
@@ -2311,8 +4846,8 @@
       "type": "path",
       "text": null,
       "box": {
-        "x": 63.94,
-        "y": 938.94,
+        "x": 83.94,
+        "y": 828.38,
         "w": 16.12,
         "h": 16.13
       },
@@ -2325,9 +4860,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#aaa286",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -2350,8 +4885,8 @@
       "type": "div",
       "text": null,
       "box": {
-        "x": 63.94,
-        "y": 938.94,
+        "x": 83.94,
+        "y": 828.38,
         "w": 16.13,
         "h": 16.13
       },
@@ -2389,13 +4924,13 @@
       "type": "div",
       "text": "搜索币种",
       "box": {
-        "x": 89,
-        "y": 937.8,
+        "x": 109,
+        "y": 827.23,
         "w": 56,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 400,
         "lineHeight": 16.41,
@@ -2428,13 +4963,13 @@
       "type": "input",
       "text": null,
       "box": {
-        "x": 89,
-        "y": 938,
+        "x": 109,
+        "y": 827.44,
         "w": 236,
         "h": 18
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 400,
         "lineHeight": 16.41,
@@ -2467,13 +5002,13 @@
       "type": "div",
       "text": "币对",
       "box": {
-        "x": 13,
-        "y": 982.97,
+        "x": 33,
+        "y": 873.41,
         "w": 24,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -2506,13 +5041,13 @@
       "type": "div",
       "text": "买入",
       "box": {
-        "x": 156.17,
-        "y": 982.97,
+        "x": 176.17,
+        "y": 873.41,
         "w": 24,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -2545,13 +5080,13 @@
       "type": "div",
       "text": "卖出",
       "box": {
-        "x": 273.59,
-        "y": 982.97,
+        "x": 293.59,
+        "y": 873.41,
         "w": 24,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -2584,13 +5119,13 @@
       "type": "div",
       "text": "USD/CNY",
       "box": {
-        "x": 13,
-        "y": 1016.8,
-        "w": 65.81,
-        "h": 18
+        "x": 33,
+        "y": 906.23,
+        "w": 61.47,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -2623,13 +5158,13 @@
       "type": "div",
       "text": "7.1450",
       "box": {
-        "x": 156.17,
-        "y": 1017.97,
-        "w": 37.84,
-        "h": 15
+        "x": 176.17,
+        "y": 908.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -2662,13 +5197,13 @@
       "type": "div",
       "text": "7.0321",
       "box": {
-        "x": 273.59,
-        "y": 1017.97,
-        "w": 37.61,
-        "h": 15
+        "x": 293.59,
+        "y": 908.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -2701,13 +5236,13 @@
       "type": "div",
       "text": "USD/HKD",
       "box": {
-        "x": 13,
-        "y": 1052.8,
-        "w": 65.61,
-        "h": 18
+        "x": 33,
+        "y": 942.23,
+        "w": 62.23,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -2740,13 +5275,13 @@
       "type": "div",
       "text": "7.1450",
       "box": {
-        "x": 156.17,
-        "y": 1053.97,
-        "w": 37.84,
-        "h": 15
+        "x": 176.17,
+        "y": 944.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -2779,13 +5314,13 @@
       "type": "div",
       "text": "7.0321",
       "box": {
-        "x": 273.59,
-        "y": 1053.97,
-        "w": 37.61,
-        "h": 15
+        "x": 293.59,
+        "y": 944.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -2818,13 +5353,13 @@
       "type": "div",
       "text": "USD/USDT",
       "box": {
-        "x": 13,
-        "y": 1088.8,
-        "w": 71.88,
-        "h": 18
+        "x": 33,
+        "y": 978.23,
+        "w": 68.47,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -2857,13 +5392,13 @@
       "type": "div",
       "text": "7.1450",
       "box": {
-        "x": 156.17,
-        "y": 1089.97,
-        "w": 37.84,
-        "h": 15
+        "x": 176.17,
+        "y": 980.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -2896,13 +5431,13 @@
       "type": "div",
       "text": "7.0321",
       "box": {
-        "x": 273.59,
-        "y": 1089.97,
-        "w": 37.61,
-        "h": 15
+        "x": 293.59,
+        "y": 980.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -2935,13 +5470,13 @@
       "type": "div",
       "text": "USD/EUR",
       "box": {
-        "x": 13,
-        "y": 1124.8,
-        "w": 63.13,
-        "h": 18
+        "x": 33,
+        "y": 1014.23,
+        "w": 59.91,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -2974,13 +5509,13 @@
       "type": "div",
       "text": "7.1450",
       "box": {
-        "x": 156.17,
-        "y": 1125.97,
-        "w": 37.84,
-        "h": 15
+        "x": 176.17,
+        "y": 1016.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3013,13 +5548,13 @@
       "type": "div",
       "text": "7.0321",
       "box": {
-        "x": 273.59,
-        "y": 1125.97,
-        "w": 37.61,
-        "h": 15
+        "x": 293.59,
+        "y": 1016.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3052,13 +5587,13 @@
       "type": "div",
       "text": "USD/SGD",
       "box": {
-        "x": 13,
-        "y": 1160.8,
-        "w": 66.53,
-        "h": 18
+        "x": 33,
+        "y": 1050.23,
+        "w": 59.91,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -3091,13 +5626,13 @@
       "type": "div",
       "text": "7.1450",
       "box": {
-        "x": 156.17,
-        "y": 1161.97,
-        "w": 37.84,
-        "h": 15
+        "x": 176.17,
+        "y": 1052.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3130,13 +5665,13 @@
       "type": "div",
       "text": "7.0321",
       "box": {
-        "x": 273.59,
-        "y": 1161.97,
-        "w": 37.61,
-        "h": 15
+        "x": 293.59,
+        "y": 1052.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3169,13 +5704,13 @@
       "type": "div",
       "text": "USD/JPY",
       "box": {
-        "x": 13,
-        "y": 1196.8,
-        "w": 58.72,
-        "h": 18
+        "x": 33,
+        "y": 1086.23,
+        "w": 55.25,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -3208,13 +5743,13 @@
       "type": "div",
       "text": "7.1450",
       "box": {
-        "x": 156.17,
-        "y": 1197.97,
-        "w": 37.84,
-        "h": 15
+        "x": 176.17,
+        "y": 1088.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3247,13 +5782,13 @@
       "type": "div",
       "text": "7.0321",
       "box": {
-        "x": 273.59,
-        "y": 1197.97,
-        "w": 37.61,
-        "h": 15
+        "x": 293.59,
+        "y": 1088.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3286,13 +5821,13 @@
       "type": "div",
       "text": "USD/GBP",
       "box": {
-        "x": 13,
-        "y": 1232.8,
-        "w": 65.83,
-        "h": 18
+        "x": 33,
+        "y": 1122.23,
+        "w": 59.14,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -3325,13 +5860,13 @@
       "type": "div",
       "text": "7.1450",
       "box": {
-        "x": 156.17,
-        "y": 1233.97,
-        "w": 37.84,
-        "h": 15
+        "x": 176.17,
+        "y": 1124.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3364,13 +5899,13 @@
       "type": "div",
       "text": "7.0321",
       "box": {
-        "x": 273.59,
-        "y": 1233.97,
-        "w": 37.61,
-        "h": 15
+        "x": 293.59,
+        "y": 1124.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3403,13 +5938,13 @@
       "type": "div",
       "text": "USD/AUD",
       "box": {
-        "x": 13,
-        "y": 1268.8,
-        "w": 65.06,
-        "h": 18
+        "x": 33,
+        "y": 1158.23,
+        "w": 62.23,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -3442,13 +5977,13 @@
       "type": "div",
       "text": "7.1450",
       "box": {
-        "x": 156.17,
-        "y": 1269.97,
-        "w": 37.84,
-        "h": 15
+        "x": 176.17,
+        "y": 1160.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3481,13 +6016,13 @@
       "type": "div",
       "text": "7.0321",
       "box": {
-        "x": 273.59,
-        "y": 1269.97,
-        "w": 37.61,
-        "h": 15
+        "x": 293.59,
+        "y": 1160.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3520,13 +6055,13 @@
       "type": "div",
       "text": "USD/CAD",
       "box": {
-        "x": 13,
-        "y": 1304.8,
-        "w": 66.38,
-        "h": 18
+        "x": 33,
+        "y": 1194.23,
+        "w": 61.47,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -3559,13 +6094,13 @@
       "type": "div",
       "text": "7.1450",
       "box": {
-        "x": 156.17,
-        "y": 1305.97,
-        "w": 37.84,
-        "h": 15
+        "x": 176.17,
+        "y": 1196.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3598,13 +6133,13 @@
       "type": "div",
       "text": "7.0321",
       "box": {
-        "x": 273.59,
-        "y": 1305.97,
-        "w": 37.61,
-        "h": 15
+        "x": 293.59,
+        "y": 1196.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3637,13 +6172,13 @@
       "type": "div",
       "text": "USD/CHF",
       "box": {
-        "x": 13,
-        "y": 1340.8,
-        "w": 65.03,
-        "h": 18
+        "x": 33,
+        "y": 1230.23,
+        "w": 59.14,
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -3676,13 +6211,13 @@
       "type": "div",
       "text": "7.1450",
       "box": {
-        "x": 156.17,
-        "y": 1341.97,
-        "w": 37.84,
-        "h": 15
+        "x": 176.17,
+        "y": 1232.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3715,13 +6250,13 @@
       "type": "div",
       "text": "7.0321",
       "box": {
-        "x": 273.59,
-        "y": 1341.97,
-        "w": 37.61,
-        "h": 15
+        "x": 293.59,
+        "y": 1232.41,
+        "w": 33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -3754,13 +6289,13 @@
       "type": "div",
       "text": "查看更多",
       "box": {
-        "x": 151,
-        "y": 1385.97,
+        "x": 171,
+        "y": 1276.41,
         "w": 48,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 12,
         "fontWeight": 700,
         "lineHeight": 14.06,
@@ -3794,7 +6329,7 @@
       "text": null,
       "box": {
         "x": 20,
-        "y": 1447,
+        "y": 1336.44,
         "w": 2,
         "h": 16
       },
@@ -3833,12 +6368,12 @@
       "text": "交易记录",
       "box": {
         "x": 30,
-        "y": 1446,
+        "y": 1335.44,
         "w": 56,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 14,
         "fontWeight": 700,
         "lineHeight": 24,
@@ -3872,19 +6407,19 @@
       "text": "法币",
       "box": {
         "x": 95.5,
-        "y": 1493.8,
+        "y": 1383.23,
         "w": 28,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Bold",
         "fontSize": 14,
-        "fontWeight": 400,
+        "fontWeight": 700,
         "lineHeight": 16.41,
         "letterSpacing": 0,
         "textAlign": "START",
         "textTransform": "none",
-        "color": "#3d3218",
+        "color": "#ffffff",
         "backgroundColor": "transparent",
         "borderRadius": 0,
         "borderColor": "#000000",
@@ -3911,14 +6446,14 @@
       "text": "虚拟币",
       "box": {
         "x": 259.5,
-        "y": 1493.8,
+        "y": 1383.23,
         "w": 42,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Bold",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
-        "fontWeight": 400,
+        "fontWeight": 500,
         "lineHeight": 16.41,
         "letterSpacing": 0,
         "textAlign": "START",
@@ -3949,13 +6484,13 @@
       "type": "div",
       "text": "交易明细",
       "box": {
-        "x": 28,
-        "y": 1544,
+        "x": 41.25,
+        "y": 1428.44,
         "w": 48,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -3988,13 +6523,13 @@
       "type": "div",
       "text": "存款记录",
       "box": {
-        "x": 123.33,
-        "y": 1544,
+        "x": 127.75,
+        "y": 1428.44,
         "w": 48,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -4027,13 +6562,13 @@
       "type": "div",
       "text": "提现记录",
       "box": {
-        "x": 218.67,
-        "y": 1544,
+        "x": 214.25,
+        "y": 1428.44,
         "w": 48,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -4066,13 +6601,52 @@
       "type": "div",
       "text": "兑换记录",
       "box": {
-        "x": 314,
-        "y": 1544,
+        "x": 300.75,
+        "y": 1428.44,
         "w": 48,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "START",
+        "textTransform": "none",
+        "color": "#aaa286",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "borderColor": "#000000",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": {
+          "backgroundColor": "#f9f9fa",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        }
+      }
+    },
+    {
+      "key": "div.css-text-146c3p1",
+      "figmaId": null,
+      "name": "div.css-text-146c3p1",
+      "type": "div",
+      "text": "查看全部",
+      "box": {
+        "x": 322,
+        "y": 1466.44,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -4105,8 +6679,8 @@
       "type": "path",
       "text": null,
       "box": {
-        "x": 31,
-        "y": 1590.9,
+        "x": 43,
+        "y": 1522.33,
         "w": 10,
         "h": 13.33
       },
@@ -4119,9 +6693,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#00d17d",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -4144,13 +6718,13 @@
       "type": "div",
       "text": "入金",
       "box": {
-        "x": 64,
-        "y": 1580.06,
+        "x": 76,
+        "y": 1511.5,
         "w": 28,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -4183,13 +6757,13 @@
       "type": "div",
       "text": "2026-05-15 19:13",
       "box": {
-        "x": 64,
-        "y": 1599.47,
-        "w": 101.77,
-        "h": 15
+        "x": 76,
+        "y": 1531.91,
+        "w": 86.33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -4222,13 +6796,13 @@
       "type": "div",
       "text": "+120.00 USD",
       "box": {
-        "x": 269.66,
-        "y": 1589.53,
-        "w": 76.34,
-        "h": 15
+        "x": 291.2,
+        "y": 1521.97,
+        "w": 66.8,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -4261,8 +6835,8 @@
       "type": "path",
       "text": null,
       "box": {
-        "x": 31,
-        "y": 1631.9,
+        "x": 43,
+        "y": 1575.33,
         "w": 10,
         "h": 13.33
       },
@@ -4275,9 +6849,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#00d17d",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -4300,13 +6874,13 @@
       "type": "div",
       "text": "入金",
       "box": {
-        "x": 64,
-        "y": 1621.06,
+        "x": 76,
+        "y": 1564.5,
         "w": 28,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -4339,13 +6913,13 @@
       "type": "div",
       "text": "2026-05-15 19:13",
       "box": {
-        "x": 64,
-        "y": 1640.47,
-        "w": 101.77,
-        "h": 15
+        "x": 76,
+        "y": 1584.91,
+        "w": 86.33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -4378,13 +6952,13 @@
       "type": "div",
       "text": "+120.00 USD",
       "box": {
-        "x": 269.66,
-        "y": 1630.53,
-        "w": 76.34,
-        "h": 15
+        "x": 291.2,
+        "y": 1574.97,
+        "w": 66.8,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -4417,8 +6991,8 @@
       "type": "path",
       "text": null,
       "box": {
-        "x": 31,
-        "y": 1672.9,
+        "x": 43,
+        "y": 1628.33,
         "w": 10,
         "h": 13.33
       },
@@ -4431,9 +7005,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#00d17d",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -4456,13 +7030,13 @@
       "type": "div",
       "text": "入金",
       "box": {
-        "x": 64,
-        "y": 1662.06,
+        "x": 76,
+        "y": 1617.5,
         "w": 28,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -4495,13 +7069,13 @@
       "type": "div",
       "text": "2026-05-15 19:13",
       "box": {
-        "x": 64,
-        "y": 1681.47,
-        "w": 101.77,
-        "h": 15
+        "x": 76,
+        "y": 1637.91,
+        "w": 86.33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -4534,13 +7108,13 @@
       "type": "div",
       "text": "+120.00 USD",
       "box": {
-        "x": 269.66,
-        "y": 1671.53,
-        "w": 76.34,
-        "h": 15
+        "x": 291.2,
+        "y": 1627.97,
+        "w": 66.8,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -4573,8 +7147,8 @@
       "type": "path",
       "text": null,
       "box": {
-        "x": 31,
-        "y": 1713.9,
+        "x": 43,
+        "y": 1681.33,
         "w": 10,
         "h": 13.33
       },
@@ -4587,9 +7161,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#00d17d",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -4612,13 +7186,13 @@
       "type": "div",
       "text": "入金",
       "box": {
-        "x": 64,
-        "y": 1703.06,
+        "x": 76,
+        "y": 1670.5,
         "w": 28,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -4651,13 +7225,13 @@
       "type": "div",
       "text": "2026-05-15 19:13",
       "box": {
-        "x": 64,
-        "y": 1722.47,
-        "w": 101.77,
-        "h": 15
+        "x": 76,
+        "y": 1690.91,
+        "w": 86.33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -4690,13 +7264,13 @@
       "type": "div",
       "text": "+120.00 USD",
       "box": {
-        "x": 269.66,
-        "y": 1712.53,
-        "w": 76.34,
-        "h": 15
+        "x": 291.2,
+        "y": 1680.97,
+        "w": 66.8,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -4729,8 +7303,8 @@
       "type": "path",
       "text": null,
       "box": {
-        "x": 31,
-        "y": 1754.9,
+        "x": 43,
+        "y": 1734.33,
         "w": 10,
         "h": 13.33
       },
@@ -4743,9 +7317,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#00d17d",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -4768,13 +7342,13 @@
       "type": "div",
       "text": "入金",
       "box": {
-        "x": 64,
-        "y": 1744.06,
+        "x": 76,
+        "y": 1723.5,
         "w": 28,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -4807,13 +7381,13 @@
       "type": "div",
       "text": "2026-05-15 19:13",
       "box": {
-        "x": 64,
-        "y": 1763.47,
-        "w": 101.77,
-        "h": 15
+        "x": 76,
+        "y": 1743.91,
+        "w": 86.33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -4846,13 +7420,13 @@
       "type": "div",
       "text": "+120.00 USD",
       "box": {
-        "x": 269.66,
-        "y": 1753.53,
-        "w": 76.34,
-        "h": 15
+        "x": 291.2,
+        "y": 1733.97,
+        "w": 66.8,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -4885,8 +7459,8 @@
       "type": "path",
       "text": null,
       "box": {
-        "x": 31,
-        "y": 1795.9,
+        "x": 43,
+        "y": 1787.33,
         "w": 10,
         "h": 13.33
       },
@@ -4899,9 +7473,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#00d17d",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -4924,13 +7498,13 @@
       "type": "div",
       "text": "入金",
       "box": {
-        "x": 64,
-        "y": 1785.06,
+        "x": 76,
+        "y": 1776.5,
         "w": 28,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -4963,13 +7537,13 @@
       "type": "div",
       "text": "2026-05-15 19:13",
       "box": {
-        "x": 64,
-        "y": 1804.47,
-        "w": 101.77,
-        "h": 15
+        "x": 76,
+        "y": 1796.91,
+        "w": 86.33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -5002,13 +7576,13 @@
       "type": "div",
       "text": "+120.00 USD",
       "box": {
-        "x": 269.66,
-        "y": 1794.53,
-        "w": 76.34,
-        "h": 15
+        "x": 291.2,
+        "y": 1786.97,
+        "w": 66.8,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -5041,8 +7615,8 @@
       "type": "path",
       "text": null,
       "box": {
-        "x": 31,
-        "y": 1836.9,
+        "x": 43,
+        "y": 1840.33,
         "w": 10,
         "h": 13.33
       },
@@ -5055,9 +7629,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#00d17d",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -5080,13 +7654,13 @@
       "type": "div",
       "text": "入金",
       "box": {
-        "x": 64,
-        "y": 1826.06,
+        "x": 76,
+        "y": 1829.5,
         "w": 28,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -5119,13 +7693,13 @@
       "type": "div",
       "text": "2026-05-15 19:13",
       "box": {
-        "x": 64,
-        "y": 1845.47,
-        "w": 101.77,
-        "h": 15
+        "x": 76,
+        "y": 1849.91,
+        "w": 86.33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -5158,13 +7732,13 @@
       "type": "div",
       "text": "+120.00 USD",
       "box": {
-        "x": 269.66,
-        "y": 1835.53,
-        "w": 76.34,
-        "h": 15
+        "x": 291.2,
+        "y": 1839.97,
+        "w": 66.8,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -5197,8 +7771,8 @@
       "type": "path",
       "text": null,
       "box": {
-        "x": 31,
-        "y": 1877.9,
+        "x": 43,
+        "y": 1893.33,
         "w": 10,
         "h": 13.33
       },
@@ -5211,9 +7785,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#884dfe",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -5236,13 +7810,13 @@
       "type": "div",
       "text": "出金",
       "box": {
-        "x": 64,
-        "y": 1867.06,
+        "x": 76,
+        "y": 1882.5,
         "w": 28,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -5275,13 +7849,13 @@
       "type": "div",
       "text": "2026-05-15 19:13",
       "box": {
-        "x": 64,
-        "y": 1886.47,
-        "w": 101.77,
-        "h": 15
+        "x": 76,
+        "y": 1902.91,
+        "w": 86.33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -5314,13 +7888,13 @@
       "type": "div",
       "text": "-120.00 USD",
       "box": {
-        "x": 270.77,
-        "y": 1876.53,
-        "w": 75.23,
-        "h": 15
+        "x": 293.98,
+        "y": 1892.97,
+        "w": 64.02,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -5353,8 +7927,8 @@
       "type": "circle",
       "text": null,
       "box": {
-        "x": 27.67,
-        "y": 1920.23,
+        "x": 39.67,
+        "y": 1947.67,
         "w": 16.67,
         "h": 16.67
       },
@@ -5367,9 +7941,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#f9ac1c",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -5392,8 +7966,8 @@
       "type": "path",
       "text": null,
       "box": {
-        "x": 36,
-        "y": 1925.23,
+        "x": 48,
+        "y": 1952.67,
         "w": 2.08,
         "h": 5.42
       },
@@ -5406,9 +7980,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#f9ac1c",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -5431,13 +8005,13 @@
       "type": "div",
       "text": "审核中",
       "box": {
-        "x": 64,
-        "y": 1910.86,
+        "x": 76,
+        "y": 1938.3,
         "w": 42,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -5470,13 +8044,13 @@
       "type": "div",
       "text": "入金",
       "box": {
-        "x": 124,
-        "y": 1912.03,
+        "x": 136,
+        "y": 1940.47,
         "w": 24,
-        "h": 15
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -5496,7 +8070,7 @@
         },
         "boxShadow": null,
         "parentStyle": {
-          "backgroundColor": "#00d17d@0.10",
+          "backgroundColor": "#00d17d@0.15",
           "borderColor": "#000000",
           "borderWidth": 0
         }
@@ -5509,13 +8083,13 @@
       "type": "div",
       "text": "2026-05-15 19:13",
       "box": {
-        "x": 64,
-        "y": 1933.06,
-        "w": 101.77,
-        "h": 15
+        "x": 76,
+        "y": 1961.5,
+        "w": 86.33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -5548,13 +8122,13 @@
       "type": "div",
       "text": "+120.00 USD",
       "box": {
-        "x": 269.66,
-        "y": 1920.53,
-        "w": 76.34,
-        "h": 15
+        "x": 291.2,
+        "y": 1948.97,
+        "w": 66.8,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -5587,8 +8161,8 @@
       "type": "circle",
       "text": null,
       "box": {
-        "x": 27.67,
-        "y": 1964.23,
+        "x": 39.67,
+        "y": 2003.67,
         "w": 16.67,
         "h": 16.67
       },
@@ -5601,9 +8175,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#f52f32",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -5626,8 +8200,8 @@
       "type": "circle",
       "text": null,
       "box": {
-        "x": 35.17,
-        "y": 1975.06,
+        "x": 47.17,
+        "y": 2014.5,
         "w": 1.67,
         "h": 1.67
       },
@@ -5640,9 +8214,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#f52f32",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -5665,13 +8239,13 @@
       "type": "div",
       "text": "出款失败",
       "box": {
-        "x": 64,
-        "y": 1955.06,
+        "x": 76,
+        "y": 1994.5,
         "w": 56,
-        "h": 18
+        "h": 17
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 14,
         "fontWeight": 500,
         "lineHeight": 16.41,
@@ -5704,13 +8278,13 @@
       "type": "div",
       "text": "2026-05-15 19:13",
       "box": {
-        "x": 64,
-        "y": 1974.47,
-        "w": 101.77,
-        "h": 15
+        "x": 76,
+        "y": 2014.91,
+        "w": 86.33,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Regular",
+        "fontFamily": "SpxBrand-Regular",
         "fontSize": 12,
         "fontWeight": 400,
         "lineHeight": 14.06,
@@ -5743,13 +8317,13 @@
       "type": "div",
       "text": "+120.00 USD",
       "box": {
-        "x": 269.66,
-        "y": 1964.53,
-        "w": 76.34,
-        "h": 15
+        "x": 291.2,
+        "y": 2004.97,
+        "w": 66.8,
+        "h": 14
       },
       "style": {
-        "fontFamily": "PlusJakartaSans-Medium",
+        "fontFamily": "SpxBrand-Medium",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 14.06,
@@ -5835,9 +8409,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#eabb62",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -5874,9 +8448,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#eabb62",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -5913,9 +8487,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#eabb62",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -5952,9 +8526,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#eabb62",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -5991,9 +8565,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#aaa286",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6030,9 +8604,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#aaa286",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6069,9 +8643,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#aaa286",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6108,9 +8682,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#aaa286",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#000000@0.00",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6186,9 +8760,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#eabb62",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6225,9 +8799,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#eabb62",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6264,9 +8838,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#aaa286",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6303,9 +8877,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#aaa286",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6381,9 +8955,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#eabb62",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6420,9 +8994,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#aaa286",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6498,9 +9072,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#eabb62",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6537,9 +9111,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#eabb62",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6576,9 +9150,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#eabb62",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6615,9 +9189,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#aaa286",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6654,9 +9228,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#aaa286",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6693,9 +9267,9 @@
         "textAlign": "START",
         "textTransform": "none",
         "color": "#000000",
-        "backgroundColor": "transparent",
+        "backgroundColor": "#000000@0.00",
         "borderRadius": 0,
-        "borderColor": "#e5e7eb",
+        "borderColor": "#aaa286",
         "borderWidth": 0,
         "padding": {
           "t": 0,
@@ -6762,9 +9336,481 @@
       ],
       "box": {
         "x": 327,
-        "y": 212,
+        "y": 168,
         "w": 14,
         "h": 14
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M12 4L12 20M6 14L12 20L18 14"
+      ],
+      "box": {
+        "x": 40,
+        "y": 282.44,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M12 4L12 20M6 14L12 20L18 14"
+      ],
+      "box": {
+        "x": 111.5,
+        "y": 282.44,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M18 8L6 8M10.125 12L6 8L10.125 4",
+        "M6 16L18 16M13.875 20L18 16L13.875 12"
+      ],
+      "box": {
+        "x": 183,
+        "y": 282.44,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M3.67981 11.3333H2.92981V11.3333H3.67981ZM3.67981 13L3.15157 13.5324C3.44398 13.8225 3.91565 13.8225 4.20805 13.5324L3.67981 13ZM5.88787 11.8657C6.18191 11.574 6.18377 11.0991 5.89203 10.8051C5.60029 10.511 5.12542 10.5092 4.83138 10.8009L5.35962 11.3333L5.88787 11.8657ZM2.52824 10.8009C2.2342 10.5092 1.75933 10.511 1.46759 10.8051C1.17585 11.0991 1.17772 11.574 1.47176 11.8657L2 11.3333L2.52824 10.8009ZM18.6156 7.39279C18.8325 7.74565 19.2944 7.85585 19.6473 7.63892C20.0001 7.42199 20.1103 6.96007 19.8934 6.60721L19.2545 7L18.6156 7.39279ZM12.0789 3V2.25C7.03155 2.25 2.92981 6.3112 2.92981 11.3333H3.67981H4.42981C4.42981 7.15072 7.84884 3.75 12.0789 3.75V3ZM3.67981 11.3333H2.92981L2.92981 13H3.67981H4.42981L4.42981 11.3333H3.67981ZM3.67981 13L4.20805 13.5324L5.88787 11.8657L5.35962 11.3333L4.83138 10.8009L3.15157 12.4676L3.67981 13ZM3.67981 13L4.20805 12.4676L2.52824 10.8009L2 11.3333L1.47176 11.8657L3.15157 13.5324L3.67981 13ZM19.2545 7L19.8934 6.60721C18.287 3.99427 15.3873 2.25 12.0789 2.25V3V3.75C14.8484 3.75 17.2727 5.20845 18.6156 7.39279L19.2545 7Z",
+        "M20.3139 11L20.8411 10.4666C20.549 10.1778 20.0788 10.1778 19.7867 10.4666L20.3139 11ZM18.1004 12.1333C17.8058 12.4244 17.8031 12.8993 18.0942 13.1939C18.3854 13.4885 18.8603 13.4913 19.1549 13.2001L18.6277 12.6667L18.1004 12.1333ZM21.4729 13.2001C21.7675 13.4913 22.2424 13.4885 22.5335 13.1939C22.8247 12.8993 22.822 12.4244 22.5274 12.1332L22.0001 12.6667L21.4729 13.2001ZM5.31794 16.6061C5.1004 16.2536 4.6383 16.1442 4.28581 16.3618C3.93331 16.5793 3.82391 17.0414 4.04144 17.3939L4.67969 17L5.31794 16.6061ZM11.8827 21V21.75C16.9451 21.75 21.0639 17.6915 21.0639 12.6667H20.3139H19.5639C19.5639 16.8466 16.1332 20.25 11.8827 20.25V21ZM20.3139 12.6667H21.0639V11H20.3139H19.5639V12.6667H20.3139ZM20.3139 11L19.7867 10.4666L18.1004 12.1333L18.6277 12.6667L19.1549 13.2001L20.8411 11.5334L20.3139 11ZM20.3139 11L19.7867 11.5334L21.4729 13.2001L22.0001 12.6667L22.5274 12.1332L20.8411 10.4666L20.3139 11ZM4.67969 17L4.04144 17.3939C5.65405 20.007 8.56403 21.75 11.8827 21.75V21V20.25C9.10023 20.25 6.66584 18.7903 5.31794 16.6061L4.67969 17Z"
+      ],
+      "box": {
+        "x": 254.5,
+        "y": 282.44,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M16 4.00195C18.175 4.01406 19.3529 4.11051 20.1213 4.87889C21 5.75757 21 7.17179 21 10.0002V16.0002C21 18.8286 21 20.2429 20.1213 21.1215C19.2426 22.0002 17.8284 22.0002 15 22.0002H9C6.17157 22.0002 4.75736 22.0002 3.87868 21.1215C3 20.2429 3 18.8286 3 16.0002V10.0002C3 7.17179 3 5.75757 3.87868 4.87889C4.64706 4.11051 5.82497 4.01406 8 4.00195",
+        "M7 14.5H15",
+        "M7 18H12.5",
+        "M8 3.5C8 2.67157 8.67157 2 9.5 2H14.5C15.3284 2 16 2.67157 16 3.5V4.5C16 5.32843 15.3284 6 14.5 6H9.5C8.67157 6 8 5.32843 8 4.5V3.5Z"
+      ],
+      "box": {
+        "x": 326,
+        "y": 282.44,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M0 0h640v480H0",
+        "M0 55.3h640M0 129h640M0 203h640M0 277h640M0 351h640M0 425h640",
+        "M0 0h364.8v258.5H0"
+      ],
+      "box": {
+        "x": 32,
+        "y": 392.44,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M0 0h640v480H0z"
+      ],
+      "box": {
+        "x": 32,
+        "y": 446.44,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M0 0h640v480H0",
+        "M346.3 103.1C267 98 230.6 201.9 305.6 240.3c-26-22.4-20.6-55.3-10.1-72.4l1.9 1.1c-13.8 23.5-11.2 52.7 11.1 71-12.7-12.3-9.5-39 12.1-48.9s23.6-39.3 16.4-49.1q-14.7-25.6 9.3-38.9M307.9 164l-4.7 7.4-1.8-8.6-8.6-2.3 7.8-4.3-.6-8.9 6.5 6.1 8.3-3.3-3.7 8.1 5.6 6.8z"
+      ],
+      "box": {
+        "x": 32,
+        "y": 500.44,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M0 0h640v480H0z",
+        "M0 0h640v240H0z",
+        "M146 40.2a84.4 84.4 0 0 0 .8 165.2 86 86 0 0 1-106.6-59 86 86 0 0 1 59-106c16-4.6 30.8-4.7 46.9-.2z",
+        "m133 110 4.9 15-13-9.2-12.8 9.4 4.7-15.2-12.8-9.3 15.9-.2 5-15 5 15h15.8zm17.5 52 5 15.1-13-9.2-12.9 9.3 4.8-15.1-12.8-9.4 15.9-.1 4.9-15.1 5 15h16zm58.5-.4 4.9 15.2-13-9.3-12.8 9.3 4.7-15.1-12.8-9.3 15.9-.2 5-15 5 15h15.8zm17.4-51.6 4.9 15.1-13-9.2-12.8 9.3 4.8-15.1-12.9-9.4 16-.1 4.8-15.1 5 15h16zm-46.3-34.3 5 15.2-13-9.3-12.9 9.4 4.8-15.2-12.8-9.4 15.8-.1 5-15.1 5 15h16z"
+      ],
+      "box": {
+        "x": 32,
+        "y": 554.44,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M0 0h640v480H0z",
+        "m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0z",
+        "m424 281 216 159v40L369 281zm-184 20 6 35L54 480H0zM640 0v3L391 191l2-44L590 0zM0 0l239 176h-60L0 42z",
+        "M241 0v480h160V0zM0 160v160h640V160z",
+        "M0 193v96h640v-96zM273 0v480h96V0z"
+      ],
+      "box": {
+        "x": 32,
+        "y": 608.44,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M17.922 17.383v-.002c-.11.008-.677.042-1.942.042-1.01 0-1.721-.03-1.971-.042v.003c-3.888-.171-6.79-.848-6.79-1.658 0-.809 2.902-1.486 6.79-1.66v2.644c.254.018.982.061 1.988.061 1.207 0 1.812-.05 1.925-.06v-2.643c3.88.173 6.775.85 6.775 1.658 0 .81-2.895 1.485-6.775 1.657m0-3.59v-2.366h5.414V7.819H8.595v3.608h5.414v2.365c-4.4.202-7.709 1.074-7.709 2.118 0 1.044 3.309 1.915 7.709 2.118v7.582h3.913v-7.584c4.393-.202 7.694-1.073 7.694-2.116 0-1.043-3.301-1.914-7.694-2.117"
+      ],
+      "box": {
+        "x": 32,
+        "y": 662.44,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "fontFamily": "",
+        "fontSize": 0,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "",
+        "textTransform": "none",
+        "color": "#000000@0.00",
+        "backgroundColor": "#000000@0.00",
+        "borderRadius": 0,
+        "borderColor": "#000000@0.00",
+        "borderWidth": 0,
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "boxShadow": null,
+        "parentStyle": null
+      }
+    },
+    {
+      "key": "svg-icon",
+      "figmaId": null,
+      "name": "svg-icon",
+      "type": "svg",
+      "text": null,
+      "svgPaths": [
+        "M20.022 18.124c0-2.124-1.28-2.852-3.84-3.156-1.828-.243-2.193-.728-2.193-1.578 0-.85.61-1.396 1.828-1.396 1.097 0 1.707.364 2.011 1.275a.458.458 0 00.427.303h.975a.416.416 0 00.427-.425v-.06a3.04 3.04 0 00-2.743-2.489V9.142c0-.243-.183-.425-.487-.486h-.915c-.243 0-.426.182-.487.486v1.396c-1.829.242-2.986 1.456-2.986 2.974 0 2.002 1.218 2.791 3.778 3.095 1.707.303 2.255.668 2.255 1.639 0 .97-.853 1.638-2.011 1.638-1.585 0-2.133-.667-2.316-1.578-.06-.242-.244-.364-.427-.364h-1.036a.416.416 0 00-.426.425v.06c.243 1.518 1.219 2.61 3.23 2.914v1.457c0 .242.183.425.487.485h.915c.243 0 .426-.182.487-.485V21.34c1.829-.303 3.047-1.578 3.047-3.217z",
+        "M12.892 24.497c-4.754-1.7-7.192-6.98-5.424-11.653.914-2.55 2.925-4.491 5.424-5.402.244-.121.365-.303.365-.607v-.85c0-.242-.121-.424-.365-.485-.061 0-.183 0-.244.06a10.895 10.895 0 00-7.13 13.717c1.096 3.4 3.717 6.01 7.13 7.102.244.121.488 0 .548-.243.061-.06.061-.122.061-.243v-.85c0-.182-.182-.424-.365-.546zm6.46-18.936c-.244-.122-.488 0-.548.242-.061.061-.061.122-.061.243v.85c0 .243.182.485.365.607 4.754 1.7 7.192 6.98 5.424 11.653-.914 2.55-2.925 4.491-5.424 5.402-.244.121-.365.303-.365.607v.85c0 .242.121.424.365.485.061 0 .183 0 .244-.06a10.895 10.895 0 007.13-13.717c-1.096-3.46-3.778-6.07-7.13-7.162z"
+      ],
+      "box": {
+        "x": 32,
+        "y": 716.44,
+        "w": 24,
+        "h": 24
       },
       "style": {
         "fontFamily": "",
@@ -6799,8 +9845,8 @@
         "M10.308 6.80372L15.6661 12.3291C16.0004 12.6739 15.7978 13.333 15.3574 13.333H4.64127C4.20092 13.333 3.99826 12.6739 4.3326 12.3291L9.69068 6.80372C9.8683 6.62055 10.1304 6.62055 10.308 6.80372Z"
       ],
       "box": {
-        "x": 328,
-        "y": 879,
+        "x": 348,
+        "y": 768.44,
         "w": 20,
         "h": 20
       },
@@ -6837,8 +9883,8 @@
         "M20.6601 9.0572L19.8646 8.26171C16.3499 4.74704 10.6515 4.74704 7.13683 8.26171C3.62216 11.7764 3.62215 17.4748 7.13683 20.9895C10.6515 24.5042 16.3499 24.5042 19.8646 20.9895C21.9085 18.9456 22.7638 16.1632 22.4305 13.5012M20.6601 4.28429V9.0572H15.8872"
       ],
       "box": {
-        "x": 15.67,
-        "y": 933.67,
+        "x": 35.67,
+        "y": 823.11,
         "w": 26.66,
         "h": 26.66
       },
@@ -6875,8 +9921,8 @@
         "M8.625 2.0625C5.00063 2.0625 2.0625 5.00063 2.0625 8.625C2.0625 12.2494 5.00063 15.1875 8.625 15.1875C12.2494 15.1875 15.1875 12.2494 15.1875 8.625C15.1875 5.00063 12.2494 2.0625 8.625 2.0625ZM0.9375 8.625C0.9375 4.37931 4.37931 0.9375 8.625 0.9375C12.8707 0.9375 16.3125 4.37931 16.3125 8.625C16.3125 12.8707 12.8707 16.3125 8.625 16.3125C4.37931 16.3125 0.9375 12.8707 0.9375 8.625ZM14.6023 14.6023C14.8219 14.3826 15.1781 14.3826 15.3977 14.6023L16.8977 16.1023C17.1174 16.3219 17.1174 16.6781 16.8977 16.8977C16.6781 17.1174 16.3219 17.1174 16.1023 16.8977L14.6023 15.3977C14.3826 15.1781 14.3826 14.8219 14.6023 14.6023Z"
       ],
       "box": {
-        "x": 63,
-        "y": 938,
+        "x": 83,
+        "y": 827.44,
         "w": 18,
         "h": 18
       },
@@ -6913,8 +9959,8 @@
         "M10 3.3335L10 16.6668M5 11.6668L10 16.6668L15 11.6668"
       ],
       "box": {
-        "x": 26,
-        "y": 1587.56,
+        "x": 38,
+        "y": 1519,
         "w": 20,
         "h": 20
       },
@@ -6951,8 +9997,8 @@
         "M10 3.3335L10 16.6668M5 11.6668L10 16.6668L15 11.6668"
       ],
       "box": {
-        "x": 26,
-        "y": 1628.56,
+        "x": 38,
+        "y": 1572,
         "w": 20,
         "h": 20
       },
@@ -6989,8 +10035,8 @@
         "M10 3.3335L10 16.6668M5 11.6668L10 16.6668L15 11.6668"
       ],
       "box": {
-        "x": 26,
-        "y": 1669.56,
+        "x": 38,
+        "y": 1625,
         "w": 20,
         "h": 20
       },
@@ -7027,8 +10073,8 @@
         "M10 3.3335L10 16.6668M5 11.6668L10 16.6668L15 11.6668"
       ],
       "box": {
-        "x": 26,
-        "y": 1710.56,
+        "x": 38,
+        "y": 1678,
         "w": 20,
         "h": 20
       },
@@ -7065,8 +10111,8 @@
         "M10 3.3335L10 16.6668M5 11.6668L10 16.6668L15 11.6668"
       ],
       "box": {
-        "x": 26,
-        "y": 1751.56,
+        "x": 38,
+        "y": 1731,
         "w": 20,
         "h": 20
       },
@@ -7103,8 +10149,8 @@
         "M10 3.3335L10 16.6668M5 11.6668L10 16.6668L15 11.6668"
       ],
       "box": {
-        "x": 26,
-        "y": 1792.56,
+        "x": 38,
+        "y": 1784,
         "w": 20,
         "h": 20
       },
@@ -7141,8 +10187,8 @@
         "M10 3.3335L10 16.6668M5 11.6668L10 16.6668L15 11.6668"
       ],
       "box": {
-        "x": 26,
-        "y": 1833.56,
+        "x": 38,
+        "y": 1837,
         "w": 20,
         "h": 20
       },
@@ -7179,8 +10225,8 @@
         "M10 16.6665L10 3.33317M5 8.33317L10 3.33317L15 8.33317"
       ],
       "box": {
-        "x": 26,
-        "y": 1874.56,
+        "x": 38,
+        "y": 1890,
         "w": 20,
         "h": 20
       },
@@ -7217,8 +10263,8 @@
         "M10 6.6665V9.99984L12.0833 12.0832"
       ],
       "box": {
-        "x": 26,
-        "y": 1918.56,
+        "x": 38,
+        "y": 1946,
         "w": 20,
         "h": 20
       },
@@ -7255,8 +10301,8 @@
         "M10 5.8335V10.8335"
       ],
       "box": {
-        "x": 26,
-        "y": 1962.56,
+        "x": 38,
+        "y": 2002,
         "w": 20,
         "h": 20
       },

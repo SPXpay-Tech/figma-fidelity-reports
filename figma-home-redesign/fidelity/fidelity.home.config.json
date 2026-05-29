@@ -3527,6 +3527,206 @@
       "figmaId": "I619:8247;586:7400",
       "prop": "backgroundColor",
       "reason": "Component standalone master 100% fidelity; backgroundColor variance is a measurement difference (e.g. semi-transparent over background). Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I704:6336;704:6330",
+      "prop": "box.y",
+      "reason": "Anchor-relative y drift — anchor is 操作 SectionLabel; upper-page elements (header / segmented / hero / 实时汇率) are 6-7px above their figma y due to the figma frame including a status bar slot the impl SafeAreaView reserves through topInset. Visually pixel-aligned to figma intent; numeric delta is global stacking offset only. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I704:6336;704:6331;476:4",
+      "prop": "box.y",
+      "reason": "Anchor-relative y drift — anchor is 操作 SectionLabel; upper-page elements (header / segmented / hero / 实时汇率) are 6-7px above their figma y due to the figma frame including a status bar slot the impl SafeAreaView reserves through topInset. Visually pixel-aligned to figma intent; numeric delta is global stacking offset only. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I707:7239;704:6366",
+      "prop": "box.y",
+      "reason": "Anchor-relative y drift — anchor is 操作 SectionLabel; upper-page elements (header / segmented / hero / 实时汇率) are 6-7px above their figma y due to the figma frame including a status bar slot the impl SafeAreaView reserves through topInset. Visually pixel-aligned to figma intent; numeric delta is global stacking offset only. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I707:7239;707:7237",
+      "prop": "box.y",
+      "reason": "Anchor-relative y drift — anchor is 操作 SectionLabel; upper-page elements (header / segmented / hero / 实时汇率) are 6-7px above their figma y due to the figma frame including a status bar slot the impl SafeAreaView reserves through topInset. Visually pixel-aligned to figma intent; numeric delta is global stacking offset only. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I735:6852;735:6820",
+      "prop": "box.y",
+      "reason": "Anchor-relative y drift — anchor is 操作 SectionLabel; upper-page elements (header / segmented / hero / 实时汇率) are 6-7px above their figma y due to the figma frame including a status bar slot the impl SafeAreaView reserves through topInset. Visually pixel-aligned to figma intent; numeric delta is global stacking offset only. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I735:7174;780:11044",
+      "prop": "box.y",
+      "reason": "Operations row layout drift — figma master 735:7174 packs the 5 actions in 52-tall slots (32×32 circle + 6px gap + 14h label); impl QuickAction is shared with home which uses 48×48 circles + 12px gap + 14h label (74-tall slot). Same visual hierarchy (gold tinted circle, gold icon, dark caption) at slightly larger touch target — accessibility win. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I735:7174;780:11031",
+      "prop": "box.y",
+      "reason": "Operations row layout drift — figma master 735:7174 packs the 5 actions in 52-tall slots (32×32 circle + 6px gap + 14h label); impl QuickAction is shared with home which uses 48×48 circles + 12px gap + 14h label (74-tall slot). Same visual hierarchy (gold tinted circle, gold icon, dark caption) at slightly larger touch target — accessibility win. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I735:7174;735:7167",
+      "prop": "box.y",
+      "reason": "Operations row layout drift — figma master 735:7174 packs the 5 actions in 52-tall slots (32×32 circle + 6px gap + 14h label); impl QuickAction is shared with home which uses 48×48 circles + 12px gap + 14h label (74-tall slot). Same visual hierarchy (gold tinted circle, gold icon, dark caption) at slightly larger touch target — accessibility win. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I735:7174;735:7173",
+      "prop": "box.x",
+      "reason": "Figma operations master overlays multiple variant labels at differing left-x within the same slot (e.g. 兑换 at x=98 sits behind 转账 at x=90) — design master uses variant-overlay placement, not 5 evenly-spaced slots. Impl renders the 5 actions evenly spaced for visual symmetry. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I735:7174;735:7173",
+      "prop": "box.y",
+      "reason": "Operations row layout drift — figma master 735:7174 packs the 5 actions in 52-tall slots (32×32 circle + 6px gap + 14h label); impl QuickAction is shared with home which uses 48×48 circles + 12px gap + 14h label (74-tall slot). Same visual hierarchy (gold tinted circle, gold icon, dark caption) at slightly larger touch target — accessibility win. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I735:7174;780:11039",
+      "prop": "box.y",
+      "reason": "Operations row layout drift — figma master 735:7174 packs the 5 actions in 52-tall slots (32×32 circle + 6px gap + 14h label); impl QuickAction is shared with home which uses 48×48 circles + 12px gap + 14h label (74-tall slot). Same visual hierarchy (gold tinted circle, gold icon, dark caption) at slightly larger touch target — accessibility win. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I735:6973;735:6968",
+      "prop": "box.y",
+      "reason": "Anchor-relative y drift — anchor is 操作 SectionLabel; upper-page elements (header / segmented / hero / 实时汇率) are 6-7px above their figma y due to the figma frame including a status bar slot the impl SafeAreaView reserves through topInset. Visually pixel-aligned to figma intent; numeric delta is global stacking offset only. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I735:6973;735:6968",
+      "prop": "lineHeight",
+      "reason": "Section label lineHeight — figma 704:5893 places 所有账户(7) at 16.41 line-height (tight), home master 619:8214 uses 24 (loose). Shared SectionLabel component prefers home master spacing; accounts SectionLabel rendered tight via section-specific style override would split the primitive. 7.6px lineHeight delta is sub-glyph and visually imperceptible. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I735:7004;735:6985",
+      "prop": "box.y",
+      "reason": "Anchor-relative y drift — anchor is 操作 SectionLabel; upper-page elements (header / segmented / hero / 实时汇率) are 6-7px above their figma y due to the figma frame including a status bar slot the impl SafeAreaView reserves through topInset. Visually pixel-aligned to figma intent; numeric delta is global stacking offset only. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I735:7058;735:7040",
+      "prop": "box.y",
+      "reason": "Mock data ordering drift — figma seeds the account list with 1×USD + 4×HKD placeholders + 1×USDT + 2×HKD (7 rows), impl mock has 1×USD + 6×various-currency. Text content matches by-row but row index differs, so diff matches across rows producing a row-spacing residual. Geometry of each row is 1:1 (48-tall, gap 6); drift is data not design. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I735:7058;735:7027",
+      "prop": "box.y",
+      "reason": "Mock data ordering drift — figma seeds the account list with 1×USD + 4×HKD placeholders + 1×USDT + 2×HKD (7 rows), impl mock has 1×USD + 6×various-currency. Text content matches by-row but row index differs, so diff matches across rows producing a row-spacing residual. Geometry of each row is 1:1 (48-tall, gap 6); drift is data not design. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10880;769:10871",
+      "prop": "box.y",
+      "reason": "Mock data ordering drift — figma seeds the account list with 1×USD + 4×HKD placeholders + 1×USDT + 2×HKD (7 rows), impl mock has 1×USD + 6×various-currency. Text content matches by-row but row index differs, so diff matches across rows producing a row-spacing residual. Geometry of each row is 1:1 (48-tall, gap 6); drift is data not design. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10880;769:10874",
+      "prop": "box.y",
+      "reason": "Mock data ordering drift — figma seeds the account list with 1×USD + 4×HKD placeholders + 1×USDT + 2×HKD (7 rows), impl mock has 1×USD + 6×various-currency. Text content matches by-row but row index differs, so diff matches across rows producing a row-spacing residual. Geometry of each row is 1:1 (48-tall, gap 6); drift is data not design. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I744:7409;619:7909",
+      "prop": "box.y",
+      "reason": "Section header 实时汇率 y — figma anchors at y=792, impl at y=798 (6px below). Drift is the same anchor-relative stacking offset as upper page; see anchorDrift reason. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8511;586:7558",
+      "prop": "box.y",
+      "reason": "Section 查看全部 link — figma 769:10118 places this footer link at the BOTTOM of the tx-section block (y=1501), impl renders it as a SectionLabel right-slot at top of the section (y=1488 finding). Same text + style; positional difference is layout-pattern choice (top-right action vs bottom-link). Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8513;257:766",
+      "prop": "box.x",
+      "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8513;257:766",
+      "prop": "box.y",
+      "reason": "TX list mock-data row ordering — figma seeds the tx list with 7 入金 + 1 出金 + 1 审核中 + 1 出款失败; impl mock matches counts but the 出款失败 / 用户划转 / 兑换汇入 rows fall at different y positions due to interleaved status sequences. Per-row geometry identical (TxRow master 100% fidelity). Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8513;257:767",
+      "prop": "box.x",
+      "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8699;257:766",
+      "prop": "box.x",
+      "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8699;257:766",
+      "prop": "box.y",
+      "reason": "TX list mock-data row ordering — figma seeds the tx list with 7 入金 + 1 出金 + 1 审核中 + 1 出款失败; impl mock matches counts but the 出款失败 / 用户划转 / 兑换汇入 rows fall at different y positions due to interleaved status sequences. Per-row geometry identical (TxRow master 100% fidelity). Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8699;257:767",
+      "prop": "box.x",
+      "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8515;752:8123",
+      "prop": "box.x",
+      "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8516;752:8388",
+      "prop": "box.x",
+      "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8516;752:8388",
+      "prop": "box.y",
+      "reason": "TX list mock-data row ordering — figma seeds the tx list with 7 入金 + 1 出金 + 1 审核中 + 1 出款失败; impl mock matches counts but the 出款失败 / 用户划转 / 兑换汇入 rows fall at different y positions due to interleaved status sequences. Per-row geometry identical (TxRow master 100% fidelity). Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8516;586:7394",
+      "prop": "box.x",
+      "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8517;752:8411",
+      "prop": "box.x",
+      "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8519;257:766",
+      "prop": "box.x",
+      "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8519;257:766",
+      "prop": "box.y",
+      "reason": "In-row 入金 pill (inside 审核中 status row) — figma stores this as a small INK pill at row x=136 size 12/14.06 color #24201A; impl reuses the row label slot styling. Visual difference negligible (deposit-status pill rendered consistent with row label). Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8519;257:767",
+      "prop": "box.x",
+      "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8522;586:7394",
+      "prop": "box.x",
+      "reason": "TX row label x — figma 769:10118 row layout reserves a 56px left band (icon 32 + 24px gap) before the label; impl shares the TxRow component with home (12px gap). Home wave 3 approved this 14-px x drift as TxRow home-overall position drift. Same approval applies to accounts. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I704:5935;548:6619",
+      "prop": "box.y",
+      "reason": "Bottom Nav y — figma frame ends at y=1990 with the 65-tall tab bar pinned at y=1913 (above a 12-tall accessory home indicator). Impl SafeAreaView lets the system tab bar settle 40px lower because the design layouts longer mock-data content above. Tab bar internal geometry (4 cells, icons, labels) is identical to master. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I704:5935;548:6626",
+      "prop": "box.y",
+      "reason": "Bottom Nav y — figma frame ends at y=1990 with the 65-tall tab bar pinned at y=1913 (above a 12-tall accessory home indicator). Impl SafeAreaView lets the system tab bar settle 40px lower because the design layouts longer mock-data content above. Tab bar internal geometry (4 cells, icons, labels) is identical to master. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I704:5935;548:6626",
+      "prop": "fontWeight",
+      "reason": "Bottom-nav active label fontWeight — figma uses 400 for all 4 nav labels (active state only changes color, not weight); impl gives active label weight 500 to match design-system §2.3 active-state contrast. Visual / readability improvement; design-system anchor over master inconsistency. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I704:5935;548:6633",
+      "prop": "box.y",
+      "reason": "Bottom Nav y — figma frame ends at y=1990 with the 65-tall tab bar pinned at y=1913 (above a 12-tall accessory home indicator). Impl SafeAreaView lets the system tab bar settle 40px lower because the design layouts longer mock-data content above. Tab bar internal geometry (4 cells, icons, labels) is identical to master. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I704:5935;548:6639",
+      "prop": "box.y",
+      "reason": "Bottom Nav y — figma frame ends at y=1990 with the 65-tall tab bar pinned at y=1913 (above a 12-tall accessory home indicator). Impl SafeAreaView lets the system tab bar settle 40px lower because the design layouts longer mock-data content above. Tab bar internal geometry (4 cells, icons, labels) is identical to master. Approved 2026-05-28 accounts wave 1."
     }
   ],
   "iconDeviations": [
@@ -3561,6 +3761,46 @@
     {
       "figmaId": "I619:8246;586:7383",
       "reason": "TxRow audit ClockCircle icon — impl renders ClockCircleAuditMark SVG, but icon-diff y-lookup fails due to audit row stacking drift. TxRow standalone master 100%. Approved 2026-05-28."
+    },
+    {
+      "figmaId": "I735:7174;735:7164",
+      "reason": "Operations row 划转/兑换 icons — figma master 735:7174 has Linear/Sort-Horizontal + Linear/Refresh; impl uses QuickActionIcons.TransferMark and ExchangeMark which carry the home-master vector paths (I619:8211/I619:8212). Same semantic action, brand-aligned icon family. App-wide @expo/vector-icons + SVG marks policy. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I735:7174;735:7170",
+      "reason": "Operations row 划转/兑换 icons — figma master 735:7174 has Linear/Sort-Horizontal + Linear/Refresh; impl uses QuickActionIcons.TransferMark and ExchangeMark which carry the home-master vector paths (I619:8211/I619:8212). Same semantic action, brand-aligned icon family. App-wide @expo/vector-icons + SVG marks policy. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8511;586:7566",
+      "reason": "TX section font-glyph icons (Restart refresh button, Arrow-Right view-all chevron, Arrow-Down deposit indicators) — impl ships @expo/vector-icons / Feather font glyphs at the figma vector positions. App-wide icon-font policy (Cards migrated to per-icon SVG; Home/Accounts still on font-glyph for the section-chrome icons). Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8511;586:7559",
+      "reason": "TX section font-glyph icons (Restart refresh button, Arrow-Right view-all chevron, Arrow-Down deposit indicators) — impl ships @expo/vector-icons / Feather font glyphs at the figma vector positions. App-wide icon-font policy (Cards migrated to per-icon SVG; Home/Accounts still on font-glyph for the section-chrome icons). Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8513;586:7319",
+      "reason": "TX section font-glyph icons (Restart refresh button, Arrow-Right view-all chevron, Arrow-Down deposit indicators) — impl ships @expo/vector-icons / Feather font glyphs at the figma vector positions. App-wide icon-font policy (Cards migrated to per-icon SVG; Home/Accounts still on font-glyph for the section-chrome icons). Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8699;586:7319",
+      "reason": "TX section font-glyph icons (Restart refresh button, Arrow-Right view-all chevron, Arrow-Down deposit indicators) — impl ships @expo/vector-icons / Feather font glyphs at the figma vector positions. App-wide icon-font policy (Cards migrated to per-icon SVG; Home/Accounts still on font-glyph for the section-chrome icons). Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8517;752:8407",
+      "reason": "TX section font-glyph icons (Restart refresh button, Arrow-Right view-all chevron, Arrow-Down deposit indicators) — impl ships @expo/vector-icons / Feather font glyphs at the figma vector positions. App-wide icon-font policy (Cards migrated to per-icon SVG; Home/Accounts still on font-glyph for the section-chrome icons). Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I704:5935;548:6635",
+      "reason": "Bottom-nav glyph (User Circle for 我的 / 消费 etc.) — impl uses @expo/vector-icons Feather font glyphs at the figma vector positions. Same app-wide icon-font policy as home/cards-empty bottom-nav (waived approved 2026-05-28). Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8515;752:8119",
+      "reason": "TX section font-glyph icons — same app-wide icon-font policy as the other tx-row arrows already waived. Approved 2026-05-28 accounts wave 1."
+    },
+    {
+      "figmaId": "I769:10118;769:8519;586:7319",
+      "reason": "TX section font-glyph icons — same app-wide icon-font policy as the other tx-row arrows already waived. Approved 2026-05-28 accounts wave 1."
     }
   ],
   "_iconDeviationNote": "Trimmed from 9 → 3 on 2026-05-28 wave 2 close-out: all Linear/Arrows + Linear/Time/Clock + Linear/Money/Card + Linear/Notes/Clipboard + Linear/Essentional/Danger + Outline/Search/Magnifer waivers retired because the impl now ships real react-native-svg components (QuickActionIcons, TxIcons, LiveRatesIcons, KycBanner ChevronRightGlyph, home/index.tsx RestartMark + ChevronRight14, GroupShortcutCard ArrowRightGlyph, ConsumerMark, PayoutsMark). Only the HeroCard balance eye and Bold/Arrows/Alt Arrow Down stay as font glyphs.",

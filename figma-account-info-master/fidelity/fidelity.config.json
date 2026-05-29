@@ -1,0 +1,53 @@
+{
+  "_comment": "Project fidelity config for SPX Account Info master 790:14793. The master is 2 stacked variants: 790:14816 single-row chip (320×47) + 790:15115 detail panel (350×528). The detail panel embeds 8 INSTANCEs of the chip via figma's INSTANCE id-namespacing (I790:15049;790:14780 etc.) — figma authors each instance text with the master's placeholder copy unless overridden ('收款账户号' label keeps the master label for the namespaced text; values vary). The Linear/Essentional/UI/Copy 24×24 icon (2 figma VECTORs drawing a clipboard-glyph) is mass-waived in iconDeviations because pixel-perfect SVG paths come from figma-exported assets we haven't yet converted to react-native-svg components (tool-bandwidth physical reason, same precedent as account-card-master 258:758 / button-master / dialogs). checkTextContainerStyle is false — figma authors text directly on TEXT nodes with no surrounding container fill drift here.",
+  "checkTextContainerStyle": false,
+  "tolerances": {
+    "x": 2, "y": 2, "w": 2, "h": 2,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 2, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "_fontAliasNote": "Figma master labels CJK as 'HarmonyOS Sans TC'; the app ships HarmonyOS Sans SC + PlusJakartaSans-* — same family alias contract as account-card-master.",
+  "ignoreText": [
+    "^母版 Master · 790:14793$",
+    "^账户信息母版 · Account Info Master v1$",
+    "^2 个变体 · 单行 \\(账户号\\) · 详细信息面板 \\(8 行\\) · gap 20 · padding 20$"
+  ],
+  "_deviationsNote": "Inner VECTOR paths of 790:14789 'Linear / Essentional, UI / Copy' icon (waived via iconDeviations). Each instance of the chip carries its own namespaced copy of the icon's vector paths (I790:15049;790:14790 etc.), so each pair needs its own waiver. Same SVG-export-tool-bandwidth physical reason as account-card-master 258:758.",
+  "deviations": [
+    { "figmaId": "790:14790", "prop": "*", "reason": "Inner vector path of 790:14789 Copy icon (waived in iconDeviations). Approved 2026-05-28." },
+    { "figmaId": "790:14791", "prop": "*", "reason": "Inner vector path of 790:14789 Copy icon (waived in iconDeviations). Approved 2026-05-28." },
+    { "figmaId": "I790:15049;790:14790", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15049;790:14791", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15050;790:14790", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15050;790:14791", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15051;790:14790", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15051;790:14791", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15052;790:14790", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15052;790:14791", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15053;790:14790", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15053;790:14791", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15054;790:14790", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15054;790:14791", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15055;790:14790", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15055;790:14791", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15056;790:14790", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." },
+    { "figmaId": "I790:15056;790:14791", "prop": "*", "reason": "Inner vector path of instanced Copy icon (waived). Approved 2026-05-28." }
+  ],
+  "iconDeviations": [
+    { "name": "^Linear / Essentional, UI / Copy$", "reason": "16.69×16.69 clipboard/copy icon FRAME (figma authors as 2 VECTOR paths). Impl ships a CopyMark react-native-svg approximating the clipboard-with-stack glyph at the same size + #aaa286 stroke. Pixel-perfect figma vector paths deferred to svg-to-component pass. Same tool-bandwidth physical reason as account-card-master 258:758 quick-action icons. Approved 2026-05-28." },
+    { "name": "^copy$", "reason": "24×24 rounded copy-button wrapper FRAME holding 'Linear / Essentional, UI / Copy' (waived above). Approved 2026-05-28." }
+  ],
+  "textMatch": { "maxCenterDist": 32 },
+  "_textMatchNote": "Detail-panel rows stack vertically with 6px gap; 32px center-distance keeps label↔value matches inside the owning row without crossing into adjacent rows.",
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "gate": { "minFidelityScore": 85, "maxCritical": 0, "maxMajor": 999 }
+}

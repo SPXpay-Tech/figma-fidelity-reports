@@ -1,0 +1,300 @@
+{
+  "frame": {
+    "id": "954:10131",
+    "name": "📱 Account. 收款方信息和删除【企业】",
+    "width": 390,
+    "height": 915
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 5,
+  "regions": [
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 37.68,
+        "y": 169.68,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "figmaFill": null,
+      "mismatch": 80.2,
+      "crops": {
+        "figma": "icon_I954_10138_953_7898.figma.png",
+        "impl": "icon_I954_10138_953_7898.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 164,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 57.9,
+      "crops": {
+        "figma": "chip_I954_10138_953_7897.figma.png",
+        "impl": "chip_I954_10138_953_7897.impl.png"
+      }
+    },
+    {
+      "name": "账户类型卡片 Card·Type",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 152,
+        "w": 72,
+        "h": 26
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 20.5,
+      "crops": {
+        "figma": "_Card_Type_954_10138.figma.png",
+        "impl": "_Card_Type_954_10138.impl.png"
+      }
+    },
+    {
+      "name": "Linear / Money / Card",
+      "type": "FRAME",
+      "box": {
+        "x": 231.75,
+        "y": 850,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 16.8,
+      "crops": {
+        "figma": "Linear_Money_Card_I954_10157_548_6628.figma.png",
+        "impl": "Linear_Money_Card_I954_10157_548_6628.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36.75,
+        "y": 850,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 15.5,
+      "crops": {
+        "figma": "_LOGO_I954_10157_548_6607.figma.png",
+        "impl": "_LOGO_I954_10157_548_6607.impl.png"
+      }
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 286,
+        "y": 214,
+        "w": 72,
+        "h": 26
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 9.5
+    },
+    {
+      "name": "copy",
+      "type": "FRAME",
+      "box": {
+        "x": 328,
+        "y": 243.5,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 7.5
+    },
+    {
+      "name": "copy",
+      "type": "FRAME",
+      "box": {
+        "x": 328,
+        "y": 296.5,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 7.5
+    },
+    {
+      "name": "copy",
+      "type": "FRAME",
+      "box": {
+        "x": 328,
+        "y": 349.5,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 7.5
+    },
+    {
+      "name": "copy",
+      "type": "FRAME",
+      "box": {
+        "x": 328,
+        "y": 402.5,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 7.5
+    },
+    {
+      "name": "copy",
+      "type": "FRAME",
+      "box": {
+        "x": 328,
+        "y": 463,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 7.5
+    },
+    {
+      "name": "copy",
+      "type": "FRAME",
+      "box": {
+        "x": 328,
+        "y": 553.5,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 7.5
+    },
+    {
+      "name": "copy",
+      "type": "FRAME",
+      "box": {
+        "x": 328,
+        "y": 606.5,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 7.5
+    },
+    {
+      "name": "copy",
+      "type": "FRAME",
+      "box": {
+        "x": 328,
+        "y": 659.5,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 7.5
+    },
+    {
+      "name": "copy",
+      "type": "FRAME",
+      "box": {
+        "x": 328,
+        "y": 712.5,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 7.5
+    },
+    {
+      "name": "Frame 1410107815",
+      "type": "FRAME",
+      "box": {
+        "x": 338,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 7.3
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 7
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 298,
+        "y": 152,
+        "w": 72,
+        "h": 26
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 6.4
+    },
+    {
+      "name": "账户信息",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 190,
+        "w": 350,
+        "h": 570
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.2
+    },
+    {
+      "name": "返回按钮 / Nav Back",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 42,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.6
+    },
+    {
+      "name": "Account Hearder, 页头",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 350,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.5
+    },
+    {
+      "name": "主按钮 Button·Primary",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 772,
+        "w": 350,
+        "h": 54
+      },
+      "figmaFill": null,
+      "mismatch": 0.6
+    }
+  ]
+}

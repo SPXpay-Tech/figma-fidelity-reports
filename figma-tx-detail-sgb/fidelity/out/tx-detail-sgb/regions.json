@@ -1,0 +1,448 @@
+{
+  "frame": {
+    "id": "968:16861",
+    "name": "📱 account. 交易明细 SGB详情",
+    "width": 390,
+    "height": 1469
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 3,
+  "regions": [
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36.75,
+        "y": 1404,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 19.2,
+      "crops": {
+        "figma": "_LOGO_I968_16877_548_6607.figma.png",
+        "impl": "_LOGO_I968_16877_548_6607.impl.png"
+      }
+    },
+    {
+      "name": "Outline / Time / Calendar Search",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 275,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 14.7,
+      "crops": {
+        "figma": "Outline_Time_Calendar_Search_I968_16868_.figma.png",
+        "impl": "Outline_Time_Calendar_Search_I968_16868_.impl.png"
+      }
+    },
+    {
+      "name": "Outline / Design, Tools / Filters",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 199,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 13.5,
+      "crops": {
+        "figma": "Outline_Design_Tools_Filters_I968_16868_.figma.png",
+        "impl": "Outline_Design_Tools_Filters_I968_16868_.impl.png"
+      }
+    },
+    {
+      "name": "Linear / Money / Card",
+      "type": "FRAME",
+      "box": {
+        "x": 231.75,
+        "y": 1404,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 9.9
+    },
+    {
+      "name": "Outline / Time / Calendar Minimalistic",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 237,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 9.1
+    },
+    {
+      "name": "Outline / Time / Calendar Minimalistic",
+      "type": "FRAME",
+      "box": {
+        "x": 225,
+        "y": 237,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 9.1
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 6.1
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 124,
+        "w": 111.33,
+        "h": 26
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 5.1
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 282,
+        "y": 883,
+        "w": 72,
+        "h": 22
+      },
+      "figmaFill": "#884dfe@0.10",
+      "mismatch": 5
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 282,
+        "y": 709,
+        "w": 72,
+        "h": 22
+      },
+      "figmaFill": "#00d17d@0.10",
+      "mismatch": 4.7
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 257.33,
+        "y": 304,
+        "w": 112.67,
+        "h": 32
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 4.6
+    },
+    {
+      "name": "Frame 2147225266",
+      "type": "FRAME",
+      "box": {
+        "x": 346,
+        "y": 160,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 4.2
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 306,
+        "y": 1231,
+        "w": 48,
+        "h": 22
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 3.5
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 306,
+        "y": 361,
+        "w": 48,
+        "h": 22
+      },
+      "figmaFill": "#884dfe@0.10",
+      "mismatch": 3
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 240,
+        "y": 1057,
+        "w": 48,
+        "h": 22
+      },
+      "figmaFill": "#884dfe@0.10",
+      "mismatch": 3
+    },
+    {
+      "name": "分段控件 Segmented",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 120,
+        "w": 350,
+        "h": 34
+      },
+      "figmaFill": null,
+      "mismatch": 2.9
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 306,
+        "y": 535,
+        "w": 48,
+        "h": 22
+      },
+      "figmaFill": "#00d17d@0.10",
+      "mismatch": 2.6
+    },
+    {
+      "name": "Home-交易记录卡片",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 348,
+        "w": 350,
+        "h": 162
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.5
+    },
+    {
+      "name": "Home-交易记录卡片",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 1044,
+        "w": 350,
+        "h": 162
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.5
+    },
+    {
+      "name": "Home-交易记录卡片",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 1218,
+        "w": 350,
+        "h": 162
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.5
+    },
+    {
+      "name": "Home-交易记录卡片",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 522,
+        "w": 350,
+        "h": 162
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.4
+    },
+    {
+      "name": "Home-交易记录卡片",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 696,
+        "w": 350,
+        "h": 162
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.4
+    },
+    {
+      "name": "Home-交易记录卡片",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 870,
+        "w": 350,
+        "h": 162
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.4
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 139.33,
+        "y": 124,
+        "w": 111.33,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 2.3
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 254.67,
+        "y": 124,
+        "w": 111.33,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 2.2
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 228,
+        "w": 157,
+        "h": 32
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.1
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 213,
+        "y": 228,
+        "w": 157,
+        "h": 32
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 304,
+        "w": 112.67,
+        "h": 32
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 2
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 294,
+        "y": 1057,
+        "w": 60,
+        "h": 22
+      },
+      "figmaFill": "#f9ac1c@0.10",
+      "mismatch": 1.7
+    },
+    {
+      "name": "App Header · 页头",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 350,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.5
+    },
+    {
+      "name": "返回按钮 / Nav Back",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 42,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.4
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 190,
+        "w": 350,
+        "h": 32
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.4
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 266,
+        "w": 350,
+        "h": 32
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.2
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 138.67,
+        "y": 304,
+        "w": 112.67,
+        "h": 32
+      },
+      "figmaFill": "#aaa286@0.20",
+      "mismatch": 1
+    },
+    {
+      "name": "Outline / Essentional, UI / Sort",
+      "type": "FRAME",
+      "box": {
+        "x": 344,
+        "y": 199,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 0.1
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for SPX 虚拟币存款 master 790:15998 (COMPONENT_SET 390×2014). Library v1 cluster of 8 variants stacked vertically inside a #ffffff radius-12 padding-20 frame with gap 20: (1) 790:16141 默认 350×60 — currency selector (USDT selected + USDC), (2) 830:16673 只有USDT 350×60 — USDT-only full-width selected, (3) 833:7327 只有USDC 350×60 — USDC-only full-width selected, (4) 790:16203 Variant3 350×60 — network selector (Tron/Ethereum/Bsc, Tron+Ethereum check), (5) 823:16621 USDT-TRC20 350×394 — full deposit panel w/ QR + network row + address row + footer, (6) 829:7295 USDT-ERC20 350×400, (7) 829:7343 USDT-BEP20 350×400, (8) 829:7429 USDC-ERC20 350×400. Boot expo web on :8082 and run: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen crypto-deposit",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-crypto-deposit-master/fidelity/out",
+  "screens": [
+    {
+      "id": "crypto-deposit",
+      "node": "790:15998",
+      "figmaJson": "docs/figma-crypto-deposit-master/fidelity/figma-dump/crypto-deposit.json",
+      "figmaPng": "docs/figma-crypto-deposit-master/fidelity/figma-dump/crypto-deposit.png",
+      "url": "http://localhost:8082/__fidelity/crypto-deposit",
+      "width": 390,
+      "height": 2014,
+      "root": "[data-figma-root='790:15998']",
+      "wait": "text=区块链网络",
+      "anchor": "母版 Master · 790:15998"
+    }
+  ]
+}

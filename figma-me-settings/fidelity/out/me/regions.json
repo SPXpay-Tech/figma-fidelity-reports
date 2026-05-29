@@ -1,0 +1,284 @@
+{
+  "frame": {
+    "id": "1011:14081",
+    "name": "📱 我的首页",
+    "width": 390,
+    "height": 844
+  },
+  "offset": {
+    "x": 0,
+    "y": 69
+  },
+  "threshold": 12,
+  "flagged": 4,
+  "regions": [
+    {
+      "name": "seg-中",
+      "type": "FRAME",
+      "box": {
+        "x": 306,
+        "y": 70.5,
+        "w": 30,
+        "h": 24
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 86.7,
+      "crops": {
+        "figma": "seg_I1011_14084_958_13351_476_3.figma.png",
+        "impl": "seg_I1011_14084_958_13351_476_3.impl.png"
+      }
+    },
+    {
+      "name": "🌐 语言切换 Language Toggle",
+      "type": "INSTANCE",
+      "box": {
+        "x": 302,
+        "y": 66.5,
+        "w": 68,
+        "h": 32
+      },
+      "figmaFill": "#f3f1e8",
+      "mismatch": 30.8,
+      "crops": {
+        "figma": "_Language_Toggle_I1011_14084_958_13351.figma.png",
+        "impl": "_Language_Toggle_I1011_14084_958_13351.impl.png"
+      }
+    },
+    {
+      "name": "Linear / Money / Card",
+      "type": "FRAME",
+      "box": {
+        "x": 231.75,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 21.4,
+      "crops": {
+        "figma": "Linear_Money_Card_I1011_14091_548_6703.figma.png",
+        "impl": "Linear_Money_Card_I1011_14091_548_6703.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36.75,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 17.4,
+      "crops": {
+        "figma": "_LOGO_I1011_14091_548_6682.figma.png",
+        "impl": "_LOGO_I1011_14091_548_6682.impl.png"
+      }
+    },
+    {
+      "name": "av",
+      "type": "FRAME",
+      "box": {
+        "x": 171,
+        "y": 123,
+        "w": 48,
+        "h": 48
+      },
+      "figmaFill": "#eabb62@0.20",
+      "mismatch": 9.4
+    },
+    {
+      "name": "Compliance Status · 合规状态",
+      "type": "INSTANCE",
+      "box": {
+        "x": 176,
+        "y": 381,
+        "w": 144,
+        "h": 26
+      },
+      "figmaFill": "#f9ac1c@0.10",
+      "mismatch": 8.8
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 326,
+        "y": 434,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 7
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 326,
+        "y": 484,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 7
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 326,
+        "y": 534,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 7
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 326,
+        "y": 384,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 6.9
+    },
+    {
+      "name": "主按钮 Button·Primary",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 590,
+        "w": 350,
+        "h": 43
+      },
+      "figmaFill": null,
+      "mismatch": 6.6
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 326,
+        "y": 334,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 6.3
+    },
+    {
+      "name": "seg-EN",
+      "type": "FRAME",
+      "box": {
+        "x": 336,
+        "y": 70.5,
+        "w": 30,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 6
+    },
+    {
+      "name": "Account Hearder, 页头",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 350,
+        "h": 33
+      },
+      "figmaFill": null,
+      "mismatch": 5.8
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 422,
+        "w": 326,
+        "h": 44
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 4.3
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 372,
+        "w": 326,
+        "h": 44
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 4
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 472,
+        "w": 326,
+        "h": 44
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.6
+    },
+    {
+      "name": "email",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 250,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.8
+    },
+    {
+      "name": " ",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 310,
+        "w": 350,
+        "h": 268
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 522,
+        "w": 326,
+        "h": 44
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.9
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 322,
+        "w": 326,
+        "h": 44
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.8
+    }
+  ]
+}

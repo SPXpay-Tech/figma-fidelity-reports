@@ -21,18 +21,19 @@
 <header>
  <h1>Figma Fidelity Report — Toast · 轻提示</h1>
  <div style="display:flex;align-items:baseline;gap:18px;flex-wrap:wrap">
-   <div class="gate" style="font-size:30px;font-weight:700;color:#ff7b72">GATE ❌ BLOCKED</div>
-   <div class="score" style="font-size:30px;color:#888">91.3%</div>
+   <div class="gate" style="font-size:30px;font-weight:700;color:#7ee787">GATE ✅ PASS</div>
+   <div class="score" style="font-size:30px;color:#888">95.1%</div>
  </div>
  <div class="meta">
-   <b style="color:#ff7b72">10 blocking</b> (critical+major) ·
+   <b style="color:#ff7b72">0 blocking</b> (critical+major) ·
    <b style="color:#ffd43b">0 icon-fail</b> ·
    <span style="color:#888">13 minor noise (sub-px — ignore)</span> ·
    match mode: <b>tagged</b> ·
-   <span class="pill">major: 10</span><span class="pill">minor: 13</span>
-   · 2026-05-28T05:54:14.856Z
+   <span class="pill">minor: 13</span>
+   · 2026-05-28T20:18:13.336Z
  </div>
  <div class="meta" style="margin-top:6px;color:#888">The <b>gate</b> is the verdict, not the %. Minor = unavoidable web-render sub-pixel noise. Icon check = Figma vector path-set vs rendered SVG.</div>
+
 </header>
 <div class="wrap">
  <div class="triptych">
@@ -41,7 +42,7 @@
 
  <h2>Issues by component (actionable)</h2>
  <table><thead><tr><th>Component</th><th>What to fix</th></tr></thead><tbody>
-  <tr><td class="node">Vector</td><td><div class="iss">borderColor: #e5e7eb → set border-color to #00d17d</div><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">borderColor: #e5e7eb → set border-color to #00d17d</div><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">borderColor: #e5e7eb → set border-color to #f52f32</div><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">borderColor: #e5e7eb → set border-color to #f52f32</div><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">borderColor: #e5e7eb → set border-color to #f9ac1c</div><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">borderColor: #e5e7eb → set border-color to #f9ac1c</div><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">backgroundColor: transparent → set background to #f9ac1c</div><div class="iss">borderColor: #e5e7eb → set border-color to #f9ac1c</div><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">backgroundColor: transparent → set background to #f9ac1c</div><div class="iss">borderColor: #e5e7eb → set border-color to #f9ac1c</div><div class="iss">borderWidth: 0 → set border-width to 1px</div></td></tr>
+  <tr><td class="node">Vector</td><td><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">borderWidth: 0 → set border-width to 1px</div><div class="iss">borderWidth: 0 → set border-width to 1px</div></td></tr>
   <tr><td class="node">svg</td><td><div class="iss">*: EXTRA → expected absent</div><div class="iss">*: EXTRA → expected absent</div><div class="iss">*: EXTRA → expected absent</div><div class="iss">*: EXTRA → expected absent</div><div class="iss">*: EXTRA → expected absent</div></td></tr></tbody></table>
 
  <h2>Icon vector check (7 icons · 0 fail · 5 warn · 0 waived)</h2>
@@ -312,12 +313,12 @@
     <td>0</td>
     <td style="color:#2b8a3e">pass</td>
     <td></td></tr>
-  <tr class="bad">
+  <tr class="ok">
     <td>Vector</td><td><code>borderColor</code></td>
-    <td>#00d17d</td><td>#e5e7eb</td>
-    <td>72.22</td>
-    <td style="color:#e67700">major</td>
-    <td>set border-color to #00d17d</td></tr>
+    <td>#00d17d</td><td>#00d17d</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
   <tr class="bad">
     <td>Vector</td><td><code>borderWidth</code></td>
     <td>1</td><td>0</td>
@@ -576,12 +577,12 @@
     <td>0</td>
     <td style="color:#2b8a3e">pass</td>
     <td></td></tr>
-  <tr class="bad">
+  <tr class="ok">
     <td>Vector</td><td><code>borderColor</code></td>
-    <td>#00d17d</td><td>#e5e7eb</td>
-    <td>72.22</td>
-    <td style="color:#e67700">major</td>
-    <td>set border-color to #00d17d</td></tr>
+    <td>#00d17d</td><td>#00d17d</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
   <tr class="bad">
     <td>Vector</td><td><code>borderWidth</code></td>
     <td>1</td><td>0</td>
@@ -840,12 +841,12 @@
     <td>0</td>
     <td style="color:#2b8a3e">pass</td>
     <td></td></tr>
-  <tr class="bad">
+  <tr class="ok">
     <td>Vector</td><td><code>borderColor</code></td>
-    <td>#f52f32</td><td>#e5e7eb</td>
-    <td>95.49</td>
-    <td style="color:#e67700">major</td>
-    <td>set border-color to #f52f32</td></tr>
+    <td>#f52f32</td><td>#f52f32</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
   <tr class="bad">
     <td>Vector</td><td><code>borderWidth</code></td>
     <td>1</td><td>0</td>
@@ -876,12 +877,12 @@
     <td>0</td>
     <td style="color:#2b8a3e">pass</td>
     <td></td></tr>
-  <tr class="bad">
+  <tr class="ok">
     <td>Vector</td><td><code>borderColor</code></td>
-    <td>#f52f32</td><td>#e5e7eb</td>
-    <td>95.49</td>
-    <td style="color:#e67700">major</td>
-    <td>set border-color to #f52f32</td></tr>
+    <td>#f52f32</td><td>#f52f32</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
   <tr class="bad">
     <td>Vector</td><td><code>borderWidth</code></td>
     <td>1</td><td>0</td>
@@ -1140,12 +1141,12 @@
     <td>0</td>
     <td style="color:#2b8a3e">pass</td>
     <td></td></tr>
-  <tr class="bad">
+  <tr class="ok">
     <td>Vector</td><td><code>borderColor</code></td>
-    <td>#f9ac1c</td><td>#e5e7eb</td>
-    <td>81</td>
-    <td style="color:#e67700">major</td>
-    <td>set border-color to #f9ac1c</td></tr>
+    <td>#f9ac1c</td><td>#f9ac1c</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
   <tr class="bad">
     <td>Vector</td><td><code>borderWidth</code></td>
     <td>1</td><td>0</td>
@@ -1176,12 +1177,12 @@
     <td>0</td>
     <td style="color:#2b8a3e">pass</td>
     <td></td></tr>
-  <tr class="bad">
+  <tr class="ok">
     <td>Vector</td><td><code>borderColor</code></td>
-    <td>#f9ac1c</td><td>#e5e7eb</td>
-    <td>81</td>
-    <td style="color:#e67700">major</td>
-    <td>set border-color to #f9ac1c</td></tr>
+    <td>#f9ac1c</td><td>#f9ac1c</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
   <tr class="bad">
     <td>Vector</td><td><code>borderWidth</code></td>
     <td>1</td><td>0</td>
@@ -1212,12 +1213,12 @@
     <td>0</td>
     <td style="color:#2b8a3e">pass</td>
     <td></td></tr>
-  <tr class="bad">
+  <tr class="ok">
     <td>Vector</td><td><code>backgroundColor</code></td>
-    <td>#f9ac1c</td><td>transparent</td>
-    <td></td>
-    <td style="color:#e67700">major</td>
-    <td>set background to #f9ac1c</td></tr>
+    <td>#f9ac1c</td><td>#f9ac1c</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
   <tr class="ok">
     <td>请先完成实名认证</td><td><code>box.x</code></td>
     <td>72</td><td>72</td>
@@ -1470,12 +1471,12 @@
     <td>0</td>
     <td style="color:#2b8a3e">pass</td>
     <td></td></tr>
-  <tr class="bad">
+  <tr class="ok">
     <td>Vector</td><td><code>borderColor</code></td>
-    <td>#f9ac1c</td><td>#e5e7eb</td>
-    <td>81</td>
-    <td style="color:#e67700">major</td>
-    <td>set border-color to #f9ac1c</td></tr>
+    <td>#f9ac1c</td><td>#f9ac1c</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
   <tr class="bad">
     <td>Vector</td><td><code>borderWidth</code></td>
     <td>1</td><td>0</td>
@@ -1506,12 +1507,12 @@
     <td>0</td>
     <td style="color:#2b8a3e">pass</td>
     <td></td></tr>
-  <tr class="bad">
+  <tr class="ok">
     <td>Vector</td><td><code>backgroundColor</code></td>
-    <td>#f9ac1c</td><td>transparent</td>
-    <td></td>
-    <td style="color:#e67700">major</td>
-    <td>set background to #f9ac1c</td></tr>
+    <td>#f9ac1c</td><td>#f9ac1c</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
   <tr class="ok">
     <td>Vector</td><td><code>box.x</code></td>
     <td>44.44</td><td>44.44</td>
@@ -1536,12 +1537,12 @@
     <td>0</td>
     <td style="color:#2b8a3e">pass</td>
     <td></td></tr>
-  <tr class="bad">
+  <tr class="ok">
     <td>Vector</td><td><code>borderColor</code></td>
-    <td>#f9ac1c</td><td>#e5e7eb</td>
-    <td>81</td>
-    <td style="color:#e67700">major</td>
-    <td>set border-color to #f9ac1c</td></tr>
+    <td>#f9ac1c</td><td>#f9ac1c</td>
+    <td>0</td>
+    <td style="color:#2b8a3e">pass</td>
+    <td></td></tr>
   <tr class="bad">
     <td>Vector</td><td><code>borderWidth</code></td>
     <td>1</td><td>0</td>

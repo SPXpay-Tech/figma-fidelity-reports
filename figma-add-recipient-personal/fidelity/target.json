@@ -1,0 +1,18 @@
+{
+  "_note": "figma-fidelity for SPX add-recipient-personal (953:7721) — full-screen 个人 form, 390×1131. Single screen entry. Sibling of 954:9467 (企业). Boot expo web (pnpm exec expo start --web --port 8082), then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen add-recipient-personal",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-add-recipient-personal/fidelity/out",
+  "screens": [
+    {
+      "id": "add-recipient-personal",
+      "node": "953:7721",
+      "figmaJson": "docs/figma-add-recipient-personal/fidelity/figma-dump/add-recipient-personal.json",
+      "figmaPng": "docs/figma-add-recipient-personal/fidelity/figma-dump/add-recipient-personal.png",
+      "url": "http://localhost:8082/__fidelity/add-recipient-personal",
+      "width": 390,
+      "height": 1131,
+      "root": "[data-figma-root='953:7721']",
+      "wait": "text=添加银行收款人"
+    }
+  ]
+}

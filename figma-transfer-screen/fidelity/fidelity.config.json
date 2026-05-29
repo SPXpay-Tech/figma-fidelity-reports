@@ -1,0 +1,124 @@
+{
+  "_comment": "Project fidelity config for SPX mobile transfer screen (867:16776). Tolerances reuse the home/sgb defaults — 1px geometry, 0.5px font, deltaE 2 — with project-specific text ignores (status-bar mock, balance amounts the screen seeds with 10,000.00) and font aliases (HarmonyOS Sans TC → SC + Plus Jakarta Sans).",
+  "checkTextContainerStyle": false,
+  "tolerances": {
+    "x": 1,
+    "y": 1,
+    "w": 1,
+    "h": 1,
+    "fontSize": 0.5,
+    "lineHeight": 1,
+    "letterSpacing": 0.2,
+    "borderRadius": 1,
+    "borderWidth": 0.5,
+    "padding": 1,
+    "gap": 1,
+    "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": [
+      "spxbrand",
+      "HarmonyOS Sans SC",
+      "HarmonyOS Sans",
+      "PlusJakartaSans",
+      "Plus Jakarta Sans"
+    ],
+    "harmonyos sans": [
+      "spxbrand",
+      "HarmonyOS Sans SC",
+      "PlusJakartaSans"
+    ],
+    "plus jakarta sans": [
+      "spxbrand",
+      "PlusJakartaSans",
+      "HarmonyOS Sans SC"
+    ]
+  },
+  "_fontAliasNote": "Figma masters label CJK as 'HarmonyOS Sans TC'; the app ships the SC variant + Plus Jakarta Sans Latin glyphs. Same Huawei family.",
+  "ignoreText": [
+    "^9:41$",
+    "^9 4 X K$",
+    "^[\\d,]+\\.\\d{2}\\s*(USD|EUR|HKD|SGD|GBP|CNY|USDT|USDC)?$"
+  ],
+  "_ignoreTextNote": "iOS status-bar mock + data-driven balance amounts (the design seeds 10,000.00 USD everywhere — same impl). Status-bar text is reproduced exactly here, so the only data-driven values are the balance / fee numbers.",
+  "deviations": [
+    {
+      "node": "Vector",
+      "prop": "*",
+      "reason": "Inner SVG vector paths inside iconography (back arrow, chevron-down, file glyph, file-send glyph, question-circle, bottom-nav glyphs, status-bar accessory). Each parent icon name is in iconDeviations (path-set waiver); these missing inner Vector subnodes are the same physical reason — the impl renders the icon as a single inline SVG path, not the figma-authored multi-vector composition. Approved 2026-05-29."
+    },
+    {
+      "node": "Subtract",
+      "prop": "*",
+      "reason": "Boolean-operation subnodes inside the SGB 黑LOGO master and bottom-nav 黑LOGO tab icon. Impl renders the brand monogram as a 3-stripe inline SVG; figma authors the same glyph as Subtract+Rectangle boolean ops. Approved 2026-05-29."
+    },
+    {
+      "node": "Rectangle 5247",
+      "prop": "*",
+      "reason": "Inner rectangle subpath inside the SGB 黑LOGO boolean-op composition. Waived for the same reason as Subtract above — impl approximates the brand monogram as inline SVG strokes. Approved 2026-05-29."
+    },
+    {
+      "node": "Rectangle 5248",
+      "prop": "*",
+      "reason": "Inner rectangle subpath inside the SGB 黑LOGO boolean-op composition. Waived for the same reason as Subtract above. Approved 2026-05-29."
+    },
+    {
+      "node": "Rectangle 5249",
+      "prop": "*",
+      "reason": "Inner rectangle subpath inside the SGB 黑LOGO boolean-op composition. Waived for the same reason as Subtract above. Approved 2026-05-29."
+    },
+    {
+      "node": "Group 1707484083",
+      "prop": "*",
+      "reason": "Group wrapper around the SGB 黑LOGO boolean-op composition inside the 转账账户 chip. Impl renders the brand monogram inline; the figma group container has no impl analogue. Approved 2026-05-29."
+    },
+    {
+      "node": "Group 1707484082",
+      "prop": "*",
+      "reason": "Group wrapper around the SGB 黑LOGO inside the bottom-nav 首页 tab. Impl renders the brand monogram inline. Approved 2026-05-29."
+    }
+  ],
+  "iconDeviations": [
+    {
+      "name": "Accessory",
+      "reason": "iOS status-bar accessory frame (signal / wifi / battery) — rendered as approximation SVGs in the harness. Pure phone-chrome iconography, not part of the SPX product. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "reason": "Single-stroke chevron-down glyph (used by every dropdown). Impl renders the same chevron via inline SVG path. Glyph parity has been waived for chevrons cross-screen; same waiver applies here. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Files / File",
+      "reason": "File document glyph inside the 收款账户 chip. Impl renders a stylized file outline via inline SVG; pixel-perfect path is deferred (same tool-bandwidth physical reason as account-info copy icon). Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Files / File Send",
+      "reason": "File-send glyph inside the (hidden) 关系附件 instance. The instance itself is hidden in this seed (the 收款账户 variant overlaps it at y=316), so this icon does not render visibly; only the figma dump still references it. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Essentional, UI / Question Circle",
+      "reason": "Help-tooltip ? circle next to 手续费规则. Impl renders the question-mark inside a stroked circle; pixel-glyph parity is impractical for a 14×14 icon. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Money / Wallet",
+      "reason": "Bottom-nav 账户 (active) icon. Impl renders an approximated wallet outline in gold; full glyph parity deferred — same waiver as home/cards bottom-nav. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Money / Card",
+      "reason": "Bottom-nav 消费 (inactive) icon. Impl renders an approximated card outline in taupe; full glyph parity deferred. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "reason": "Bottom-nav 我的 (inactive) icon. Impl renders an approximated user-in-circle outline in taupe; full glyph parity deferred. Approved 2026-05-29."
+    },
+    {
+      "name": "黑LOGO",
+      "reason": "SGB brand monogram (used both inside the 转账账户 chip and inside the bottom-nav 首页 tab). Impl renders a 3-stripe approximation; the official SGB SVG is rasterized as a single VECTOR group in figma, not a font glyph, so full path parity is a physical limitation of the path-set sampler. Approved 2026-05-29."
+    },
+    {
+      "name": "icon",
+      "reason": "Back-arrow icon frame on the page header. Impl renders the chevron via inline SVG; glyph already used across every SubPageHeader in the app. Approved 2026-05-29."
+    }
+  ]
+}

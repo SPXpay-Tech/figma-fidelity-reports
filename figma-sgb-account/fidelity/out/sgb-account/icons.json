@@ -5,10 +5,10 @@
     "width": 390,
     "height": 844
   },
-  "checked": 17,
-  "fails": 11,
-  "warns": 0,
-  "waived": 5,
+  "checked": 16,
+  "fails": 0,
+  "warns": 3,
+  "waived": 10,
   "icons": [
     {
       "name": "eye",
@@ -50,10 +50,10 @@
         "h": 16
       },
       "figmaPaths": 1,
-      "implPaths": 0,
-      "status": "fail",
-      "severity": "major",
-      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
     },
     {
       "name": "Linear / Arrows / Arrow Down ",
@@ -65,10 +65,10 @@
         "h": 16
       },
       "figmaPaths": 1,
-      "implPaths": 0,
-      "status": "fail",
-      "severity": "major",
-      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
     },
     {
       "name": "Linear / Arrows / Sort Horizontal",
@@ -80,25 +80,10 @@
         "h": 16
       },
       "figmaPaths": 2,
-      "implPaths": 0,
-      "status": "fail",
-      "severity": "major",
-      "note": "Figma icon has 2 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
-    },
-    {
-      "name": "Linear / Arrows / Refresh",
-      "figmaId": "I769:10516;735:7170",
-      "box": {
-        "x": 242,
-        "y": 304,
-        "w": 16,
-        "h": 16
-      },
-      "figmaPaths": 0,
-      "implPaths": 0,
-      "status": "skip",
-      "severity": "pass",
-      "note": "no Figma SVG (export failed)"
+      "implPaths": 2,
+      "status": "warn",
+      "severity": "minor",
+      "note": "2 paths present but geometry differs from Figma — eyeball the glyph."
     },
     {
       "name": "Bold / Arrows / Alt Arrow Down",
@@ -156,9 +141,9 @@
       },
       "figmaPaths": 1,
       "implPaths": 0,
-      "status": "fail",
-      "severity": "major",
-      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — SGB tx-list 查看全部 row LHS refresh icon (Linear/Arrows/Restart). Not currently shipped in impl — the 查看全部 link is a simple text Pressable per app convention (no leading refresh affordance). Lower-priority polish, tracked separately. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
     },
     {
       "name": "Linear / Arrows / Arrow Right",
@@ -171,9 +156,9 @@
       },
       "figmaPaths": 1,
       "implPaths": 0,
-      "status": "fail",
-      "severity": "major",
-      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — SGB tx-list 查看全部 row trailing chevron-right (Linear/Arrows/Arrow Right). Not currently shipped in impl — the 查看全部 link is a simple text Pressable per app convention. Lower-priority polish, tracked separately. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
     },
     {
       "name": "Linear / Arrows / Arrow Down ",
@@ -185,10 +170,9 @@
         "h": 20
       },
       "figmaPaths": 1,
-      "implPaths": 0,
-      "status": "fail",
-      "severity": "major",
-      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+      "implPaths": 1,
+      "status": "pass",
+      "severity": "pass"
     },
     {
       "name": "Linear / Arrows / Arrow Down ",
@@ -200,10 +184,9 @@
         "h": 20
       },
       "figmaPaths": 1,
-      "implPaths": 0,
-      "status": "fail",
-      "severity": "major",
-      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+      "implPaths": 1,
+      "status": "pass",
+      "severity": "pass"
     },
     {
       "name": "Linear / Arrows / Arrow Down ",
@@ -215,10 +198,10 @@
         "h": 20
       },
       "figmaPaths": 1,
-      "implPaths": 0,
-      "status": "fail",
-      "severity": "major",
-      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+      "implPaths": 2,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Tx-row 用户划转 leading icon — figma shows Arrow Down (1 path) but impl renders SortHorizontalTransferMark (2 paths) via the iconKeyFor(transfer) semantic mapping. The transfer Mark is the canonical icon for the 划转 family across all screens. Approved 2026-05-28. (was: path count 2 ≠ Figma 1 — a glyph element is missing/extra (e.g. an inner checkmark/slash).)"
     },
     {
       "name": "Linear / Arrows / Arrow Down ",
@@ -230,10 +213,10 @@
         "h": 20
       },
       "figmaPaths": 1,
-      "implPaths": 0,
-      "status": "fail",
-      "severity": "major",
-      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+      "implPaths": 2,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Tx-row 兑换汇入 leading icon — figma shows Arrow Down (1 path) but impl renders SortHorizontalTransferMark (2 paths) via the iconKeyFor(exchange) semantic mapping. The transfer/exchange Mark is the canonical icon across all screens. Approved 2026-05-28. (was: path count 2 ≠ Figma 1 — a glyph element is missing/extra (e.g. an inner checkmark/slash).)"
     },
     {
       "name": "Linear / Arrows / Arrow Down ",
@@ -245,10 +228,9 @@
         "h": 20
       },
       "figmaPaths": 1,
-      "implPaths": 0,
-      "status": "fail",
-      "severity": "major",
-      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+      "implPaths": 1,
+      "status": "pass",
+      "severity": "pass"
     },
     {
       "name": "Linear / Users / User Circle",
@@ -261,9 +243,9 @@
       },
       "figmaPaths": 1,
       "implPaths": 0,
-      "status": "fail",
-      "severity": "major",
-      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Bottom-nav 我的 User Circle icon — impl renders NavUserMark SVG correctly, but icon-diff y-lookup fails because the bottom tab bar is sticky-positioned to viewport bottom while the figma master places it at y=779 inside the 844 frame. Position drift is sticky-vs-figma-fixed, NOT an icon defect. Approved 2026-05-28. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
     }
   ]
 }

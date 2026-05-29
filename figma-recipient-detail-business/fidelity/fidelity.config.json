@@ -1,0 +1,40 @@
+{
+  "_comment": "Project fidelity config for SPX recipient-detail-business (954:10131 + 954:10306). Tolerances mirror account-states/cards. Both variants reuse the SPX info-row chassis (Section Header + key/value rows + copy chevron) and the bottom-nav primitive — most node types are pure boxes + Chinese labels in HarmonyOS Sans TC. iconDeviations waive Feather glyph substitution for the app-wide nav/status/copy/back icon family.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1.5, "y": 1.5, "w": 1.5, "h": 1.5,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans", "SpxBrand"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans", "SpxBrand"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC", "SpxBrand"]
+  },
+  "ignoreText": [],
+  "deviations": [],
+  "iconDeviations": [
+    { "name": "^Linear / Essentional, UI", "reason": "All Linear/Essentional UI Feather-substituted icons (top-right header settings/options glyph, per-row Copy duplicate, dialog trash/danger triangle). App-wide @expo/vector-icons system; geometry/box validated, vector-path identity waived consistent with cards/account-states/dialog deviations." },
+    { "name": "^Outline / Essentional, UI / Danger Triangle", "reason": "Delete-confirmation dialog warning icon uses Feather alert-triangle; vector-path waived consistent with app-wide icon system. Same precedent as account-states delete-dialog deviation." },
+    { "name": "^Linear / Money / ", "reason": "Bottom-nav 'Linear / Money / Wallet' + 'Linear / Money / Card' tab icons use Feather wallet/credit-card; vector-path waived (app-wide icon system)." },
+    { "name": "^Linear / Users / User Circle", "reason": "Bottom-nav '我的' tab icon uses Feather user; vector-path waived (app-wide icon system)." },
+    { "name": "^Linear / Arrows / Alt Arrow", "reason": "Header-back chevron + dropdown chevrons use Feather chevron-left/right; vector-path waived (app-wide icon system)." },
+    { "name": "^返回按钮 / Nav Back", "reason": "Header back-button uses Feather chevron-left in a 42x42 hit-target wrapper; geometry/box validated, glyph identity waived." },
+    { "name": "^icon$", "reason": "Generic 'icon' frame inside Account Header back button — covers the inner Feather chevron-left glyph wrapper waived above." },
+    { "name": "^chip$", "reason": "Account-type 'chip' wrapper 24×24 — visible mismatch is downstream of the bespoke account-type glyph inside (Feather user/briefcase tinted)." },
+    { "name": "^黑LOGO$", "reason": "Bottom-nav home tab icon (tab·home·active) uses the SPX brand mark; impl uses Feather home glyph — geometry/chip-box validated, vector-path identity waived consistent with account-states 黑LOGO deviation." },
+    { "name": "^Group 1707484082$", "reason": "Inner SVG subpath group of 黑LOGO — wrapped by the parent above which is already waived." },
+    { "name": "^Subtract$", "reason": "Inner SVG boolean-op subpath of 黑LOGO — wrapped by the parent above." },
+    { "name": "^Rectangle$", "reason": "Bottom-nav separator rectangle (1px hairline) — geometry validated; vector identity trivially equivalent." },
+    { "name": "^Frame ", "reason": "Status-bar Frame containers (signal/wifi/battery chrome) — pixel rendering uses native browser glyphs; geometry/box validated, vector identity waived consistent with app-wide status-bar handling." },
+    { "name": "^9:41$", "reason": "Status-bar clock text wrapper — pure-text node; visual rendered by parent Accessory frame." },
+    { "name": "^Vector$", "reason": "Inner SVG vector subpaths of the icon frames waived above — wrapped by their parent FRAME which carries the geometry validation." }
+  ],
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "gate": { "minFidelityScore": 85, "maxCritical": 0, "maxMajor": 0 }
+}

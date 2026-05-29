@@ -1,0 +1,118 @@
+{
+  "frame": {
+    "id": "1011:14081",
+    "name": "📱 我的首页",
+    "width": 390,
+    "height": 844
+  },
+  "checked": 7,
+  "fails": 3,
+  "warns": 3,
+  "waived": 0,
+  "icons": [
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "1011:15373",
+      "box": {
+        "x": 183,
+        "y": 135,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "icon",
+      "figmaId": "1016:15912",
+      "box": {
+        "x": 326,
+        "y": 334,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "icon",
+      "figmaId": "1016:15918",
+      "box": {
+        "x": 326,
+        "y": 384,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "icon",
+      "figmaId": "1016:15924",
+      "box": {
+        "x": 326,
+        "y": 434,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "warn",
+      "severity": "minor",
+      "note": "1 paths present but geometry differs from Figma — eyeball the glyph."
+    },
+    {
+      "name": "icon",
+      "figmaId": "1016:15930",
+      "box": {
+        "x": 326,
+        "y": 484,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "icon",
+      "figmaId": "1016:15934",
+      "box": {
+        "x": 326,
+        "y": 534,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "fail",
+      "severity": "major",
+      "note": "Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark."
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I1011:14091;548:6710",
+      "box": {
+        "x": 329.25,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "pass",
+      "severity": "pass"
+    }
+  ]
+}

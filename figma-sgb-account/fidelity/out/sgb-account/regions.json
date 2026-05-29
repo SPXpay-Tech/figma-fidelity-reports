@@ -6,28 +6,12 @@
     "height": 844
   },
   "offset": {
-    "x": -1.28,
-    "y": 22.8
+    "x": 2,
+    "y": -16.56
   },
   "threshold": 12,
-  "flagged": 9,
+  "flagged": 10,
   "regions": [
-    {
-      "name": "seg",
-      "type": "FRAME",
-      "box": {
-        "x": 24,
-        "y": 610,
-        "w": 111.33,
-        "h": 26
-      },
-      "figmaFill": "#eabb62",
-      "mismatch": 82,
-      "crops": {
-        "figma": "seg_I769_10530_769_8715_780_11088.figma.png",
-        "impl": "seg_I769_10530_769_8715_780_11088.impl.png"
-      }
-    },
     {
       "name": "Account Card · 资产卡片",
       "type": "INSTANCE",
@@ -38,42 +22,42 @@
         "h": 83
       },
       "figmaFill": null,
-      "mismatch": 61.4,
+      "mismatch": 61.6,
       "crops": {
         "figma": "Account_Card_769_10515.figma.png",
         "impl": "Account_Card_769_10515.impl.png"
       }
     },
     {
-      "name": "image",
-      "type": "RECTANGLE",
-      "box": {
-        "x": 32,
-        "y": 468,
-        "w": 24,
-        "h": 24
-      },
-      "figmaFill": null,
-      "mismatch": 59.2,
-      "crops": {
-        "figma": "image_I769_10521_735_7039.figma.png",
-        "impl": "image_I769_10521_735_7039.impl.png"
-      }
-    },
-    {
       "name": "seg",
       "type": "FRAME",
       "box": {
-        "x": 24,
+        "x": 139.33,
         "y": 610,
-        "w": 169,
-        "h": 32
+        "w": 111.33,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 40.5,
+      "crops": {
+        "figma": "seg_I769_10530_769_8715_780_11090.figma.png",
+        "impl": "seg_I769_10530_769_8715_780_11090.impl.png"
+      }
+    },
+    {
+      "name": "seg-中",
+      "type": "FRAME",
+      "box": {
+        "x": 306,
+        "y": 70.5,
+        "w": 30,
+        "h": 24
       },
       "figmaFill": "#eabb62",
-      "mismatch": 45.5,
+      "mismatch": 32.7,
       "crops": {
-        "figma": "seg_I769_10530_782_11672_707_5748.figma.png",
-        "impl": "seg_I769_10530_782_11672_707_5748.impl.png"
+        "figma": "seg_I769_10513_704_6331_476_3.figma.png",
+        "impl": "seg_I769_10513_704_6331_476_3.impl.png"
       }
     },
     {
@@ -86,26 +70,42 @@
         "h": 34
       },
       "figmaFill": null,
-      "mismatch": 22.1,
+      "mismatch": 22.4,
       "crops": {
         "figma": "_Segmented_I769_10530_769_8715.figma.png",
         "impl": "_Segmented_I769_10530_769_8715.impl.png"
       }
     },
     {
-      "name": "Home-法币虚拟币",
+      "name": "🌐 语言切换 Language Toggle",
       "type": "INSTANCE",
       "box": {
-        "x": 20,
-        "y": 606,
-        "w": 350,
+        "x": 302,
+        "y": 66.5,
+        "w": 68,
+        "h": 32
+      },
+      "figmaFill": "#f3f1e8",
+      "mismatch": 18.6,
+      "crops": {
+        "figma": "_Language_Toggle_I769_10513_704_6331.figma.png",
+        "impl": "_Language_Toggle_I769_10513_704_6331.impl.png"
+      }
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 197,
+        "y": 115,
+        "w": 169,
         "h": 40
       },
-      "figmaFill": "#aaa286@0.20",
-      "mismatch": 18.8,
+      "figmaFill": "#eabb62",
+      "mismatch": 16.8,
       "crops": {
-        "figma": "Home_I769_10530_782_11672.figma.png",
-        "impl": "Home_I769_10530_782_11672.impl.png"
+        "figma": "seg_I769_10514_769_9218.figma.png",
+        "impl": "seg_I769_10514_769_9218.impl.png"
       }
     },
     {
@@ -134,7 +134,7 @@
         "h": 16
       },
       "figmaFill": null,
-      "mismatch": 15.8,
+      "mismatch": 16.5,
       "crops": {
         "figma": "Linear_Notes_Clipboard_Text_I769_10516_7.figma.png",
         "impl": "Linear_Notes_Clipboard_Text_I769_10516_7.impl.png"
@@ -150,23 +150,27 @@
         "h": 216
       },
       "figmaFill": null,
-      "mismatch": 14.6,
+      "mismatch": 15.8,
       "crops": {
         "figma": "_LOGO_I769_10515_735_6807.figma.png",
         "impl": "_LOGO_I769_10515_735_6807.impl.png"
       }
     },
     {
-      "name": "Frame 2147225266",
-      "type": "FRAME",
+      "name": "分段控件 Segmented",
+      "type": "INSTANCE",
       "box": {
-        "x": 346,
-        "y": 366,
-        "w": 24,
-        "h": 24
+        "x": 20,
+        "y": 111,
+        "w": 350,
+        "h": 48
       },
-      "figmaFill": null,
-      "mismatch": 10
+      "figmaFill": "#f3f1e8",
+      "mismatch": 13.1,
+      "crops": {
+        "figma": "_Segmented_769_10514.figma.png",
+        "impl": "_Segmented_769_10514.impl.png"
+      }
     },
     {
       "name": "ic",
@@ -178,7 +182,31 @@
         "h": 32
       },
       "figmaFill": "#00d17d@0.15",
-      "mismatch": 9.4
+      "mismatch": 9
+    },
+    {
+      "name": "image",
+      "type": "RECTANGLE",
+      "box": {
+        "x": 32,
+        "y": 468,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 8.5
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 610,
+        "w": 111.33,
+        "h": 26
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 8.5
     },
     {
       "name": "黑LOGO",
@@ -190,7 +218,7 @@
         "h": 24
       },
       "figmaFill": "#ffffff",
-      "mismatch": 8.5
+      "mismatch": 8.2
     },
     {
       "name": "Frame 2147225265",
@@ -205,6 +233,30 @@
       "mismatch": 7.9
     },
     {
+      "name": "seg-EN",
+      "type": "FRAME",
+      "box": {
+        "x": 336,
+        "y": 70.5,
+        "w": 30,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 6.6
+    },
+    {
+      "name": "Frame 2147225266",
+      "type": "FRAME",
+      "box": {
+        "x": 346,
+        "y": 366,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 6.5
+    },
+    {
       "name": "Frame 2147225266",
       "type": "FRAME",
       "box": {
@@ -214,19 +266,7 @@
         "h": 24
       },
       "figmaFill": null,
-      "mismatch": 7.3
-    },
-    {
-      "name": "ic",
-      "type": "FRAME",
-      "box": {
-        "x": 32,
-        "y": 753.5,
-        "w": 32,
-        "h": 32
-      },
-      "figmaFill": "#00d17d@0.15",
-      "mismatch": 6.6
+      "mismatch": 6.5
     },
     {
       "name": "Frame 2147225266",
@@ -241,90 +281,6 @@
       "mismatch": 6.5
     },
     {
-      "name": "ic",
-      "type": "FRAME",
-      "box": {
-        "x": 32,
-        "y": 700.5,
-        "w": 32,
-        "h": 32
-      },
-      "figmaFill": "#00d17d@0.15",
-      "mismatch": 5.9
-    },
-    {
-      "name": "Account Card · 资产卡片",
-      "type": "INSTANCE",
-      "box": {
-        "x": 20,
-        "y": 360,
-        "w": 350,
-        "h": 36
-      },
-      "figmaFill": null,
-      "mismatch": 5.6
-    },
-    {
-      "name": "seg",
-      "type": "FRAME",
-      "box": {
-        "x": 197,
-        "y": 115,
-        "w": 169,
-        "h": 40
-      },
-      "figmaFill": "#eabb62",
-      "mismatch": 5.5
-    },
-    {
-      "name": "Account Card · 资产卡片",
-      "type": "INSTANCE",
-      "box": {
-        "x": 20,
-        "y": 456,
-        "w": 350,
-        "h": 48
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 5.5
-    },
-    {
-      "name": "分段控件 Segmented",
-      "type": "INSTANCE",
-      "box": {
-        "x": 20,
-        "y": 111,
-        "w": 350,
-        "h": 48
-      },
-      "figmaFill": "#f3f1e8",
-      "mismatch": 4.3
-    },
-    {
-      "name": "seg-中",
-      "type": "FRAME",
-      "box": {
-        "x": 306,
-        "y": 70.5,
-        "w": 30,
-        "h": 24
-      },
-      "figmaFill": "#eabb62",
-      "mismatch": 4.2
-    },
-    {
-      "name": "circle",
-      "type": "FRAME",
-      "box": {
-        "x": 234,
-        "y": 296,
-        "w": 32,
-        "h": 32
-      },
-      "figmaFill": "#eabb62@0.20",
-      "mismatch": 4
-    },
-    {
       "name": "circle",
       "type": "FRAME",
       "box": {
@@ -334,151 +290,7 @@
         "h": 32
       },
       "figmaFill": "#eabb62@0.20",
-      "mismatch": 4
-    },
-    {
-      "name": "seg",
-      "type": "FRAME",
-      "box": {
-        "x": 139.33,
-        "y": 610,
-        "w": 111.33,
-        "h": 26
-      },
-      "figmaFill": null,
-      "mismatch": 3.8
-    },
-    {
-      "name": "seg",
-      "type": "FRAME",
-      "box": {
-        "x": 254.67,
-        "y": 610,
-        "w": 111.33,
-        "h": 26
-      },
-      "figmaFill": null,
-      "mismatch": 3.8
-    },
-    {
-      "name": "Account Card · 资产卡片",
-      "type": "INSTANCE",
-      "box": {
-        "x": 20,
-        "y": 402,
-        "w": 350,
-        "h": 48
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 3.7
-    },
-    {
-      "name": "seg",
-      "type": "FRAME",
-      "box": {
-        "x": 197,
-        "y": 610,
-        "w": 169,
-        "h": 32
-      },
-      "figmaFill": null,
-      "mismatch": 2.9
-    },
-    {
-      "name": "icon",
-      "type": "FRAME",
-      "box": {
-        "x": 327,
-        "y": 188,
-        "w": 14,
-        "h": 14
-      },
-      "figmaFill": null,
-      "mismatch": 2.6
-    },
-    {
-      "name": "Account Card · 资产卡片",
-      "type": "INSTANCE",
-      "box": {
-        "x": 20,
-        "y": 266,
-        "w": 350,
-        "h": 82
-      },
-      "figmaFill": null,
-      "mismatch": 2.5
-    },
-    {
-      "name": "circle",
-      "type": "FRAME",
-      "box": {
-        "x": 172,
-        "y": 296,
-        "w": 32,
-        "h": 32
-      },
-      "figmaFill": "#eabb62@0.20",
-      "mismatch": 2.1
-    },
-    {
-      "name": "🌐 语言切换 Language Toggle",
-      "type": "INSTANCE",
-      "box": {
-        "x": 302,
-        "y": 66.5,
-        "w": 68,
-        "h": 32
-      },
-      "figmaFill": "#f3f1e8",
-      "mismatch": 2
-    },
-    {
-      "name": "eye",
-      "type": "FRAME",
-      "box": {
-        "x": 322,
-        "y": 183,
-        "w": 24,
-        "h": 24
-      },
-      "figmaFill": "#eabb62",
-      "mismatch": 1.8
-    },
-    {
-      "name": "seg",
-      "type": "FRAME",
-      "box": {
-        "x": 24,
-        "y": 115,
-        "w": 169,
-        "h": 40
-      },
-      "figmaFill": null,
-      "mismatch": 1.4
-    },
-    {
-      "name": "circle",
-      "type": "FRAME",
-      "box": {
-        "x": 36,
-        "y": 296,
-        "w": 32,
-        "h": 32
-      },
-      "figmaFill": "#eabb62@0.20",
-      "mismatch": 1.4
-    },
-    {
-      "name": "circle",
-      "type": "FRAME",
-      "box": {
-        "x": 106,
-        "y": 296,
-        "w": 32,
-        "h": 32
-      },
-      "figmaFill": "#eabb62@0.20",
-      "mismatch": 1.4
+      "mismatch": 5.8
     },
     {
       "name": "Account Hearder, 页头",
@@ -490,18 +302,162 @@
         "h": 33
       },
       "figmaFill": null,
-      "mismatch": 0.7
+      "mismatch": 5.1
     },
     {
-      "name": "seg-EN",
+      "name": "seg",
       "type": "FRAME",
       "box": {
-        "x": 336,
-        "y": 70.5,
-        "w": 30,
-        "h": 24
+        "x": 24,
+        "y": 115,
+        "w": 169,
+        "h": 40
       },
       "figmaFill": null,
+      "mismatch": 5
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 254.67,
+        "y": 610,
+        "w": 111.33,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 4.7
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 753.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 3.8
+    },
+    {
+      "name": "Account Card · 资产卡片",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 266,
+        "w": 350,
+        "h": 82
+      },
+      "figmaFill": null,
+      "mismatch": 3.6
+    },
+    {
+      "name": "circle",
+      "type": "FRAME",
+      "box": {
+        "x": 172,
+        "y": 296,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#eabb62@0.20",
+      "mismatch": 3.5
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 327,
+        "y": 188,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 3.1
+    },
+    {
+      "name": "Account Card · 资产卡片",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 402,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.9
+    },
+    {
+      "name": "Account Card · 资产卡片",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 360,
+        "w": 350,
+        "h": 36
+      },
+      "figmaFill": null,
+      "mismatch": 2.8
+    },
+    {
+      "name": "circle",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 296,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#eabb62@0.20",
+      "mismatch": 2.5
+    },
+    {
+      "name": "circle",
+      "type": "FRAME",
+      "box": {
+        "x": 106,
+        "y": 296,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#eabb62@0.20",
+      "mismatch": 2.5
+    },
+    {
+      "name": "eye",
+      "type": "FRAME",
+      "box": {
+        "x": 322,
+        "y": 183,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 2.3
+    },
+    {
+      "name": "Account Card · 资产卡片",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 456,
+        "w": 350,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.6
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 700.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
       "mismatch": 0
     }
   ]

@@ -1,0 +1,40 @@
+{
+  "_comment": "Project fidelity config for add-recipient-business (954:9467). Tolerances mirror account-states / cards. Status-bar + bottom-nav + chevron vectors waived via iconDeviations (Feather icon system precedent).",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans", "SpxBrand-Regular", "SpxBrand-Medium", "SpxBrand-SemiBold", "SpxBrand-Bold"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans", "SpxBrand-Regular", "SpxBrand-Medium", "SpxBrand-SemiBold", "SpxBrand-Bold"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC", "SpxBrand-Regular", "SpxBrand-Medium", "SpxBrand-SemiBold", "SpxBrand-Bold"]
+  },
+  "ignoreText": [],
+  "deviations": [],
+  "iconDeviations": [
+    { "name": "^配饰 Accessory$", "reason": "iOS status bar (9:41 + signal/wifi/battery cluster) is a Figma INSTANCE; impl renders the same dump nodes — vector-path identity not part of UI fidelity scope." },
+    { "name": "^Bottom Nav · 底部导航 v2$", "reason": "Bottom tab bar is a Figma INSTANCE; tab icons are Feather glyphs in the impl (home/wallet/credit-card/user), vector-path identity waived consistent with cards/dialog screens." },
+    { "name": "^tab·home·active$", "reason": "Bottom-nav tab cells — wrapper for the Feather-glyph tab icons waived above." },
+    { "name": "^黑LOGO$", "reason": "Bottom-nav home tab logo is the bespoke SPX brand mark in Figma; impl uses Feather home glyph (same precedent as transfer-panels chip)." },
+    { "name": "^Linear / Money / Wallet$", "reason": "Bottom-nav 账户 tab — Feather wallet glyph, vector-path waived." },
+    { "name": "^Linear / Money / Card$", "reason": "Bottom-nav 消费 tab — Feather credit-card glyph, vector-path waived." },
+    { "name": "^Linear / Users / User Circle$", "reason": "Bottom-nav 我的 tab — Feather user glyph, vector-path waived." },
+    { "name": "^Linear / Arrows / Alt Arrow Down$", "reason": "Country selector trailing chevron uses Feather chevron-down (app-wide @expo/vector-icons); vector-path waived consistent with account-states screens." },
+    { "name": "^返回按钮 / Nav Back$", "reason": "Header back-button arrow is a Feather chevron-left glyph in impl; vector-path identity waived." },
+    { "name": "^icon$", "reason": "Generic icon wrapper FRAMEs (back-arrow + account-type chip icons) — wrapper geometry validated; inner vector-path identity waived under Feather precedent." },
+    { "name": "^chip$", "reason": "Account-type toggle chip (24×24) wrapper — inner glyph (个人/企业 icons) waived under Feather precedent; chip outer box validated." },
+    { "name": "^Vector$", "reason": "Inner SVG paths of icons whose parent FRAMEs are already waived above (status-bar glyphs, nav glyphs, chevron). Sentinel vectors render invisible." },
+    { "name": "^Group 1707484082$", "reason": "Inner subpath group of the 黑LOGO bottom-nav home glyph — wrapped by 黑LOGO above which is already waived." },
+    { "name": "^Subtract$", "reason": "Boolean operation subpath of the 黑LOGO bottom-nav glyph — waived under parent." },
+    { "name": "^Frame$", "reason": "Status-bar right-cluster wrapper FRAME (signal/wifi/battery group) — inner glyphs waived under 配饰 Accessory." }
+  ],
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "gate": { "minFidelityScore": 85, "maxCritical": 0, "maxMajor": 0 }
+}

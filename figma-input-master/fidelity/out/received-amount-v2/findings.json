@@ -17,30 +17,21 @@
       "x": 0,
       "y": 0
     },
-    "generated": "2026-05-28T10:15:48.317Z"
+    "generated": "2026-05-28T20:15:11.998Z"
   },
   "summary": {
     "checks": 114,
-    "fails": 2,
-    "fidelityScore": 98.2,
-    "bySeverity": {
-      "minor": 2
-    },
+    "fails": 0,
+    "fidelityScore": 100,
+    "bySeverity": {},
     "gate": {
       "blocking": 0,
-      "minor": 2,
+      "minor": 0,
       "pass": true
     },
     "approved": 0
   },
-  "failsByNode": {
-    "划转相关·实收金额": [
-      "borderRadius: 0 → set border-radius to 5px"
-    ],
-    "10,000.00 USD": [
-      "box.x: 255.28 → move to x≈261px"
-    ]
-  },
+  "failsByNode": {},
   "approvedDeviations": [],
   "findings": [
     {
@@ -93,11 +84,10 @@
       "type": "COMPONENT_SET",
       "prop": "borderRadius",
       "figma": 5,
-      "impl": 0,
-      "delta": 5,
-      "pass": false,
-      "severity": "minor",
-      "hint": "set border-radius to 5px"
+      "impl": 5,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "922:8515",
@@ -371,8 +361,8 @@
       "text": "实收金额",
       "prop": "box.y",
       "figma": 60.5,
-      "impl": 59.47,
-      "delta": 1.03,
+      "impl": 60.47,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -406,7 +396,7 @@
       "text": "实收金额",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -453,11 +443,10 @@
       "text": "10,000.00 USD",
       "prop": "box.x",
       "figma": 261,
-      "impl": 255.28,
-      "delta": 5.72,
-      "pass": false,
-      "severity": "minor",
-      "hint": "move to x≈261px"
+      "impl": 261,
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "922:8504",
@@ -466,8 +455,8 @@
       "text": "10,000.00 USD",
       "prop": "box.y",
       "figma": 58,
-      "impl": 56.13,
-      "delta": 1.87,
+      "impl": 58,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -501,7 +490,7 @@
       "text": "10,000.00 USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Black, PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Black, SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -769,8 +758,8 @@
       "text": "实收金额",
       "prop": "box.y",
       "figma": 139.5,
-      "impl": 138.47,
-      "delta": 1.03,
+      "impl": 139.47,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -804,7 +793,7 @@
       "text": "实收金额",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -851,8 +840,8 @@
       "text": "计算中…",
       "prop": "box.x",
       "figma": 314,
-      "impl": 317.55,
-      "delta": 3.55,
+      "impl": 314,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -863,8 +852,8 @@
       "text": "计算中…",
       "prop": "box.y",
       "figma": 137,
-      "impl": 135.13,
-      "delta": 1.87,
+      "impl": 137,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -898,7 +887,7 @@
       "text": "计算中…",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Black, PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Black, SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -1166,8 +1155,8 @@
       "text": "实收金额",
       "prop": "box.y",
       "figma": 218.5,
-      "impl": 217.47,
-      "delta": 1.03,
+      "impl": 218.47,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -1201,7 +1190,7 @@
       "text": "实收金额",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -1248,8 +1237,8 @@
       "text": "-- USD",
       "prop": "box.x",
       "figma": 323,
-      "impl": 322.27,
-      "delta": 0.73,
+      "impl": 323,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -1260,8 +1249,8 @@
       "text": "-- USD",
       "prop": "box.y",
       "figma": 216,
-      "impl": 214.13,
-      "delta": 1.87,
+      "impl": 216,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -1295,7 +1284,7 @@
       "text": "-- USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Black, PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Black, SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },

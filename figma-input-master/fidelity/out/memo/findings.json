@@ -15,9 +15,9 @@
     "matchMode": "tagged",
     "originOffset": {
       "x": 1,
-      "y": 1
+      "y": 1.13
     },
-    "generated": "2026-05-28T10:15:20.270Z"
+    "generated": "2026-05-28T20:14:43.584Z"
   },
   "summary": {
     "checks": 197,
@@ -57,8 +57,8 @@
       "type": "COMPONENT_SET",
       "prop": "box.y",
       "figma": 0,
-      "impl": -1,
-      "delta": 1,
+      "impl": -1.13,
+      "delta": 1.13,
       "pass": true,
       "severity": "pass"
     },
@@ -190,8 +190,8 @@
       "type": "COMPONENT",
       "prop": "box.y",
       "figma": 40,
-      "impl": 40,
-      "delta": 0,
+      "impl": 39.87,
+      "delta": 0.13,
       "pass": true,
       "severity": "pass"
     },
@@ -278,8 +278,8 @@
       "type": "FRAME",
       "prop": "box.y",
       "figma": 40,
-      "impl": 40,
-      "delta": 0,
+      "impl": 39.87,
+      "delta": 0.13,
       "pass": true,
       "severity": "pass"
     },
@@ -368,8 +368,8 @@
       "text": "支付备注",
       "prop": "box.y",
       "figma": 40,
-      "impl": 39,
-      "delta": 1,
+      "impl": 39.87,
+      "delta": 0.13,
       "pass": true,
       "severity": "pass"
     },
@@ -403,7 +403,7 @@
       "text": "支付备注",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -460,8 +460,8 @@
       "type": "FRAME",
       "prop": "box.y",
       "figma": 60,
-      "impl": 60.06,
-      "delta": 0.06,
+      "impl": 59.93,
+      "delta": 0.07,
       "pass": true,
       "severity": "pass"
     },
@@ -594,8 +594,8 @@
       "text": "仅限英文字母, 数字和符号, . - / () + : ‘ ?",
       "prop": "box.y",
       "figma": 80,
-      "impl": 79.03,
-      "delta": 0.97,
+      "impl": 79.9,
+      "delta": 0.1,
       "pass": true,
       "severity": "pass"
     },
@@ -629,7 +629,7 @@
       "text": "仅限英文字母, 数字和符号, . - / () + : ‘ ?",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -686,8 +686,8 @@
       "type": "COMPONENT",
       "prop": "box.y",
       "figma": 138,
-      "impl": 138.06,
-      "delta": 0.06,
+      "impl": 137.93,
+      "delta": 0.07,
       "pass": true,
       "severity": "pass"
     },
@@ -774,8 +774,8 @@
       "type": "FRAME",
       "prop": "box.y",
       "figma": 138,
-      "impl": 138.06,
-      "delta": 0.06,
+      "impl": 137.93,
+      "delta": 0.07,
       "pass": true,
       "severity": "pass"
     },
@@ -864,8 +864,8 @@
       "text": "支付备注",
       "prop": "box.y",
       "figma": 138,
-      "impl": 137.06,
-      "delta": 0.94,
+      "impl": 137.93,
+      "delta": 0.07,
       "pass": true,
       "severity": "pass"
     },
@@ -899,7 +899,7 @@
       "text": "支付备注",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -956,8 +956,8 @@
       "type": "FRAME",
       "prop": "box.y",
       "figma": 158,
-      "impl": 158.13,
-      "delta": 0.13,
+      "impl": 158,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -1101,8 +1101,8 @@
       "text": "仅限英文字母, 数字和符号, . - / () + : ‘ ?",
       "prop": "box.y",
       "figma": 178,
-      "impl": 177.09,
-      "delta": 0.91,
+      "impl": 177.96,
+      "delta": 0.04,
       "pass": true,
       "severity": "pass"
     },
@@ -1136,7 +1136,7 @@
       "text": "仅限英文字母, 数字和符号, . - / () + : ‘ ?",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -1193,8 +1193,8 @@
       "type": "COMPONENT",
       "prop": "box.y",
       "figma": 236,
-      "impl": 236.13,
-      "delta": 0.13,
+      "impl": 236,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -1281,8 +1281,8 @@
       "type": "FRAME",
       "prop": "box.y",
       "figma": 236,
-      "impl": 236.13,
-      "delta": 0.13,
+      "impl": 236,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -1371,8 +1371,8 @@
       "text": "支付备注",
       "prop": "box.y",
       "figma": 236,
-      "impl": 235.13,
-      "delta": 0.87,
+      "impl": 236,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -1406,7 +1406,7 @@
       "text": "支付备注",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -1463,8 +1463,8 @@
       "type": "FRAME",
       "prop": "box.y",
       "figma": 256,
-      "impl": 256.19,
-      "delta": 0.19,
+      "impl": 256.06,
+      "delta": 0.06,
       "pass": true,
       "severity": "pass"
     },
@@ -1597,8 +1597,8 @@
       "text": "Invoice 2026-04 / consulting service Q1",
       "prop": "box.y",
       "figma": 276,
-      "impl": 275.16,
-      "delta": 0.84,
+      "impl": 276.03,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -1632,7 +1632,7 @@
       "text": "Invoice 2026-04 / consulting service Q1",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -1689,8 +1689,8 @@
       "type": "COMPONENT",
       "prop": "box.y",
       "figma": 334,
-      "impl": 334.19,
-      "delta": 0.19,
+      "impl": 334.06,
+      "delta": 0.06,
       "pass": true,
       "severity": "pass"
     },
@@ -1777,8 +1777,8 @@
       "type": "FRAME",
       "prop": "box.y",
       "figma": 334,
-      "impl": 334.19,
-      "delta": 0.19,
+      "impl": 334.06,
+      "delta": 0.06,
       "pass": true,
       "severity": "pass"
     },
@@ -1867,8 +1867,8 @@
       "text": "支付备注",
       "prop": "box.y",
       "figma": 334,
-      "impl": 333.19,
-      "delta": 0.81,
+      "impl": 334.06,
+      "delta": 0.06,
       "pass": true,
       "severity": "pass"
     },
@@ -1902,7 +1902,7 @@
       "text": "支付备注",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },
@@ -1959,8 +1959,8 @@
       "type": "FRAME",
       "prop": "box.y",
       "figma": 354,
-      "impl": 354.25,
-      "delta": 0.25,
+      "impl": 354.12,
+      "delta": 0.12,
       "pass": true,
       "severity": "pass"
     },
@@ -2093,8 +2093,8 @@
       "text": "仅限英文字母, 数字和符号, . - / () + : ‘ ?",
       "prop": "box.y",
       "figma": 374,
-      "impl": 373.22,
-      "delta": 0.78,
+      "impl": 374.09,
+      "delta": 0.09,
       "pass": true,
       "severity": "pass"
     },
@@ -2128,7 +2128,7 @@
       "text": "仅限英文字母, 数字和符号, . - / () + : ‘ ?",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -2187,8 +2187,8 @@
       "text": "⚠ 含不支持字符",
       "prop": "box.y",
       "figma": 414,
-      "impl": 413.25,
-      "delta": 0.75,
+      "impl": 414.12,
+      "delta": 0.12,
       "pass": true,
       "severity": "pass"
     },
@@ -2222,7 +2222,7 @@
       "text": "⚠ 含不支持字符",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },

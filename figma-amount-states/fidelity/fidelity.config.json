@@ -1,0 +1,28 @@
+{
+  "_comment": "Project fidelity config for SPX amount-info inline state library (figma 903:7402). Tolerances mirror account-states / input-master. Three [data-figma-root] canvases live on one page (/__fidelity/amount-states) — each target.json screen scopes to a single set. Gate: ≥85% / 0 critical / 0 major (matching upstream account-states bar).",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "ignoreText": [],
+  "deviations": [],
+  "iconDeviations": [
+    { "name": "^Linear / Essentional, UI / Qu", "reason": "手续费规则 (i) icon uses Feather 'info' glyph (app-wide @expo/vector-icons). Geometry/box validated; vector-path identity waived consistent with account-states arrow-down / info / search / alert-triangle precedent." },
+    { "name": "^Linear / Essentional, UI / Cl", "reason": "费率弹窗 close (X) icon uses Feather 'x' glyph (app-wide @expo/vector-icons). Vector-path waived." },
+    { "name": "^Vector$", "reason": "Inner SVG vector subpath of the Feather glyphs above — wrapped by parent which is already validated." }
+  ],
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "gate": { "minFidelityScore": 85, "maxCritical": 0, "maxMajor": 0 }
+}

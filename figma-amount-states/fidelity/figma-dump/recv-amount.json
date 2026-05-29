@@ -1,0 +1,1531 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "903:7400",
+    "name": "金额信息·实收金额",
+    "width": 430,
+    "height": 1050
+  },
+  "nodes": [
+    {
+      "key": "903:7400",
+      "figmaId": "903:7400",
+      "name": "金额信息·实收金额",
+      "type": "COMPONENT_SET",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 430,
+        "h": 1050
+      },
+      "style": {
+        "backgroundColor": "#fafaf7@0.00",
+        "borderRadius": 5,
+        "padding": {
+          "t": 40,
+          "r": 40,
+          "b": 40,
+          "l": 40
+        },
+        "gap": 24,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "903:7339",
+      "figmaId": "903:7339",
+      "name": "State=Default-Empty",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 350,
+        "h": 118
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "903:7340",
+      "figmaId": "903:7340",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 52,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "903:7341",
+      "figmaId": "903:7341",
+      "name": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "box": {
+        "x": 52,
+        "y": 52,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#13213a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "903:7342",
+      "figmaId": "903:7342",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 72,
+        "w": 326,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "903:7343",
+      "figmaId": "903:7343",
+      "name": "请输入实收金额",
+      "type": "TEXT",
+      "text": "请输入实收金额",
+      "box": {
+        "x": 64,
+        "y": 88,
+        "w": 98,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#9ca3af"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1
+      },
+      "depth": 3
+    },
+    {
+      "key": "903:7344",
+      "figmaId": "903:7344",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 126,
+        "w": 326,
+        "h": 20
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "903:7345",
+      "figmaId": "903:7345",
+      "name": "收款方实际到账金额",
+      "type": "TEXT",
+      "text": "收款方实际到账金额\r",
+      "box": {
+        "x": 52,
+        "y": 129,
+        "w": 112,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "912:7374",
+      "figmaId": "912:7374",
+      "name": "State=Focus",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 182,
+        "w": 350,
+        "h": 118
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "912:7375",
+      "figmaId": "912:7375",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 194,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "912:7376",
+      "figmaId": "912:7376",
+      "name": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "box": {
+        "x": 52,
+        "y": 194,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#13213a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "912:7377",
+      "figmaId": "912:7377",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 214,
+        "w": 326,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#152b51",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#152b51@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "912:7378",
+      "figmaId": "912:7378",
+      "name": "请输入实收金额",
+      "type": "TEXT",
+      "text": "请输入实收金额",
+      "box": {
+        "x": 64,
+        "y": 230,
+        "w": 98,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#9ca3af"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#152b51",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "912:7379",
+      "figmaId": "912:7379",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 268,
+        "w": 326,
+        "h": 20
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "912:7380",
+      "figmaId": "912:7380",
+      "name": "收款方实际到账金额",
+      "type": "TEXT",
+      "text": "收款方实际到账金额\r",
+      "box": {
+        "x": 52,
+        "y": 271,
+        "w": 112,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "913:7556",
+      "figmaId": "913:7556",
+      "name": "State=输入中",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 324,
+        "w": 350,
+        "h": 118
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "913:7557",
+      "figmaId": "913:7557",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 336,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "913:7558",
+      "figmaId": "913:7558",
+      "name": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "box": {
+        "x": 52,
+        "y": 336,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#13213a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "887:22045",
+      "figmaId": "887:22045",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 356,
+        "w": 326,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#152b51",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "color": "#152b51@0.04"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "887:22050",
+      "figmaId": "887:22050",
+      "name": "Frame 2147225323",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 64,
+        "y": 371,
+        "w": 31,
+        "h": 18
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 4,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "887:22046",
+      "figmaId": "887:22046",
+      "name": "987",
+      "type": "TEXT",
+      "text": "987",
+      "box": {
+        "x": 64,
+        "y": 372,
+        "w": 25,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#152b51",
+        "borderWidth": 1.5
+      },
+      "depth": 4
+    },
+    {
+      "key": "887:22048",
+      "figmaId": "887:22048",
+      "name": "cursor",
+      "type": "RECTANGLE",
+      "text": null,
+      "box": {
+        "x": 93,
+        "y": 371,
+        "w": 2,
+        "h": 18
+      },
+      "style": {
+        "backgroundColor": "#152b51"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "887:22051",
+      "figmaId": "887:22051",
+      "name": "USD",
+      "type": "TEXT",
+      "text": "USD",
+      "box": {
+        "x": 337,
+        "y": 372,
+        "w": 29,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#152b51",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "913:7561",
+      "figmaId": "913:7561",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 410,
+        "w": 326,
+        "h": 20
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "913:7562",
+      "figmaId": "913:7562",
+      "name": "收款方实际到账金额",
+      "type": "TEXT",
+      "text": "收款方实际到账金额\r",
+      "box": {
+        "x": 52,
+        "y": 413,
+        "w": 112,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "903:7346",
+      "figmaId": "903:7346",
+      "name": "State=Filled-自动",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 466,
+        "w": 350,
+        "h": 118
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "903:7347",
+      "figmaId": "903:7347",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 478,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "903:7348",
+      "figmaId": "903:7348",
+      "name": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "box": {
+        "x": 52,
+        "y": 478,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#13213a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "903:7349",
+      "figmaId": "903:7349",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 498,
+        "w": 326,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "903:7350",
+      "figmaId": "903:7350",
+      "name": "4,985.00",
+      "type": "TEXT",
+      "text": "4,985.00",
+      "box": {
+        "x": 64,
+        "y": 514,
+        "w": 56,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1
+      },
+      "depth": 3
+    },
+    {
+      "key": "887:21705",
+      "figmaId": "887:21705",
+      "name": "USD",
+      "type": "TEXT",
+      "text": "USD",
+      "box": {
+        "x": 337,
+        "y": 514,
+        "w": 29,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1
+      },
+      "depth": 3
+    },
+    {
+      "key": "903:7351",
+      "figmaId": "903:7351",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 552,
+        "w": 326,
+        "h": 20
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "903:7352",
+      "figmaId": "903:7352",
+      "name": "收款方实际到账金额",
+      "type": "TEXT",
+      "text": "收款方实际到账金额\r",
+      "box": {
+        "x": 52,
+        "y": 555,
+        "w": 112,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "903:7353",
+      "figmaId": "903:7353",
+      "name": "State=Disabled",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 608,
+        "w": 350,
+        "h": 118
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "903:7354",
+      "figmaId": "903:7354",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 620,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "903:7355",
+      "figmaId": "903:7355",
+      "name": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "box": {
+        "x": 52,
+        "y": 620,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#13213a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "903:7356",
+      "figmaId": "903:7356",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 640,
+        "w": 326,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#f6f6f4",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "903:7357",
+      "figmaId": "903:7357",
+      "name": "5,000.00（发起方承担手续费）",
+      "type": "TEXT",
+      "text": "5,000.00（发起方承担手续费）",
+      "box": {
+        "x": 64,
+        "y": 656,
+        "w": 196,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#9ca3af"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f6f6f4",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1
+      },
+      "depth": 3
+    },
+    {
+      "key": "887:21707",
+      "figmaId": "887:21707",
+      "name": "USD",
+      "type": "TEXT",
+      "text": "USD",
+      "box": {
+        "x": 337,
+        "y": 656,
+        "w": 29,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f6f6f4",
+        "borderColor": "#9ca3af@0.20",
+        "borderWidth": 1
+      },
+      "depth": 3
+    },
+    {
+      "key": "903:7358",
+      "figmaId": "903:7358",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 694,
+        "w": 326,
+        "h": 20
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "903:7359",
+      "figmaId": "903:7359",
+      "name": "收款方实际到账金额",
+      "type": "TEXT",
+      "text": "收款方实际到账金额\r",
+      "box": {
+        "x": 52,
+        "y": 697,
+        "w": 112,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#152b51"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "912:7381",
+      "figmaId": "912:7381",
+      "name": "State=Error-低于最低到账",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 750,
+        "w": 350,
+        "h": 118
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "912:7382",
+      "figmaId": "912:7382",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 762,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "912:7383",
+      "figmaId": "912:7383",
+      "name": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "box": {
+        "x": 52,
+        "y": 762,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#13213a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "912:7384",
+      "figmaId": "912:7384",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 782,
+        "w": 326,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#f52f32@0.10",
+        "borderColor": "#f52f32",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "912:7385",
+      "figmaId": "912:7385",
+      "name": "0.50 USD",
+      "type": "TEXT",
+      "text": "0.50 USD",
+      "box": {
+        "x": 64,
+        "y": 798,
+        "w": 61,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f52f32@0.10",
+        "borderColor": "#f52f32",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "912:7386",
+      "figmaId": "912:7386",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 836,
+        "w": 326,
+        "h": 20
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "912:7388",
+      "figmaId": "912:7388",
+      "name": "⚠ 实收金额不能低于最小到账金额 1.00 USD",
+      "type": "TEXT",
+      "text": "⚠ 实收金额不能低于最小到账金额 1.00 USD",
+      "box": {
+        "x": 52,
+        "y": 839,
+        "w": 239,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "912:7389",
+      "figmaId": "912:7389",
+      "name": "State=Error-超过转账金额",
+      "type": "COMPONENT",
+      "text": null,
+      "box": {
+        "x": 40,
+        "y": 892,
+        "w": 350,
+        "h": 118
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "912:7390",
+      "figmaId": "912:7390",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 904,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "912:7391",
+      "figmaId": "912:7391",
+      "name": "实收金额",
+      "type": "TEXT",
+      "text": "实收金额",
+      "box": {
+        "x": 52,
+        "y": 904,
+        "w": 48,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#13213a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "912:7392",
+      "figmaId": "912:7392",
+      "name": "input",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 924,
+        "w": 326,
+        "h": 48
+      },
+      "style": {
+        "backgroundColor": "#f52f32@0.10",
+        "borderColor": "#f52f32",
+        "borderWidth": 1.5,
+        "borderRadius": 12,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "912:7393",
+      "figmaId": "912:7393",
+      "name": "6,000.00 USD",
+      "type": "TEXT",
+      "text": "6,000.00 USD",
+      "box": {
+        "x": 64,
+        "y": 940,
+        "w": 89,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": {
+        "backgroundColor": "#f52f32@0.10",
+        "borderColor": "#f52f32",
+        "borderWidth": 1.5
+      },
+      "depth": 3
+    },
+    {
+      "key": "912:7394",
+      "figmaId": "912:7394",
+      "name": "Frame",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 52,
+        "y": 978,
+        "w": 326,
+        "h": 20
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 0,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "912:7396",
+      "figmaId": "912:7396",
+      "name": "⚠ 实收金额不能超过转账金额 5,000.00 USD",
+      "type": "TEXT",
+      "text": "⚠ 实收金额不能超过转账金额 5,000.00 USD",
+      "box": {
+        "x": 52,
+        "y": 981,
+        "w": 238,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#f52f32"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    }
+  ]
+}

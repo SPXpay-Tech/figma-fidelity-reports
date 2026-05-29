@@ -17,7 +17,7 @@
       "x": 1,
       "y": 1
     },
-    "generated": "2026-05-28T14:12:20.944Z"
+    "generated": "2026-05-28T20:18:41.085Z"
   },
   "summary": {
     "checks": 817,
@@ -29,18 +29,10 @@
       "minor": 0,
       "pass": true
     },
-    "approved": 39
+    "approved": 24
   },
   "failsByNode": {},
   "approvedDeviations": [
-    {
-      "figmaId": "I619:8236;586:7567",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#aaa286",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
-    },
     {
       "figmaId": "I619:8236;586:7567",
       "node": "Vector",
@@ -52,26 +44,10 @@
     {
       "figmaId": "I619:8236;586:7560",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#aaa286",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
-    },
-    {
-      "figmaId": "I619:8236;586:7560",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1,
       "impl": 0,
       "reason": "Same tool limitation as borderColor — SVG strokeWidth is not surfaced as CSS borderWidth by getComputedStyle. Already validated via icon-diff (stroke widths come from the Figma SVG verbatim through svg-to-component.mjs)."
-    },
-    {
-      "figmaId": "I619:8238;586:7320",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
     },
     {
       "figmaId": "I619:8238;586:7320",
@@ -86,16 +62,8 @@
       "node": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
+      "impl": 271.2,
       "reason": "Plus Jakarta Sans Medium renders '+120.00 USD' ~76px wide vs HarmonyOS Sans TC's 73px in the Figma reference (3-4px font-metric drift baked into the bundled-Latin substitution). Text is right-aligned to the row's right edge in both designs, so the right edge matches — only the left edge (box.x) shifts by the width delta. Same fontAliases reconciliation pattern used by cards/auth/toast/dialog masters."
-    },
-    {
-      "figmaId": "I619:8239;586:7320",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
     },
     {
       "figmaId": "I619:8239;586:7320",
@@ -110,16 +78,8 @@
       "node": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
+      "impl": 271.2,
       "reason": "Plus Jakarta Sans Medium renders '+120.00 USD' ~76px wide vs HarmonyOS Sans TC's 73px in the Figma reference (3-4px font-metric drift baked into the bundled-Latin substitution). Text is right-aligned to the row's right edge in both designs, so the right edge matches — only the left edge (box.x) shifts by the width delta. Same fontAliases reconciliation pattern used by cards/auth/toast/dialog masters."
-    },
-    {
-      "figmaId": "I619:8240;586:7320",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
     },
     {
       "figmaId": "I619:8240;586:7320",
@@ -134,16 +94,8 @@
       "node": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
+      "impl": 271.2,
       "reason": "Plus Jakarta Sans Medium renders '+120.00 USD' ~76px wide vs HarmonyOS Sans TC's 73px in the Figma reference (3-4px font-metric drift baked into the bundled-Latin substitution). Text is right-aligned to the row's right edge in both designs, so the right edge matches — only the left edge (box.x) shifts by the width delta. Same fontAliases reconciliation pattern used by cards/auth/toast/dialog masters."
-    },
-    {
-      "figmaId": "I619:8241;586:7320",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
     },
     {
       "figmaId": "I619:8241;586:7320",
@@ -158,16 +110,8 @@
       "node": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
+      "impl": 271.2,
       "reason": "Plus Jakarta Sans Medium renders '+120.00 USD' ~76px wide vs HarmonyOS Sans TC's 73px in the Figma reference (3-4px font-metric drift baked into the bundled-Latin substitution). Text is right-aligned to the row's right edge in both designs, so the right edge matches — only the left edge (box.x) shifts by the width delta. Same fontAliases reconciliation pattern used by cards/auth/toast/dialog masters."
-    },
-    {
-      "figmaId": "I619:8242;586:7320",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
     },
     {
       "figmaId": "I619:8242;586:7320",
@@ -182,16 +126,8 @@
       "node": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
+      "impl": 271.2,
       "reason": "Plus Jakarta Sans Medium renders '+120.00 USD' ~76px wide vs HarmonyOS Sans TC's 73px in the Figma reference (3-4px font-metric drift baked into the bundled-Latin substitution). Text is right-aligned to the row's right edge in both designs, so the right edge matches — only the left edge (box.x) shifts by the width delta. Same fontAliases reconciliation pattern used by cards/auth/toast/dialog masters."
-    },
-    {
-      "figmaId": "I619:8243;586:7320",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
     },
     {
       "figmaId": "I619:8243;586:7320",
@@ -206,16 +142,8 @@
       "node": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
+      "impl": 271.2,
       "reason": "Plus Jakarta Sans Medium renders '+120.00 USD' ~76px wide vs HarmonyOS Sans TC's 73px in the Figma reference (3-4px font-metric drift baked into the bundled-Latin substitution). Text is right-aligned to the row's right edge in both designs, so the right edge matches — only the left edge (box.x) shifts by the width delta. Same fontAliases reconciliation pattern used by cards/auth/toast/dialog masters."
-    },
-    {
-      "figmaId": "I619:8244;586:7320",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
     },
     {
       "figmaId": "I619:8244;586:7320",
@@ -230,16 +158,8 @@
       "node": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
+      "impl": 271.2,
       "reason": "Plus Jakarta Sans Medium renders '+120.00 USD' ~76px wide vs HarmonyOS Sans TC's 73px in the Figma reference (3-4px font-metric drift baked into the bundled-Latin substitution). Text is right-aligned to the row's right edge in both designs, so the right edge matches — only the left edge (box.x) shifts by the width delta. Same fontAliases reconciliation pattern used by cards/auth/toast/dialog masters."
-    },
-    {
-      "figmaId": "I619:8245;586:7368",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#884dfe",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
     },
     {
       "figmaId": "I619:8245;586:7368",
@@ -254,16 +174,8 @@
       "node": "-120.00 USD",
       "prop": "box.x",
       "figma": 266,
-      "impl": 262.77,
+      "impl": 273.98,
       "reason": "Same font-metric drift as +120.00 USD — Plus Jakarta Sans Medium is wider than HarmonyOS Sans TC, shifting the right-aligned amount's left edge ~3-4px."
-    },
-    {
-      "figmaId": "I619:8246;586:7384",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#f9ac1c",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
     },
     {
       "figmaId": "I619:8246;586:7384",
@@ -272,14 +184,6 @@
       "figma": 1.5,
       "impl": 0,
       "reason": "Same tool limitation as borderColor — SVG strokeWidth is not surfaced as CSS borderWidth by getComputedStyle. Already validated via icon-diff (stroke widths come from the Figma SVG verbatim through svg-to-component.mjs)."
-    },
-    {
-      "figmaId": "I619:8246;586:7385",
-      "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#f9ac1c",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
     },
     {
       "figmaId": "I619:8246;586:7385",
@@ -294,20 +198,12 @@
       "node": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
+      "impl": 271.2,
       "reason": "Plus Jakarta Sans Medium renders '+120.00 USD' ~76px wide vs HarmonyOS Sans TC's 73px in the Figma reference (3-4px font-metric drift baked into the bundled-Latin substitution). Text is right-aligned to the row's right edge in both designs, so the right edge matches — only the left edge (box.x) shifts by the width delta. Same fontAliases reconciliation pattern used by cards/auth/toast/dialog masters."
     },
     {
       "figmaId": "I619:8247;586:7398",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#f52f32",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
-    },
-    {
-      "figmaId": "I619:8247;586:7398",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
@@ -316,33 +212,17 @@
     {
       "figmaId": "I619:8247;586:7399",
       "node": "Vector",
-      "prop": "borderColor",
-      "figma": "#f52f32",
-      "impl": "#e5e7eb",
-      "reason": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
-    },
-    {
-      "figmaId": "I619:8247;586:7399",
-      "node": "Vector",
       "prop": "borderWidth",
       "figma": 1.5,
       "impl": 0,
       "reason": "Same tool limitation as borderColor — SVG strokeWidth is not surfaced as CSS borderWidth by getComputedStyle. Already validated via icon-diff (stroke widths come from the Figma SVG verbatim through svg-to-component.mjs)."
-    },
-    {
-      "figmaId": "I619:8247;586:7400",
-      "node": "Vector",
-      "prop": "backgroundColor",
-      "figma": "#f52f32",
-      "impl": "transparent",
-      "reason": "Same SVG-fill tool limitation — the danger-circle inner dot (I619:8247;586:7400) renders <circle fill='#F52F32'/> in impl; getComputedStyle returns transparent because there's no CSS background-color on an SVG <circle>. Fill is verified path-by-path by icon-diff."
     },
     {
       "figmaId": "I619:8247;586:7395",
       "node": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
+      "impl": 271.2,
       "reason": "Plus Jakarta Sans Medium renders '+120.00 USD' ~76px wide vs HarmonyOS Sans TC's 73px in the Figma reference (3-4px font-metric drift baked into the bundled-Latin substitution). Text is right-aligned to the row's right edge in both designs, so the right edge matches — only the left edge (box.x) shifts by the width delta. Same fontAliases reconciliation pattern used by cards/auth/toast/dialog masters."
     }
   ],
@@ -760,12 +640,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#aaa286",
-      "impl": "#e5e7eb",
-      "delta": 30.75,
+      "impl": "#aaa286",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #aaa286",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8236;586:7567",
@@ -887,8 +765,8 @@
       "text": "查看全部",
       "prop": "box.y",
       "figma": 21,
-      "impl": 20,
-      "delta": 1,
+      "impl": 21,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -922,7 +800,7 @@
       "text": "查看全部",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -1056,12 +934,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#aaa286",
-      "impl": "#e5e7eb",
-      "delta": 30.75,
+      "impl": "#aaa286",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #aaa286",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8236;586:7560",
@@ -1544,12 +1420,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8238;586:7320",
@@ -1706,7 +1580,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -1765,8 +1639,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 73,
-      "impl": 72.41,
-      "delta": 0.59,
+      "impl": 73.41,
+      "delta": 0.41,
       "pass": true,
       "severity": "pass"
     },
@@ -1800,7 +1674,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -1847,8 +1721,8 @@
       "text": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
-      "delta": 3.34,
+      "impl": 271.2,
+      "delta": 6.2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈265px",
@@ -1861,8 +1735,8 @@
       "text": "+120.00 USD",
       "prop": "box.y",
       "figma": 63.5,
-      "impl": 62.47,
-      "delta": 1.03,
+      "impl": 63.47,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -1896,7 +1770,7 @@
       "text": "+120.00 USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -2316,12 +2190,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8239;586:7320",
@@ -2478,7 +2350,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -2537,8 +2409,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 126,
-      "impl": 125.41,
-      "delta": 0.59,
+      "impl": 126.41,
+      "delta": 0.41,
       "pass": true,
       "severity": "pass"
     },
@@ -2572,7 +2444,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -2619,8 +2491,8 @@
       "text": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
-      "delta": 3.34,
+      "impl": 271.2,
+      "delta": 6.2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈265px",
@@ -2633,8 +2505,8 @@
       "text": "+120.00 USD",
       "prop": "box.y",
       "figma": 116.5,
-      "impl": 115.47,
-      "delta": 1.03,
+      "impl": 116.47,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -2668,7 +2540,7 @@
       "text": "+120.00 USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -3088,12 +2960,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8240;586:7320",
@@ -3250,7 +3120,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -3309,8 +3179,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 179,
-      "impl": 178.41,
-      "delta": 0.59,
+      "impl": 179.41,
+      "delta": 0.41,
       "pass": true,
       "severity": "pass"
     },
@@ -3344,7 +3214,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -3391,8 +3261,8 @@
       "text": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
-      "delta": 3.34,
+      "impl": 271.2,
+      "delta": 6.2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈265px",
@@ -3405,8 +3275,8 @@
       "text": "+120.00 USD",
       "prop": "box.y",
       "figma": 169.5,
-      "impl": 168.47,
-      "delta": 1.03,
+      "impl": 169.47,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -3440,7 +3310,7 @@
       "text": "+120.00 USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -3860,12 +3730,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8241;586:7320",
@@ -4022,7 +3890,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -4081,8 +3949,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 232,
-      "impl": 231.41,
-      "delta": 0.59,
+      "impl": 232.41,
+      "delta": 0.41,
       "pass": true,
       "severity": "pass"
     },
@@ -4116,7 +3984,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -4163,8 +4031,8 @@
       "text": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
-      "delta": 3.34,
+      "impl": 271.2,
+      "delta": 6.2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈265px",
@@ -4177,8 +4045,8 @@
       "text": "+120.00 USD",
       "prop": "box.y",
       "figma": 222.5,
-      "impl": 221.47,
-      "delta": 1.03,
+      "impl": 222.47,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -4212,7 +4080,7 @@
       "text": "+120.00 USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -4632,12 +4500,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8242;586:7320",
@@ -4794,7 +4660,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -4853,8 +4719,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 285,
-      "impl": 284.41,
-      "delta": 0.59,
+      "impl": 285.41,
+      "delta": 0.41,
       "pass": true,
       "severity": "pass"
     },
@@ -4888,7 +4754,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -4935,8 +4801,8 @@
       "text": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
-      "delta": 3.34,
+      "impl": 271.2,
+      "delta": 6.2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈265px",
@@ -4949,8 +4815,8 @@
       "text": "+120.00 USD",
       "prop": "box.y",
       "figma": 275.5,
-      "impl": 274.47,
-      "delta": 1.03,
+      "impl": 275.47,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -4984,7 +4850,7 @@
       "text": "+120.00 USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -5404,12 +5270,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8243;586:7320",
@@ -5566,7 +5430,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -5625,8 +5489,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 338,
-      "impl": 337.41,
-      "delta": 0.59,
+      "impl": 338.41,
+      "delta": 0.41,
       "pass": true,
       "severity": "pass"
     },
@@ -5660,7 +5524,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -5707,8 +5571,8 @@
       "text": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
-      "delta": 3.34,
+      "impl": 271.2,
+      "delta": 6.2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈265px",
@@ -5721,8 +5585,8 @@
       "text": "+120.00 USD",
       "prop": "box.y",
       "figma": 328.5,
-      "impl": 327.47,
-      "delta": 1.03,
+      "impl": 328.47,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -5756,7 +5620,7 @@
       "text": "+120.00 USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -6176,12 +6040,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
+      "impl": "#00d17d",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #00d17d",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8244;586:7320",
@@ -6338,7 +6200,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -6397,8 +6259,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 391,
-      "impl": 390.41,
-      "delta": 0.59,
+      "impl": 391.41,
+      "delta": 0.41,
       "pass": true,
       "severity": "pass"
     },
@@ -6432,7 +6294,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -6479,8 +6341,8 @@
       "text": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
-      "delta": 3.34,
+      "impl": 271.2,
+      "delta": 6.2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈265px",
@@ -6493,8 +6355,8 @@
       "text": "+120.00 USD",
       "prop": "box.y",
       "figma": 381.5,
-      "impl": 380.47,
-      "delta": 1.03,
+      "impl": 381.47,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -6528,7 +6390,7 @@
       "text": "+120.00 USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -6948,12 +6810,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#884dfe",
-      "impl": "#e5e7eb",
-      "delta": 107.76,
+      "impl": "#884dfe",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #884dfe",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8245;586:7368",
@@ -7110,7 +6970,7 @@
       "text": "出金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -7169,8 +7029,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 444,
-      "impl": 443.41,
-      "delta": 0.59,
+      "impl": 444.41,
+      "delta": 0.41,
       "pass": true,
       "severity": "pass"
     },
@@ -7204,7 +7064,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -7251,8 +7111,8 @@
       "text": "-120.00 USD",
       "prop": "box.x",
       "figma": 266,
-      "impl": 262.77,
-      "delta": 3.23,
+      "impl": 273.98,
+      "delta": 7.98,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈266px",
@@ -7265,8 +7125,8 @@
       "text": "-120.00 USD",
       "prop": "box.y",
       "figma": 434.5,
-      "impl": 433.47,
-      "delta": 1.03,
+      "impl": 434.47,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -7300,7 +7160,7 @@
       "text": "-120.00 USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -7720,12 +7580,10 @@
       "type": "ELLIPSE",
       "prop": "borderColor",
       "figma": "#f9ac1c",
-      "impl": "#e5e7eb",
-      "delta": 81,
+      "impl": "#f9ac1c",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #f9ac1c",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8246;586:7384",
@@ -7790,12 +7648,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#f9ac1c",
-      "impl": "#e5e7eb",
-      "delta": 81,
+      "impl": "#f9ac1c",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #f9ac1c",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8246;586:7385",
@@ -8051,7 +7907,7 @@
       "text": "审核中",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -8141,7 +7997,7 @@
       "type": "FRAME",
       "prop": "backgroundColor",
       "figma": "#00d17d@0.10",
-      "impl": "#00d17d@0.10",
+      "impl": "#00d17d@0.15",
       "delta": 0,
       "pass": true,
       "severity": "pass"
@@ -8220,8 +8076,8 @@
       "text": "入金",
       "prop": "box.y",
       "figma": 482,
-      "impl": 480.97,
-      "delta": 1.03,
+      "impl": 481.97,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -8255,7 +8111,7 @@
       "text": "入金",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -8314,8 +8170,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 503,
-      "impl": 502,
-      "delta": 1,
+      "impl": 503,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -8349,7 +8205,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -8396,8 +8252,8 @@
       "text": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
-      "delta": 3.34,
+      "impl": 271.2,
+      "delta": 6.2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈265px",
@@ -8410,8 +8266,8 @@
       "text": "+120.00 USD",
       "prop": "box.y",
       "figma": 490.5,
-      "impl": 489.47,
-      "delta": 1.03,
+      "impl": 490.47,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -8445,7 +8301,7 @@
       "text": "+120.00 USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -8865,12 +8721,10 @@
       "type": "ELLIPSE",
       "prop": "borderColor",
       "figma": "#f52f32",
-      "impl": "#e5e7eb",
-      "delta": 95.49,
+      "impl": "#f52f32",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #f52f32",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8247;586:7398",
@@ -8935,12 +8789,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#f52f32",
-      "impl": "#e5e7eb",
-      "delta": 95.49,
+      "impl": "#f52f32",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set border-color to #f52f32",
-      "note": "SVG <path>/<circle> stroke is verified path-by-path by icon-diff (0 fail / 11 icons). extract-impl reads getComputedStyle(<path>).borderTopColor → CSS default #e5e7eb, NOT the SVG stroke attribute. Color fidelity of every Vector here is already proven by the icon-diff path-set match against the Figma SVG export; this deviation only suppresses the false-positive that the token-diff would otherwise raise on every icon path."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8247;586:7399",
@@ -9005,12 +8857,10 @@
       "type": "ELLIPSE",
       "prop": "backgroundColor",
       "figma": "#f52f32",
-      "impl": "transparent",
-      "delta": null,
+      "impl": "#f52f32",
+      "delta": 0,
       "pass": true,
-      "severity": "approved",
-      "hint": "set background to #f52f32",
-      "note": "Same SVG-fill tool limitation — the danger-circle inner dot (I619:8247;586:7400) renders <circle fill='#F52F32'/> in impl; getComputedStyle returns transparent because there's no CSS background-color on an SVG <circle>. Fill is verified path-by-path by icon-diff."
+      "severity": "pass"
     },
     {
       "figmaId": "I619:8247;586:7392",
@@ -9154,7 +9004,7 @@
       "text": "出款失败",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -9213,8 +9063,8 @@
       "text": "2026-05-15 19:13",
       "prop": "box.y",
       "figma": 556,
-      "impl": 555.41,
-      "delta": 0.59,
+      "impl": 556.41,
+      "delta": 0.41,
       "pass": true,
       "severity": "pass"
     },
@@ -9248,7 +9098,7 @@
       "text": "2026-05-15 19:13",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Regular",
+      "impl": "SpxBrand-Regular",
       "pass": true,
       "severity": "pass"
     },
@@ -9295,8 +9145,8 @@
       "text": "+120.00 USD",
       "prop": "box.x",
       "figma": 265,
-      "impl": 261.66,
-      "delta": 3.34,
+      "impl": 271.2,
+      "delta": 6.2,
       "pass": true,
       "severity": "approved",
       "hint": "move to x≈265px",
@@ -9309,8 +9159,8 @@
       "text": "+120.00 USD",
       "prop": "box.y",
       "figma": 546.5,
-      "impl": 545.47,
-      "delta": 1.03,
+      "impl": 546.47,
+      "delta": 0.03,
       "pass": true,
       "severity": "pass"
     },
@@ -9344,7 +9194,7 @@
       "text": "+120.00 USD",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -9535,8 +9385,8 @@
       "text": "查看更多",
       "prop": "box.y",
       "figma": 593,
-      "impl": 592,
-      "delta": 1,
+      "impl": 593,
+      "delta": 0,
       "pass": true,
       "severity": "pass"
     },
@@ -9570,7 +9420,7 @@
       "text": "查看更多",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Bold",
+      "impl": "SpxBrand-Bold",
       "pass": true,
       "severity": "pass"
     },

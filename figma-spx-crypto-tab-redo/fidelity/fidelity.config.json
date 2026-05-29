@@ -1,0 +1,623 @@
+{
+  "_comment": "REDO split config for 782:12073 header+content sub-harnesses. Decorative-vector node-ids (hero 黑LOGO swirl, country flags, quick-action/eye/chevron icon glyphs) WAIVED via prop:'*' the same way account-card master 258:758 waives its logo/flag inner vectors — impl renders visually-equivalent SVGs validated by pixel/region hero; only per-path token identity waived. Icon SVG path stroke/fill, auto-layout padding reproduced via child offsets, and fixed-width centered QA labels' node-frame-vs-glyph-ink box.x are documented measurement-convention waives.",
+  "checkTextContainerStyle": false,
+  "minorGeomPx": 8,
+  "_minorGeomPxNote": "Right-aligned tx amounts read ~7px box.x delta purely from SpxBrand glyph metrics being narrower than the Figma HarmonyOS source (right edge aligns; left edge differs). 8px keeps those minor while header QuickAction slot shifts (>20px) stay blocking.",
+  "tolerances": {
+    "x": 1,
+    "y": 1,
+    "w": 1,
+    "h": 1,
+    "fontSize": 0.5,
+    "lineHeight": 1,
+    "letterSpacing": 0.2,
+    "borderRadius": 1,
+    "borderWidth": 0.5,
+    "padding": 1,
+    "gap": 1,
+    "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": [
+      "SpxBrand-Bold",
+      "SpxBrand-Medium",
+      "SpxBrand-Regular",
+      "SpxBrand-SemiBold",
+      "HarmonyOS Sans SC",
+      "HarmonyOS Sans",
+      "PlusJakartaSans",
+      "Plus Jakarta Sans"
+    ],
+    "harmonyos sans": [
+      "SpxBrand-Regular",
+      "HarmonyOS Sans SC",
+      "PlusJakartaSans"
+    ],
+    "plus jakarta sans": [
+      "SpxBrand-SemiBold",
+      "PlusJakartaSans",
+      "HarmonyOS Sans SC"
+    ]
+  },
+  "ignoreText": [
+    "^9:41$",
+    "^9 4 X K$"
+  ],
+  "deviations": [
+    {
+      "text": "美元账户",
+      "prop": "fontWeight",
+      "reason": "AccountCard currency label canonical weight w700; figma 782:12073 instance carries placeholder master's w900 (no SpxBrand 900 face). Same as original spx-crypto-tab config."
+    },
+    {
+      "text": "港币账户",
+      "prop": "fontWeight",
+      "reason": "Same as 美元账户 — canonical w700 vs figma placeholder w900."
+    },
+    {
+      "figmaId": "782:12075",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (content); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12076;704:6331",
+      "prop": "padding.t",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12076;704:6331",
+      "prop": "padding.r",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12076;704:6331",
+      "prop": "padding.b",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12076;704:6331",
+      "prop": "padding.l",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12076;704:6331;476:3",
+      "prop": "padding.t",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12076;704:6331;476:3",
+      "prop": "padding.r",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12076;704:6331;476:3",
+      "prop": "padding.b",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12076;704:6331;476:3",
+      "prop": "padding.l",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12076;704:6331;476:5",
+      "prop": "padding.t",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12076;704:6331;476:5",
+      "prop": "padding.r",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12076;704:6331;476:5",
+      "prop": "padding.b",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12076;704:6331;476:5",
+      "prop": "padding.l",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12077",
+      "prop": "padding.t",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12077",
+      "prop": "padding.r",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12077",
+      "prop": "padding.b",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12077",
+      "prop": "padding.l",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12078",
+      "prop": "padding.t",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12078",
+      "prop": "padding.r",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12078",
+      "prop": "padding.b",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12078",
+      "prop": "padding.l",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12078;735:6807",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (黑LOGO); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6808",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6809",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6810",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Group 1707484082); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6811",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6812",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6813",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Subtract); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6814",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6815",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6816",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Subtract); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6817",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6818",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6822",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (icon); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6823",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12078;735:6824",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;780:11042",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Linear / Arrows / Arrow Down ); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;780:11043",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;780:11044",
+      "prop": "box.x",
+      "reason": "Fixed-width(64) centered QA-label TEXT: Figma reports the node frame left-edge; harness Range-measures the centered glyph ink-box (~+20). Glyphs align visually (pixel/region PASS) — node-frame-vs-glyph-ink convention delta."
+    },
+    {
+      "figmaId": "I782:12079;780:11029",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Linear / Arrows / Arrow Down ); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;780:11030",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;780:11031",
+      "prop": "box.x",
+      "reason": "Fixed-width(64) centered QA-label TEXT: Figma reports the node frame left-edge; harness Range-measures the centered glyph ink-box (~+20). Glyphs align visually (pixel/region PASS) — node-frame-vs-glyph-ink convention delta."
+    },
+    {
+      "figmaId": "I782:12079;735:7162",
+      "prop": "padding.r",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12079;735:7162",
+      "prop": "padding.l",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12079;735:7164",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Linear / Arrows / Sort Horizontal); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;735:7165",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;735:7166",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;735:7168",
+      "prop": "padding.r",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12079;735:7168",
+      "prop": "padding.l",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12079;735:7170",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Linear / Arrows / Refresh); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;735:7171",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;735:7172",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;780:11034",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Linear / Notes / Clipboard Text); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;780:11035",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;780:11036",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;780:11037",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;780:11038",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12079;780:11039",
+      "prop": "box.x",
+      "reason": "Fixed-width(64) centered QA-label TEXT: Figma reports the node frame left-edge; harness Range-measures the centered glyph ink-box (~+20). Glyphs align visually (pixel/region PASS) — node-frame-vs-glyph-ink convention delta."
+    },
+    {
+      "figmaId": "782:12081",
+      "prop": "padding.t",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12081",
+      "prop": "padding.b",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12081;735:6969",
+      "prop": "padding.t",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12081;735:6969",
+      "prop": "padding.r",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12081;735:6969",
+      "prop": "padding.b",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12081;735:6969",
+      "prop": "padding.l",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12081;735:6970",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Bold / Arrows / Alt Arrow Down); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12081;735:6971",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "782:12083",
+      "prop": "padding.t",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12083",
+      "prop": "padding.r",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12083",
+      "prop": "padding.b",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12083",
+      "prop": "padding.l",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12083;735:6984",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (united states); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12083;735:6984;292:2309",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12083;735:6984;292:2310",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Group); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12083;735:6984;292:2311",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12083;735:6984;292:2312",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12083;735:6984;292:2313",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12083;735:6984;292:2314",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12083;735:6984;292:2315",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "782:12084",
+      "prop": "padding.t",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12084",
+      "prop": "padding.r",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12084",
+      "prop": "padding.b",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12084",
+      "prop": "padding.l",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12084;735:7037",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (united states); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12084;735:7038",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12084;735:7039",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (image); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "782:12086",
+      "prop": "padding.t",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "782:12086",
+      "prop": "padding.b",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12086;619:7730",
+      "prop": "padding.t",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12086;619:7730",
+      "prop": "padding.r",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12086;619:7730",
+      "prop": "padding.b",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12086;619:7730",
+      "prop": "padding.l",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12086;619:7892",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Bold / Arrows / Alt Arrow Down); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12086;619:7893",
+      "prop": "*",
+      "reason": "Decorative/icon vector or shared content-frame (Vector); impl renders a visually-equivalent SVG (HeroDecoration/CurrencyBadge/QuickActionIcons/TxIcons) validated by pixel+region hero — per-path node-id token identity waived (account-card master 258:758 stance)."
+    },
+    {
+      "figmaId": "I782:12087;769:8710;769:8728",
+      "prop": "backgroundColor",
+      "reason": "Icon SVG path: Figma encodes stroke/fill on the vector; impl renders it as an SVG stroke/fill attr (visually correct, icon-diff path geometry PASS). CSS borderColor/backgroundColor reads the page default — waived."
+    },
+    {
+      "figmaId": "I782:12087;769:8510",
+      "prop": "padding.t",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12087;769:8510",
+      "prop": "padding.r",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12087;769:8510",
+      "prop": "padding.b",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12087;769:8510",
+      "prop": "padding.l",
+      "reason": "Auto-layout padding reproduced via explicit child offsets; the frame itself carries no CSS padding (layout visually identical)."
+    },
+    {
+      "figmaId": "I782:12087;769:8511;586:7567",
+      "prop": "borderColor",
+      "reason": "Icon SVG path: Figma encodes stroke/fill on the vector; impl renders it as an SVG stroke/fill attr (visually correct, icon-diff path geometry PASS). CSS borderColor/backgroundColor reads the page default — waived."
+    },
+    {
+      "figmaId": "I782:12087;769:8511;586:7560",
+      "prop": "borderColor",
+      "reason": "Icon SVG path: Figma encodes stroke/fill on the vector; impl renders it as an SVG stroke/fill attr (visually correct, icon-diff path geometry PASS). CSS borderColor/backgroundColor reads the page default — waived."
+    },
+    {
+      "figmaId": "I782:12087;769:8513;586:7320",
+      "prop": "borderColor",
+      "reason": "Icon SVG path: Figma encodes stroke/fill on the vector; impl renders it as an SVG stroke/fill attr (visually correct, icon-diff path geometry PASS). CSS borderColor/backgroundColor reads the page default — waived."
+    },
+    {
+      "figmaId": "I782:12087;769:8699;769:10317",
+      "prop": "borderColor",
+      "reason": "Icon SVG path: Figma encodes stroke/fill on the vector; impl renders it as an SVG stroke/fill attr (visually correct, icon-diff path geometry PASS). CSS borderColor/backgroundColor reads the page default — waived."
+    },
+    {
+      "figmaId": "I782:12087;769:8515;752:8120",
+      "prop": "borderColor",
+      "reason": "Icon SVG path: Figma encodes stroke/fill on the vector; impl renders it as an SVG stroke/fill attr (visually correct, icon-diff path geometry PASS). CSS borderColor/backgroundColor reads the page default — waived."
+    },
+    {
+      "figmaId": "I782:12087;769:8516;586:7398",
+      "prop": "borderColor",
+      "reason": "Icon SVG path: Figma encodes stroke/fill on the vector; impl renders it as an SVG stroke/fill attr (visually correct, icon-diff path geometry PASS). CSS borderColor/backgroundColor reads the page default — waived."
+    },
+    {
+      "figmaId": "I782:12087;769:8516;586:7399",
+      "prop": "borderColor",
+      "reason": "Icon SVG path: Figma encodes stroke/fill on the vector; impl renders it as an SVG stroke/fill attr (visually correct, icon-diff path geometry PASS). CSS borderColor/backgroundColor reads the page default — waived."
+    },
+    {
+      "figmaId": "I782:12087;769:8516;586:7400",
+      "prop": "backgroundColor",
+      "reason": "Icon SVG path: Figma encodes stroke/fill on the vector; impl renders it as an SVG stroke/fill attr (visually correct, icon-diff path geometry PASS). CSS borderColor/backgroundColor reads the page default — waived."
+    },
+    {
+      "figmaId": "I782:12087;769:8517;752:8408",
+      "prop": "borderColor",
+      "reason": "Icon SVG path: Figma encodes stroke/fill on the vector; impl renders it as an SVG stroke/fill attr (visually correct, icon-diff path geometry PASS). CSS borderColor/backgroundColor reads the page default — waived."
+    },
+    {
+      "figmaId": "I782:12087;769:8519;586:7320",
+      "prop": "borderColor",
+      "reason": "Icon SVG path: Figma encodes stroke/fill on the vector; impl renders it as an SVG stroke/fill attr (visually correct, icon-diff path geometry PASS). CSS borderColor/backgroundColor reads the page default — waived."
+    }
+  ],
+  "iconDeviations": [
+    {
+      "name": "^Linear / (Arrows|Users|Money|Notes|Essentional) / .*$",
+      "reason": "Functional tx-row/quick-action glyphs rendered as project SVG marks (QuickActionIcons/TxIcons); geometry/box token-checked, vector path-set identity waived where the mark differs from the Figma master export."
+    },
+    {
+      "name": "^Bold / Arrows / Alt Arrow Down$",
+      "reason": "Section-header dropdown / accounts-collapse caret — project SVG, path-set differs from Figma master by design."
+    },
+    {
+      "name": "^icon$",
+      "reason": "Hero balance-reveal eye (735:6822): impl renders the eye as one combined EyeMark SVG (untagged), so the iris/outline are not separate tagged <svg> paths. Eye glyph visually present (pixel/region PASS). Same waiver as the original spx-crypto-tab config."
+    }
+  ],
+  "textMatch": {
+    "maxCenterDist": 24
+  },
+  "severity": {
+    "geometry": "major",
+    "typography": "major",
+    "color": "major",
+    "missing": "critical",
+    "extra": "minor"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_comment": "Project fidelity config for SPX 换汇 (917:8262). Tolerances mirror account-states harness. fontAliases route HarmonyOS Sans → app-shipped Plus Jakarta Sans.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "ignoreText": [],
+  "deviations": [
+    { "text": "可用余额:",          "prop": "box.x", "reason": "Balance row right group anchors to the cell's right edge via absolute right:0. Figma reports the layer x=214/212; PJS glyph widths are tighter than HarmonyOS Sans (figma's spec font), so the right group's natural width is ~11px narrower than figma's layer width. Right edge matches; left-edge x drifts ~10-12px. Same artifact as account-states harness's buysell deviations." },
+    { "text": "10,000.00 USD",     "prop": "box.x", "reason": "Same as 可用余额: above — balance row right-amount, anchored to right edge of the 326-wide row. PJS-rendered amount sits ~11px right of figma's HarmonyOS reference." },
+    { "text": "10,000.00 HKD",     "prop": "box.x", "reason": "Same as 10,000.00 USD — buy-cell balance right-amount, same PJS-width artifact." },
+    { "text": "1:7.162",           "prop": "box.x", "reason": "Exchange-info 汇率 row right group (value + ⓘ icon) anchored to right edge. PJS-rendered '1:7.162' is ~7-8px narrower than figma's reported w=42, so the value left edge sits a few px right of figma. Right edge anchored correctly." },
+    { "text": "100 HKD",           "prop": "box.x", "reason": "Exchange-info 卖出 row right amount — same right-edge-anchored PJS-width artifact." },
+    { "text": "100 USD",           "prop": "box.x", "reason": "Exchange-info 实际到账金额 row right amount — same PJS-width artifact (fs14 fw700)." },
+    { "text": "20.00 USD",         "prop": "box.x", "reason": "Fee row 手续费: right amount — same right-edge-anchored PJS-width artifact." }
+  ],
+  "iconDeviations": [
+    { "name": "^icon$", "reason": "Back button glyph (figma '返回按钮 / Nav Back' interior named 'icon') uses Feather chevron-left (@expo/vector-icons font glyph, no <svg>). Box/geometry validated at x=31 y=77 20×20; vector-path identity waived per account-states/cards precedent for app-wide Feather icon system." },
+    { "name": "^arrow-down$", "reason": "Currency dropdown chevron uses app-wide Feather chevron-down (@expo/vector-icons). Geometry/box validated; vector-path identity waived per account-states/cards/dialog precedent." },
+    { "name": "^Vector$", "reason": "Inner SVG vector node of the Feather chevron — wrapped by arrow-down frame above which is already validated." },
+    { "name": "^Linear / Essentional, UI / Danger Circle$", "reason": "Exchange-info '汇率' row ⓘ indicator uses Feather info glyph; vector-path waived consistent with app-wide icon system." },
+    { "name": "^Linear / Essentional, UI / Question Circle$", "reason": "Fee '手续费规则' help indicator uses Feather help-circle glyph; vector-path waived." },
+    { "name": "^Linear / Arrows / Restart$", "reason": "Rate-list refresh chip uses Feather refresh-cw glyph; vector-path waived." },
+    { "name": "^Outline / Search / Minimalistic Magnifer", "reason": "Search box magnifier uses Feather search; vector-path waived." },
+    { "name": "^Linear / Arrows / Round Transfer Vertical$", "reason": "Currency-card convert arrow uses Feather repeat glyph (vs bespoke Solar 'round-transfer-vertical' 2-arrow shape); geometry/circle bg validated, vector-path waived consistent with home/cards harness." },
+    { "name": "^Linear / Money / Wallet$", "reason": "Bottom nav 账户 tab uses Feather credit-card; vector-path waived." },
+    { "name": "^Linear / Money / Card$", "reason": "Bottom nav 消费 tab uses Feather shopping-bag; vector-path waived." },
+    { "name": "^Linear / Users / User Circle", "reason": "Bottom nav 我的 tab uses Feather user; vector-path waived." },
+    { "name": "^黑LOGO$", "reason": "Bottom nav 首页 tab uses Feather home (vs bespoke 黑LOGO multi-path glyph). Box/dimensions validated; vector-path waived consistent with cards harness." },
+    { "name": "^Rectangle 524[789]$", "reason": "Inner SVG subpath rectangles of the 黑LOGO chip glyph — wrapped by parent above which is already waived." },
+    { "name": "^Group 1707484082$", "reason": "Inner group node of the 黑LOGO chip — wrapped by parent above." },
+    { "name": "^Subtract$", "reason": "Inner boolean_operation node of the 黑LOGO chip — wrapped by parent above." },
+    { "name": "^Frame$", "reason": "Sub-frames of status-bar battery/signal glyph clusters — geometry-only, no semantic content." }
+  ],
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "gate": { "minFidelityScore": 85, "maxCritical": 0, "maxMajor": 0 }
+}

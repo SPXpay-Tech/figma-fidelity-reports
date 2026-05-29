@@ -15,9 +15,9 @@
     "matchMode": "fallback",
     "originOffset": {
       "x": 0,
-      "y": -1.03
+      "y": -0.03
     },
-    "generated": "2026-05-28T05:47:54.165Z"
+    "generated": "2026-05-28T20:12:31.999Z"
   },
   "summary": {
     "checks": 45,
@@ -28,9 +28,11 @@
       "blocking": 0,
       "minor": 0,
       "pass": true
-    }
+    },
+    "approved": 0
   },
   "failsByNode": {},
+  "approvedDeviations": [],
   "findings": [
     {
       "figmaId": "560:4391",
@@ -86,7 +88,7 @@
       "text": "合规状态：未认证",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -192,7 +194,7 @@
       "text": "合规状态：待提交认证",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -298,7 +300,7 @@
       "text": "合规状态：处理中",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -404,7 +406,7 @@
       "text": "合规状态：认证通过",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },
@@ -510,7 +512,7 @@
       "text": "合规状态：未通过",
       "prop": "fontFamily",
       "figma": "HarmonyOS Sans TC",
-      "impl": "PlusJakartaSans-Medium",
+      "impl": "SpxBrand-Medium",
       "pass": true,
       "severity": "pass"
     },

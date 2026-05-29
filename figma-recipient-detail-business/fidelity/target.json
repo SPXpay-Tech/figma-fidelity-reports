@@ -1,0 +1,29 @@
+{
+  "_note": "figma-fidelity for SPX recipient detail screen — business account variant of ComponentSet 收款方信息和删除【企业】 (W4-5). Two screen-level variants share most layout (page-header + 8 info rows + bottom-nav); the differences are (a) 954:10131 carries a '编辑' primary CTA between the data and the bottom-nav, and (b) 954:10306 omits the CTA and overlays a scrim + delete-confirmation dialog. Boot expo web (pnpm exec expo start --web --port 8082), then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target docs/figma-recipient-detail-business/fidelity/target.json --config docs/figma-recipient-detail-business/fidelity/fidelity.config.json",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-recipient-detail-business/fidelity/out",
+  "screens": [
+    {
+      "id": "recipient-detail-business",
+      "node": "954:10131",
+      "figmaJson": "docs/figma-recipient-detail-business/fidelity/figma-dump/recipient-detail-business.json",
+      "figmaPng": "docs/figma-recipient-detail-business/fidelity/figma-dump/recipient-detail-business.png",
+      "url": "http://localhost:8082/__fidelity/recipient-detail-business",
+      "width": 390,
+      "height": 915,
+      "root": "[data-figma-root='954:10131']",
+      "wait": "text=收款人信息"
+    },
+    {
+      "id": "recipient-detail-business-v2",
+      "node": "954:10306",
+      "figmaJson": "docs/figma-recipient-detail-business/fidelity/figma-dump/recipient-detail-business-v2.json",
+      "figmaPng": "docs/figma-recipient-detail-business/fidelity/figma-dump/recipient-detail-business-v2.png",
+      "url": "http://localhost:8082/__fidelity/recipient-detail-business",
+      "width": 390,
+      "height": 849,
+      "root": "[data-figma-root='954:10306']",
+      "wait": "text=你确认想要删除此收款人"
+    }
+  ]
+}

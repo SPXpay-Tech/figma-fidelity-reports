@@ -1,0 +1,59 @@
+{
+  "frame": {
+    "id": "954:9716",
+    "name": "📱 Account. 收款方信息和删除【个人】",
+    "width": 390,
+    "height": 915
+  },
+  "checked": 3,
+  "fails": 0,
+  "warns": 0,
+  "waived": 2,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "I954:9719;953:7833;159:2",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Card·Type badge interior user icon (12.63×12.63) — Figma exports nested ELLIPSE+VECTOR paths inside a 24×24 chip; impl renders Feather user glyph at the chip center. Same precedent as cards/dialog Feather-glyph-replacing-vector-paths waivers. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I954:9974;953:7898",
+      "box": {
+        "x": 37.68,
+        "y": 169.68,
+        "w": 12.63,
+        "h": 12.63
+      },
+      "figmaPaths": 0,
+      "implPaths": 0,
+      "status": "skip",
+      "severity": "pass",
+      "note": "no Figma SVG (export failed)"
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I954:9741;548:6635",
+      "box": {
+        "x": 329.25,
+        "y": 850,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Bottom-nav 我的 tab icon uses Feather user glyph. Geometry/color/box validated; vector-path identity waived. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}

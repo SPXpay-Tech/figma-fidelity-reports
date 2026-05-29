@@ -1,0 +1,89 @@
+{
+  "_comment": "Project fidelity config for SPX add-recipient-personal screen (953:7721). Reuses the cross-screen baseline: 1px geometry, 0.5px font, deltaE 2, same font aliases (HarmonyOS Sans TC → SC + Plus Jakarta Sans for Latin glyphs), and the cross-screen iconDeviations (status-bar accessory, chevron, bottom-nav glyphs, back-arrow). Add-recipient-personal-specific: the 个人 chip carries a User Circle filled glyph (cf. 企业 sibling's Building 4) — both are 24×24 inline SVG approximations.",
+  "checkTextContainerStyle": false,
+  "tolerances": {
+    "x": 1,
+    "y": 1,
+    "w": 1,
+    "h": 1,
+    "fontSize": 0.5,
+    "lineHeight": 1,
+    "letterSpacing": 0.2,
+    "borderRadius": 1,
+    "borderWidth": 0.5,
+    "padding": 1,
+    "gap": 1,
+    "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": [
+      "spxbrand",
+      "HarmonyOS Sans SC",
+      "HarmonyOS Sans",
+      "PlusJakartaSans",
+      "Plus Jakarta Sans"
+    ],
+    "harmonyos sans": [
+      "spxbrand",
+      "HarmonyOS Sans SC",
+      "PlusJakartaSans"
+    ],
+    "plus jakarta sans": [
+      "spxbrand",
+      "PlusJakartaSans",
+      "HarmonyOS Sans SC"
+    ]
+  },
+  "_fontAliasNote": "Figma masters label CJK as 'HarmonyOS Sans TC'; the app ships the SC variant + Plus Jakarta Sans Latin glyphs. Same Huawei family.",
+  "ignoreText": [
+    "^9:41$",
+    "^9 4 X K$"
+  ],
+  "_ignoreTextNote": "iOS status-bar mock — the only data-driven text in this screen is empty placeholders (forms have no balance / fee numerics).",
+  "deviations": [
+    {
+      "node": "Vector",
+      "prop": "*",
+      "reason": "Inner SVG vector subnodes inside iconography (status-bar accessory, back-arrow, chevron-down, chip glyphs, bottom-nav glyphs). Each parent icon name is in iconDeviations (path-set waiver); these missing inner Vector subnodes are the same physical reason — the impl renders the icon as a single inline SVG path, not the figma-authored multi-vector composition. Approved 2026-05-29."
+    }
+  ],
+  "iconDeviations": [
+    {
+      "name": "Accessory",
+      "reason": "iOS status-bar accessory frame (signal / wifi / battery) — rendered as approximation SVGs in the harness. Pure phone-chrome iconography, not part of the SPX product. Approved 2026-05-29."
+    },
+    {
+      "name": "icon",
+      "reason": "Back-arrow icon frame on the page header. Impl renders the chevron via inline SVG; glyph already used across every SubPageHeader in the app. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Arrows / Alt Arrow Down",
+      "reason": "Single-stroke chevron-down glyph (used by the country picker placeholder). Impl renders the same chevron via inline SVG path. Glyph parity has been waived for chevrons cross-screen; same waiver applies here. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "reason": "个人 (personal) chip glyph in the active 账户类型 card, AND bottom-nav 我的 (inactive) icon. Impl renders an approximated user-in-circle outline via inline SVG; full glyph parity deferred — same waiver as account-info screen. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Buildings / Buildings 4",
+      "reason": "企业 (business) chip glyph in the inactive 账户类型 card. Impl renders an approximated building outline. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Money / Wallet",
+      "reason": "Bottom-nav 账户 (active) icon. Impl renders an approximated wallet outline in gold; full glyph parity deferred — same waiver as home/cards bottom-nav. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Money / Card",
+      "reason": "Bottom-nav 消费 (inactive) icon. Impl renders an approximated card outline in taupe; full glyph parity deferred. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Essentional, UI / Home Angle",
+      "reason": "Bottom-nav 首页 (inactive) icon. Impl renders an approximated home outline in taupe. Approved 2026-05-29."
+    },
+    {
+      "name": "Linear / Like / Hand Money",
+      "reason": "Bottom-nav 消费 alt glyph (figma sometimes labels the 消费 tab via this name). Impl renders the inline card outline. Approved 2026-05-29."
+    }
+  ]
+}

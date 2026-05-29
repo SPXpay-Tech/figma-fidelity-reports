@@ -1,0 +1,192 @@
+{
+  "frame": {
+    "id": "917:12169",
+    "name": "📱 Account. 收款方账户显示",
+    "width": 390,
+    "height": 844
+  },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
+  "threshold": 12,
+  "flagged": 2,
+  "regions": [
+    {
+      "name": "Linear / Money / Card",
+      "type": "FRAME",
+      "box": {
+        "x": 231.75,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 16.4,
+      "crops": {
+        "figma": "Linear_Money_Card_I917_12205_548_6628.figma.png",
+        "impl": "Linear_Money_Card_I917_12205_548_6628.impl.png"
+      }
+    },
+    {
+      "name": "黑LOGO",
+      "type": "FRAME",
+      "box": {
+        "x": 36.75,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 13.2,
+      "crops": {
+        "figma": "_LOGO_I917_12205_548_6607.figma.png",
+        "impl": "_LOGO_I917_12205_548_6607.impl.png"
+      }
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 182,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 8.3
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 244,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 8.3
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 306,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 8.3
+    },
+    {
+      "name": "chip",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 368,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 8.3
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 6.1
+    },
+    {
+      "name": "转账信息·支付目的",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 170,
+        "w": 350,
+        "h": 56
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.4
+    },
+    {
+      "name": "转账信息·支付目的",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 232,
+        "w": 350,
+        "h": 56
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.4
+    },
+    {
+      "name": "转账信息·支付目的",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 294,
+        "w": 350,
+        "h": 56
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.4
+    },
+    {
+      "name": "转账信息·支付目的",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 356,
+        "w": 350,
+        "h": 56
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.4
+    },
+    {
+      "name": "Account Hearder, 页头",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 350,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.8
+    },
+    {
+      "name": "转账信息·支付目的",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 120,
+        "w": 350,
+        "h": 38
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.8
+    },
+    {
+      "name": "返回按钮 / Nav Back",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 66,
+        "w": 42,
+        "h": 42
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.4
+    }
+  ]
+}

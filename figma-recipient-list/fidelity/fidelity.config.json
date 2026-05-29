@@ -1,0 +1,34 @@
+{
+  "_comment": "Project fidelity config for 917:12169 recipient-list screen. Tolerances mirror the account-states sibling. Icon glyphs (chip File, chevron-right, bottom-nav 黑LOGO/Wallet/Card/User) are app-wide Feather/bespoke SVGs — vector-path identity waived consistent with the existing fidelity reports.",
+  "checkTextContainerStyle": true,
+  "tolerances": {
+    "x": 1, "y": 1, "w": 1, "h": 1,
+    "fontSize": 0.5, "lineHeight": 1, "letterSpacing": 0.2,
+    "borderRadius": 1, "borderWidth": 0.5, "padding": 1, "gap": 1, "colorDeltaE": 2
+  },
+  "ignoreProps": [],
+  "fontAliases": {
+    "harmonyos sans tc": ["SpxBrand", "spxbrand", "HarmonyOS Sans SC", "HarmonyOS Sans", "PlusJakartaSans", "Plus Jakarta Sans"],
+    "harmonyos sans": ["SpxBrand", "spxbrand", "HarmonyOS Sans SC", "PlusJakartaSans"],
+    "plus jakarta sans": ["SpxBrand", "spxbrand", "PlusJakartaSans", "HarmonyOS Sans SC"]
+  },
+  "ignoreText": [],
+  "deviations": [],
+  "iconDeviations": [
+    { "name": "^Linear / Files / File$", "reason": "Receiver chip icon is Feather file-text glyph (app-wide @expo/vector-icons / SVG paths). Geometry/box/chip-bg validated; vector-path identity waived consistent with cards/dialog/account-states precedent." },
+    { "name": "^arrow-down$", "reason": "Row trailing affordance is a chevron-right glyph (the figma vector is a narrow 5×11.67 path inside a 20×20 frame — same right-pointing shape). Geometry/box validated; vector-path identity waived." },
+    { "name": "^Vector$", "reason": "Inner SVG vector node of the chevron / file icons — wrapped by the named frames above which are already validated." },
+    { "name": "^黑LOGO$", "reason": "Bottom-nav home tab uses a bespoke SPX 'S' logo; impl renders a stylized SVG marker — same precedent as transfer-screen 867:16776. Geometry/box validated; vector-path identity waived." },
+    { "name": "^Linear / Money / Wallet$", "reason": "Bottom-nav 账户 active tab icon is Feather wallet glyph; vector-path waived consistent with app-wide icon system." },
+    { "name": "^Linear / Money / Card$", "reason": "Bottom-nav 消费 tab icon is Feather card glyph; vector-path waived consistent with app-wide icon system." },
+    { "name": "^Linear / Users / User Circle$", "reason": "Bottom-nav 我的 tab icon is Feather user-circle glyph; vector-path waived consistent with app-wide icon system." },
+    { "name": "^Group 1707484082$", "reason": "Inner SPX-logo group wrapping the multi-path glyph — same waiver as 黑LOGO parent." },
+    { "name": "^Subtract$", "reason": "BOOLEAN_OPERATION node inside the SPX home logo — same waiver as 黑LOGO parent." }
+  ],
+  "textMatch": { "maxCenterDist": 24 },
+  "severity": {
+    "geometry": "major", "typography": "major", "color": "major",
+    "missing": "critical", "extra": "minor"
+  },
+  "gate": { "minFidelityScore": 85, "maxCritical": 0, "maxMajor": 0 }
+}

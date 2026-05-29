@@ -1,0 +1,22 @@
+{
+  "_note": "figma-fidelity for the SPX mobile 虚拟币存款 (Crypto Deposit) phone screen 790:15656. Crypto-only variant of /deposit driven by ?tab=crypto. Mock mode (?mock=1) seeds the USDT/USDC cascade matching the figma frame (Tron pre-selected, address TG9k...J8a) so the diff scores DESIGN not data. Boot expo web (pnpm exec expo start --web --port 8082), then: node <skill>/scripts/run.mjs --target this --screen crypto-deposit-screen",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-crypto-deposit-screen/fidelity/out",
+  "topInset": 54,
+  "screens": [
+    {
+      "id": "crypto-deposit-screen",
+      "node": "790:15656",
+      "figmaJson": "docs/figma-crypto-deposit-screen/fidelity/figma-dump/crypto-deposit-screen.json",
+      "figmaPng": "docs/figma-crypto-deposit-screen/fidelity/figma-dump/crypto-deposit-screen.png",
+      "url": "http://localhost:8082/deposit?mock=1&tab=crypto",
+      "width": 390,
+      "height": 844,
+      "root": "body",
+      "storageState": "docs/figma-crypto-deposit-screen/fidelity/mock-state.json",
+      "wait": "text=虚拟币存款",
+      "anchor": "虚拟币存款",
+      "topInset": 54
+    }
+  ]
+}

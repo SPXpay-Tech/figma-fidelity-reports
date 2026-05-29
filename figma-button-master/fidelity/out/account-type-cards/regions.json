@@ -53,18 +53,6 @@
       "mismatch": 6.6
     },
     {
-      "name": "类型=企业收款账户, 状态=选中",
-      "type": "COMPONENT",
-      "box": {
-        "x": 20,
-        "y": 350,
-        "w": 165,
-        "h": 48
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 4.8
-    },
-    {
       "name": "类型=企业, 状态=选中",
       "type": "COMPONENT",
       "box": {
@@ -74,7 +62,19 @@
         "h": 58
       },
       "figmaFill": "#ffffff",
-      "mismatch": 4.2
+      "mismatch": 4.6
+    },
+    {
+      "name": "类型=企业收款账户, 状态=选中",
+      "type": "COMPONENT",
+      "box": {
+        "x": 20,
+        "y": 350,
+        "w": 165,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 4.3
     },
     {
       "name": "icon",
@@ -87,6 +87,18 @@
       },
       "figmaFill": null,
       "mismatch": 4.2
+    },
+    {
+      "name": "类型=个人, 状态=选中",
+      "type": "COMPONENT",
+      "box": {
+        "x": 20,
+        "y": 92,
+        "w": 165,
+        "h": 58
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 4.1
     },
     {
       "name": "icon",
@@ -125,18 +137,6 @@
       "mismatch": 3.5
     },
     {
-      "name": "类型=个人, 状态=选中",
-      "type": "COMPONENT",
-      "box": {
-        "x": 20,
-        "y": 92,
-        "w": 165,
-        "h": 58
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 3.4
-    },
-    {
       "name": "chip",
       "type": "FRAME",
       "box": {
@@ -161,18 +161,6 @@
       "mismatch": 2.3
     },
     {
-      "name": "类型=企业, 状态=默认",
-      "type": "COMPONENT",
-      "box": {
-        "x": 20,
-        "y": 412,
-        "w": 165,
-        "h": 58
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 2.3
-    },
-    {
       "name": "chip",
       "type": "FRAME",
       "box": {
@@ -185,6 +173,18 @@
       "mismatch": 2.2
     },
     {
+      "name": "类型=企业, 状态=默认",
+      "type": "COMPONENT",
+      "box": {
+        "x": 20,
+        "y": 412,
+        "w": 165,
+        "h": 58
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2.1
+    },
+    {
       "name": "类型=企业收款账户, 状态=默认",
       "type": "COMPONENT",
       "box": {
@@ -194,7 +194,19 @@
         "h": 48
       },
       "figmaFill": "#ffffff",
-      "mismatch": 1.9
+      "mismatch": 2
+    },
+    {
+      "name": "类型=个人收款账户, 状态=默认",
+      "type": "COMPONENT",
+      "box": {
+        "x": 20,
+        "y": 226,
+        "w": 165,
+        "h": 48
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.8
     },
     {
       "name": "icon",
@@ -207,18 +219,6 @@
       },
       "figmaFill": null,
       "mismatch": 1.7
-    },
-    {
-      "name": "类型=个人收款账户, 状态=默认",
-      "type": "COMPONENT",
-      "box": {
-        "x": 20,
-        "y": 226,
-        "w": 165,
-        "h": 48
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 1.6
     },
     {
       "name": "chip",

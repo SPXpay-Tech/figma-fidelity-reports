@@ -1,0 +1,18 @@
+{
+  "_note": "figma-fidelity for SPX mobile SGB transaction history detail page (segmented + filter + 6 tx cards + bottom nav). Ground truth = Figma 968:16861 (📱 account. 交易明细 SGB详情, 390×1469). Rendered via the __fidelity/tx-detail-sgb harness — dump-driven walker built on _shared/FigmaNode + sentinelVectors + a small icon shim. Run: FIGMA_TOKEN=figd_xxx node <skill>/scripts/run.mjs --target this --config fidelity.config.json --screen tx-detail-sgb",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-tx-detail-sgb/fidelity/out",
+  "screens": [
+    {
+      "id": "tx-detail-sgb",
+      "node": "968:16861",
+      "figmaJson": "docs/figma-tx-detail-sgb/fidelity/figma-dump/tx-detail-sgb.json",
+      "figmaPng": "docs/figma-tx-detail-sgb/fidelity/figma-dump/tx-detail-sgb.png",
+      "url": "http://localhost:8086/__fidelity/tx-detail-sgb",
+      "width": 390,
+      "height": 1469,
+      "root": "[data-figma-root='968:16861']",
+      "wait": "text=交易详情"
+    }
+  ]
+}

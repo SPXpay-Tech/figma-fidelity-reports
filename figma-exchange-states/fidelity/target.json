@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for SPX exchange screen (figma master 917:11876 '📱 Account. 情况变化换汇', 390×1041). Single-canvas full-screen — sell/buy currency cells with the sell-currency dropdown OPEN, computed exchange-info preview, 汇率列表 with search box + 11 rows, primary CTA, bottom nav, error toast overlay. Boot expo web (pnpm exec expo start --web --port 8082), then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen exchange-states",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-exchange-states/fidelity/out",
+  "regionThreshold": 18,
+  "screens": [
+    {
+      "id": "exchange-states",
+      "node": "917:11876",
+      "figmaJson": "docs/figma-exchange-states/fidelity/figma-dump/exchange-states.json",
+      "figmaPng": "docs/figma-exchange-states/fidelity/figma-dump/exchange-states.png",
+      "url": "http://localhost:8082/__fidelity/exchange-states",
+      "width": 390,
+      "height": 1200,
+      "root": "[data-figma-root='917:11876']",
+      "wait": "[data-figma-root='917:11876']"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "_note": "figma-fidelity for SPX Account Info master 790:14793 ('账户信息', COMPONENT_SET 390×635). 2 variants stacked vertically with gap 20, padding 20: (1) 790:14816 'Property 1=账户号' 320×47 single row (label + value + 24×24 copy icon) — (2) 790:15115 'Property 1=详细信息' 350×528 white-card panel border #aaa286@0.20 radius 12 padding 12 with section header (SGB 银行收款信息 + 复制全部 pill) + 8 instance rows of the row variant (收款账户号 / 收款人姓名 / SWIFT/BIC / 收款银行 / 银行地址 / 中间行银行名 / 中间行 SWIFT / 中间行地址). Boot expo web (pnpm exec expo start --web --port 8082) and: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen account-info",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-account-info-master/fidelity/out",
+  "screens": [
+    {
+      "id": "account-info",
+      "node": "790:14793",
+      "figmaJson": "docs/figma-account-info-master/fidelity/figma-dump/account-info.json",
+      "figmaPng": "docs/figma-account-info-master/fidelity/figma-dump/account-info.png",
+      "url": "http://localhost:8083/__fidelity/account-info",
+      "width": 390,
+      "height": 635,
+      "root": "[data-figma-root='790:14793']",
+      "wait": "text=SGB 银行收款信息",
+      "anchor": "母版 Master · 790:14793"
+    }
+  ]
+}

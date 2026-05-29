@@ -1,0 +1,18 @@
+{
+  "_note": "figma-fidelity for SPX add-recipient-business (954:9467) — full-screen form, 390×1131. Single screen entry. Boot expo web (pnpm exec expo start --web --port 8082), then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen add-recipient-business",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-add-recipient-business/fidelity/out",
+  "screens": [
+    {
+      "id": "add-recipient-business",
+      "node": "954:9467",
+      "figmaJson": "docs/figma-add-recipient-business/fidelity/figma-dump/add-recipient-business.json",
+      "figmaPng": "docs/figma-add-recipient-business/fidelity/figma-dump/add-recipient-business.png",
+      "url": "http://localhost:8082/__fidelity/add-recipient-business",
+      "width": 390,
+      "height": 1131,
+      "root": "[data-figma-root='954:9467']",
+      "wait": "text=添加银行收款人"
+    }
+  ]
+}

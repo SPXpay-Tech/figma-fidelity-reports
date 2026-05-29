@@ -1,0 +1,43 @@
+{
+  "_note": "figma-fidelity for SPX amount-info state library (figma master 903:7402, 1434×1284). Contains 3 ComponentSets / 15 variants total: 903:7399 转账金额 (6), 903:7400 实收金额 (7), 903:7401 手续费扣费 (2). Each ComponentSet is a separate screen so target.json has 3 entries; the harness page (/__fidelity/amount-states) renders all 3 root canvases. Boot expo web (pnpm exec expo start --web --port 8082), then: node ~/.claude/skills/figma-fidelity/scripts/run.mjs --target this --config fidelity.config.json --screen <id>",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-amount-states/fidelity/out",
+  "screens": [
+    {
+      "id": "transfer-amount",
+      "_set": "903:7399 金额信息·转账金额 (6 variants — Default-Empty, Focus, 输入中, Filled, Error-余额不足, Error-超过限额)",
+      "node": "903:7399",
+      "figmaJson": "docs/figma-amount-states/fidelity/figma-dump/transfer-amount.json",
+      "figmaPng": "docs/figma-amount-states/fidelity/figma-dump/transfer-amount.png",
+      "url": "http://localhost:8082/__fidelity/amount-states",
+      "width": 430,
+      "height": 908,
+      "root": "[data-figma-root='903:7399']",
+      "wait": "[data-figma-root='903:7399']"
+    },
+    {
+      "id": "recv-amount",
+      "_set": "903:7400 金额信息·实收金额 (7 variants — Default-Empty, Focus, 输入中, Filled-自动, Disabled, Error-低于最低到账, Error-超过转账金额)",
+      "node": "903:7400",
+      "figmaJson": "docs/figma-amount-states/fidelity/figma-dump/recv-amount.json",
+      "figmaPng": "docs/figma-amount-states/fidelity/figma-dump/recv-amount.png",
+      "url": "http://localhost:8082/__fidelity/amount-states",
+      "width": 430,
+      "height": 1050,
+      "root": "[data-figma-root='903:7400']",
+      "wait": "[data-figma-root='903:7400']"
+    },
+    {
+      "id": "fee-deduction",
+      "_set": "903:7401 金额信息·手续费扣费 (2 variants — 发起方承担, 费率弹窗)",
+      "node": "903:7401",
+      "figmaJson": "docs/figma-amount-states/fidelity/figma-dump/fee-deduction.json",
+      "figmaPng": "docs/figma-amount-states/fidelity/figma-dump/fee-deduction.png",
+      "url": "http://localhost:8082/__fidelity/amount-states",
+      "width": 430,
+      "height": 340,
+      "root": "[data-figma-root='903:7401']",
+      "wait": "[data-figma-root='903:7401']"
+    }
+  ]
+}

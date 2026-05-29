@@ -22,7 +22,7 @@
         "h": 48
       },
       "figmaFill": "#f52f32@0.10",
-      "mismatch": 90.7,
+      "mismatch": 90.8,
       "crops": {
         "figma": "State_Error_942_7988.figma.png",
         "impl": "State_Error_942_7988.impl.png"
@@ -38,7 +38,7 @@
         "h": 48
       },
       "figmaFill": "#ffffff",
-      "mismatch": 4.7
+      "mismatch": 4.4
     },
     {
       "name": "head",
@@ -50,7 +50,7 @@
         "h": 48
       },
       "figmaFill": "#ffffff",
-      "mismatch": 4.7
+      "mismatch": 4.4
     },
     {
       "name": "State=Empty",
@@ -62,7 +62,7 @@
         "h": 48
       },
       "figmaFill": "#ffffff",
-      "mismatch": 1.7
+      "mismatch": 2.3
     },
     {
       "name": "State=Disabled",
@@ -74,7 +74,7 @@
         "h": 48
       },
       "figmaFill": "#f6f6f4",
-      "mismatch": 1.5
+      "mismatch": 1.8
     },
     {
       "name": "panel",
@@ -86,30 +86,6 @@
         "h": 210
       },
       "figmaFill": "#ffffff",
-      "mismatch": 0.9
-    },
-    {
-      "name": "opt-SGD",
-      "type": "FRAME",
-      "box": {
-        "x": 36,
-        "y": 583,
-        "w": 136,
-        "h": 31
-      },
-      "figmaFill": null,
-      "mismatch": 0.8
-    },
-    {
-      "name": "opt-GBP",
-      "type": "FRAME",
-      "box": {
-        "x": 36,
-        "y": 614,
-        "w": 136,
-        "h": 31
-      },
-      "figmaFill": null,
       "mismatch": 0.7
     },
     {
@@ -122,7 +98,55 @@
         "h": 31
       },
       "figmaFill": null,
-      "mismatch": 0.4
+      "mismatch": 0.7
+    },
+    {
+      "name": "opt-SGD",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 583,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0.6
+    },
+    {
+      "name": "opt-USD",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 490,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": "#9ca3af@0.10",
+      "mismatch": 0.5
+    },
+    {
+      "name": "opt-EUR",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 552,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0.5
+    },
+    {
+      "name": "opt-GBP",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 614,
+        "w": 136,
+        "h": 31
+      },
+      "figmaFill": null,
+      "mismatch": 0.5
     },
     {
       "name": "opt-CNY",
@@ -135,30 +159,6 @@
       },
       "figmaFill": null,
       "mismatch": 0.4
-    },
-    {
-      "name": "opt-USD",
-      "type": "FRAME",
-      "box": {
-        "x": 36,
-        "y": 490,
-        "w": 136,
-        "h": 31
-      },
-      "figmaFill": "#9ca3af@0.10",
-      "mismatch": 0.3
-    },
-    {
-      "name": "opt-EUR",
-      "type": "FRAME",
-      "box": {
-        "x": 36,
-        "y": 552,
-        "w": 136,
-        "h": 31
-      },
-      "figmaFill": null,
-      "mismatch": 0.1
     }
   ]
 }

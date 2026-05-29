@@ -1,0 +1,20 @@
+{
+  "_note": "figma-fidelity for SPX mobile 我的与设置 (Me & Settings). Ground truth = section 365:2396, home frame 我的首页 1011:14081. Rendered in DEV mock mode (/me?mock=1 + mock-state.json — mock authed+KYC session). Run: node <skill>/scripts/run.mjs --target this --config docs/figma-me-settings/fidelity/fidelity.config.json --screen me",
+  "fileKey": "eqhwFT0W55JotQkpxndDl9",
+  "out": "docs/figma-me-settings/fidelity/out",
+  "topInset": 54,
+  "screens": [
+    {
+      "id": "me",
+      "node": "1011:14081",
+      "url": "http://localhost:8082/me?mock=1",
+      "width": 390,
+      "height": 844,
+      "root": "body",
+      "storageState": "docs/figma-me-settings/fidelity/mock-state.json",
+      "wait": "text=简体中文",
+      "anchor": "简体中文",
+      "topInset": 54
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "887:22019",
+    "name": "金额信息·手续费扣费",
+    "width": 350,
+    "height": 134
+  },
+  "nodes": [
+    {
+      "key": "887:22019",
+      "figmaId": "887:22019",
+      "name": "金额信息·手续费扣费",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 350,
+        "h": 134
+      },
+      "style": {
+        "backgroundColor": "#fcfcfa",
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 15,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 24,
+          "l": 12
+        },
+        "gap": 12,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "I887:22019;887:21143",
+      "figmaId": "I887:22019;887:21143",
+      "name": "Frame 2147225320",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 12,
+        "w": 326,
+        "h": 20
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 24,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "I887:22019;887:21162",
+      "figmaId": "I887:22019;887:21162",
+      "name": "手续费规则",
+      "type": "TEXT",
+      "text": "手续费规则",
+      "box": {
+        "x": 12,
+        "y": 15,
+        "w": 60,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.06,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#3d3218"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I887:22019;887:21144",
+      "figmaId": "I887:22019;887:21144",
+      "name": "Linear / Essentional, UI / Close Circle",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 318,
+        "y": 12,
+        "w": 20,
+        "h": 20
+      },
+      "style": {
+        "borderRadius": 30
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I887:22019;887:21145",
+      "figmaId": "I887:22019;887:21145",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 324,
+        "y": 18,
+        "w": 8,
+        "h": 8
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I887:22019;887:21146",
+      "figmaId": "I887:22019;887:21146",
+      "name": "Frame 2147225321",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 44,
+        "w": 326,
+        "h": 66
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "I887:22019;887:21147",
+      "figmaId": "I887:22019;887:21147",
+      "name": "Exchange Rate · 汇率",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 44,
+        "w": 326,
+        "h": 24
+      },
+      "style": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderRadius": 6,
+        "padding": {
+          "t": 6,
+          "r": 6,
+          "b": 6,
+          "l": 6
+        },
+        "gap": 87,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I887:22019;887:21148",
+      "figmaId": "I887:22019;887:21148",
+      "name": "h",
+      "type": "TEXT",
+      "text": "阶梯",
+      "box": {
+        "x": 18,
+        "y": 50,
+        "w": 20,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "I887:22019;887:21149",
+      "figmaId": "I887:22019;887:21149",
+      "name": "h",
+      "type": "TEXT",
+      "text": "范围",
+      "box": {
+        "x": 53.5,
+        "y": 50,
+        "w": 78,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "I887:22019;887:21150",
+      "figmaId": "I887:22019;887:21150",
+      "name": "h",
+      "type": "TEXT",
+      "text": "最低金额",
+      "box": {
+        "x": 147,
+        "y": 50,
+        "w": 56,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "I887:22019;887:21151",
+      "figmaId": "I887:22019;887:21151",
+      "name": "h",
+      "type": "TEXT",
+      "text": "费率",
+      "box": {
+        "x": 218.5,
+        "y": 50,
+        "w": 48,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "I887:22019;887:21152",
+      "figmaId": "I887:22019;887:21152",
+      "name": "h",
+      "type": "TEXT",
+      "text": "固定手续费",
+      "box": {
+        "x": 282,
+        "y": 50,
+        "w": 50,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#866d31"
+      },
+      "parentStyle": {
+        "backgroundColor": "#eabb62@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "I887:22019;887:21153",
+      "figmaId": "I887:22019;887:21153",
+      "name": "Exchange Rate · 汇率",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 74,
+        "w": 326,
+        "h": 36
+      },
+      "style": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderRadius": 6,
+        "padding": {
+          "t": 12,
+          "r": 6,
+          "b": 12,
+          "l": 6
+        },
+        "gap": 87,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I887:22019;887:21154",
+      "figmaId": "I887:22019;887:21154",
+      "name": "h",
+      "type": "TEXT",
+      "text": "1",
+      "box": {
+        "x": 18,
+        "y": 86,
+        "w": 20,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "textTransform": "none",
+        "color": "#24201a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "I887:22019;887:21155",
+      "figmaId": "I887:22019;887:21155",
+      "name": "h",
+      "type": "TEXT",
+      "text": "0 USD及以上",
+      "box": {
+        "x": 53.5,
+        "y": 86,
+        "w": 78,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#24201a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "I887:22019;887:21156",
+      "figmaId": "I887:22019;887:21156",
+      "name": "h",
+      "type": "TEXT",
+      "text": "100 USD",
+      "box": {
+        "x": 147,
+        "y": 86,
+        "w": 56,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#24201a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "I887:22019;887:21157",
+      "figmaId": "I887:22019;887:21157",
+      "name": "h",
+      "type": "TEXT",
+      "text": "0.03%",
+      "box": {
+        "x": 218.5,
+        "y": 86,
+        "w": 48,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#24201a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    },
+    {
+      "key": "I887:22019;887:21158",
+      "figmaId": "I887:22019;887:21158",
+      "name": "h",
+      "type": "TEXT",
+      "text": "50 USD",
+      "box": {
+        "x": 282,
+        "y": 86,
+        "w": 50,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "lineHeight": 11.72,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#24201a"
+      },
+      "parentStyle": {
+        "backgroundColor": "#9ca3af@0.10",
+        "borderColor": null,
+        "borderWidth": null
+      },
+      "depth": 3
+    }
+  ]
+}

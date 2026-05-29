@@ -17,41 +17,31 @@
       "x": 1,
       "y": 0
     },
-    "generated": "2026-05-28T05:54:14.856Z"
+    "generated": "2026-05-28T20:18:13.336Z"
   },
   "summary": {
     "checks": 263,
-    "fails": 23,
-    "fidelityScore": 91.3,
+    "fails": 13,
+    "fidelityScore": 95.1,
     "bySeverity": {
-      "major": 10,
       "minor": 13
     },
     "gate": {
-      "blocking": 10,
+      "blocking": 0,
       "minor": 13,
-      "pass": false
-    }
+      "pass": true
+    },
+    "approved": 0
   },
   "failsByNode": {
     "Vector": [
-      "borderColor: #e5e7eb → set border-color to #00d17d",
       "borderWidth: 0 → set border-width to 1px",
-      "borderColor: #e5e7eb → set border-color to #00d17d",
       "borderWidth: 0 → set border-width to 1px",
-      "borderColor: #e5e7eb → set border-color to #f52f32",
       "borderWidth: 0 → set border-width to 1px",
-      "borderColor: #e5e7eb → set border-color to #f52f32",
       "borderWidth: 0 → set border-width to 1px",
-      "borderColor: #e5e7eb → set border-color to #f9ac1c",
       "borderWidth: 0 → set border-width to 1px",
-      "borderColor: #e5e7eb → set border-color to #f9ac1c",
       "borderWidth: 0 → set border-width to 1px",
-      "backgroundColor: transparent → set background to #f9ac1c",
-      "borderColor: #e5e7eb → set border-color to #f9ac1c",
       "borderWidth: 0 → set border-width to 1px",
-      "backgroundColor: transparent → set background to #f9ac1c",
-      "borderColor: #e5e7eb → set border-color to #f9ac1c",
       "borderWidth: 0 → set border-width to 1px"
     ],
     "svg": [
@@ -62,6 +52,7 @@
       "*: EXTRA → expected absent"
     ]
   },
+  "approvedDeviations": [],
   "findings": [
     {
       "figmaId": "245:736",
@@ -520,11 +511,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
-      "pass": false,
-      "severity": "major",
-      "hint": "set border-color to #00d17d"
+      "impl": "#00d17d",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "681:4853",
@@ -1015,11 +1005,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#00d17d",
-      "impl": "#e5e7eb",
-      "delta": 72.22,
-      "pass": false,
-      "severity": "major",
-      "hint": "set border-color to #00d17d"
+      "impl": "#00d17d",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "917:12144",
@@ -1510,11 +1499,10 @@
       "type": "ELLIPSE",
       "prop": "borderColor",
       "figma": "#f52f32",
-      "impl": "#e5e7eb",
-      "delta": 95.49,
-      "pass": false,
-      "severity": "major",
-      "hint": "set border-color to #f52f32"
+      "impl": "#f52f32",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "681:4938",
@@ -1578,11 +1566,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#f52f32",
-      "impl": "#e5e7eb",
-      "delta": 95.49,
-      "pass": false,
-      "severity": "major",
-      "hint": "set border-color to #f52f32"
+      "impl": "#f52f32",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "681:4939",
@@ -2073,11 +2060,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#f9ac1c",
-      "impl": "#e5e7eb",
-      "delta": 81,
-      "pass": false,
-      "severity": "major",
-      "hint": "set border-color to #f9ac1c"
+      "impl": "#f9ac1c",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "681:4933",
@@ -2141,11 +2127,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#f9ac1c",
-      "impl": "#e5e7eb",
-      "delta": 81,
-      "pass": false,
-      "severity": "major",
-      "hint": "set border-color to #f9ac1c"
+      "impl": "#f9ac1c",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "681:4934",
@@ -2209,11 +2194,10 @@
       "type": "ELLIPSE",
       "prop": "backgroundColor",
       "figma": "#f9ac1c",
-      "impl": "transparent",
-      "delta": null,
-      "pass": false,
-      "severity": "major",
-      "hint": "set background to #f9ac1c"
+      "impl": "#f9ac1c",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "245:731",
@@ -2692,11 +2676,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#f9ac1c",
-      "impl": "#e5e7eb",
-      "delta": 81,
-      "pass": false,
-      "severity": "major",
-      "hint": "set border-color to #f9ac1c"
+      "impl": "#f9ac1c",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "681:4928",
@@ -2760,11 +2743,10 @@
       "type": "ELLIPSE",
       "prop": "backgroundColor",
       "figma": "#f9ac1c",
-      "impl": "transparent",
-      "delta": null,
-      "pass": false,
-      "severity": "major",
-      "hint": "set background to #f9ac1c"
+      "impl": "#f9ac1c",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "681:4930",
@@ -2816,11 +2798,10 @@
       "type": "VECTOR",
       "prop": "borderColor",
       "figma": "#f9ac1c",
-      "impl": "#e5e7eb",
-      "delta": 81,
-      "pass": false,
-      "severity": "major",
-      "hint": "set border-color to #f9ac1c"
+      "impl": "#f9ac1c",
+      "delta": 0,
+      "pass": true,
+      "severity": "pass"
     },
     {
       "figmaId": "681:4930",

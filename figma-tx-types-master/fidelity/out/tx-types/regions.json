@@ -1,0 +1,620 @@
+{
+  "frame": {
+    "id": "769:9646",
+    "name": "交易记录不同类型记录",
+    "width": 1500,
+    "height": 589
+  },
+  "offset": {
+    "x": 1,
+    "y": 1
+  },
+  "threshold": 12,
+  "flagged": 1,
+  "regions": [
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 1393.5,
+        "y": 66,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 21.1,
+      "crops": {
+        "figma": "seg_I769_10216_778_507.figma.png",
+        "impl": "seg_I769_10216_778_507.impl.png"
+      }
+    },
+    {
+      "name": "分段控件 Segmented",
+      "type": "INSTANCE",
+      "box": {
+        "x": 1130,
+        "y": 62,
+        "w": 350,
+        "h": 34
+      },
+      "figmaFill": null,
+      "mismatch": 7.4
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 112,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 6.9
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 480.5,
+        "y": 66,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 6.9
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 937,
+        "y": 66,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 6.8
+    },
+    {
+      "name": "分段控件 Segmented",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 108,
+        "w": 350,
+        "h": 34
+      },
+      "figmaFill": null,
+      "mismatch": 4.6
+    },
+    {
+      "name": "分段控件 Segmented",
+      "type": "INSTANCE",
+      "box": {
+        "x": 390,
+        "y": 62,
+        "w": 350,
+        "h": 34
+      },
+      "figmaFill": null,
+      "mismatch": 4.6
+    },
+    {
+      "name": "分段控件 Segmented",
+      "type": "INSTANCE",
+      "box": {
+        "x": 760,
+        "y": 62,
+        "w": 350,
+        "h": 34
+      },
+      "figmaFill": null,
+      "mismatch": 4.6
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 110.5,
+        "y": 112,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 3.6
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 850.5,
+        "y": 66,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 3.6
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 1220.5,
+        "y": 66,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 3.6
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 197,
+        "y": 112,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 3.5
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 567,
+        "y": 66,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 3.5
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 1307,
+        "y": 66,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 3.5
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 283.5,
+        "y": 112,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 3.1
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 653.5,
+        "y": 66,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 3.1
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 1023.5,
+        "y": 66,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 3.1
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 864,
+        "y": 262,
+        "w": 48,
+        "h": 22
+      },
+      "figmaFill": "#884dfe@0.10",
+      "mismatch": 3
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 864,
+        "y": 321,
+        "w": 48,
+        "h": 22
+      },
+      "figmaFill": "#884dfe@0.10",
+      "mismatch": 3
+    },
+    {
+      "name": "Frame",
+      "type": "FRAME",
+      "box": {
+        "x": 494,
+        "y": 209,
+        "w": 48,
+        "h": 22
+      },
+      "figmaFill": "#00d17d@0.10",
+      "mismatch": 2.6
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 394,
+        "y": 66,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 2.4
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 764,
+        "y": 66,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 2.4
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 1134,
+        "y": 66,
+        "w": 82.5,
+        "h": 26
+      },
+      "figmaFill": null,
+      "mismatch": 2.4
+    },
+    {
+      "name": "Frame 2147225261",
+      "type": "FRAME",
+      "box": {
+        "x": 20,
+        "y": 148,
+        "w": 350,
+        "h": 421
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 2
+    },
+    {
+      "name": "Frame 2147225261",
+      "type": "FRAME",
+      "box": {
+        "x": 760,
+        "y": 102,
+        "w": 350,
+        "h": 274
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.9
+    },
+    {
+      "name": "Frame 2147225262",
+      "type": "FRAME",
+      "box": {
+        "x": 390,
+        "y": 102,
+        "w": 350,
+        "h": 215
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.8
+    },
+    {
+      "name": "Frame 2147225261",
+      "type": "FRAME",
+      "box": {
+        "x": 1130,
+        "y": 102,
+        "w": 350,
+        "h": 156
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.8
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 197,
+        "y": 66,
+        "w": 169,
+        "h": 32
+      },
+      "figmaFill": null,
+      "mismatch": 0.6
+    },
+    {
+      "name": "seg",
+      "type": "FRAME",
+      "box": {
+        "x": 24,
+        "y": 66,
+        "w": 169,
+        "h": 32
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 0.5
+    },
+    {
+      "name": "Home-法币虚拟币",
+      "type": "INSTANCE",
+      "box": {
+        "x": 20,
+        "y": 62,
+        "w": 350,
+        "h": 40
+      },
+      "figmaFill": "#aaa286@0.20",
+      "mismatch": 0.4
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 361.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 0.1
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 520.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 0.1
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 402,
+        "y": 212.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#fcc719@0.15",
+      "mismatch": 0.1
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 772,
+        "y": 156.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#f52f32@0.10",
+      "mismatch": 0.1
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 772,
+        "y": 265.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#fcc719@0.15",
+      "mismatch": 0.1
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 772,
+        "y": 324.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#fcc719@0.15",
+      "mismatch": 0.1
+    },
+    {
+      "name": "Frame 2147225265",
+      "type": "FRAME",
+      "box": {
+        "x": 36,
+        "y": 164,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 202.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 255.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 308.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 414.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 32,
+        "y": 467.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "Frame 2147225265",
+      "type": "FRAME",
+      "box": {
+        "x": 406,
+        "y": 118,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 402,
+        "y": 156.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 402,
+        "y": 268.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "Frame 2147225265",
+      "type": "FRAME",
+      "box": {
+        "x": 776,
+        "y": 118,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 772,
+        "y": 209.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#884dfe@0.10",
+      "mismatch": 0
+    },
+    {
+      "name": "Frame 2147225265",
+      "type": "FRAME",
+      "box": {
+        "x": 1146,
+        "y": 118,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 1142,
+        "y": 156.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#00d17d@0.15",
+      "mismatch": 0
+    },
+    {
+      "name": "ic",
+      "type": "FRAME",
+      "box": {
+        "x": 1142,
+        "y": 209.5,
+        "w": 32,
+        "h": 32
+      },
+      "figmaFill": "#884dfe@0.10",
+      "mismatch": 0
+    }
+  ]
+}

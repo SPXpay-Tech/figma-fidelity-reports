@@ -13,18 +13,6 @@
   "flagged": 0,
   "regions": [
     {
-      "name": "State=计算中",
-      "type": "COMPONENT",
-      "box": {
-        "x": 40,
-        "y": 119,
-        "w": 350,
-        "h": 55
-      },
-      "figmaFill": "#ffffff",
-      "mismatch": 1.8
-    },
-    {
       "name": "State=未选转入",
       "type": "COMPONENT",
       "box": {
@@ -34,7 +22,19 @@
         "h": 55
       },
       "figmaFill": "#ffffff",
-      "mismatch": 1.2
+      "mismatch": 2.2
+    },
+    {
+      "name": "State=计算中",
+      "type": "COMPONENT",
+      "box": {
+        "x": 40,
+        "y": 119,
+        "w": 350,
+        "h": 55
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 1.9
     }
   ]
 }
