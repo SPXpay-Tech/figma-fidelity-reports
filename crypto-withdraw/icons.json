@@ -1,0 +1,59 @@
+{
+  "frame": {
+    "id": "1064:451",
+    "name": "📱 Account-SPX 虚拟币提现",
+    "width": 390,
+    "height": 844
+  },
+  "checked": 3,
+  "fails": 0,
+  "warns": 0,
+  "waived": 3,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "I1064:454;784:12446;159:2",
+      "box": {
+        "x": 31,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Generic 'icon' frame nodes containing single-path nav/state glyphs (back-chevron / check) — impl renders matching Feather glyphs. App-wide @expo/vector-icons policy. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    },
+    {
+      "name": "icon",
+      "figmaId": "I1064:455;790:16129",
+      "box": {
+        "x": 174,
+        "y": 154,
+        "w": 12,
+        "h": 12
+      },
+      "figmaPaths": 1,
+      "implPaths": 1,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Generic 'icon' frame nodes containing single-path nav/state glyphs (back-chevron / check) — impl renders matching Feather glyphs. App-wide @expo/vector-icons policy. (was: 1 paths present but geometry differs from Figma — eyeball the glyph.)"
+    },
+    {
+      "name": "Linear / Users / User Circle",
+      "figmaId": "I1064:462;548:6635",
+      "box": {
+        "x": 329.25,
+        "y": 779,
+        "w": 24,
+        "h": 24
+      },
+      "figmaPaths": 1,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Bottom-nav 我的 icon — same app-wide font-glyph policy. (was: Figma icon has 1 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}
