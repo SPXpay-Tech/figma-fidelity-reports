@@ -1,0 +1,1182 @@
+{
+  "source": "figma",
+  "frame": {
+    "id": "987:20450",
+    "name": "各种弹窗",
+    "width": 350,
+    "height": 252
+  },
+  "nodes": [
+    {
+      "key": "987:20450",
+      "figmaId": "987:20450",
+      "name": "各种弹窗",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 350,
+        "h": 252
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 12,
+        "boxShadow": {
+          "x": 0,
+          "y": 2,
+          "blur": 12,
+          "color": "#000000@0.01"
+        },
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 24,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 0
+    },
+    {
+      "key": "I987:20450;987:20043",
+      "figmaId": "I987:20450;987:20043",
+      "name": "Frame 2147225320",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 12,
+        "w": 326,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 24,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "I987:20450;987:20044",
+      "figmaId": "I987:20450;987:20044",
+      "name": "虚拟卡详细信息",
+      "type": "TEXT",
+      "text": "虚拟卡详细信息",
+      "box": {
+        "x": 12,
+        "y": 16,
+        "w": 98,
+        "h": 16
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "lineHeight": 16.41,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#24201a"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I987:20450;987:20045",
+      "figmaId": "I987:20450;987:20045",
+      "name": "Linear / Essentional, UI / Close Circle",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 314,
+        "y": 12,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "borderRadius": 36
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I987:20450;987:20046",
+      "figmaId": "I987:20450;987:20046",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 321.2,
+        "y": 19.2,
+        "w": 9.6,
+        "h": 9.6
+      },
+      "style": {
+        "borderColor": "#aaa286",
+        "borderWidth": 1.2000000476837158
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I987:20450;987:20062",
+      "figmaId": "I987:20450;987:20062",
+      "name": "Card Face · 卡面",
+      "type": "INSTANCE",
+      "text": null,
+      "box": {
+        "x": 12,
+        "y": 60,
+        "w": 326,
+        "h": 180
+      },
+      "style": {
+        "borderRadius": 12.975000381469727,
+        "padding": {
+          "t": 12,
+          "r": 12,
+          "b": 12,
+          "l": 12
+        },
+        "gap": 24,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 1
+    },
+    {
+      "key": "I987:20450;987:20062;987:19963",
+      "figmaId": "I987:20450;987:20062;987:19963",
+      "name": "Frame 2147225171",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 93.09,
+        "y": -51.37,
+        "w": 401.53,
+        "h": 401.54
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I987:20450;987:20062;987:19964",
+      "figmaId": "I987:20450;987:20062;987:19964",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 165.63,
+        "y": 140.83,
+        "w": 247.03,
+        "h": 175.88
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I987:20450;987:20062;987:19967",
+      "figmaId": "I987:20450;987:20062;987:19967",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 174.93,
+        "y": -17.89,
+        "w": 247.23,
+        "h": 176.31
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I987:20450;987:20062;987:19968",
+      "figmaId": "I987:20450;987:20062;987:19968",
+      "name": "Subtract",
+      "type": "BOOLEAN_OPERATION",
+      "text": null,
+      "box": {
+        "x": 150.42,
+        "y": 83.66,
+        "w": 248.7,
+        "h": 181.86
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I987:20450;987:20062;987:19969",
+      "figmaId": "I987:20450;987:20062;987:19969",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 145.87,
+        "y": 66.68,
+        "w": 253.25,
+        "h": 198.85
+      },
+      "style": {
+        "backgroundColor": "#0c0d07"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:19970",
+      "figmaId": "I987:20450;987:20062;987:19970",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 189.53,
+        "y": 36,
+        "w": 247.62,
+        "h": 177.68
+      },
+      "style": {
+        "backgroundColor": "#601cfe"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:19971",
+      "figmaId": "I987:20450;987:20062;987:19971",
+      "name": "Subtract",
+      "type": "BOOLEAN_OPERATION",
+      "text": null,
+      "box": {
+        "x": 189.96,
+        "y": 34.05,
+        "w": 248.78,
+        "h": 182.02
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I987:20450;987:20062;987:19972",
+      "figmaId": "I987:20450;987:20062;987:19972",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 189.96,
+        "y": 34.05,
+        "w": 253.4,
+        "h": 199.26
+      },
+      "style": {
+        "backgroundColor": "#fcc719"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:19973",
+      "figmaId": "I987:20450;987:20062;987:19973",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 160.94,
+        "y": 117.32,
+        "w": 246.5,
+        "h": 146.27
+      },
+      "style": {
+        "backgroundColor": "#0c0d07"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:19974",
+      "figmaId": "I987:20450;987:20062;987:19974",
+      "name": "Frame 2147225159",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 72,
+        "w": 302,
+        "h": 18.38
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 10.8125,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I987:20450;987:20062;987:19997",
+      "figmaId": "I987:20450;987:20062;987:19997",
+      "name": "Group",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 266.32,
+        "y": 72,
+        "w": 59.68,
+        "h": 18.38
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I987:20450;987:20062;987:19998",
+      "figmaId": "I987:20450;987:20062;987:19998",
+      "name": "Group",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 308.59,
+        "y": 72.33,
+        "w": 17.41,
+        "h": 17.79
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:19999",
+      "figmaId": "I987:20450;987:20062;987:19999",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 308.59,
+        "y": 72.33,
+        "w": 17.41,
+        "h": 17.79
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I987:20450;987:20062;987:20000",
+      "figmaId": "I987:20450;987:20062;987:20000",
+      "name": "Group",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 295.08,
+        "y": 72,
+        "w": 14.54,
+        "h": 18.38
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:20001",
+      "figmaId": "I987:20450;987:20062;987:20001",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 295.08,
+        "y": 72,
+        "w": 14.54,
+        "h": 18.38
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I987:20450;987:20062;987:20002",
+      "figmaId": "I987:20450;987:20062;987:20002",
+      "name": "Group",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 287.2,
+        "y": 72.31,
+        "w": 7.88,
+        "h": 17.79
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:20003",
+      "figmaId": "I987:20450;987:20062;987:20003",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 287.2,
+        "y": 72.31,
+        "w": 7.88,
+        "h": 17.79
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I987:20450;987:20062;987:20004",
+      "figmaId": "I987:20450;987:20062;987:20004",
+      "name": "Group",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 266.32,
+        "y": 72.16,
+        "w": 11.34,
+        "h": 9.31
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:20005",
+      "figmaId": "I987:20450;987:20062;987:20005",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 266.32,
+        "y": 72.16,
+        "w": 11.34,
+        "h": 9.31
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I987:20450;987:20062;987:20006",
+      "figmaId": "I987:20450;987:20062;987:20006",
+      "name": "Group",
+      "type": "GROUP",
+      "text": null,
+      "box": {
+        "x": 271.17,
+        "y": 72.33,
+        "w": 17.1,
+        "h": 17.76
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:20007",
+      "figmaId": "I987:20450;987:20062;987:20007",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 271.17,
+        "y": 72.33,
+        "w": 17.1,
+        "h": 17.76
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I987:20450;987:20062;987:20008",
+      "figmaId": "I987:20450;987:20062;987:20008",
+      "name": "Frame 2147225160",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 103.19,
+        "w": 230,
+        "h": 88
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 24,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I987:20450;987:20062;987:20009",
+      "figmaId": "I987:20450;987:20062;987:20009",
+      "name": "Frame 2147225162",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 103.19,
+        "w": 230,
+        "h": 22
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I987:20450;987:20062;987:20010",
+      "figmaId": "I987:20450;987:20062;987:20010",
+      "name": "4128 0312 8321 8250",
+      "type": "TEXT",
+      "text": "4128 0312 8321 8250",
+      "box": {
+        "x": 24,
+        "y": 104.69,
+        "w": 202,
+        "h": 19
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "lineHeight": 19.2,
+        "letterSpacing": 1.92,
+        "textAlign": "LEFT",
+        "textTransform": "none",
+        "color": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:20028",
+      "figmaId": "I987:20450;987:20062;987:20028",
+      "name": "Frame 2147225353",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 232,
+        "y": 103.19,
+        "w": 22,
+        "h": 22
+      },
+      "style": {
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 4,
+          "b": 4,
+          "l": 4
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:20020",
+      "figmaId": "I987:20450;987:20062;987:20020",
+      "name": "Linear / Essentional, UI / Copy",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 236,
+        "y": 107.19,
+        "w": 14,
+        "h": 14
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I987:20450;987:20062;987:20021",
+      "figmaId": "I987:20450;987:20062;987:20021",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 239.5,
+        "y": 110.11,
+        "w": 8.75,
+        "h": 9.92
+      },
+      "style": {
+        "borderColor": "#ffffff",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "I987:20450;987:20062;987:20022",
+      "figmaId": "I987:20450;987:20062;987:20022",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 237.75,
+        "y": 108.36,
+        "w": 8.75,
+        "h": 9.92
+      },
+      "style": {
+        "borderColor": "#ffffff",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "I987:20450;987:20062;987:20011",
+      "figmaId": "I987:20450;987:20062;987:20011",
+      "name": "Frame 2147225158",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 149.19,
+        "w": 230,
+        "h": 42
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 10.8125,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I987:20450;987:20062;987:20012",
+      "figmaId": "I987:20450;987:20062;987:20012",
+      "name": "Frame 2147225156",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 149.19,
+        "w": 67,
+        "h": 42
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:20013",
+      "figmaId": "I987:20450;987:20062;987:20013",
+      "name": "到期日",
+      "type": "TEXT",
+      "text": "到期日",
+      "box": {
+        "x": 24,
+        "y": 149.19,
+        "w": 36,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.4,
+        "letterSpacing": 0,
+        "textAlign": "RIGHT",
+        "textTransform": "none",
+        "color": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I987:20450;987:20062;987:20034",
+      "figmaId": "I987:20450;987:20062;987:20034",
+      "name": "Frame 2147225354",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 169.19,
+        "w": 67,
+        "h": 22
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I987:20450;987:20062;987:20014",
+      "figmaId": "I987:20450;987:20062;987:20014",
+      "name": "12/32",
+      "type": "TEXT",
+      "text": "12/32",
+      "box": {
+        "x": 24,
+        "y": 173.19,
+        "w": 39,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.4,
+        "letterSpacing": 1.2,
+        "textAlign": "RIGHT",
+        "textTransform": "none",
+        "color": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "I987:20450;987:20062;987:20029",
+      "figmaId": "I987:20450;987:20062;987:20029",
+      "name": "Frame 2147225353",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 69,
+        "y": 169.19,
+        "w": 22,
+        "h": 22
+      },
+      "style": {
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 4,
+          "b": 4,
+          "l": 4
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "I987:20450;987:20062;987:20030",
+      "figmaId": "I987:20450;987:20062;987:20030",
+      "name": "Linear / Essentional, UI / Copy",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 73,
+        "y": 173.19,
+        "w": 14,
+        "h": 14
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "I987:20450;987:20062;987:20031",
+      "figmaId": "I987:20450;987:20062;987:20031",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 76.5,
+        "y": 176.11,
+        "w": 8.75,
+        "h": 9.92
+      },
+      "style": {
+        "borderColor": "#ffffff",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "I987:20450;987:20062;987:20032",
+      "figmaId": "I987:20450;987:20062;987:20032",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 74.75,
+        "y": 174.36,
+        "w": 8.75,
+        "h": 9.92
+      },
+      "style": {
+        "borderColor": "#ffffff",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "I987:20450;987:20062;987:20015",
+      "figmaId": "I987:20450;987:20062;987:20015",
+      "name": "Frame 2147225157",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 201,
+        "y": 149.19,
+        "w": 53,
+        "h": 42
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "VERTICAL"
+      },
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:20016",
+      "figmaId": "I987:20450;987:20062;987:20016",
+      "name": "CVV",
+      "type": "TEXT",
+      "text": "CVV",
+      "box": {
+        "x": 201,
+        "y": 149.19,
+        "w": 25,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 14.4,
+        "letterSpacing": 0,
+        "textAlign": "RIGHT",
+        "textTransform": "none",
+        "color": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I987:20450;987:20062;987:20035",
+      "figmaId": "I987:20450;987:20062;987:20035",
+      "name": "Frame 2147225354",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 201,
+        "y": 169.19,
+        "w": 53,
+        "h": 22
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I987:20450;987:20062;987:20036",
+      "figmaId": "I987:20450;987:20062;987:20036",
+      "name": "322",
+      "type": "TEXT",
+      "text": "322",
+      "box": {
+        "x": 201,
+        "y": 173.19,
+        "w": 25,
+        "h": 14
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "lineHeight": 14.4,
+        "letterSpacing": 1.2,
+        "textAlign": "RIGHT",
+        "textTransform": "none",
+        "color": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "I987:20450;987:20062;987:20037",
+      "figmaId": "I987:20450;987:20062;987:20037",
+      "name": "Frame 2147225353",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 232,
+        "y": 169.19,
+        "w": 22,
+        "h": 22
+      },
+      "style": {
+        "borderRadius": 6,
+        "padding": {
+          "t": 4,
+          "r": 4,
+          "b": 4,
+          "l": 4
+        },
+        "gap": 6,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 6
+    },
+    {
+      "key": "I987:20450;987:20062;987:20038",
+      "figmaId": "I987:20450;987:20062;987:20038",
+      "name": "Linear / Essentional, UI / Copy",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 236,
+        "y": 173.19,
+        "w": 14,
+        "h": 14
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 7
+    },
+    {
+      "key": "I987:20450;987:20062;987:20039",
+      "figmaId": "I987:20450;987:20062;987:20039",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 239.5,
+        "y": 176.11,
+        "w": 8.75,
+        "h": 9.92
+      },
+      "style": {
+        "borderColor": "#ffffff",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "I987:20450;987:20062;987:20040",
+      "figmaId": "I987:20450;987:20062;987:20040",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 237.75,
+        "y": 174.36,
+        "w": 8.75,
+        "h": 9.92
+      },
+      "style": {
+        "borderColor": "#ffffff",
+        "borderWidth": 1
+      },
+      "parentStyle": null,
+      "depth": 8
+    },
+    {
+      "key": "I987:20450;987:20062;987:20121",
+      "figmaId": "I987:20450;987:20062;987:20121",
+      "name": "Frame 2147225355",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 24,
+        "y": 204,
+        "w": 302,
+        "h": 24
+      },
+      "style": {
+        "padding": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "gap": 11,
+        "layout": "HORIZONTAL"
+      },
+      "parentStyle": null,
+      "depth": 2
+    },
+    {
+      "key": "I987:20450;987:20062;987:20018",
+      "figmaId": "I987:20450;987:20062;987:20018",
+      "name": "Charlie lin",
+      "type": "TEXT",
+      "text": "Charlie lin",
+      "box": {
+        "x": 24,
+        "y": 210,
+        "w": 73,
+        "h": 12
+      },
+      "style": {
+        "fontFamily": "HarmonyOS Sans TC",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 12,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "textTransform": "uppercase",
+        "color": "#ffffff"
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I987:20450;987:20062;987:20112",
+      "figmaId": "I987:20450;987:20062;987:20112",
+      "name": "eye",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 302,
+        "y": 204,
+        "w": 24,
+        "h": 24
+      },
+      "style": {
+        "borderRadius": 12
+      },
+      "parentStyle": null,
+      "depth": 3
+    },
+    {
+      "key": "I987:20450;987:20062;987:20113",
+      "figmaId": "I987:20450;987:20062;987:20113",
+      "name": "icon",
+      "type": "FRAME",
+      "text": null,
+      "box": {
+        "x": 307,
+        "y": 209,
+        "w": 14,
+        "h": 14
+      },
+      "style": {},
+      "parentStyle": null,
+      "depth": 4
+    },
+    {
+      "key": "I987:20450;987:20062;987:20114",
+      "figmaId": "I987:20450;987:20062;987:20114",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 308.17,
+        "y": 211.33,
+        "w": 11.67,
+        "h": 9.33
+      },
+      "style": {
+        "borderColor": "#ffffff",
+        "borderWidth": 1.0124999284744263
+      },
+      "parentStyle": null,
+      "depth": 5
+    },
+    {
+      "key": "I987:20450;987:20062;987:20115",
+      "figmaId": "I987:20450;987:20062;987:20115",
+      "name": "Vector",
+      "type": "VECTOR",
+      "text": null,
+      "box": {
+        "x": 312.25,
+        "y": 214.25,
+        "w": 3.5,
+        "h": 3.5
+      },
+      "style": {
+        "borderColor": "#ffffff",
+        "borderWidth": 1.0124999284744263
+      },
+      "parentStyle": null,
+      "depth": 5
+    }
+  ]
+}

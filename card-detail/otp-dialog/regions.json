@@ -1,0 +1,84 @@
+{
+  "frame": {
+    "id": "987:19942",
+    "name": "各种弹窗",
+    "width": 350,
+    "height": 344
+  },
+  "offset": {
+    "x": 0,
+    "y": -0.2
+  },
+  "threshold": 12,
+  "flagged": 2,
+  "regions": [
+    {
+      "name": "btn-primary",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 292,
+        "w": 326,
+        "h": 40
+      },
+      "figmaFill": "#eabb62",
+      "mismatch": 25.7,
+      "crops": {
+        "figma": "btn_primary_I987_19942_987_19506.figma.png",
+        "impl": "btn_primary_I987_19942_987_19506.impl.png"
+      }
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 28,
+        "y": 231,
+        "w": 20,
+        "h": 20
+      },
+      "figmaFill": null,
+      "mismatch": 15.5,
+      "crops": {
+        "figma": "icon_I987_19942_987_19493_420_352.figma.png",
+        "impl": "icon_I987_19942_987_19493_420_352.impl.png"
+      }
+    },
+    {
+      "name": "warn",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 60,
+        "w": 326,
+        "h": 44
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 6
+    },
+    {
+      "name": "input",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 214,
+        "w": 326,
+        "h": 54
+      },
+      "figmaFill": "#ffffff",
+      "mismatch": 3.6
+    },
+    {
+      "name": "lv",
+      "type": "FRAME",
+      "box": {
+        "x": 12,
+        "y": 128,
+        "w": 326,
+        "h": 42
+      },
+      "figmaFill": "#eabb62@0.10",
+      "mismatch": 2.4
+    }
+  ]
+}

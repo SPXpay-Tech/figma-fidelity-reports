@@ -1,0 +1,104 @@
+{
+  "frame": {
+    "id": "987:20450",
+    "name": "各种弹窗",
+    "width": 350,
+    "height": 252
+  },
+  "offset": {
+    "x": 0,
+    "y": -0.2
+  },
+  "threshold": 12,
+  "flagged": 4,
+  "regions": [
+    {
+      "name": "Frame 2147225353",
+      "type": "FRAME",
+      "box": {
+        "x": 232,
+        "y": 103.19,
+        "w": 22,
+        "h": 22
+      },
+      "figmaFill": null,
+      "mismatch": 33,
+      "crops": {
+        "figma": "Frame_2147225353_I987_20450_987_20062_98.figma.png",
+        "impl": "Frame_2147225353_I987_20450_987_20062_98.impl.png"
+      }
+    },
+    {
+      "name": "icon",
+      "type": "FRAME",
+      "box": {
+        "x": 307,
+        "y": 209,
+        "w": 14,
+        "h": 14
+      },
+      "figmaFill": null,
+      "mismatch": 14.4,
+      "crops": {
+        "figma": "icon_I987_20450_987_20062_987_20113.figma.png",
+        "impl": "icon_I987_20450_987_20062_987_20113.impl.png"
+      }
+    },
+    {
+      "name": "Card Face · 卡面",
+      "type": "INSTANCE",
+      "box": {
+        "x": 12,
+        "y": 60,
+        "w": 326,
+        "h": 180
+      },
+      "figmaFill": null,
+      "mismatch": 12.8,
+      "crops": {
+        "figma": "Card_Face_I987_20450_987_20062.figma.png",
+        "impl": "Card_Face_I987_20450_987_20062.impl.png"
+      }
+    },
+    {
+      "name": "Frame 2147225353",
+      "type": "FRAME",
+      "box": {
+        "x": 232,
+        "y": 169.19,
+        "w": 22,
+        "h": 22
+      },
+      "figmaFill": null,
+      "mismatch": 12.1,
+      "crops": {
+        "figma": "Frame_2147225353_I987_20450_987_20062_98.figma.png",
+        "impl": "Frame_2147225353_I987_20450_987_20062_98.impl.png"
+      }
+    },
+    {
+      "name": "Frame 2147225353",
+      "type": "FRAME",
+      "box": {
+        "x": 69,
+        "y": 169.19,
+        "w": 22,
+        "h": 22
+      },
+      "figmaFill": null,
+      "mismatch": 10.9
+    },
+    {
+      "name": "eye",
+      "type": "FRAME",
+      "box": {
+        "x": 302,
+        "y": 204,
+        "w": 24,
+        "h": 24
+      },
+      "figmaFill": null,
+      "mismatch": 9.6
+    }
+  ]
+}

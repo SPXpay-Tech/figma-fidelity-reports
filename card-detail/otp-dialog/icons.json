@@ -1,0 +1,29 @@
+{
+  "frame": {
+    "id": "987:19942",
+    "name": "各种弹窗",
+    "width": 350,
+    "height": 344
+  },
+  "checked": 1,
+  "fails": 0,
+  "warns": 0,
+  "waived": 1,
+  "icons": [
+    {
+      "name": "icon",
+      "figmaId": "I987:19942;987:19493;420:352",
+      "box": {
+        "x": 28,
+        "y": 231,
+        "w": 20,
+        "h": 20
+      },
+      "figmaPaths": 2,
+      "implPaths": 0,
+      "status": "waive",
+      "severity": "info",
+      "note": "WAIVED — Inner iris sub-node of the balance eye (Figma exports the eye as outer-stroke + iris as two icon nodes). The impl renders the whole eye as one combined EyeMark SVG, so the iris is not a separate <svg>. The eye glyph itself now uses the authoritative EyeMark SVG (react-native-svg) and is gated normally. Approved 2026-05-28. (was: Figma icon has 2 vector path(s) but impl renders no <svg> here — likely a font-glyph/raster icon. Replace with a Figma SVG mark.)"
+    }
+  ]
+}
